@@ -12,7 +12,7 @@ require 'yaml'
 namespace :site do 
   
   desc "Commit the local site to the gh-pages branch and publish to GitHub Pages"
-  task :publish => [:history] do
+  task :publish do
     # Ensure the gh-pages dir exists so we can generate into it.
     puts "Checking for gh-pages dir..."
     unless File.exist?("./gh-pages")
@@ -44,29 +44,6 @@ namespace :site do
       sh "git push origin gh-pages"
     end
     puts 'Done.'
-  end
-
-  desc "Create a nicely formatted history page for the jekyll site based on 
-  		the repo history."
-  task :history do
-    if File.exist?("History.md")
-      history_file = File.read("History.md")
-      front_matter = {
-        "layout" => "docs",
-        "title" => "History",
-        "permalink" => "/docs/history/",
-        "prev_section" => "contributing"
-      }
-      Dir.chdir('site/docs/') do
-        File.open("history.md", "w") do |file|
-          file.write("#{front_matter.to_yaml}---\n\n")
-          file.write(converted_history(history_file))
-        end
-      end
-    else
-      abort "You seem to have misplaced your History.markdown file. 
-      		 I can haz?"
-    end
   end
 
 end
