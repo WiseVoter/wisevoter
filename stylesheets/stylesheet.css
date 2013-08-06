@@ -477,3 +477,11 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+.circular {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px; 
+  /* width and height can be anything, as long as they're equal */
+  background: url('/images/politicians/Rahul Gandhi.jpg') no-repeat;
+}
