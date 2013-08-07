@@ -5,7 +5,7 @@ constituency: Amethi (Uttaranchal)
 party: Indian National Congress
 sex: Male
 email:
-twitter:
+twitter: @BeWithRG
 blog:
 ---
 
