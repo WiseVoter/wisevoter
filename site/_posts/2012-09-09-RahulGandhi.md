@@ -1,8 +1,13 @@
 ---
 layout: politician
+title: Rahul Gandhi
+constituency: Amethi (Uttaranchal)
+party: Indian National Congress
+sex: Male
+email:
+twitter:
+blog:
 ---
-
-# {{page.title}}
 
 # Early Education
 Politician's education

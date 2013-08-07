@@ -10,7 +10,17 @@ require 'yaml'
 #############################################################################
 
 namespace :site do 
-  
+  desc "Commit the main portion of the site"
+  task :commit do
+    # Ensure master is up to date
+    Dir.chdir('.') do
+      sh 'git pull origin master'
+    end
+    # Commit and push
+    sh 'git push origin master'
+    puts 'Done.'
+  end
+
   desc "Commit the local site to the gh-pages branch and publish to GitHub Pages"
   task :publish do
     # Ensure the gh-pages dir exists so we can generate into it.

@@ -1,1 +1,22 @@
 permalink: /politicians/:title
+title: 'WiseVoter'
+
+# All WiseVoter specific configurations are namespaced into this hash
+#
+WV :
+  version : 0.0.1
+
+  # Setting for analytics include
+  analytics :
+    google :
+      tracking_id : 'UA-8311051-1'
+
+# links to include in top navigation
+links:
+  - title: Home
+    url: /
+  - title: Constituencies
+    url: /
+  - title: Politicians
+    url: /
+
