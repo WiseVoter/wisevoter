@@ -11,12 +11,14 @@ require 'yaml'
 
 namespace :site do 
   desc "Commit the main portion of the site"
-  task :commit do
+  task :commit, :arg1 do
     # Ensure master is up to date
     Dir.chdir('.') do
       sh 'git pull origin master'
     end
     # Commit and push
+    sh 'git add .'
+    sh 'git commit -m :arg1'
     sh 'git push origin master'
     puts 'Done.'
   end
