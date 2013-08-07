@@ -1,0 +1,12 @@
+<div class="navbar navbar-fixed-top">
+  <div class="container">
+	<a href="{{ site.url }}" class="navbar-brand">{{ site.title }}</a>
+
+    <ul class="nav navbar-nav pull-right">
+        {% for link in site.links %}
+		<li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+        {% endfor %}
+        <li><i class="icon-feed"></i> <a href="{{ site.url }}/feed.xml" title="Atom/RSS feed">Feed</a>
+    </ul>
+  </div>
+</div>

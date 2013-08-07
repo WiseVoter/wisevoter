@@ -1,0 +1,57 @@
+
+.circular {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px; 
+  /* width and height can be anything, as long as they're equal */
+  background: url('/images/politicians/Rahul Gandhi.jpg') no-repeat;
+}
+
+.politician-badge {
+  border-left: 1px solid red;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.politician-badge p {
+  margin: 0 0 0 0;
+}
+
+/* Typography from http://rafaltomal.com/3-examples-of-css-typography-to-use-for-your-blog/ */
+h1 {
+    color: #262626;
+    font-family: "Enriqueta", serif;
+    font-size: 44px;
+    line-height: 48px;
+    margin: 0 0 30px;
+}
+
+h2 {
+    color: #262626;
+    font-family: "Enriqueta", serif;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 42px;
+    margin: 0 0 24px;
+    padding: 12px 0 0;
+}
+
+h3 {
+    color: #c73036;
+    font-family: "Enriqueta", serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0 0 24px;
+    padding: 12px 0 0;
+    text-transform: uppercase;
+}
+
+/* layout element */
+footer {
+    text-align: center;
+    color: #666;
+    background: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
