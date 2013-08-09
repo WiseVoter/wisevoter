@@ -5,6 +5,7 @@ $(document).ready(function() {
 	console.log("Hidden Image: " + img);
 	if ( img != '/images/politicians/') {
 		$('.circular').css('background', "url('"+ img +"')");
+		$('.circular').css('background-size', "250px 250px");
 	}
 });
 
