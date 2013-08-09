@@ -17,10 +17,10 @@ namespace :site do
       sh 'git pull origin master'
     end
     # Commit and push
-    sh 'git add .'
+    sh "git add ."
     puts "\"#{args.msg}\""
-    sh 'git commit -m " #{args.msg} "'
-    sh 'git push origin master'
+    sh "git commit -m '#{args.msg}'"
+    sh "git push origin master"
     puts 'Done.'
   end
 
