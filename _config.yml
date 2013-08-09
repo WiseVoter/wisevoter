@@ -16,7 +16,9 @@ links:
   - title: Home
     url: /
   - title: Constituencies
-    url: /
+    url: /constituencies
   - title: Politicians
-    url: /
+    url: /parties
+  - title: Issues
+    url: /issues
 
