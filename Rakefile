@@ -19,7 +19,7 @@ namespace :site do
     # Commit and push
     sh 'git add .'
     puts "\"#{args.msg}\""
-    sh 'git commit -m \" #{args.msg} \"'
+    sh 'git commit -m " #{args.msg} "'
     sh 'git push origin master'
     puts 'Done.'
   end
