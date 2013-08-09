@@ -8,7 +8,7 @@
 sudo apt-get update -qq
 
 # install required ruby packages and curl
-sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl
+sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl pip
 
 # install rbenv
 cd
@@ -30,5 +30,7 @@ sudo gem install rdoc
 sudo gem install jkeyll
 sudo rbenv rehash
 
+#install unidecode
+sudo pip install unidecode
 
 echo "Installed Rails"

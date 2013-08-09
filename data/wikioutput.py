@@ -1,7 +1,11 @@
+# HACK-HACK : Pretty bad hacks can't believe that I'm sharing the code!
 # This script outputs the files for file writing to wikipedia
-import sys, re, os, csv, pickle
+import sys, re, os, csv, pickle, unidecode, time
+
 #Lets make a candidate class which has all the properties we need
 class Candidate:
+	header = False
+
 	def __init__(self, kwargs={}, **args):
 		self.data = {}
 		self.data.update(kwargs)
@@ -33,6 +37,10 @@ class Candidate:
 	def set(**data):
 		if not data:
 			self.data.update(data)
+
+	def slugify(self, str):
+		str = unidecode.unidecode(str).lower()
+		return re.sub(r'\W+','-', str)
 	
 	def write(self):
 		return """xxxx
@@ -79,10 +87,76 @@ Check details on [http://www.govcheck.org Govcheck] for Rajya Sabha and Lok Sabh
 {{#widget:Wikipedia|query={{PAGENAME}}}}
 yyyy\n""" % self.data
 	
+	def write_jekyll(self):
+		return """---
+layout: politician
+title: %(Candidate)s
+constituency: %(Constituency)s
+party: %(Party)s
+state: %(State)s
+education: %(Education)s
+photo: %(Photo)s
+sex: %(Sex)s
+caste: %(Caste)s
+religion: %(Religion)s
+crime-accusation-instances: %(CrimeAccusationInstances)s
+previous-office-title: %(PreviousOfficeTitle)s
+date-of-birth: %(DateOfBirth)s
+education: %(Education)s %(AlmaMater)s
+profession: %(Profession)s
+email: %(Email)s
+twitter:
+website: %(Website)s
+tags: %(Tag)s
+candidature: %(Candidature)s
+networth: %(Networth)s
+pan: %(PAN)s
+date: %(UpdateDate)s
+---
+
+## Early Education
+Details available at [Wikipedia](http://www.wikipedia.org/wiki/)
+
+## Political Career
+Details available at [Wikipedia](http://www.wikipedia.org/wiki/)
+
+## Causes 
+Check for the political parties agenda. You can list or vote on your cause at on [VoiceOfTheNation](http://www.voiceofthenation.org).
+
+## Criminal Profile
+
+### Criminal Cases
+Based on data from [NoCriminals.org](http://www.nocriminals.org)
+
+%(Sections)s
+
+## Personal Wealth
+Details of assets.
+
+## Track record in Public Office
+Check details on [Govcheck](http://www.govcheck.org) for Rajya Sabha and Lok Sabha attendance and work resume. Check details on [MumbaiVotes](http://www.mumbaivotes.org) for local or city body attendance and work resume.
+		""" % self.data
+
+
 	def commit(self):
-		f = open(".\\output\\%s.dat" % self.data["Candidate"], "w+")
-		f.write(self.write())
+		self.data['Candidate'] =  unidecode.unidecode(self.data['Candidate']).title()
+		self.data['Constituency'] = unidecode.unidecode(self.data['Constituency']).title()
+		self.data['UpdateDate'] = time.strftime("%Y-%m-%d")
+
+		filename = time.strftime("%Y-%m-%d") + "-" + self.slugify(self.data["Candidate"].strip())
+		f = open(".\\output\\%s.md" % filename, "w+")
+		f.write(self.write_jekyll())
+		# Constituency, Candidate, Sex (M/F), Age, Category, Party, TotalAssets, Liabilities, PAN, Cases(Bool), 
+		# Sections(Text), Criminal cases(Text)
+		#masterfile.write("%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n", self.data['Constituency'],self.data["Candidate"]
 		f.close();
+		with open(".\\masterdata.csv", "a") as f:
+			#headerrow = "Constituency, Candidate, Sex (M/F), Age, Category, Party, TotalAssets, Liabilities, PAN, Cases(Bool), Sections(Text), Criminal cases(Text) \n"
+			w = csv.DictWriter(f, self.data.keys())
+			if Candidate.header == False :
+				w.writeheader()
+				Candidate.header = True
+			w.writerow(self.data)
 
 
 	
@@ -131,12 +205,18 @@ def getlist(file):
 |PAN=%(PAN)s
 }}
 """
-#decision filler
+#decision filler  (TODO: Need to document the decision tree.)
 decision = {}
+
 if (os.path.exists(".\\decisions.pkl")):
 	f = open(".\\decisions.pkl","rb")
 	decision = pickle.load(f)
 	f.close()
+
+# manage the masterdata file
+if (os.path.exists(".\\masterdata.csv")):
+	os.remove(".\\masterdata.csv")
+
 for i in getlist('currentmps.csv'):
 	#|Constituency=Kanker-ST
 	#|Party=Bharatiya Janata Party
@@ -146,12 +226,12 @@ for i in getlist('currentmps.csv'):
 	#|Photo=Sohan Potai.jpg
 	i['Candidate'] = i['Candidate'].replace("\"","'")
 	d = Candidate(i, Candidature="LokSabha2009")
-	for k in os.listdir(".\\spiders\\govcheck2\\"):
-			if re.match(i['Candidate'], k , re.IGNORECASE):
+	for k in os.listdir(".\\spiders\\govcheck\\"):
+		if re.match(i['Candidate'], k , re.IGNORECASE):
 			print i['Candidate'] + ":" + i['State'] + " found in Govcheck: " + k
 			print "Original Candidate"
 			print d.write()
-			s = open(".\\spiders\\govcheck2\\%s" % k,"rb")
+			s = open(".\\spiders\\govcheck\\%s" % k,"rb")
 			line = s.readline()
 			r = re.compile(r'^\|(\w+)=(.*)')
 			attribs = {}
@@ -170,10 +250,12 @@ for i in getlist('currentmps.csv'):
 					if decision[c]["govcheck"]== "y":
 						yes = "y"
 				else:
-					yes = raw_input("Should we do this?(y/n):")
+					#yes = raw_input("Should we do this?(y/n):")
+					yes = "y" # TODO: Justify the default decision
 					decision[c]["govcheck"] = yes
 			else:
-				yes = raw_input("Should we do this?(y/n):")
+				#yes = raw_input("Should we do this?(y/n):")
+				yes = "y" # TODO: Justify the default decision
 				decision[c] = {}
 				decision[c]["govcheck"] = yes
 			if (yes == "y"):
@@ -199,10 +281,12 @@ for i in getlist('currentmps.csv'):
 					if decision[c]["nocriminal"]== "y":
 						yes = "y"
 				else:
-					yes = raw_input("Should we do this?(y/n):")
+					#yes = raw_input("Should we do this?(y/n):")
+					yes = "y" # TODO: Justify the default decision
 					decision[c]["nocriminal"] = yes
 			else:
-				yes = raw_input("Should we do this?(y/n):")
+				#yes = raw_input("Should we do this?(y/n):")
+				yes = "y" # TODO: Justify the default decision
 				decision[c] = {}
 				decision[c]["nocriminal"] = yes
 			if (yes == "y"):
@@ -232,10 +316,12 @@ for i in getlist('currentmps.csv'):
 					if decision[c]["nocriminalsuspect"]== "y":
 						yes = "y"
 				else:
-					yes = raw_input("Should we do this?(y/n):")
+					#yes = raw_input("Should we do this?(y/n):")
+					yes = "y" # TODO: Justify the default decision
 					decision[c]["nocriminalsuspect"] = yes
 			else:
-				yes = raw_input("Should we do this?(y/n):")
+				#yes = raw_input("Should we do this?(y/n):")
+				yes = "y" # TODO: Justify the default decision
 				decision[c] = {}
 				decision[c]["nocriminalsuspect"] = yes
 			if (yes == "y"):
@@ -250,8 +336,6 @@ for i in getlist('currentmps.csv'):
 				d.data["Criminal cases"] = j["Criminal cases"]
 	d.commit()
 # save the decisions file
-pkl = file.open(".\\decisions.pkl", "w")
-pickle.dump(pkl)
+pkl = open(".\\decisions.pkl", "w")
+pickle.dump(decision, pkl)
 pkl.close()
-
-
