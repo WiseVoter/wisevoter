@@ -146,8 +146,8 @@ for i in getlist('currentmps.csv'):
 	#|Photo=Sohan Potai.jpg
 	i['Candidate'] = i['Candidate'].replace("\"","'")
 	d = Candidate(i, Candidature="LokSabha2009")
-	for k in os.listdir(".//spiders//govcheck2//"):
-		if re.match(i['Candidate'], k , re.IGNORECASE):
+	for k in os.listdir(".\\spiders\\govcheck2\\"):
+			if re.match(i['Candidate'], k , re.IGNORECASE):
 			print i['Candidate'] + ":" + i['State'] + " found in Govcheck: " + k
 			print "Original Candidate"
 			print d.write()
