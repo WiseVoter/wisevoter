@@ -27,19 +27,25 @@
 
 
       <div class="col-lg-4">
+        <div class="circular-hidden">/images/politicians/{{page.photo}}</div>
         <div class="circular"></div>
 
         <div class="politician-badge">
+          <p> Education: {{page.education}} </p>
+          <p> Criminal Cases: {{page.crime-accusation-instances}} </p>
           <p> Constituency: {{page.constituency}} </p>
+          <p> State: {{page.state}} </p>
           <p> Party: {{page.party}} </p>
           <p> Sex: {{page.sex}} </p>
           <p> Email: {{page.email}} </p>
           <p> Twitter: {{page.twitter}}</p>
-          <p> Blog: {{page.blog}}</p>
+          <p> Website: {{page.website}}</p>
+          <p> Networth: Rs. {{page.networth}} </p>
         </div>
 
       </div>
       
+      <br/><br/>
       {% include comments.html %}
       </div>
     </div>

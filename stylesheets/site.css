@@ -1,10 +1,14 @@
 
+.circular-hidden {
+  display: none;
+}
+
 .circular {
   border-radius: 50%;
   width: 250px;
   height: 250px; 
   /* width and height can be anything, as long as they're equal */
-  background: url('/images/politicians/Rahul Gandhi.jpg') no-repeat;
+  background: url('http://placehold.it/300x300') no-repeat;
 }
 
 .politician-badge {
@@ -54,4 +58,23 @@ footer {
     background: #222;
     padding: 17px 0 18px 0;
     border-top: 1px solid #000;
+}
+
+/* Side bar typography */
+a.button {
+  width: 250px;
+  height: 80px;
+  padding-left: 64px;
+  display: block;
+  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 23px;
+  color: #fff;
+  padding-top: 25px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+}
+a.button small {
+  display: block;
+  font-size: 11px;
 }
