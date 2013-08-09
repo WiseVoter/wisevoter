@@ -8,7 +8,8 @@
   width: 250px;
   height: 250px; 
   /* width and height can be anything, as long as they're equal */
-  background: url('http://placehold.it/300x300') no-repeat;
+  background: url('http://placehold.it/250x250') no-repeat;
+  background-size: 250px 250px;
 }
 
 .politician-badge {
