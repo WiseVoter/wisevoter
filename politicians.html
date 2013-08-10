@@ -1,0 +1,12 @@
+---
+layout: default
+title: Politicians
+---
+
+<h2> List of {{site.posts.count}} Politicians on here </h2>
+
+<ul>
+{% for post in site.posts do %}
+	<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>
