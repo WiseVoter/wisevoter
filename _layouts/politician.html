@@ -30,18 +30,19 @@
         <div class="circular-hidden">/images/politicians/{{page.photo}}</div>
         <div class="circular"></div>
 
-        <div class="politician-badge">
-          <p> Education: {{page.education}} </p>
-          <p> Criminal Cases: {{page.crime-accusation-instances}} </p>
-          <p> Constituency: {{page.constituency}} </p>
-          <p> State: {{page.state}} </p>
-          <p> Party: {{page.party}} </p>
-          <p> Sex: {{page.sex}} </p>
-          <p> Email: {{page.email}} </p>
-          <p> Twitter: {{page.twitter}}</p>
-          <p> Website: {{page.website}}</p>
-          <p> Networth: Rs. {{page.networth}} </p>
-        </div>
+        <table class="profile table-condensed">
+          <tr><th>Profile for</th><th>{{page.title}}</th></tr>
+          <tr><td>Education</td><td>{{page.education}}</td></tr>
+          <tr><td>Criminal Cases</td><td>{{page.crime-accusation-instances}}</td></tr>
+          <tr><td>Constituency</td><td>{{page.constituency}}</td></tr>
+          <tr><td>State</td><td>{{page.state}}</td></tr>
+          <tr><td>Party</td><td>{{page.party}}</td></tr>
+          <tr><td>Sex</td><td>{{page.sex}}</td></tr>
+          <tr><td>Email</td><td>{{page.email}}</td></tr>
+          <tr><td>Twitter</td><td>{{page.twitter}}</td></tr>
+          <tr><td>Website</td><td>{{page.website}}</td></tr>
+          <tr><td>Networth</td><td>Rs. {{page.networth}}</td></tr>
+        </table>
 
       </div>
       
