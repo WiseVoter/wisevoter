@@ -10,19 +10,6 @@ require 'yaml'
 #############################################################################
 
 namespace :site do 
-  desc "Commit the main portion of the site"
-  task :commit, [:msg] do |t, args|
-    # Ensure master is up to date
-    Dir.chdir('.') do
-      sh 'git pull origin master'
-    end
-    # Commit and push
-    sh "git add ."
-    sh "git commit -m '#{args.msg}'"
-    sh "git push origin master"
-    puts 'Done.'
-  end
-
   desc "Commit the local site to the gh-pages branch and publish to GitHub Pages"
   task :publish do
     # Ensure the gh-pages dir exists so we can generate into it.
@@ -57,5 +44,49 @@ namespace :site do
     end
     puts 'Done.'
   end
+end
 
+#############################################################################
+#
+# Data tasks - http://www.wisevoter.org
+#
+#############################################################################
+
+namespace :data do
+  desc "generate masterfile and .md profile pages from govcheck, nocriminals and mpslist"
+  task :refresh do
+    puts "Running the data script with python"
+    Dir.chdir('data') do
+      sh "python wikioutput.py"
+    end
+  end
+
+end
+
+#############################################################################
+#
+# Dev tasks - http://www.wisevoter.org
+#
+#############################################################################
+namespace :dev do
+  desc "Commit the main portion of the site"
+  task :commit, [:msg] do |t, args|
+    # Ensure master is up to date
+    Dir.chdir('.') do
+      sh 'git pull origin master'
+    end
+    # Commit and push
+    sh "git add ."
+    sh "git commit -m '#{args.msg}'"
+    sh "git push origin master"
+    puts 'Done.'
+  end
+
+  desc "run jekyll"
+  task :run do
+    puts "Running the data script with python"
+    Dir.chdir('site') do
+      sh "jekyll server -P 3000 -w"
+    end
+  end
 end

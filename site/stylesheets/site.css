@@ -12,16 +12,6 @@
   background-size: 250px 250px;
 }
 
-.politician-badge {
-  border-left: 1px solid red;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-.politician-badge p {
-  margin: 0 0 0 0;
-}
-
 /* Typography from http://rafaltomal.com/3-examples-of-css-typography-to-use-for-your-blog/ */
 h1 {
     color: #262626;
@@ -79,3 +69,23 @@ a.button small {
   display: block;
   font-size: 11px;
 }
+
+/* sidebar profile table */
+table.profile {
+    overflow:hidden;
+    border:1px solid #d3d3d3;
+    background:#fefefe;
+    margin:5% auto 0;
+}
+
+table.profile th, td {padding:9px 9px 9px; text-align:left; }
+  
+table.profile th {padding-top:11px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+  
+table.profile td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+ 
+table.profile tr.odd-row td {background:#f6f6f6;}
+  
+table.profile td.first, th.first {text-align:left}
+  
+table.profile td.last {border-right:none;}
