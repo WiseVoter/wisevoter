@@ -73,8 +73,8 @@ a.button small {
 /* sidebar profile table */
 table.profile {
     overflow:hidden;
-    border:1px solid #275da1;
-    background:#2e7bcf;
+    border:1px solid #d3d3d3;
+    background:#fefefe;
     margin:5% 5px 0;
     -moz-border-radius:5px; /* FF1+ */
     -webkit-border-radius:5px; /* Saf3-4 */

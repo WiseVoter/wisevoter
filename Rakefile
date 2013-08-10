@@ -38,6 +38,7 @@ namespace :site do
     puts "Committing and pushing to GitHub Pages..."
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir('gh-pages') do
+      sh "rm -R _site/" if File.exist?("./_site")
       sh "git add ."
       sh "git commit -m 'Updating to #{sha}.'"
       sh "git push origin gh-pages"
@@ -84,7 +85,7 @@ namespace :dev do
 
   desc "run jekyll"
   task :run do
-    puts "Running the data script with python"
+    puts "Running the jekyll script"
     Dir.chdir('site') do
       sh "jekyll server -P 3000 -w"
     end
