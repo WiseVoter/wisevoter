@@ -3,10 +3,10 @@ layout: default
 title: Politicians
 ---
 
-<h2> List of {{site.posts.count}} Politicians on here </h2>
+<h2> List of {{site.categories.politicians.count}} Politicians on here </h2>
 
 <ul>
-{% for post in site.posts do %}
+{% for post in site.categories.politicians do %}
 	<li><a href="{{post.url}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
