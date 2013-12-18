@@ -13,62 +13,6 @@
 }
 
 /* Typography from http://rafaltomal.com/3-examples-of-css-typography-to-use-for-your-blog/ */
-h1 {
-    color: #262626;
-    font-family: "Enriqueta", serif;
-    font-size: 44px;
-    line-height: 48px;
-    margin: 0 0 30px;
-}
-
-h2 {
-    color: #262626;
-    font-family: "Enriqueta", serif;
-    font-size: 32px;
-    font-weight: normal;
-    line-height: 42px;
-    margin: 0 0 24px;
-    padding: 12px 0 0;
-}
-
-h3 {
-    color: #c73036;
-    font-family: "Enriqueta", serif;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 24px;
-    margin: 0 0 24px;
-    padding: 12px 0 0;
-    text-transform: uppercase;
-}
-
-/* layout element */
-footer {
-    text-align: center;
-    color: #666;
-    background: #222;
-    padding: 17px 0 18px 0;
-    border-top: 1px solid #000;
-}
-
-/* Side bar typography */
-a.button {
-  width: 250px;
-  height: 80px;
-  padding-left: 64px;
-  display: block;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
-  margin-bottom: 20px;
-  line-height: 1.2;
-  font-size: 23px;
-  color: #fff;
-  padding-top: 25px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-}
-a.button small {
-  display: block;
-  font-size: 11px;
-}
 
 /* sidebar profile table */
 table.profile {

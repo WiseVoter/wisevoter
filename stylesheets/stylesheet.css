@@ -129,8 +129,8 @@ aside#sidebar p.repo-owner a {
 }
 
 a.button {
-  width: 134px;
-  height: 58px;
+  width: 238px;
+  height: 80px;
   line-height: 1.2;
   font-size: 23px;
   color: #fff;
@@ -149,7 +149,7 @@ header a.button {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 aside a.button {
-  width: 138px;
+  width: 238px;
   padding-left: 64px;
   display: block;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
@@ -341,23 +341,29 @@ dl dd {
 }
 
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  color: #fff;
+  background: #666;
+  border-top: 1px solid #000;
+ /* background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  border-top: solid 1px #275da1; */
+  text-align: center;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 13px;
-  color: #aaa;
+  /* color: #aaa; */
 }
 
 footer a {
-  color: #666;
+  color: #fff;
 }
 footer a:hover {
   color: #444;
 }
 
 /* MISC */
-.clearfix:after {
+.clearfix-style:after {
   clear: both;
   content: '.';
   display: block;
@@ -365,9 +371,9 @@ footer a:hover {
   height: 0;
 }
 
-.clearfix {display: inline-block;}
+.clearfix-style {display: inline-block;}
 * html .clearfix {height: 1%;}
-.clearfix {display: block;}
+.clearfix-style {display: block;}
 
 /* #Media Queries
 ================================================== */
