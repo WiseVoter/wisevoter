@@ -39,7 +39,7 @@ namespace :site do
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir('gh-pages') do
       sh "rm -R _site/" if File.exist?("./_site")
-      sh "git add ."
+      sh "git add -A ."
       sh "git commit -m 'Updating to #{sha}.'"
       sh "git push origin gh-pages"
     end
@@ -77,7 +77,7 @@ namespace :dev do
       sh 'git pull origin master'
     end
     # Commit and push
-    sh "git add ."
+    sh "git add -A ."
     sh "git commit -m '#{args.msg}'"
     sh "git push origin master"
     puts 'Done.'
