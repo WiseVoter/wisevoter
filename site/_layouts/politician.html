@@ -2,7 +2,7 @@
 <html>
   <head>
     <title> {{page.title}} </title>
-    {% include head-bootstrap.html %}
+    {% include head.html %}
   </head>
 
   <body>
@@ -21,15 +21,18 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
-          {{ content }}
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7">
+          <div id="main-content">
+            {{ content }}
+          </div>
+          <br/><br/>
+          {% include comments.html %}
         </div>  
 
-
-      <div class="col-lg-4">
+       <aside class="col-lg-3">
         <div class="circular-hidden">/images/politicians/{{page.photo}}</div>
         <div class="circular"></div>
-
         <table class="profile">
           <tr><th>Profile for</th><th>{{page.title}}</th></tr>
           <tr><td>Education</td><td>{{page.education}}</td></tr>
@@ -43,11 +46,8 @@
           <tr><td>Website</td><td>{{page.website}}</td></tr>
           <tr><td>Networth</td><td>Rs. {{page.networth}}</td></tr>
         </table>
-
-      </div>
-      
-      <br/><br/>
-      {% include comments.html %}
+       </aside>
+       <div class="col-lg-1"></div>     
       </div>
     </div>
 

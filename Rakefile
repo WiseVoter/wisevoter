@@ -41,11 +41,11 @@ namespace :site do
     Dir.chdir('gh-pages') do
       status = `git status`
       if status == "nothing to commit (working directory clean)"
+        puts "nothing to commit"
+      else
         sh "git add -A ."
         sh "git commit -m 'Updating to #{sha}.'"
-        sh "git push origin gh-pages"
-      else
-        puts "nothing to commit"
+        sh "git push origin gh-pages" 
       end
     end
     puts 'Done!'

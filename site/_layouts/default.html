@@ -20,13 +20,14 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-8">
+        <div id="main-content" class="col-lg-8">
           {{ content }}
+          
+          <br/><br/>
+          {% include comments.html %}
         </div>  
-
-
-      <div class="col-lg-4">
-
+        
+        <div class="col-lg-4">
         <div>
           <a href="/politicians.html" class="button">
             <small>Review</small>
@@ -37,25 +38,16 @@
             <small>Visualize</small>
             fusion tables
           </a>
-
           <a href="https://github.com/vaibhavb/wisevoter/" class="button">
             <small>Participate</small>
             On GitHub
-          </a>
-          
+          </a>          
         </div>
-
-      </div>
-      
-      <br/><br/>
-      {% include comments.html %}
+        </div>
       </div>
     </div>
 
     {% include footer.html %}
-
-
-
   {% include analytics-google.html %}
   </body>
 </html>
