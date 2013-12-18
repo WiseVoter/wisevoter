@@ -16,22 +16,16 @@ namespace :site do
     puts "Checking for gh-pages dir..."
     unless File.exist?("./gh-pages")
       puts "No gh-pages directory found. Run the following commands first:"
-      puts "  `git clone git@github.com:mojombo/jekyll gh-pages"
+      puts "  `git clone git@github.com:vaibhavb/wisevoter gh-pages"
       puts "  `cd gh-pages"
       puts "  `git checkout gh-pages`"
       exit(1)
     end
 
-    # Ensure gh-pages branch is up to date.
-    Dir.chdir('gh-pages') do
-      sh "git pull origin gh-pages"
-    end
-
     # Copy to gh-pages dir.
     puts "Copying site to gh-pages branch..."
-    Dir.glob("site/*") do |path|
-      next if path == "_site"
-      sh "cp -R #{path} gh-pages/"
+    Dir.glob("site/_site/*") do |path|
+      sh "rsync -a #{path} gh-pages/"
     end
 
     # Commit and push.
