@@ -1,7 +1,7 @@
 require 'rake'
 require 'date'
 require 'yaml'
-
+require 'jekyll'
 
 #############################################################################
 #
@@ -22,6 +22,13 @@ namespace :site do
       exit(1)
     end
 
+    # Generate the site
+    puts "Generating the site..."
+    Jekyll::Site.new(Jekyll.configuration({
+        "source"      => "./site",
+        "destination" => "./site/_site"
+    })).process
+
     # Copy to gh-pages dir.
     puts "Copying site to gh-pages branch..."
     Dir.glob("site/_site/*") do |path|
@@ -32,12 +39,16 @@ namespace :site do
     puts "Committing and pushing to GitHub Pages..."
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
     Dir.chdir('gh-pages') do
-      sh "rm -R _site/" if File.exist?("./_site")
-      sh "git add -A ."
-      sh "git commit -m 'Updating to #{sha}.'"
-      sh "git push origin gh-pages"
+      status = `git status`
+      if status == "nothing to commit (working directory clean)"
+        sh "git add -A ."
+        sh "git commit -m 'Updating to #{sha}.'"
+        sh "git push origin gh-pages"
+      else
+        puts "nothing to commit"
+      end
     end
-    puts 'Done.'
+    puts 'Done!'
   end
 end
 
