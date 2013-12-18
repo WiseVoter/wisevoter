@@ -8,12 +8,11 @@
   <body>
 
 
-    <div class="container">
+    <div class="container-fluid">
       {% include navigation.html %}
     </div>
 
     <div class="container">
-      <br/>
       <div class="page-header">
         <h1> {{page.title}} <small>{{page.constituency}}</small> </h1>
       </div>
@@ -43,7 +42,7 @@
           <tr><td>Sex</td><td>{{page.sex}}</td></tr>
           <tr><td>Email</td><td>{{page.email}}</td></tr>
           <tr><td>Twitter</td><td>{{page.twitter}}</td></tr>
-          <tr><td>Website</td><td>{{page.website}}</td></tr>
+          <tr><td>Website</td><td><a href={{page.website}}>Link</a></td></tr>
           <tr><td>Networth</td><td>Rs. {{page.networth}}</td></tr>
         </table>
        </aside>

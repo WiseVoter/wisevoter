@@ -38,3 +38,62 @@ table.profile tr.odd-row td {background:#f6f6f6;}
 table.profile td.first, th.first {text-align:left}
   
 table.profile td.last {border-right:none;}
+
+
+.page-header {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  border-bottom: solid 1px grey;
+  margin: 0 0 15px 0;
+}
+
+.page-header h1 {
+  letter-spacing: -1px;
+  font-size: 32px;
+  color: #275da1;
+  line-height: 1;
+  width: 540px;
+}
+
+.site-title header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  border-bottom: solid 1px #275da1;
+}
+
+.site-title header h1 {
+  display: inline;
+  letter-spacing: -1px;
+  font-size: 36px;
+  color: #fff;
+  line-height: 1.5;
+  width: 540px;
+}
+
+nav {
+  display: inline;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
