@@ -2,33 +2,61 @@
 <html>
   <head>
     <title>Politicians</title>
-    Included file 'head-bootstrap.html' not found in _includes directory
+    <meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<!-- site specific css -->
+<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+<script src="/javascripts/main.js"></script>
+
   </head>
 
   <body>
 
-    <div class="container">
-      <div class="navbar navbar-fixed-top">
-  <div class="container">
-	<a href="" class="navbar-brand">WiseVoter</a>
-
-    <ul class="nav navbar-nav pull-right">
-        
-		<li><a href="/" >Home</a></li>
-        
-		<li><a href="/constituencies.html" >Constituencies</a></li>
-        
-		<li><a href="/politicians.html" >Politicians</a></li>
-        
-		<li><a href="/parties.html" >Parties</a></li>
-        
-		<li><a href="/issues.html" >Issues</a></li>
-        
-    	<li>
-    	<a href='https://prose.io'>Edit</a></li>
-    </ul>
-    
-  </div>
+    <div class="container-fluid">
+      <div class="site-title">
+	<header>
+	  <div class="container">
+	  	<h1 class="title">WiseVoter</h1>
+	  	<nav>
+		    <ul class="nav navbar-nav pull-right">
+		        
+				<li><a href="/" >Home</a></li>
+		        
+				<li><a href="/constituencies.html" >Constituencies</a></li>
+		        
+				<li><a href="/politicians.html" >Politicians</a></li>
+		        
+				<li><a href="/parties.html" >Parties</a></li>
+		        
+				<li><a href="/issues.html" >Issues</a></li>
+		        
+		    	<li>
+		    	<a href='https://prose.io'>Edit</a></li>
+		    </ul>
+	    <nav>
+	  </div>
+	</header>
 </div>
     </div>
 
@@ -41,8 +69,10 @@
 
     <div class="container">
       <div class="row">
-        <div id="main-content" class="col-lg-8">
-          <h2> List of  Politicians on here </h2>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7">
+          <div id="main-content">
+            <h2> List of  Politicians on here </h2>
 
 <ul>
 
@@ -1149,7 +1179,7 @@
 	<li><a href="/politicians/a-harinath-reddy">A. Harinath Reddy</a></li>
 
 </ul>
-          
+          </div>
           <br/><br/>
           <div id="disqus_thread"></div>
 <script type="text/javascript">
@@ -1168,23 +1198,24 @@
 </a>
         </div>  
         
-        <div class="col-lg-4">
-        <div>
-          <a href="/politicians.html" class="button">
-            <small>Review</small>
-            Politicians
-          </a>
-          
-          <a href="https://bit.ly/wv-tables" class="button">
-            <small>Visualize</small>
-            fusion tables
-          </a>
-          <a href="https://github.com/vaibhavb/wisevoter/" class="button">
-            <small>Participate</small>
-            On GitHub
-          </a>          
+        <div class="col-lg-3">
+         <aside id="sidebar">
+            <a href="/politicians.html" class="button">
+              <small>Review</small>
+              Politicians
+            </a>
+            
+            <a href="https://bit.ly/wv-tables" class="button">
+              <small>Visualize</small>
+              fusion tables
+            </a>
+            <a href="https://github.com/vaibhavb/wisevoter/" class="button">
+              <small>Participate</small>
+              On GitHub
+            </a>          
+          </aside>
         </div>
-        </div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
 
