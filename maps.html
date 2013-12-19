@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+path {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+path:hover {
+  fill: red;
+}
+
+.party.BJP {fill: #ddc;}
+.party.INC {fill: #dcd;}
+
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script>
+var width = 500,
+    height = 500;
+
+var projection = d3.geo.mercator()
+    .center([100, 23]).scale(800);
+
+var path = d3.geo.path()
+	 .projection(projection);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+d3.json("/javascripts/ac-tj-party.json", function(error, topology) {
+  svg.selectAll("path")
+      .data(topojson.feature(topology, topology.objects.ac)
+      	.features)
+    .enter()
+      .append("path")
+      .attr("d", path)
+      .attr("class", function (d) {
+      	return "party " + d.properties.PARTY
+      });
+
+});
+
+</script>
+</body>
+</html>
