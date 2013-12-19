@@ -35,4 +35,8 @@ sudo rbenv rehash
 #install unidecode
 sudo pip install unidecode
 
+# gis
+sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
+sudo apt-get install gdal-bin --assume-yes
+
 echo "Installed Rails"
