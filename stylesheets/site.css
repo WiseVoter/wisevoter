@@ -45,7 +45,7 @@ table.profile td.last {border-right:none;}
   padding-bottom: 5px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   border-bottom: solid 1px grey;
-  margin: 0 0 15px 0;
+  margin: -25px 0 25px 50px;
 }
 
 .page-header h1 {
@@ -100,4 +100,27 @@ nav a:hover {
 
 #disqus_thread {
   margin: 20px 40px 10px 0px;
+}
+
+ul.post-list  li {
+  list-style-type: none;
+}
+.post-list li > a {
+  border-bottom-width: 0;
+}
+.post-list {
+  margin: 0;
+  padding: 0;
+}
+.post-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.post-list a > span {
+  float: right;
+}
+.post-list .entry-date {
+  text-transform: uppercase;
+  font-size: 10px;
 }
