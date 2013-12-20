@@ -90,9 +90,47 @@ namespace :dev do
 
   desc "run jekyll"
   task :run do
+    #TODO: Figure out a way to reduce site regeneration time
     puts "Running the jekyll script"
     Dir.chdir('site') do
       sh "jekyll server -P 3000 -w"
     end
+  end
+end
+
+
+#############################################################################
+#
+# Dev tasks - http://www.wisevoter.org
+#
+#############################################################################
+ # adapted from https://github.com/imathis/octopress/blob/master/Rakefile   
+  # usage rake author:new_post['My New Post'] or rake author:new_post (defaults to "My New Post")
+namespace :author do
+  desc "Start a new post"
+  task :new_post, :title do |t, args|
+   args.with_defaults(:title => 'My New Post')
+   title = args.title
+   filename = "site/articles/_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
+   puts "Creating new post: #{filename}"
+   open(filename, 'w') do |post|
+     post.puts "---"
+     post.puts "layout: article"
+     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+     post.puts "description: """
+     post.puts "headline: """
+     post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
+     post.puts "category: articles"
+     post.puts "tags: []"
+     post.puts "image: "
+     post.puts "  feature: "
+     post.puts "  location: "
+     post.puts "  locationlink: "
+     post.puts "  credit: "
+     post.puts "  creditlink: "
+     post.puts "comments: true"
+     post.puts "readtime: 5"
+     post.puts "---"
+   end
   end
 end
