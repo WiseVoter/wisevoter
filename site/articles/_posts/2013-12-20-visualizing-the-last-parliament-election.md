@@ -1,6 +1,7 @@
 ---
 layout: article
 title: "Visualizing The Last Parliament Election"
+author: Vaibhav Bhandari
 description: 
 headline: 
 modified: 2013-12-20
