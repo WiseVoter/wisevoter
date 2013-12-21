@@ -3,6 +3,13 @@ require 'date'
 require 'yaml'
 require 'jekyll'
 
+
+############################################################################
+# site variables
+############################################################################
+source_dir = "site"
+stash_dir_name = "_stash"
+
 #############################################################################
 #
 # Site tasks - http://www.wisevoter.org
@@ -111,7 +118,7 @@ namespace :author do
   task :new_post, :title do |t, args|
    args.with_defaults(:title => 'My New Post')
    title = args.title
-   filename = "site/articles/_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
+   filename = "#{source_dir}/articles/_posts/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.md"
    puts "Creating new post: #{filename}"
    open(filename, 'w') do |post|
      post.puts "---"
@@ -132,5 +139,28 @@ namespace :author do
      post.puts "readtime: 5"
      post.puts "---"
    end
+  end
+
+  # usage rake isolate[my-post]
+  desc "Move all other posts than the one currently being worked on to a temporary stash location (stash) so regenerating the site happens much more quickly."
+  task :isolate, :filename do |t, args|
+    args.with_defaults(:filename => ' ')
+    stash_dir = "#{source_dir}/#{stash_dir_name}"
+    FileUtils.mkdir(stash_dir) unless File.exist?(stash_dir)
+    Dir.glob("#{source_dir}/articles/_posts/*") do |post|
+      puts post
+      FileUtils.mv post, "#{stash_dir}/articles/_posts/" unless post.include?(args.filename)
+    end
+    Dir.glob("#{source_dir}/politicians/_posts/*") do |post|
+      puts post
+      FileUtils.mv post, "#{stash_dir}/politicians/_posts/" unless post.include?(args.filename)
+    end
+  end
+
+  desc "Move all stashed posts back into the posts directory, ready for site generation."
+  task :integrate do
+    stash_dir = "#{source_dir}/#{stash_dir_name}"
+    FileUtils.mv Dir.glob("#{stash_dir}/articles/_posts/*.*"), "#{source_dir}/articles/_posts/"
+    FileUtils.mv Dir.glob("#{stash_dir}/politicians/_posts/*.*"), "#{source_dir}/politicians/_posts/"
   end
 end

@@ -6,7 +6,7 @@ title: Articles
 
 <ul class="post-list">
 {% for post in site.categories.articles do %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}"><i class="fa fa-pencil"></i> {{ post.title }} <span class="entry-date">Posted in {{ post.categories | join: ', ' | capitalize }}&nbsp;&bull;&nbsp;<i class="fa fa-clock-o"></i> {{ post.readtime }}  minutes read</span></a></article></li>
+  <li><article><a href="{{ site.url }}{{ post.url }}"><i class="fa fa-pencil"></i> {{ post.title }} <span class="entry-date">Posted in {{ post.categories | join: ', ' | capitalize }}&nbsp;&bull;&nbsp;<i class="fa fa-clock-o"></i> {{ post.readtime }}  minutes read&nbsp;&bull;&nbsp;by {{post.author}}</span></a></article></li>
   <p>{{ post.content | strip_html | truncatewords:40 }}&nbsp;<a href="{{ post.url }}"> Read more...</a></p>
 {% endfor %}
 <br>
