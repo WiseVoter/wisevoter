@@ -6,7 +6,8 @@ The current version of the project targets 2014 Indian General elections.
 
 Getting Started
 ---------------
-If you are a journalist, data contributor, editor or developer -- its easy to contribute, just fork the github repository and add or update your changes to the content and submit a patch back. Following is the content structure
+If you are a journalist, data contributor, editor or developer -- its easy to contribute, just fork the github repository and add or update your changes to the content and submit a patch back. Following is the content structure - 
+
 1. All Articles, are in the directory site/articles/_posts
 2. All Politician profiles are in the directory site/politicians/_posts
 3. Top level pages are in the directory site/
