@@ -11,6 +11,7 @@ If you are a journalist, data contributor, editor or developer -- its easy to co
 1. All Articles, are in the directory site/articles/_posts
 2. All Politician profiles are in the directory site/politicians/_posts
 3. Top level pages are in the directory site/
+
 The content is in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format and its relatively easy to edit in browser on github. 
 
 The site is generated using [Jekyll](http://jekyllrb.com/).
