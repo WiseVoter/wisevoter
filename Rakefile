@@ -145,22 +145,33 @@ namespace :author do
   desc "Move all other posts than the one currently being worked on to a temporary stash location (stash) so regenerating the site happens much more quickly."
   task :isolate, :filename do |t, args|
     args.with_defaults(:filename => ' ')
-    stash_dir = "#{source_dir}/#{stash_dir_name}"
-    FileUtils.mkdir(stash_dir) unless File.exist?(stash_dir)
-    Dir.glob("#{source_dir}/articles/_posts/*") do |post|
-      puts post
-      FileUtils.mv post, "#{stash_dir}/articles/_posts/" unless post.include?(args.filename)
-    end
-    Dir.glob("#{source_dir}/politicians/_posts/*") do |post|
-      puts post
-      FileUtils.mv post, "#{stash_dir}/politicians/_posts/" unless post.include?(args.filename)
+    content_dirs = ["articles/_posts", "politicians/_posts", "parties/_posts", "constituencies/_posts"]
+    content_dirs.each do |content_dir|
+      stash_content_dir = "#{source_dir}/#{stash_dir_name}/#{content_dir}"
+      source_content_dir = "#{source_dir}/#{content_dir}"
+      puts "stash_dir: #{stash_content_dir}"
+      puts "content_dir: #{source_content_dir}"
+      FileUtils.mkdir(stash_content_dir) unless File.exist?(stash_content_dir)
+      Dir.glob("#{source_content_dir}/*") { |file|  
+        puts file
+        #FileUtils.mv file, "#{stash_content_dir}/" unless file.include?(args.filename)
+      }
     end
   end
 
   desc "Move all stashed posts back into the posts directory, ready for site generation."
   task :integrate do
-    stash_dir = "#{source_dir}/#{stash_dir_name}"
-    FileUtils.mv Dir.glob("#{stash_dir}/articles/_posts/*.*"), "#{source_dir}/articles/_posts/"
-    FileUtils.mv Dir.glob("#{stash_dir}/politicians/_posts/*.*"), "#{source_dir}/politicians/_posts/"
+    #stash_dir = "#{source_dir}/#{stash_dir_name}"
+    #FileUtils.mv Dir.glob("#{stash_dir}/articles/_posts/*.*"), "#{source_dir}/articles/_posts/"
+    #FileUtils.mv Dir.glob("#{stash_dir}/politicians/_posts/*.*"), "#{source_dir}/politicians/_posts/"
+    content_dirs = ["articles/_posts", "politicians/_posts", "parties/_posts", "constituencies/_posts"]
+    content_dirs.each do |content_dir|
+      stash_content_dir = "#{source_dir}/#{stash_dir_name}/#{content_dir}"
+      source_content_dir = "#{source_dir}/#{content_dir}"
+      puts "stash_dir: #{stash_content_dir}"
+      puts "content_dir: #{source_content_dir}"
+      #FileUtils.mv Dir.glob("#{stash_content_dir}/*"), "#{source_content_dir}/"
+    end
   end
+
 end
