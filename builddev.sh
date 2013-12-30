@@ -4,6 +4,7 @@
 # http://railscasts.com/episodes/292-virtual-machines-with-vagrant?view=asciicast
 #
 
+# TODO: We want to exit the shell provisioner if everything up to date, make this code re-entrant
 # update sources
 sudo apt-get update -qq
 
@@ -11,6 +12,7 @@ sudo apt-get update -qq
 sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl python-pip --assume-yes
 
 # install rbenv
+# TODO : echo doesn't work in vagrant shell provisioner need to fix that
 echo "Home is $HOME"
 cd $HOME
 git clone git://github.com/sstephenson/rbenv.git .rbenv
