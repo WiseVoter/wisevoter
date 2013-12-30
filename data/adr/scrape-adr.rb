@@ -55,13 +55,14 @@ Now on to implementation of wikipedia linker
 		** Search wikipedia for {constituency_name} + lok_sabha_constituency 
 			and pick the first result. Note: google doesn't let you search and 
 			the bing results are low on relevancy.
+		** For each wikipedia constituency page fetch the infobox and image if available.
 
 	* For politicians -
 		** Search wikipedia + {politican_name} + {constituency_name} + lok sabha
 			- Search the infobox information[1]:
 				$x("//table[contains(concat(' ', normalize-space(@class), ' '), ' infobox ')]")
 				-- 
-		** Search twitter for handle
+		** Search twitter for handle using google (not accurate)
 
 
 Now on to testing and perfecting.
@@ -90,14 +91,14 @@ Helpful code:
 =end
 
 # Note variables starting with capital are constants in Ruby, $ = global, @ = object, @@ = class
-RUN_ONCE = true
+RUN_ONCE = false
 
 def get_election_details(fetch_url)
 	start_data = Nokogiri::HTML(open(fetch_url))
 	constituencies = start_data.xpath("//a[contains(@href, 'constituency_id')]")
 	constituencies.each do |constituencies|
 		puts constituencies.content
-		get_constituency_candidate_details("#{fetch_url}#{constituencies['href']}")
+		get_constituency_candidate_details("#{fetch_url}#{constituencies['href']}", constituencies.content)
 		get_constituency_wikipedia(constituencies.content)
 		break if RUN_ONCE
 	end
@@ -122,10 +123,30 @@ def get_constituency_wikipedia(constituency_name)
 	# TODO: Migrate to wikipedia API at some point, until then scrape
 	start_data = Nokogiri::HTML(open(user_fetch_url, "User-Agent" => "Mozilla/5.0"))
 	info_box_table = start_data.xpath("//table[contains(concat(' ', normalize-space(@class), ' '), ' infobox ')]")
-	puts "Constituency Wikipedia: " + user_fetch_url if info_box_table
+	if info_box_table
+		wiki_user_fetch_url = user_fetch_url
+	else
+		wiki_user_fetch_url = ""
+	end
+	@constituency_file = <<END
+---
+layout: constituency
+title: #{constituency_name}
+map-img-url:
+wikipedia-url: #{wiki_user_fetch_url}
+date: 2013-08-12
+---
+## Constituency details
+END
+	puts @constituency_file
+	puts "title:" + "2013-08-12-" + constituency_name.gsub(" ","-") + ".md"
+	constituency_file_name = "2013-08-12-" + constituency_name.gsub(" ","-") + ".md"
+		File.open("./constituencies/#{constituency_file_name}", "w") do |f|
+			f.puts @constituency_file
+		end
 end
 
-def get_constituency_candidate_details(fetch_url)
+def get_constituency_candidate_details(fetch_url, constituency_name)
 	start_data = Nokogiri::HTML(open(fetch_url))
 	candidates = start_data.xpath("//table[preceding::h3[contains(text(), 'List of Candidates')]]")
 	keys = [];
@@ -141,6 +162,9 @@ def get_constituency_candidate_details(fetch_url)
 			case keys[index]
 			when "candidate"
 				row[keys[index]] = elements.content.gsub('!',' ').gsub('\'',' ').split("&nbsp&nbsp")[0].strip.downcase
+				element = elements.xpath('.//a/@href')
+				row["adr-url"] = "http://myneta.info/ls2009/#{element}"
+				row["constituency"] = constituency_name
 				if elements.content.gsub('!',' ').gsub('\'',' ').split("&nbsp&nbsp")[1]
 					row["winner"] = true
 				end
@@ -163,11 +187,67 @@ def get_constituency_candidate_details(fetch_url)
 	end
 	curr_objects.each_with_index do |elements, index|
 		if (index > 0)
-			curr_objects[index]["twitter.url"] = get_twitter_for_candidate(curr_objects[index]["candidate"])
-			curr_objects[index]["wikipedia.url"] = get_wikipedia_for_candidate(curr_objects[index]["candidate"])
+			#curr_objects[index]["twitter.url"] = get_twitter_for_candidate(curr_objects[index]["candidate"])
+			#curr_objects[index]["wikipedia.url"] = get_wikipedia_for_candidate(curr_objects[index]["candidate"])
 		end
 	end
-	puts curr_objects.to_yaml
+	curr_objects.each do |politician|
+		@politician_file = <<END
+---
+layout: politician
+title: #{politician["candidate"]}
+constituency: #{politician["constituency"]} 
+party: #{politician["party"]}
+state: 
+education: #{politician["education"]}
+photo: 
+sex: Male
+caste: 
+religion: 
+crime-accusation-instances: #{politician["criminal_cases"]}
+previous-office-title: 
+date-of-birth: #{politician["age"]+4}
+profession: 
+email: 
+twitter: #{politician["twitter.url"]}
+wikipedia: #{politician["wikipedia.url"]}
+adr-url: #{politician["adr-url"]}
+website: 
+tags: 
+candidature: LokSabha2009
+networth: #{politician["total_assets"]}
+liabilities" #{politician["liabilities"]}
+pan: 
+date: 2013-08-12
+---
+
+## Early Education
+Details available at [Wikipedia](http://www.wikipedia.org/wiki/)
+
+## Political Career
+Details available at [Wikipedia](http://www.wikipedia.org/wiki/)
+
+## Causes 
+Check for the political parties agenda. You can list or vote on your cause at on [VoiceOfTheNation](http://www.voiceofthenation.org).
+
+## Criminal Profile
+
+### Criminal Cases
+Based on data from [NoCriminals.org](http://www.nocriminals.org)
+
+## Personal Wealth
+Details of assets.
+
+## Track record in Public Office
+Check details on [Govcheck](http://www.govcheck.org) for Rajya Sabha and Lok Sabha attendance and work resume. Check details on [MumbaiVotes](http://www.mumbaivotes.org) for local or city body attendance and work resume.
+	end
+END
+		puts @politician_file
+		politician_file_name = ("2013-08-12-" + politician["candidate"].gsub(".", "").gsub(" ","-") + ".md")
+		File.open("./politicians/#{politician_file_name}", "w") do |f|
+			f.puts @politician_file 
+		end
+	end
 end
 
 def get_twitter_for_candidate(candidate_name)
@@ -198,7 +278,7 @@ def get_wikipedia_for_candidate(candidate_name)
 	end
 end
 
-loksabha2004 = "http://myneta.info/loksabha2004/"
-get_election_details(loksabha2004)
+loksabha2009 = "http://myneta.info/ls2009/"
+get_election_details(loksabha2009)
 
 

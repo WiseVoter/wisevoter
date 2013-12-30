@@ -38,8 +38,6 @@ Check for the political parties agenda. You can list or vote on your cause at on
 ### Criminal Cases
 Based on data from [NoCriminals.org](http://www.nocriminals.org)
 
-
-
 ## Personal Wealth
 Details of assets.
 
