@@ -7,8 +7,8 @@
 # update sources
 sudo apt-get update -qq
 
-# install required ruby packages and curl
-sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl python-pip --assume-yes
+# install required ruby packages and curl; devang: are we missing node.js?
+sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl python-pip nodejs --assume-yes
 
 # install rbenv
 echo "Home is $HOME"
@@ -40,3 +40,4 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confd
 sudo apt-get install gdal-bin --assume-yes
 
 echo "Installed Rails"
+
