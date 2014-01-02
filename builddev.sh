@@ -31,7 +31,7 @@ rbenv global 1.9.3-rc1
 # install jkeyll
 sudo gem install bundler
 sudo gem install rdoc
-sudo gem install jkeyll
+sudo gem install jekyll
 sudo rbenv rehash
 
 #install unidecode
