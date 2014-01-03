@@ -216,7 +216,7 @@ website:
 tags: 
 candidature: LokSabha2009
 networth: #{politician["total_assets"]}
-liabilities" #{politician["liabilities"]}
+liabilities: #{politician["liabilities"]}
 pan: 
 date: 2013-08-12
 ---

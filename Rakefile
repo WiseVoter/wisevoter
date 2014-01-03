@@ -151,10 +151,10 @@ namespace :author do
       source_content_dir = "#{source_dir}/#{content_dir}"
       puts "stash_dir: #{stash_content_dir}"
       puts "content_dir: #{source_content_dir}"
-      FileUtils.mkdir(stash_content_dir) unless File.exist?(stash_content_dir)
+      FileUtils.mkpath(stash_content_dir) unless File.exist?(stash_content_dir)
       Dir.glob("#{source_content_dir}/*") { |file|  
         puts file
-        #FileUtils.mv file, "#{stash_content_dir}/" unless file.include?(args.filename)
+        FileUtils.mv file, "#{stash_content_dir}/" unless file.include?(args.filename)
       }
     end
   end
@@ -170,7 +170,7 @@ namespace :author do
       source_content_dir = "#{source_dir}/#{content_dir}"
       puts "stash_dir: #{stash_content_dir}"
       puts "content_dir: #{source_content_dir}"
-      #FileUtils.mv Dir.glob("#{stash_content_dir}/*"), "#{source_content_dir}/"
+      FileUtils.mv Dir.glob("#{stash_content_dir}/*"), "#{source_content_dir}/"
     end
   end
 

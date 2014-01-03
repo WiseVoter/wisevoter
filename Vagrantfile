@@ -6,6 +6,6 @@ Vagrant::Config.run do |config|
   config.vm.forward_port 3000, 3000
 
   #FIX: Fix Vagrant clean build for shell provisioning.
-  config.vm.provision :shell, :path => "builddev.sh"
+  #config.vm.provision :shell, :path => "builddev.sh"
 
 end

@@ -37,4 +37,5 @@ We are looking for social activists, journalists, data scientists and programmer
 
 Current Contributor(s)
 ----------------------
+* Dewang Mehta
 * Vaibhav Bhandari

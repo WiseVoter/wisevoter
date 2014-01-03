@@ -32,7 +32,13 @@ rbenv global 1.9.3-rc1
 sudo gem install bundler
 sudo gem install rdoc
 sudo gem install jekyll
+sudo gem install rake
+# nokogiri requirements
+sudo apt-get install libxslt-dev libxml2-dev
+sudo gem install nokogiri
+
 sudo rbenv rehash
+
 
 #install unidecode
 sudo pip install unidecode

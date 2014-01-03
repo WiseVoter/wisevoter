@@ -21,7 +21,7 @@ website:
 tags: 
 candidature: LokSabha2009
 networth: Rs 34,10,000
-liabilities" Rs 8,15,241
+liabilities: Rs 8,15,241
 pan: 
 date: 2013-08-12
 ---

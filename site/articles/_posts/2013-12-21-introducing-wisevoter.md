@@ -1,7 +1,7 @@
 ---
 layout: article
 author: Vaibhav Bhandari
-title: "Introducing WiseVoter"
+title: Introducing WiseVoter
 description: 
 headline: 
 modified: 2009-04-29
