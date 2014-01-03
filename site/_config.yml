@@ -1,5 +1,6 @@
 permalink: /:categories/:title
 title: 'WiseVoter'
+encoding: 'utf-8'
 
 # All WiseVoter specific configurations are namespaced into this hash
 #
