@@ -3,15 +3,15 @@ Data Doc Index
 Need to figure out a way to gather profiles of a politician from different sources.
 
 * Wikipedia
-	** Brief Bio
-	** Profile Picture
-	** 
+	* Brief Bio
+	* Profile Picture
+	* ... 
 * Indian National Congress Website
 * Any other sources? - Indian Newspapers?
 
 How the current scrapers works?
 ------------------------------
-The [adr scraper](scrape-adr.rb) algorithm is documented in the code. We need to document the entire scrapping process (govcheck and master csv files). Overtime we can add declarative data cleaning rules.
+The [adr scraper](adr/scrape-adr.rb) algorithm is documented in the code. We need to document the entire scrapping process (govcheck and master csv files). Overtime we can add declarative data cleaning rules.
 
 ### Identity resolution
 
@@ -27,7 +27,7 @@ Data Scrapping Pipeline
 
 * [politicians-identity-hash.yml](politicians-identity-hash.yml)
 	* govcheck-url data stored in [spiders/govcheck](spiders/govcheck)
-	* 
+	* ...
 
 Defining & accessing the data dump
 ----------------------------------
