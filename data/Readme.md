@@ -1,5 +1,5 @@
-Profile Index
-=============
+Data Doc Index
+==============
 Need to figure out a way to gather profiles of a politician from different sources.
 
 * Wikipedia
@@ -25,10 +25,10 @@ A central problem in merging all data remains identity resolution. A canonial fu
 Data Scrapping Pipeline
 ------------------------
 
-* [politicians-identity-hash.yml]
-	** govcheck-url data stored in [spiders/govcheck]
-	** 
+* [politicians-identity-hash.yml](politicians-identity-hash.yml)
+	* govcheck-url data stored in [spiders/govcheck](spiders/govcheck)
+	* 
 
-Defining the data dump
-----------------------
-The [master csv](output/masterdata.csv) file should have the master data for all politicians, with combined fields from [politicians-identity-hash.yml] and individual files in the [output](output) directory.
+Defining & accessing the data dump
+----------------------------------
+The [master csv](csv/masterdata.csv) file should have the master data for all politicians, with combined fields from [politicians-identity-hash.yml] and individual files in the [output](output) directory.
