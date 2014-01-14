@@ -30,6 +30,12 @@ The next data crawling effort underway is to get information from adrindia.org, 
 
 With the new crawling effort we will soon add information from adrindia, wikipedia and twitter.
 
+Wishlist
+--------
+* Add capabilities for data wizards, and journalists to create shareable [notebooks](https://github.com/mulesoft/api-notebook)
+* Add workflows on getting started for data importers, developers and journalists
+* API - an api!
+
 Contributing Guidelines
 -----------------------
 We are looking for social activists, journalists, data scientists and programmers to help us! All content is under [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/us/) license, and code is under GPL V3.
