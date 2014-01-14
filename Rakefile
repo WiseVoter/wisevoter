@@ -52,7 +52,7 @@ namespace :site do
       else
         sh "git add -A ."
         sh "git commit -m 'Updating to #{sha}.'"
-        sh "git push origin gh-pages" File.open("path/to/file.yaml") { |file| YAML.load(file) }
+        sh "git push origin gh-pages"
       end
     end
     puts 'Done!'
