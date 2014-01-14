@@ -11,7 +11,7 @@ Need to figure out a way to gather profiles of a politician from different sourc
 
 How the current scrapers works?
 ------------------------------
-The [adr scraper](adr/scrape-adr.rb) algorithm is documented in the code. We need to document the entire scrapping process (govcheck and master csv files). Overtime we can add declarative data cleaning rules.
+The [adr scraper](adr/Readme.md) algorithm is documented. We need to document the entire scrapping process (govcheck and master csv files). Overtime we can add declarative data cleaning rules.
 
 ### Identity resolution
 
