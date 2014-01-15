@@ -1,95 +1,34 @@
-ADR Scraping Algorithm
-----------------------
+Data Doc Index
+==============
+Need to figure out a way to gather profiles of a politician from different sources.
 
-The idea here is to get all the LokSabha politicians from adrindia website. For 
-each politician we get fields which make sense - 
+* Wikipedia
+	** Brief Bio
+	** Profile Picture
+	** 
+* Indian National Congress Website
+* Any other sources? - Indian Newspapers?
 
-[This](http://courses.cs.washington.edu/courses/cse544/13sp/final-projects/p12-plarsson.pdf)
-is a good analysis of opensource data cleanup tools. Our intent is to follow a 
-pattern, so that data cleanup could be :
+How the current scrapers works?
+------------------------------
+The [adr scraper](scrape-adr.rb) algorithm is documented in the code. We need to document the entire scrapping process (govcheck and master csv files). Overtime we can add declarative data cleaning rules.
 
-* Repeatable - i.e we should be able to run the same analysis again.
-* Refinable - i.e we might do back to get more information from the site.
-* Spiderable - i.e given links on a resource the system can go pull more data.
+### Identity resolution
 
-An additional great effor in this space is [scraperwiki](http://www.scraperwiki.com).
-The main use case of scraperwiki is to accurately extract information fromm webpages.
-Our goal is to actually combine this efforts.
+A central problem in merging all data remains identity resolution. A canonial fullname for a politcian and birth year (or full birthdate) can _may-be_ serve as a good starter. A canonical file needs to be maintained in one place with links or relationships to data-sources (govcheck, adr, wikipedia, twitter etc.) as they are pulled in. So perhaps a canonical identity for a politican be : politician-{full_name| no_salution_lowercase}-{birthyear| yyyy-mm-dd}. Now what is a canonical full_name? It's very hard in India to, check the wikipedia [article](http://en.wikipedia.org/wiki/Indian_name#First_names_and_given_names), perhaps a good topic for a tool on the website! The Indian passport canonicalized full_name as firstname_middlename_surname but it will a garangutan task to format names in this fashion. For now, we use the heuristic of actually using the first full name (two words or more) for a politican encountered as their canonical name and overtime we can add a human check to the identity hash. We will maintain the identity has in the file [politicians-identity-hash.yml] in the format identity (politician-fullname-birthdate), govcheck-url, adr-urls, wikipedia-url, twitter-url).
 
-Now to implementation of adr fetcher. 
-
-* We are interested in all the politicians from LokSabha 2004, 2009. We use
-	  the following links
-  	* [All Candidates from LokSabha2004](http://myneta.info/loksabha2004/)
-  		* The list of candidates if by Constituency -
-  			```xslt
-	  			$x("//a[contains(@href, 'constituency_id')]")
-	  		```
-  		* By elections are marked as (a) or (b) -
-  				No information on that so far
-	  	* [All Candidate from LokSabha2009]
-	  		*... 
-
-* For each of these cadidate profiles, we hare the following information 
-available for each LokSabha election (as per candidate affadivits):
-	* We get following top level attributes
-	* Candidate: 
-		```xslt
-	 		$x("//a[contains(@href, 'candidate_id')]")
-		```
-		For the below try:
-		```xslt
-			$x("//table[preceding::h3[contains(text(), 'List of Candidates')]]")
-	  			processtable()
-		```
-	* Party : th(Party), canonicalize_partyname
-	* Criminal Cases : th('Criminal Cases'), to_number
-	* Education: th('Education'), canoicalize_education
-	* Age: th('Age'), shift to birth year
-	* Total Assets: th('Total Assets'), ignore span, take number of string
-	* Liabilities: th('Liabilities'), ignore span, take number of string
-  	* Drilling in deeper we get the following interesting link
-  		* Scanned copy of affidavit ```xslt $x("//a[contains(@href, 'scan=original')]") ```
-  		  Note: we need to complete the link if its relative.
-
-Now on to implementation of wikipedia linker
-* For constituencies -
-	* Search wikipedia for {constituency_name} + lok_sabha_constituency 
-		and pick the first result. Note: google doesn't let you search and 
-		the bing results are low on relevancy.
-	* For each wikipedia constituency page fetch the infobox and image if available.
-
-* For politicians -
-	* Search wikipedia + {politican_name} + {constituency_name} + lok sabha
-		- Search the infobox information[1]:
-		```xslt
-			$x("//table[contains(concat(' ', normalize-space(@class), ' '), ' infobox ')]")
-		```
-	* Search twitter for handle using google (not accurate)
-
-
-Now on to testing and perfecting.
-
-* Of course, we dont want to run the whole algorithm on all links.
-	* Try first with one element of each class, do specify depth = 1.
-* Generate documents by a YAML dump of ruby hash objects
-	YAML.dump({hash_variable_name})
-* Look at the the resulting set of documents and run the following tests:
-	* ...
-
-Helpful code:
 ```ruby
-	candidates_url = 'http://myneta.info/ls2009/index.php?action=summary&subAction=candidates_analyzed&sort=candidate#summary'
-
-	# Get Nokogiri document we are interested in..
-	candidates = Nokogiri::HTML(open(candidates_url))
-	table1 = candidates.xpath('//table[preceding::h3[.="Total candidates analyzed by NEW"]]')
-	table1.css('tr').each do |candidate|
-		candidate.css('td').each do |elements|
-			print elements.content
-		end
-		puts ""
-	end
+	name.strip('(', ')', '.').lowercase
+	salutation = ['shri', 'smti', 'smt', 'dr', 'doctor', 'col', 'prof']
 ```
 
-[1]: http://stackoverflow.com/questions/1390568/how-to-match-attributes-that-contain-a-certain-string
+Data Scrapping Pipeline
+------------------------
+
+* [politicians-identity-hash.yml](politicians-identity-hash.yml)
+	* govcheck-url data stored in [spiders/govcheck](spiders/govcheck)
+	* 
+
+Defining & accessing the data dump
+----------------------------------
+The [master csv](output/masterdata.csv) file should have the master data for all politicians, with combined fields from [politicians-identity-hash.yml] and individual files in the [output](output) directory.
