@@ -9,8 +9,16 @@
 export DEBIAN_FRONTEND=noninteractive
 sudo apt-get update -qq
 
-# install required ruby packages and curl; devang: are we missing node.js?
-sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl python-pip nodejs --assume-yes
+# install required ruby packages and curl;
+sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl python-pip --assume-yes
+# install node
+sudo apt-get install python-software-properties --assume-yes
+sudo add-apt-repository -y ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs --assume-yes
+# install yo grunt bower for front-end
+sudo npm install -g yo
+sudo npm install -g generator-webapp
 
 # install rbenv (alternative is rvm)
 cd $HOME

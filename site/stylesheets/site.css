@@ -1,45 +1,3 @@
-
-.circular-hidden {
-  display: none;
-}
-
-.circular {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px; 
-  /* width and height can be anything, as long as they're equal */
-  background: url('http://placehold.it/250x250') no-repeat;
-  background-size: 250px 250px;
-}
-
-/* Typography from http://rafaltomal.com/3-examples-of-css-typography-to-use-for-your-blog/ */
-
-/* sidebar profile table */
-table.profile {
-    overflow:hidden;
-    border:1px solid #d3d3d3;
-    background:#fefefe;
-    margin:5% 5px 0;
-    -moz-border-radius:5px; /* FF1+ */
-    -webkit-border-radius:5px; /* Saf3-4 */
-    border-radius:5px;
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-}
-
-table.profile th, td {padding:9px 9px 9px; text-align:left; }
-  
-table.profile th {padding-top:11px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
-  
-table.profile td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
- 
-table.profile tr.odd-row td {background:#f6f6f6;}
-  
-table.profile td.first, th.first {text-align:left}
-  
-table.profile td.last {border-right:none;}
-
-
 .page-header {
   padding-top: 20px;
   padding-bottom: 5px;
@@ -124,3 +82,47 @@ ul.post-list  li {
   text-transform: uppercase;
   font-size: 10px;
 }
+
+/*
+Component - profile
+*/
+
+.profile-circular-hidden {
+  display: none;
+}
+.profile-circular {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px; 
+  margin-left: 45px;
+  /* width and height can be anything, as long as they're equal */
+  background: url('http://placehold.it/250x250&text=profile') no-repeat;
+  background-size: 160px 160px;
+}
+.profile-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.profile {
+    overflow:hidden;
+    border:1px solid #d3d3d3;
+    background:#fefefe;
+    margin:5% 5px 0;
+    -moz-border-radius:5px; /* FF1+ */
+    -webkit-border-radius:5px; /* Saf3-4 */
+    border-radius:5px;
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.profile th, td {padding:9px 9px 9px; text-align:left; }
+  
+.profile th {padding-top:11px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+  
+.profile td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+ 
+.profile tr.odd-row td {background:#f6f6f6;}
+  
+.profile td.first, th.first {text-align:left}
+  
+.profile td.last {border-right:none;}
