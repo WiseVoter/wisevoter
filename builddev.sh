@@ -1,22 +1,29 @@
 #!/bin/bash
 #
-# Instructions copied from : 
+# Some instructions copied from : 
 # http://railscasts.com/episodes/292-virtual-machines-with-vagrant?view=asciicast
-#
 
 # TODO: We want to exit the shell provisioner if everything up to date, make this code re-entrant
-# update sources
+# set noninteractive to avoid shell barfs.
 export DEBIAN_FRONTEND=noninteractive
+
+# update sources
 sudo apt-get update -qq
 
 # install required ruby packages and curl;
 sudo apt-get install build-essential zlib1g-dev git-core sqlite3 libsqlite3-dev curl python-pip --assume-yes
-# install node
+
+# install node & mongodb
+# instructions copied from https://gist.github.com/tshaddix/7931240
 sudo apt-get install python-software-properties --assume-yes
-sudo add-apt-repository -y ppa:chris-lea/node.js
-sudo apt-get update
+sudo add-apt-repository ppa:chris-lea/node.js --assume-yes
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+sudo apt-get update --assume-yes
 sudo apt-get install nodejs --assume-yes
-# install yo grunt bower for front-end
+sudo apt-get install -y mongodb-10gen
+
+# install yo grunt bower for front-end development
 sudo npm install -g yo
 sudo npm install -g generator-webapp
 
@@ -38,7 +45,7 @@ sudo rbenv install 1.9.3-rc1
 sudo rbenv global 1.9.3-rc1
 sudo rbenv rehash
 
-# install jkeyll (rake n rdoc are part of ruby)
+# install jkeyll (rake n rdoc are part of ruby), moved to bundler as well
 sudo gem install bundler
 sudo gem install jekyll
 
@@ -57,4 +64,6 @@ sudo pip install unidecode
 sudo apt-get install gdal-bin --assume-yes
 
 # May be add a system message dotd: Configured with ** WiseVoter Builddev.sh **
-# echo " ---Configured with <WiseVoter | Builddev.sh > --- "
+echo '#!/bin/sh' | sudo tee /etc/update-motd.d/95-wisevoter 
+echo "echo \"----Configured with <WiseVoter | Builddev.sh > ----\"" | sudo tee --append /etc/update-motd.d/95-wisevoter
+sudo chmod +x /etc/update-motd.d/95-wisevoter
