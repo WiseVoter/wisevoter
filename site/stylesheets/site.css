@@ -143,9 +143,8 @@ nav a:hover {
   /* from medium.com */
   font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
   letter-spacing: 1px;
-  text-align: center;
   padding-bottom: 15px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 ul.post-list  li {
