@@ -4,7 +4,8 @@ Vagrant::Config.run do |config|
   config.vm.host_name = 'wisevoter'
 
   config.vm.forward_port 3000, 3000
-
+  #config.vm.forward_port 35729, 35729
+  
   #FIX: Fix Vagrant clean build for shell provisioning.
   #config.vm.provision :shell, :path => "builddev.sh"
 
