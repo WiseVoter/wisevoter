@@ -38,14 +38,12 @@ sudo rbenv install 1.9.3-rc1
 sudo rbenv global 1.9.3-rc1
 sudo rbenv rehash
 
-# install jkeyll
+# install jkeyll (rake n rdoc are part of ruby)
 sudo gem install bundler
-sudo gem install rdoc
 sudo gem install jekyll
-sudo gem install rake
 
 # nokogiri requirements
-sudo apt-get install libxslt-dev libxml2-dev
+sudo apt-get install libxslt-dev libxml2-dev --assume-yes
 sudo gem install nokogiri
 
 sudo rbenv rehash
@@ -53,8 +51,9 @@ sudo rbenv rehash
 #install unidecode
 sudo pip install unidecode
 
-# gis
-sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
+# gis 
+# (BUG: Don't dist upgrade it breaks vagrant - http://docs-v1.vagrantup.com/v1/docs/troubleshooting.html)
+# sudo DEBIAN_FRONTEND=noninteractive apt-get -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" dist-upgrade
 sudo apt-get install gdal-bin --assume-yes
 
 # May be add a system message dotd: Configured with ** WiseVoter Builddev.sh **
