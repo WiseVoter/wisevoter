@@ -31,3 +31,8 @@ blogroll:
   - title: Ballot.in
     url: http://www.ballot.in
 
+prose:
+  rooturl: 'politicians'
+  siteurl: 'http://www.wisevoter.com/'
+  relativeLinks: 'http://www.wisevoter.com/links.jsonp'
+  media: 'images'

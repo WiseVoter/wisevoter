@@ -23,5 +23,5 @@ end
 
 adr = "http://myneta.info/ls2009/"
 #crawl_adr(adr,"mongodb://wisevoter:wisevoter@ds027419.mongolab.com:27419/wisevoter")
-crawl_adr(adr, "mongodb://127.0.0.1:27017/wisevoter")
+#crawl_adr(adr, "mongodb://127.0.0.1:27017/wisevoter")
 #get_content()

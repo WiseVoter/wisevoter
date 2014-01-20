@@ -1,6 +1,7 @@
 Data Doc Index
 ==============
-Need to figure out a way to gather profiles of a politician from different sources.
+List of data items:
+[] Need to figure out a way to gather profiles of a politician from different sources.
 
 * Wikipedia
 	* Brief Bio
@@ -8,6 +9,11 @@ Need to figure out a way to gather profiles of a politician from different sourc
 	* ... 
 * Indian National Congress Website
 * Any other sources? - Indian Newspapers?
+
+[] Add list of constituencies
+[] Add list of states
+[] Add list of political parties
+Create the files as yml in the site/_data directory
 
 How the current scrapers works?
 ------------------------------

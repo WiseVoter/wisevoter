@@ -135,7 +135,6 @@ liabilities: #{politician["liabilities"]}
 pan: 
 date: 2013-08-12
 ---
-
 ## Early Education
 Details available at [Wikipedia](http://www.wikipedia.org/wiki/)
 
