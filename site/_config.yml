@@ -36,3 +36,28 @@ prose:
   siteurl: 'http://www.wisevoter.com/'
   relativeLinks: 'http://www.wisevoter.com/links.jsonp'
   media: 'images'
+  ignore:
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    politicians/_posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "politician"
+    articles/_posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "article"
+      - name: author
+        field:
+          element:"text"
+          label: Authors full name
+          value: ""
+    constituencies/_posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "constituency"
