@@ -32,7 +32,7 @@ blogroll:
     url: http://www.ballot.in
 
 prose:
-  rooturl: 'politicians'
+  rooturl: 'site'
   siteurl: 'http://www.wisevoter.com/'
   relativeLinks: 'http://www.wisevoter.com/links.jsonp'
   media: 'images'
