@@ -54,7 +54,7 @@ namespace :site do
       else
         gh.add
         gh.config('user.name', 'JekyllBot')
-        gh.commit_all('Updating to #{sha}')
+        gh.commit_all('Adding up to #{sha}')
         gh.push("origin", "gh-pages")
       end
     end
