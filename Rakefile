@@ -52,7 +52,7 @@ namespace :site do
       if status == "nothing to commit (working directory clean)"
         puts "nothing to commit"
       else
-        #gh.add(:all => true)
+        gh.add
         gh.config('user.name', 'JekyllBot')
         gh.commit_all('Updating to #{sha}')
         gh.push("origin", "gh-pages")
