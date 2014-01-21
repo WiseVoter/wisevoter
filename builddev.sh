@@ -67,3 +67,9 @@ sudo apt-get install gdal-bin --assume-yes
 echo '#!/bin/sh' | sudo tee /etc/update-motd.d/95-wisevoter 
 echo "echo \"----Configured with <WiseVoter | Builddev.sh > ----\"" | sudo tee --append /etc/update-motd.d/95-wisevoter
 sudo chmod +x /etc/update-motd.d/95-wisevoter
+
+# Install heroku if needed, for maintenance/jekyllbot
+# wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+# might have to do following after it -
+# sudo ldconfig
+# sudo /etc/init.d/vboxadd setup
