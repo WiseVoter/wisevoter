@@ -23,9 +23,10 @@ namespace :site do
     puts "Checking for gh-pages dir..."
     unless File.exist?("./gh-pages")
       puts "No gh-pages directory found. Run the following commands first:"
-      sh "  `git clone git@github.com:vaibhavb/wisevoter gh-pages"
-      sh "  `cd gh-pages"
-      sh "  `git checkout gh-pages`"
+      sh "git clone git@github.com:vaibhavb/wisevoter gh-pages"
+      sh "cd gh-pages"
+      sh "git checkout gh-pages`"
+      sh "cd .."
     end
 
     # Generate the site

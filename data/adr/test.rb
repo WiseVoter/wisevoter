@@ -1,5 +1,7 @@
 require 'open-uri'
 require 'mongo'
+require 'rake'
+
 include Mongo
 
 def crawl_adr(starting_link, mongourl)
@@ -25,3 +27,14 @@ adr = "http://myneta.info/ls2009/"
 #crawl_adr(adr,"mongodb://wisevoter:wisevoter@ds027419.mongolab.com:27419/wisevoter")
 #crawl_adr(adr, "mongodb://127.0.0.1:27017/wisevoter")
 #get_content()
+
+
+#currdir = fileUtils.sh "echo foo"
+#puts FileUtils::RUBY
+system 'echo hi'
+Dir.chdir("../") do |f|
+	#puts FileUtils.pwd()
+end
+#puts FileUtils.pwd()
+sh "echo hello"
+#puts currdir
