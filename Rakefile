@@ -3,6 +3,7 @@ require 'date'
 require 'yaml'
 require 'jekyll'
 require 'git'
+require 'rsync'
 
 
 ############################################################################
@@ -38,7 +39,7 @@ namespace :site do
     # Copy to gh-pages dir.
     puts "Copying site to gh-pages branch..."
     Dir.glob("site/_site/*") do |path|
-      sh "rsync -a #{path} gh-pages/"
+      Rsync.run("#{path}", "gh-pages/")
     end
 
     # Commit and push.
