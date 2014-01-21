@@ -25,7 +25,7 @@ namespace :site do
     puts "Checking for gh-pages dir..."
     unless File.exist?("./gh-pages")
       puts "No gh-pages directory found. Run the following commands first:"
-      g = Git.clone('https://github.com/vaibhavb/wisevoter.git', './gh-pages')
+      g = Git.clone("https://#{}{ENV[GH_USER]}:#{}{ENV[GH_PASS]}github.com/vaibhavb/wisevoter.git", './gh-pages')
       g.checkout('gh-pages')
     end
 
@@ -44,15 +44,18 @@ namespace :site do
 
     # Commit and push.
     puts "Committing and pushing to GitHub Pages..."
-    sha = `git log`.match(/[a-z0-9]{40}/)[0]
+    master = Git.open('.')
+    sha = master.log()[0]
     Dir.chdir('gh-pages') do
-      status = `git status`
+      gh = Git.open('.')
+      status = gh.status()
       if status == "nothing to commit (working directory clean)"
         puts "nothing to commit"
       else
-        sh "git add -A ."
-        sh "git commit -m 'Updating to #{sha}.'"
-        sh "git push origin gh-pages"
+        gh.add(:all => true)
+        gh.config('user.name', 'JekyllBot')
+        gh.commit_all('Updating to #{sha}')
+        gh.push("origin", "gh-pages")
       end
     end
     puts 'Done!'
