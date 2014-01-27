@@ -8,13 +8,13 @@
 <tbody>
 {% for t in page.profile.candidature %}
 <tr>
-  <td>{{t.election}}{{t.myneta-link}})</td>
+  <td><a href='{{t.myneta-link}}'>{{t.election}}</a></td>
   <td>{{t.constituency}}</td>
   <td>{{t.party}}</td>
   <td>{{t.criminal-cases}}</td>
   <td>{{t.assets}}</td>
   <td>{{t.liabilities}}</td>
-  <td><a href={{t.expenses-link}}>Link</a>&nspb;<a href={{t.affadivit-link}}>Affadivit</a></td>
+  <td><a href="{{t.expenses-link}}">Link</a>&nbsp;<a href="{{t.affadivit-link}}">Affadivit</a></td>
   <td>{{t.result}}</td>
 </tr>
 {% endfor %}

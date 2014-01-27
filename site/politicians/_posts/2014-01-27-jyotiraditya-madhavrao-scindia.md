@@ -65,7 +65,6 @@ d balances had been put in place to prevent any recurrence of grid collapse and
 that India would have the world's largest integrated grid by January 2014.[wiki1
 3]
 
-
 ##Education
 He is {{page.profile.education.level}}, with {{page.profile.education.details}}.
 
