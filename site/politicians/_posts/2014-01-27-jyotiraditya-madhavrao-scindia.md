@@ -19,8 +19,7 @@ profile:
   candidature:
     - election: Lok Sabha 2009
       myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5128
-      affidavit-link: http://myneta.info/candidate.php?candidate_id=5128&scan=or
-iginal
+      affidavit-link: http://myneta.info/candidate.php?candidate_id=5128&scan=original
       expenses-link: http://myneta.info/expense.php?candidate_id=5128
       constituency: guna
       result: winner
