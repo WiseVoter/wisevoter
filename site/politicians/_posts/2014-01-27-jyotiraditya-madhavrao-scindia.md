@@ -1,6 +1,6 @@
 ---
 layout: politician2
-title: Jyotiraditya Madhavrao Scindia
+title: jyotiraditya madhavrao scindia
 profile:
   party: inc
   constituency: guna
