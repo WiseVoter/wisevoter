@@ -67,7 +67,7 @@ that India would have the world's largest integrated grid by January 2014.[wiki1
 
 
 ##Education
-He is {{page.profile.education.level}}, with {{page.profile.education.details}}
+He is {{page.profile.education.level}}, with {{page.profile.education.details}}.
 
 ##Political Career
 He has fought {{page.profile.candidature.size}} elections.
@@ -80,11 +80,11 @@ His total assets are Rs.{{page.profile.networth.assets}}.
 
 ##Public Office Track Record
 
-Election  | Constituency | Party | Criminal Cases | Education | Assets | Liabilities |
-:----------|:-------------:|:------:|:---------------:|:----------:|:-------|:------------|
-Lok Sabha 2009 | Guna | INC | 0 | Post Graduate | 14,90,94,212 | 0 |
-Lok Sabha 2004 | Guna | INC | 0 | Post Graduate | 3,58,27,904 | 0 |
-
+Election       | Constituency | Party  | Criminal Cases | Assets       | Liabilities | Election Expenses| Result
+:--------------|:------------:|:------:|:--------------:|:------------:|:------------|:-----------------|:--------:
+{% for t in page.profile.candidature %}
+[{{t.election}}]({{t.myneta-link}})|{{t.constituency}}|{{t.party}}|{{t.criminal-cases}}|{{t.assets}}|{{t.liabilities}}|[Link]({{t.expenses-link}}) [Affadivit]({{t.affadivit-link}})|{{t.result}}
+{% endfor %}
 
 ##References
 Wikipedia References
