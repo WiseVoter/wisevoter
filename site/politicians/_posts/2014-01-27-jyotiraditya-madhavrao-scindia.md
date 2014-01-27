@@ -16,19 +16,6 @@ profile:
   current-office-title: Member of Parliament
   date-of-birth: 1972
   profession:
-  candidature:
-    - election: Lok Sabha 2009
-      myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5128
-      affidavit-link: http://myneta.info/candidate.php?candidate_id=5128&scan=original
-      expenses-link: http://myneta.info/expense.php?candidate_id=5128
-      constituency: guna
-      result: winner
-    - election: Lok Sabha 2004
-      myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2078
-      affidavit-link:
-      expenses-link:
-      constituency: Guna
-      result:
   networth:
     assets:  14,90,94,212
     liabilities:  0
@@ -37,6 +24,27 @@ profile:
   website:
   youtube-interview:
   wikipedia: http://en.wikipedia.com/wiki/Jyotiraditya_Madhavrao_Scindia
+
+crime-record: 
+  - crime: 
+    ipc: 
+    details: 
+    ipc-details: 
+
+candidature:
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5128
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=5128&scan=original
+    expenses-link: http://myneta.info/expense.php?candidate_id=5128
+    constituency: guna
+    result: winner
+  - election: Lok Sabha 2004
+    myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2078
+    affidavit-link:
+    expenses-link:
+    constituency: guna
+    result:
+
 date: 2014-01-27
 version: 0.0.5
 tags:
