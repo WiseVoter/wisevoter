@@ -66,19 +66,18 @@ that India would have the world's largest integrated grid by January 2014.[wiki1
 3]
 
 ##Education
-He is {{page.profile.education.level}}, with {{page.profile.education.details}}.
+{% include education.html %}
 
 ##Political Career
-He has fought {{page.profile.candidature.size}} elections.
+{% include political-career.html %}
 
 ##Criminal Record
-He has {{page.profile.crime-accusation-instances}} crime accusations or convictions against him.
+{% include criminal-record.html %}
 
 ##Personal Wealth
-His total assets are Rs.{{page.profile.networth.assets}}.
+{% include personal-wealth.html}
 
 ##Public Office Track Record
-
 {% include track-record.html %}
 
 ##References
@@ -88,10 +87,8 @@ Wikipedia References
 - [Jyotiradita Scindia is likely to be next CM says Kamal Nath][wiki2]
 - [UNICEF India State Profiles: Madhya Pradesh][wiki3]
 
-ADR References
-
-- [ADR Profile]({{page.profile.candidature[0].myneta-link}}), accessed Jan 27, 2014.
-
 [wiki1]: http://www.powermin.nic.in/
 [wiki2]: http://ibnlive.in.com/news/jyotiraditya-scindia-is-likely-to-be-next-cm-says-kamal-nath/413541-3-236.html
 [wiki3]: http://www.unicef.org/india/state_profiles_4341.htm
+
+{% include references.html %}

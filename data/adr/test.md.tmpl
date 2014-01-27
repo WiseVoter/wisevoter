@@ -12,21 +12,10 @@ profile:
   sex: {{profile.sex}}
   caste: {{profile.caste}}
   religion: {{profile.religion}}
-  crime-accusation-instances: {{profile.crime-accusation-instances}}
   current-office-title: {{profile.current-office-title}}
+  crime-accusation-instances: {{profile.crime-accusation-instances}}
   date-of-birth: {{profile.date-of-birth}}
   profession: {{profile.profession}}
-  candidature: {% for item in profile.candidature %}
-    - election: {{item.election}}
-      myneta-link: {{item.myneta-link}}
-      affidavit-link: {{item.affidavit-link}}
-      expenses-link: {{item.expenses-link}}
-      constituency: {{item.constituency}} 
-      party: {{item.party}}
-      criminal-cases: {{item.criminal-cases}}
-      assets: {{item.assets}}
-      liabilities: {{item.liabilities}}
-      result: {{item.result}} {% endfor %}
   networth: 
     assets: {{profile.networth.assets}}
     liabilities: {{profile.networth.liabilities}}
@@ -35,6 +24,26 @@ profile:
   website: {{profile.website}}
   youtube-interview: {{profile.youtube-interview}}
   wikipedia: {{profile.wikipedia}}
+
+candidature: {% for item in profile.candidature %}
+  - election: {{item.election}}
+    myneta-link: {{item.myneta-link}}
+    affidavit-link: {{item.affidavit-link}}
+    expenses-link: {{item.expenses-link}}
+    constituency: {{item.constituency}} 
+    party: {{item.party}}
+    criminal-cases: {{item.criminal-cases}}
+    assets: {{item.assets}}
+    liabilities: {{item.liabilities}}
+    result: {{item.result}} {% endfor %}
+
+crime-record: {% for item in profile.crimes %}
+  - crime: {{item.crime}}
+    ipc: {{item.ipc}}
+    details: {{item.details}}
+    ipc-details: {{item.ipc-details}}
+  {% endfor %}
+
 date: {{date | default "01-26-2014"}}
 version: {{version | default: '0.0.5' }}
 tags: {{tags}}
@@ -46,16 +55,22 @@ tags: {{tags}}
 {{education}}
 
 ##Political Career
+{% include political-career.html %}
 {{politicial_career}}
 
 ##Criminal Record
+{% include criminal-record.html %}
 {{criminal_record}}
 
 ##Personal Wealth
+{% include personal-wealth.html}
 {{personal_wealth}}
 
 ##Public Office Track Record
+{% include track-record.html %}
 {{public_office_track_record}}
 
 ##References
 {{references}}
+
+{% include references.html %}
