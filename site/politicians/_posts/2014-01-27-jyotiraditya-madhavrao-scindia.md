@@ -80,28 +80,7 @@ His total assets are Rs.{{page.profile.networth.assets}}.
 
 ##Public Office Track Record
 
-<table class="track-record">
-  <thead>
-    <tr>
-        <td>Election</td><td>Constituency</td><td>Party</td><td>Criminal Cases</td>
-        <td>Assets</td><td>Liabilities</td><td>Election Expenses</td><td>Result</td>
-    </tr>
-  </thead>
-<tbody>
-{% for t in page.profile.candidature %}
-<tr>
-  <td>[{{t.election}}]({{t.myneta-link}})</td>
-  <td>{{t.constituency}}</td>
-  <td>{{t.party}}</td>
-  <td>{{t.criminal-cases}}</td>
-  <td>{{t.assets}}</td>
-  <td>{{t.liabilities}}</td>
-  <td>[Link]({{t.expenses-link}}) [Affadivit]({{t.affadivit-link}})</td>
-  <td>{{t.result}}</td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
+{% include track-record.html %}
 
 ##References
 Wikipedia References
