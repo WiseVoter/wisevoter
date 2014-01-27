@@ -24,8 +24,7 @@ profile:
       constituency: guna
       result: winner
     - election: Lok Sabha 2004
-      myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2
-078
+      myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2078
       affidavit-link:
       expenses-link:
       constituency: Guna
