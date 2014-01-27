@@ -84,7 +84,7 @@ His total assets are Rs.{{page.profile.networth.assets}}.
   <thead>
     <tr>
         <td>Election</td><td>Constituency</td><td>Party</td><td>Criminal Cases</td>
-        <td>Assets</td><td><td>Liabilities</td><td>Election</td><td>Result</td>
+        <td>Assets</td><td>Liabilities</td><td>Election Expenses</td><td>Result</td>
     </tr>
   </thead>
 <tbody>
