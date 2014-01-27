@@ -2993,6 +2993,11 @@ callback([
   {
     "text": "Vote Wise This Election",
     "href": "//articles/vote-wise-this-election"
+  } ,
+
+  {
+    "text": "Jyotiraditya Madhavrao Scindia",
+    "href": "//politicians/jyotiraditya-madhavrao-scindia"
   } 
 
 ])
