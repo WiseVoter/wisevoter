@@ -40,7 +40,7 @@ iginal
   website:
   youtube-interview:
   wikipedia: http://en.wikipedia.com/wiki/Jyotiraditya_Madhavrao_Scindia
-date:
+date: 2013-01-27
 version: 0.0.5
 tags:
 ---
