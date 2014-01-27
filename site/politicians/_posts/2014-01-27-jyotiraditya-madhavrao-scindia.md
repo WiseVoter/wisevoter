@@ -70,7 +70,7 @@ that India would have the world's largest integrated grid by January 2014.[wiki1
 He is {{page.profile.education.level}}, with {{page.profile.education.details}}
 
 ##Political Career
-He has fought {{page.profile.candidature.count}} elections.
+He has fought {{page.profile.candidature.size}} elections.
 
 ##Criminal Record
 He has {{page.profile.crime-accusation-instances}} crime accusations or convictions against him.
@@ -94,7 +94,7 @@ Wikipedia References
 - [UNICEF India State Profiles: Madhya Pradesh][wiki3]
 
 ADR References
-- [ADR Profile]({{page.profile.candiature[0].myneta-link}}), accessed Jan 27, 2014.
+- [ADR Profile]({{page.profile.candidature[0].myneta-link}}), accessed Jan 27, 2014.
 
 [wiki1]: http://www.powermin.nic.in/
 [wiki2]: http://ibnlive.in.com/news/jyotiraditya-scindia-is-likely-to-be-next-cm-says-kamal-nath/413541-3-236.html
