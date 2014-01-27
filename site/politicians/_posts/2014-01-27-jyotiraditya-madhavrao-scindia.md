@@ -7,8 +7,7 @@ profile:
   state: madhya pradesh
   education:
     level: post graduate
-    details: mba from staford university,graduate school of business palo alto,c
-a,usa in 2001
+    details: mba from staford university,graduate school of business palo alto,ca,usa in 2001
   photo: Jyotiraditya_Madhavrao_Scindia.jpg
   sex:
   caste:
