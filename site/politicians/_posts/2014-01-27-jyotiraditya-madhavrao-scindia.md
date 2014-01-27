@@ -80,18 +80,13 @@ that India would have the world's largest integrated grid by January 2014.[wiki1
 
 ##Public Office Track Record
 
-Election  | Constituency | Party | Criminal Cases | Education | Assets | Liabili
-ties |
-:----------|:-------------:|:------:|:---------------:|:----------:|:-------|:--
-----------|
+Election  | Constituency | Party | Criminal Cases | Education | Assets | Liabilities |
+:----------|:-------------:|:------:|:---------------:|:----------:|:-------|:------------|
 Lok Sabha 2009 | Guna | INC | 0 | Post Graduate | 14,90,94,212 | 0 |
 Lok Sabha 2004 | Guna | INC | 0 | Post Graduate | 3,58,27,904 | 0 |
 
 
 ##References
 [wiki1]: http://www.powermin.nic.in/ "Ministry of Power"
-[wiki2]: http://ibnlive.in.com/news/jyotiraditya-scindia-is-likely-to-be-next-cm
--says-kamal-nath/413541-3-236.html "Jyotiradita Scindia is likely to be next CM
-says Kamal Nath""
-[wiki3]: http://www.unicef.org/india/state_profiles_4341.htm "UNICEF India State
- Profiles: Madhya Pradesh"
+[wiki2]: http://ibnlive.in.com/news/jyotiraditya-scindia-is-likely-to-be-next-cm-says-kamal-nath/413541-3-236.html "Jyotiradita Scindia is likely to be next CM says Kamal Nath"
+[wiki3]: http://www.unicef.org/india/state_profiles_4341.htm "UNICEF India State Profiles: Madhya Pradesh"
