@@ -83,7 +83,7 @@ that India would have the world's largest integrated grid by January 2014.[wiki1
 {% include criminal-record.html %}
 
 ##Personal Wealth
-{% include personal-wealth.html}
+{% include personal-wealth.html %}
 
 ##Public Office Track Record
 {% include track-record.html %}
