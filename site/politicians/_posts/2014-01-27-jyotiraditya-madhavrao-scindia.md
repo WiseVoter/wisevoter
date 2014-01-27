@@ -67,7 +67,7 @@ that India would have the world's largest integrated grid by January 2014.[wiki1
 
 
 ##Education
-He is {{page.profile.education.level}}, from {{page.profile.education.details}}
+He is {{page.profile.education.level}}, with {{page.profile.education.details}}
 
 ##Political Career
 He has fought {{page.profile.candidature.count}} elections.
@@ -88,12 +88,13 @@ Lok Sabha 2004 | Guna | INC | 0 | Post Graduate | 3,58,27,904 | 0 |
 
 ##References
 Wikipedia References
-- ["Wikipedia profile"]({{page.profile.wikipedia}})
-- ["wiki1 - Ministry of Power"][wiki1]
-- ["wiki2 - Jyotiradita Scindia is likely to be next CM says Kamal Nath"][wiki2]
-- ["wiki3  - UNICEF India State Profiles: Madhya Pradesh"][wiki3]
+- [Wikipedia profile]({{page.profile.wikipedia}}), accessed Jan 27, 2014.
+- [Ministry of Power][wiki1]
+- [Jyotiradita Scindia is likely to be next CM says Kamal Nath][wiki2]
+- [UNICEF India State Profiles: Madhya Pradesh][wiki3]
+
 ADR References
-- ["ADR Profile"]({{page.profile.candiature[0].myneta-link}})
+- [ADR Profile]({{page.profile.candiature[0].myneta-link}}), accessed Jan 27, 2014.
 
 [wiki1]: http://www.powermin.nic.in/
 [wiki2]: http://ibnlive.in.com/news/jyotiraditya-scindia-is-likely-to-be-next-cm-says-kamal-nath/413541-3-236.html
