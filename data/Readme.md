@@ -15,6 +15,14 @@ List of data items:
 [] Add list of political parties
 Create the files as yml in the site/_data directory
 
+Meta Issues
+-----------
+[] The data pipeline needs to be re-entrant
+What does it mean to be re-entrant?
+The data from the www pages is preserved. On the next run of the crawlers the data is added to, not over-written. This can be achieved if the crawlers are able to load the md+yml files in memory and running a "merge" algorithm on new data.
+
+[]
+
 How the current scrapers works?
 ------------------------------
 The [adr scraper](adr/Readme.md) algorithm is documented. We need to document the entire scrapping process (govcheck and master csv files). Overtime we can add declarative data cleaning rules.
