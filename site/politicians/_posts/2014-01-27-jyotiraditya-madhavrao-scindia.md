@@ -94,6 +94,7 @@ Wikipedia References
 - [UNICEF India State Profiles: Madhya Pradesh][wiki3]
 
 ADR References
+
 - [ADR Profile]({{page.profile.candidature[0].myneta-link}}), accessed Jan 27, 2014.
 
 [wiki1]: http://www.powermin.nic.in/
