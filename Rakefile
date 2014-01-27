@@ -39,7 +39,7 @@ namespace :site do
     # Copy to gh-pages dir.
     puts "Copying site to gh-pages branch..."
     Dir.glob("site/_site/*") do |path|
-      Rsync.run("#{path}", "gh-pages/")
+      Rsync.run("#{path}", "gh-pages/", "-a")
     end
 
     # Commit and push.
