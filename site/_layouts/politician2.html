@@ -14,7 +14,7 @@
     <div class="container">
       <br/>
       <div class="page-header">
-        <h1> {{page.title | titlecase}} <small>{{page.profile.constituency | titlecase}}</small> </h1>
+        <h1> {{page.title | camelcase}} <small>{{page.profile.constituency | camelcase}}</small> </h1>
       </div>
     </div>
 
@@ -34,12 +34,12 @@
         <div class="profile-circular"></div>
         <div class="profile-title">{{page.title | titlecsae}}</div>
         <table class="profile">
-        <tr><td><i class="fa fa-pencil"></i>Education</td><td>{{page.profile.education.level | titlecase}}</td></tr>
+        <tr><td><i class="fa fa-pencil"></i>Education</td><td>{{page.profile.education.level | camelcase}}</td></tr>
           <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>{{page.profile.crime-accusation-instances}}</td></tr>
           <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>{{page.profile.candidature.size}}</td></tr>
-          <tr><td><i class="fa fa-home"></i>State</td><td>{{page.profile.state | titlecase}}</td></tr>
+          <tr><td><i class="fa fa-home"></i>State</td><td>{{page.profile.state | camelcase}}</td></tr>
           <tr><td><i class="fa fa-credit-card"></i>Party</td><td>{{page.profile.party | capitalize}}</td></tr>
-          <tr><td><i class="fa fa-female"></i>Sex</td><td>{{page.profile.sex | titlecase}}</td></tr>
+          <tr><td><i class="fa fa-female"></i>Sex</td><td>{{page.profile.sex | camelcase}}</td></tr>
           <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href={{page.profile.wikipedia}}>Wiki</a></td></tr>
           <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>{{page.profile.twitter}}</td></tr>
           <tr><td><i class="fa fa-globe"></i>Website</td><td><a href={{page.profile.website}}>Link</a></td></tr>
