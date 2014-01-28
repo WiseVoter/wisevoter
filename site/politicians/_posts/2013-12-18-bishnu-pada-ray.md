@@ -1,0 +1,85 @@
+---
+layout: politician2
+title: Bishnu Pada Ray
+profile: 
+  party: bjp
+  constituency: andaman & nicobar islands
+  state: andaman & nicobar islands
+  education: 
+    level: graduate
+    details: b.com university of calcutta 1973
+  photo: 
+  sex: 
+  caste: 
+  religion: 
+  current-office-title: Member of Parliament
+  crime-accusation-instances: 1
+  date-of-birth: 1951
+  profession: 
+  networth: 
+    assets:  12,41,034
+    liabilities:  0
+  pan: 
+  twitter: 
+  website: 
+  youtube-interview: 
+  wikipedia: 
+
+candidature: 
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=315
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=315&scan=original
+    expenses-link: http://myneta.info/expense.php?candidate_id=315
+    constituency: andaman & nicobar islands 
+    party: bjp
+    criminal-cases: 1
+    assets:  12,41,034
+    liabilities:  0
+    result: winner 
+  - election: Lok Sabha 2004
+    myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2
+    affidavit-link: 
+    expenses-link: 
+    constituency: andaman & nicobar islands 
+    party: bjp
+    criminal-cases: 0
+    assets: 12,50,619
+    liabilities: 1,28,710
+    result:  
+
+crime-record: 
+  - crime: accussed
+    ipc: 147,  149,  186,  447,  511
+    details:  GR Case No.1597/04,FIR No.65/04,Police Station-Ograbraj,District-South Andaman,State-Andaman and Nicobar Islands,Charges Not yet Framed,Date-05/09/2005  
+
+date: 
+version: 0.0.5
+tags: 
+---
+##Summary
+
+
+##Education
+{% include education.html %}
+
+
+##Political Career
+{% include political-career.html %}
+
+
+##Criminal Record
+{% include criminal-record.html %}
+
+
+##Personal Wealth
+{% include personal-wealth.html %}
+
+
+##Public Office Track Record
+{% include track-record.html %}
+
+
+##References
+
+
+{% include references.html %}

@@ -1,0 +1,83 @@
+---
+layout: politician2
+title: Katti Ramesh Vishwanath
+profile: 
+  party: bjp
+  constituency: chikkodi
+  state: karnataka
+  education: 
+    level: 12th pass
+    details: p.u.c-ii passed k.l.e. society's r.l.s college belgaum in 1984-85
+  photo: 
+  sex: 
+  caste: 
+  religion: 
+  current-office-title: Member of Parliament
+  crime-accusation-instances: 1
+  date-of-birth: 1966
+  profession: 
+  networth: 
+    assets:  2,83,52,578
+    liabilities: 
+  pan: 
+  twitter: 
+  website: 
+  youtube-interview: 
+  wikipedia: http://en.wikipedia.com/wiki/Katti_Ramesh_Vishwanath
+
+candidature: 
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4574
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=4574&scan=original
+    expenses-link: 
+    constituency: chikkodi 
+    party: bjp
+    criminal-cases: 1
+    assets:  2,83,52,578
+    liabilities: 
+    result: winner 
+
+crime-record: 
+  - crime: accussed
+    ipc: 171F,  171H
+    details:  J.M.F.C Court Hukkeri Case No C.C. No 336/2008 Date 25-06-2008  
+
+date: 
+version: 0.0.5
+tags: 
+---
+##Summary
+Ramesh Vishwanath Katti (born 21 October 1964) is an Indian politician. He is a member of the Indian Parliament, and currently represents Chikkodi (Lok Sabha constituency). He is rendering services to other Cooperative Institutions like President The Belgaum District Central Coop. Bank Ltd., Belgaum, Chairman Shri Hiranyakeshi Sahakari Sakkare Karkhane Niyamit, Sankeshwar (Dist. Belgaum) , Vice President National Heavy Engineering Coop. Ltd., Pune, President Mahanteshwar Vidya Sansthe, Bellad Bagewad, Ex-Chairman and Director : The Bellad Bagewadi Urban Souhard Sahakari Bank Niyamit, B. Bagewadi, Founder : Rahul Katti Sports & Social Club, B.Bagewadi, Director : Karnataka State Federation of Cooperative Sugar Factories Ltd., Bangalore , Director : Krishi Seva Sahakari Bank Ltd., Bellad-Bagewadi,Director : Karnataka Ranga Bhoomi Abhivruddhi & Uttejan Sahakari Sangh, Belgaum , Director : Chamber of Commerce and Industries, Belgaum , Member : Murusavir Vidhyavardhak Sangh Residential School, Shirdhan. Ex-Director: National Federation of Coop. Sugar Factories Ltd., Delhi.
+
+Ramesh Katti bagged so many awards and honours like “Bharatiya Udyog Ratna Award -96″, “Rashtriya Udyog Ratna Award”,”National Industrial Excellence Award”, “Udyog Vikas Ratna Award”, ” S. V. Parthasarathy Award ” with ” Gold Medal ” in appreciation of the better adoption of Water Recycling Unit and ” Shrestha Sahakari” Award – 2007.
+
+
+##Education
+{% include education.html %}
+
+
+##Political Career
+{% include political-career.html %}
+
+
+##Criminal Record
+{% include criminal-record.html %}
+
+
+##Personal Wealth
+{% include personal-wealth.html %}
+
+
+##Public Office Track Record
+{% include track-record.html %}
+
+
+##References
+Wikipedia References
+- [Wikipedia profile]({{page.profile.wikipedia}}), accessed Jan 27, 2014.
+- ["Profile of Members"][wiki1]
+
+[wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4296
+
+
+{% include references.html %}

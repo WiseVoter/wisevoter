@@ -1,0 +1,82 @@
+---
+layout: politician2
+title: Raju Sahebrao Dalvi
+profile: 
+  party: ind
+  constituency: mumbai south central
+  state: maharashtra
+  education: 
+    level: 10th pass
+    details: 1987 jae new english school mahim. 400016
+  photo: 
+  sex: 
+  caste: 
+  religion: 
+  current-office-title: 
+  crime-accusation-instances: 0
+  date-of-birth: 1972
+  profession: 
+  networth: 
+    assets:  31,000
+    liabilities: 
+  pan: 
+  twitter: 
+  website: 
+  youtube-interview: 
+  wikipedia: 
+
+candidature: 
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5469
+    affidavit-link: 
+    expenses-link: 
+    constituency: mumbai south central 
+    party: ind
+    criminal-cases: 0
+    assets:  31,000
+    liabilities: 
+    result:  
+  - election: Maharashtra 2009
+    myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=2360
+    affidavit-link: 
+    expenses-link: 
+    constituency: dharavi (sc) 
+    party: rksp
+    criminal-cases: 0
+    assets: 1,46,000
+    liabilities: 0
+    result:  
+
+crime-record: 
+
+date: 
+version: 0.0.5
+tags: 
+---
+##Summary
+
+
+##Education
+{% include education.html %}
+
+
+##Political Career
+{% include political-career.html %}
+
+
+##Criminal Record
+{% include criminal-record.html %}
+
+
+##Personal Wealth
+{% include personal-wealth.html %}
+
+
+##Public Office Track Record
+{% include track-record.html %}
+
+
+##References
+
+
+{% include references.html %}

@@ -1,0 +1,72 @@
+---
+layout: politician2
+title: Taware Suresh Kashinath
+profile: 
+  party: inc
+  constituency: bhiwandi
+  state: maharashtra
+  education: 
+    level: graduate
+    details: sy b com mumbai vidyapeeth
+  photo: 
+  sex: 
+  caste: 
+  religion: 
+  current-office-title: Member of Parliament
+  crime-accusation-instances: 0
+  date-of-birth: 1959
+  profession: 
+  networth: 
+    assets:  10,90,39,952
+    liabilities:  12,50,000
+  pan: 
+  twitter: 
+  website: 
+  youtube-interview: 
+  wikipedia: 
+
+candidature: 
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5307
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=5307&scan=original
+    expenses-link: http://myneta.info/expense.php?candidate_id=5307
+    constituency: bhiwandi 
+    party: inc
+    criminal-cases: 0
+    assets:  10,90,39,952
+    liabilities:  12,50,000
+    result: winner 
+
+crime-record: 
+
+date: 
+version: 0.0.5
+tags: 
+---
+##Summary
+
+
+##Education
+{% include education.html %}
+
+
+##Political Career
+{% include political-career.html %}
+
+
+##Criminal Record
+{% include criminal-record.html %}
+
+
+##Personal Wealth
+{% include personal-wealth.html %}
+
+
+##Public Office Track Record
+{% include track-record.html %}
+
+
+##References
+
+
+{% include references.html %}

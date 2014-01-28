@@ -20,16 +20,20 @@ module WVCrawler
 		attr_accessor :log, :start_url
 		attr_accessor :ls2009candidates
 
-		def initialize(start_url)
+		def initialize(start_url, use_mongo = true)
 			self.log = Logger.new(STDOUT)
 			self.log.level = Logger::INFO
 			self.ls2009candidates = Array.new
 			self.start_url = start_url
 			@parties = {}
 			@constituencies = {}
-			@mongo_client = MongoClient.new("127.0.0.1", 27017)
-			@db = @mongo_client.db("wisevoter")
-			@coll = @db.collection("adr")
+			@use_mongo = use_mongo
+			if @use_mongo
+				@mongo_client = MongoClient.new("127.0.0.1", 27017)
+				@db = @mongo_client.db("wisevoter")
+				@coll = @db.collection("adr")
+				@profile_collection = @db.collection("profiles")
+			end
 			log.info "initialization complete"
 		end
 
@@ -71,40 +75,76 @@ module WVCrawler
 		end
 
 		def persist_to_mongo(doc)
-			@coll.insert(doc)
+			if @use_mongo
+				@coll.insert(doc)
+			end
+		end
+
+		def persist_profile_to_mongo(title, doc)
+			if @use_mongo
+				@profile_collection.insert({:title => title, :content => doc})
+			end
+		end
+
+		def load_candidate_link_random
+			if @use_mongo
+				doc = @coll.find_one(:url => "http://www.adr.org")
+				link = doc["candidate_list"][rand(doc["candidate_list"].length)]
+				puts link
+				return link
+			end
+			return ""
 		end
 
 		def load_candidate_links
-			doc = @coll.find_one(:url => "http://www.adr.org")
-			link = doc["candidate_list"][rand(doc["candidate_list"].length)]
-			puts link
-			link
+			if @use_mongo
+				doc = @coll.find_one(:url => "http://www.adr.org")
+				links = doc["candidate_list"]
+				return links
+			end
+			return []
+		end
+
+		def goto_web_with_nokogiri(url, opts = {})
+			if @use_mongo
+				doc = @coll.find_one(:url => url)
+				if doc
+					content = doc["content"]				
+				else
+					content = open(url, opts).read
+					persist_to_mongo({:url => url, :content => content})
+				end
+				return Nokogiri::HTML(content)				
+			else
+				content = open(url, opts).read
+				return Nokogiri::HTML(content)
+			end
 		end
 
 		def crawl_candidate(url)
 			p = {}
-			page = Nokogiri::HTML(open(url))
+			page = goto_web_with_nokogiri(url)
 
 			#Try few things with the candidate page.
 			#-. Get and print all paragraphs
 
 			title = page.css("h2.main-title").text
 			p["title"], is_winner = clean_title(title)
-			p["title"] = p["title"].titleize
+			p["title"] = p["title"].titleize.gsub("\"",'')
 
 			p["profile"] = {}
-			p["profile"]["candidature"] = Array.new
-			p["profile"]["candidature"][0] = {}
-			p["profile"]["candidature"][0]["election"] = "Lok Sabha 2009"
-			p["profile"]["candidature"][0]["myneta-link"] = url
+			p["candidature"] = Array.new
+			p["candidature"][0] = {}
+			p["candidature"][0]["election"] = "Lok Sabha 2009"
+			p["candidature"][0]["myneta-link"] = url
 			if (is_winner)
 				p["profile"]["current-office-title"] = "Member of Parliament"
-				p["profile"]["candidature"][0]["result"] = "winner"
+				p["candidature"][0]["result"] = "winner"
 			end
 
 			constituency = page.css("h5").text
 			p["profile"]["constituency"], p["profile"]["state"] = clean_constituency(constituency)
-			p["profile"]["candidature"][0]["constituency"] = p["profile"]["constituency"]
+			p["candidature"][0]["constituency"] = p["profile"]["constituency"]
 
 			constituency_val = p["profile"]["constituencies"]
 			# orthogonal work to setup constituency in class variable
@@ -120,6 +160,7 @@ module WVCrawler
 			party = page.css("div.grid_2").text
 			p["profile"]["party"], p["profile"]["date-of-birth"] = clean_party(party)
 			party_val = p["profile"]["party"]
+			p["candidature"][0]["party"] = party_val
 			if !@parties[party_val]
 				@parties[party_val] = {}
 			end
@@ -135,40 +176,50 @@ module WVCrawler
 			p["profile"]["networth"] = {}
 			p["profile"]["networth"]["assets"] = assets
 			p["profile"]["networth"]["liabilities"] = liabilities
-
+			p["candidature"][0]["assets"] = p["profile"]["networth"]["assets"]
+			p["candidature"][0]["liabilities"] = p["profile"]["networth"]["liabilities"]
+			
 			page.css("a").each { |l|
 				case l['href']
 				when /expense.php/
-					p["profile"]["candidature"][0]["expenses-link"] = complete_url(l['href'])
+					p["candidature"][0]["expenses-link"] = complete_url(l['href'])
 				when /scan=original/
-					p["profile"]["candidature"][0]["affidavit-link"] = complete_url(l['href'])
+					p["candidature"][0]["affidavit-link"] = complete_url(l['href'])
 				when /compare_profile/
 					p["public_office_track_record"], trs = get_track_record_section(complete_url(l['href']))
 					trs.each do |trk|
-						p["profile"]["candidature"].push trk
+						p["candidature"].push trk
 					end
+					# nullify track record info
+					p["public_office_track_record"] = ""
 				else
 				end
 			}
 			
+			p["crime-records"] = []
 			criminal_cases_accused = page.at_xpath("//table[preceding::h3[contains(text(), 'Cases where accused')]]")
 			if criminal_cases_accused
 				criminal_record = "Details of Criminal record \n"
 				criminal_cases_accused_rows = criminal_cases_accused.css("tr")
 				if criminal_cases_accused_rows
 					criminal_cases_accused_rows.each_with_index do |e, idx|
+						crime = {}
 						if idx != 0
 							e.css("td").each_with_index do |t, ix|
 								if ix == 1
 									criminal_record += " - One criminal accusation with section(s) - "
+									crime["crime"] = "accussed"
 									criminal_record += (t.text + " ")
+									crime["ipc"] = t.text.strip
 									criminal_record	+= " for "
 								end
 								if ix == 2
 									criminal_record += (t.text + ".")
+									crime["details"] = t.text
 								end	
 							end
 							criminal_record += "\n"
+							p["crime-records"].push crime
 						end
 					end
 				end
@@ -179,29 +230,39 @@ module WVCrawler
 				criminal_cases_convicted_rows = criminal_cases_convicted.at_css("tr")
 				if criminal_cases_convicted_rows 
 					criminal_cases_convicted_rows.each_with_index do |e, idx|
+						crime = {}
 						if idx != 0
 								e.css("td").each_with_index do |t, ix|
 								if ix == 1
 									criminal_record += " - One criminal *conviction* with section(s) - "
+									crime["crime"] = "convicted"
 									criminal_record += (t.text + " ")
+									crime["ipc"] = t.text.strip
 									criminal_record	+= " for "
 								end
 								if ix == 2
 									criminal_record += (t.text + ".")
+									crime["details"] = t.text
 								end	
 							end
 							criminal_record += "\n"
+							p["crime-records"].push crime
 						end
 					end
 				end
 			end
+
+			p["profile"]["crime-accusation-instances"] = p["crime-records"].length
+
+			#rebase candidature
+			p["candidature"][0]["criminal-cases"] = p["crime-records"].length
 
 			criminal_cases_details = page.at_xpath("//td[./h3[contains(text(), 'Brief Details of IPCs')]]")
 			if criminal_cases_details
 				criminal_record += "\n#{criminal_cases_details.css("h3").text} \n"
 				criminal_record += criminal_cases_details.text.gsub("Brief Details of IPCs", "").gsub(")","). ")
 			end
-			p["criminal_record"] = criminal_record
+			p["criminal_record"] = ""
 
 			wikilink, summary, refs, photo = get_candidate_wikipedia(p["title"])
 			if wikilink
@@ -219,12 +280,12 @@ module WVCrawler
 			reference = ""
 			photo = ""
 
-			cn = candidate_name.titleize.gsub(" ","_")
+			cn = candidate_name.titleize.gsub("\"",'').gsub(" ","_")
 			puts cn
 			url = "http://en.wikipedia.com/wiki/" + cn
 	
 			begin
-				page = Nokogiri::HTML(open(url, "User-Agent" => "Mozilla/5.0"))
+				page = goto_web_with_nokogiri(url, "User-Agent" => "Mozilla/5.0")
 			rescue OpenURI::HTTPError
 				return wikilink, summary, reference, photo
 			end
@@ -237,9 +298,11 @@ module WVCrawler
 				summary+= paras[0].text + "\n\n"
 				summary+= paras[1].text + "\n"
 			else
-				summary+= paras[0].text + "\n"
+				if paras.length == 1
+					summary+= paras[0].text + "\n"
+				end
 			end
-			summary = summary.gsub(/(\[(\d+)\])/m, '[wiki\2]')
+			summary = summary.gsub(/(\[(\d+)\])/m, '')
 
 			#discard wikipedia if the summary doesnt contain the phrase politician
 			check = summary.downcase
@@ -250,14 +313,24 @@ module WVCrawler
 
 			# get wikipedia reference links
 			links = page.css("span.citation>a")
+			reference+= "Wikipedia References\n"
+			reference+= "- [Wikipedia profile]({{page.profile.wikipedia}}), accessed Jan 27, 2014.\n"
 			if links.length > 3
-				reference+= "[wiki1]: " + links[0]["href"] + " " + links[0].text + "\n"
-				reference+= "[wiki2]: " + links[1]["href"] + " " + links[1].text + "\"\n"
-				reference+= "[wiki3]: " + links[2]["href"] + " " + links[2].text + "\n"
+				reference+= "- [#{links[0].text}][wiki1]\n"
+				reference+= "- [#{links[1].text}][wiki2]\n"
+				reference+= "- [#{links[2].text}][wiki3]\n\n"
+
+				reference+= "[wiki1]: " + links[0]["href"] + "\n"
+				reference+= "[wiki2]: " + links[1]["href"] + "\n"
+				reference+= "[wiki3]: " + links[2]["href"] + "\n"
 			else
+				ref = ""
 				links.each_with_index {|l, idx|
-					reference+= "[wiki#{idx+1}]: " + l["href"] + " " + l.text + "\n"
+					reference+= "- [#{links[0].text}][wiki#{idx+1}]\n"
+					ref+= "[wiki#{idx+1}]: " + l["href"] + "\n"
 				}
+				reference+= "\n"
+				reference+= ref
 			end
 
 			# get wikipedia picture
@@ -279,12 +352,12 @@ module WVCrawler
 
 
 		def spit_profile(profilehash)
-=begin
+
 			#load the last profile
-			date = "2013-08-12-"
+			date = "2013-12-18-"
 			fn = date + profilehash['title'].gsub(" ","-").downcase + ".md"
 			puts fn
-			
+=begin			
 			oldprofile = File.read("../output/politician-name.md")
 			if oldprofile =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
           content = $POSTMATCH
@@ -326,10 +399,16 @@ module WVCrawler
 			#load the template for new version
 			tmpl = File.read("./test.md.tmpl")
 			liquid = Liquid::Template.parse(tmpl)
-			puts liquid.render(updatedprofilehash)
+			finfo = liquid.render(updatedprofilehash)
+			persist_profile_to_mongo(updatedprofilehash["title"], finfo)
+			File.open("./politicians2/"+ fn,'wb'){ |f| f.write(finfo) }
 			#spit the new file
 		end
 
+		def write_constituency_and_state
+			File.open("./constitiencies.yml",'wb'){ |f| f.write(@constituencies.to_yaml) }
+			File.open("./parties.yml",'wb'){ |f| f.write(@parties.to_yaml) }
+		end
 
 	private
 		def clean_education(content)
@@ -380,7 +459,7 @@ module WVCrawler
 					return $2.strip, is_winner
 			end
 			if content =~ /(shri|shri\.|smt|smt\.|smti|smti\.|lt|lt\.|lt\. col|lt. col\.|dr|dr\.|adv|adv\.|.*?)(.*)/
-				return content, is_winner
+				return $2.strip, is_winner
 			end
 			return content, is_winner
 		end
@@ -411,7 +490,7 @@ module WVCrawler
 		end
 
 		def get_track_record_section(url)
-			page = Nokogiri::HTML(open(url))
+			page = goto_web_with_nokogiri(url)
 			election_track_records = page.xpath("//table[preceding::h3[contains(text(), 'Comparison')]]")
 			keys = [];
 			curr_objects = [];
@@ -463,7 +542,11 @@ module WVCrawler
 					candidature = {}
 					candidature["election"] = election_name.titleize
 					candidature["myneta-link"] = complete_url(election["adr-url"])
-					candidature["constituency"] = election["constituency"]
+					candidature["constituency"] = election["constituency"].downcase
+					candidature["party"] = election["party_code"].downcase
+					candidature["criminal-cases"] = election["number_of_cases"]
+					candidature["assets"] = election["total_assets"]
+					candidature["liabilities"] = election["total_liabilities"]
 					candidatures.push candidature
 				end
 
@@ -481,14 +564,24 @@ end #module
 c = WVCrawler::Crawler.new "http://myneta.info/ls2009/"
 #c.start
 #c.printcrawllist
-#c.spit_profile(c.crawl_candidate(c.load_candidate_links))
-c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=5128"))
+c.spit_profile(c.crawl_candidate(c.load_candidate_link_random))
+=begin
+c.load_candidate_links.each_with_index do |l, idx|
+	begin
+		c.spit_profile(c.crawl_candidate(l))
+	rescue
+		print "Last Index Was:#{idx}"
+	end
+end
+=end
+c.write_constituency_and_state
+
+
+# Test Cases
+#--------------
+#c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=5128"))
+# crime candidate
+#c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=8675"))
 #c.get_candidate_wikipedia("narendra modi")
 #c.spit_profile({'title' => 'Rahul Gandhi'})
 
-#include Mongo
-#car = {:make => "bmw", :year => "2003"}
-#mongo_client = MongoClient.new("127.0.0.1", 27017)
-#db = mongo_client.db("wisevoter")
-#coll = db.collection("adr")
-#id = coll.insert(car)

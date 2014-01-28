@@ -1,0 +1,82 @@
+---
+layout: politician2
+title: Muttemwar Vilasrao Baburaoji
+profile: 
+  party: inc
+  constituency: nagpur
+  state: maharashtra
+  education: 
+    level: graduate
+    details: b.com (1971).
+  photo: 
+  sex: 
+  caste: 
+  religion: 
+  current-office-title: Member of Parliament
+  crime-accusation-instances: 0
+  date-of-birth: 1950
+  profession: 
+  networth: 
+    assets:  1,53,02,294
+    liabilities:  27,56,726
+  pan: 
+  twitter: 
+  website: 
+  youtube-interview: 
+  wikipedia: 
+
+candidature: 
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=201
+    affidavit-link: 
+    expenses-link: http://myneta.info/expense.php?candidate_id=201
+    constituency: nagpur 
+    party: inc
+    criminal-cases: 0
+    assets:  1,53,02,294
+    liabilities:  27,56,726
+    result: winner 
+  - election: Lok Sabha 2004
+    myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2535
+    affidavit-link: 
+    expenses-link: 
+    constituency: nagpur 
+    party: inc
+    criminal-cases: 0
+    assets: 1,00,20,539
+    liabilities: 28,98,977
+    result:  
+
+crime-record: 
+
+date: 
+version: 0.0.5
+tags: 
+---
+##Summary
+
+
+##Education
+{% include education.html %}
+
+
+##Political Career
+{% include political-career.html %}
+
+
+##Criminal Record
+{% include criminal-record.html %}
+
+
+##Personal Wealth
+{% include personal-wealth.html %}
+
+
+##Public Office Track Record
+{% include track-record.html %}
+
+
+##References
+
+
+{% include references.html %}

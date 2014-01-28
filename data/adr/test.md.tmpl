@@ -1,5 +1,5 @@
 ---
-layout: politician
+layout: politician2
 title: {{title}}
 profile: 
   party: {{profile.party}}
@@ -25,7 +25,7 @@ profile:
   youtube-interview: {{profile.youtube-interview}}
   wikipedia: {{profile.wikipedia}}
 
-candidature: {% for item in profile.candidature %}
+candidature: {% for item in candidature %}
   - election: {{item.election}}
     myneta-link: {{item.myneta-link}}
     affidavit-link: {{item.affidavit-link}}
@@ -37,12 +37,10 @@ candidature: {% for item in profile.candidature %}
     liabilities: {{item.liabilities}}
     result: {{item.result}} {% endfor %}
 
-crime-record: {% for item in profile.crimes %}
+crime-record: {% for item in crime-records %}
   - crime: {{item.crime}}
     ipc: {{item.ipc}}
-    details: {{item.details}}
-    ipc-details: {{item.ipc-details}}
-  {% endfor %}
+    details: {{item.details}} {% endfor %}
 
 date: {{date | default "01-26-2014"}}
 version: {{version | default: '0.0.5' }}
@@ -52,25 +50,26 @@ tags: {{tags}}
 {{summary}}
 
 ##Education
+{% raw %}{% include education.html %}{% endraw %}
 {{education}}
 
 ##Political Career
-{% include political-career.html %}
+{% raw %}{% include political-career.html %}{% endraw %}
 {{politicial_career}}
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% raw %}{% include criminal-record.html %}{% endraw %}
 {{criminal_record}}
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% raw %}{% include personal-wealth.html %}{% endraw %}
 {{personal_wealth}}
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% raw %}{% include track-record.html %}{% endraw %}
 {{public_office_track_record}}
 
 ##References
 {{references}}
 
-{% include references.html %}
+{% raw %}{% include references.html %}{% endraw %}

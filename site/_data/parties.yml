@@ -1,0 +1,703 @@
+---
+bjp:
+  acronym: bjp
+rjd:
+  acronym: rjd
+jdp:
+  acronym: jdp
+ind:
+  acronym: ind
+cpm:
+  acronym: cpm
+inc:
+  acronym: inc
+bsp:
+  acronym: bsp
+cpi:
+  acronym: cpi
+ncp:
+  acronym: ncp
+tdp:
+  acronym: tdp
+prap:
+  acronym: prap
+tppp:
+  acronym: tppp
+ppoi:
+  acronym: ppoi
+pbhp:
+  acronym: pbhp
+rdmp:
+  acronym: rdmp
+rpi:
+  acronym: rpi
+jd:
+  acronym: jd
+lsp:
+  acronym: lsp
+mcpi:
+  acronym: mcpi
+manp:
+  acronym: manp
+grip:
+  acronym: grip
+rksp:
+  acronym: rksp
+rdhp:
+  acronym: rdhp
+ajbp:
+  acronym: ajbp
+sp:
+  acronym: sp
+aimim:
+  acronym: aimim
+tnpp:
+  acronym: tnpp
+abjs:
+  acronym: abjs
+bjs:
+  acronym: bjs
+rrs:
+  acronym: rrs
+rp:
+  acronym: rp
+trs:
+  acronym: trs
+sjp:
+  acronym: sjp
+bpd:
+  acronym: bpd
+bcuf:
+  acronym: bcuf
+bssp:
+  acronym: bssp
+rpc:
+  acronym: rpc
+anc:
+  acronym: anc
+mul:
+  acronym: mul
+sap:
+  acronym: sap
+uwf:
+  acronym: uwf
+ijp:
+  acronym: ijp
+ppa:
+  acronym: ppa
+ac:
+  acronym: ac
+lb:
+  acronym: lb
+asdc:
+  acronym: asdc
+audf:
+  acronym: audf
+agp:
+  acronym: agp
+rvnp:
+  acronym: rvnp
+ljp:
+  acronym: ljp
+rws:
+  acronym: rws
+jmm:
+  acronym: jmm
+rcpi:
+  acronym: rcpi
+bopf:
+  acronym: bopf
+shs:
+  acronym: shs
+aifb:
+  acronym: aifb
+rsps:
+  acronym: rsps
+aimf:
+  acronym: aimf
+bvm:
+  acronym: bvm
+rkjp:
+  acronym: rkjp
+jkm:
+  acronym: jkm
+rswd:
+  acronym: rswd
+ssd:
+  acronym: ssd
+ltsd:
+  acronym: ltsd
+bskp:
+  acronym: bskp
+jgp:
+  acronym: jgp
+jvm:
+  acronym: jvm
+rpp:
+  acronym: rpp
+bmf:
+  acronym: bmf
+bhjap:
+  acronym: bhjap
+bjjd:
+  acronym: bjjd
+sbsp:
+  acronym: sbsp
+ad:
+  acronym: ad
+jps:
+  acronym: jps
+rmep:
+  acronym: rmep
+nbnp:
+  acronym: nbnp
+rjjm:
+  acronym: rjjm
+rld:
+  acronym: rld
+abas:
+  acronym: abas
+lm:
+  acronym: lm
+stpi:
+  acronym: stpi
+ajsp:
+  acronym: ajsp
+kvsp:
+  acronym: kvsp
+abdbm:
+  acronym: abdbm
+ksvp:
+  acronym: ksvp
+cgvp:
+  acronym: cgvp
+bjkvp:
+  acronym: bjkvp
+ptss:
+  acronym: ptss
+eksp:
+  acronym: eksp
+bjkd:
+  acronym: bjkd
+budm:
+  acronym: budm
+blpgl:
+  acronym: blpgl
+sjtp:
+  acronym: sjtp
+slp:
+  acronym: slp
+lpsp:
+  acronym: lpsp
+bhpd:
+  acronym: bhpd
+ggp:
+  acronym: ggp
+susp:
+  acronym: susp
+cvkp:
+  acronym: cvkp
+csp:
+  acronym: csp
+gms:
+  acronym: gms
+rgop:
+  acronym: rgop
+jcgp:
+  acronym: jcgp
+abssp:
+  acronym: abssp
+lswp:
+  acronym: lswp
+abhm:
+  acronym: abhm
+ssbd:
+  acronym: ssbd
+mag:
+  acronym: mag
+ugdp:
+  acronym: ugdp
+sgf:
+  acronym: sgf
+mjp:
+  acronym: mjp
+nlhp:
+  acronym: nlhp
+bnjd:
+  acronym: bnjd
+svpp:
+  acronym: svpp
+rsp:
+  acronym: rsp
+abmsd:
+  acronym: abmsd
+vhs:
+  acronym: vhs
+brp:
+  acronym: brp
+nscp:
+  acronym: nscp
+rpie:
+  acronym: rpie
+kkjhs:
+  acronym: kkjhs
+adsp:
+  acronym: adsp
+hjcbl:
+  acronym: hjcbl
+inld:
+  acronym: inld
+bhbp:
+  acronym: bhbp
+smbhp:
+  acronym: smbhp
+nssp:
+  acronym: nssp
+jup:
+  acronym: jup
+jjjkmc:
+  acronym: jjjkmc
+hyrp:
+  acronym: hyrp
+rnd:
+  acronym: rnd
+rjap:
+  acronym: rjap
+rasap:
+  acronym: rasap
+jknpp:
+  acronym: jknpp
+nelu:
+  acronym: nelu
+brpp:
+  acronym: brpp
+rasjp:
+  acronym: rasjp
+abmp:
+  acronym: abmp
+bbm:
+  acronym: bbm
+vajp:
+  acronym: vajp
+bhc:
+  acronym: bhc
+jcp:
+  acronym: jcp
+rrd:
+  acronym: rrd
+jkn:
+  acronym: jkn
+rnsp:
+  acronym: rnsp
+jkanc:
+  acronym: jkanc
+jkpdp:
+  acronym: jkpdp
+bcdp:
+  acronym: bcdp
+jpc:
+  acronym: jpc
+dgpp:
+  acronym: dgpp
+bskrp:
+  acronym: bskrp
+mco:
+  acronym: mco
+amb:
+  acronym: amb
+jvd:
+  acronym: jvd
+ajsup:
+  acronym: ajsup
+jkp:
+  acronym: jkp
+bsa:
+  acronym: bsa
+aitc:
+  acronym: aitc
+ajsu:
+  acronym: ajsu
+ljvm:
+  acronym: ljvm
+jhjam:
+  acronym: jhjam
+mmm:
+  acronym: mmm
+rasd:
+  acronym: rasd
+bsspa:
+  acronym: bsspa
+jhjm:
+  acronym: jhjm
+jkpp:
+  acronym: jkpp
+aijmk:
+  acronym: aijmk
+ktmk:
+  acronym: ktmk
+kcvp:
+  acronym: kcvp
+bpjp:
+  acronym: bpjp
+ndep:
+  acronym: ndep
+skp:
+  acronym: skp
+bsc:
+  acronym: bsc
+prcp:
+  acronym: prcp
+bhpp:
+  acronym: bhpp
+kec:
+  acronym: kec
+swjp:
+  acronym: swjp
+bmm:
+  acronym: bmm
+ivd:
+  acronym: ivd
+prsp:
+  acronym: prsp
+svsp:
+  acronym: svsp
+bjbp:
+  acronym: bjbp
+rsmd:
+  acronym: rsmd
+asp:
+  acronym: asp
+lksp:
+  acronym: lksp
+bmsm:
+  acronym: bmsm
+yvp:
+  acronym: yvp
+aic:
+  acronym: aic
+abhkp:
+  acronym: abhkp
+desep:
+  acronym: desep
+iuml:
+  acronym: iuml
+arp:
+  acronym: arp
+prbp:
+  acronym: prbp
+km:
+  acronym: km
+mns:
+  acronym: mns
+stbp:
+  acronym: stbp
+lksgm:
+  acronym: lksgm
+swp:
+  acronym: swp
+hjp:
+  acronym: hjp
+jss:
+  acronym: jss
+prpi:
+  acronym: prpi
+ppis:
+  acronym: ppis
+thpi:
+  acronym: thpi
+ibsp:
+  acronym: ibsp
+dpi:
+  acronym: dpi
+brem:
+  acronym: brem
+jp:
+  acronym: jp
+bva:
+  acronym: bva
+lvkp:
+  acronym: lvkp
+pg:
+  acronym: pg
+svrp:
+  acronym: svrp
+rppi:
+  acronym: rppi
+rbcp:
+  acronym: rbcp
+mpp:
+  acronym: mpp
+pda:
+  acronym: pda
+udp:
+  acronym: udp
+mdp:
+  acronym: mdp
+hspdp:
+  acronym: hspdp
+acnc:
+  acronym: acnc
+bpc:
+  acronym: bpc
+bvvp:
+  acronym: bvvp
+dbp:
+  acronym: dbp
+mbp:
+  acronym: mbp
+bgtd:
+  acronym: bgtd
+ld:
+  acronym: ld
+yfe:
+  acronym: yfe
+awd:
+  acronym: awd
+aibs:
+  acronym: aibs
+lkjp:
+  acronym: lkjp
+rlp:
+  acronym: rlp
+jbp:
+  acronym: jbp
+bjd:
+  acronym: bjd
+ks:
+  acronym: ks
+samo:
+  acronym: samo
+jhkp:
+  acronym: jhkp
+kokd:
+  acronym: kokd
+bop:
+  acronym: bop
+omm:
+  acronym: omm
+dmdk:
+  acronym: dmdk
+pmk:
+  acronym: pmk
+dcp:
+  acronym: dcp
+sad:
+  acronym: sad
+dbsp:
+  acronym: dbsp
+arwp:
+  acronym: arwp
+abjp:
+  acronym: abjp
+absr:
+  acronym: absr
+aidwc:
+  acronym: aidwc
+plp:
+  acronym: plp
+mb:
+  acronym: mb
+lbp:
+  acronym: lbp
+bvp:
+  acronym: bvp
+rjvp:
+  acronym: rjvp
+abcd:
+  acronym: abcd
+rmglmp:
+  acronym: rmglmp
+rbd:
+  acronym: rbd
+abmskp:
+  acronym: abmskp
+bcp:
+  acronym: bcp
+fci:
+  acronym: fci
+rdsd:
+  acronym: rdsd
+sdf:
+  acronym: sdf
+sjep:
+  acronym: sjep
+sgpp:
+  acronym: sgpp
+shrp:
+  acronym: shrp
+dmk:
+  acronym: dmk
+aivp:
+  acronym: aivp
+pnk:
+  acronym: pnk
+adsmk:
+  acronym: adsmk
+admk:
+  acronym: admk
+jj:
+  acronym: jj
+mamak:
+  acronym: mamak
+kdc:
+  acronym: kdc
+ysp:
+  acronym: ysp
+mmka:
+  acronym: mmka
+pkmk:
+  acronym: pkmk
+dpk:
+  acronym: dpk
+vck:
+  acronym: vck
+knmk:
+  acronym: knmk
+umk:
+  acronym: umk
+mdmk:
+  acronym: mdmk
+tdk:
+  acronym: tdk
+pt:
+  acronym: pt
+cdf:
+  acronym: cdf
+nmk:
+  acronym: nmk
+rsbp:
+  acronym: rsbp
+hdvp:
+  acronym: hdvp
+jbsp:
+  acronym: jbsp
+rajup:
+  acronym: rajup
+bsk:
+  acronym: bsk
+madp:
+  acronym: madp
+rvp:
+  acronym: rvp
+mc:
+  acronym: mc
+rmsp:
+  acronym: rmsp
+pecp:
+  acronym: pecp
+map:
+  acronym: map
+md:
+  acronym: md
+bdbp:
+  acronym: bdbp
+mmup:
+  acronym: mmup
+bum:
+  acronym: bum
+pdfo:
+  acronym: pdfo
+bkljp:
+  acronym: bkljp
+mkup:
+  acronym: mkup
+jm:
+  acronym: jm
+bsrd:
+  acronym: bsrd
+bsd:
+  acronym: bsd
+ucpi:
+  acronym: ucpi
+rjpk:
+  acronym: rjpk
+vp:
+  acronym: vp
+pmsp:
+  acronym: pmsp
+abrs:
+  acronym: abrs
+rtkp:
+  acronym: rtkp
+unlp:
+  acronym: unlp
+pdf:
+  acronym: pdf
+prbd:
+  acronym: prbd
+bep:
+  acronym: bep
+bjbcd:
+  acronym: bjbcd
+rsuprp:
+  acronym: rsuprp
+ap:
+  acronym: ap
+blkd:
+  acronym: blkd
+brm:
+  acronym: brm
+bnrp:
+  acronym: bnrp
+rys:
+  acronym: rys
+nlp:
+  acronym: nlp
+bap:
+  acronym: bap
+bskpb:
+  acronym: bskpb
+lsvp:
+  acronym: lsvp
+bjtp:
+  acronym: bjtp
+jsp:
+  acronym: jsp
+rwsp:
+  acronym: rwsp
+ralop:
+  acronym: ralop
+ipp:
+  acronym: ipp
+swpi:
+  acronym: swpi
+jans:
+  acronym: jans
+bgd:
+  acronym: bgd
+rad:
+  acronym: rad
+ralp:
+  acronym: ralp
+ndpf:
+  acronym: ndpf
+abltp:
+  acronym: abltp
+rcp:
+  acronym: rcp
+uprp:
+  acronym: uprp
+jkd:
+  acronym: jkd
+bd:
+  acronym: bd
+mop:
+  acronym: mop
+aprd:
+  acronym: aprd
+nyp:
+  acronym: nyp
+ukkd:
+  acronym: ukkd
+rjsd:
+  acronym: rjsd
+mkd:
+  acronym: mkd
+vvs:
+  acronym: vvs
+ipfb:
+  acronym: ipfb
+abp:
+  acronym: abp
+pds:
+  acronym: pds

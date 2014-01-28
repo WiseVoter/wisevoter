@@ -1,0 +1,72 @@
+---
+layout: politician2
+title: Sudhish L K
+profile: 
+  party: dmdk
+  constituency: kallakurichi
+  state: tamil nadu
+  education: 
+    level: graduate
+    details: b.a university of madras- 2004
+  photo: 
+  sex: 
+  caste: 
+  religion: 
+  current-office-title: 
+  crime-accusation-instances: 0
+  date-of-birth: 1969
+  profession: 
+  networth: 
+    assets:  6,04,91,937
+    liabilities:  80,43,273
+  pan: 
+  twitter: 
+  website: 
+  youtube-interview: 
+  wikipedia: 
+
+candidature: 
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8985
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=8985&scan=original
+    expenses-link: 
+    constituency: kallakurichi 
+    party: dmdk
+    criminal-cases: 0
+    assets:  6,04,91,937
+    liabilities:  80,43,273
+    result:  
+
+crime-record: 
+
+date: 
+version: 0.0.5
+tags: 
+---
+##Summary
+
+
+##Education
+{% include education.html %}
+
+
+##Political Career
+{% include political-career.html %}
+
+
+##Criminal Record
+{% include criminal-record.html %}
+
+
+##Personal Wealth
+{% include personal-wealth.html %}
+
+
+##Public Office Track Record
+{% include track-record.html %}
+
+
+##References
+
+
+{% include references.html %}

@@ -1,0 +1,72 @@
+---
+layout: politician2
+title: Jaiprakash Narayan Bhande
+profile: 
+  party: ind
+  constituency: thane
+  state: maharashtra
+  education: 
+    level: 
+    details: literate abhyang mardan tantradnyan, tilak maharashtra vidhyapith, pune
+  photo: 
+  sex: 
+  caste: 
+  religion: 
+  current-office-title: 
+  crime-accusation-instances: 0
+  date-of-birth: 1976
+  profession: 
+  networth: 
+    assets:  3,01,97,486
+    liabilities:  43,37,480
+  pan: 
+  twitter: 
+  website: 
+  youtube-interview: 
+  wikipedia: 
+
+candidature: 
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5360
+    affidavit-link: 
+    expenses-link: 
+    constituency: thane 
+    party: ind
+    criminal-cases: 0
+    assets:  3,01,97,486
+    liabilities:  43,37,480
+    result:  
+
+crime-record: 
+
+date: 
+version: 0.0.5
+tags: 
+---
+##Summary
+
+
+##Education
+{% include education.html %}
+
+
+##Political Career
+{% include political-career.html %}
+
+
+##Criminal Record
+{% include criminal-record.html %}
+
+
+##Personal Wealth
+{% include personal-wealth.html %}
+
+
+##Public Office Track Record
+{% include track-record.html %}
+
+
+##References
+
+
+{% include references.html %}
