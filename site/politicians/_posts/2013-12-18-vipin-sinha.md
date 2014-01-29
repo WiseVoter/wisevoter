@@ -1,23 +1,23 @@
 ---
 layout: politician2
-title: G Hari
+title: Vipin Sinha
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: CGVP
+  constituency: korba
+  state: chhattisgarh
   education: 
-    level: Post Graduate
-    details: mba
+    level: Graduate
+    details: professional b.sc,  d.h.m.s
   photo: 
   sex: 
   caste: 
   religion: 
   current-office-title: 
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1970
   profession: 
   networth: 
-    assets: 80,000
+    assets: 10,000
     liabilities: 
   pan: 
   twitter: 
@@ -27,24 +27,14 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
-    criminal-cases: 0
-    assets: 80,000
-    liabilities: 
-    result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=598
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: korba 
+    party: CGVP
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 10,000
+    liabilities: 
     result:  
 
 crime-record: 

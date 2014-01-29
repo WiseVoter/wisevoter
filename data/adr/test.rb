@@ -21,12 +21,15 @@ module WVCrawler
 		attr_accessor :ls2009candidates
 
 		def initialize(start_url, use_mongo = true)
+			# TODO: write code to ensure images and politicians2 folder exists
 			self.log = Logger.new(STDOUT)
 			self.log.level = Logger::INFO
 			self.ls2009candidates = Array.new
 			self.start_url = start_url
 			@parties = {}
+			@parties_file = "./parties.yml"
 			@constituencies = {}
+			@constituencies_file = "./constituencies.yml"
 			@use_mongo = use_mongo
 			if @use_mongo
 				@mongo_client = MongoClient.new("127.0.0.1", 27017)
@@ -96,6 +99,11 @@ module WVCrawler
 			return ""
 		end
 
+		def load_constituencies_and_parties
+			@constituencies = YAML.load_file(@constituencies_file)
+			@parties = YAML.load_file(@parties_file)
+		end
+
 		def load_candidate_links
 			if @use_mongo
 				doc = @coll.find_one(:url => "http://www.adr.org")
@@ -112,11 +120,19 @@ module WVCrawler
 					content = doc["content"]				
 				else
 					content = open(url, opts).read
+					# word characters seeping in to UTF-8
+					content = content.gsub('\x97','')
+					content = content.gsub('\xAC','')
+					content = content.gsub('\x96','-')
 					persist_to_mongo({:url => url, :content => content})
 				end
 				return Nokogiri::HTML(content)				
 			else
 				content = open(url, opts).read
+				# word characters seeping in to UTF-8
+				content = content.gsub('\x97','')
+				content = content.gsub('\xAC','')
+				content = content.gsub('\x96','-')
 				return Nokogiri::HTML(content)
 			end
 		end
@@ -130,7 +146,6 @@ module WVCrawler
 
 			title = page.css("h2.main-title").text
 			p["title"], is_winner = clean_title(title)
-			p["title"] = p["title"].titleize.gsub("\"",'')
 
 			p["profile"] = {}
 			p["candidature"] = Array.new
@@ -146,19 +161,21 @@ module WVCrawler
 			p["profile"]["constituency"], p["profile"]["state"] = clean_constituency(constituency)
 			p["candidature"][0]["constituency"] = p["profile"]["constituency"]
 
-			constituency_val = p["profile"]["constituencies"]
+			constituency_val = p["profile"]["constituency"]
 			# orthogonal work to setup constituency in class variable
-			if !@constituencies[constituency_val]
+			if @constituencies[constituency_val].nil?
 				@constituencies[constituency_val] = {}
 			end
 			@constituencies[constituency_val]["state"] = p["profile"]["state"]
-			if !@constituencies[constituency_val]["loksabha-2009"]
+			if @constituencies[constituency_val]["loksabha-2009"].nil?
 				@constituencies[constituency_val]["loksabha-2009"] = {}
+				@constituencies[constituency_val]["loksabha-2009"]["candidate-name"] = []
 			end
-			@constituencies[constituency_val]["loksabha-2009"]["candidate-name"] = p["profile"]["title"]
+			@constituencies[constituency_val]["loksabha-2009"]["candidate-name"].push p["title"]
 			
 			party = page.css("div.grid_2").text
 			p["profile"]["party"], p["profile"]["date-of-birth"] = clean_party(party)
+			p["profile"]["party"] = p["profile"]["party"].upcase
 			party_val = p["profile"]["party"]
 			p["candidature"][0]["party"] = party_val
 			if !@parties[party_val]
@@ -168,7 +185,7 @@ module WVCrawler
 
 			education = page.css(".left-margin").text
 			level, details = clean_education(education)
-			p["profile"]["education-level"] = level
+			p["profile"]["education-level"] = level.titleize
 			p["profile"]["education-details"] = details
 
 			networth = page.css(".fullWidth").text
@@ -215,7 +232,7 @@ module WVCrawler
 								end
 								if ix == 2
 									criminal_record += (t.text + ".")
-									crime["details"] = t.text
+									crime["details"] = clean_crime_text(t.text)
 								end	
 							end
 							criminal_record += "\n"
@@ -242,7 +259,7 @@ module WVCrawler
 								end
 								if ix == 2
 									criminal_record += (t.text + ".")
-									crime["details"] = t.text
+									crime["details"] = clean_crime_text(t.text)
 								end	
 							end
 							criminal_record += "\n"
@@ -281,7 +298,6 @@ module WVCrawler
 			photo = ""
 
 			cn = candidate_name.titleize.gsub("\"",'').gsub(" ","_")
-			puts cn
 			url = "http://en.wikipedia.com/wiki/" + cn
 	
 			begin
@@ -291,6 +307,7 @@ module WVCrawler
 			end
 	
 			wikilink = url
+			print "+"
 
 			# get summary section
 			paras = page.css("p")
@@ -332,7 +349,7 @@ module WVCrawler
 				reference+= "\n"
 				reference+= ref
 			end
-
+=begin
 			# get wikipedia picture
 			pic = page.at_css("table[class='infobox vcard'] a[class='image']")
 			if pic
@@ -340,12 +357,12 @@ module WVCrawler
 				# download image
 				if img_src
 					uri = "http:" + img_src
-					puts "saving ", uri
+					print "i"
 					File.open("./images/"+ cn + File.extname(uri),'wb'){ |f| f.write(open(uri).read) }
 					photo = cn + File.extname(uri)
 				end
 			end
-			
+=end			
 			return wikilink, summary, reference, photo
 		end
 
@@ -355,8 +372,8 @@ module WVCrawler
 
 			#load the last profile
 			date = "2013-12-18-"
-			fn = date + profilehash['title'].gsub(" ","-").downcase + ".md"
-			puts fn
+			fn = date + profilehash["title"].gsub(" ","-").downcase + ".md"
+			print "."
 =begin			
 			oldprofile = File.read("../output/politician-name.md")
 			if oldprofile =~ /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m
@@ -406,11 +423,16 @@ module WVCrawler
 		end
 
 		def write_constituency_and_state
-			File.open("./constitiencies.yml",'wb'){ |f| f.write(@constituencies.to_yaml) }
-			File.open("./parties.yml",'wb'){ |f| f.write(@parties.to_yaml) }
+			File.open(@constituencies_file,'wb'){ |f| f.write(@constituencies.to_yaml) }
+			File.open(@parties_file,'wb'){ |f| f.write(@parties.to_yaml) }
 		end
 
 	private
+		def clean_crime_text(content)
+			content = content.strip.gsub(/[\n\r]/,'').gsub('&',"and")
+			return "#{content}"
+		end
+
 		def clean_education(content)
 			content = content.strip.downcase
 			level = ""
@@ -426,11 +448,19 @@ module WVCrawler
 			content = content.strip.downcase
 			assets = ""
 			liabilities = ""
-			if content =~ /(.*?(assets):\s*(rs|rs.)\s*(\S+)\s+.*)/
-				assets = $4.strip
+			if content =~ /(.*?(assets):\s*(rs|rs.)\s*([\d\,]+)\s+.*)/
+				if $4.nil?
+					assets = ""
+				else
+					assets = $4.strip					
+				end
 			end
-			if content =~ /(.*?(liabilities):\s*(rs|rs.)\s*(\S+)\s+.*)/
-				liabilities = $4.strip
+			if content =~ /(.*?(liabilities):\s*(rs|rs.)\s*([\d\,]+)\s+.*)/
+				if $4.nil?
+					liabilities = ""
+				else
+					liabilities = $4.strip
+				end
 			end
 			return assets, liabilities
 		end
@@ -452,24 +482,24 @@ module WVCrawler
 		end
 
 		def clean_title(content)
-			content = content.strip.downcase
+			content = content.gsub("S/O","son of").gsub(/[\/!'`\"\']/,"").strip.downcase
 			is_winner = false
-			if content =~ /(shri|shri\.|smt|smt\.|smti|smti\.|lt|lt\.|lt\. col|lt. col\.|dr|dr\.|adv|adv\.|.*?)(.*)(\(winner\))(.*)/
+			if content =~ /(comrade|shri\.|shri|sri\.|sri|smt\.|smt|smti\.|smti|lt\. col\.|lt col\.|lt\.|lt|dr\.|dr|prof\.|prof|adv\.|adv|.*?)(.*)(\(winner\))(.*)/
 					is_winner = true
 					return $2.strip, is_winner
 			end
-			if content =~ /(shri|shri\.|smt|smt\.|smti|smti\.|lt|lt\.|lt\. col|lt. col\.|dr|dr\.|adv|adv\.|.*?)(.*)/
+			if content =~ /(comrade|shri\.|shri|sri\.|sri|smt\.|smt|smti\.|smti|lt\. col\.|lt col\.|lt\.|lt|dr\.|dr|prof\.|prof|adv\.|adv|.*?)(.*)/
 				return $2.strip, is_winner
 			end
 			return content, is_winner
 		end
 
 		def clean_constituency(content)
-			content = content.strip.downcase
+			content = content.strip.downcase.gsub('&',"and")
 			if content =~ /(.*)(\((.*?)\))/
-				return $1.strip, $3.strip.downcase
+				return $1.strip.titleize, $3.strip.titleize
 			end
-			return content, ""
+			return content.titleize, ""
 		end
 
 		def get_header(hn, content)
@@ -542,7 +572,8 @@ module WVCrawler
 					candidature = {}
 					candidature["election"] = election_name.titleize
 					candidature["myneta-link"] = complete_url(election["adr-url"])
-					candidature["constituency"] = election["constituency"].downcase
+					c = election["constituency"].downcase.gsub(':',' ').gsub('&',"and")
+					candidature["constituency"] = c.titleize
 					candidature["party"] = election["party_code"].downcase
 					candidature["criminal-cases"] = election["number_of_cases"]
 					candidature["assets"] = election["total_assets"]
@@ -554,31 +585,57 @@ module WVCrawler
 			return s, candidatures
 		end
 
-		def yml_to_md_table(yml)
-
-		end
-
 	end #class
 end #module
 
 c = WVCrawler::Crawler.new "http://myneta.info/ls2009/"
-#c.start
+#c.start 
 #c.printcrawllist
-c.spit_profile(c.crawl_candidate(c.load_candidate_link_random))
-=begin
+#c.spit_profile(c.crawl_candidate(c.load_candidate_link_random))
+begin
+retry_links = YAML.load_file("./retry.yml")
+new_retry_links = []
+begin
+shoud_retry = false
+#c.load_constituencies_and_parties
 c.load_candidate_links.each_with_index do |l, idx|
 	begin
-		c.spit_profile(c.crawl_candidate(l))
-	rescue
-		print "Last Index Was:#{idx}"
+		if shoud_retry
+			if retry_links.include? idx
+				#puts l
+				c.spit_profile(c.crawl_candidate(l))
+			end
+		else
+			c.spit_profile(c.crawl_candidate(l))
+		end
+	rescue => e
+		print "#{idx}"
+		#puts "\n", e.message
+		puts e.backtrace
+		new_retry_links.push idx
 	end
 end
-=end
+end
+puts "Retry List", new_retry_links.to_yaml
 c.write_constituency_and_state
-
+end
 
 # Test Cases
 #--------------
+#crash & in details
+#c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=7889"))
+#crash
+#c.spit_profile(c.crawl_candidate(""))
+#crash utf-8 0x\97
+#c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=7637"))
+#Crash utf-8 0x\97
+#c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=7601"))
+#Crash - invalid word characters seeping in to utf-8 0x\96
+#c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=269"))
+#Crash - make sure images folder exist
+#c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=8211"))
+#Crash - weird space character in currency for networth
+#c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=4962"))
 #c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=5128"))
 # crime candidate
 #c.spit_profile(c.crawl_candidate("http://myneta.info/ls2009/candidate.php?candidate_id=8675"))

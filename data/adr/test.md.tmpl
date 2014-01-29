@@ -42,7 +42,7 @@ crime-record: {% for item in crime-records %}
     ipc: {{item.ipc}}
     details: {{item.details}} {% endfor %}
 
-date: {{date | default "01-26-2014"}}
+date: {{date | default: "2014-01-28"}}
 version: {{version | default: '0.0.5' }}
 tags: {{tags}}
 ---

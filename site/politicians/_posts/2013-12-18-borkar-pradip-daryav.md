@@ -1,24 +1,24 @@
 ---
 layout: politician2
-title: G Hari
+title: Borkar Pradip Daryav
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: RP
+  constituency: ramtek
+  state: maharashtra
   education: 
     level: Post Graduate
-    details: mba
+    details: m.sc (1984)
   photo: 
   sex: 
   caste: 
   religion: 
   current-office-title: 
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1961
   profession: 
   networth: 
-    assets: 80,000
-    liabilities: 
+    assets: 26,15,000
+    liabilities: 5,00,000
   pan: 
   twitter: 
   website: 
@@ -27,24 +27,14 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
-    criminal-cases: 0
-    assets: 80,000
-    liabilities: 
-    result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1960
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: ramtek 
+    party: RP
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 26,15,000
+    liabilities: 5,00,000
     result:  
 
 crime-record: 

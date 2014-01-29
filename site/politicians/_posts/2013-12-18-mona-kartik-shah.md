@@ -1,24 +1,24 @@
 ---
 layout: politician2
-title: G Hari
+title: Mona Kartik Shah
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: PRPI
+  constituency: mumbai south
+  state: maharashtra
   education: 
     level: Post Graduate
-    details: mba
+    details: diplomat of the national board at 1st  attempt in 1998 new delhi
   photo: 
   sex: 
   caste: 
   religion: 
   current-office-title: 
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1972
   profession: 
   networth: 
-    assets: 80,000
-    liabilities: 
+    assets: 5,71,98,060
+    liabilities: 2,21,703
   pan: 
   twitter: 
   website: 
@@ -27,24 +27,14 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
-    criminal-cases: 0
-    assets: 80,000
-    liabilities: 
-    result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5482
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: mumbai south 
+    party: PRPI
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 5,71,98,060
+    liabilities: 2,21,703
     result:  
 
 crime-record: 

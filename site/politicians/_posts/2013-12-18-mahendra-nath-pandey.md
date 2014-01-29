@@ -1,23 +1,23 @@
 ---
 layout: politician2
-title: G Hari
+title: Mahendra Nath Pandey
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: BJP
+  constituency: bhadohi
+  state: uttar pradesh
   education: 
-    level: Post Graduate
-    details: mba
+    level: 
+    details: doctorate b.h.u. varansi
   photo: 
   sex: 
   caste: 
   religion: 
   current-office-title: 
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1958
   profession: 
   networth: 
-    assets: 80,000
+    assets: 79,82,422
     liabilities: 
   pan: 
   twitter: 
@@ -27,24 +27,24 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
-    criminal-cases: 0
-    assets: 80,000
-    liabilities: 
-    result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4151
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: bhadohi 
+    party: BJP
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 79,82,422
+    liabilities: 
+    result:  
+  - election: Uttar Pradesh 2007
+    myneta-link: http://myneta.info//up2007/candidate.php?candidate_id=434
+    affidavit-link: 
+    expenses-link: 
+    constituency: saidpur 
+    party: bjp
+    criminal-cases: 0
+    assets: 22,82,508
+    liabilities: 58,000
     result:  
 
 crime-record: 

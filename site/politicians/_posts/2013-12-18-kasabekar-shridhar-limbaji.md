@@ -1,24 +1,24 @@
 ---
 layout: politician2
-title: G Hari
+title: Kasabekar Shridhar Limbaji
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: RSPS
+  constituency: solapur
+  state: maharashtra
   education: 
-    level: Post Graduate
-    details: mba
+    level: Graduate
+    details: professional b.com,l..,d.l.l.&w (1981-82).
   photo: 
   sex: 
   caste: 
   religion: 
   current-office-title: 
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1951
   profession: 
   networth: 
-    assets: 80,000
-    liabilities: 
+    assets: 10,22,756
+    liabilities: 9,400
   pan: 
   twitter: 
   website: 
@@ -27,24 +27,24 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
-    criminal-cases: 0
-    assets: 80,000
-    liabilities: 
-    result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3738
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: solapur 
+    party: RSPS
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 10,22,756
+    liabilities: 9,400
+    result:  
+  - election: Maharashtra 2009
+    myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=2756
+    affidavit-link: 
+    expenses-link: 
+    constituency: parvati 
+    party: ind
+    criminal-cases: 0
+    assets: 10,82,476
+    liabilities: 27,000
     result:  
 
 crime-record: 

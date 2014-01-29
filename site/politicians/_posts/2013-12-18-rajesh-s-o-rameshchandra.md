@@ -1,13 +1,13 @@
 ---
 layout: politician2
-title: G Hari
+title: Rajesh S O Rameshchandra
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: AD
+  constituency: jaunpur
+  state: uttar pradesh
   education: 
-    level: Post Graduate
-    details: mba
+    level: Graduate
+    details: ba , allahabad university
   photo: 
   sex: 
   caste: 
@@ -17,8 +17,8 @@ profile:
   date-of-birth: 1980
   profession: 
   networth: 
-    assets: 80,000
-    liabilities: 
+    assets: 2,97,000
+    liabilities: 50,000
   pan: 
   twitter: 
   website: 
@@ -27,24 +27,14 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
-    criminal-cases: 0
-    assets: 80,000
-    liabilities: 
-    result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4141
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: jaunpur 
+    party: AD
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 2,97,000
+    liabilities: 50,000
     result:  
 
 crime-record: 

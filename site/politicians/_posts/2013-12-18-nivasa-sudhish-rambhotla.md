@@ -1,23 +1,23 @@
 ---
 layout: politician2
-title: G Hari
+title: Nivasa Sudhish Rambhotla
 profile: 
-  party: PPOI
-  constituency: anantapur
+  party: TDP
+  constituency: secunderabad
   state: andhra pradesh
   education: 
     level: Post Graduate
-    details: mba
+    details: c.a (chartered accountant) b.com, llb
   photo: 
   sex: 
   caste: 
   religion: 
   current-office-title: 
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1970
   profession: 
   networth: 
-    assets: 80,000
+    assets: 17,88,33,380
     liabilities: 
   pan: 
   twitter: 
@@ -27,24 +27,14 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1038
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=1038&scan=original
+    expenses-link: http://myneta.info/expense.php?candidate_id=1038
+    constituency: secunderabad 
+    party: TDP
     criminal-cases: 0
-    assets: 80,000
+    assets: 17,88,33,380
     liabilities: 
-    result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
-    affidavit-link: 
-    expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
-    criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
     result:  
 
 crime-record: 

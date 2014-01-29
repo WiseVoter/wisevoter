@@ -1,23 +1,23 @@
 ---
 layout: politician2
-title: G Hari
+title: Thokchom Meinya
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: INC
+  constituency: inner manipur
+  state: manipur
   education: 
-    level: Post Graduate
-    details: mba
+    level: 
+    details: doctorate ph.d.-1983 osmana university,hydrabad.
   photo: 
   sex: 
   caste: 
   religion: 
-  current-office-title: 
+  current-office-title: Member of Parliament
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1952
   profession: 
   networth: 
-    assets: 80,000
+    assets: 16,39,200
     liabilities: 
   pan: 
   twitter: 
@@ -27,24 +27,24 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3811
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=3811&scan=original
+    expenses-link: http://myneta.info/expense.php?candidate_id=3811
+    constituency: inner manipur 
+    party: INC
     criminal-cases: 0
-    assets: 80,000
+    assets: 16,39,200
     liabilities: 
-    result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+    result: winner 
+  - election: Lok Sabha 2004
+    myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2700
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: inner manipur 
+    party: inc
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 11,07,278
+    liabilities: 80,660
     result:  
 
 crime-record: 

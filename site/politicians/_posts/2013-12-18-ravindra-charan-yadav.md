@@ -1,24 +1,24 @@
 ---
 layout: politician2
-title: G Hari
+title: Ravindra Charan Yadav
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: RJD
+  constituency: madhepura
+  state: bihar
   education: 
-    level: Post Graduate
-    details: mba
+    level: 
+    details: doctorate
   photo: 
   sex: 
   caste: 
   religion: 
   current-office-title: 
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1961
   profession: 
   networth: 
-    assets: 80,000
-    liabilities: 
+    assets: 49,07,846
+    liabilities: 30,36,801
   pan: 
   twitter: 
   website: 
@@ -27,24 +27,24 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4959
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=4959&scan=original
+    expenses-link: http://myneta.info/expense.php?candidate_id=4959
+    constituency: madhepura 
+    party: RJD
     criminal-cases: 0
-    assets: 80,000
-    liabilities: 
+    assets: 49,07,846
+    liabilities: 30,36,801
     result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+  - election: Bihar 2005
+    myneta-link: http://myneta.info//bih2005/candidate.php?candidate_id=222
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: kishanganj 
+    party: ind
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 23,26,831
+    liabilities: 0
     result:  
 
 crime-record: 

@@ -1,24 +1,24 @@
 ---
 layout: politician2
-title: G Hari
+title: Gen(Retd) Tejpal Singh Rawat P.V.S.M, V.S.M
 profile: 
-  party: PPOI
-  constituency: anantapur
-  state: andhra pradesh
+  party: BJP
+  constituency: garhwal
+  state: uttarakhand
   education: 
-    level: Post Graduate
-    details: mba
+    level: Graduate
+    details: professional post  dip loma  marketing  management   imm new delhi
   photo: 
   sex: 
   caste: 
   religion: 
   current-office-title: 
   crime-accusation-instances: 0
-  date-of-birth: 1980
+  date-of-birth: 1941
   profession: 
   networth: 
-    assets: 80,000
-    liabilities: 
+    assets: 74,93,957
+    liabilities: 6,76,882
   pan: 
   twitter: 
   website: 
@@ -27,24 +27,24 @@ profile:
 
 candidature: 
   - election: Lok Sabha 2009
-    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4348
-    affidavit-link: http://myneta.info/candidate.php?candidate_id=4348&scan=original
-    expenses-link: http://myneta.info/expense.php?candidate_id=4348
-    constituency: anantapur 
-    party: PPOI
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8241
+    affidavit-link: 
+    expenses-link: http://myneta.info/expense.php?candidate_id=8241
+    constituency: garhwal 
+    party: BJP
     criminal-cases: 0
-    assets: 80,000
-    liabilities: 
+    assets: 74,93,957
+    liabilities: 6,76,882
     result:  
-  - election: Andhra Pradesh Bye Election
-    myneta-link: http://myneta.info//apbye/candidate.php?candidate_id=268
+  - election: Uttarakhand  2007
+    myneta-link: http://myneta.info//utk07/candidate.php?candidate_id=83
     affidavit-link: 
     expenses-link: 
-    constituency: anantapur urban : bye election on 12-06-2012 
-    party: pyramid party of india
+    constituency: dhumakot - before bye-election 
+    party: inc
     criminal-cases: 0
-    assets: 31,92,000
-    liabilities: 7,80,000
+    assets: 50,86,812
+    liabilities: 6,40,000
     result:  
 
 crime-record: 
