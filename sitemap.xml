@@ -3,71 +3,1555 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
   <url>
     <loc>/</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>/articles.html</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/constituencies.html</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/issues.html</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/links.jsonp</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/parties.html</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/politicians.html</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/sitemap.xml</loc>
-    <lastmod>2014-01-27T13:00:45+00:00</lastmod>
+    <lastmod>2014-01-29T08:41:28+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   
   <url>
-    <loc>/politicians/jyotiraditya-madhavrao-scindia</loc>
-    <lastmod>2014-01-27T00:00:00+00:00</lastmod>
+    <loc>/politicians/yuvraj-anandraoji-bagde</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/yashwant-manohar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/y.-d.-singh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/vipin-sinha</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/vijay-bhave</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/vasantrao-jivanrao-more</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/vasanta-umre</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/upasha-bansi-taywade</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/umesh-kumar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/thokchom-meinya</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/tarun-mondal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/tara-nand-sada</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/surinder-singh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/surendar-kumar-khatri</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sukumar-ghosh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sukhdev-singh-chouhan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sudhir-hiraman-tayade</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sudarshan-lohar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/subhash-narhar-godse</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sridhara-udupa</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/soney-lal-patel</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sone-lal-patel</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sita-ram-sharma</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/siddharth-patil</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/shyam-singh-shakya</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/shivshankar-dattatray-shinde</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/shivakant-ojha</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/shivajirao-kisanrao-shendge</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/shiv-ram</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/shakeel-ahmad-khan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/shaikh-shahid-ahmed</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/shafiqur-rahman-barq</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/satyanarayan-jatiya</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sarbananda-sonowal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sanjeev-ganesh-naik</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sanjay-singh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sanjay-jaiswal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/samson-borang</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/sailen-ghosh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/s.s.salve-retired-judge</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/s.p.-singh-baghel</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/romen-ch.-borthakur</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rilanthung-odyuo</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/renu-jogi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ravindra-pralhadrao-patil</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ravindra-charan-yadav</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ravinder-kumar-s-o-sohan-lal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ravinder-kumar-s-o-munna-lal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ratul-gogoi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rattan-singh-ajnala</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ramsajivan-kawdu-lilhare</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ramrao-pandurang-waghmare</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ramesh-chhabra</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ramachandran</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ram-ambesh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ram</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/raju-mangeshkar-alias-rajendra-naik</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/raju-c.</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rajiv-gulabrao-jamthe</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rajinder-kumar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rajesh-s-o-ramyagya</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rajesh-s-o-rameshchandra</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rajesh-kumar-mishra</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rajender-sharma</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/rajan-sushant</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/raghuveera-reddy</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/radhakrishna.k.e</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/radha</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/r.-narayanan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/premshankar-sharma</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/pravin-madhukar-thakur</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/pranab-kr.-das</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/prakash-jaiswal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/pankaj-gosomi-%28pandit%29</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/paladugu-chandramouli</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/pal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/paban-singh-ghatowar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/p.-pookunhikoya</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/p-l-premi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasan.-l</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasan-v.r</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasan-k</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasan%2C-v.</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasa-t.o.</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasa-sudhish-rambhotla</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasa-reddy-kesari</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasa-rao-thotakura</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasa-p.</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivasa-babu-m</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivas-poojary</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nivas</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nitin-keshorao-chavan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nilesh-narayan-rane</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/neeraj</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/neelambari-ramesh-mandape</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/natkar-ramrao-sheshrao</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/narottam-mishra</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/narendra-keshav-sawaikar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/narayan-singh-jantwal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/narayan-gauswami</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/nagendra-dutt-jagoodi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/n.-k.-yadav</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/n.-k.-p.-nair</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/murli-manohar-joshi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/muneshwar-prasad</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mukund-vitthalrao-khaire</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mukesh-mehrotra</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/monazir-hassan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mona-kartik-shah</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mohd.-salman-rashidi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mohanlal-damor</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/milind-bharti</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/milan-mukherjee</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/matin-ahmed</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/manoj-kumar-s-o-ram-naresh-singh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/manoj-kumar-s-o-hanumant-prasad</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/manda-jagannath</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/malati-roy</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mahesh-yadav-%28aman-gandhi%29</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mahesh-rathi-chanakya</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mahendra-nath-pandey</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mahendra-dada-shinde</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mahadeo-abaji-pol</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/mahadeepak-singh-shakya</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/m.c.rajanna</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/m.-s.-mohan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/m.-d.-patil</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/leo-rebello</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/laxminarayan-pandey</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/lavu-rathaiah</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/kuldeep-rai-sharma</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/krishnadhar-singh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/kishore-chandra-maharana</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/khuresh-prasad-sharma</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/khan-mohmad-atif</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/khaleel-basha</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/kashiram-mahadu-dhondagha</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/kasabekar-shridhar-limbaji</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/kanta-kumar-jena</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/kale-kalyan-vaijinathrao</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/k.padmarajan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/k.p.-muthukoya</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/k.-p.paluskar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/k-v-thomas</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/k-francis-george</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/jayanta-rongpi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/jayalakshmi.h.g</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/javed-akhthar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/jagdish-mukhi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/hidayathur-rehaman-khan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/hemantkumar-rambhau-mahure</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/hazare-dattabhau-krushnarao</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/hari-singh-azad</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/hareram-acharay</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/gowri-shankara-swamigalu</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/gongaram-kaul</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/goju-paul</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/gen%28retd%29-tejpal-singh-rawat-p.v.s.m%2C-v.s.m</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/ganpat</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/gangaram-jogchand</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/gajanan-sadashiv-kawale</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/g.-vivekanand</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/g-balachandran</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/firdoaus-a--s-firdaus-rana</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/fesor-khandale-kawdu-tulshiram</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/fakir-mohan-naik</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/e-keshamma</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dupare-ulhas-shalikram</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dudhgaonkar-ganeshrao-nagorao</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dr.-bhaskarrao-mahadeorao-jibhakate</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/diwaker-tejaswi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dilawar-mirza-baig</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dhirendra-nath-das</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dhar.s</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dhananjay-shamlalji-rajabhoj</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/deshmukh-kishanrao-janardhanrao-%28ex-serviceman%29</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/daya-ram-dayal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dandiya-khaja-peera</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/daljit-singh-cheema</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/dadmal-prabhakar-mahaguji</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/d.r.venkatesh-gowda</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/d.-sravan-kumar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/colonel-suresh-babu</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/col.%28retd%29-duserla-paparaidu</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/chintaman-navsha-vanga</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/chandragiri-rajamouli</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/chandra-sekhar-sahu</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/c.s.-baheti</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/brijesh-mani-tripathi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/borkar-pradip-daryav</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/bhola-pandey</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/bhim-singh</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/bhausaheb-anil-belure-%28bemblikar%29</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/bharat-paik</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/bharat-chandra-mandal</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/bhagirath-prasad</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/bansode-sharad-maruti</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/baliram</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/bal-mukund-singh-maravi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/babu-ramadhin-ahirwar</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/babasaheb-sadshivrao-gaikwad</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/b.m.kaushik</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/b.d.-chavhan</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/awdesh-kumar-gupta</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/arun-kr.-sarma</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/arava.-venkata-subba-reddy</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/anita-yadav</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/anburaaj.r.k.</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/anand-matwale-%28guruji%29</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/akhilesh-kumar-dwivedi</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/akhilesh-das-gupta</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/akalpita-paranjpe</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/a.-raghunath-varma</loc>
+    <lastmod>2014-01-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -94,281 +1578,15 @@
   </url>
   
   <url>
-    <loc>/politicians/yalangi-ramesh</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
+    <loc>/politicians/g-hari</loc>
+    <lastmod>2013-12-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/politicians/venkata-ramana-babu-pilla</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/smti-r-s-uma-bharathy</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-vakiath-valappil-khalid</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-tapan-kumar-bepari</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-t-ali</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-pradeep-kumar-ekka</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-p-r-ganeshan</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-n-k-p-nair</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-m-s-mohan</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-kuldeep-rai-sharma</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/shri-bishnu-pada-ray</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/sabbam-hari</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/rathod-sadashiv-naik</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/ramesh-rathod</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/pulamarasetti-venkata-ramana</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/pothula-prameela-devi</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/pathala-satya-rao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/p-v-chakravarthi</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/nookarapu-surya-prakasa-rao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/nanda-gopal-gandham</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/n-ramdas</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/masram-nago-rao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/masa-ramadasu</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/kotnak-ramesh</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/kirla-appa-rao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/kiran-kumar-binepe</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/k-uma-maheswara-rao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/g-v-harsha-kumar</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/g-sampada-rao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/g-pentanna</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/doctor-g-varalakshmi</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/boyina-nageswara-rao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/bheemisetti-nageswararao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/bheemarao-ramji-muthabathula</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/banka-sahadev</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/allu-aravind</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/akumarthi-suryanarayana</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/ade-tukaram</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/a-laxman-rao</loc>
-    <lastmod>2013-08-12T00:00:00+00:00</lastmod>
+    <loc>/politicians/dnyanesh-wakudkar</loc>
+    <lastmod>2013-12-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
