@@ -432,8 +432,8 @@ module WVCrawler
 
 	private
 		def clean_crime_text(content)
-			content = content.strip.gsub(/[\n\r]/,'').gsub('&',"and")
-			return "#{content}"
+			content = content.strip.gsub(/[\n\r]/,'. ').gsub('&',"and").gsub(":",'-')
+			return "\"#{content}\""
 		end
 
 		def clean_education(content)
@@ -485,7 +485,7 @@ module WVCrawler
 		end
 
 		def clean_title(content)
-			content = content.gsub("S/O","son of").gsub(/[\/!'`\"\']/,"").strip.downcase
+			content = content.gsub("S/O","son of").gsub(/[\/!'`"']/,"").strip.downcase
 			is_winner = false
 			if content =~ /(comrade|shri\.|shri|sri\.|sri|smt\.|smt|smti\.|smti|lt\. col\.|lt col\.|lt\.|lt|dr\.|dr|prof\.|prof|adv\.|adv|.*?)(.*)(\(winner\))(.*)/
 					is_winner = true
