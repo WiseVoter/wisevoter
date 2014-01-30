@@ -50,7 +50,7 @@ nav ul {
 }
 nav a {
     display: block;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -131,7 +131,6 @@ nav a:hover {
 
 .profile-content h2 {
   /* from cheat.markdunkley.com */
-  font-family: helvetica, arial, sans-serif;
   letter-spacing: -1px;
   text-decoration: underline;
   padding-bottom: 5px;
@@ -147,6 +146,7 @@ nav a:hover {
   font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
   letter-spacing: 1px;
   padding-bottom: 15px;
+  margin-top: 5px; /* spacing */
   font-size: 16px;
 }
 

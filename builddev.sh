@@ -73,3 +73,7 @@ sudo chmod +x /etc/update-motd.d/95-wisevoter
 # might have to do following after it -
 # sudo ldconfig
 # sudo /etc/init.d/vboxadd setup
+
+# increase the amount of inotigy watchers
+# https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+# echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
