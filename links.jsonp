@@ -2756,31 +2756,6 @@ callback([
   } ,
 
   {
-    "text": "Adilabad",
-    "href": "//constituencies/Adilabad"
-  } ,
-
-  {
-    "text": "Amalapuram",
-    "href": "//constituencies/Amalapuram"
-  } ,
-
-  {
-    "text": "Andaman & Nicobar Islands",
-    "href": "//constituencies/Andaman-%26-Nicobar-Islands"
-  } ,
-
-  {
-    "text": "BJP",
-    "href": "//parties/BJP"
-  } ,
-
-  {
-    "text": "INC",
-    "href": "//parties/INC"
-  } ,
-
-  {
     "text": "Abdul Rasheed Shaikh",
     "href": "//politicians/abdul-rasheed-shaikh"
   } ,
@@ -40118,6 +40093,2936 @@ callback([
   {
     "text": "zubair alam",
     "href": "//politicians/zubair-alam"
+  } ,
+
+  {
+    "text": "ABJS",
+    "href": "//parties/ABJS"
+  } ,
+
+  {
+    "text": "ABMSD",
+    "href": "//parties/ABMSD"
+  } ,
+
+  {
+    "text": "AIMIM",
+    "href": "//parties/AIMIM"
+  } ,
+
+  {
+    "text": "AJBP",
+    "href": "//parties/AJBP"
+  } ,
+
+  {
+    "text": "ANC",
+    "href": "//parties/ANC"
+  } ,
+
+  {
+    "text": "BCUF",
+    "href": "//parties/BCUF"
+  } ,
+
+  {
+    "text": "BJP",
+    "href": "//parties/BJP"
+  } ,
+
+  {
+    "text": "BJS",
+    "href": "//parties/BJS"
+  } ,
+
+  {
+    "text": "BPD",
+    "href": "//parties/BPD"
+  } ,
+
+  {
+    "text": "BSP",
+    "href": "//parties/BSP"
+  } ,
+
+  {
+    "text": "BSSP",
+    "href": "//parties/BSSP"
+  } ,
+
+  {
+    "text": "CPI",
+    "href": "//parties/CPI"
+  } ,
+
+  {
+    "text": "CPM",
+    "href": "//parties/CPM"
+  } ,
+
+  {
+    "text": "GRIP",
+    "href": "//parties/GRIP"
+  } ,
+
+  {
+    "text": "IJP",
+    "href": "//parties/IJP"
+  } ,
+
+  {
+    "text": "INC",
+    "href": "//parties/INC"
+  } ,
+
+  {
+    "text": "IND",
+    "href": "//parties/IND"
+  } ,
+
+  {
+    "text": "JD",
+    "href": "//parties/JD"
+  } ,
+
+  {
+    "text": "JDP",
+    "href": "//parties/JDP"
+  } ,
+
+  {
+    "text": "LSP",
+    "href": "//parties/LSP"
+  } ,
+
+  {
+    "text": "MANP",
+    "href": "//parties/MANP"
+  } ,
+
+  {
+    "text": "MCPI",
+    "href": "//parties/MCPI"
+  } ,
+
+  {
+    "text": "MUL",
+    "href": "//parties/MUL"
+  } ,
+
+  {
+    "text": "NCP",
+    "href": "//parties/NCP"
+  } ,
+
+  {
+    "text": "PBHP",
+    "href": "//parties/PBHP"
+  } ,
+
+  {
+    "text": "PPOI",
+    "href": "//parties/PPOI"
+  } ,
+
+  {
+    "text": "PRAP",
+    "href": "//parties/PRAP"
+  } ,
+
+  {
+    "text": "RDHP",
+    "href": "//parties/RDHP"
+  } ,
+
+  {
+    "text": "RDMP",
+    "href": "//parties/RDMP"
+  } ,
+
+  {
+    "text": "RJD",
+    "href": "//parties/RJD"
+  } ,
+
+  {
+    "text": "RKSP",
+    "href": "//parties/RKSP"
+  } ,
+
+  {
+    "text": "RP",
+    "href": "//parties/RP"
+  } ,
+
+  {
+    "text": "RPC",
+    "href": "//parties/RPC"
+  } ,
+
+  {
+    "text": "RPI",
+    "href": "//parties/RPI"
+  } ,
+
+  {
+    "text": "RRS",
+    "href": "//parties/RRS"
+  } ,
+
+  {
+    "text": "SAP",
+    "href": "//parties/SAP"
+  } ,
+
+  {
+    "text": "SJP",
+    "href": "//parties/SJP"
+  } ,
+
+  {
+    "text": "SP",
+    "href": "//parties/SP"
+  } ,
+
+  {
+    "text": "TDP",
+    "href": "//parties/TDP"
+  } ,
+
+  {
+    "text": "TNPP",
+    "href": "//parties/TNPP"
+  } ,
+
+  {
+    "text": "TPPP",
+    "href": "//parties/TPPP"
+  } ,
+
+  {
+    "text": "TRS",
+    "href": "//parties/TRS"
+  } ,
+
+  {
+    "text": "UWF",
+    "href": "//parties/UWF"
+  } ,
+
+  {
+    "text": "VHS",
+    "href": "//parties/VHS"
+  } ,
+
+  {
+    "text": "Adilabad",
+    "href": "//constituencies/adilabad"
+  } ,
+
+  {
+    "text": "Agra",
+    "href": "//constituencies/agra"
+  } ,
+
+  {
+    "text": "Ahmedabad East",
+    "href": "//constituencies/ahmedabad-east"
+  } ,
+
+  {
+    "text": "Ahmedabad West",
+    "href": "//constituencies/ahmedabad-west"
+  } ,
+
+  {
+    "text": "Ahmednagar",
+    "href": "//constituencies/ahmednagar"
+  } ,
+
+  {
+    "text": "Ajmer",
+    "href": "//constituencies/ajmer"
+  } ,
+
+  {
+    "text": "Akbarpur",
+    "href": "//constituencies/akbarpur"
+  } ,
+
+  {
+    "text": "Akola",
+    "href": "//constituencies/akola"
+  } ,
+
+  {
+    "text": "Alappuzha",
+    "href": "//constituencies/alappuzha"
+  } ,
+
+  {
+    "text": "Alathur",
+    "href": "//constituencies/alathur"
+  } ,
+
+  {
+    "text": "Aligarh",
+    "href": "//constituencies/aligarh"
+  } ,
+
+  {
+    "text": "Alipurduars",
+    "href": "//constituencies/alipurduars"
+  } ,
+
+  {
+    "text": "Allahabad",
+    "href": "//constituencies/allahabad"
+  } ,
+
+  {
+    "text": "Almora",
+    "href": "//constituencies/almora"
+  } ,
+
+  {
+    "text": "Alwar",
+    "href": "//constituencies/alwar"
+  } ,
+
+  {
+    "text": "Amalapuram",
+    "href": "//constituencies/amalapuram"
+  } ,
+
+  {
+    "text": "Ambala",
+    "href": "//constituencies/ambala"
+  } ,
+
+  {
+    "text": "Ambedkar Nagar",
+    "href": "//constituencies/ambedkar-nagar"
+  } ,
+
+  {
+    "text": "Amethi",
+    "href": "//constituencies/amethi"
+  } ,
+
+  {
+    "text": "Amravati",
+    "href": "//constituencies/amravati"
+  } ,
+
+  {
+    "text": "Amreli",
+    "href": "//constituencies/amreli"
+  } ,
+
+  {
+    "text": "Amritsar",
+    "href": "//constituencies/amritsar"
+  } ,
+
+  {
+    "text": "Amroha",
+    "href": "//constituencies/amroha"
+  } ,
+
+  {
+    "text": "Anakapalle",
+    "href": "//constituencies/anakapalle"
+  } ,
+
+  {
+    "text": "Anand",
+    "href": "//constituencies/anand"
+  } ,
+
+  {
+    "text": "Anandpur Sahib",
+    "href": "//constituencies/anandpur-sahib"
+  } ,
+
+  {
+    "text": "Anantapur",
+    "href": "//constituencies/anantapur"
+  } ,
+
+  {
+    "text": "Anantnag",
+    "href": "//constituencies/anantnag"
+  } ,
+
+  {
+    "text": "Andaman And Nicobar Islands",
+    "href": "//constituencies/andaman-and-nicobar-islands"
+  } ,
+
+  {
+    "text": "Aonla",
+    "href": "//constituencies/aonla"
+  } ,
+
+  {
+    "text": "Arakkonam",
+    "href": "//constituencies/arakkonam"
+  } ,
+
+  {
+    "text": "Araku",
+    "href": "//constituencies/araku"
+  } ,
+
+  {
+    "text": "Arambag",
+    "href": "//constituencies/arambag"
+  } ,
+
+  {
+    "text": "Arani",
+    "href": "//constituencies/arani"
+  } ,
+
+  {
+    "text": "Araria",
+    "href": "//constituencies/araria"
+  } ,
+
+  {
+    "text": "Arrah",
+    "href": "//constituencies/arrah"
+  } ,
+
+  {
+    "text": "Arunachal East",
+    "href": "//constituencies/arunachal-east"
+  } ,
+
+  {
+    "text": "Arunachal West",
+    "href": "//constituencies/arunachal-west"
+  } ,
+
+  {
+    "text": "Asansol",
+    "href": "//constituencies/asansol"
+  } ,
+
+  {
+    "text": "Aska",
+    "href": "//constituencies/aska"
+  } ,
+
+  {
+    "text": "Attingal",
+    "href": "//constituencies/attingal"
+  } ,
+
+  {
+    "text": "Aurangabad",
+    "href": "//constituencies/aurangabad"
+  } ,
+
+  {
+    "text": "Autonomous District",
+    "href": "//constituencies/autonomous-district"
+  } ,
+
+  {
+    "text": "Azamgarh",
+    "href": "//constituencies/azamgarh"
+  } ,
+
+  {
+    "text": "Badaun",
+    "href": "//constituencies/badaun"
+  } ,
+
+  {
+    "text": "Bagalkot",
+    "href": "//constituencies/bagalkot"
+  } ,
+
+  {
+    "text": "Baghpat",
+    "href": "//constituencies/baghpat"
+  } ,
+
+  {
+    "text": "Baharampur",
+    "href": "//constituencies/baharampur"
+  } ,
+
+  {
+    "text": "Bahraich",
+    "href": "//constituencies/bahraich"
+  } ,
+
+  {
+    "text": "Balaghat",
+    "href": "//constituencies/balaghat"
+  } ,
+
+  {
+    "text": "Balasore",
+    "href": "//constituencies/balasore"
+  } ,
+
+  {
+    "text": "Ballia",
+    "href": "//constituencies/ballia"
+  } ,
+
+  {
+    "text": "Balurghat",
+    "href": "//constituencies/balurghat"
+  } ,
+
+  {
+    "text": "Banaskantha",
+    "href": "//constituencies/banaskantha"
+  } ,
+
+  {
+    "text": "Banda",
+    "href": "//constituencies/banda"
+  } ,
+
+  {
+    "text": "Bangalore Central",
+    "href": "//constituencies/bangalore-central"
+  } ,
+
+  {
+    "text": "Bangalore North",
+    "href": "//constituencies/bangalore-north"
+  } ,
+
+  {
+    "text": "Bangalore Rural",
+    "href": "//constituencies/bangalore-rural"
+  } ,
+
+  {
+    "text": "Bangalore South",
+    "href": "//constituencies/bangalore-south"
+  } ,
+
+  {
+    "text": "Bangaon",
+    "href": "//constituencies/bangaon"
+  } ,
+
+  {
+    "text": "Banka",
+    "href": "//constituencies/banka"
+  } ,
+
+  {
+    "text": "Banka (Bye-Election On 24-06-2010)",
+    "href": "//constituencies/banka-%28bye-election-on-24-06-2010%29"
+  } ,
+
+  {
+    "text": "Bankura",
+    "href": "//constituencies/bankura"
+  } ,
+
+  {
+    "text": "Bansgaon",
+    "href": "//constituencies/bansgaon"
+  } ,
+
+  {
+    "text": "Banswara",
+    "href": "//constituencies/banswara"
+  } ,
+
+  {
+    "text": "Bapatla",
+    "href": "//constituencies/bapatla"
+  } ,
+
+  {
+    "text": "Barabanki",
+    "href": "//constituencies/barabanki"
+  } ,
+
+  {
+    "text": "Baramati",
+    "href": "//constituencies/baramati"
+  } ,
+
+  {
+    "text": "Baramulla",
+    "href": "//constituencies/baramulla"
+  } ,
+
+  {
+    "text": "Barasat",
+    "href": "//constituencies/barasat"
+  } ,
+
+  {
+    "text": "Bardhaman-Durgapur",
+    "href": "//constituencies/bardhaman-durgapur"
+  } ,
+
+  {
+    "text": "Bardhaman Purba",
+    "href": "//constituencies/bardhaman-purba"
+  } ,
+
+  {
+    "text": "Bardoli",
+    "href": "//constituencies/bardoli"
+  } ,
+
+  {
+    "text": "Bareilly",
+    "href": "//constituencies/bareilly"
+  } ,
+
+  {
+    "text": "Bargarh",
+    "href": "//constituencies/bargarh"
+  } ,
+
+  {
+    "text": "Barmer",
+    "href": "//constituencies/barmer"
+  } ,
+
+  {
+    "text": "Barpeta",
+    "href": "//constituencies/barpeta"
+  } ,
+
+  {
+    "text": "Barrackpur",
+    "href": "//constituencies/barrackpur"
+  } ,
+
+  {
+    "text": "Basirhat",
+    "href": "//constituencies/basirhat"
+  } ,
+
+  {
+    "text": "Bastar",
+    "href": "//constituencies/bastar"
+  } ,
+
+  {
+    "text": "Basti",
+    "href": "//constituencies/basti"
+  } ,
+
+  {
+    "text": "Bathinda",
+    "href": "//constituencies/bathinda"
+  } ,
+
+  {
+    "text": "Beed",
+    "href": "//constituencies/beed"
+  } ,
+
+  {
+    "text": "Begusarai",
+    "href": "//constituencies/begusarai"
+  } ,
+
+  {
+    "text": "Belgaum",
+    "href": "//constituencies/belgaum"
+  } ,
+
+  {
+    "text": "Bellary",
+    "href": "//constituencies/bellary"
+  } ,
+
+  {
+    "text": "Berhampur",
+    "href": "//constituencies/berhampur"
+  } ,
+
+  {
+    "text": "Betul",
+    "href": "//constituencies/betul"
+  } ,
+
+  {
+    "text": "Bhadohi",
+    "href": "//constituencies/bhadohi"
+  } ,
+
+  {
+    "text": "Bhadrak",
+    "href": "//constituencies/bhadrak"
+  } ,
+
+  {
+    "text": "Bhagalpur",
+    "href": "//constituencies/bhagalpur"
+  } ,
+
+  {
+    "text": "Bhandara-Gondiya",
+    "href": "//constituencies/bhandara-gondiya"
+  } ,
+
+  {
+    "text": "Bharatpur",
+    "href": "//constituencies/bharatpur"
+  } ,
+
+  {
+    "text": "Bharuch",
+    "href": "//constituencies/bharuch"
+  } ,
+
+  {
+    "text": "Bhavnagar",
+    "href": "//constituencies/bhavnagar"
+  } ,
+
+  {
+    "text": "Bhilwara",
+    "href": "//constituencies/bhilwara"
+  } ,
+
+  {
+    "text": "Bhind",
+    "href": "//constituencies/bhind"
+  } ,
+
+  {
+    "text": "Bhiwandi",
+    "href": "//constituencies/bhiwandi"
+  } ,
+
+  {
+    "text": "Bhiwani-Mahendragarh",
+    "href": "//constituencies/bhiwani-mahendragarh"
+  } ,
+
+  {
+    "text": "Bhongir",
+    "href": "//constituencies/bhongir"
+  } ,
+
+  {
+    "text": "Bhopal",
+    "href": "//constituencies/bhopal"
+  } ,
+
+  {
+    "text": "Bhubaneswar",
+    "href": "//constituencies/bhubaneswar"
+  } ,
+
+  {
+    "text": "Bidar",
+    "href": "//constituencies/bidar"
+  } ,
+
+  {
+    "text": "Bijapur",
+    "href": "//constituencies/bijapur"
+  } ,
+
+  {
+    "text": "Bijnor",
+    "href": "//constituencies/bijnor"
+  } ,
+
+  {
+    "text": "Bikaner",
+    "href": "//constituencies/bikaner"
+  } ,
+
+  {
+    "text": "Bilaspur",
+    "href": "//constituencies/bilaspur"
+  } ,
+
+  {
+    "text": "Birbhum",
+    "href": "//constituencies/birbhum"
+  } ,
+
+  {
+    "text": "Bishnupur",
+    "href": "//constituencies/bishnupur"
+  } ,
+
+  {
+    "text": "Bolangir",
+    "href": "//constituencies/bolangir"
+  } ,
+
+  {
+    "text": "Bolpur",
+    "href": "//constituencies/bolpur"
+  } ,
+
+  {
+    "text": "Bulandshahr",
+    "href": "//constituencies/bulandshahr"
+  } ,
+
+  {
+    "text": "Buldhana",
+    "href": "//constituencies/buldhana"
+  } ,
+
+  {
+    "text": "Buxar",
+    "href": "//constituencies/buxar"
+  } ,
+
+  {
+    "text": "Chalakudy",
+    "href": "//constituencies/chalakudy"
+  } ,
+
+  {
+    "text": "Chamarajanagar",
+    "href": "//constituencies/chamarajanagar"
+  } ,
+
+  {
+    "text": "Chandauli",
+    "href": "//constituencies/chandauli"
+  } ,
+
+  {
+    "text": "Chandigarh",
+    "href": "//constituencies/chandigarh"
+  } ,
+
+  {
+    "text": "Chandni Chowk",
+    "href": "//constituencies/chandni-chowk"
+  } ,
+
+  {
+    "text": "Chandrapur",
+    "href": "//constituencies/chandrapur"
+  } ,
+
+  {
+    "text": "Chatra",
+    "href": "//constituencies/chatra"
+  } ,
+
+  {
+    "text": "Chennai Central",
+    "href": "//constituencies/chennai-central"
+  } ,
+
+  {
+    "text": "Chennai North",
+    "href": "//constituencies/chennai-north"
+  } ,
+
+  {
+    "text": "Chennai South",
+    "href": "//constituencies/chennai-south"
+  } ,
+
+  {
+    "text": "Chevella",
+    "href": "//constituencies/chevella"
+  } ,
+
+  {
+    "text": "Chhindwara",
+    "href": "//constituencies/chhindwara"
+  } ,
+
+  {
+    "text": "Chhota Udaipur",
+    "href": "//constituencies/chhota-udaipur"
+  } ,
+
+  {
+    "text": "Chidambaram",
+    "href": "//constituencies/chidambaram"
+  } ,
+
+  {
+    "text": "Chikkballapur",
+    "href": "//constituencies/chikkballapur"
+  } ,
+
+  {
+    "text": "Chikkodi",
+    "href": "//constituencies/chikkodi"
+  } ,
+
+  {
+    "text": "Chitradurga",
+    "href": "//constituencies/chitradurga"
+  } ,
+
+  {
+    "text": "Chittoor",
+    "href": "//constituencies/chittoor"
+  } ,
+
+  {
+    "text": "Chittorgarh",
+    "href": "//constituencies/chittorgarh"
+  } ,
+
+  {
+    "text": "Churu",
+    "href": "//constituencies/churu"
+  } ,
+
+  {
+    "text": "Coimbatore",
+    "href": "//constituencies/coimbatore"
+  } ,
+
+  {
+    "text": "Coochbehar",
+    "href": "//constituencies/coochbehar"
+  } ,
+
+  {
+    "text": "Cuddalore",
+    "href": "//constituencies/cuddalore"
+  } ,
+
+  {
+    "text": "Cuttack",
+    "href": "//constituencies/cuttack"
+  } ,
+
+  {
+    "text": "Dadra And Nagar Haveli",
+    "href": "//constituencies/dadra-and-nagar-haveli"
+  } ,
+
+  {
+    "text": "Dahod",
+    "href": "//constituencies/dahod"
+  } ,
+
+  {
+    "text": "Dakshina Kannada",
+    "href": "//constituencies/dakshina-kannada"
+  } ,
+
+  {
+    "text": "Daman And Diu",
+    "href": "//constituencies/daman-and-diu"
+  } ,
+
+  {
+    "text": "Damoh",
+    "href": "//constituencies/damoh"
+  } ,
+
+  {
+    "text": "Darbhanga",
+    "href": "//constituencies/darbhanga"
+  } ,
+
+  {
+    "text": "Darjeeling",
+    "href": "//constituencies/darjeeling"
+  } ,
+
+  {
+    "text": "Dausa",
+    "href": "//constituencies/dausa"
+  } ,
+
+  {
+    "text": "Davanagere",
+    "href": "//constituencies/davanagere"
+  } ,
+
+  {
+    "text": "Deoria",
+    "href": "//constituencies/deoria"
+  } ,
+
+  {
+    "text": "Dewas",
+    "href": "//constituencies/dewas"
+  } ,
+
+  {
+    "text": "Dhanbad",
+    "href": "//constituencies/dhanbad"
+  } ,
+
+  {
+    "text": "Dhar",
+    "href": "//constituencies/dhar"
+  } ,
+
+  {
+    "text": "Dharmapuri",
+    "href": "//constituencies/dharmapuri"
+  } ,
+
+  {
+    "text": "Dharwad",
+    "href": "//constituencies/dharwad"
+  } ,
+
+  {
+    "text": "Dhaurahra",
+    "href": "//constituencies/dhaurahra"
+  } ,
+
+  {
+    "text": "Dhenkanal",
+    "href": "//constituencies/dhenkanal"
+  } ,
+
+  {
+    "text": "Dhubri",
+    "href": "//constituencies/dhubri"
+  } ,
+
+  {
+    "text": "Dhule",
+    "href": "//constituencies/dhule"
+  } ,
+
+  {
+    "text": "Diamond Harbour",
+    "href": "//constituencies/diamond-harbour"
+  } ,
+
+  {
+    "text": "Dibrugarh",
+    "href": "//constituencies/dibrugarh"
+  } ,
+
+  {
+    "text": "Dindigul",
+    "href": "//constituencies/dindigul"
+  } ,
+
+  {
+    "text": "Dindori",
+    "href": "//constituencies/dindori"
+  } ,
+
+  {
+    "text": "Domariyaganj",
+    "href": "//constituencies/domariyaganj"
+  } ,
+
+  {
+    "text": "Dum Dum",
+    "href": "//constituencies/dum-dum"
+  } ,
+
+  {
+    "text": "Dumka",
+    "href": "//constituencies/dumka"
+  } ,
+
+  {
+    "text": "Durg",
+    "href": "//constituencies/durg"
+  } ,
+
+  {
+    "text": "East Delhi",
+    "href": "//constituencies/east-delhi"
+  } ,
+
+  {
+    "text": "Eluru",
+    "href": "//constituencies/eluru"
+  } ,
+
+  {
+    "text": "Ernakulam",
+    "href": "//constituencies/ernakulam"
+  } ,
+
+  {
+    "text": "Erode",
+    "href": "//constituencies/erode"
+  } ,
+
+  {
+    "text": "Etah",
+    "href": "//constituencies/etah"
+  } ,
+
+  {
+    "text": "Etawah",
+    "href": "//constituencies/etawah"
+  } ,
+
+  {
+    "text": "Faizabad",
+    "href": "//constituencies/faizabad"
+  } ,
+
+  {
+    "text": "Faridabad",
+    "href": "//constituencies/faridabad"
+  } ,
+
+  {
+    "text": "Faridkot",
+    "href": "//constituencies/faridkot"
+  } ,
+
+  {
+    "text": "Farrukhabad",
+    "href": "//constituencies/farrukhabad"
+  } ,
+
+  {
+    "text": "Fatehgarh Sahib",
+    "href": "//constituencies/fatehgarh-sahib"
+  } ,
+
+  {
+    "text": "Fatehpur",
+    "href": "//constituencies/fatehpur"
+  } ,
+
+  {
+    "text": "Fatehpur Sikri",
+    "href": "//constituencies/fatehpur-sikri"
+  } ,
+
+  {
+    "text": "Firozabad",
+    "href": "//constituencies/firozabad"
+  } ,
+
+  {
+    "text": "Firozabad (Bye-Election On 7-11-2009)",
+    "href": "//constituencies/firozabad-%28bye-election-on-7-11-2009%29"
+  } ,
+
+  {
+    "text": "Firozpur",
+    "href": "//constituencies/firozpur"
+  } ,
+
+  {
+    "text": "Gadchiroli-Chimur",
+    "href": "//constituencies/gadchiroli-chimur"
+  } ,
+
+  {
+    "text": "Gandhinagar",
+    "href": "//constituencies/gandhinagar"
+  } ,
+
+  {
+    "text": "Ganganagar",
+    "href": "//constituencies/ganganagar"
+  } ,
+
+  {
+    "text": "Garhwal",
+    "href": "//constituencies/garhwal"
+  } ,
+
+  {
+    "text": "Gauhati",
+    "href": "//constituencies/gauhati"
+  } ,
+
+  {
+    "text": "Gautam Budhha Nagar",
+    "href": "//constituencies/gautam-budhha-nagar"
+  } ,
+
+  {
+    "text": "Gaya",
+    "href": "//constituencies/gaya"
+  } ,
+
+  {
+    "text": "Ghatal",
+    "href": "//constituencies/ghatal"
+  } ,
+
+  {
+    "text": "Ghaziabad",
+    "href": "//constituencies/ghaziabad"
+  } ,
+
+  {
+    "text": "Ghazipur",
+    "href": "//constituencies/ghazipur"
+  } ,
+
+  {
+    "text": "Ghosi",
+    "href": "//constituencies/ghosi"
+  } ,
+
+  {
+    "text": "Giridih",
+    "href": "//constituencies/giridih"
+  } ,
+
+  {
+    "text": "Godda",
+    "href": "//constituencies/godda"
+  } ,
+
+  {
+    "text": "Gonda",
+    "href": "//constituencies/gonda"
+  } ,
+
+  {
+    "text": "Gopalganj",
+    "href": "//constituencies/gopalganj"
+  } ,
+
+  {
+    "text": "Gorakhpur",
+    "href": "//constituencies/gorakhpur"
+  } ,
+
+  {
+    "text": "Gulbarga",
+    "href": "//constituencies/gulbarga"
+  } ,
+
+  {
+    "text": "Guna",
+    "href": "//constituencies/guna"
+  } ,
+
+  {
+    "text": "Guntur",
+    "href": "//constituencies/guntur"
+  } ,
+
+  {
+    "text": "Gurdaspur",
+    "href": "//constituencies/gurdaspur"
+  } ,
+
+  {
+    "text": "Gurgaon",
+    "href": "//constituencies/gurgaon"
+  } ,
+
+  {
+    "text": "Gwalior",
+    "href": "//constituencies/gwalior"
+  } ,
+
+  {
+    "text": "Hajipur",
+    "href": "//constituencies/hajipur"
+  } ,
+
+  {
+    "text": "Hamirpur",
+    "href": "//constituencies/hamirpur"
+  } ,
+
+  {
+    "text": "Hardoi",
+    "href": "//constituencies/hardoi"
+  } ,
+
+  {
+    "text": "Hardwar",
+    "href": "//constituencies/hardwar"
+  } ,
+
+  {
+    "text": "Hassan",
+    "href": "//constituencies/hassan"
+  } ,
+
+  {
+    "text": "Hathras",
+    "href": "//constituencies/hathras"
+  } ,
+
+  {
+    "text": "Hatkanangle",
+    "href": "//constituencies/hatkanangle"
+  } ,
+
+  {
+    "text": "Haveri",
+    "href": "//constituencies/haveri"
+  } ,
+
+  {
+    "text": "Hazaribagh",
+    "href": "//constituencies/hazaribagh"
+  } ,
+
+  {
+    "text": "Hindupur",
+    "href": "//constituencies/hindupur"
+  } ,
+
+  {
+    "text": "Hingoli",
+    "href": "//constituencies/hingoli"
+  } ,
+
+  {
+    "text": "Hisar",
+    "href": "//constituencies/hisar"
+  } ,
+
+  {
+    "text": "Hooghly",
+    "href": "//constituencies/hooghly"
+  } ,
+
+  {
+    "text": "Hoshangabad",
+    "href": "//constituencies/hoshangabad"
+  } ,
+
+  {
+    "text": "Hoshiarpur",
+    "href": "//constituencies/hoshiarpur"
+  } ,
+
+  {
+    "text": "Howrah",
+    "href": "//constituencies/howrah"
+  } ,
+
+  {
+    "text": "Hyderabad",
+    "href": "//constituencies/hyderabad"
+  } ,
+
+  {
+    "text": "Idukki",
+    "href": "//constituencies/idukki"
+  } ,
+
+  {
+    "text": "Indore",
+    "href": "//constituencies/indore"
+  } ,
+
+  {
+    "text": "Inner Manipur",
+    "href": "//constituencies/inner-manipur"
+  } ,
+
+  {
+    "text": "Jabalpur",
+    "href": "//constituencies/jabalpur"
+  } ,
+
+  {
+    "text": "Jadavpur",
+    "href": "//constituencies/jadavpur"
+  } ,
+
+  {
+    "text": "Jagatsinghpur",
+    "href": "//constituencies/jagatsinghpur"
+  } ,
+
+  {
+    "text": "Jahanabad",
+    "href": "//constituencies/jahanabad"
+  } ,
+
+  {
+    "text": "Jaipur",
+    "href": "//constituencies/jaipur"
+  } ,
+
+  {
+    "text": "Jaipur Rural",
+    "href": "//constituencies/jaipur-rural"
+  } ,
+
+  {
+    "text": "Jajpur",
+    "href": "//constituencies/jajpur"
+  } ,
+
+  {
+    "text": "Jalandhar",
+    "href": "//constituencies/jalandhar"
+  } ,
+
+  {
+    "text": "Jalaun",
+    "href": "//constituencies/jalaun"
+  } ,
+
+  {
+    "text": "Jalgaon",
+    "href": "//constituencies/jalgaon"
+  } ,
+
+  {
+    "text": "Jalna",
+    "href": "//constituencies/jalna"
+  } ,
+
+  {
+    "text": "Jalore",
+    "href": "//constituencies/jalore"
+  } ,
+
+  {
+    "text": "Jalpaiguri",
+    "href": "//constituencies/jalpaiguri"
+  } ,
+
+  {
+    "text": "Jammu",
+    "href": "//constituencies/jammu"
+  } ,
+
+  {
+    "text": "Jamnagar",
+    "href": "//constituencies/jamnagar"
+  } ,
+
+  {
+    "text": "Jamshedpur",
+    "href": "//constituencies/jamshedpur"
+  } ,
+
+  {
+    "text": "Jamui",
+    "href": "//constituencies/jamui"
+  } ,
+
+  {
+    "text": "Jangipur",
+    "href": "//constituencies/jangipur"
+  } ,
+
+  {
+    "text": "Janjgir-Champa",
+    "href": "//constituencies/janjgir-champa"
+  } ,
+
+  {
+    "text": "Jaunpur",
+    "href": "//constituencies/jaunpur"
+  } ,
+
+  {
+    "text": "Jaynagar",
+    "href": "//constituencies/jaynagar"
+  } ,
+
+  {
+    "text": "Jhalawar-Baran",
+    "href": "//constituencies/jhalawar-baran"
+  } ,
+
+  {
+    "text": "Jhanjharpur",
+    "href": "//constituencies/jhanjharpur"
+  } ,
+
+  {
+    "text": "Jhansi",
+    "href": "//constituencies/jhansi"
+  } ,
+
+  {
+    "text": "Jhargram",
+    "href": "//constituencies/jhargram"
+  } ,
+
+  {
+    "text": "Jhunjhunu",
+    "href": "//constituencies/jhunjhunu"
+  } ,
+
+  {
+    "text": "Jodhpur",
+    "href": "//constituencies/jodhpur"
+  } ,
+
+  {
+    "text": "Jorhat",
+    "href": "//constituencies/jorhat"
+  } ,
+
+  {
+    "text": "Junagadh",
+    "href": "//constituencies/junagadh"
+  } ,
+
+  {
+    "text": "Kachchh",
+    "href": "//constituencies/kachchh"
+  } ,
+
+  {
+    "text": "Kadapa",
+    "href": "//constituencies/kadapa"
+  } ,
+
+  {
+    "text": "Kairana",
+    "href": "//constituencies/kairana"
+  } ,
+
+  {
+    "text": "Kaiserganj",
+    "href": "//constituencies/kaiserganj"
+  } ,
+
+  {
+    "text": "Kakinada",
+    "href": "//constituencies/kakinada"
+  } ,
+
+  {
+    "text": "Kalahandi",
+    "href": "//constituencies/kalahandi"
+  } ,
+
+  {
+    "text": "Kaliabor",
+    "href": "//constituencies/kaliabor"
+  } ,
+
+  {
+    "text": "Kallakurichi",
+    "href": "//constituencies/kallakurichi"
+  } ,
+
+  {
+    "text": "Kalyan",
+    "href": "//constituencies/kalyan"
+  } ,
+
+  {
+    "text": "Kancheepuram",
+    "href": "//constituencies/kancheepuram"
+  } ,
+
+  {
+    "text": "Kandhamal",
+    "href": "//constituencies/kandhamal"
+  } ,
+
+  {
+    "text": "Kangra",
+    "href": "//constituencies/kangra"
+  } ,
+
+  {
+    "text": "Kanker",
+    "href": "//constituencies/kanker"
+  } ,
+
+  {
+    "text": "Kannauj",
+    "href": "//constituencies/kannauj"
+  } ,
+
+  {
+    "text": "Kanniyakumari",
+    "href": "//constituencies/kanniyakumari"
+  } ,
+
+  {
+    "text": "Kannur",
+    "href": "//constituencies/kannur"
+  } ,
+
+  {
+    "text": "Kanpur",
+    "href": "//constituencies/kanpur"
+  } ,
+
+  {
+    "text": "Kanthi",
+    "href": "//constituencies/kanthi"
+  } ,
+
+  {
+    "text": "Karakat",
+    "href": "//constituencies/karakat"
+  } ,
+
+  {
+    "text": "Karauli-Dholpur",
+    "href": "//constituencies/karauli-dholpur"
+  } ,
+
+  {
+    "text": "Karimganj",
+    "href": "//constituencies/karimganj"
+  } ,
+
+  {
+    "text": "Karimnagar",
+    "href": "//constituencies/karimnagar"
+  } ,
+
+  {
+    "text": "Karnal",
+    "href": "//constituencies/karnal"
+  } ,
+
+  {
+    "text": "Karur",
+    "href": "//constituencies/karur"
+  } ,
+
+  {
+    "text": "Kasaragod",
+    "href": "//constituencies/kasaragod"
+  } ,
+
+  {
+    "text": "Katihar",
+    "href": "//constituencies/katihar"
+  } ,
+
+  {
+    "text": "Kaushambi",
+    "href": "//constituencies/kaushambi"
+  } ,
+
+  {
+    "text": "Kendrapara",
+    "href": "//constituencies/kendrapara"
+  } ,
+
+  {
+    "text": "Keonjhar",
+    "href": "//constituencies/keonjhar"
+  } ,
+
+  {
+    "text": "Khadoor Sahib",
+    "href": "//constituencies/khadoor-sahib"
+  } ,
+
+  {
+    "text": "Khagaria",
+    "href": "//constituencies/khagaria"
+  } ,
+
+  {
+    "text": "Khajuraho",
+    "href": "//constituencies/khajuraho"
+  } ,
+
+  {
+    "text": "Khammam",
+    "href": "//constituencies/khammam"
+  } ,
+
+  {
+    "text": "Khandwa",
+    "href": "//constituencies/khandwa"
+  } ,
+
+  {
+    "text": "Khargone",
+    "href": "//constituencies/khargone"
+  } ,
+
+  {
+    "text": "Kheda",
+    "href": "//constituencies/kheda"
+  } ,
+
+  {
+    "text": "Kheri",
+    "href": "//constituencies/kheri"
+  } ,
+
+  {
+    "text": "Khunti",
+    "href": "//constituencies/khunti"
+  } ,
+
+  {
+    "text": "Kishanganj",
+    "href": "//constituencies/kishanganj"
+  } ,
+
+  {
+    "text": "Kodarma",
+    "href": "//constituencies/kodarma"
+  } ,
+
+  {
+    "text": "Kokrajhar",
+    "href": "//constituencies/kokrajhar"
+  } ,
+
+  {
+    "text": "Kolar",
+    "href": "//constituencies/kolar"
+  } ,
+
+  {
+    "text": "Kolhapur",
+    "href": "//constituencies/kolhapur"
+  } ,
+
+  {
+    "text": "Kolkata Dakshin",
+    "href": "//constituencies/kolkata-dakshin"
+  } ,
+
+  {
+    "text": "Kolkata Uttar",
+    "href": "//constituencies/kolkata-uttar"
+  } ,
+
+  {
+    "text": "Kollam",
+    "href": "//constituencies/kollam"
+  } ,
+
+  {
+    "text": "Koppal",
+    "href": "//constituencies/koppal"
+  } ,
+
+  {
+    "text": "Koraput",
+    "href": "//constituencies/koraput"
+  } ,
+
+  {
+    "text": "Korba",
+    "href": "//constituencies/korba"
+  } ,
+
+  {
+    "text": "Kota",
+    "href": "//constituencies/kota"
+  } ,
+
+  {
+    "text": "Kottayam",
+    "href": "//constituencies/kottayam"
+  } ,
+
+  {
+    "text": "Kozhikode",
+    "href": "//constituencies/kozhikode"
+  } ,
+
+  {
+    "text": "Krishnagiri",
+    "href": "//constituencies/krishnagiri"
+  } ,
+
+  {
+    "text": "Krishnanagar",
+    "href": "//constituencies/krishnanagar"
+  } ,
+
+  {
+    "text": "Kurnool",
+    "href": "//constituencies/kurnool"
+  } ,
+
+  {
+    "text": "Kurukshetra",
+    "href": "//constituencies/kurukshetra"
+  } ,
+
+  {
+    "text": "Kushi Nagar",
+    "href": "//constituencies/kushi-nagar"
+  } ,
+
+  {
+    "text": "Ladakh",
+    "href": "//constituencies/ladakh"
+  } ,
+
+  {
+    "text": "Lakhimpur",
+    "href": "//constituencies/lakhimpur"
+  } ,
+
+  {
+    "text": "Lakshadweep",
+    "href": "//constituencies/lakshadweep"
+  } ,
+
+  {
+    "text": "Lalganj",
+    "href": "//constituencies/lalganj"
+  } ,
+
+  {
+    "text": "Latur",
+    "href": "//constituencies/latur"
+  } ,
+
+  {
+    "text": "Lohardaga",
+    "href": "//constituencies/lohardaga"
+  } ,
+
+  {
+    "text": "Lucknow",
+    "href": "//constituencies/lucknow"
+  } ,
+
+  {
+    "text": "Ludhiana",
+    "href": "//constituencies/ludhiana"
+  } ,
+
+  {
+    "text": "Machhlishahr",
+    "href": "//constituencies/machhlishahr"
+  } ,
+
+  {
+    "text": "Machilipatnam",
+    "href": "//constituencies/machilipatnam"
+  } ,
+
+  {
+    "text": "Madha",
+    "href": "//constituencies/madha"
+  } ,
+
+  {
+    "text": "Madhepura",
+    "href": "//constituencies/madhepura"
+  } ,
+
+  {
+    "text": "Madhubani",
+    "href": "//constituencies/madhubani"
+  } ,
+
+  {
+    "text": "Madurai",
+    "href": "//constituencies/madurai"
+  } ,
+
+  {
+    "text": "Mahabubabad",
+    "href": "//constituencies/mahabubabad"
+  } ,
+
+  {
+    "text": "Maharajganj",
+    "href": "//constituencies/maharajganj"
+  } ,
+
+  {
+    "text": "Mahasamund",
+    "href": "//constituencies/mahasamund"
+  } ,
+
+  {
+    "text": "Mahbubnagar",
+    "href": "//constituencies/mahbubnagar"
+  } ,
+
+  {
+    "text": "Mahesana",
+    "href": "//constituencies/mahesana"
+  } ,
+
+  {
+    "text": "Mainpuri",
+    "href": "//constituencies/mainpuri"
+  } ,
+
+  {
+    "text": "Malappuram",
+    "href": "//constituencies/malappuram"
+  } ,
+
+  {
+    "text": "Maldaha Dakshin",
+    "href": "//constituencies/maldaha-dakshin"
+  } ,
+
+  {
+    "text": "Maldaha Uttar",
+    "href": "//constituencies/maldaha-uttar"
+  } ,
+
+  {
+    "text": "Malkajgiri",
+    "href": "//constituencies/malkajgiri"
+  } ,
+
+  {
+    "text": "Mandi",
+    "href": "//constituencies/mandi"
+  } ,
+
+  {
+    "text": "Mandla",
+    "href": "//constituencies/mandla"
+  } ,
+
+  {
+    "text": "Mandsour",
+    "href": "//constituencies/mandsour"
+  } ,
+
+  {
+    "text": "Mandya",
+    "href": "//constituencies/mandya"
+  } ,
+
+  {
+    "text": "Mangaldoi",
+    "href": "//constituencies/mangaldoi"
+  } ,
+
+  {
+    "text": "Mathura",
+    "href": "//constituencies/mathura"
+  } ,
+
+  {
+    "text": "Mathurapur",
+    "href": "//constituencies/mathurapur"
+  } ,
+
+  {
+    "text": "Maval",
+    "href": "//constituencies/maval"
+  } ,
+
+  {
+    "text": "Mavelikkara",
+    "href": "//constituencies/mavelikkara"
+  } ,
+
+  {
+    "text": "Mayiladuthurai",
+    "href": "//constituencies/mayiladuthurai"
+  } ,
+
+  {
+    "text": "Mayurbhanj",
+    "href": "//constituencies/mayurbhanj"
+  } ,
+
+  {
+    "text": "Medak",
+    "href": "//constituencies/medak"
+  } ,
+
+  {
+    "text": "Medinipur",
+    "href": "//constituencies/medinipur"
+  } ,
+
+  {
+    "text": "Meerut",
+    "href": "//constituencies/meerut"
+  } ,
+
+  {
+    "text": "Mirzapur",
+    "href": "//constituencies/mirzapur"
+  } ,
+
+  {
+    "text": "Misrikh",
+    "href": "//constituencies/misrikh"
+  } ,
+
+  {
+    "text": "Mizoram",
+    "href": "//constituencies/mizoram"
+  } ,
+
+  {
+    "text": "Mohanlalganj",
+    "href": "//constituencies/mohanlalganj"
+  } ,
+
+  {
+    "text": "Moradabad",
+    "href": "//constituencies/moradabad"
+  } ,
+
+  {
+    "text": "Morena",
+    "href": "//constituencies/morena"
+  } ,
+
+  {
+    "text": "Mumbai North",
+    "href": "//constituencies/mumbai-north"
+  } ,
+
+  {
+    "text": "Mumbai North Central",
+    "href": "//constituencies/mumbai-north-central"
+  } ,
+
+  {
+    "text": "Mumbai North East",
+    "href": "//constituencies/mumbai-north-east"
+  } ,
+
+  {
+    "text": "Mumbai North West",
+    "href": "//constituencies/mumbai-north-west"
+  } ,
+
+  {
+    "text": "Mumbai South",
+    "href": "//constituencies/mumbai-south"
+  } ,
+
+  {
+    "text": "Mumbai South Central",
+    "href": "//constituencies/mumbai-south-central"
+  } ,
+
+  {
+    "text": "Munger",
+    "href": "//constituencies/munger"
+  } ,
+
+  {
+    "text": "Murshidabad",
+    "href": "//constituencies/murshidabad"
+  } ,
+
+  {
+    "text": "Muzaffarnagar",
+    "href": "//constituencies/muzaffarnagar"
+  } ,
+
+  {
+    "text": "Muzaffarpur",
+    "href": "//constituencies/muzaffarpur"
+  } ,
+
+  {
+    "text": "Mysore",
+    "href": "//constituencies/mysore"
+  } ,
+
+  {
+    "text": "Nabarangpur",
+    "href": "//constituencies/nabarangpur"
+  } ,
+
+  {
+    "text": "Nagaland",
+    "href": "//constituencies/nagaland"
+  } ,
+
+  {
+    "text": "Nagapattinam",
+    "href": "//constituencies/nagapattinam"
+  } ,
+
+  {
+    "text": "Nagarkurnool",
+    "href": "//constituencies/nagarkurnool"
+  } ,
+
+  {
+    "text": "Nagaur",
+    "href": "//constituencies/nagaur"
+  } ,
+
+  {
+    "text": "Nagina",
+    "href": "//constituencies/nagina"
+  } ,
+
+  {
+    "text": "Nagpur",
+    "href": "//constituencies/nagpur"
+  } ,
+
+  {
+    "text": "Nainital-Udhamsingh Nagar",
+    "href": "//constituencies/nainital-udhamsingh-nagar"
+  } ,
+
+  {
+    "text": "Nalanda",
+    "href": "//constituencies/nalanda"
+  } ,
+
+  {
+    "text": "Nalgonda",
+    "href": "//constituencies/nalgonda"
+  } ,
+
+  {
+    "text": "Namakkal",
+    "href": "//constituencies/namakkal"
+  } ,
+
+  {
+    "text": "Nanded",
+    "href": "//constituencies/nanded"
+  } ,
+
+  {
+    "text": "Nandurbar",
+    "href": "//constituencies/nandurbar"
+  } ,
+
+  {
+    "text": "Nandyal",
+    "href": "//constituencies/nandyal"
+  } ,
+
+  {
+    "text": "Narasaraopet",
+    "href": "//constituencies/narasaraopet"
+  } ,
+
+  {
+    "text": "Narsapuram",
+    "href": "//constituencies/narsapuram"
+  } ,
+
+  {
+    "text": "Nashik",
+    "href": "//constituencies/nashik"
+  } ,
+
+  {
+    "text": "Navsari",
+    "href": "//constituencies/navsari"
+  } ,
+
+  {
+    "text": "Nawada",
+    "href": "//constituencies/nawada"
+  } ,
+
+  {
+    "text": "Nellore",
+    "href": "//constituencies/nellore"
+  } ,
+
+  {
+    "text": "New Delhi",
+    "href": "//constituencies/new-delhi"
+  } ,
+
+  {
+    "text": "Nilgiris",
+    "href": "//constituencies/nilgiris"
+  } ,
+
+  {
+    "text": "Nizamabad",
+    "href": "//constituencies/nizamabad"
+  } ,
+
+  {
+    "text": "North East Delhi",
+    "href": "//constituencies/north-east-delhi"
+  } ,
+
+  {
+    "text": "North Goa",
+    "href": "//constituencies/north-goa"
+  } ,
+
+  {
+    "text": "North West Delhi",
+    "href": "//constituencies/north-west-delhi"
+  } ,
+
+  {
+    "text": "Nowgong",
+    "href": "//constituencies/nowgong"
+  } ,
+
+  {
+    "text": "Ongole",
+    "href": "//constituencies/ongole"
+  } ,
+
+  {
+    "text": "Osmanabad",
+    "href": "//constituencies/osmanabad"
+  } ,
+
+  {
+    "text": "Outer Manipur",
+    "href": "//constituencies/outer-manipur"
+  } ,
+
+  {
+    "text": "Palakkad",
+    "href": "//constituencies/palakkad"
+  } ,
+
+  {
+    "text": "Palamau",
+    "href": "//constituencies/palamau"
+  } ,
+
+  {
+    "text": "Palghar",
+    "href": "//constituencies/palghar"
+  } ,
+
+  {
+    "text": "Pali",
+    "href": "//constituencies/pali"
+  } ,
+
+  {
+    "text": "Panchmahal",
+    "href": "//constituencies/panchmahal"
+  } ,
+
+  {
+    "text": "Parbhani",
+    "href": "//constituencies/parbhani"
+  } ,
+
+  {
+    "text": "Paschim Champaran",
+    "href": "//constituencies/paschim-champaran"
+  } ,
+
+  {
+    "text": "Pataliputra",
+    "href": "//constituencies/pataliputra"
+  } ,
+
+  {
+    "text": "Patan",
+    "href": "//constituencies/patan"
+  } ,
+
+  {
+    "text": "Pathanamthitta",
+    "href": "//constituencies/pathanamthitta"
+  } ,
+
+  {
+    "text": "Patiala",
+    "href": "//constituencies/patiala"
+  } ,
+
+  {
+    "text": "Patna Sahib",
+    "href": "//constituencies/patna-sahib"
+  } ,
+
+  {
+    "text": "Peddapalle",
+    "href": "//constituencies/peddapalle"
+  } ,
+
+  {
+    "text": "Perambalur",
+    "href": "//constituencies/perambalur"
+  } ,
+
+  {
+    "text": "Phulpur",
+    "href": "//constituencies/phulpur"
+  } ,
+
+  {
+    "text": "Pilibhit",
+    "href": "//constituencies/pilibhit"
+  } ,
+
+  {
+    "text": "Pollachi",
+    "href": "//constituencies/pollachi"
+  } ,
+
+  {
+    "text": "Pondicherry",
+    "href": "//constituencies/pondicherry"
+  } ,
+
+  {
+    "text": "Ponnani",
+    "href": "//constituencies/ponnani"
+  } ,
+
+  {
+    "text": "Porbandar",
+    "href": "//constituencies/porbandar"
+  } ,
+
+  {
+    "text": "Pratapgarh",
+    "href": "//constituencies/pratapgarh"
+  } ,
+
+  {
+    "text": "Pune",
+    "href": "//constituencies/pune"
+  } ,
+
+  {
+    "text": "Puri",
+    "href": "//constituencies/puri"
+  } ,
+
+  {
+    "text": "Purnia",
+    "href": "//constituencies/purnia"
+  } ,
+
+  {
+    "text": "Purulia",
+    "href": "//constituencies/purulia"
+  } ,
+
+  {
+    "text": "Purvi Champaran",
+    "href": "//constituencies/purvi-champaran"
+  } ,
+
+  {
+    "text": "Rae Bareli",
+    "href": "//constituencies/rae-bareli"
+  } ,
+
+  {
+    "text": "Raichur",
+    "href": "//constituencies/raichur"
+  } ,
+
+  {
+    "text": "Raigad",
+    "href": "//constituencies/raigad"
+  } ,
+
+  {
+    "text": "Raiganj",
+    "href": "//constituencies/raiganj"
+  } ,
+
+  {
+    "text": "Raigarh",
+    "href": "//constituencies/raigarh"
+  } ,
+
+  {
+    "text": "Raipur",
+    "href": "//constituencies/raipur"
+  } ,
+
+  {
+    "text": "Rajahmundry",
+    "href": "//constituencies/rajahmundry"
+  } ,
+
+  {
+    "text": "Rajampet",
+    "href": "//constituencies/rajampet"
+  } ,
+
+  {
+    "text": "Rajgarh",
+    "href": "//constituencies/rajgarh"
+  } ,
+
+  {
+    "text": "Rajkot",
+    "href": "//constituencies/rajkot"
+  } ,
+
+  {
+    "text": "Rajmahal",
+    "href": "//constituencies/rajmahal"
+  } ,
+
+  {
+    "text": "Rajnandgaon",
+    "href": "//constituencies/rajnandgaon"
+  } ,
+
+  {
+    "text": "Rajsamand",
+    "href": "//constituencies/rajsamand"
+  } ,
+
+  {
+    "text": "Ramanathapuram",
+    "href": "//constituencies/ramanathapuram"
+  } ,
+
+  {
+    "text": "Rampur",
+    "href": "//constituencies/rampur"
+  } ,
+
+  {
+    "text": "Ramtek",
+    "href": "//constituencies/ramtek"
+  } ,
+
+  {
+    "text": "Ranaghat",
+    "href": "//constituencies/ranaghat"
+  } ,
+
+  {
+    "text": "Ranchi",
+    "href": "//constituencies/ranchi"
+  } ,
+
+  {
+    "text": "Ratlam",
+    "href": "//constituencies/ratlam"
+  } ,
+
+  {
+    "text": "Ratnagiri Sindhudurg",
+    "href": "//constituencies/ratnagiri-sindhudurg"
+  } ,
+
+  {
+    "text": "Raver",
+    "href": "//constituencies/raver"
+  } ,
+
+  {
+    "text": "Rewa",
+    "href": "//constituencies/rewa"
+  } ,
+
+  {
+    "text": "Robertsganj",
+    "href": "//constituencies/robertsganj"
+  } ,
+
+  {
+    "text": "Rohtak",
+    "href": "//constituencies/rohtak"
+  } ,
+
+  {
+    "text": "Sabarkantha",
+    "href": "//constituencies/sabarkantha"
+  } ,
+
+  {
+    "text": "Sagar",
+    "href": "//constituencies/sagar"
+  } ,
+
+  {
+    "text": "Saharanpur",
+    "href": "//constituencies/saharanpur"
+  } ,
+
+  {
+    "text": "Salem",
+    "href": "//constituencies/salem"
+  } ,
+
+  {
+    "text": "Salempur",
+    "href": "//constituencies/salempur"
+  } ,
+
+  {
+    "text": "Samastipur",
+    "href": "//constituencies/samastipur"
+  } ,
+
+  {
+    "text": "Sambalpur",
+    "href": "//constituencies/sambalpur"
+  } ,
+
+  {
+    "text": "Sambhal",
+    "href": "//constituencies/sambhal"
+  } ,
+
+  {
+    "text": "Sangli",
+    "href": "//constituencies/sangli"
+  } ,
+
+  {
+    "text": "Sangrur",
+    "href": "//constituencies/sangrur"
+  } ,
+
+  {
+    "text": "Sant Kabir Nagar",
+    "href": "//constituencies/sant-kabir-nagar"
+  } ,
+
+  {
+    "text": "Saran",
+    "href": "//constituencies/saran"
+  } ,
+
+  {
+    "text": "Sasaram",
+    "href": "//constituencies/sasaram"
+  } ,
+
+  {
+    "text": "Satara",
+    "href": "//constituencies/satara"
+  } ,
+
+  {
+    "text": "Satna",
+    "href": "//constituencies/satna"
+  } ,
+
+  {
+    "text": "Secunderabad",
+    "href": "//constituencies/secunderabad"
+  } ,
+
+  {
+    "text": "Shahdol",
+    "href": "//constituencies/shahdol"
+  } ,
+
+  {
+    "text": "Shahjahanpur",
+    "href": "//constituencies/shahjahanpur"
+  } ,
+
+  {
+    "text": "Sheohar",
+    "href": "//constituencies/sheohar"
+  } ,
+
+  {
+    "text": "Shillong",
+    "href": "//constituencies/shillong"
+  } ,
+
+  {
+    "text": "Shimla",
+    "href": "//constituencies/shimla"
+  } ,
+
+  {
+    "text": "Shimoga",
+    "href": "//constituencies/shimoga"
+  } ,
+
+  {
+    "text": "Shirdi",
+    "href": "//constituencies/shirdi"
+  } ,
+
+  {
+    "text": "Shirur",
+    "href": "//constituencies/shirur"
+  } ,
+
+  {
+    "text": "Shrawasti",
+    "href": "//constituencies/shrawasti"
+  } ,
+
+  {
+    "text": "Sidhi",
+    "href": "//constituencies/sidhi"
+  } ,
+
+  {
+    "text": "Sikar",
+    "href": "//constituencies/sikar"
+  } ,
+
+  {
+    "text": "Sikkim",
+    "href": "//constituencies/sikkim"
+  } ,
+
+  {
+    "text": "Silchar",
+    "href": "//constituencies/silchar"
+  } ,
+
+  {
+    "text": "Singhbhum",
+    "href": "//constituencies/singhbhum"
+  } ,
+
+  {
+    "text": "Sirsa",
+    "href": "//constituencies/sirsa"
+  } ,
+
+  {
+    "text": "Sitamarhi",
+    "href": "//constituencies/sitamarhi"
+  } ,
+
+  {
+    "text": "Sitapur",
+    "href": "//constituencies/sitapur"
+  } ,
+
+  {
+    "text": "Sivaganga",
+    "href": "//constituencies/sivaganga"
+  } ,
+
+  {
+    "text": "Siwan",
+    "href": "//constituencies/siwan"
+  } ,
+
+  {
+    "text": "Solapur",
+    "href": "//constituencies/solapur"
+  } ,
+
+  {
+    "text": "Sonipat",
+    "href": "//constituencies/sonipat"
+  } ,
+
+  {
+    "text": "South Delhi",
+    "href": "//constituencies/south-delhi"
+  } ,
+
+  {
+    "text": "South Goa",
+    "href": "//constituencies/south-goa"
+  } ,
+
+  {
+    "text": "Sreerampur",
+    "href": "//constituencies/sreerampur"
+  } ,
+
+  {
+    "text": "Srikakulam",
+    "href": "//constituencies/srikakulam"
+  } ,
+
+  {
+    "text": "Srinagar",
+    "href": "//constituencies/srinagar"
+  } ,
+
+  {
+    "text": "Sriperumbudur",
+    "href": "//constituencies/sriperumbudur"
+  } ,
+
+  {
+    "text": "Sultanpur",
+    "href": "//constituencies/sultanpur"
+  } ,
+
+  {
+    "text": "Sundargarh",
+    "href": "//constituencies/sundargarh"
+  } ,
+
+  {
+    "text": "Supaul",
+    "href": "//constituencies/supaul"
+  } ,
+
+  {
+    "text": "Surat",
+    "href": "//constituencies/surat"
+  } ,
+
+  {
+    "text": "Surendranagar",
+    "href": "//constituencies/surendranagar"
+  } ,
+
+  {
+    "text": "Surguja",
+    "href": "//constituencies/surguja"
+  } ,
+
+  {
+    "text": "Tamluk",
+    "href": "//constituencies/tamluk"
+  } ,
+
+  {
+    "text": "Tehri Garhwal",
+    "href": "//constituencies/tehri-garhwal"
+  } ,
+
+  {
+    "text": "Tenkasi",
+    "href": "//constituencies/tenkasi"
+  } ,
+
+  {
+    "text": "Tezpur",
+    "href": "//constituencies/tezpur"
+  } ,
+
+  {
+    "text": "Thane",
+    "href": "//constituencies/thane"
+  } ,
+
+  {
+    "text": "Thanjavur",
+    "href": "//constituencies/thanjavur"
+  } ,
+
+  {
+    "text": "Theni",
+    "href": "//constituencies/theni"
+  } ,
+
+  {
+    "text": "Thiruvananthapuram",
+    "href": "//constituencies/thiruvananthapuram"
+  } ,
+
+  {
+    "text": "Thoothukkudi",
+    "href": "//constituencies/thoothukkudi"
+  } ,
+
+  {
+    "text": "Thrissur",
+    "href": "//constituencies/thrissur"
+  } ,
+
+  {
+    "text": "Tikamgarh",
+    "href": "//constituencies/tikamgarh"
+  } ,
+
+  {
+    "text": "Tiruchirappalli",
+    "href": "//constituencies/tiruchirappalli"
+  } ,
+
+  {
+    "text": "Tirunelveli",
+    "href": "//constituencies/tirunelveli"
+  } ,
+
+  {
+    "text": "Tirupati",
+    "href": "//constituencies/tirupati"
+  } ,
+
+  {
+    "text": "Tiruppur",
+    "href": "//constituencies/tiruppur"
+  } ,
+
+  {
+    "text": "Tiruvallur",
+    "href": "//constituencies/tiruvallur"
+  } ,
+
+  {
+    "text": "Tiruvannamalai",
+    "href": "//constituencies/tiruvannamalai"
+  } ,
+
+  {
+    "text": "Tonk-Sawai Madhopur",
+    "href": "//constituencies/tonk-sawai-madhopur"
+  } ,
+
+  {
+    "text": "Tripura East",
+    "href": "//constituencies/tripura-east"
+  } ,
+
+  {
+    "text": "Tripura West",
+    "href": "//constituencies/tripura-west"
+  } ,
+
+  {
+    "text": "Tumkur",
+    "href": "//constituencies/tumkur"
+  } ,
+
+  {
+    "text": "Tura",
+    "href": "//constituencies/tura"
+  } ,
+
+  {
+    "text": "Udaipur",
+    "href": "//constituencies/udaipur"
+  } ,
+
+  {
+    "text": "Udhampur",
+    "href": "//constituencies/udhampur"
+  } ,
+
+  {
+    "text": "Udupi Chikmagalur",
+    "href": "//constituencies/udupi-chikmagalur"
+  } ,
+
+  {
+    "text": "Ujiarpur",
+    "href": "//constituencies/ujiarpur"
+  } ,
+
+  {
+    "text": "Ujjain",
+    "href": "//constituencies/ujjain"
+  } ,
+
+  {
+    "text": "Uluberia",
+    "href": "//constituencies/uluberia"
+  } ,
+
+  {
+    "text": "Unnao",
+    "href": "//constituencies/unnao"
+  } ,
+
+  {
+    "text": "Uttara Kannada",
+    "href": "//constituencies/uttara-kannada"
+  } ,
+
+  {
+    "text": "Vadakara",
+    "href": "//constituencies/vadakara"
+  } ,
+
+  {
+    "text": "Vadodara",
+    "href": "//constituencies/vadodara"
+  } ,
+
+  {
+    "text": "Vaishali",
+    "href": "//constituencies/vaishali"
+  } ,
+
+  {
+    "text": "Valmiki Nagar",
+    "href": "//constituencies/valmiki-nagar"
+  } ,
+
+  {
+    "text": "Valsad",
+    "href": "//constituencies/valsad"
+  } ,
+
+  {
+    "text": "Varanasi",
+    "href": "//constituencies/varanasi"
+  } ,
+
+  {
+    "text": "Vellore",
+    "href": "//constituencies/vellore"
+  } ,
+
+  {
+    "text": "Vidisha",
+    "href": "//constituencies/vidisha"
+  } ,
+
+  {
+    "text": "Vijayawada",
+    "href": "//constituencies/vijayawada"
+  } ,
+
+  {
+    "text": "Viluppuram",
+    "href": "//constituencies/viluppuram"
+  } ,
+
+  {
+    "text": "Virudhunagar",
+    "href": "//constituencies/virudhunagar"
+  } ,
+
+  {
+    "text": "Visakhapatnam",
+    "href": "//constituencies/visakhapatnam"
+  } ,
+
+  {
+    "text": "Vizianagaram",
+    "href": "//constituencies/vizianagaram"
+  } ,
+
+  {
+    "text": "Warangal",
+    "href": "//constituencies/warangal"
+  } ,
+
+  {
+    "text": "Wardha",
+    "href": "//constituencies/wardha"
+  } ,
+
+  {
+    "text": "Wayanad",
+    "href": "//constituencies/wayanad"
+  } ,
+
+  {
+    "text": "West Delhi",
+    "href": "//constituencies/west-delhi"
+  } ,
+
+  {
+    "text": "Yavatmal-Washim",
+    "href": "//constituencies/yavatmal-washim"
+  } ,
+
+  {
+    "text": "Zahirabad",
+    "href": "//constituencies/zahirabad"
   } 
 
 ])
