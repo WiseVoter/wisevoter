@@ -74,8 +74,15 @@
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
-          <div class="profile-content">
-            <h2 id="summary">Summary</h2>
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#home" data-toggle="tab">Profile</a><li>
+            <li><a href="#edit" data-toggle="tab">Edit</a><li>  
+            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="profile">
+              <div class="profile-content">
+                <h2 id="summary">Summary</h2>
 
 <p>Durga Prasad Dhar (Kashmiri: दुर्गा प्रसाद धर (Devanagari), درگا پرساد دھر (Nastaleeq)) (1918–1975) was a prominent Kashmiri politician and an Indian Diplomat who was a confidant of Indira Gandhi. He served as Ambassador of India to the Soviet Union, and as a minister in the Kashmir and Delhi administrations.</p>
 
@@ -137,9 +144,10 @@
 <ul>
 <li><a href="">ADR Profile</a>, accessed Jan 27, 2014.</li>
 </ul>
-          </div>
-          <br/><br/>
-          <div id="disqus_thread"></div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="comments">
+                <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'wisevoter'; // required: replace example with your forum shortname
@@ -154,6 +162,8 @@
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span>
 </a>
+            </div>
+          </div>
         </div>
 
        <aside class="col-lg-3">
@@ -165,7 +175,7 @@
           <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>0</td></tr>
           <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>1</td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>Bihar</td></tr>
-          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>Ind</td></tr>
+          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>IND</td></tr>
           <tr><td><i class="fa fa-female"></i>Sex</td><td></td></tr>
           <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=http://en.wikipedia.com/wiki/Durga_Prasad_Dhar>Wiki</a></td></tr>
           <tr><td><i class="fa fa-twitter"></i>Twitter</td><td></td></tr>

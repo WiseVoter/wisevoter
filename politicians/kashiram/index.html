@@ -74,8 +74,15 @@
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
-          <div class="profile-content">
-            <h2 id="summary">Summary</h2>
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#home" data-toggle="tab">Profile</a><li>
+            <li><a href="#edit" data-toggle="tab">Edit</a><li>  
+            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="profile">
+              <div class="profile-content">
+                <h2 id="summary">Summary</h2>
 
 <p>Kanshi Ram (March 15, 1934 – October 9, 2006) was an Indian politician. He founded the Bahujan Samaj Party (BSP), a political party with the stated goal of serving the traditionally lower castes of Indian society (that historically also included untouchables). He transferred the BSP’s leadership to Mayawati. His leadership brought the party to power in India’s most populous state, Uttar Pradesh in 1995, at that point Mayawati became the state’s Chief Minister.</p>
 
@@ -137,9 +144,10 @@
 <ul>
 <li><a href="">ADR Profile</a>, accessed Jan 27, 2014.</li>
 </ul>
-          </div>
-          <br/><br/>
-          <div id="disqus_thread"></div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="comments">
+                <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'wisevoter'; // required: replace example with your forum shortname
@@ -154,6 +162,8 @@
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span>
 </a>
+            </div>
+          </div>
         </div>
 
        <aside class="col-lg-3">
@@ -165,7 +175,7 @@
           <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>0</td></tr>
           <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>1</td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>Uttar Pradesh</td></tr>
-          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>Cpi</td></tr>
+          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>CPI</td></tr>
           <tr><td><i class="fa fa-female"></i>Sex</td><td></td></tr>
           <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=http://en.wikipedia.com/wiki/Kashiram>Wiki</a></td></tr>
           <tr><td><i class="fa fa-twitter"></i>Twitter</td><td></td></tr>

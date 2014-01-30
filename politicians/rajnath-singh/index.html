@@ -74,8 +74,15 @@
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
-          <div class="profile-content">
-            <h2 id="summary">Summary</h2>
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#home" data-toggle="tab">Profile</a><li>
+            <li><a href="#edit" data-toggle="tab">Edit</a><li>  
+            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="profile">
+              <div class="profile-content">
+                <h2 id="summary">Summary</h2>
 
 <p>Rajnath Singh (born 10 July 1951) is an Indian politician who is the current president of Bharatiya Janata Party. He began his career as a physics lecturer and used his long-term connections with the nationalist organization Rashtriya Swayamsevak Sangh to become involved with the Janata Party. The involvement fruitioned into appointments in government offices in his home state of Uttar Pradesh. Significant political accomplishments include Chief Minister of Uttar Pradesh, as a Cabinet Minister in the National Democratic Alliance regime and as twice elected National President of Bharatiya Janata Party (BJP). He was previously president of the BJP youth wing and the BJP’s unit in his home state.</p>
 
@@ -137,9 +144,10 @@
 <ul>
 <li><a href="">ADR Profile</a>, accessed Jan 27, 2014.</li>
 </ul>
-          </div>
-          <br/><br/>
-          <div id="disqus_thread"></div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="comments">
+                <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'wisevoter'; // required: replace example with your forum shortname
@@ -154,6 +162,8 @@
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span>
 </a>
+            </div>
+          </div>
         </div>
 
        <aside class="col-lg-3">
@@ -165,7 +175,7 @@
           <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>1</td></tr>
           <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>1</td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>Uttar Pradesh</td></tr>
-          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>Bjp</td></tr>
+          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>BJP</td></tr>
           <tr><td><i class="fa fa-female"></i>Sex</td><td></td></tr>
           <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=http://en.wikipedia.com/wiki/Rajnath_Singh>Wiki</a></td></tr>
           <tr><td><i class="fa fa-twitter"></i>Twitter</td><td></td></tr>
