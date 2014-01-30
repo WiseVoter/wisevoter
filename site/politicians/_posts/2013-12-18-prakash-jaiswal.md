@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Prakash Jaiswal
+title: prakash jaiswal
 profile: 
   party: INC
-  constituency: kanpur
-  state: uttar pradesh
+  constituency: Kanpur
+  state: Uttar Pradesh
   education: 
     level: 12th Pass
     details: intermediate in 1963 from board of high school and intemediate allahabad
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5630
     affidavit-link: http://myneta.info/candidate.php?candidate_id=5630&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=5630
-    constituency: kanpur 
+    constituency: Kanpur 
     party: INC
     criminal-cases: 0
     assets: 3,07,67,980
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=4527
     affidavit-link: 
     expenses-link: 
-    constituency: kanpur 
+    constituency: Kanpur 
     party: inc
     criminal-cases: 0
     assets: 1,91,27,260

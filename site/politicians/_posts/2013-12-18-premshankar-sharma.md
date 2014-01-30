@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Premshankar Sharma
+title: premshankar sharma
 profile: 
   party: BSP
-  constituency: vidisha
-  state: madhya pradesh
+  constituency: Vidisha
+  state: Madhya Pradesh
   education: 
     level: Post Graduate
     details: jain college, vidisha 1996
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3387
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3387&scan=original
     expenses-link: 
-    constituency: vidisha 
+    constituency: Vidisha 
     party: BSP
     criminal-cases: 0
     assets: 80,82,098

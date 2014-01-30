@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Satyanarayan Jatiya
+title: satyanarayan jatiya
 profile: 
   party: BJP
-  constituency: ujjain
-  state: madhya pradesh
+  constituency: Ujjain
+  state: Madhya Pradesh
   education: 
     level: 
     details: doctorate vikram vishwavidyalay,ujjain-year 1994
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5217
     affidavit-link: http://myneta.info/candidate.php?candidate_id=5217&scan=original
     expenses-link: 
-    constituency: ujjain 
+    constituency: Ujjain 
     party: BJP
     criminal-cases: 0
     assets: 31,88,630

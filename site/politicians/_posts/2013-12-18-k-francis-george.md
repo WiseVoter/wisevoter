@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: K Francis George
+title: k francis george
 profile: 
   party: KEC
-  constituency: idukki
-  state: kerala
+  constituency: Idukki
+  state: Kerala
   education: 
     level: Graduate
     details: professional ba,llb
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1568
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1568&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=1568
-    constituency: idukki 
+    constituency: Idukki 
     party: KEC
     criminal-cases: 0
     assets: 3,54,36,273

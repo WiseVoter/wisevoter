@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Nivasa Reddy Kesari
+title: nivasa reddy kesari
 profile: 
   party: IND
-  constituency: narasaraopet
-  state: andhra pradesh
+  constituency: Narasaraopet
+  state: Andhra Pradesh
   education: 
     level: 12th Pass
     details: govt junior college,pittanavanipalem
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4447
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4447&scan=original
     expenses-link: 
-    constituency: narasaraopet 
+    constituency: Narasaraopet 
     party: IND
     criminal-cases: 0
     assets: 2,40,000

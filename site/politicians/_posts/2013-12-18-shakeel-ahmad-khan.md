@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Shakeel Ahmad Khan
+title: shakeel ahmad khan
 profile: 
   party: INC
-  constituency: araria
-  state: bihar
+  constituency: Araria
+  state: Bihar
   education: 
     level: 
     details: unknown
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7494
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7494&scan=original
     expenses-link: 
-    constituency: araria 
+    constituency: Araria 
     party: INC
     criminal-cases: 0
     assets: 

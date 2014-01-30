@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Fakir Mohan Naik
+title: fakir mohan naik
 profile: 
   party: IND
-  constituency: keonjhar
-  state: orissa
+  constituency: Keonjhar
+  state: Orissa
   education: 
     level: Graduate
     details: professional m.b.b.s,
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=2435
     affidavit-link: 
     expenses-link: 
-    constituency: keonjhar 
+    constituency: Keonjhar 
     party: IND
     criminal-cases: 0
     assets: 27,68,000

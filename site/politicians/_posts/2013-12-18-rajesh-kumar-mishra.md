@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Rajesh Kumar Mishra
+title: rajesh kumar mishra
 profile: 
   party: INC
-  constituency: varanasi
-  state: uttar pradesh
+  constituency: Varanasi
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate ma politics
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1233
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1233&scan=original
     expenses-link: 
-    constituency: varanasi 
+    constituency: Varanasi 
     party: INC
     criminal-cases: 0
     assets: 37,89,522

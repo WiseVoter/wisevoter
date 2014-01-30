@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Deshmukh Kishanrao Janardhanrao (Ex-Serviceman)
+title: deshmukh kishanrao janardhanrao (ex-serviceman)
 profile: 
   party: IND
-  constituency: parbhani
-  state: maharashtra
+  constituency: Parbhani
+  state: Maharashtra
   education: 
     level: Graduate
     details: b.a.(1980)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1975
     affidavit-link: 
     expenses-link: 
-    constituency: parbhani 
+    constituency: Parbhani 
     party: IND
     criminal-cases: 2
     assets: 75,45,000
@@ -40,11 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 420
-    details:  RCC 42/06  
+    details: RCC 42/06 
   - crime: accussed
     ipc: 
-    details:  RCC 385/97
-  
+    details: RCC 385/97 
 
 date: 2014-01-28
 version: 0.0.5

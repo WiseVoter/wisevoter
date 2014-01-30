@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Shafiqur Rahman Barq
+title: shafiqur rahman barq
 profile: 
   party: BSP
-  constituency: sambhal
-  state: uttar pradesh
+  constituency: Sambhal
+  state: Uttar Pradesh
   education: 
     level: Graduate
     details: b.a agra university-1952
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8073
     affidavit-link: http://myneta.info/candidate.php?candidate_id=8073&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=8073
-    constituency: sambhal 
+    constituency: Sambhal 
     party: BSP
     criminal-cases: 0
     assets: 70,59,763
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=4727
     affidavit-link: 
     expenses-link: 
-    constituency: moradabad 
+    constituency: Moradabad 
     party: sp
     criminal-cases: 0
     assets: 13,49,151

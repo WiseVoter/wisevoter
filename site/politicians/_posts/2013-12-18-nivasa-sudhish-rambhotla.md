@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Nivasa Sudhish Rambhotla
+title: nivasa sudhish rambhotla
 profile: 
   party: TDP
-  constituency: secunderabad
-  state: andhra pradesh
+  constituency: Secunderabad
+  state: Andhra Pradesh
   education: 
     level: Post Graduate
     details: c.a (chartered accountant) b.com, llb
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1038
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1038&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=1038
-    constituency: secunderabad 
+    constituency: Secunderabad 
     party: TDP
     criminal-cases: 0
     assets: 17,88,33,380

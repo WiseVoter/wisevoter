@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Bal Mukund Singh Maravi
+title: bal mukund singh maravi
 profile: 
   party: GGP
-  constituency: bilaspur
-  state: chhattisgarh
+  constituency: Bilaspur
+  state: Chhattisgarh
   education: 
     level: Graduate
     details: professional ba.a.m.s.hatatak,,p.ravishankar shukla vishvavidyalaya,raipur-1985-86
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=603
     affidavit-link: http://myneta.info/candidate.php?candidate_id=603&scan=original
     expenses-link: 
-    constituency: bilaspur 
+    constituency: Bilaspur 
     party: GGP
     criminal-cases: 0
     assets: 1,20,000

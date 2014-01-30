@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Kale Kalyan Vaijinathrao
+title: kale kalyan vaijinathrao
 profile: 
   party: INC
-  constituency: jalna
-  state: maharashtra
+  constituency: Jalna
+  state: Maharashtra
   education: 
     level: 
     details: others d,h.m.s (1985).
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3488
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=3488
-    constituency: jalna 
+    constituency: Jalna 
     party: INC
     criminal-cases: 2
     assets: 2,21,53,412
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=1812
     affidavit-link: 
     expenses-link: 
-    constituency: phulambri 
+    constituency: Phulambri 
     party: inc
     criminal-cases: 2
     assets: 1,82,16,428
@@ -50,7 +50,7 @@ candidature:
     myneta-link: http://myneta.info//mah2004/candidate.php?candidate_id=194
     affidavit-link: 
     expenses-link: 
-    constituency: aurangabad east 
+    constituency: Aurangabad East 
     party: inc
     criminal-cases: 2
     assets: 54,08,086
@@ -60,10 +60,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  149,  323,  447
-    details:  Case No. 57/99  
+    details: Case No. 57/99 
   - crime: accussed
     ipc: 143,  341,  135
-    details:  Case No. 102/07  
+    details: Case No. 102/07 
 
 date: 2014-01-28
 version: 0.0.5

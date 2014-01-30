@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Vasanta Umre
+title: vasanta umre
 profile: 
   party: DPI
-  constituency: nagpur
-  state: maharashtra
+  constituency: Nagpur
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: m.a,llb
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1432
     affidavit-link: 
     expenses-link: 
-    constituency: nagpur 
+    constituency: Nagpur 
     party: DPI
     criminal-cases: 0
     assets: 15,17,500

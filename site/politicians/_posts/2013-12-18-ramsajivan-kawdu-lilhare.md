@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Ramsajivan Kawdu Lilhare
+title: ramsajivan kawdu lilhare
 profile: 
   party: IND
-  constituency: bhandara-gondiya
-  state: maharashtra
+  constituency: Bhandara-Gondiya
+  state: Maharashtra
   education: 
     level: 
     details: unknown
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1408
     affidavit-link: 
     expenses-link: 
-    constituency: bhandara-gondiya 
+    constituency: Bhandara-Gondiya 
     party: IND
     criminal-cases: 0
     assets: 

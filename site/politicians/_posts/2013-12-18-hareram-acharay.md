@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Hareram Acharay
+title: hareram acharay
 profile: 
   party: IND
-  constituency: darbhanga
-  state: bihar
+  constituency: Darbhanga
+  state: Bihar
   education: 
     level: Post Graduate
     details: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3123
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3123&scan=original
     expenses-link: 
-    constituency: darbhanga 
+    constituency: Darbhanga 
     party: IND
     criminal-cases: 0
     assets: 50,73,250

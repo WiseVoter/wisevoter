@@ -1,14 +1,14 @@
 ---
 layout: politician2
-title: Murli Manohar Joshi
+title: murli manohar joshi
 profile: 
   party: BJP
-  constituency: varanasi
-  state: uttar pradesh
+  constituency: Varanasi
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate msc,d.phil,allahabad university
-  photo: Murli_Manohar_Joshi.jpg
+  photo: 
   sex: 
   caste: 
   religion: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1232
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1232&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=1232
-    constituency: varanasi 
+    constituency: Varanasi 
     party: BJP
     criminal-cases: 1
     assets: 5,44,75,345
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=3934
     affidavit-link: 
     expenses-link: 
-    constituency: allahabad 
+    constituency: Allahabad 
     party: bjp
     criminal-cases: 1
     assets: 1,90,31,323
@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  149,  153A,  153B,  505
-    details:  Crime No.198/92,Police Station Ramjanam Bhumi,Faizabad,Chief Juducial Magistrate,Raebareli,Date 04.05.2001  
+    details: Crime No.198/92,Police Station Ramjanam Bhumi,Faizabad,Chief Juducial Magistrate,Raebareli,Date 04.05.2001 
 
 date: 2014-01-28
 version: 0.0.5

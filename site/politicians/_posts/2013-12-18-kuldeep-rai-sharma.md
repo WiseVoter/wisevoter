@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Kuldeep Rai Sharma
+title: kuldeep rai sharma
 profile: 
   party: INC
-  constituency: andaman & nicobar islands
-  state: andaman and nicobar islands
+  constituency: Andaman And Nicobar Islands
+  state: Andaman And Nicobar Islands
   education: 
     level: 
     details: others b.e,mechanical jadavpur university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=313
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=313
-    constituency: andaman and nicobar islands 
+    constituency: Andaman And Nicobar Islands 
     party: INC
     criminal-cases: 2
     assets: 54,09,630
@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 332, 189, 186, 504, 506, 451, 114,
-    details:    
+    details:  
   - crime: accussed
     ipc: 
-    details:  4056/2004  
+    details: 4056/2004 
 
 date: 2014-01-28
 version: 0.0.5

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Bansode Sharad Maruti
+title: bansode sharad maruti
 profile: 
   party: BJP
-  constituency: solapur
-  state: maharashtra
+  constituency: Solapur
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional llb 1993
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3736
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=3736
-    constituency: solapur 
+    constituency: Solapur 
     party: BJP
     criminal-cases: 0
     assets: 2,30,38,727

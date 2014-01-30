@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Kanta Kumar Jena
+title: kanta kumar jena
 profile: 
   party: INC
-  constituency: balasore
-  state: orissa
+  constituency: Balasore
+  state: Orissa
   education: 
     level: Graduate
     details: b.a. kendrapara college, kendrapara
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=2069
     affidavit-link: http://myneta.info/candidate.php?candidate_id=2069&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=2069
-    constituency: balasore 
+    constituency: Balasore 
     party: INC
     criminal-cases: 0
     assets: 59,79,551
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2917
     affidavit-link: 
     expenses-link: 
-    constituency: kendrapara 
+    constituency: Kendrapara 
     party: inc
     criminal-cases: 0
     assets: 48,80,104

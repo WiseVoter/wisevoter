@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Ramrao Pandurang Waghmare
+title: ramrao pandurang waghmare
 profile: 
   party: IND
-  constituency: nanded
-  state: maharashtra
+  constituency: Nanded
+  state: Maharashtra
   education: 
     level: 
     details: literate 10th fail
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1980
     affidavit-link: 
     expenses-link: 
-    constituency: nanded 
+    constituency: Nanded 
     party: IND
     criminal-cases: 0
     assets: 80,000

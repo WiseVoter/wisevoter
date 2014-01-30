@@ -1,14 +1,14 @@
 ---
 layout: politician2
-title: Sanjeev Ganesh Naik
+title: sanjeev ganesh naik
 profile: 
   party: NCP
-  constituency: thane
-  state: maharashtra
+  constituency: Thane
+  state: Maharashtra
   education: 
     level: 12th Pass
     details: pune 1995
-  photo: Sanjeev_Ganesh_Naik.jpg
+  photo: 
   sex: 
   caste: 
   religion: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5345
     affidavit-link: http://myneta.info/candidate.php?candidate_id=5345&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=5345
-    constituency: thane 
+    constituency: Thane 
     party: NCP
     criminal-cases: 2
     assets: 3,04,15,344
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=2336
     affidavit-link: 
     expenses-link: 
-    constituency: airoli 
+    constituency: Airoli 
     party: ncp
     criminal-cases: 0
     assets: 10,92,67,565
@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 109, 403, 405, 406, 411, 415, 418, 420, 120B, 34
-    details:  597/02,598/02,599/02  
+    details: 597/02,598/02,599/02 
   - crime: accussed
     ipc: 143, 341, 134, 504, 135
-    details:  BPAct 36, 37(1) Case no. 1054/97  
+    details: BPAct 36, 37(1)Case no. 1054/97 
 
 date: 2014-01-28
 version: 0.0.5

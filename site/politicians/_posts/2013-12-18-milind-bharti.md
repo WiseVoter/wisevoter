@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Milind Bharti
+title: milind bharti
 profile: 
   party: NELU
-  constituency: north west delhi
-  state: national capital territory of delhi
+  constituency: North West Delhi
+  state: National Capital Territory Of Delhi
   education: 
     level: Graduate
     details: professional mbbs  maulana azad medical college  delhi university in 2000
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7625
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7625&scan=original
     expenses-link: 
-    constituency: north west delhi 
+    constituency: North West Delhi 
     party: NELU
     criminal-cases: 0
     assets: 7,42,653

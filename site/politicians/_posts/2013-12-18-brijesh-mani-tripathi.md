@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Brijesh Mani Tripathi
+title: brijesh mani tripathi
 profile: 
   party: IND
-  constituency: gorakhpur
-  state: uttar pradesh
+  constituency: Gorakhpur
+  state: Uttar Pradesh
   education: 
     level: Post Graduate
     details: g.v.v.g.1987
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1206
     affidavit-link: 
     expenses-link: 
-    constituency: gorakhpur 
+    constituency: Gorakhpur 
     party: IND
     criminal-cases: 0
     assets: 15,34,940

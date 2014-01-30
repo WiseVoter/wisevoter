@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mahesh Rathi Chanakya
+title: mahesh rathi chanakya
 profile: 
   party: RVNP
-  constituency: thane
-  state: maharashtra
+  constituency: Thane
+  state: Maharashtra
   education: 
     level: Graduate
     details: s.d. govt. college beawar (ajamer) rai rajasthan university jaipur rai
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5351
     affidavit-link: 
     expenses-link: 
-    constituency: thane 
+    constituency: Thane 
     party: RVNP
     criminal-cases: 0
     assets: 49,27,000
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=2277
     affidavit-link: 
     expenses-link: 
-    constituency: ovala - majiwada 
+    constituency: Ovala - Majiwada 
     party: rjp
     criminal-cases: 0
     assets: 1,10,67,000
@@ -50,7 +50,7 @@ candidature:
     myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=2294
     affidavit-link: 
     expenses-link: 
-    constituency: kopri- panchpakhadi 
+    constituency: Kopri- Panchpakhadi 
     party: rjp
     criminal-cases: 0
     assets: 1,10,67,000

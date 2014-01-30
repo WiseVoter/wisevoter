@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Shivakant Ojha
+title: shivakant ojha
 profile: 
   party: BSP
-  constituency: pratapgarh
-  state: uttar pradesh
+  constituency: Pratapgarh
+  state: Uttar Pradesh
   education: 
     level: Post Graduate
     details: m.phil,m.a allahabad university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3872
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=3872
-    constituency: pratapgarh 
+    constituency: Pratapgarh 
     party: BSP
     criminal-cases: 0
     assets: 1,46,39,770
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//up2012/candidate.php?candidate_id=1322
     affidavit-link: 
     expenses-link: 
-    constituency: raniganj 
+    constituency: Raniganj 
     party: sp
     criminal-cases: 0
     assets: 2,43,35,672
@@ -50,7 +50,7 @@ candidature:
     myneta-link: http://myneta.info//up2007/candidate.php?candidate_id=202
     affidavit-link: 
     expenses-link: 
-    constituency: birapur 
+    constituency: Birapur 
     party: bjp
     criminal-cases: 0
     assets: 86,20,021

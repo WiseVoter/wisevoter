@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Diwaker Tejaswi
+title: diwaker tejaswi
 profile: 
   party: BUDM
-  constituency: patna sahib
-  state: bihar
+  constituency: Patna Sahib
+  state: Bihar
   education: 
     level: 
     details: doctorate ph.d
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7721
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7721&scan=original
     expenses-link: 
-    constituency: patna sahib 
+    constituency: Patna Sahib 
     party: BUDM
     criminal-cases: 0
     assets: 57,15,000

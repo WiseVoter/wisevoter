@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Chandra Sekhar Sahu
+title: chandra sekhar sahu
 profile: 
   party: INC
-  constituency: berhampur
-  state: orissa
+  constituency: Berhampur
+  state: Orissa
   education: 
     level: Graduate
     details: ll.b lingaraj  law college ,berhampur  under  berhampur university ,berhampur 1975
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=400
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=400
-    constituency: berhampur 
+    constituency: Berhampur 
     party: INC
     criminal-cases: 0
     assets: 82,20,532
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2865
     affidavit-link: 
     expenses-link: 
-    constituency: berhampur 
+    constituency: Berhampur 
     party: inc
     criminal-cases: 0
     assets: 14,17,000

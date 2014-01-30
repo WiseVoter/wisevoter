@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Dandiya Khaja Peera
+title: dandiya khaja peera
 profile: 
   party: PRAP
-  constituency: kurnool
-  state: andhra pradesh
+  constituency: Kurnool
+  state: Andhra Pradesh
   education: 
     level: Graduate
     details: professional m.b.b.s 1983
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4407
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4407&scan=original
     expenses-link: 
-    constituency: kurnool 
+    constituency: Kurnool 
     party: PRAP
     criminal-cases: 0
     assets: 98,30,500

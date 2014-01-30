@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Manda Jagannath
+title: manda jagannath
 profile: 
   party: INC
-  constituency: nagarkurnool
-  state: andhra pradesh
+  constituency: Nagarkurnool
+  state: Andhra Pradesh
   education: 
     level: Post Graduate
     details: m s in 1984 from osmanla medical college,osmania university,hyderabad
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=363
     affidavit-link: http://myneta.info/candidate.php?candidate_id=363&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=363
-    constituency: nagarkurnool 
+    constituency: Nagarkurnool 
     party: INC
     criminal-cases: 0
     assets: 2,81,26,000
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=152
     affidavit-link: 
     expenses-link: 
-    constituency: nagarkurnool 
+    constituency: Nagarkurnool 
     party: tdp
     criminal-cases: 0
     assets: 65,45,314

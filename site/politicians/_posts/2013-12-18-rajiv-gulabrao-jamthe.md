@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Rajiv Gulabrao Jamthe
+title: rajiv gulabrao jamthe
 profile: 
   party: IND
-  constituency: amravati
-  state: maharashtra
+  constituency: Amravati
+  state: Maharashtra
   education: 
     level: 
     details: doctorate m.b.b.s-1983,  d.m.r.d-1998
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=802
     affidavit-link: 
     expenses-link: 
-    constituency: amravati 
+    constituency: Amravati 
     party: IND
     criminal-cases: 0
     assets: 1,03,13,150

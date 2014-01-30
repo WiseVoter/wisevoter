@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Upasha Bansi Taywade
+title: upasha bansi taywade
 profile: 
   party: IND
-  constituency: nagpur
-  state: maharashtra
+  constituency: Nagpur
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: m.a,b.ed,llb(1985)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1436
     affidavit-link: 
     expenses-link: 
-    constituency: nagpur 
+    constituency: Nagpur 
     party: IND
     criminal-cases: 0
     assets: 5,40,000

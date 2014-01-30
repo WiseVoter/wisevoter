@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Siddharth Patil
+title: siddharth patil
 profile: 
   party: IND
-  constituency: raigad
-  state: maharashtra
+  constituency: Raigad
+  state: Maharashtra
   education: 
     level: 
     details: others fcpc(1986)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3555
     affidavit-link: 
     expenses-link: 
-    constituency: raigad 
+    constituency: Raigad 
     party: IND
     criminal-cases: 0
     assets: 1,57,30,697

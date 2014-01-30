@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Shivajirao Kisanrao Shendge
+title: shivajirao kisanrao shendge
 profile: 
   party: RSPS
-  constituency: beed
-  state: maharashtra
+  constituency: Beed
+  state: Maharashtra
   education: 
     level: Graduate
     details: b.a.m.s.
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3680
     affidavit-link: 
     expenses-link: 
-    constituency: beed 
+    constituency: Beed 
     party: RSPS
     criminal-cases: 0
     assets: 7,60,000

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mahadeo Abaji Pol
+title: mahadeo abaji pol
 profile: 
   party: IND
-  constituency: madha
-  state: maharashtra
+  constituency: Madha
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional m.b.b.s-1976,  d.c.h-1979
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3760
     affidavit-link: 
     expenses-link: 
-    constituency: madha 
+    constituency: Madha 
     party: IND
     criminal-cases: 0
     assets: 1,23,20,400

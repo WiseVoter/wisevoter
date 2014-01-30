@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Pravin Madhukar Thakur
+title: pravin madhukar thakur
 profile: 
   party: IND
-  constituency: raigad
-  state: maharashtra
+  constituency: Raigad
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional l.l.b- (1990)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3554
     affidavit-link: 
     expenses-link: 
-    constituency: raigad 
+    constituency: Raigad 
     party: IND
     criminal-cases: 1
     assets: 4,54,95,529
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 352, 354
-    details:    
+    details:  
 
 date: 2014-01-28
 version: 0.0.5

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Khan Mohmad Atif
+title: khan mohmad atif
 profile: 
   party: MMUP
-  constituency: lucknow
-  state: uttar pradesh
+  constituency: Lucknow
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate ma, phd,lucknow university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5577
     affidavit-link: 
     expenses-link: 
-    constituency: lucknow 
+    constituency: Lucknow 
     party: MMUP
     criminal-cases: 0
     assets: 47,00,000

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Thokchom Meinya
+title: thokchom meinya
 profile: 
   party: INC
-  constituency: inner manipur
-  state: manipur
+  constituency: Inner Manipur
+  state: Manipur
   education: 
     level: 
     details: doctorate ph.d.-1983 osmana university,hydrabad.
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3811
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3811&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=3811
-    constituency: inner manipur 
+    constituency: Inner Manipur 
     party: INC
     criminal-cases: 0
     assets: 16,39,200
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2700
     affidavit-link: 
     expenses-link: 
-    constituency: inner manipur 
+    constituency: Inner Manipur 
     party: inc
     criminal-cases: 0
     assets: 11,07,278

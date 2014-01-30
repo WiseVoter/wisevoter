@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Tara Nand Sada
+title: tara nand sada
 profile: 
   party: INC
-  constituency: madhepura
-  state: bihar
+  constituency: Madhepura
+  state: Bihar
   education: 
     level: 
     details: doctorate phd
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4958
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4958&scan=original
     expenses-link: 
-    constituency: madhepura 
+    constituency: Madhepura 
     party: INC
     criminal-cases: 0
     assets: 30,21,034

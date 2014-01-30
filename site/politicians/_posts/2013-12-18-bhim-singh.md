@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Bhim Singh
+title: bhim singh
 profile: 
   party: JKNPP
-  constituency: udhampur
-  state: jammu and kashmir
+  constituency: Udhampur
+  state: Jammu And Kashmir
   education: 
     level: 
     details: doctorate ph.d (cairo university) overseas in 1973
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3224
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3224&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=3224
-    constituency: udhampur 
+    constituency: Udhampur 
     party: JKNPP
     criminal-cases: 0
     assets: 5,72,880
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//jk2008/candidate.php?candidate_id=1096
     affidavit-link: 
     expenses-link: 
-    constituency: jammu east 
+    constituency: Jammu East 
     party: jknpp
     criminal-cases: 0
     assets: 19,027

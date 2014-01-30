@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sudhir Hiraman Tayade
+title: sudhir hiraman tayade
 profile: 
   party: IND
-  constituency: amravati
-  state: maharashtra
+  constituency: Amravati
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional l.l.b-1997
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=796
     affidavit-link: 
     expenses-link: 
-    constituency: amravati 
+    constituency: Amravati 
     party: IND
     criminal-cases: 0
     assets: 

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Yashwant Manohar
+title: yashwant manohar
 profile: 
   party: BBM
-  constituency: nagpur
-  state: maharashtra
+  constituency: Nagpur
+  state: Maharashtra
   education: 
     level: 
     details: doctorate p.h.d(1984)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1429
     affidavit-link: 
     expenses-link: 
-    constituency: nagpur 
+    constituency: Nagpur 
     party: BBM
     criminal-cases: 0
     assets: 55,12,000

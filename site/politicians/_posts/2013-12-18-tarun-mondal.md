@@ -1,14 +1,14 @@
 ---
 layout: politician2
-title: Tarun Mondal
+title: tarun mondal
 profile: 
   party: IND
-  constituency: jaynagar
-  state: west bengal
+  constituency: Jaynagar
+  state: West Bengal
   education: 
     level: Graduate
     details: professional m.b.b.s. calcutta university ,1982
-  photo: Tarun_Mondal.jpg
+  photo: 
   sex: 
   caste: 
   religion: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8166
     affidavit-link: http://myneta.info/candidate.php?candidate_id=8166&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=8166
-    constituency: jaynagar 
+    constituency: Jaynagar 
     party: IND
     criminal-cases: 0
     assets: 18,56,636

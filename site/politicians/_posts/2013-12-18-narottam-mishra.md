@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Narottam Mishra
+title: narottam mishra
 profile: 
   party: BJP
-  constituency: guna
-  state: madhya pradesh
+  constituency: Guna
+  state: Madhya Pradesh
   education: 
     level: 
     details: doctorate jivaji vishwavidhyalay gwalior madhya pradesh
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5129
     affidavit-link: 
     expenses-link: 
-    constituency: guna 
+    constituency: Guna 
     party: BJP
     criminal-cases: 0
     assets: 64,96,949

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Gongaram Kaul
+title: gongaram kaul
 profile: 
   party: CPI
-  constituency: dibrugarh
-  state: assam
+  constituency: Dibrugarh
+  state: Assam
   education: 
     level: Graduate
     details: b a in 1997 from dibrugarh university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=2994
     affidavit-link: http://myneta.info/candidate.php?candidate_id=2994&scan=original
     expenses-link: 
-    constituency: dibrugarh 
+    constituency: Dibrugarh 
     party: CPI
     criminal-cases: 0
     assets: 3,405

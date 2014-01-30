@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Raghuveera Reddy
+title: raghuveera reddy
 profile: 
   party: LSP
-  constituency: chevella
-  state: andhra pradesh
+  constituency: Chevella
+  state: Andhra Pradesh
   education: 
     level: Graduate
     details: professional mbbs
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=539
     affidavit-link: http://myneta.info/candidate.php?candidate_id=539&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=539
-    constituency: chevella 
+    constituency: Chevella 
     party: LSP
     criminal-cases: 0
     assets: 81,50,000

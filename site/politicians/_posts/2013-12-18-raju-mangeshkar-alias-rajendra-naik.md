@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Raju Mangeshkar Alias Rajendra Naik
+title: raju mangeshkar alias rajendra naik
 profile: 
   party: CPI
-  constituency: south goa
-  state: goa
+  constituency: South Goa
+  state: Goa
   education: 
     level: Post Graduate
     details: l.l.b. university of bombay-1988
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3213
     affidavit-link: 
     expenses-link: 
-    constituency: south goa 
+    constituency: South Goa 
     party: CPI
     criminal-cases: 0
     assets: 31,14,150

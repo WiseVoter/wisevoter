@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Kasabekar Shridhar Limbaji
+title: kasabekar shridhar limbaji
 profile: 
   party: RSPS
-  constituency: solapur
-  state: maharashtra
+  constituency: Solapur
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional b.com,l..,d.l.l.&w (1981-82).
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3738
     affidavit-link: 
     expenses-link: 
-    constituency: solapur 
+    constituency: Solapur 
     party: RSPS
     criminal-cases: 0
     assets: 10,22,756
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=2756
     affidavit-link: 
     expenses-link: 
-    constituency: parvati 
+    constituency: Parvati 
     party: ind
     criminal-cases: 0
     assets: 10,82,476

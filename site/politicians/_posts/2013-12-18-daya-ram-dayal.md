@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Daya Ram Dayal
+title: daya ram dayal
 profile: 
   party: IND
-  constituency: bilaspur
-  state: chhattisgarh
+  constituency: Bilaspur
+  state: Chhattisgarh
   education: 
     level: Graduate
     details: professional i i p s lucknow
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=612
     affidavit-link: 
     expenses-link: 
-    constituency: bilaspur 
+    constituency: Bilaspur 
     party: IND
     criminal-cases: 0
     assets: 15,61,212

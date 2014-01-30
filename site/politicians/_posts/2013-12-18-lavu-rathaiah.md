@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Lavu Rathaiah
+title: lavu rathaiah
 profile: 
   party: LSP
-  constituency: malkajgiri
-  state: andhra pradesh
+  constituency: Malkajgiri
+  state: Andhra Pradesh
   education: 
     level: 
     details: doctorate osmania university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=528
     affidavit-link: http://myneta.info/candidate.php?candidate_id=528&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=528
-    constituency: malkajgiri 
+    constituency: Malkajgiri 
     party: LSP
     criminal-cases: 1
     assets: 15,54,60,261
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details:  276 C, 277 of IT Act, 1961  
+    details: 276 C, 277 of IT Act, 1961 
 
 date: 2014-01-28
 version: 0.0.5

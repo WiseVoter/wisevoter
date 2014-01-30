@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Dilawar Mirza Baig
+title: dilawar mirza baig
 profile: 
   party: IUML
-  constituency: jalna
-  state: maharashtra
+  constituency: Jalna
+  state: Maharashtra
   education: 
     level: Graduate
     details: b.sc (2007).
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3495
     affidavit-link: 
     expenses-link: 
-    constituency: jalna 
+    constituency: Jalna 
     party: IUML
     criminal-cases: 0
     assets: 9,35,000

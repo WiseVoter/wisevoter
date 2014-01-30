@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Khuresh Prasad Sharma
+title: khuresh prasad sharma
 profile: 
   party: JVM
-  constituency: chatra
-  state: jharkhand
+  constituency: Chatra
+  state: Jharkhand
   education: 
     level: 
     details: doctorate ranchi university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=654
     affidavit-link: http://myneta.info/candidate.php?candidate_id=654&scan=original
     expenses-link: 
-    constituency: chatra 
+    constituency: Chatra 
     party: JVM
     criminal-cases: 0
     assets: 33,30,000

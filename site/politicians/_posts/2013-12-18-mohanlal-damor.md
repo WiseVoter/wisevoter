@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mohanlal Damor
+title: mohanlal damor
 profile: 
   party: LSWP
-  constituency: banswara
-  state: rajasthan
+  constituency: Banswara
+  state: Rajasthan
   education: 
     level: Post Graduate
     details: maharana bhupaul college, udaipur
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7535
     affidavit-link: 
     expenses-link: 
-    constituency: banswara 
+    constituency: Banswara 
     party: LSWP
     criminal-cases: 0
     assets: 36,13,134

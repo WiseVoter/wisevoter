@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Nivas Poojary
+title: nivas poojary
 profile: 
   party: IND
-  constituency: udupi chikmagalur
-  state: karnataka
+  constituency: Udupi Chikmagalur
+  state: Karnataka
   education: 
     level: 5th Pass
     details: 5th std
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=6019
     affidavit-link: 
     expenses-link: 
-    constituency: udupi chikmagalur 
+    constituency: Udupi Chikmagalur 
     party: IND
     criminal-cases: 0
     assets: 28,40,000

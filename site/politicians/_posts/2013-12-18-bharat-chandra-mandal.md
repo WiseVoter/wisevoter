@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Bharat Chandra Mandal
+title: bharat chandra mandal
 profile: 
   party: BSP
-  constituency: maldaha dakshin
-  state: west bengal
+  constituency: Maldaha Dakshin
+  state: West Bengal
   education: 
     level: Graduate
     details: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4859
     affidavit-link: 
     expenses-link: 
-    constituency: maldaha dakshin 
+    constituency: Maldaha Dakshin 
     party: BSP
     criminal-cases: 0
     assets: 27,70,700

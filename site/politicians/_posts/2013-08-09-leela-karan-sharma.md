@@ -3,7 +3,7 @@ layout: politician
 title: Leela Karan Sharma 
 constituency: Jammu 
 party: BJP
-state: Jammu & Kashmir
+state: Jammu And Kashmir
 education: 
 photo: 
 sex: Male

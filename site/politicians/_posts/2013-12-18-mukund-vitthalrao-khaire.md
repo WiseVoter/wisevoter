@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mukund Vitthalrao Khaire
+title: mukund vitthalrao khaire
 profile: 
   party: IND
-  constituency: amravati
-  state: maharashtra
+  constituency: Amravati
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: m.a ,l.l.b
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=173
     affidavit-link: 
     expenses-link: 
-    constituency: amravati 
+    constituency: Amravati 
     party: IND
     criminal-cases: 3
     assets: 31,00,000
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=778
     affidavit-link: 
     expenses-link: 
-    constituency: murtijapur(sc) 
+    constituency: Murtijapur(Sc) 
     party: ind
     criminal-cases: 2
     assets: 35,15,134
@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 343, 108
-    details:  135 BPA   
+    details: 135 BPA 
   - crime: accussed
     ipc: 111, 119, 34
-    details:    
+    details:  
   - crime: accussed
     ipc: UNCLEAR HANDWRITING
-    details:    
+    details:  
 
 date: 2014-01-28
 version: 0.0.5

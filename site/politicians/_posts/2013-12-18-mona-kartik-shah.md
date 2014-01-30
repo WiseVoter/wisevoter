@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mona Kartik Shah
+title: mona kartik shah
 profile: 
   party: PRPI
-  constituency: mumbai south
-  state: maharashtra
+  constituency: Mumbai South
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: diplomat of the national board at 1st  attempt in 1998 new delhi
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5482
     affidavit-link: 
     expenses-link: 
-    constituency: mumbai south 
+    constituency: Mumbai South 
     party: PRPI
     criminal-cases: 0
     assets: 5,71,98,060

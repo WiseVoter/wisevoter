@@ -1,14 +1,14 @@
 ---
 layout: politician2
-title: Paban Singh Ghatowar
+title: paban singh ghatowar
 profile: 
   party: INC
-  constituency: dibrugarh
-  state: assam
+  constituency: Dibrugarh
+  state: Assam
   education: 
     level: Graduate
     details: ba in1970  under guwahati university
-  photo: Paban_Singh_Ghatowar.jpg
+  photo: 
   sex: 
   caste: 
   religion: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=2990
     affidavit-link: http://myneta.info/candidate.php?candidate_id=2990&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=2990
-    constituency: dibrugarh 
+    constituency: Dibrugarh 
     party: INC
     criminal-cases: 0
     assets: 97,97,014
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//unionministers2011/candidate.php?candidate_id=40
     affidavit-link: 
     expenses-link: 
-    constituency: minister 
+    constituency: Minister 
     party: inc
     criminal-cases: 0
     assets: 2,94,08,469
@@ -50,7 +50,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=335
     affidavit-link: 
     expenses-link: 
-    constituency: dibrugarh 
+    constituency: Dibrugarh 
     party: inc
     criminal-cases: 0
     assets: 59,91,408

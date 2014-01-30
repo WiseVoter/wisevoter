@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sita Ram Sharma
+title: sita ram sharma
 profile: 
   party: RWS
-  constituency: chandni chowk
-  state: national capital territory of delhi
+  constituency: Chandni Chowk
+  state: National Capital Territory Of Delhi
   education: 
     level: 
     details: doctorate m.a.(eco) , m.a.(edu) , m.a.(hindi), p.hd, l.l.b.
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7560
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7560&scan=original
     expenses-link: 
-    constituency: chandni chowk 
+    constituency: Chandni Chowk 
     party: RWS
     criminal-cases: 0
     assets: 73,00,000

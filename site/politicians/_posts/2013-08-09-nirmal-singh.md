@@ -3,7 +3,7 @@ layout: politician
 title: Nirmal Singh
 constituency: Udhampur 
 party: BJP
-state: Jammu & Kashmir 
+state: Jammu And Kashmir 
 education: Graduate
 photo: 
 sex: Male

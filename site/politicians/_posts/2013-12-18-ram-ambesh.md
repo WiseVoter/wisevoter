@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Ram Ambesh
+title: ram ambesh
 profile: 
   party: IND
-  constituency: ambedkar nagar
-  state: uttar pradesh
+  constituency: Ambedkar Nagar
+  state: Uttar Pradesh
   education: 
     level: Post Graduate
     details: m.a (1987).
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4016
     affidavit-link: 
     expenses-link: 
-    constituency: ambedkar nagar 
+    constituency: Ambedkar Nagar 
     party: IND
     criminal-cases: 0
     assets: 3,72,400

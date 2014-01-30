@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Fesor Khandale Kawdu Tulshiram
+title: fesor khandale kawdu tulshiram
 profile: 
   party: KKJHS
-  constituency: gadchiroli-chimur
-  state: maharashtra
+  constituency: Gadchiroli-Chimur
+  state: Maharashtra
   education: 
     level: 
     details: unknown
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1421
     affidavit-link: 
     expenses-link: 
-    constituency: gadchiroli-chimur 
+    constituency: Gadchiroli-Chimur 
     party: KKJHS
     criminal-cases: 0
     assets: 

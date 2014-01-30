@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Ravindra Charan Yadav
+title: ravindra charan yadav
 profile: 
   party: RJD
-  constituency: madhepura
-  state: bihar
+  constituency: Madhepura
+  state: Bihar
   education: 
     level: 
     details: doctorate
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4959
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4959&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=4959
-    constituency: madhepura 
+    constituency: Madhepura 
     party: RJD
     criminal-cases: 0
     assets: 49,07,846
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//bih2005/candidate.php?candidate_id=222
     affidavit-link: 
     expenses-link: 
-    constituency: kishanganj 
+    constituency: Kishanganj 
     party: ind
     criminal-cases: 0
     assets: 23,26,831

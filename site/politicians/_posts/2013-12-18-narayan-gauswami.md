@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Narayan Gauswami
+title: narayan gauswami
 profile: 
   party: IJP
-  constituency: bhagalpur
-  state: bihar
+  constituency: Bhagalpur
+  state: Bihar
   education: 
     level: 8th Pass
     details: 10th fail j.k.high school
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5022
     affidavit-link: http://myneta.info/candidate.php?candidate_id=5022&scan=original
     expenses-link: 
-    constituency: bhagalpur 
+    constituency: Bhagalpur 
     party: IJP
     criminal-cases: 0
     assets: 62,25,000

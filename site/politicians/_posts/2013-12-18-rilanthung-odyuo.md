@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Rilanthung Odyuo
+title: rilanthung odyuo
 profile: 
   party: AITC
-  constituency: nagaland
-  state: nagaland
+  constituency: Nagaland
+  state: Nagaland
   education: 
     level: Graduate
     details: indian board of alternative medicines bachelor of alternative systems medicines calcutta
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=790
     affidavit-link: http://myneta.info/candidate.php?candidate_id=790&scan=original
     expenses-link: 
-    constituency: nagaland 
+    constituency: Nagaland 
     party: AITC
     criminal-cases: 0
     assets: 17,00,000

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Khaleel Basha
+title: khaleel basha
 profile: 
   party: PRAP
-  constituency: kadapa
-  state: andhra pradesh
+  constituency: Kadapa
+  state: Andhra Pradesh
   education: 
     level: Graduate
     details: professional mbbs, svu, tirupati
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4737
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4737&scan=original
     expenses-link: 
-    constituency: kadapa 
+    constituency: Kadapa 
     party: PRAP
     criminal-cases: 0
     assets: 19,90,356

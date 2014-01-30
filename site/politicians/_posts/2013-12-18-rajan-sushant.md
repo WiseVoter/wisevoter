@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Rajan Sushant
+title: rajan sushant
 profile: 
   party: BJP
-  constituency: kangra
-  state: himachal pradesh
+  constituency: Kangra
+  state: Himachal Pradesh
   education: 
     level: Graduate
     details: professional l.l.b. , hp university shimla in the year 1988
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7819
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7819&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=7819
-    constituency: kangra 
+    constituency: Kangra 
     party: BJP
     criminal-cases: 0
     assets: 1,10,24,873
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//him2007/candidate.php?candidate_id=55
     affidavit-link: 
     expenses-link: 
-    constituency: jawali (before bye - election) 
+    constituency: Jawali (Before Bye - Election) 
     party: bjp
     criminal-cases: 1
     assets: 1,02,73,998

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Yuvraj Anandraoji Bagde
+title: yuvraj anandraoji bagde
 profile: 
   party: IND
-  constituency: ramtek
-  state: maharashtra
+  constituency: Ramtek
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: m.com, llb(2002)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1967
     affidavit-link: 
     expenses-link: 
-    constituency: ramtek 
+    constituency: Ramtek 
     party: IND
     criminal-cases: 1
     assets: 50,000
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 279, 337
-    details:    
+    details:  
 
 date: 2014-01-28
 version: 0.0.5

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Nivasa Rao Thotakura
+title: nivasa rao thotakura
 profile: 
   party: AJBP
-  constituency: guntur
-  state: andhra pradesh
+  constituency: Guntur
+  state: Andhra Pradesh
   education: 
     level: Graduate
     details: professional llb,nagarjuna university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4391
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4391&scan=original
     expenses-link: 
-    constituency: guntur 
+    constituency: Guntur 
     party: AJBP
     criminal-cases: 0
     assets: 

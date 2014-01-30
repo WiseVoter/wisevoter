@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Akalpita Paranjpe
+title: akalpita paranjpe
 profile: 
   party: BUDM
-  constituency: mumbai south central
-  state: maharashtra
+  constituency: Mumbai South Central
+  state: Maharashtra
   education: 
     level: 
     details: doctorate ph.d (science) in 1981 from university of bombay
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5456
     affidavit-link: 
     expenses-link: 
-    constituency: mumbai south central 
+    constituency: Mumbai South Central 
     party: BUDM
     criminal-cases: 0
     assets: 2,20,20,000

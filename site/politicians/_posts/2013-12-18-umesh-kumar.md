@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Umesh Kumar
+title: umesh kumar
 profile: 
   party: IND
-  constituency: udupi chikmagalur
-  state: karnataka
+  constituency: Udupi Chikmagalur
+  state: Karnataka
   education: 
     level: 12th Pass
     details: 2nd puc
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=6015
     affidavit-link: 
     expenses-link: 
-    constituency: udupi chikmagalur 
+    constituency: Udupi Chikmagalur 
     party: IND
     criminal-cases: 0
     assets: 61,000

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Malati Roy
+title: malati roy
 profile: 
   party: IND
-  constituency: karimganj
-  state: assam
+  constituency: Karimganj
+  state: Assam
   education: 
     level: 8th Pass
     details: appeard madyamik pariksha from nishimoye high school, coachbehar,west bengal in the year 1991
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1188
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1188&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=1188
-    constituency: karimganj 
+    constituency: Karimganj 
     party: IND
     criminal-cases: 0
     assets: 7,28,800

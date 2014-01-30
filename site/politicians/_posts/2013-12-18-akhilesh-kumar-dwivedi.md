@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Akhilesh Kumar Dwivedi
+title: akhilesh kumar dwivedi
 profile: 
   party: NCP
-  constituency: bhadohi
-  state: uttar pradesh
+  constituency: Bhadohi
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate phd purvanchal vidyalay jaun pur
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4148
     affidavit-link: 
     expenses-link: 
-    constituency: bhadohi 
+    constituency: Bhadohi 
     party: NCP
     criminal-cases: 0
     assets: 10,000

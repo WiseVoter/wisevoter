@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sone Lal Patel
+title: sone lal patel
 profile: 
   party: IND
-  constituency: phulpur
-  state: uttar pradesh
+  constituency: Phulpur
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate l.l.b-1976, phd
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3940
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=3940
-    constituency: phulpur 
+    constituency: Phulpur 
     party: IND
     criminal-cases: 0
     assets: 3,05,89,802

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sarbananda Sonowal
+title: sarbananda sonowal
 profile: 
   party: AGP
-  constituency: dibrugarh
-  state: assam
+  constituency: Dibrugarh
+  state: Assam
   education: 
     level: Graduate
     details: professional hslc in1976 from don bosco (seba),ba in1984 from d.u ll.b in 1996 from g u and bcj in 1996 from g u
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=2993
     affidavit-link: http://myneta.info/candidate.php?candidate_id=2993&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=2993
-    constituency: dibrugarh 
+    constituency: Dibrugarh 
     party: AGP
     criminal-cases: 1
     assets: 48,46,140
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120(B),  302
-    details:  Case no. 398/86  
+    details: Case no. 398/86 
 
 date: 2014-01-28
 version: 0.0.5

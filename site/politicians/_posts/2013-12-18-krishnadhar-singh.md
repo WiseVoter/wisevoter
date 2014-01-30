@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Krishnadhar Singh
+title: krishnadhar singh
 profile: 
   party: BJKD
-  constituency: pataliputra
-  state: bihar
+  constituency: Pataliputra
+  state: Bihar
   education: 
     level: 
     details: doctorate m.a , phd
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7785
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7785&scan=original
     expenses-link: 
-    constituency: pataliputra 
+    constituency: Pataliputra 
     party: BJKD
     criminal-cases: 0
     assets: 39,64,000

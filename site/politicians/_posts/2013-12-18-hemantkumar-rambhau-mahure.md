@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Hemantkumar Rambhau Mahure
+title: hemantkumar rambhau mahure
 profile: 
   party: BBM
-  constituency: amravati
-  state: maharashtra
+  constituency: Amravati
+  state: Maharashtra
   education: 
     level: 
     details: doctorate  phd 2004 ,  b.sc1997
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=164
     affidavit-link: 
     expenses-link: 
-    constituency: amravati 
+    constituency: Amravati 
     party: BBM
     criminal-cases: 0
     assets: 3,26,000

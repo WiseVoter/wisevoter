@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Surendar Kumar Khatri
+title: surendar kumar khatri
 profile: 
   party: IND
-  constituency: meerut
-  state: uttar pradesh
+  constituency: Meerut
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate b a m s kanpur vishwavidyalaya year 1972
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=6998
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=6998
-    constituency: meerut 
+    constituency: Meerut 
     party: IND
     criminal-cases: 0
     assets: 27,24,696

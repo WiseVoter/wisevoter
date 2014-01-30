@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Rajinder Kumar
+title: rajinder kumar
 profile: 
   party: SP
-  constituency: jalandhar
-  state: punjab
+  constituency: Jalandhar
+  state: Punjab
   education: 
     level: Graduate
     details: hindu vishawavidyalaya, hindi sahitya sammellen, allahabad
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7910
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7910&scan=original
     expenses-link: 
-    constituency: jalandhar 
+    constituency: Jalandhar 
     party: SP
     criminal-cases: 0
     assets: 1,02,586

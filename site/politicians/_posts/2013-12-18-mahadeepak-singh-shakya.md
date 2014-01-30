@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mahadeepak Singh Shakya
+title: mahadeepak singh shakya
 profile: 
   party: INC
-  constituency: etah
-  state: uttar pradesh
+  constituency: Etah
+  state: Uttar Pradesh
   education: 
     level: Post Graduate
     details: ma, agra university,agra
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7232
     affidavit-link: 
     expenses-link: 
-    constituency: etah 
+    constituency: Etah 
     party: INC
     criminal-cases: 0
     assets: 92,13,000

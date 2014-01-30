@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mahesh Yadav (Aman Gandhi)
+title: mahesh yadav (aman gandhi)
 profile: 
   party: IND
-  constituency: bhopal
-  state: madhya pradesh
+  constituency: Bhopal
+  state: Madhya Pradesh
   education: 
     level: Graduate
     details: professional b.a. (hindi)- rastrabhasha prachar samitee, vardha- 2001, vaidya virashad (1985-86),  ayurveda ratna (1988-89)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3411
     affidavit-link: 
     expenses-link: 
-    constituency: bhopal 
+    constituency: Bhopal 
     party: IND
     criminal-cases: 1
     assets: 70,388
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  145,  147,  149,  186,  188,  353,  448,  511 IPC
-    details:    
+    details:  
 
 date: 2014-01-28
 version: 0.0.5

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Dudhgaonkar Ganeshrao Nagorao
+title: dudhgaonkar ganeshrao nagorao
 profile: 
   party: SHS
-  constituency: parbhani
-  state: maharashtra
+  constituency: Parbhani
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional b.a., , l.l.b.(1975)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1968
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=1968
-    constituency: parbhani 
+    constituency: Parbhani 
     party: SHS
     criminal-cases: 0
     assets: 2,81,11,720

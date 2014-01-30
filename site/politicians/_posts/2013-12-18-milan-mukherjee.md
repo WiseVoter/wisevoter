@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Milan Mukherjee
+title: milan mukherjee
 profile: 
   party: IND
-  constituency: phulpur
-  state: uttar pradesh
+  constituency: Phulpur
+  state: Uttar Pradesh
   education: 
     level: 
     details: not given
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3931
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=3931
-    constituency: phulpur 
+    constituency: Phulpur 
     party: IND
     criminal-cases: 0
     assets: 

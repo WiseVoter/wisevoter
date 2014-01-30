@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Paladugu Chandramouli
+title: paladugu chandramouli
 profile: 
   party: LSP
-  constituency: rajahmundry
-  state: andhra pradesh
+  constituency: Rajahmundry
+  state: Andhra Pradesh
   education: 
     level: Graduate
     details: professional m.b.b.s.
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4698
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4698&scan=original
     expenses-link: 
-    constituency: rajahmundry 
+    constituency: Rajahmundry 
     party: LSP
     criminal-cases: 0
     assets: 64,18,000

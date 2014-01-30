@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Hazare Dattabhau Krushnarao
+title: hazare dattabhau krushnarao
 profile: 
   party: BSP
-  constituency: chandrapur
-  state: maharashtra
+  constituency: Chandrapur
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional l.l.b 1980
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=236
     affidavit-link: 
     expenses-link: 
-    constituency: chandrapur 
+    constituency: Chandrapur 
     party: BSP
     criminal-cases: 0
     assets: 62,19,000

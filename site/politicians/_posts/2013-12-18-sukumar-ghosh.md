@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sukumar Ghosh
+title: sukumar ghosh
 profile: 
   party: IND
-  constituency: murshidabad
-  state: west bengal
+  constituency: Murshidabad
+  state: West Bengal
   education: 
     level: 
     details: others rump  from calcutta unani medical college
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7333
     affidavit-link: 
     expenses-link: 
-    constituency: murshidabad 
+    constituency: Murshidabad 
     party: IND
     criminal-cases: 1
     assets: 3,98,263
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 341, 323, 506
-    details:  Case No 139/98 Gr No 1019/98  
+    details: Case No 139/98 Gr No 1019/98 
 
 date: 2014-01-28
 version: 0.0.5

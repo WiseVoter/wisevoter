@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sailen Ghosh
+title: sailen ghosh
 profile: 
   party: IND
-  constituency: mumbai south central
-  state: maharashtra
+  constituency: Mumbai South Central
+  state: Maharashtra
   education: 
     level: 
     details: doctorate ph.d (engg) adhavpur univ 1991
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5474
     affidavit-link: 
     expenses-link: 
-    constituency: mumbai south central 
+    constituency: Mumbai South Central 
     party: IND
     criminal-cases: 0
     assets: 41,15,500

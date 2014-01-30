@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Bharat Paik
+title: bharat paik
 profile: 
   party: BJP
-  constituency: berhampur
-  state: orissa
+  constituency: Berhampur
+  state: Orissa
   education: 
     level: Graduate
     details: ll.b lingaraj law college university  1981-82
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=399
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=399
-    constituency: berhampur 
+    constituency: Berhampur 
     party: BJP
     criminal-cases: 0
     assets: 4,47,723

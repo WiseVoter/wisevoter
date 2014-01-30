@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Babasaheb Sadshivrao Gaikwad
+title: babasaheb sadshivrao gaikwad
 profile: 
   party: BSP
-  constituency: latur
-  state: maharashtra
+  constituency: Latur
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional b.com,llb(1985)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3719
     affidavit-link: 
     expenses-link: 
-    constituency: latur 
+    constituency: Latur 
     party: BSP
     criminal-cases: 0
     assets: 54,38,106

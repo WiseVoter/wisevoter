@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Anita Yadav
+title: anita yadav
 profile: 
   party: SP
-  constituency: indore
-  state: madhya pradesh
+  constituency: Indore
+  state: Madhya Pradesh
   education: 
     level: 
     details: doctorate doctor of philosophy year 1997 jivaji university gwalior
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5257
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=5257
-    constituency: indore 
+    constituency: Indore 
     party: SP
     criminal-cases: 0
     assets: 2,29,780

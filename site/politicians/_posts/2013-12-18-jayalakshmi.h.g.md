@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Jayalakshmi.H.G
+title: jayalakshmi.h.g
 profile: 
   party: IND
-  constituency: bangalore south
-  state: karnataka
+  constituency: Bangalore South
+  state: Karnataka
   education: 
     level: Post Graduate
     details: bams,md
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=504
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=504
-    constituency: bangalore south 
+    constituency: Bangalore South 
     party: IND
     criminal-cases: 0
     assets: 1,48,315

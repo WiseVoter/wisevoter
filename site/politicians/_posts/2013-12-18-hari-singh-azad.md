@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Hari Singh Azad
+title: hari singh azad
 profile: 
   party: ABLTP
-  constituency: meerut
-  state: uttar pradesh
+  constituency: Meerut
+  state: Uttar Pradesh
   education: 
     level: 5th Pass
     details: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=6989
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=6989
-    constituency: meerut 
+    constituency: Meerut 
     party: ABLTP
     criminal-cases: 0
     assets: 55,600

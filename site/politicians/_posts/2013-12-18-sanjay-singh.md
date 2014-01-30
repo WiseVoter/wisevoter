@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sanjay Singh
+title: sanjay singh
 profile: 
   party: INC
-  constituency: sultanpur
-  state: uttar pradesh
+  constituency: Sultanpur
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate phd from awadh university faizabad
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3856
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3856&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=3856
-    constituency: sultanpur 
+    constituency: Sultanpur 
     party: INC
     criminal-cases: 0
     assets: 6,22,59,720

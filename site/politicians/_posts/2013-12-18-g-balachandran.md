@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: G Balachandran
+title: g balachandran
 profile: 
   party: INC
-  constituency: attingal
-  state: kerala
+  constituency: Attingal
+  state: Kerala
   education: 
     level: Post Graduate
     details: ma university college trivandrum
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1650
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1650&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=1650
-    constituency: attingal 
+    constituency: Attingal 
     party: INC
     criminal-cases: 0
     assets: 45,29,672

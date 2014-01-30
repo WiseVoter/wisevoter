@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Daljit Singh Cheema
+title: daljit singh cheema
 profile: 
   party: SAD
-  constituency: anandpur sahib
-  state: punjab
+  constituency: Anandpur Sahib
+  state: Punjab
   education: 
     level: 
     details: doctorate m.b.b.s.
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7931
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7931&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=7931
-    constituency: anandpur sahib 
+    constituency: Anandpur Sahib 
     party: SAD
     criminal-cases: 0
     assets: 1,00,69,147
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//pb2012/candidate.php?candidate_id=185
     affidavit-link: 
     expenses-link: 
-    constituency: rupnagar 
+    constituency: Rupnagar 
     party: sad
     criminal-cases: 0
     assets: 2,04,09,136

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Ramesh Chhabra
+title: ramesh chhabra
 profile: 
   party: HJCBL
-  constituency: karnal
-  state: haryana
+  constituency: Karnal
+  state: Haryana
   education: 
     level: Post Graduate
     details: m.d 1979
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=6603
     affidavit-link: 
     expenses-link: 
-    constituency: karnal 
+    constituency: Karnal 
     party: HJCBL
     criminal-cases: 0
     assets: 2,48,81,418

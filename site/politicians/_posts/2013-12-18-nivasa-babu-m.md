@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Nivasa Babu M
+title: nivasa babu m
 profile: 
   party: BSP
-  constituency: dindigul
-  state: tamil nadu
+  constituency: Dindigul
+  state: Tamil Nadu
   education: 
     level: Graduate
     details: b.sc. comp. sc. - bharathidasan university - 2000
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8489
     affidavit-link: http://myneta.info/candidate.php?candidate_id=8489&scan=original
     expenses-link: 
-    constituency: dindigul 
+    constituency: Dindigul 
     party: BSP
     criminal-cases: 0
     assets: 91,600

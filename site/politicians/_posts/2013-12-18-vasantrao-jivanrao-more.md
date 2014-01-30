@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Vasantrao Jivanrao More
+title: vasantrao jivanrao more
 profile: 
   party: NCP
-  constituency: jalgaon
-  state: maharashtra
+  constituency: Jalgaon
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional b.a.,l.l.b(1973)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3458
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=3458
-    constituency: jalgaon 
+    constituency: Jalgaon 
     party: NCP
     criminal-cases: 1
     assets: 1,45,68,114
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2387
     affidavit-link: 
     expenses-link: 
-    constituency: erandol 
+    constituency: Erandol 
     party: ncp
     criminal-cases: 1
     assets: 1,58,46,533
@@ -50,8 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details:  37(1) & (3)
-  
+    details: 37(1) and (3) 
 
 date: 2014-01-28
 version: 0.0.5

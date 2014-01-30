@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sridhara Udupa
+title: sridhara udupa
 profile: 
   party: IND
-  constituency: udupi chikmagalur
-  state: karnataka
+  constituency: Udupi Chikmagalur
+  state: Karnataka
   education: 
     level: Post Graduate
     details: ma,,mbbs
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=6018
     affidavit-link: 
     expenses-link: 
-    constituency: udupi chikmagalur 
+    constituency: Udupi Chikmagalur 
     party: IND
     criminal-cases: 0
     assets: 9,00,000

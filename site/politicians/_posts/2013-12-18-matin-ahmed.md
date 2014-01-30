@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Matin Ahmed
+title: matin ahmed
 profile: 
   party: BSP
-  constituency: jalgaon
-  state: maharashtra
+  constituency: Jalgaon
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional llb
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3457
     affidavit-link: 
     expenses-link: 
-    constituency: jalgaon 
+    constituency: Jalgaon 
     party: BSP
     criminal-cases: 1
     assets: 20,000
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 125, 127
-    details:    
+    details:  
 
 date: 2014-01-28
 version: 0.0.5

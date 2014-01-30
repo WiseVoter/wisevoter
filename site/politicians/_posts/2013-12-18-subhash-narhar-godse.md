@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Subhash Narhar Godse
+title: subhash narhar godse
 profile: 
   party: IND
-  constituency: pune
-  state: maharashtra
+  constituency: Pune
+  state: Maharashtra
   education: 
     level: Graduate
     details: l.l.b(1986)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3609
     affidavit-link: 
     expenses-link: 
-    constituency: pune 
+    constituency: Pune 
     party: IND
     criminal-cases: 0
     assets: 2,05,720

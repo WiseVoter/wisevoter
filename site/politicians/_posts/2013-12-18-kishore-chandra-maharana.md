@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Kishore Chandra Maharana
+title: kishore chandra maharana
 profile: 
   party: IND
-  constituency: berhampur
-  state: orissa
+  constituency: Berhampur
+  state: Orissa
   education: 
     level: 
     details: doctorate
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=401
     affidavit-link: 
     expenses-link: 
-    constituency: berhampur 
+    constituency: Berhampur 
     party: IND
     criminal-cases: 0
     assets: 41,73,000

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Gen(Retd) Tejpal Singh Rawat P.V.S.M, V.S.M
+title: gen(retd) tejpal singh rawat p.v.s.m, v.s.m
 profile: 
   party: BJP
-  constituency: garhwal
-  state: uttarakhand
+  constituency: Garhwal
+  state: Uttarakhand
   education: 
     level: Graduate
     details: professional post  dip loma  marketing  management   imm new delhi
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8241
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=8241
-    constituency: garhwal 
+    constituency: Garhwal 
     party: BJP
     criminal-cases: 0
     assets: 74,93,957
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//utk07/candidate.php?candidate_id=83
     affidavit-link: 
     expenses-link: 
-    constituency: dhumakot - before bye-election 
+    constituency: Dhumakot   Before Bye-Election 
     party: inc
     criminal-cases: 0
     assets: 50,86,812

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Dhananjay Shamlalji Rajabhoj
+title: dhananjay shamlalji rajabhoj
 profile: 
   party: IND
-  constituency: bhandara-gondiya
-  state: maharashtra
+  constituency: Bhandara-Gondiya
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: m.com l.l.b (1983)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1401
     affidavit-link: 
     expenses-link: 
-    constituency: bhandara-gondiya 
+    constituency: Bhandara-Gondiya 
     party: IND
     criminal-cases: 0
     assets: 16,10,000

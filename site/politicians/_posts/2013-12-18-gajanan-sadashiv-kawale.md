@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Gajanan Sadashiv Kawale
+title: gajanan sadashiv kawale
 profile: 
   party: RP
-  constituency: nagpur
-  state: maharashtra
+  constituency: Nagpur
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional llb
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1428
     affidavit-link: 
     expenses-link: 
-    constituency: nagpur 
+    constituency: Nagpur 
     party: RP
     criminal-cases: 0
     assets: 16,41,000

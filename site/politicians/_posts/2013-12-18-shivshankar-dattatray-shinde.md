@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Shivshankar Dattatray Shinde
+title: shivshankar dattatray shinde
 profile: 
   party: KM
-  constituency: maval
-  state: maharashtra
+  constituency: Maval
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional bsl, llb(2000)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3562
     affidavit-link: 
     expenses-link: 
-    constituency: maval 
+    constituency: Maval 
     party: KM
     criminal-cases: 0
     assets: 20,00,000

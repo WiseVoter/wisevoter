@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: E Keshamma
+title: e keshamma
 profile: 
   party: RDMP
-  constituency: mysore
-  state: karnataka
+  constituency: Mysore
+  state: Karnataka
   education: 
     level: 
     details: doctorate m.sc,m.phil,ph.d, kuvempu univ davangere, 2009
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4647
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4647&scan=original
     expenses-link: 
-    constituency: mysore 
+    constituency: Mysore 
     party: RDMP
     criminal-cases: 0
     assets: 1,83,000

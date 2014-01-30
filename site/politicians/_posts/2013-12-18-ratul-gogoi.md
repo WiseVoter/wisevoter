@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Ratul Gogoi
+title: ratul gogoi
 profile: 
   party: CPI
-  constituency: dibrugarh
-  state: assam
+  constituency: Dibrugarh
+  state: Assam
   education: 
     level: Graduate
     details: ba in city college now as nandalal borgohain city college in1999 under d u ,position-iii
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=2992
     affidavit-link: http://myneta.info/candidate.php?candidate_id=2992&scan=original
     expenses-link: 
-    constituency: dibrugarh 
+    constituency: Dibrugarh 
     party: CPI
     criminal-cases: 0
     assets: 20,500

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Chintaman Navsha Vanga
+title: chintaman navsha vanga
 profile: 
   party: BJP
-  constituency: palghar
-  state: maharashtra
+  constituency: Palghar
+  state: Maharashtra
   education: 
     level: Graduate
     details: l.l.b.year 1978 mumbai university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5300
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=5300
-    constituency: palghar 
+    constituency: Palghar 
     party: BJP
     criminal-cases: 0
     assets: 16,58,267

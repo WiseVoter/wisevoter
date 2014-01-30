@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Laxminarayan Pandey
+title: laxminarayan pandey
 profile: 
   party: BJP
-  constituency: mandsour
-  state: madhya pradesh
+  constituency: Mandsour
+  state: Madhya Pradesh
   education: 
     level: Post Graduate
     details: hindi sahitya  vikram vishwavidyalay ujain  aayuvedacharya 1970
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5226
     affidavit-link: 
     expenses-link: 
-    constituency: mandsour 
+    constituency: Mandsour 
     party: BJP
     criminal-cases: 0
     assets: 41,07,337
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=2173
     affidavit-link: 
     expenses-link: 
-    constituency: mandsaur 
+    constituency: Mandsaur 
     party: bjp
     criminal-cases: 0
     assets: 26,50,506

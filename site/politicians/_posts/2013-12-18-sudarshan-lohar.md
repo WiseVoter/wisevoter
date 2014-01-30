@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sudarshan Lohar
+title: sudarshan lohar
 profile: 
   party: BSP
-  constituency: keonjhar
-  state: orissa
+  constituency: Keonjhar
+  state: Orissa
   education: 
     level: 10th Pass
     details: m.b.e.h(m.d), james academy
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=2432
     affidavit-link: 
     expenses-link: 
-    constituency: keonjhar 
+    constituency: Keonjhar 
     party: BSP
     criminal-cases: 0
     assets: 30,77,116

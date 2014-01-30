@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Awdesh Kumar Gupta
+title: awdesh kumar gupta
 profile: 
   party: RSMD
-  constituency: akbarpur
-  state: uttar pradesh
+  constituency: Akbarpur
+  state: Uttar Pradesh
   education: 
     level: Graduate
     details: professional mbbs mpm medical college
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5650
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=5650
-    constituency: akbarpur 
+    constituency: Akbarpur 
     party: RSMD
     criminal-cases: 0
     assets: 1,16,48,107

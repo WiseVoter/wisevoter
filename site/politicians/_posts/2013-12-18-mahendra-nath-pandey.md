@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mahendra Nath Pandey
+title: mahendra nath pandey
 profile: 
   party: BJP
-  constituency: bhadohi
-  state: uttar pradesh
+  constituency: Bhadohi
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate b.h.u. varansi
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4151
     affidavit-link: 
     expenses-link: 
-    constituency: bhadohi 
+    constituency: Bhadohi 
     party: BJP
     criminal-cases: 0
     assets: 79,82,422
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//up2007/candidate.php?candidate_id=434
     affidavit-link: 
     expenses-link: 
-    constituency: saidpur 
+    constituency: Saidpur 
     party: bjp
     criminal-cases: 0
     assets: 22,82,508

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Dhirendra Nath Das
+title: dhirendra nath das
 profile: 
   party: NCP
-  constituency: jalpaiguri
-  state: west bengal
+  constituency: Jalpaiguri
+  state: West Bengal
   education: 
     level: Post Graduate
     details: ma in pol sc., b ed, blis phd
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4792
     affidavit-link: 
     expenses-link: 
-    constituency: jalpaiguri 
+    constituency: Jalpaiguri 
     party: NCP
     criminal-cases: 0
     assets: 9,00,000

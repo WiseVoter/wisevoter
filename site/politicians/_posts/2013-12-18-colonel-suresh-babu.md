@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Colonel Suresh Babu
+title: colonel suresh babu
 profile: 
   party: IND
-  constituency: firozabad
-  state: uttar pradesh
+  constituency: Firozabad
+  state: Uttar Pradesh
   education: 
     level: 12th Pass
     details: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7774
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=7774
-    constituency: firozabad 
+    constituency: Firozabad 
     party: IND
     criminal-cases: 0
     assets: 73,55,380

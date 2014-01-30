@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Surinder Singh
+title: surinder singh
 profile: 
   party: DCP
-  constituency: amritsar
-  state: punjab
+  constituency: Amritsar
+  state: Punjab
   education: 
     level: 
     details: unknown
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7878
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7878&scan=original
     expenses-link: 
-    constituency: amritsar 
+    constituency: Amritsar 
     party: DCP
     criminal-cases: 1
     assets: 20,000
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 457, 447, 506, 427, 511, 148, 149
-    details:  Case No. 166  
+    details: Case No. 166 
 
 date: 2014-01-28
 version: 0.0.5

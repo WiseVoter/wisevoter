@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Neelambari Ramesh Mandape
+title: neelambari ramesh mandape
 profile: 
   party: IND
-  constituency: kolhapur
-  state: maharashtra
+  constituency: Kolhapur
+  state: Maharashtra
   education: 
     level: 
     details: doctorate p.h.d(1994).
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3796
     affidavit-link: 
     expenses-link: 
-    constituency: kolhapur 
+    constituency: Kolhapur 
     party: IND
     criminal-cases: 0
     assets: 29,62,500

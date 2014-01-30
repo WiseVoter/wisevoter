@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Borkar Pradip Daryav
+title: borkar pradip daryav
 profile: 
   party: RP
-  constituency: ramtek
-  state: maharashtra
+  constituency: Ramtek
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: m.sc (1984)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1960
     affidavit-link: 
     expenses-link: 
-    constituency: ramtek 
+    constituency: Ramtek 
     party: RP
     criminal-cases: 0
     assets: 26,15,000

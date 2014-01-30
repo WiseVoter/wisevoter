@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Rajender Sharma
+title: rajender sharma
 profile: 
   party: IND
-  constituency: hamirpur
-  state: himachal pradesh
+  constituency: Hamirpur
+  state: Himachal Pradesh
   education: 
     level: 
     details: doctorate m.a. , ph. d , punjab university chandigarh 1995
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7839
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7839&scan=original
     expenses-link: 
-    constituency: hamirpur 
+    constituency: Hamirpur 
     party: IND
     criminal-cases: 0
     assets: 4,80,24,374

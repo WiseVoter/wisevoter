@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Nilesh Narayan Rane
+title: nilesh narayan rane
 profile: 
   party: INC
-  constituency: ratnagiri sindhudurg
-  state: maharashtra
+  constituency: Ratnagiri Sindhudurg
+  state: Maharashtra
   education: 
     level: 
     details: doctorate b.com. , m.com. p.hd
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3782
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3782&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=3782
-    constituency: ratnagiri sindhudurg 
+    constituency: Ratnagiri Sindhudurg 
     party: INC
     criminal-cases: 1
     assets: 3,05,61,862
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 504,  506(ii),  34
-    details:    
+    details:  
 
 date: 2014-01-28
 version: 0.0.5

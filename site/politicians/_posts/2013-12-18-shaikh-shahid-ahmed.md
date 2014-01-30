@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Shaikh Shahid Ahmed
+title: shaikh shahid ahmed
 profile: 
   party: IND
-  constituency: mumbai south
-  state: maharashtra
+  constituency: Mumbai South
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional b.u.m.s. oct. 1994. tibbia unani medical college, nagpada, mumbai
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5491
     affidavit-link: 
     expenses-link: 
-    constituency: mumbai south 
+    constituency: Mumbai South 
     party: IND
     criminal-cases: 0
     assets: 44,19,027
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//mh2009/candidate.php?candidate_id=2451
     affidavit-link: 
     expenses-link: 
-    constituency: mumbadevi 
+    constituency: Mumbadevi 
     party: iuml
     criminal-cases: 0
     assets: 55,86,000

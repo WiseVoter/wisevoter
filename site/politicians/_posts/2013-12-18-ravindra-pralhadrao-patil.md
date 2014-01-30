@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Ravindra Pralhadrao Patil
+title: ravindra pralhadrao patil
 profile: 
   party: NCP
-  constituency: raver
-  state: maharashtra
+  constituency: Raver
+  state: Maharashtra
   education: 
     level: 
     details: unknown
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3470
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=3470
-    constituency: raver 
+    constituency: Raver 
     party: NCP
     criminal-cases: 0
     assets: 

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Gangaram Jogchand
+title: gangaram jogchand
 profile: 
   party: LJP
-  constituency: dewas
-  state: madhya pradesh
+  constituency: Dewas
+  state: Madhya Pradesh
   education: 
     level: 
     details: literate
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5208
     affidavit-link: 
     expenses-link: 
-    constituency: dewas 
+    constituency: Dewas 
     party: LJP
     criminal-cases: 0
     assets: 4,20,000

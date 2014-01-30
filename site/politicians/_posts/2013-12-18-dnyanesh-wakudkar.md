@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Dnyanesh Wakudkar
+title: dnyanesh wakudkar
 profile: 
   party: IND
-  constituency: nagpur
-  state: maharashtra
+  constituency: Nagpur
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: m.com,l.l.b (1987).
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1445
     affidavit-link: 
     expenses-link: 
-    constituency: nagpur 
+    constituency: Nagpur 
     party: IND
     criminal-cases: 3
     assets: 78,77,515
@@ -40,16 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 420, 467, 468, 34
-    details:  cheque bounced case
-case no 17364/2006  
+    details: cheque bounced casecase no 17364/2006 
   - crime: accussed
     ipc: 420, 34
-    details:    
+    details:  
   - crime: accussed
     ipc: 
-    details:  rent case
-case no.182/2008
-  
+    details: rent casecase no.182/2008 
 
 date: 2014-01-28
 version: 0.0.5

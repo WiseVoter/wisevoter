@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Babu Ramadhin Ahirwar
+title: babu ramadhin ahirwar
 profile: 
   party: INC
-  constituency: jalaun
-  state: uttar pradesh
+  constituency: Jalaun
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate phd
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5666
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=5666
-    constituency: jalaun 
+    constituency: Jalaun 
     party: INC
     criminal-cases: 0
     assets: 8,99,586

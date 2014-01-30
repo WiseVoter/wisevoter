@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Jayanta Rongpi
+title: jayanta rongpi
 profile: 
   party: CPI
-  constituency: autonomous district
-  state: assam
+  constituency: Autonomous District
+  state: Assam
   education: 
     level: Post Graduate
     details: d.g.o. in the year 1981 from the same university,  m.b.b.s. examination from assam medical college dibrugarh under dibrugarh university in the year 1978, passed metriculation examination from diphu govt boy's high school in the year 1971
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=647
     affidavit-link: http://myneta.info/candidate.php?candidate_id=647&scan=original
     expenses-link: 
-    constituency: autonomous district 
+    constituency: Autonomous District 
     party: CPI
     criminal-cases: 0
     assets: 33,06,831
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=307
     affidavit-link: 
     expenses-link: 
-    constituency: autonomous district 
+    constituency: Autonomous District 
     party: cpi(ml)(l)
     criminal-cases: 0
     assets: 57,68,428

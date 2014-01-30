@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Natkar Ramrao Sheshrao
+title: natkar ramrao sheshrao
 profile: 
   party: IND
-  constituency: beed
-  state: maharashtra
+  constituency: Beed
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: b.a l.l.b (1979)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3685
     affidavit-link: 
     expenses-link: 
-    constituency: beed 
+    constituency: Beed 
     party: IND
     criminal-cases: 1
     assets: 33,22,517
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341, 341, 341
-    details:    
+    details:  
 
 date: 2014-01-28
 version: 0.0.5

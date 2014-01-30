@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Bhausaheb Anil Belure (Bemblikar)
+title: bhausaheb anil belure (bemblikar)
 profile: 
   party: IND
-  constituency: osmanabad
-  state: maharashtra
+  constituency: Osmanabad
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional b.a, 2001,  l.l.b- 2006
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3713
     affidavit-link: 
     expenses-link: 
-    constituency: osmanabad 
+    constituency: Osmanabad 
     party: IND
     criminal-cases: 0
     assets: 50,000

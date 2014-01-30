@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mahendra Dada Shinde
+title: mahendra dada shinde
 profile: 
   party: IND
-  constituency: ahmednagar
-  state: maharashtra
+  constituency: Ahmednagar
+  state: Maharashtra
   education: 
     level: 
     details: unknown
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3651
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3651&scan=original
     expenses-link: 
-    constituency: ahmednagar 
+    constituency: Ahmednagar 
     party: IND
     criminal-cases: 0
     assets: 

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Dadmal Prabhakar Mahaguji
+title: dadmal prabhakar mahaguji
 profile: 
   party: PRBP
-  constituency: gadchiroli-chimur
-  state: maharashtra
+  constituency: Gadchiroli-Chimur
+  state: Maharashtra
   education: 
     level: Post Graduate
     details: ma(1966-68)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1422
     affidavit-link: 
     expenses-link: 
-    constituency: gadchiroli-chimur 
+    constituency: Gadchiroli-Chimur 
     party: PRBP
     criminal-cases: 0
     assets: 15,06,000

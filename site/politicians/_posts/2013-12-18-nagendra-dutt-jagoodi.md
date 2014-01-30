@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Nagendra Dutt Jagoodi
+title: nagendra dutt jagoodi
 profile: 
   party: IND
-  constituency: tehri garhwal
-  state: uttarakhand
+  constituency: Tehri Garhwal
+  state: Uttarakhand
   education: 
     level: Post Graduate
     details: p.g.college kotdwar-d-fil-1990-garahwal university.
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8233
     affidavit-link: 
     expenses-link: 
-    constituency: tehri garhwal 
+    constituency: Tehri Garhwal 
     party: IND
     criminal-cases: 0
     assets: 10,38,999

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Anand Matwale (Guruji)
+title: anand matwale (guruji)
 profile: 
   party: LB
-  constituency: mahasamund
-  state: chhattisgarh
+  constituency: Mahasamund
+  state: Chhattisgarh
   education: 
     level: Graduate
     details: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=135
     affidavit-link: 
     expenses-link: 
-    constituency: mahasamund 
+    constituency: Mahasamund 
     party: LB
     criminal-cases: 0
     assets: 15,24,114

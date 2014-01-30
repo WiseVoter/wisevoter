@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Narendra Keshav Sawaikar
+title: narendra keshav sawaikar
 profile: 
   party: BJP
-  constituency: south goa
-  state: goa
+  constituency: South Goa
+  state: Goa
   education: 
     level: Post Graduate
     details: l.l.b. goa university -1994
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3212
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3212&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=3212
-    constituency: south goa 
+    constituency: South Goa 
     party: BJP
     criminal-cases: 0
     assets: 34,83,623

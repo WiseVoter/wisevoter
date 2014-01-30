@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Sukhdev Singh Chouhan
+title: sukhdev singh chouhan
 profile: 
   party: SP
-  constituency: betul
-  state: madhya pradesh
+  constituency: Betul
+  state: Madhya Pradesh
   education: 
     level: Post Graduate
     details: m.b.b.s., m.d,barkatullah university bhopal
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3421
     affidavit-link: http://myneta.info/candidate.php?candidate_id=3421&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=3421
-    constituency: betul 
+    constituency: Betul 
     party: SP
     criminal-cases: 0
     assets: 29,10,000

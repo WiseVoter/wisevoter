@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Soney Lal Patel
+title: soney lal patel
 profile: 
   party: AD
-  constituency: fatehpur
-  state: uttar pradesh
+  constituency: Fatehpur
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate phd,kanpur university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5705
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=5705
-    constituency: fatehpur 
+    constituency: Fatehpur 
     party: AD
     criminal-cases: 0
     assets: 4,34,02,982

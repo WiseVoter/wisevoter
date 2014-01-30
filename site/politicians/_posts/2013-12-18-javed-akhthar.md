@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Javed Akhthar
+title: javed akhthar
 profile: 
   party: IND
-  constituency: azamgarh
-  state: uttar pradesh
+  constituency: Azamgarh
+  state: Uttar Pradesh
   education: 
     level: Post Graduate
     details: d. ortho-1980
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1147
     affidavit-link: 
     expenses-link: 
-    constituency: azamgarh 
+    constituency: Azamgarh 
     party: IND
     criminal-cases: 0
     assets: 74,98,093

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Pankaj Gosomi (Pandit)
+title: pankaj gosomi (pandit)
 profile: 
   party: RPI
-  constituency: durg
-  state: chhattisgarh
+  constituency: Durg
+  state: Chhattisgarh
   education: 
     level: 10th Pass
     details: matric from hamidima higher secondary school bhopal m.p. in 1990
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=414
     affidavit-link: http://myneta.info/candidate.php?candidate_id=414&scan=original
     expenses-link: 
-    constituency: durg 
+    constituency: Durg 
     party: RPI
     criminal-cases: 0
     assets: 1,30,000

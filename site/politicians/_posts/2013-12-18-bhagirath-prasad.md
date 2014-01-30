@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Bhagirath Prasad
+title: bhagirath prasad
 profile: 
   party: INC
-  constituency: bhind
-  state: madhya pradesh
+  constituency: Bhind
+  state: Madhya Pradesh
   education: 
     level: 
     details: doctorate jawaharlal nehru vishwavidyalay
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5094
     affidavit-link: http://myneta.info/candidate.php?candidate_id=5094&scan=original
     expenses-link: 
-    constituency: bhind 
+    constituency: Bhind 
     party: INC
     criminal-cases: 0
     assets: 1,79,67,761

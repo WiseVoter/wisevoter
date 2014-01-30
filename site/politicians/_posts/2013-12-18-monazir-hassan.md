@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Monazir Hassan
+title: monazir hassan
 profile: 
   party: JD
-  constituency: begusarai
-  state: bihar
+  constituency: Begusarai
+  state: Bihar
   education: 
     level: 
     details: doctorate ph.d, bihar university muzzafarpur 1989
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4977
     affidavit-link: http://myneta.info/candidate.php?candidate_id=4977&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=4977
-    constituency: begusarai 
+    constituency: Begusarai 
     party: JD
     criminal-cases: 0
     assets: 35,83,898
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//bih2005/candidate.php?candidate_id=251
     affidavit-link: 
     expenses-link: 
-    constituency: monghyr 
+    constituency: Monghyr 
     party: jd(u)
     criminal-cases: 0
     assets: 5,23,878
@@ -50,7 +50,7 @@ candidature:
     myneta-link: http://myneta.info//loksabha2004/candidate.php?candidate_id=695
     affidavit-link: 
     expenses-link: 
-    constituency: monghyr 
+    constituency: Monghyr 
     party: jd(u)
     criminal-cases: 0
     assets: 3,16,298

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Dupare Ulhas Shalikram
+title: dupare ulhas shalikram
 profile: 
   party: IND
-  constituency: ramtek
-  state: maharashtra
+  constituency: Ramtek
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional llm(2003)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1965
     affidavit-link: 
     expenses-link: 
-    constituency: ramtek 
+    constituency: Ramtek 
     party: IND
     criminal-cases: 0
     assets: 1,55,000

@@ -11,6 +11,9 @@ class String
 	def titleize
 		self.gsub(/\b(?<!['`])[a-z]/) { $&.capitalize}
 	end
+	def escapebacktick
+		self.gsub(/\`/,"")
+	end
 end
 
 module WVCrawler
@@ -333,9 +336,9 @@ module WVCrawler
 			reference+= "Wikipedia References\n"
 			reference+= "- [Wikipedia profile]({{page.profile.wikipedia}}), accessed Jan 27, 2014.\n"
 			if links.length > 3
-				reference+= "- [#{links[0].text}][wiki1]\n"
-				reference+= "- [#{links[1].text}][wiki2]\n"
-				reference+= "- [#{links[2].text}][wiki3]\n\n"
+				reference+= "- [#{links[0].text.escapebacktick}][wiki1]\n"
+				reference+= "- [#{links[1].text.escapebacktick}][wiki2]\n"
+				reference+= "- [#{links[2].text.escapebacktick}][wiki3]\n\n"
 
 				reference+= "[wiki1]: " + links[0]["href"] + "\n"
 				reference+= "[wiki2]: " + links[1]["href"] + "\n"
@@ -343,7 +346,7 @@ module WVCrawler
 			else
 				ref = ""
 				links.each_with_index {|l, idx|
-					reference+= "- [#{links[0].text}][wiki#{idx+1}]\n"
+					reference+= "- [#{links[0].text.escapebacktick}][wiki#{idx+1}]\n"
 					ref+= "[wiki#{idx+1}]: " + l["href"] + "\n"
 				}
 				reference+= "\n"

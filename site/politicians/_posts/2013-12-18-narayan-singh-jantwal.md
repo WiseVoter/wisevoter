@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Narayan Singh Jantwal
+title: narayan singh jantwal
 profile: 
   party: UKKD
-  constituency: nainital-udhamsingh nagar
-  state: uttarakhand
+  constituency: Nainital-Udhamsingh Nagar
+  state: Uttarakhand
   education: 
     level: 
     details: unknown
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8264
     affidavit-link: 
     expenses-link: 
-    constituency: nainital-udhamsingh nagar 
+    constituency: Nainital-Udhamsingh Nagar 
     party: UKKD
     criminal-cases: 0
     assets: 

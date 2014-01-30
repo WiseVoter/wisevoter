@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Akhilesh Das Gupta
+title: akhilesh das gupta
 profile: 
   party: BSP
-  constituency: lucknow
-  state: uttar pradesh
+  constituency: Lucknow
+  state: Uttar Pradesh
   education: 
     level: 
     details: doctorate phd, pgdba, ba , llb
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5570
     affidavit-link: 
     expenses-link: 
-    constituency: lucknow 
+    constituency: Lucknow 
     party: BSP
     criminal-cases: 1
     assets: 52,74,89,020
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//rajsab09aff/candidate.php?candidate_id=209
     affidavit-link: 
     expenses-link: 
-    constituency: up23 
+    constituency: Up23 
     party: bsp
     criminal-cases: 2
     assets: 53,91,69,856
@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 500
-    details:    
+    details:  
 
 date: 2014-01-28
 version: 0.0.5

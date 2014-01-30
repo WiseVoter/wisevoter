@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Gowri Shankara Swamigalu
+title: gowri shankara swamigalu
 profile: 
   party: SP
-  constituency: tumkur
-  state: karnataka
+  constituency: Tumkur
+  state: Karnataka
   education: 
     level: Graduate
     details: b.e. (mechanicle engineering) siddaganga institute of technology ,tumkur,mysore univercity april 1970
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1348
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1348&scan=original
     expenses-link: 
-    constituency: tumkur 
+    constituency: Tumkur 
     party: SP
     criminal-cases: 0
     assets: 40,17,500

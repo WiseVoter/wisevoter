@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Radhakrishna.K.E
+title: radhakrishna.k.e
 profile: 
   party: JD
-  constituency: bangalore south
-  state: karnataka
+  constituency: Bangalore South
+  state: Karnataka
   education: 
     level: Post Graduate
     details: ma,l.l.b
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1164
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1164&scan=original
     expenses-link: http://myneta.info/expense.php?candidate_id=1164
-    constituency: bangalore south 
+    constituency: Bangalore South 
     party: JD
     criminal-cases: 0
     assets: 2,70,86,394

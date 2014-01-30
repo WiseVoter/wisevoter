@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Samson Borang
+title: samson borang
 profile: 
   party: PPA
-  constituency: arunachal east
-  state: arunachal pradesh
+  constituency: Arunachal East
+  state: Arunachal Pradesh
   education: 
     level: Graduate
     details: mbbs (2000) regional institute of medical science, manipur university
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=471
     affidavit-link: 
     expenses-link: 
-    constituency: arunachal east 
+    constituency: Arunachal East 
     party: PPA
     criminal-cases: 0
     assets: 24,74,000

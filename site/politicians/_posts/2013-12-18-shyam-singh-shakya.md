@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Shyam Singh Shakya
+title: shyam singh shakya
 profile: 
   party: BJP
-  constituency: etah
-  state: uttar pradesh
+  constituency: Etah
+  state: Uttar Pradesh
   education: 
     level: Post Graduate
     details: m.sc,mbbs,ms(graduate professional as well)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7228
     affidavit-link: 
     expenses-link: 
-    constituency: etah 
+    constituency: Etah 
     party: BJP
     criminal-cases: 0
     assets: 1,55,93,815

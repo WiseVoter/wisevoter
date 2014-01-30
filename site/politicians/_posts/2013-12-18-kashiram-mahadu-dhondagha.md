@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Kashiram Mahadu Dhondagha
+title: kashiram mahadu dhondagha
 profile: 
   party: IND
-  constituency: palghar
-  state: maharashtra
+  constituency: Palghar
+  state: Maharashtra
   education: 
     level: Graduate
     details: professional b.a.m.s. (k.g.mittal college,charniroad,mumbai in the year 2008)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5305
     affidavit-link: 
     expenses-link: 
-    constituency: palghar 
+    constituency: Palghar 
     party: IND
     criminal-cases: 0
     assets: 2,75,000

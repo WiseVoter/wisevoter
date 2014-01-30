@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Jagdish Mukhi
+title: jagdish mukhi
 profile: 
   party: BJP
-  constituency: west delhi
-  state: national capital territory of delhi
+  constituency: West Delhi
+  state: National Capital Territory Of Delhi
   education: 
     level: 
     details: doctorate m.com ,(1967) p. hd-(1996)
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=7635
     affidavit-link: http://myneta.info/candidate.php?candidate_id=7635&scan=original
     expenses-link: 
-    constituency: west delhi 
+    constituency: West Delhi 
     party: BJP
     criminal-cases: 1
     assets: 2,19,81,030
@@ -40,7 +40,7 @@ candidature:
     myneta-link: http://myneta.info//delhi2013/candidate.php?candidate_id=131
     affidavit-link: 
     expenses-link: 
-    constituency: janakpuri 
+    constituency: Janakpuri 
     party: bjp
     criminal-cases: 2
     assets: 4,64,05,418
@@ -50,7 +50,7 @@ candidature:
     myneta-link: http://myneta.info//dl2008/candidate.php?candidate_id=133
     affidavit-link: 
     expenses-link: 
-    constituency: janakpuri 
+    constituency: Janakpuri 
     party: bjp
     criminal-cases: 0
     assets: 1,93,24,795
@@ -60,7 +60,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details:  3(I) West Bengal Prevention of Defacement of Property Act 1976   
+    details: 3(I) West Bengal Prevention of Defacement of Property Act 1976 
 
 date: 2014-01-28
 version: 0.0.5

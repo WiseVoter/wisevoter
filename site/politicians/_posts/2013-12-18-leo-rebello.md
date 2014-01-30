@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Leo Rebello
+title: leo rebello
 profile: 
   party: BBM
-  constituency: mumbai north
-  state: maharashtra
+  constituency: Mumbai North
+  state: Maharashtra
   education: 
     level: 
     details: doctorate doctor of humanitarian services, world organisation of natural medicine, canada, 2008
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5381
     affidavit-link: 
     expenses-link: 
-    constituency: mumbai north 
+    constituency: Mumbai North 
     party: BBM
     criminal-cases: 0
     assets: 78,11,750

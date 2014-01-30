@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Vijay Bhave
+title: vijay bhave
 profile: 
   party: IND
-  constituency: mumbai north west
-  state: maharashtra
+  constituency: Mumbai North West
+  state: Maharashtra
   education: 
     level: 
     details: others m.d.,d.c.h. mumbai university 1989
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=5415
     affidavit-link: 
     expenses-link: 
-    constituency: mumbai north west 
+    constituency: Mumbai North West 
     party: IND
     criminal-cases: 0
     assets: 96,27,755

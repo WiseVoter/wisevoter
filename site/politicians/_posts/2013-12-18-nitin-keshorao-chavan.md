@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Nitin Keshorao Chavan
+title: nitin keshorao chavan
 profile: 
   party: PRBP
-  constituency: wardha
-  state: maharashtra
+  constituency: Wardha
+  state: Maharashtra
   education: 
     level: 
     details: unknown
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=1944
     affidavit-link: http://myneta.info/candidate.php?candidate_id=1944&scan=original
     expenses-link: 
-    constituency: wardha 
+    constituency: Wardha 
     party: PRBP
     criminal-cases: 1
     assets: 13,73,500
@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details:  135 BP ACT  
+    details: 135 BP ACT 
 
 date: 2014-01-28
 version: 0.0.5

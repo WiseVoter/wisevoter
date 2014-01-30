@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Vipin Sinha
+title: vipin sinha
 profile: 
   party: CGVP
-  constituency: korba
-  state: chhattisgarh
+  constituency: Korba
+  state: Chhattisgarh
   education: 
     level: Graduate
     details: professional b.sc,  d.h.m.s
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=598
     affidavit-link: 
     expenses-link: 
-    constituency: korba 
+    constituency: Korba 
     party: CGVP
     criminal-cases: 0
     assets: 10,000

@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Mukesh Mehrotra
+title: mukesh mehrotra
 profile: 
   party: IND
-  constituency: jabalpur
-  state: madhya pradesh
+  constituency: Jabalpur
+  state: Madhya Pradesh
   education: 
     level: Post Graduate
     details: jabalpur vishwavidyalay 1975
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=3314
     affidavit-link: 
     expenses-link: 
-    constituency: jabalpur 
+    constituency: Jabalpur 
     party: IND
     criminal-cases: 0
     assets: 1,30,61,000

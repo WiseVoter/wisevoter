@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Chandragiri Rajamouli
+title: chandragiri rajamouli
 profile: 
   party: PRAP
-  constituency: warangal
-  state: andhra pradesh
+  constituency: Warangal
+  state: Andhra Pradesh
   education: 
     level: Graduate
     details: professional m.s (ge. surgery) osmaniya medical college of hyderabad.
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=553
     affidavit-link: http://myneta.info/candidate.php?candidate_id=553&scan=original
     expenses-link: 
-    constituency: warangal 
+    constituency: Warangal 
     party: PRAP
     criminal-cases: 0
     assets: 1,41,60,000

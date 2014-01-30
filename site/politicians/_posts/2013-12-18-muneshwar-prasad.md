@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Muneshwar Prasad
+title: muneshwar prasad
 profile: 
   party: IND
-  constituency: siwan
-  state: bihar
+  constituency: Siwan
+  state: Bihar
   education: 
     level: 12th Pass
     details: 
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=884
     affidavit-link: http://myneta.info/candidate.php?candidate_id=884&scan=original
     expenses-link: 
-    constituency: siwan 
+    constituency: Siwan 
     party: IND
     criminal-cases: 0
     assets: 1,79,000

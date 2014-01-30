@@ -1,10 +1,10 @@
 ---
 layout: politician2
-title: Ramachandran
+title: ramachandran
 profile: 
   party: IND
-  constituency: dharmapuri
-  state: tamil nadu
+  constituency: Dharmapuri
+  state: Tamil Nadu
   education: 
     level: 10th Pass
     details: 10th, govt hss, neruppur
@@ -30,7 +30,7 @@ candidature:
     myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=8959
     affidavit-link: 
     expenses-link: http://myneta.info/expense.php?candidate_id=8959
-    constituency: dharmapuri 
+    constituency: Dharmapuri 
     party: IND
     criminal-cases: 0
     assets: 85,500
