@@ -22,11 +22,20 @@
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
-          <div class="profile-content">
-            {{ content }}
-          </div>
-          <br/><br/>
-          {% include comments.html %}
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#home" data-toggle="tab">Profile</a><li>
+            <li><a href="#edit" data-toggle="tab">Edit</a><li>  
+            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="profile">
+              <div class="profile-content">
+                {{ content }}
+              </div>
+            </div>
+            <div class="tab-pane fade" id="comments">
+                {% include comments.html %}
+            </div>
         </div>
 
        <aside class="col-lg-3">

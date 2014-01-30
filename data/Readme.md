@@ -39,7 +39,7 @@ A central problem in merging all data remains identity resolution. A canonial fu
 Data Scrapping Pipeline
 ------------------------
 
-* [politicians-identity-hash.yml](politicians-identity-hash.yml)
+  * [politicians-identity-hash.yml](politicians-identity-hash.yml)
 	* govcheck-url data stored in [spiders/govcheck](spiders/govcheck)
 	* ...
 
