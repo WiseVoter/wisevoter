@@ -1,0 +1,83 @@
+doctype html
+html(lang='en', xmlns='http://www.w3.org/1999/xhtml', xmlns:fb='https://www.facebook.com/2008/fbml')
+  head(prefix="og: http://ogp.me/ns# nodejsexpressdemo: http://ogp.me/ns/apps/nodejsexpressdemo#")
+  meta(charset="utf-8")
+  meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+
+  title= pkg.name + ' - ' + title
+  meta(http-equiv="Content-type", content="text/html;charset=UTF-8")
+  meta(name="keywords", content=pkg.keywords.join(","))
+  meta(name="description", content=pkg.description)
+
+  link(href="/favicon.ico", rel="shortcut icon", type="image/x-icon")
+  //
+     Opengraph tags
+  meta(property="fb:app_id", content="293989217296609")
+  meta(property="og:title", content=pkg.name + ' - ' + title)
+  meta(property="og:description", content=pkg.description)
+  meta(property="og:url", content="http://edit.wisevoter.org")
+  meta(property="og:image", content="http://blog.getbootstrap.com/wp-content/themes/bootstrap-blog/img/bootstrap-blog-logo.png")
+  meta(property="og:site_name", content="WiseVoter Editor")
+  meta(property="fb:admins", content="1037213945")
+
+  //
+  Styles
+  link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css")
+  link(href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css", rel="stylesheet")
+  link(rel="stylesheet", href="/css/app.css")
+
+  //
+     HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+  //if lt IE 9
+    script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+    script(src='https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js')
+
+  body
+    #wrap
+      nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
+        .container
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.navbar-brand(href='/') WiseVoter Editor
+          .collapse.navbar-collapse
+            ul.nav.navbar-nav
+              li
+              - if (req.isAuthenticated())
+                li
+                  a(href="/users/"+req.user.id, title="Profile") Profile
+                li
+                  a(href="/logout", title="logout") Logout
+              - else
+                li
+                  a(href="/login", title="Login") Login
+    #main
+      .container
+        .main-content
+          include ../includes/messages
+          .main-head
+            block main
+          block content
+
+    #footer
+      .container
+        p.muted
+
+    script(src='http://code.jquery.com/jquery-1.10.2.min.js')
+    script(src='//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js')
+    script(src='/js/app.js')
+    script.
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25468002-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    block foot

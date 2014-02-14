@@ -1,0 +1,21 @@
+extends ../layouts/default
+
+block main
+  h1= title
+
+block content
+  .col-sm-9
+    #editcontent(contenteditable="true")
+      = content
+  .col-sm-3
+    #editfrontmatter(contenteditable="true")
+      = frontmatter
+
+  .col-sm-offset-3.col-sm-2
+    form.form-horizontal(action="/save/#{article}",method="post",onsubmit="doContentCopy()", role="form")
+      input(type='hidden', name='_csrf', value="#{csrf_token}")
+      input(type='hidden', name='article_file', value="#{article_file}")
+      input(type='hidden', name='backto_url', value="edit/#{article}")
+      textarea.form-control(id="contenttextarea", name="content")
+      textarea.form-control(id="frontmattertextarea", name="frontmatter")
+      button.btn.btn-primary(type='submit') Save!

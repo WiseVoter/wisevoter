@@ -1,0 +1,37 @@
+{
+  "name": "WiseVoter-Editor-App",
+  "description": "Editor for WiseVoter",
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "passport"
+  ],
+  "version": "0.0.1",
+  "private": false,
+  "author": "Vaibhav Bhandari",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/vaibhavb/wisevoter.git"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm":  "1.2.x"
+  },
+  "scripts": {
+    "start": "APP_ENV=development node app.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "jade": "latest",
+    "mongoose": "latest",
+    "passport": "latest",
+    "passport-local": "latest",
+    "passport-facebook": "latest",
+    "connect-mongo": "latest",
+    "connect-flash": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  }
+}
