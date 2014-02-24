@@ -15,6 +15,7 @@ image:
   creditlink: 
 comments: true
 readtime: 10
+excerpt: Let’s face it, voting for most of us, is matter of flipping a coin. Go to the ballot run through the list and pick the name that sounds the least offensive - that’s unfortunately the usual rigmarole during elections. But don’t get us wrong it’s not because of lack of will to do research it’s mainly because of lack of data accessible in the public forum on electoral candidates and parties.
 ---
 [Source](http://thekarkhana.vitraag.com/2009/05/vote-wise-this-election/ "Permalink to Vote Wise this election! - The Karkhana!")
 

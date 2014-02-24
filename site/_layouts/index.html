@@ -3,7 +3,7 @@
   <head>
     <title>{{page.title}}</title>
 
-    {% include head.html %}
+    {% include "head.html" %}
   </head>
 
   <body>
@@ -19,7 +19,7 @@
     <div id="content-wrapper">
       <div class="inner clearfix-style">
         <section id="main-content">
-          {{ content }}
+          {{ content | raw }}
         </section>
 
         <aside id="sidebar">
@@ -39,8 +39,8 @@
       </div>
     </div>
 
-    {% include footer.html %}
+    {% include "footer.html" %}
 
-  {% include analytics-google.html %}
+  {% include "analytics-google.html" %}
   </body>
 </html>

@@ -140,7 +140,8 @@ app.use(function(req,res,next){
 });
 
 app.use(app.router);
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '_site')));
+app.use("/public", express.static(path.join(__dirname, 'public')));
 
 // development only
 if ('development' == env) {
@@ -158,8 +159,9 @@ var requiresLogin = function (req, res, next) {
 var main = require('./app/controllers/main');
 var users = require('./app/controllers/users');
 var content = require('./app/controllers/articles');
-app.get('/', main.index);
-
+app.get('/index', main.index);
+app.get('/generate', requiresLogin, main.generate);
+app.get('/articles', main.articles);
 app.get('/login', users.login);
 app.get('/logout', users.logout);
 app.get('/signup', users.signup);
@@ -180,7 +182,9 @@ app.get('/auth/facebook/callback',
   }), users.authCallback);
 
 app.get('/edit/:content/:item', requiresLogin, content.update);
+app.get('/edit/:content', requiresLogin, content.update)
 app.post('/save/:content/:item', content.save)
+app.post('/save/:content', content.save)
 
 // run the server
 http.createServer(app).listen(app.get('port'), function(){

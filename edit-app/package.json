@@ -19,11 +19,14 @@
     "npm":  "1.2.x"
   },
   "scripts": {
-    "start": "APP_ENV=development node app.js"
+    "start": "APP_ENV=development node server.js"
   },
   "dependencies": {
     "express": "latest",
     "jade": "latest",
+    "swig": "latest",
+    "marked": "latest",
+    "js-yaml": "latest",
     "mongoose": "latest",
     "passport": "latest",
     "passport-local": "latest",

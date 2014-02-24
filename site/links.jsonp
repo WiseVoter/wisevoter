@@ -1,10 +1,12 @@
 ---
+layout: none
+title: jsonp
 ---
 callback([
-{% for post in site.posts reversed | sort: title %}
+{% for post in site.posts | reverse %}
   {
-    "text": "{{post.title | replace:'"','\"'}}",
+    "text": "{{post.title | replace('"','\"')}}",
     "href": "{{site.baseurl}}{{post.url}}"
-  } {% unless forloop.last %},{% endunless%}
+  } {% if not loop.last %},{% endif %}
 {% endfor %}
 ])

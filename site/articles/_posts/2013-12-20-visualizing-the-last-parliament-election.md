@@ -15,6 +15,7 @@ image:
   creditlink: 
 comments: true
 readtime: 5
+excerpt: This week I spent some time analysing the data from Lok Sabha elections 2009. It was an ardous task
 ---
 This week I spent some time analysing the data from Lok Sabha elections 2009. It was an ardous task to get to this [result](http://www.wisevoter.org/parties.html).
 From the data one can spot few insights like:

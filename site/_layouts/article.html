@@ -2,13 +2,13 @@
 <html>
   <head>
     <title>{{page.title}}</title>
-    {% include head.html %}
+    {% include "head.html" %}
   </head>
 
   <body>
 
     <div class="container-fluid">
-      {% include navigation.html %}
+      {% include "navigation.html" %}
     </div>
 
     <div class="container">
@@ -23,11 +23,11 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <div class="articles-content">
-            {{ content }}
+            {{ content | raw }}
           </div>
           <br/><br/>
-          {% if page.comments != "false" %}
-            {% include comments.html %}
+          {% if page.comments != false %}
+            {% include "comments.html" %}
           {% endif %}
         </div>  
         
@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    {% include footer.html %}
-  {% include analytics-google.html %}
+    {% include "footer.html" %}
+  {% include "analytics-google.html" %}
   </body>
 </html>

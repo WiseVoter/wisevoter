@@ -1,15 +1,25 @@
-permalink: /:categories/:title
-title: 'WiseVoter'
-encoding: 'utf-8'
+permalink: /:category/:title
+title: WiseVoter
+encoding: utf-8
+
+site_root: ../site
+publish_root: ./_site
+
+data: _data
+layouts_dir: _layouts
+includes_dir: _includes
+
+posts_dir: _posts
+category: [articles, constituencies, parties]
 
 # All WiseVoter specific configurations are namespaced into this hash
 #
 WV :
-  version : 0.0.5
+  version: 0.0.5
 
   # Setting for analytics include
-  analytics :
-    google :
+  analytics:
+    google:
       tracking_id : 'UA-8311051-1'
 
 # links to include in top navigation
@@ -26,10 +36,6 @@ links:
     url: /parties.html
   - title: Issues
     url: /issues.html
-
-blogroll:
-  - title: Ballot.in
-    url: http://www.ballot.in
 
 prose:
   rooturl: 'site'

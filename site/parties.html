@@ -10,7 +10,7 @@ title: Parties
 <p> Following are political parties on wisevoter with their agenda and reach </p>
 
 <ul>
-{% for post in site.categories.parties do %}
+{% for post in site.categories.parties %}
 	<li><a href="{{post.url}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>

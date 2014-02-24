@@ -2,13 +2,13 @@
 <html>
   <head>
     <title>{{page.title}}</title>
-    {% include head.html %}
+    {% include "head.html" %}
   </head>
 
   <body>
 
     <div class="container-fluid">
-      {% include navigation.html %}
+      {% include "navigation.html" %}
     </div>
 
     <div class="container">
@@ -23,10 +23,10 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <div id="main-content">
-            {{ content }}
+            {{ content | raw }}
           </div>
           <br/><br/>
-          {% include comments.html %}
+          {% include "comments.html" %}
         </div>  
         
         <div class="col-lg-3">
@@ -50,7 +50,7 @@
       </div>
     </div>
 
-    {% include footer.html %}
-  {% include analytics-google.html %}
+    {% include "footer.html" %}
+  {% include "analytics-google.html" %}
   </body>
 </html>

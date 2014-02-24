@@ -1,0 +1,19 @@
+.navbar a {
+  color: #2e408c !important; }
+
+.main-content {
+  margin-top: 70px; }
+
+.login-container {
+  width: 500px; }
+
+#editcontent, #editfrontmatter {
+  white-space: pre-wrap;
+  border: 1px solid #336699;
+  border-top: 5px solid #336699;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  margin-bottom: 10px; }
+
+#contenttextarea, #frontmattertextarea {
+  display: none; }
