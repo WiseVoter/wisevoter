@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/constituencies/_posts/2013-12-18-amalapuram.md'>Edit</a></li>
+		    	<a href='/edit/constituencies/amalapuram'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -75,45 +75,17 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <div id="main-content">
-            <h2 id="constituency_details">Constituency details</h2>
-
+            <h2 id="constituency-details">Constituency details</h2>
 <p>16°56′25.42″N 81°57′29.44″E﻿ / ﻿16.9403944°N 81.9581778°E﻿ / 16.9403944; 81.9581778Coordinates: 16°56′25.42″N 81°57′29.44″E﻿ / ﻿16.9403944°N 81.9581778°E﻿ / 16.9403944; 81.9581778 Amalapuram Lok Sabha constituency (Telugu: అమలాపురం లోకసభ నియోజకవర్గం) is one of the 42 Lok Sabha (Lower House of the Parliament) constituencies in Andhra Pradesh state in southern India. This constituency is reserved for the candidates belonging to the Scheduled castes.</p>
-
-<h2 id="election_history">Election History</h2>
-<h3>Lok Sabha 2009</h3><ul>
-  
-    <li>G V Harsha Kumar</li>
-  
-    <li>Akumarthi Suryanarayana</li>
-  
-    <li>Bheemarao Ramji Muthabathula</li>
-  
-    <li>Doctor G Varalakshmi</li>
-  
-    <li>G Sampada Rao</li>
-  
-    <li>K Uma Maheswara Rao</li>
-  
-    <li>Kiran Kumar Binepe</li>
-  
-    <li>Masa Ramadasu</li>
-  
-    <li>P V Chakravarthi</li>
-  
-    <li>Pothula Prameela Devi</li>
-  
-    <li>Yalangi Ramesh</li>
-  
-  </ul>
+<h2 id="election-history">Election History</h2>
+<p>{% include constituency_election_history.html %}</p>
 <h2 id="reference">Reference</h2>
-
 <p>Wikipedia References</p>
-
 <ul>
-<li><a href="">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
-
-<li><a href="http://eci.nic.in/eci_main/CurrentElections/CONSOLIDATED_ORDER%20_ECI%20.pdf">“Delimitation of Parliamentary and Assembly Constituencies Order, 2008”</a></li>
+<li><a href="{{page.profile.wikipedia}}">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
+<li><a href="http://eci.nic.in/eci_main/CurrentElections/CONSOLIDATED_ORDER%20_ECI%20.pdf">&quot;Delimitation of Parliamentary and Assembly Constituencies Order, 2008&quot;</a></li>
 </ul>
+
           </div>
           <br/><br/>
           <div id="disqus_thread"></div>

@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/constituencies/_posts/2013-12-18-chandni-chowk.md'>Edit</a></li>
+		    	<a href='/edit/constituencies/chandni-chowk'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -75,93 +75,11 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <div id="main-content">
-            <h2 id="constituency_details">Constituency details</h2>
-
-<h2 id="election_history">Election History</h2>
-<h3>Lok Sabha 2009</h3><ul>
-  
-    <li>Kapil Sibal</li>
-  
-    <li>Abdul Samad</li>
-  
-    <li>Ajay Mittal</li>
-  
-    <li>Anil Gupta</li>
-  
-    <li>Ashish Saxena</li>
-  
-    <li>Ashok Kumar Gotewala</li>
-  
-    <li>Babu Lal Bairwa</li>
-  
-    <li>Balram Bari</li>
-  
-    <li>Bashiruddin</li>
-  
-    <li>Beer Singh</li>
-  
-    <li>Bhim Singh Puri</li>
-  
-    <li>P L Premi</li>
-  
-    <li>Sita Ram Sharma</li>
-  
-    <li>Ghanshyam Morwal</li>
-  
-    <li>Imam Raja Naqvi</li>
-  
-    <li>Javed Ahmed</li>
-  
-    <li>Kiran</li>
-  
-    <li>Laiq Ahmed</li>
-  
-    <li>Lila Devi</li>
-  
-    <li>Mohd Shafiq</li>
-  
-    <li>Mohd. Mustaqeem</li>
-  
-    <li>Narender Singh</li>
-  
-    <li>Nasrin Begum</li>
-  
-    <li>Om Prakash Thakur</li>
-  
-    <li>Prem Narain</li>
-  
-    <li>Puran Chand</li>
-  
-    <li>Raj Paul Chauhan</li>
-  
-    <li>Rajender Singh Chandeliya</li>
-  
-    <li>Rajesh Nagar</li>
-  
-    <li>Ran Pal Singh</li>
-  
-    <li>Ranjeet Kumar</li>
-  
-    <li>Rohit Kumar</li>
-  
-    <li>Sanjay Kumar</li>
-  
-    <li>Shahida Parveen</li>
-  
-    <li>Suhail Ahmed Khan</li>
-  
-    <li>Sunil Kumar</li>
-  
-    <li>Vijender Khari</li>
-  
-    <li>Vijender Kumar Gupta</li>
-  
-    <li>Vinod Dukhiya</li>
-  
-    <li>Zaheer Ahmed</li>
-  
-  </ul>
+            <h2 id="constituency-details">Constituency details</h2>
+<h2 id="election-history">Election History</h2>
+<p>{% include constituency_election_history.html %}</p>
 <h2 id="reference">Reference</h2>
+
           </div>
           <br/><br/>
           <div id="disqus_thread"></div>

@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/constituencies/_posts/2013-12-18-bangalore-south.md'>Edit</a></li>
+		    	<a href='/edit/constituencies/bangalore-south'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -75,53 +75,11 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <div id="main-content">
-            <h2 id="constituency_details">Constituency details</h2>
-
-<h2 id="election_history">Election History</h2>
-<h3>Lok Sabha 2009</h3><ul>
-  
-    <li>Ananth Kumar</li>
-  
-    <li>Abhimani Narendra</li>
-  
-    <li>B.M.Govindraj Naik</li>
-  
-    <li>B.Shivaramappa</li>
-  
-    <li>Capt.G.R.Gopinath</li>
-  
-    <li>Jayalakshmi.H.G</li>
-  
-    <li>Ganesh Hanumantarao Mokhashi</li>
-  
-    <li>K.C.Janardhan</li>
-  
-    <li>K.M.Narayana</li>
-  
-    <li>Khader Ali Khan</li>
-  
-    <li>Krishna Byre Gowda C.B.</li>
-  
-    <li>Madesh.C</li>
-  
-    <li>Murali Dhara.D.J</li>
-  
-    <li>Naheeda Salma S</li>
-  
-    <li>P.John Basco</li>
-  
-    <li>Radhakrishna.K.E</li>
-  
-    <li>Ravi Kumara.T</li>
-  
-    <li>Santhosh Min.B</li>
-  
-    <li>Sugandha Raje Urs</li>
-  
-    <li>Vatal Nagaraj</li>
-  
-  </ul>
+            <h2 id="constituency-details">Constituency details</h2>
+<h2 id="election-history">Election History</h2>
+<p>{% include constituency_election_history.html %}</p>
 <h2 id="reference">Reference</h2>
+
           </div>
           <br/><br/>
           <div id="disqus_thread"></div>

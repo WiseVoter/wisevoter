@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/constituencies/_posts/2013-12-18-mohanlalganj.md'>Edit</a></li>
+		    	<a href='/edit/constituencies/mohanlalganj'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -75,41 +75,19 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <div id="main-content">
-            <h2 id="constituency_details">Constituency details</h2>
-
+            <h2 id="constituency-details">Constituency details</h2>
 <p>Mohanlalganj is a Lok Sabha parliamentary constituency in Lucknow district, Uttar Pradesh. It is 20 Km far away from Lucknow city.</p>
-
-<h2 id="election_history">Election History</h2>
-<h3>Lok Sabha 2009</h3><ul>
-  
-    <li>Sushila Saroj</li>
-  
-    <li>Jai Prakash</li>
-  
-    <li>Jaipal Pathik</li>
-  
-    <li>R.K.Chaudhary</li>
-  
-    <li>Ram Dhan</li>
-  
-    <li>Ranjan Kumar Chaudhary</li>
-  
-    <li>Sattideen</li>
-  
-  </ul>
+<h2 id="election-history">Election History</h2>
+<p>{% include constituency_election_history.html %}</p>
 <h2 id="reference">Reference</h2>
-
 <p>Wikipedia References</p>
-
 <ul>
-<li><a href="">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
-
-<li><a href="http://articles.timesofindia.indiatimes.com/2012-12-29/">Mohanlal ganj lucknow/36050401_1_minimum-temperature-maximum-temperature-celsius “Mohanlal ganj Lucknow Minimum Temperature”</a></li>
-
-<li><a href="http://www.ndtv.com/article/india/mercury-at-record-low-in-uttar-pradesh-315170">“Mercury at record low in Uttar Pradesh”</a></li>
-
-<li><a href="http://www.lucknow.climatemps.com/">“Mohanlal ganj Climate &amp; Temperature”</a></li>
+<li><a href="{{page.profile.wikipedia}}">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
+<li><a href="http://articles.timesofindia.indiatimes.com/2012-12-29/">Mohanlal ganj lucknow/36050401_1_minimum-temperature-maximum-temperature-celsius &quot;Mohanlal ganj Lucknow Minimum Temperature&quot;</a></li>
+<li><a href="http://www.ndtv.com/article/india/mercury-at-record-low-in-uttar-pradesh-315170">&quot;Mercury at record low in Uttar Pradesh&quot;</a></li>
+<li><a href="http://www.lucknow.climatemps.com/">&quot;Mohanlal ganj Climate &amp; Temperature&quot;</a></li>
 </ul>
+
           </div>
           <br/><br/>
           <div id="disqus_thread"></div>

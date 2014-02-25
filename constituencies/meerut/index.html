@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/constituencies/_posts/2013-12-18-meerut.md'>Edit</a></li>
+		    	<a href='/edit/constituencies/meerut'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -75,83 +75,18 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <div id="main-content">
-            <h2 id="constituency_details">Constituency details</h2>
-
+            <h2 id="constituency-details">Constituency details</h2>
 <p>Meerut Lok Sabha constituency (Hindi: मेरठ लोक सभा निर्वाचन क्षेत्र) is one of the 80 Lok Sabha (parliamentary) constituencies in Uttar Pradesh state in northern India. This constituency covers parts of Meerut and Ghaziabad districts.</p>
-
-<h2 id="election_history">Election History</h2>
-<h3>Lok Sabha 2009</h3><ul>
-  
-    <li>Rajendra Agarwal</li>
-  
-    <li>Ajay Agarwal</li>
-  
-    <li>Anil Kumar Subhash</li>
-  
-    <li>Arun Kumar Jain</li>
-  
-    <li>Atul Tyagi</li>
-  
-    <li>Bharat Bhusan</li>
-  
-    <li>Dara Singh</li>
-  
-    <li>Hari Singh Azad</li>
-  
-    <li>Surendar Kumar Khatri</li>
-  
-    <li>Jeneshwar Prashad Sharma</li>
-  
-    <li>Khalid Ahmad</li>
-  
-    <li>Krishna Kumar Garg</li>
-  
-    <li>Krishna Pal</li>
-  
-    <li>Lohari</li>
-  
-    <li>Malook Nagar</li>
-  
-    <li>Moh. Shahid</li>
-  
-    <li>Mughis Ahmad Gilani</li>
-  
-    <li>Rajendra Sharma</li>
-  
-    <li>Rajendra Singh Yadav</li>
-  
-    <li>Rajesh Kumar</li>
-  
-    <li>Rajkumar Tyagi</li>
-  
-    <li>Sanjeev Kumar</li>
-  
-    <li>Santosh Ahluwalia</li>
-  
-    <li>Shahid Manzoor</li>
-  
-    <li>Shreepal Singh</li>
-  
-    <li>Sudhir Nandan Saran</li>
-  
-    <li>Sunil Kumar</li>
-  
-    <li>Tejveer Singh</li>
-  
-    <li>Zarrar</li>
-  
-  </ul>
+<h2 id="election-history">Election History</h2>
+<p>{% include constituency_election_history.html %}</p>
 <h2 id="reference">Reference</h2>
-
 <p>Wikipedia References</p>
-
 <ul>
-<li><a href="">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
-
-<li><a href="http://eci.nic.in/eci_main/CurrentElections/CONSOLIDATED_ORDER%20_ECI%20.pdf">“Delimitation of Parliamentary and Assembly Constituencies Order, 2008”</a></li>
-
-<li><a href="http://ceouttarpradesh.nic.in/010_PC_Statistics_English.aspx">“Delimitation of Parliamentary and Assembly Constituencies Order, 2008”</a></li>
+<li><a href="{{page.profile.wikipedia}}">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
+<li><a href="http://eci.nic.in/eci_main/CurrentElections/CONSOLIDATED_ORDER%20_ECI%20.pdf">&quot;Delimitation of Parliamentary and Assembly Constituencies Order, 2008&quot;</a></li>
+<li><a href="http://ceouttarpradesh.nic.in/010_PC_Statistics_English.aspx">&quot;Delimitation of Parliamentary and Assembly Constituencies Order, 2008&quot;</a></li>
 </ul>
+
           </div>
           <br/><br/>
           <div id="disqus_thread"></div>
