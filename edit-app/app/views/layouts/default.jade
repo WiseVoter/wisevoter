@@ -24,7 +24,6 @@ html(lang='en', xmlns='http://www.w3.org/1999/xhtml', xmlns:fb='https://www.face
   Styles
   link(rel="stylesheet", href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css")
   link(href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css", rel="stylesheet")
-  link(rel="stylesheet", href="/public/css/vendor/bootstrap-overrides.css")
   link(rel="stylesheet", href="/public/css/compiled/app.css")
 
   //
@@ -52,8 +51,9 @@ html(lang='en', xmlns='http://www.w3.org/1999/xhtml', xmlns:fb='https://www.face
                   ul.dropdown-menu
                     li
                       a(href="/users/"+req.user.id, title="Profile") Profile
-                    li
-                      a(href="/generate") Generate Site
+                    - if (req.user.isSuperAdmin)
+                      li
+                        a(href="/generate") Generate Site
                     li.divider
                     li
                       a(href="/logout", title="logout") Logout

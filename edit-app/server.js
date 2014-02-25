@@ -150,9 +150,21 @@ if ('development' == env) {
 
 //auth
 var requiresLogin = function (req, res, next) {
-  if (req.isAuthenticated()) return next()
+  if (req.isAuthenticated()) {
+    if(req.user.roles.indexOf('superadmin') >= 0) {
+      req.user.isSuperAdmin = true;
+    }
+    return next()
+  }
   if (req.method == 'GET') req.session.returnTo = req.originalUrl
   res.redirect('/login')
+}
+
+var isSuperAdmin = function(req, res, next){
+  if(req.user.isSuperAdmin) {
+    return next()
+  }
+  res.redirect('/notAuthorized') 
 }
 
 // routes
@@ -160,10 +172,11 @@ var main = require('./app/controllers/main');
 var users = require('./app/controllers/users');
 var content = require('./app/controllers/articles');
 app.get('/index', main.index);
-app.get('/generate', requiresLogin, main.generate);
+app.get('/generate', requiresLogin, isSuperAdmin, main.generate);
 app.get('/articles', main.articles);
 app.get('/login', users.login);
 app.get('/logout', users.logout);
+app.get('/notAuthorized', main.notAuthorized);
 app.get('/signup', users.signup);
 app.post('/users', users.create);
 app.get('/users/:userId', users.show);

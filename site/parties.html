@@ -1,9 +1,8 @@
 ---
-layout: default
-title: Parties
----
 
-<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col5%2C+SUM(col22)+from+1MwuKiegMMHYtSpPu8ZG_lg7UCVx0Cnlv-S2jJV0+where+col5+in+(&#39;SP&#39;%2C+&#39;BJP&#39;%2C+&#39;BSP&#39;%2C+&#39;INC&#39;%2C+&#39;CPI(M)&#39;)+group+by+col5+order+by+col5+asc+limit+10&amp;viz=GVIZ&amp;t=PIE&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=500&amp;height=300"></iframe>
+layout: default
+title: Politicians
+---<iframe width="500" height="300" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&q=select+col5%2C+SUM(col22)+from+1MwuKiegMMHYtSpPu8ZG_lg7UCVx0Cnlv-S2jJV0+where+col5+in+('SP'%2C+'BJP'%2C+'BSP'%2C+'INC'%2C+'CPI(M)')+group+by+col5+order+by+col5+asc+limit+10&viz=GVIZ&t=PIE&uiversion=2&gco_forceIFrame=true&gco_hasLabelsColumn=true&width=500&height=300"></iframe>
 
 
 <h2> Political Parties </h2>
@@ -11,7 +10,7 @@ title: Parties
 
 <ul>
 {% for post in site.categories.parties %}
-	<li><a href="{{post.url}}">{{post.title}}</a></li>
+ <li><a href="{{post.url}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
 

@@ -23,6 +23,15 @@ exports.index = function(req, res){
   })
 }
 
+exports.notAuthorized = function(req, res){
+  content = "Not Authorized!"
+
+  res.render('main/index',{
+    title: 'home',
+    content: content
+  })
+}
+
 exports.generate = function(req, res){
   wv.generate();
   res.redirect('/')

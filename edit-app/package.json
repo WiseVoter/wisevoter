@@ -10,13 +10,13 @@
   "version": "0.0.1",
   "private": false,
   "author": "Vaibhav Bhandari",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/vaibhavb/wisevoter.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaibhavb/wisevoter.git"
   },
   "engines": {
     "node": "0.10.x",
-    "npm":  "1.2.x"
+    "npm": "1.2.x"
   },
   "scripts": {
     "start": "APP_ENV=development node server.js"
@@ -35,6 +35,9 @@
     "connect-flash": "latest"
   },
   "devDependencies": {
-    "mocha": "latest"
+    "mocha": "latest",
+    "grunt": "latest",
+    "grunt-contrib-less": "~0.9.0",
+    "bower": "~1.2.8"
   }
 }
