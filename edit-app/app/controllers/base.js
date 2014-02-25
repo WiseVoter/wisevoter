@@ -260,23 +260,6 @@ var mailOptions = {
 
 exports.gitcommit = function(gitrepo){
   var gitdir = "./_git/", gitbranch = "gh-pages", repo;
-  if (exists(gitdir, true) == false) {
-    git.clone(gitrepo, gitdir, function(err, _repo){
-      if (err) throw err
-      repo = _repo
-      repo.checkout(gitbranch, function(err, i){
-        if (err) throw err;
-        // send mail with defined transport object
-        smtpTransport.sendMail(mailOptions, function(error, response){
-            if(error) {
-                console.log(error);
-            } else {
-                console.log("Message sent: " + response.message);
-            }
-        });
-      })
-    })
-  }
   var outdir = gitdir , sitedir = "./_site/";
   function copyDirToGitDir(dir)
   {
@@ -291,19 +274,39 @@ exports.gitcommit = function(gitrepo){
       }
     })
   }
-  copyDirToGitDir(sitedir)
-  repo = git(gitdir)
-  repo.add(".",{A: true}, function(error){
-    if (error) {console.log("Git Add: " + error); return;}
-    repo.commit("Node bot commit", function(err){
-      if (err) {console.log("Git Commit: " + err); return;}
-      console.log(repo.path + ": Commit Completed.")    
-      repo.sync("origin", gitbranch, function(e){
-          if (e) {console.log("Sync: " + e); return;}
-          console.log(repo.path + ": Sync Completed.")
+  function doCommit(){
+    copyDirToGitDir(sitedir)
+    repo = git(gitdir)
+    repo.add(".",{A: true}, function(error){
+      if (error) {console.log("Git Add: " + error); return;}
+      repo.commit("Node bot commit", function(err){
+        if (err) {console.log("Git Commit: " + err); return;}
+        console.log(repo.path + ": Commit Completed.")    
+        repo.sync("origin", gitbranch, function(e){
+            if (e) {console.log("Sync: " + e); return;}
+            console.log(repo.path + ": Sync Completed.")
+        })
       })
     })
-  })
-
-
+  }
+  if (exists(gitdir, true) == false) {
+    git.clone(gitrepo, gitdir, function(err, _repo){
+      if (err) throw err
+      repo = _repo
+      repo.checkout(gitbranch, function(err, i){
+        if (err) throw err;
+        // send mail with defined transport object
+        smtpTransport.sendMail(mailOptions, function(error, response){
+            if(error) {
+                console.log(error);
+            } else {
+                console.log("Message sent: " + response.message);
+            }
+        });
+        doCommit();  
+      })
+    })
+  } else {
+    doCommit();
+  }
 }
