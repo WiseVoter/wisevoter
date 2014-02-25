@@ -1,0 +1,69 @@
+permalink: /:category/:title
+title: WiseVoter
+encoding: utf-8
+
+site_root: ../site
+publish_root: ./_site
+
+data: _data
+layouts_dir: _layouts
+includes_dir: _includes
+
+posts_dir: _posts
+category: [articles, constituencies, parties]
+
+# All WiseVoter specific configurations are namespaced into this hash
+#
+WV :
+  version: 0.0.5
+
+  # Setting for analytics include
+  analytics:
+    google:
+      tracking_id : 'UA-8311051-1'
+
+# links to include in top navigation
+links:
+  - title: Home
+    url: /
+  - title: Articles
+    url: /articles.html
+  - title: Constituencies
+    url: /constituencies.html
+  - title: Politicians
+    url: /politicians.html
+  - title: Parties
+    url: /parties.html
+  - title: Issues
+    url: /issues.html
+
+prose:
+  rooturl: 'site'
+  siteurl: 'http://www.wisevoter.com/'
+  relativeLinks: 'http://www.wisevoter.com/links.jsonp'
+  media: 'images'
+  ignore:
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    politicians/_posts:
+      - name: layout
+        field:
+          element: hidden
+          value: politician
+    articles/_posts:
+      - name: layout
+        field:
+          element: hidden
+          value: article
+      - name: author
+        field:
+          element: text
+          label: Authors full name
+          value: ""
+    constituencies/_posts:
+      - name: layout
+        field:
+          element: hidden
+          value: constituency

@@ -1,0 +1,12 @@
+---
+layout: none
+title: jsonp
+---
+callback([
+{% for post in site.posts | reverse %}
+  {
+    "text": "{{post.title | replace('"','\"')}}",
+    "href": "{{site.baseurl}}{{post.url}}"
+  } {% if not loop.last %},{% endif %}
+{% endfor %}
+])

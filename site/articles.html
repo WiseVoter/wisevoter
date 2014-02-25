@@ -1,0 +1,17 @@
+---
+layout: article
+title: Articles
+comments: false
+---<ul class="post-list">
+{% for post in site.categories.articles %} 
+  <li>
+  	<article>
+  	<a href="{{ site.url }}{{ post.url }}"> 
+  		<h3 class="post-item-title">{{ post.page.title }}</h3>
+  	</a>
+  	<i class="fa fa-pencil"></i> <span class="entry-date">Posted in {{ post.page.category | capitalize }}&nbsp;&bull;&nbsp;<i class="fa fa-clock-o"></i> {{ post.page.readtime }}  minutes read&nbsp;&bull;&nbsp;by {{post.page.author}}</span>
+  	</article>
+  </li>
+  <p class="post-item-snippet">{{ post.page.excerpt }}&nbsp;<a href="{{ post.url }}"> Read more...</a></p>
+{% endfor %}
+</ul>

@@ -1,0 +1,75 @@
+---
+layout: politician2
+title: {{title}}
+profile: 
+  party: {{profile.party}}
+  constituency: {{profile.constituency}}
+  state: {{profile.state}}
+  education: 
+    level: {{profile.education-level}}
+    details: {{profile.education-details}}
+  photo: {{profile.photo}}
+  sex: {{profile.sex}}
+  caste: {{profile.caste}}
+  religion: {{profile.religion}}
+  current-office-title: {{profile.current-office-title}}
+  crime-accusation-instances: {{profile.crime-accusation-instances}}
+  date-of-birth: {{profile.date-of-birth}}
+  profession: {{profile.profession}}
+  networth: 
+    assets: {{profile.networth.assets}}
+    liabilities: {{profile.networth.liabilities}}
+  pan: {{profile.pan}}
+  twitter: {{profile.twitter}}
+  website: {{profile.website}}
+  youtube-interview: {{profile.youtube-interview}}
+  wikipedia: {{profile.wikipedia}}
+
+candidature: {% for item in candidature %}
+  - election: {{item.election}}
+    myneta-link: {{item.myneta-link}}
+    affidavit-link: {{item.affidavit-link}}
+    expenses-link: {{item.expenses-link}}
+    constituency: {{item.constituency}} 
+    party: {{item.party}}
+    criminal-cases: {{item.criminal-cases}}
+    assets: {{item.assets}}
+    liabilities: {{item.liabilities}}
+    result: {{item.result}} {% endfor %}
+
+crime-record: {% for item in crime-records %}
+  - crime: {{item.crime}}
+    ipc: {{item.ipc}}
+    details: {{item.details}} {% endfor %}
+
+date: {{date | default: "2014-01-28"}}
+version: {{version | default: '0.0.5' }}
+tags: {{tags}}
+---
+##Summary
+{{summary}}
+
+##Education
+{% raw %}{% include education.html %}{% endraw %}
+{{education}}
+
+##Political Career
+{% raw %}{% include political-career.html %}{% endraw %}
+{{politicial_career}}
+
+##Criminal Record
+{% raw %}{% include criminal-record.html %}{% endraw %}
+{{criminal_record}}
+
+##Personal Wealth
+{% raw %}{% include personal-wealth.html %}{% endraw %}
+{{personal_wealth}}
+
+##Public Office Track Record
+{% raw %}{% include track-record.html %}{% endraw %}
+{{public_office_track_record}}
+
+##References
+{{references}}
+
+{% raw %}{% include references.html %}{% endraw %}

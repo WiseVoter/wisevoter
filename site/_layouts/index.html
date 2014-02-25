@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}}</title>
+
+    {% include "head.html" %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="inner">
+        <h1>WiseVoter</h1>
+        <h2>WiseVoter is a community project to educate voters on their representatives. The current version of the project targets 2014 Indian General elections.</h2>
+        <a href="https://github.com/vaibhavb/wisevoter" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix-style">
+        <section id="main-content">
+          {{ content | raw }}
+        </section>
+
+        <aside id="sidebar">
+          <a href="/politicians.html" class="button">
+            <small>Review</small>
+            Politicians
+          </a>
+          <a href="https://bit.ly/wv-tables" class="button">
+            <small>Visualize</small>
+            Fusion Tables
+          </a>
+          <a href="https://github.com/vaibhavb/wisevoter/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+        </aside>
+      </div>
+    </div>
+
+    {% include "footer.html" %}
+
+  {% include "analytics-google.html" %}
+  </body>
+</html>

@@ -1,0 +1,51 @@
+extends ../layouts/default
+
+block main
+  .edit
+    h1= title
+
+block content
+  .col-sm-9
+    #epiceditor
+  .col-sm-3
+    #editfrontmatter(contenteditable="true")
+      = frontmatter
+
+  .col-sm-offset-3.col-sm-2
+    form.form-horizontal(action="/save/#{article}",method="post",onsubmit="doContentCopy()", role="form")
+      input(type='hidden', name='_csrf', value="#{csrf_token}")
+      input(type='hidden', name='article_file', value="#{article_file}")
+      input(type='hidden', name='backto_url', value="edit/#{article}")
+      textarea.form-control(id="contenttextarea", name="content")
+        = content
+      textarea.form-control(id="frontmattertextarea", name="frontmatter")
+      button.btn.btn-primary(type='submit') Save!
+
+block foot
+  script(src='/public/vendor/epiceditor/js/epiceditor.min.js')
+  script.
+    var opts = {
+      autogrow: true,
+      textarea: 'contenttextarea',
+      basePath: '../../public/vendor/epiceditor',
+      theme: {
+        base: '/themes/base/epiceditor.css',
+        preview: '/themes/preview/github.css',
+        editor: '/themes/editor/epic-light.css'
+      }
+    };
+    var editor = new EpicEditor(opts).load(function(){
+      console.log("Epic Editor loaded");
+    });
+
+    function doContentCopy(){
+      console.log("Content copy");
+      document.getElementById("contenttextarea").value = 
+          editor.exportFile();
+      console.log(document.getElementById("contenttextarea").value);
+      document.getElementById("frontmattertextarea").value = 
+        document.getElementById("editfrontmatter").innerText;  
+      console.log(document.getElementById("frontmattertextarea").value);
+      alert("yes?")
+      return true;
+    }

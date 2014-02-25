@@ -1,0 +1,92 @@
+---
+layout: politician2
+title: saba ahmad
+profile: 
+  party: JVM
+  constituency: Giridih
+  state: Jharkhand
+  education: 
+    level: 
+    details: doctorate m.b.b.s. from patna medical college, patna in 1969
+  photo: 
+  sex: 
+  caste: 
+  religion: 
+  current-office-title: 
+  crime-accusation-instances: 0
+  date-of-birth: 1948
+  profession: 
+  networth: 
+    assets: 20,70,000
+    liabilities: 2,100
+  pan: 
+  twitter: 
+  website: 
+  youtube-interview: 
+  wikipedia: 
+
+candidature: 
+  - election: Lok Sabha 2009
+    myneta-link: http://myneta.info/ls2009/candidate.php?candidate_id=4223
+    affidavit-link: http://myneta.info/candidate.php?candidate_id=4223&scan=original
+    expenses-link: 
+    constituency: Giridih 
+    party: JVM
+    criminal-cases: 0
+    assets: 20,70,000
+    liabilities: 2,100
+    result:  
+  - election: Jharkhand 2009
+    myneta-link: http://myneta.info//jarka09/candidate.php?candidate_id=381
+    affidavit-link: 
+    expenses-link: 
+    constituency: Tundri 
+    party: jvm(p)
+    criminal-cases: 0
+    assets: 21,31,380
+    liabilities: 0
+    result:  
+  - election: Jharkhand 2005
+    myneta-link: http://myneta.info//jarka05/candidate.php?candidate_id=22
+    affidavit-link: 
+    expenses-link: 
+    constituency: Tundi 
+    party: rjd
+    criminal-cases: 0
+    assets: 44,36,233
+    liabilities: 1,20,000
+    result:  
+
+crime-record: 
+
+date: 2014-01-28
+version: 0.0.5
+tags: 
+---
+##Summary
+
+
+##Education
+{% include education.html %}
+
+
+##Political Career
+{% include political-career.html %}
+
+
+##Criminal Record
+{% include criminal-record.html %}
+
+
+##Personal Wealth
+{% include personal-wealth.html %}
+
+
+##Public Office Track Record
+{% include track-record.html %}
+
+
+##References
+
+
+{% include references.html %}

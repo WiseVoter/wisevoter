@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="750"
+   height="500"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\Nicholas\Desktop"
+   sodipodi:docname="BJP-flag.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3370">
+      <stop
+         id="stop3372"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.49803922;"
+         offset="0.33333334"
+         id="stop3378" />
+      <stop
+         id="stop3374"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-17.567622"
+     inkscape:cy="219.74987"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="756"
+     inkscape:window-height="540"
+     inkscape:window-x="-1"
+     inkscape:window-y="112" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>BJP flag</dc:title>
+        <dc:date>2006-06-03</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Nicholas</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>BJP</rdf:li>
+            <rdf:li>flag</rdf:li>
+            <rdf:li>lotus</rdf:li>
+            <rdf:li>Bharatiya Janata Party</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Flag of the Bharatiya Janata Party (BJP), a national political party in India.</dc:description>
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#138808;fill-opacity:1"
+       id="rect1307"
+       width="285.80011"
+       height="500"
+       x="0"
+       y="3.5527137e-014" />
+    <rect
+       y="3.5527137e-014"
+       x="280"
+       height="500"
+       width="470"
+       id="rect1310"
+       style="fill:#ff9933;fill-opacity:1" />
+    <g
+       style="stroke:#000080;stroke-width:17.22571182;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
+       inkscape:label="Lotus"
+       id="layer3"
+       transform="matrix(0.43139,0,0,0.43139,370.0351,102.6002)">
+      <rect
+         y="481.42856"
+         x="307.97357"
+         height="197.14285"
+         width="71.428574"
+         id="rect3368"
+         style="fill:#000080;fill-opacity:1;stroke:#000080;stroke-width:17.22571182;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline" />
+      <g
+         transform="translate(-17.01757,-18.91826)"
+         id="g3359"
+         style="stroke:#000080;stroke-width:17.22571182;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000080;stroke-width:17.22571182;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 151.52287,391.72241 C 121.31407,368.17869 95.831023,339.12405 77.50879,305.41303 C 70.100644,284.29366 61.675088,262.08098 63.074389,239.45682 C 68.923271,203.99755 77.277757,167.30051 67.525984,131.69685 C 61.485509,103.30103 45.145644,76.773952 21.86331,59.549396 C 20.637078,44.158855 44.38586,47.802676 54.603248,50.248522 C 72.578166,52.678072 90.825464,56.51868 106.00022,67.039581 C 130.3227,81.007211 157.08261,95.890387 170.27527,121.79672 C 172.62299,128.33418 173.56455,135.29615 173.74625,142.21474"
+           id="path2413"
+           sodipodi:nodetypes="ccccccccc" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000080;stroke-width:17.22571182;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 152.53304,391.72241 C 138.15112,409.21518 119.00192,422.11939 104.7329,439.66329 C 97.573272,450.09909 94.121969,464.31883 99.552081,476.25283 C 107.26766,485.19322 120.32737,483.34056 130.01247,479.15651 C 143.74346,473.81762 159.22167,466.70471 173.91846,472.78625 C 186.43136,477.85953 196.65986,487.63163 203.75182,498.94079 C 215.63614,513.63019 239.11667,518.3248 254.95459,507.3394 C 269.20024,493.3393 275.48907,471.61944 270.51387,452.2488 C 269.27612,436.24067 288.01957,427.80908 288.19446,412.19082 C 275.53893,399.03039 255.90965,401.6175 239.38529,399.73659 C 227.33638,397.35042 215.04053,395.81274 202.75454,397.34443 C 188.57906,398.344 174.08135,402.16576 160.13787,397.56572 C 155.76391,396.32564 151.51664,394.18713 148.49243,390.71228"
+           id="path3292" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000080;stroke-width:17.22571182;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 302.80065,159.87754 C 319.88125,105.88211 339.86347,83.014103 353.67878,46.485347 C 351.31038,28.606448 364.26322,30.284093 365.97634,44.58612 C 375.31137,97.671592 406.46776,150.67997 431.88274,197.18486 C 450.37671,227.92329 466.35352,262.58941 462.99269,299.38527 C 463.59905,327.83052 459.85009,357.59949 442.70688,381.26882 C 423.99097,411.15617 389.66738,432.56513 353.5964,428.39617 C 334.32289,428.4115 312.2173,426.86449 299.30767,410.48852 C 285.25757,394.48839 274.75295,375.48779 265.6604,356.36698 C 246.62287,307.83281 258.38841,252.20529 285.93046,209.37492 C 302.71561,181.26609 304.62991,160.41655 302.17638,149.79903 C 291.95399,121.2374 270.38024,97.122215 251.9094,73.803742 C 238.44985,58.115412 224.02555,41.991942 203.88813,35.112215 C 189.41899,23.885725 148.87242,23.147359 160.60269,50.497778 C 174.22751,68.581423 187.81015,89.575297 179.83488,113.3554 C 172.09595,147.44815 165.46144,181.90464 164.94078,216.99941 C 160.02921,267.61035 170.75579,322.73362 206.86154,360.50453 C 227.50299,384.4324 266.84609,395.42457 294.54773,409.27019 C 301.1586,411.2551 298.34161,414.79469 305.06607,412.93562"
+           id="path3294"
+           sodipodi:nodetypes="ccccccccccccccccccc" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000080;stroke-width:17.22571182;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 413.1524,158.37718 C 415.15216,135.3503 415.42452,133.13343 427.19614,100.48949 C 443.77665,71.511852 462.10883,57.018454 489.49566,39.654234 C 517.4321,26.782507 538.74854,22.822044 570.61564,23.881706 C 547.86144,42.991369 543.52229,75.270623 542.41142,102.75851 C 541.01128,125.64866 548.51441,152.67966 555.15447,174.63003 C 558.84146,195.1101 572.57279,247.77246 563.09004,278.8334 C 554.73269,310.67717 555.48463,314.47955 532.35809,344.84774 C 519.76822,357.80256 508.10835,367.09593 494.20073,378.40783 C 464.84313,396.00216 424.88893,408.22519 413.1524,410.91531"
+           id="path3296"
+           sodipodi:nodetypes="cccccccccc" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000080;stroke-width:17.22571182;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 543.4621,127.06244 C 578.82716,84.817133 625.00671,46.291397 681.42508,38.861896 C 697.45266,80.951483 640.85796,99.381954 649.40734,150.53916 C 645.81598,209.30743 663.51994,271.80796 645.9768,330.94872 C 609.33004,394.17738 525.64687,400.44396 460.62956,393.74273"
+           id="path3298"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000080;stroke-width:17.22571182;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 555.58388,391.72243 C 558.14523,398.94136 574.32287,404.60831 581.54245,408.926 C 592.91481,415.85617 602.62301,425.17546 611.62111,434.89209 C 617.71557,442.36767 627.54729,452.96828 626.49002,463.11129 C 630.08206,473.8988 618.95824,481.21845 607.31999,477.1989 C 596.14235,474.49142 584.6939,470.19862 573.20572,469.82614 C 563.57269,466.76527 552.34213,470.83936 546.7774,480.32025 C 540.6342,488.78552 530.43111,496.308 521.59415,500.19788 C 514.1429,505.16256 501.42556,509.85941 492.08792,511.05776 C 474.25849,510.70286 458.78019,508.00803 444.22372,495.47681 C 440.59364,491.93503 438.03676,487.40299 436.3859,482.63614"
+           id="path3300"
+           sodipodi:nodetypes="ccccccccccc" />
+        <path
+           style="fill:#ff9933;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:17.22571182;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 403.05087,420.00668 C 419.80425,426.36222 435.60128,436.60751 446.1911,451.28383 C 451.20416,462.81697 443.09982,474.77086 434.16769,481.6386 C 402.74784,498.22092 404.36321,507.62411 392.48764,532.61721 C 381.91281,542.69145 372.72429,555.96959 359.5852,562.62678 C 345.48254,555.66025 336.50108,528.18036 325.02618,518.57647 C 311.03525,499.20915 299.80529,508.3387 282.86915,494.90322 C 274.65324,487.70083 275.0653,469.79917 272.56787,459.57596"
+           id="path3302"
+           sodipodi:nodetypes="cccccccc" />
+      </g>
+    </g>
+  </g>
+</svg>

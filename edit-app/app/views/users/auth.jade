@@ -1,0 +1,18 @@
+extends ../layouts/default
+
+
+block main
+  center
+    h1= title
+
+block content
+  center
+    a(href="/auth/facebook")
+      img(src="/public/img/facebook.png")
+  center
+    br
+    h2 OR
+    br
+
+  .login
+    block auth
