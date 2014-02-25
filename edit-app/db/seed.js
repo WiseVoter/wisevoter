@@ -11,5 +11,4 @@ require('../app/models/user.js');
 var User = mongoose.model('User');
 
 var query = {email: 'vaibhavb@lib13.com'};
-/*User.update(query, {roles: ['superadmin']}, function(err, res){console.log(res)});*/
-User.find().exec(function(err, res){console.log(res)})
+User.update(query, {roles: ['superadmin']}, function(err, res){console.log(res)});

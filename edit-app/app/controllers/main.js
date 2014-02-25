@@ -37,6 +37,12 @@ exports.generate = function(req, res){
   res.redirect('/')
 }
 
+exports.gitcommit = function(req, res){
+  var repo = process.env.GIT_REPO
+  wv.gitcommit(repo)
+  res.redirect('/')
+}
+
 exports.articles = function(req, res){
   var fm, content;
   articles_file_path = '../site/articles.html';

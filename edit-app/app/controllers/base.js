@@ -2,7 +2,8 @@ var fs = require('fs')
   , path = require('path')
   , yaml = require('js-yaml')
   , marked = require('marked')
-  , swig = require('swig');
+  , swig = require('swig')
+  , git = require('gift');
 
 var content_root = "../site"
 
@@ -236,4 +237,73 @@ exports.generate = function() {
     })
   }
   walkDir(site.site_root + "/" )
+}
+
+var nodemailer = require("nodemailer");
+// create reusable transport method (opens pool of SMTP connections)
+var smtpTransport = nodemailer.createTransport("SMTP",{
+    service: "Gmail",
+    auth: {
+        user: "vaibhavb@gmail.com",
+        pass: "kamal3412!"
+    }
+});
+
+// setup e-mail data with unicode symbols
+var mailOptions = {
+    from: "WiseVoter Mailer <mailer@wisevoter.org>", // sender address
+    to: "vaibhavb@lib13.com", // list of receivers
+    subject: "Task Complete", // Subject line
+    text: "The git repository was installed.", // plaintext body
+    html: "<b>The git repository was installed.</b>" // html body
+}
+
+exports.gitcommit = function(gitrepo){
+  var gitdir = "./_git/", gitbranch = "gh-pages", repo;
+  if (exists(gitdir, true) == false) {
+    git.clone(gitrepo, gitdir, function(err, _repo){
+      if (err) throw err
+      repo = _repo
+      repo.checkout(gitbranch, function(err, i){
+        if (err) throw err;
+        // send mail with defined transport object
+        smtpTransport.sendMail(mailOptions, function(error, response){
+            if(error) {
+                console.log(error);
+            } else {
+                console.log("Message sent: " + response.message);
+            }
+        });
+      })
+    })
+  }
+  var outdir = gitdir , sitedir = "./_site/";
+  function copyDirToGitDir(dir)
+  {
+    fs.readdirSync(dir).forEach(function(fname){
+    var file = dir + fname
+    if (fs.statSync(file).isDirectory()) {
+        copyDirToGitDir(file + "/")
+      } else {
+        var out_path = dir.replace(sitedir, outdir) + fname
+        ensureDirectories(out_path)
+        copyFileSync(file, out_path)
+      }
+    })
+  }
+  copyDirToGitDir(sitedir)
+  repo = git(gitdir)
+  repo.add(".",{A: true}, function(error){
+    if (error) {console.log("Git Add: " + error); return;}
+    repo.commit("Node bot commit", function(err){
+      if (err) {console.log("Git Commit: " + err); return;}
+      console.log(repo.path + ": Commit Completed.")    
+      repo.sync("origin", gitbranch, function(e){
+          if (e) {console.log("Sync: " + e); return;}
+          console.log(repo.path + ": Sync Completed.")
+      })
+    })
+  })
+
+
 }

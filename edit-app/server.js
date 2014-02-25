@@ -173,6 +173,7 @@ var users = require('./app/controllers/users');
 var content = require('./app/controllers/articles');
 app.get('/index', main.index);
 app.get('/generate', requiresLogin, isSuperAdmin, main.generate);
+app.get('/gitcommit', requiresLogin, isSuperAdmin, main.gitcommit);
 app.get('/articles', main.articles);
 app.get('/login', users.login);
 app.get('/logout', users.logout);

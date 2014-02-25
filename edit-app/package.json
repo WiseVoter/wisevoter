@@ -32,7 +32,9 @@
     "passport-local": "latest",
     "passport-facebook": "latest",
     "connect-mongo": "latest",
-    "connect-flash": "latest"
+    "connect-flash": "latest",
+    "gift": "~0.2.0",
+    "nodemailer": "~0.6.0"
   },
   "devDependencies": {
     "mocha": "latest",
