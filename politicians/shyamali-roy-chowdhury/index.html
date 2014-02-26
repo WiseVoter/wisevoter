@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/politicians/_posts/2013-12-18-shyamali-roy-chowdhury.md'>Edit</a></li>
+		    	<a href='/edit/politicians/shyamali-roy-chowdhury'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -83,53 +83,19 @@
             <div class="tab-pane fade in active" id="profile">
               <div class="profile-content">
                 <h2 id="summary">Summary</h2>
-
 <h2 id="education">Education</h2>
-
-<p>He is 12th Pass, with b.a part- 1.</p>
-
-<h2 id="political_career">Political Career</h2>
-
-<p>He has fought 1 elections.</p>
-
-<h2 id="criminal_record">Criminal Record</h2>
-
-<p>He has 0 crime accusations or convictions against him.</p>
-
-<h2 id="personal_wealth">Personal Wealth</h2>
-
-<p>His total assets are Rs.1204700.</p>
-
-<h2 id="public_office_track_record">Public Office Track Record</h2>
-<table class='track-record'>
-  <thead>
-    <tr>
-        <td>Election</td><td>Constituency</td><td>Party</td><td>Criminal Cases</td>
-        <td>Assets</td><td>Liabilities</td><td>Election Expenses</td><td>Result</td>
-    </tr>
-  </thead>
-<tbody>
-
-<tr>
-  <td><a href='http://myneta.info/ls2009/candidate.php?candidate_id=7419'>Lok Sabha 2009</a></td>
-  <td>Bardhaman-Durgapur</td>
-  <td>IND</td>
-  <td>0</td>
-  <td>1204700</td>
-  <td>1500</td>
-  <td><a href=''>Link</a>&nbsp;<a href=''>Affadivit</a></td>
-  <td />
-</tr>
-
-</tbody>
-</table>
+<p>{% include &quot;education.html&quot; %}</p>
+<h2 id="political-career">Political Career</h2>
+<p>{% include &quot;political-career.html&quot; %}</p>
+<h2 id="criminal-record">Criminal Record</h2>
+<p>{% include &quot;criminal-record.html&quot; %}</p>
+<h2 id="personal-wealth">Personal Wealth</h2>
+<p>{% include &quot;personal-wealth.html&quot; %}</p>
+<h2 id="public-office-track-record">Public Office Track Record</h2>
+<p>{% include &quot;track-record.html&quot; %}</p>
 <h2 id="references">References</h2>
+<p>{% include &quot;references.html&quot; %}</p>
 
-<p>ADR References</p>
-
-<ul>
-<li><a href="">ADR Profile</a>, accessed Jan 27, 2014.</li>
-</ul>
               </div>
             </div>
             <div class="tab-pane fade" id="comments">
@@ -153,20 +119,20 @@
         </div>
 
        <aside class="col-lg-3">
-        <div class="profile-circular-hidden">/images/politicians/</div>
+        <div class="profile-circular-hidden">/assets/images/politicians/[object Object]</div>
         <div class="profile-circular"></div>
         <div class="profile-title">shyamali roy chowdhury</div>
         <table class="profile">
         <tr><td><i class="fa fa-pencil"></i>Education</td><td>12th Pass</td></tr>
           <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>0</td></tr>
-          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>1</td></tr>
+          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td></td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>West Bengal</td></tr>
           <tr><td><i class="fa fa-credit-card"></i>Party</td><td>IND</td></tr>
-          <tr><td><i class="fa fa-female"></i>Sex</td><td></td></tr>
-          <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=>Wiki</a></td></tr>
-          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td></td></tr>
-          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=>Link</a></td></tr>
-          <tr><td><i class="fa fa-money"></i>Networth</td><td>1204700 </td></tr>
+          <tr><td><i class="fa fa-female"></i>Sex</td><td>[object Object]</td></tr>
+          <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=[object Object]>Wiki</a></td></tr>
+          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>[object Object]</td></tr>
+          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=[object Object]>Link</a></td></tr>
+          <tr><td><i class="fa fa-money"></i>Networth</td><td>12,04,700 </td></tr>
         </table>
        </aside>
        <div class="col-lg-1"></div>     

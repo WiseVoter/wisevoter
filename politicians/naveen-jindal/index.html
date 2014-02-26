@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/politicians/_posts/2013-12-18-naveen-jindal.md'>Edit</a></li>
+		    	<a href='/edit/politicians/naveen-jindal'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -83,80 +83,28 @@
             <div class="tab-pane fade in active" id="profile">
               <div class="profile-content">
                 <h2 id="summary">Summary</h2>
-
 <p>Naveen Jindal (born 9 March 1970) is an Indian politician and Member of Parliament (MP) from the Kurukshetra Lok Sabha constituency in the northern Indian state of Haryana. He is the Chairman of Jindal Steel and Power Limited, which is part of the $17 billion diversified O.P. Jindal Group founded by his late industrialist father.</p>
-
-<p>He instigated an initiative that led to a revision of the Flag Code of India which now grants every Indian citizen the right to fly the Flag of India (also known as the “Tiranga”) publicly with dignity and honour on all days of the year. He is an active campaigner for population stabilisation, women’s empowerment, environmental conservation, health and education. As an acknowledgement of his support to his alma mater, in 2011 the University of Texas at Dallas, renamed its School of Management as the Naveen Jindal School of Management.</p>
-
+<p>He instigated an initiative that led to a revision of the Flag Code of India which now grants every Indian citizen the right to fly the Flag of India (also known as the &quot;Tiranga&quot;) publicly with dignity and honour on all days of the year. He is an active campaigner for population stabilisation, women’s empowerment, environmental conservation, health and education. As an acknowledgement of his support to his alma mater, in 2011 the University of Texas at Dallas, renamed its School of Management as the Naveen Jindal School of Management.</p>
 <h2 id="education">Education</h2>
-
-<p>He is Post Graduate, with mba from university of texas at dsllas united state of america in 1992.</p>
-
-<h2 id="political_career">Political Career</h2>
-
-<p>He has fought 2 elections.</p>
-
-<h2 id="criminal_record">Criminal Record</h2>
-
-<p>He has 0 crime accusations or convictions against him.</p>
-
-<h2 id="personal_wealth">Personal Wealth</h2>
-
-<p>His total assets are Rs.1310730000.</p>
-
-<h2 id="public_office_track_record">Public Office Track Record</h2>
-<table class='track-record'>
-  <thead>
-    <tr>
-        <td>Election</td><td>Constituency</td><td>Party</td><td>Criminal Cases</td>
-        <td>Assets</td><td>Liabilities</td><td>Election Expenses</td><td>Result</td>
-    </tr>
-  </thead>
-<tbody>
-
-<tr>
-  <td><a href='http://myneta.info/ls2009/candidate.php?candidate_id=6504'>Lok Sabha 2009</a></td>
-  <td>Kurukshetra</td>
-  <td>INC</td>
-  <td>0</td>
-  <td>1310730000</td>
-  <td />
-  <td><a href='http://myneta.info/expense.php?candidate_id=6504'>Link</a>&nbsp;<a href=''>Affadivit</a></td>
-  <td>winner</td>
-</tr>
-
-<tr>
-  <td><a href='http://myneta.info//loksabha2004/candidate.php?candidate_id=1272'>Lok Sabha 2004</a></td>
-  <td>Kurukshetra</td>
-  <td>inc</td>
-  <td>0</td>
-  <td>121295000</td>
-  <td>0</td>
-  <td><a href=''>Link</a>&nbsp;<a href=''>Affadivit</a></td>
-  <td />
-</tr>
-
-</tbody>
-</table>
+<p>{% include &quot;education.html&quot; %}</p>
+<h2 id="political-career">Political Career</h2>
+<p>{% include &quot;political-career.html&quot; %}</p>
+<h2 id="criminal-record">Criminal Record</h2>
+<p>{% include &quot;criminal-record.html&quot; %}</p>
+<h2 id="personal-wealth">Personal Wealth</h2>
+<p>{% include &quot;personal-wealth.html&quot; %}</p>
+<h2 id="public-office-track-record">Public Office Track Record</h2>
+<p>{% include &quot;track-record.html&quot; %}</p>
 <h2 id="references">References</h2>
-
 <p>Wikipedia References</p>
-
 <ul>
-<li><a href="http://en.wikipedia.com/wiki/Naveen_Jindal">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
-
-<li><a href="http://www.utdallas.edu/news/2011/10/7-13181_Naveen-Jindal-Philanthropist-Leader-Shows-the-Way_article-wide.html">“Naveen Jindal: Philanthropist Leader Shows the Way”</a></li>
-
-<li><a href="http://india.gov.in/govt/loksabhampbiodata.php?mpcode=4041">“Shri Naveen Jindal - Members of Parliament (Lok Sabha)”</a></li>
-
-<li><a href="http://www.jindalsteelpower.com/about-us/management/management-team.aspx">“Mr. Naveen Jindal - Chairman”</a></li>
+<li><a href="{{page.profile.wikipedia}}">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
+<li><a href="http://www.utdallas.edu/news/2011/10/7-13181_Naveen-Jindal-Philanthropist-Leader-Shows-the-Way_article-wide.html">&quot;Naveen Jindal: Philanthropist Leader Shows the Way&quot;</a></li>
+<li><a href="http://india.gov.in/govt/loksabhampbiodata.php?mpcode=4041">&quot;Shri Naveen Jindal - Members of Parliament (Lok Sabha)&quot;</a></li>
+<li><a href="http://www.jindalsteelpower.com/about-us/management/management-team.aspx">&quot;Mr. Naveen Jindal - Chairman&quot;</a></li>
 </ul>
+<p>{% include &quot;references.html&quot; %}</p>
 
-<p>ADR References</p>
-
-<ul>
-<li><a href="">ADR Profile</a>, accessed Jan 27, 2014.</li>
-</ul>
               </div>
             </div>
             <div class="tab-pane fade" id="comments">
@@ -180,20 +128,20 @@
         </div>
 
        <aside class="col-lg-3">
-        <div class="profile-circular-hidden">/images/politicians/</div>
+        <div class="profile-circular-hidden">/assets/images/politicians/[object Object]</div>
         <div class="profile-circular"></div>
         <div class="profile-title">naveen jindal</div>
         <table class="profile">
         <tr><td><i class="fa fa-pencil"></i>Education</td><td>Post Graduate</td></tr>
           <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>0</td></tr>
-          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>2</td></tr>
+          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td></td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>Haryana</td></tr>
           <tr><td><i class="fa fa-credit-card"></i>Party</td><td>INC</td></tr>
-          <tr><td><i class="fa fa-female"></i>Sex</td><td></td></tr>
+          <tr><td><i class="fa fa-female"></i>Sex</td><td>[object Object]</td></tr>
           <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=http://en.wikipedia.com/wiki/Naveen_Jindal>Wiki</a></td></tr>
-          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td></td></tr>
-          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=>Link</a></td></tr>
-          <tr><td><i class="fa fa-money"></i>Networth</td><td>1310730000 </td></tr>
+          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>[object Object]</td></tr>
+          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=[object Object]>Link</a></td></tr>
+          <tr><td><i class="fa fa-money"></i>Networth</td><td>1,31,07,30,000 </td></tr>
         </table>
        </aside>
        <div class="col-lg-1"></div>     

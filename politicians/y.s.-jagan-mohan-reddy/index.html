@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/politicians/_posts/2013-12-18-y.s.-jagan-mohan-reddy.md'>Edit</a></li>
+		    	<a href='/edit/politicians/y.s.-jagan-mohan-reddy'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -83,80 +83,28 @@
             <div class="tab-pane fade in active" id="profile">
               <div class="profile-content">
                 <h2 id="summary">Summary</h2>
-
 <p>Yeduguri Sandinti Jaganmohan Reddy (Telugu: యెదుగూరి సందింటి జగన్మోహన్ రెడ్డి) (born December 21, 1972), also called Jagan is an Indian politician and is a member of the Parliament of India from Kadapa constituency. He is the son of the former Chief minister of Andhra Pradesh, Y.S. Rajasekhara Reddy.</p>
-
-<p>From May 2012 till Sept 2013, he was in jail under the Prevention of Corruption Act, 1988 for amassing wealth at at an enormous scale by providing quid pro quo favours to businesses. A series of bail applications were repeatedly rejected by three levels of courts partly owing to “the serious nature of the offence”, with estimated “amounts exceeding Rs. 3000 crores.” The YSR Congress and other opposition parties have alleged that Jagan is being politically victimized and the CBI is acting at the behest of the Congress and that this is a case of political vendetta. After 16 months, on September 23, 2013, a special CBI court granted him bail, but he is not permitted to leave Andhra Pradesh.</p>
-
+<p>From May 2012 till Sept 2013, he was in jail under the Prevention of Corruption Act, 1988 for amassing wealth at at an enormous scale by providing quid pro quo favours to businesses. A series of bail applications were repeatedly rejected by three levels of courts partly owing to &quot;the serious nature of the offence&quot;, with estimated &quot;amounts exceeding Rs. 3000 crores.&quot; The YSR Congress and other opposition parties have alleged that Jagan is being politically victimized and the CBI is acting at the behest of the Congress and that this is a case of political vendetta. After 16 months, on September 23, 2013, a special CBI court granted him bail, but he is not permitted to leave Andhra Pradesh.</p>
 <h2 id="education">Education</h2>
-
-<p>He is Graduate, with bcom, pragati maha vidayalaya, osmania university.</p>
-
-<h2 id="political_career">Political Career</h2>
-
-<p>He has fought 2 elections.</p>
-
-<h2 id="criminal_record">Criminal Record</h2>
-
-<p>He has 0 crime accusations or convictions against him.</p>
-
-<h2 id="personal_wealth">Personal Wealth</h2>
-
-<p>His total assets are Rs.728151658.</p>
-
-<h2 id="public_office_track_record">Public Office Track Record</h2>
-<table class='track-record'>
-  <thead>
-    <tr>
-        <td>Election</td><td>Constituency</td><td>Party</td><td>Criminal Cases</td>
-        <td>Assets</td><td>Liabilities</td><td>Election Expenses</td><td>Result</td>
-    </tr>
-  </thead>
-<tbody>
-
-<tr>
-  <td><a href='http://myneta.info/ls2009/candidate.php?candidate_id=2822'>Lok Sabha 2009</a></td>
-  <td>Kadapa</td>
-  <td>INC</td>
-  <td>0</td>
-  <td>728151658</td>
-  <td>66396966</td>
-  <td><a href='http://myneta.info/expense.php?candidate_id=2822'>Link</a>&nbsp;<a href=''>Affadivit</a></td>
-  <td>winner</td>
-</tr>
-
-<tr>
-  <td><a href='http://myneta.info//lsbyelection/candidate.php?candidate_id=53'>Loksabha Bye Election</a></td>
-  <td>Kadapa  Bye- Election On 08-05-2011</td>
-  <td>ysrcp</td>
-  <td>0</td>
-  <td>4457047264</td>
-  <td>101213385</td>
-  <td><a href=''>Link</a>&nbsp;<a href=''>Affadivit</a></td>
-  <td />
-</tr>
-
-</tbody>
-</table>
+<p>{% include &quot;education.html&quot; %}</p>
+<h2 id="political-career">Political Career</h2>
+<p>{% include &quot;political-career.html&quot; %}</p>
+<h2 id="criminal-record">Criminal Record</h2>
+<p>{% include &quot;criminal-record.html&quot; %}</p>
+<h2 id="personal-wealth">Personal Wealth</h2>
+<p>{% include &quot;personal-wealth.html&quot; %}</p>
+<h2 id="public-office-track-record">Public Office Track Record</h2>
+<p>{% include &quot;track-record.html&quot; %}</p>
 <h2 id="references">References</h2>
-
 <p>Wikipedia References</p>
-
 <ul>
-<li><a href="http://en.wikipedia.com/wiki/Y.S._Jagan_Mohan_Reddy">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
-
-<li><a href="http://www.indianexpress.com/news/recordbreaking-win-for-jagan-in-kadapa-.../789934/">“Record-breaking win for Jagan in Kadapa election”</a></li>
-
-<li><a href="http://www.ndtv.com/article/south/jagan-mohan-reddy-s-judicial-custody-extended-404949">“Jagan Mohan Reddy’s judicial custody extended”</a></li>
-
+<li><a href="{{page.profile.wikipedia}}">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
+<li><a href="http://www.indianexpress.com/news/recordbreaking-win-for-jagan-in-kadapa-.../789934/">&quot;Record-breaking win for Jagan in Kadapa election&quot;</a></li>
+<li><a href="http://www.ndtv.com/article/south/jagan-mohan-reddy-s-judicial-custody-extended-404949">&quot;Jagan Mohan Reddy&#39;s judicial custody extended&quot;</a></li>
 <li><a href="/wiki/P._Sathasivam">P. Sathasivam</a></li>
 </ul>
+<p>{% include &quot;references.html&quot; %}</p>
 
-<p>ADR References</p>
-
-<ul>
-<li><a href="">ADR Profile</a>, accessed Jan 27, 2014.</li>
-</ul>
               </div>
             </div>
             <div class="tab-pane fade" id="comments">
@@ -180,20 +128,20 @@
         </div>
 
        <aside class="col-lg-3">
-        <div class="profile-circular-hidden">/images/politicians/</div>
+        <div class="profile-circular-hidden">/assets/images/politicians/[object Object]</div>
         <div class="profile-circular"></div>
         <div class="profile-title">y.s. jagan mohan reddy</div>
         <table class="profile">
         <tr><td><i class="fa fa-pencil"></i>Education</td><td>Graduate</td></tr>
           <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>0</td></tr>
-          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>2</td></tr>
+          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td></td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>Andhra Pradesh</td></tr>
           <tr><td><i class="fa fa-credit-card"></i>Party</td><td>INC</td></tr>
-          <tr><td><i class="fa fa-female"></i>Sex</td><td></td></tr>
+          <tr><td><i class="fa fa-female"></i>Sex</td><td>[object Object]</td></tr>
           <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=http://en.wikipedia.com/wiki/Y.S._Jagan_Mohan_Reddy>Wiki</a></td></tr>
-          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td></td></tr>
-          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=>Link</a></td></tr>
-          <tr><td><i class="fa fa-money"></i>Networth</td><td>728151658 </td></tr>
+          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>[object Object]</td></tr>
+          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=[object Object]>Link</a></td></tr>
+          <tr><td><i class="fa fa-money"></i>Networth</td><td>72,81,51,658 </td></tr>
         </table>
        </aside>
        <div class="col-lg-1"></div>     

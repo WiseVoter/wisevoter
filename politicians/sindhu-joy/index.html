@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/politicians/_posts/2013-12-18-sindhu-joy.md'>Edit</a></li>
+		    	<a href='/edit/politicians/sindhu-joy'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -83,69 +83,28 @@
             <div class="tab-pane fade in active" id="profile">
               <div class="profile-content">
                 <h2 id="summary">Summary</h2>
-
-<p>Sindhu Joy is an Indian politician from the state of Kerala. She was the All India Vice-President of SFI, which is a prominent students’ organisation in Kerala. Sindhu Joy is the only female State President of SFI in the history of Kerala. She was the President of SFI Kerala State committee for more than three years. Sindhu Joy has contested for the post of Member of the Legislative Assembly of Kerala state as a Left Democratic Front candidate against Chief Minister Oommen Chandy from the Puthupally Assembly constituency in Kottayam district in 2006. Sindhu Joy also contested for the post of Member of Parliament against Central Minister K. V. Thomas in the 2009 Lok Sabha elections from Ernakulam Constituency.</p>
-
+<p>Sindhu Joy is an Indian politician from the state of Kerala. She was the All India Vice-President of SFI, which is a prominent students&#39; organisation in Kerala. Sindhu Joy is the only female State President of SFI in the history of Kerala. She was the President of SFI Kerala State committee for more than three years. Sindhu Joy has contested for the post of Member of the Legislative Assembly of Kerala state as a Left Democratic Front candidate against Chief Minister Oommen Chandy from the Puthupally Assembly constituency in Kottayam district in 2006. Sindhu Joy also contested for the post of Member of Parliament against Central Minister K. V. Thomas in the 2009 Lok Sabha elections from Ernakulam Constituency.</p>
 <p>Sindhu was a full-time member of the Communist Party of India (Marxist) from 1992 to 2011, until her resignation on 24 March 2011. After resigning from CPI(M), she joined Indian National Congress and became the Chairperson of Kerala State Youth Commission. Later she resigned from the post and is now taking a short break from politics. She participated in a popular Malayalam reality show Malayalee House(Malayalam version of Bigg Boss) and became one among the three finalists.</p>
-
 <h2 id="education">Education</h2>
-
-<p>He is Post Graduate, with phd thesis submitted 2008.</p>
-
-<h2 id="political_career">Political Career</h2>
-
-<p>He has fought 1 elections.</p>
-
-<h2 id="criminal_record">Criminal Record</h2>
-
-<p>He has 11 crime accusations or convictions against him.</p>
-
-<h2 id="personal_wealth">Personal Wealth</h2>
-
-<p>His total assets are Rs.1237000.</p>
-
-<h2 id="public_office_track_record">Public Office Track Record</h2>
-<table class='track-record'>
-  <thead>
-    <tr>
-        <td>Election</td><td>Constituency</td><td>Party</td><td>Criminal Cases</td>
-        <td>Assets</td><td>Liabilities</td><td>Election Expenses</td><td>Result</td>
-    </tr>
-  </thead>
-<tbody>
-
-<tr>
-  <td><a href='http://myneta.info/ls2009/candidate.php?candidate_id=1560'>Lok Sabha 2009</a></td>
-  <td>Ernakulam</td>
-  <td>CPM</td>
-  <td>11</td>
-  <td>1237000</td>
-  <td />
-  <td><a href='http://myneta.info/expense.php?candidate_id=1560'>Link</a>&nbsp;<a href=''>Affadivit</a></td>
-  <td />
-</tr>
-
-</tbody>
-</table>
+<p>{% include &quot;education.html&quot; %}</p>
+<h2 id="political-career">Political Career</h2>
+<p>{% include &quot;political-career.html&quot; %}</p>
+<h2 id="criminal-record">Criminal Record</h2>
+<p>{% include &quot;criminal-record.html&quot; %}</p>
+<h2 id="personal-wealth">Personal Wealth</h2>
+<p>{% include &quot;personal-wealth.html&quot; %}</p>
+<h2 id="public-office-track-record">Public Office Track Record</h2>
+<p>{% include &quot;track-record.html&quot; %}</p>
 <h2 id="references">References</h2>
-
 <p>Wikipedia References</p>
-
 <ul>
-<li><a href="http://en.wikipedia.com/wiki/Sindhu_Joy">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
-
-<li><a href="http://www.hindu.com/2011/03/25/stories/2011032560590600.htm">“Sindhu Joy in Congress, CPI(M) expels her”</a></li>
-
-<li><a href="http://www.mathrubhumi.com/english/story.php?id=106375">“Sindhu Joy quits CPM”</a></li>
-
-<li><a href="http://www.sunday-guardian.com/news/cpm-congress-field-few-women">“CPM, Congress field few women”</a></li>
+<li><a href="{{page.profile.wikipedia}}">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
+<li><a href="http://www.hindu.com/2011/03/25/stories/2011032560590600.htm">&quot;Sindhu Joy in Congress, CPI(M) expels her&quot;</a></li>
+<li><a href="http://www.mathrubhumi.com/english/story.php?id=106375">&quot;Sindhu Joy quits CPM&quot;</a></li>
+<li><a href="http://www.sunday-guardian.com/news/cpm-congress-field-few-women">&quot;CPM, Congress field few women&quot;</a></li>
 </ul>
+<p>{% include &quot;references.html&quot; %}</p>
 
-<p>ADR References</p>
-
-<ul>
-<li><a href="">ADR Profile</a>, accessed Jan 27, 2014.</li>
-</ul>
               </div>
             </div>
             <div class="tab-pane fade" id="comments">
@@ -169,20 +128,20 @@
         </div>
 
        <aside class="col-lg-3">
-        <div class="profile-circular-hidden">/images/politicians/</div>
+        <div class="profile-circular-hidden">/assets/images/politicians/[object Object]</div>
         <div class="profile-circular"></div>
         <div class="profile-title">sindhu joy</div>
         <table class="profile">
         <tr><td><i class="fa fa-pencil"></i>Education</td><td>Post Graduate</td></tr>
-          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>11</td></tr>
-          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>1</td></tr>
+          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>0</td></tr>
+          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td></td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>Kerala</td></tr>
           <tr><td><i class="fa fa-credit-card"></i>Party</td><td>CPM</td></tr>
-          <tr><td><i class="fa fa-female"></i>Sex</td><td></td></tr>
+          <tr><td><i class="fa fa-female"></i>Sex</td><td>[object Object]</td></tr>
           <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=http://en.wikipedia.com/wiki/Sindhu_Joy>Wiki</a></td></tr>
-          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td></td></tr>
-          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=>Link</a></td></tr>
-          <tr><td><i class="fa fa-money"></i>Networth</td><td>1237000 </td></tr>
+          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>[object Object]</td></tr>
+          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=[object Object]>Link</a></td></tr>
+          <tr><td><i class="fa fa-money"></i>Networth</td><td>12,37,000 </td></tr>
         </table>
        </aside>
        <div class="col-lg-1"></div>     

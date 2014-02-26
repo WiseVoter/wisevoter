@@ -14,11 +14,11 @@
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
 <!-- site specific css -->
-<link rel="stylesheet" type="text/css" href="/stylesheets/site.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
 
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +28,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
-<script src="/javascripts/main.js"></script>
+<script src="/assets/javascripts/main.js"></script>
 <meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
   </head>
 
@@ -55,7 +55,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='http://edit.wisevoter.org/edit/politicians/_posts/2013-12-18-dinubhai-boghabhai-solanki.md'>Edit</a></li>
+		    	<a href='/edit/politicians/dinubhai-boghabhai-solanki'>Edit</a></li>
 		    </ul>
 	    <nav>
 	  </div>
@@ -83,80 +83,28 @@
             <div class="tab-pane fade in active" id="profile">
               <div class="profile-content">
                 <h2 id="summary">Summary</h2>
-
-<p>Dinubhai “Dinu” Boghabhai Solanki (b. 1958), is a Bharatiya Janata Party (BJP) politician from Junagadh, Gujarat, India. He came under media gaze after the RTI crusader Amit Jethwa was murdered; his nephew Shiva Solanki has been arrested as the prime suspect in the murder.</p>
-
-<p>Solanki won the Gujarat Legislative assembly seat from Kodinar in 2002 with a margin of 2000 votes, and in 2009 was elected to the 15th Lok Sabha after defeating his Indian National Congress rival Barad Jashubhai Dhanabhai by a margin of 1.8%. He had declared assets of nearly Rs. 2 crores in 2009 He has a history of criminal charges and has complaints registered against him under Sections 323, 324, 325, 143, 147, 148, 149 and 504 of the IPC He also has a history of intimidating police officers investigating his criminal connections.</p>
-
+<p>Dinubhai &quot;Dinu&quot; Boghabhai Solanki (b. 1958), is a Bharatiya Janata Party (BJP) politician from Junagadh, Gujarat, India. He came under media gaze after the RTI crusader Amit Jethwa was murdered; his nephew Shiva Solanki has been arrested as the prime suspect in the murder.</p>
+<p>Solanki won the Gujarat Legislative assembly seat from Kodinar in 2002 with a margin of 2000 votes, and in 2009 was elected to the 15th Lok Sabha after defeating his Indian National Congress rival Barad Jashubhai Dhanabhai by a margin of 1.8%. He had declared assets of nearly Rs. 2 crores in 2009 He has a history of criminal charges and has complaints registered against him under Sections 323, 324, 325, 143, 147, 148, 149 and 504 of the IPC  He also has a history of intimidating police officers investigating his criminal connections.</p>
 <h2 id="education">Education</h2>
-
-<p>He is Graduate, with b. a in the year 1977, from saurashtra university rajkot.</p>
-
-<h2 id="political_career">Political Career</h2>
-
-<p>He has fought 2 elections.</p>
-
-<h2 id="criminal_record">Criminal Record</h2>
-
-<p>He has 1 crime accusations or convictions against him.</p>
-
-<h2 id="personal_wealth">Personal Wealth</h2>
-
-<p>His total assets are Rs.19460865.</p>
-
-<h2 id="public_office_track_record">Public Office Track Record</h2>
-<table class='track-record'>
-  <thead>
-    <tr>
-        <td>Election</td><td>Constituency</td><td>Party</td><td>Criminal Cases</td>
-        <td>Assets</td><td>Liabilities</td><td>Election Expenses</td><td>Result</td>
-    </tr>
-  </thead>
-<tbody>
-
-<tr>
-  <td><a href='http://myneta.info/ls2009/candidate.php?candidate_id=2573'>Lok Sabha 2009</a></td>
-  <td>Junagadh</td>
-  <td>BJP</td>
-  <td>1</td>
-  <td>19460865</td>
-  <td>5945896</td>
-  <td><a href='http://myneta.info/expense.php?candidate_id=2573'>Link</a>&nbsp;<a href=''>Affadivit</a></td>
-  <td>winner</td>
-</tr>
-
-<tr>
-  <td><a href='http://myneta.info//2007Gujarat/candidate.php?candidate_id=373'>Gujarat 2007</a></td>
-  <td>Kodinar</td>
-  <td>bjp</td>
-  <td>1</td>
-  <td>22767118</td>
-  <td>0</td>
-  <td><a href=''>Link</a>&nbsp;<a href=''>Affadivit</a></td>
-  <td />
-</tr>
-
-</tbody>
-</table>
+<p>{% include &quot;education.html&quot; %}</p>
+<h2 id="political-career">Political Career</h2>
+<p>{% include &quot;political-career.html&quot; %}</p>
+<h2 id="criminal-record">Criminal Record</h2>
+<p>{% include &quot;criminal-record.html&quot; %}</p>
+<h2 id="personal-wealth">Personal Wealth</h2>
+<p>{% include &quot;personal-wealth.html&quot; %}</p>
+<h2 id="public-office-track-record">Public Office Track Record</h2>
+<p>{% include &quot;track-record.html&quot; %}</p>
 <h2 id="references">References</h2>
-
 <p>Wikipedia References</p>
-
 <ul>
-<li><a href="http://en.wikipedia.com/wiki/Dinubhai_Boghabhai_Solanki">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
-
-<li><a href="http://www.empoweringindia.org/new/Pconstituency.aspx?eid=308&cid=13">“Making democracy meaningful, Know our Representative &amp; Candidate”</a></li>
-
-<li><a href="http://www.empoweringindia.org/new/preview.aspx?candid=168941&p=p&cid=13">“Making democracy meaningful, Know our Representative &amp; Candidate”</a></li>
-
-<li><a href="http://timesofindia.indiatimes.com/city/ahmedabad/Jethava-case-probe-reopens-old-files-on-Solankis/articleshow/6521332.cms">“Jethava case probe reopens old files on Solankis”</a></li>
+<li><a href="{{page.profile.wikipedia}}">Wikipedia profile</a>, accessed Jan 27, 2014.</li>
+<li><a href="http://www.empoweringindia.org/new/Pconstituency.aspx?eid=308&amp;cid=13">&quot;Making democracy meaningful, Know our Representative &amp; Candidate&quot;</a></li>
+<li><a href="http://www.empoweringindia.org/new/preview.aspx?candid=168941&amp;p=p&amp;cid=13">&quot;Making democracy meaningful, Know our Representative &amp; Candidate&quot;</a></li>
+<li><a href="http://timesofindia.indiatimes.com/city/ahmedabad/Jethava-case-probe-reopens-old-files-on-Solankis/articleshow/6521332.cms">&quot;Jethava case probe reopens old files on Solankis&quot;</a></li>
 </ul>
+<p>{% include &quot;references.html&quot; %}</p>
 
-<p>ADR References</p>
-
-<ul>
-<li><a href="">ADR Profile</a>, accessed Jan 27, 2014.</li>
-</ul>
               </div>
             </div>
             <div class="tab-pane fade" id="comments">
@@ -180,20 +128,20 @@
         </div>
 
        <aside class="col-lg-3">
-        <div class="profile-circular-hidden">/images/politicians/</div>
+        <div class="profile-circular-hidden">/assets/images/politicians/[object Object]</div>
         <div class="profile-circular"></div>
         <div class="profile-title">dinubhai boghabhai solanki</div>
         <table class="profile">
         <tr><td><i class="fa fa-pencil"></i>Education</td><td>Graduate</td></tr>
-          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>1</td></tr>
-          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td>2</td></tr>
+          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>0</td></tr>
+          <tr><td><i class="fa fa-flag"></i>Previous Elections</td><td></td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>Gujarat</td></tr>
           <tr><td><i class="fa fa-credit-card"></i>Party</td><td>BJP</td></tr>
-          <tr><td><i class="fa fa-female"></i>Sex</td><td></td></tr>
+          <tr><td><i class="fa fa-female"></i>Sex</td><td>[object Object]</td></tr>
           <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href=http://en.wikipedia.com/wiki/Dinubhai_Boghabhai_Solanki>Wiki</a></td></tr>
-          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td></td></tr>
-          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=>Link</a></td></tr>
-          <tr><td><i class="fa fa-money"></i>Networth</td><td>19460865 </td></tr>
+          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>[object Object]</td></tr>
+          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href=[object Object]>Link</a></td></tr>
+          <tr><td><i class="fa fa-money"></i>Networth</td><td>1,94,60,865 </td></tr>
         </table>
        </aside>
        <div class="col-lg-1"></div>     
