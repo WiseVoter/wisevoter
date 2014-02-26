@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341,  323,  504
-    details: CJM Madhepur Case No. 286/99, Dated 10.07.2002, Proceeding Have Been Stayed by Hon'ble Patna High Court Vide Order Dated 4.08.2004 in C.R. Revision No. 922/02 
+    details: "CJM Madhepur Case No. 286/99, Dated 10.07.2002, Proceeding Have Been Stayed by Hon'ble Patna High Court Vide Order Dated 4.08.2004 in C.R. Revision No. 922/02" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ Sharad Yadav, a politician from the Janata Dal (United) party, is[when?] a membe
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -94,4 +94,4 @@ Wikipedia References
 [wiki3]: http://www.sharadyadav.com/2013/03/sharad-yadav-best-parliamentarian_8.html
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: FIR NO. II-132/03, KALOL POLICE STATION. KALOL COURT. 
+    details: "FIR NO. II-132/03, KALOL POLICE STATION. KALOL COURT." 
   - crime: accussed
     ipc: 
-    details: FIR NO. II-28/04, KALOL POLICE STATION. KALOL COURT. 
+    details: "FIR NO. II-28/04, KALOL POLICE STATION. KALOL COURT." 
   - crime: accussed
     ipc: 
-    details: FIR NO. I-150/99, KALOL POLICE STATION. KALOL COURT.ABOVE ALL THREE CASES ARE ON GAMBLING ACT and OTHER ACT 
+    details: "FIR NO. I-150/99, KALOL POLICE STATION. KALOL COURT.ABOVE ALL THREE CASES ARE ON GAMBLING ACT and OTHER ACT" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

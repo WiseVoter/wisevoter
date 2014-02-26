@@ -60,37 +60,37 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 182
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 341, 342, 353, 382, 365, 368, 504,  506,  34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 302,  120(B)
-    details: 27 ARMS ACT 
+    details: "27 ARMS ACT" 
   - crime: accussed
     ipc: 307,  353
-    details: 27 ARMS ACT 
+    details: "27 ARMS ACT" 
   - crime: accussed
     ipc: 414
-    details: 25(1-B)A,26 and 35ARMS ACT 
+    details: "25(1-B)A,26 and 35ARMS ACT" 
   - crime: accussed
     ipc: 302,  201
-    details: 27 ARMS ACT 
+    details: "27 ARMS ACT" 
   - crime: accussed
     ipc: 120B,  341,  324,  307,
-    details: 3/4 E.S. ACT 
+    details: "3/4 E.S. ACT" 
   - crime: accussed
     ipc: 
-    details: 25 and 26 C.C. ACT 
+    details: "25 and 26 C.C. ACT" 
   - crime: accussed
     ipc: 180
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 120B,  193,  196,  197,  420,  469,  471
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 22(A) labour act 
+    details: "22(A) labour act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -100,26 +100,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

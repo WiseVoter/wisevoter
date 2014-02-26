@@ -50,28 +50,28 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 144, 145, 147, 148, 149, 332, 395, 427, 452, 454
-    details: C.C.No.446/P/1993 
+    details: "C.C.No.446/P/1993" 
   - crime: accussed
     ipc: 143, 117
-    details: 1860 r/W Sec 37(i),22-51 Bombay Police Act,1951 
+    details: "1860 r/W Sec 37(i),22-51 Bombay Police Act,1951" 
   - crime: accussed
     ipc: 143, 149, 341
-    details: C.C.No333/1997 1860 r/W 174(a),37(3),135 Of Bombay Police Act,1951 
+    details: "C.C.No333/1997 1860 r/W 174(a),37(3),135 Of Bombay Police Act,1951" 
   - crime: accussed
     ipc: 
-    details: C.C.No 607/P/2002 Sec 37(1)(d),3,135 Of Bombay Police Act, 1951 
+    details: "C.C.No 607/P/2002 Sec 37(1)(d),3,135 Of Bombay Police Act, 1951" 
   - crime: accussed
     ipc: 
-    details: C.C.No.106/PS/2004 Sec 37(3)With 33(W),102,135 Of Bombay Police Act, 1951 
+    details: "C.C.No.106/PS/2004 Sec 37(3)With 33(W),102,135 Of Bombay Police Act, 1951" 
   - crime: accussed
     ipc: 500
-    details: C.C.No.25/S/2003 Section 500 
+    details: "C.C.No.25/S/2003 Section 500" 
   - crime: accussed
     ipc: 171(e),  171(h),  171(i)
-    details: C.C.360P/2005 Sec 127 2(a)(b)of People Representative Act read With Sec 171(e)(h)(i) of IPC 
+    details: "C.C.360P/2005 Sec 127 2(a)(b)of People Representative Act read With Sec 171(e)(h)(i) of IPC" 
   - crime: accussed
     ipc: 
-    details: Sec 37(3),135r.W 33(r)(e),131(b)(1)of Mumbai Police Act 1951 
+    details: "Sec 37(3),135r.W 33(r)(e),131(b)(1)of Mumbai Police Act 1951" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -81,26 +81,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

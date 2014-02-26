@@ -22,7 +22,7 @@ Arunachal East Lok Sabha constituency is one of the two Lok Sabha (lower house o
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

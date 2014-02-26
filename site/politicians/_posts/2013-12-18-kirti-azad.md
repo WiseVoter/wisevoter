@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 144,  353,  427,  504
-    details: Darbhanga Town P.S. Case No. 66/01, Chief Judicial Magistrate Darbanga, Dated 22.08.2001 
+    details: "Darbhanga Town P.S. Case No. 66/01, Chief Judicial Magistrate Darbanga, Dated 22.08.2001" 
   - crime: accussed
     ipc: 171H,  188,  120B
-    details: 125, 133 R.P Act. Pandaul P.S. Case No. 67/04, Dated 19.10.2005, Chief Judicial Magistrate Madhubani 
+    details: "125, 133 R.P Act. Pandaul P.S. Case No. 67/04, Dated 19.10.2005, Chief Judicial Magistrate Madhubani" 
   - crime: accussed
     ipc: 188
-    details: 133 R.P. ACT., CASE NO.50/09 
+    details: "133 R.P. ACT., CASE NO.50/09" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

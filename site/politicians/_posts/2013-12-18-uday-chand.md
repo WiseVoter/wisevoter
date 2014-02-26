@@ -36,7 +36,7 @@ candidature:
     assets: 1,52,550
     liabilities: 
     result:  
-  - election: Jammu and Kashmir 2008
+  - election: Jammu & Kashmir 2008
     myneta-link: http://myneta.info//jk2008/candidate.php?candidate_id=1115
     affidavit-link: 
     expenses-link: 
@@ -57,26 +57,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

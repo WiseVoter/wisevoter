@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  325,  435,  427,  506,  149,  120(B)
-    details: GR. No165/94 SI 2/07 -Charge Yet To Be Framed,Court S.D.J.M Phulban 
+    details: "GR. No165/94 SI 2/07 -Charge Yet To Be Framed,Court S.D.J.M Phulban" 
   - crime: accussed
     ipc: 153(A),  505,  506
-    details: GR 51/08, Cognizance Take on Dt 16.12.2004 
+    details: "GR 51/08, Cognizance Take on Dt 16.12.2004" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

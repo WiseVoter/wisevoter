@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B, 224, 225(C)
-    details: ANTI CORRUPTION ACT, SECTION 7,11,13(1. FIR NO.:- I8/2007 DATED 28-02-2007. DCB POLICE STATION, AHMEDABAD. CASE IS AT CID CRIME COURT. 
+    details: "ANTI CORRUPTION ACT, SECTION 7,11,13(1. FIR NO.-- I8/2007 DATED 28-02-2007. DCB POLICE STATION, AHMEDABAD. CASE IS AT CID CRIME COURT." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

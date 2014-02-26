@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 363, 364, 302, 201
-    details: Case no.110/91 Police Station Masrakh Saran  The Court C.J.M. Chapra  Date 24.09.91 Cr.MPo. 143/04 Field In High Court Of Jharkahand At Ranchi For Quashing On 10.02.2004 
+    details: "Case no.110/91 Police Station Masrakh Saran  The Court C.J.M. Chapra  Date 24.09.91 Cr.MPo. 143/04 Field In High Court Of Jharkahand At Ranchi For Quashing On 10.02.2004" 
   - crime: accussed
     ipc: 302, 307, 324, 120B
-    details: 3,4,5 Expolosive Substance Commiting Murder By Hurling Bomb Act. Case no,339/95 Police Station Gardanibag Secretariate Patna  The Court A.C.J.M. Patna Date 09.10.95 
+    details: "3,4,5 Expolosive Substance Commiting Murder By Hurling Bomb Act. Case no,339/95 Police Station Gardanibag Secretariate Patna  The Court A.C.J.M. Patna Date 09.10.95" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,23 +66,23 @@ According to the National Election Watch, Prabhunath Singh H While he was one of
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -91,4 +91,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

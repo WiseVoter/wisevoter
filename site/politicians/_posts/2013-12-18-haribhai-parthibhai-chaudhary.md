@@ -60,23 +60,23 @@ Haribhai Parthibhai Chaudhary is an Indian Politician and is Member of Parliamen
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -89,4 +89,4 @@ Wikipedia References
 [wiki2]: http://dailypioneer.com/nation/130582-mukesh-gadhvi-cong-mp-from-banaskantha-passes-away.html
 
 
-{% include references.html %}
+{% include "references.html" %}

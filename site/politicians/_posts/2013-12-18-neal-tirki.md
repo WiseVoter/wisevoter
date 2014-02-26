@@ -60,13 +60,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 323, 427
-    details: GR30/04 Chief Judicial Magistrate Simdega 18.12.2004 
+    details: "GR30/04 Chief Judicial Magistrate Simdega 18.12.2004" 
   - crime: accussed
     ipc: 147, 148, 149, 452, 353, 307, 337, 427
-    details: GR333/04  Chief JudicialMagistrate Simdega  07.09.2006 
+    details: "GR333/04  Chief JudicialMagistrate Simdega  07.09.2006" 
   - crime: accussed
     ipc: 143, 341, 427, 174
-    details: GR60/05 Railway Judcial Magistrate ,13.04.2006 
+    details: "GR60/05 Railway Judcial Magistrate ,13.04.2006" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -76,26 +76,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

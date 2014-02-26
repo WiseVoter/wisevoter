@@ -50,23 +50,23 @@ He was a member of Rajya Sabha for four terms: 3 April 1952 to 2 April 1954, 3 A
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -77,4 +77,4 @@ Wikipedia References
 [wiki1]: http://rajyasabha.nic.in/rsnew/pre_member/1952_2003/s.pdf
 
 
-{% include references.html %}
+{% include "references.html" %}

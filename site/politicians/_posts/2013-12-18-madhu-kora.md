@@ -60,23 +60,23 @@ Koda was arrested by state police's vigilance wing on 30 Nov, 2009 in connection
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -91,4 +91,4 @@ Wikipedia References
 [wiki3]: http://www.newkerala.com/news/fullnews-1924.html
 
 
-{% include references.html %}
+{% include "references.html" %}

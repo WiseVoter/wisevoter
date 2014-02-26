@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 144, 448, 323, 452, 380, 504, 415
-    details: 417/05,197/05,246/04,685/06 
+    details: "417/05,197/05,246/04,685/06" 
   - crime: accussed
     ipc: 
-    details: R.P.X. 136,171 
+    details: "R.P.X. 136,171" 
   - crime: accussed
     ipc: 
-    details: R.P.X. 133 
+    details: "R.P.X. 133" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

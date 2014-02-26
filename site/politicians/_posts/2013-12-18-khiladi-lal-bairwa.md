@@ -50,23 +50,23 @@ Khiladi Lal Bairwa is an Indian politician and a Member of Parliament of India. 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 [wiki3]: http://eci.nic.in/eci_main/archiveofge2009/Stats/VOLI/25_ConstituencyWiseDetailedResult.pdf
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 220,  225,  323,  342,  307,  364,  365, 34,  120(B)
-    details: Case no.34/2003, Rampur Police Station, Chief Judicial Magistrate Gaya, Cognizance date 01-09-2003 
+    details: "Case no.34/2003, Rampur Police Station, Chief Judicial Magistrate Gaya, Cognizance date 01-09-2003" 
   - crime: accussed
     ipc: 147,  148,  149,  447,  323,  504,  506,  385,
-    details: Case no.21/2008, Rampur Police Station, Cognizance date 07-02-2009, Chief Judicial Magistrate Gaya, 
+    details: "Case no.21/2008, Rampur Police Station, Cognizance date 07-02-2009, Chief Judicial Magistrate Gaya," 
   - crime: accussed
     ipc: 188,  171(H),  171(F)
-    details: 30 Arms Act, Case no.11/2008, Delha Police Station 
+    details: "30 Arms Act, Case no.11/2008, Delha Police Station" 
   - crime: accussed
     ipc: 188,  353,  414,  171(C)F,
-    details: Case no.185/2005, Tekari Police Station, Cognizance date 18-11-2005, A.C.J.M. Gaya 
+    details: "Case no.185/2005, Tekari Police Station, Cognizance date 18-11-2005, A.C.J.M. Gaya" 
   - crime: accussed
     ipc: 448
-    details: Case no.94/2009, Jehanabad Police Station 
+    details: "Case no.94/2009, Jehanabad Police Station" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

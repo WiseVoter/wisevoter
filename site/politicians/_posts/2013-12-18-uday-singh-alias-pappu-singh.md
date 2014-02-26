@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341,  323,  353,  427,  34
-    details: 132,133 OF R.P. ACT, FIR No. 118/04, Dated 6/05/2004, P.S. Khazanchal Dist. Purnea 
+    details: "132,133 OF R.P. ACT, FIR No. 118/04, Dated 6/05/2004, P.S. Khazanchal Dist. Purnea" 
   - crime: accussed
     ipc: 
-    details: FIR No. 189/05, Dated 22.08.2005,  3, Bihar Property Defacement and Prevention Act. 
+    details: "FIR No. 189/05, Dated 22.08.2005,  3, Bihar Property Defacement and Prevention Act." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,26 +63,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

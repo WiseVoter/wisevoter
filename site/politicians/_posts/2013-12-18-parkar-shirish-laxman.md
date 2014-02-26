@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  144,  146,  147,  148,  149, 151, 324, 326, 332, 333, 341, 353, 427
-    details: 37(IA) BPA  case no - CR No 280/2006,7 Criminal Law Amendment Act 
+    details: "37(IA) BPA  case no - CR No 280/2006,7 Criminal Law Amendment Act" 
   - crime: accussed
     ipc: 
-    details: Cr. No 281/2006 
+    details: "Cr. No 281/2006" 
   - crime: accussed
     ipc: 
-    details: Case No - CR 271/08 Khermadi Police 
+    details: "Case No - CR 271/08 Khermadi Police" 
   - crime: accussed
     ipc: 124A, 153A, 506, 114, 153, 295
-    details: CR No 946/08 
+    details: "CR No 946/08" 
   - crime: accussed
     ipc: 
-    details: 135, 37 BPAcase no 1623/DW/2007 
+    details: "135, 37 BPA. . case no 1623/DW/2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -60,10 +60,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 379,
-    details: FIR NO.:- 321/2003, GANDHIGRAM POLICE STATION, RAJKOT,  ELE. ACT-3, 7 (3), JUD. MAG. F.C., RAJKOT CASE IS PENDING. 
+    details: "FIR NO.-- 321/2003, GANDHIGRAM POLICE STATION, RAJKOT,  ELE. ACT-3, 7 (3), JUD. MAG. F.C., RAJKOT CASE IS PENDING." 
   - crime: accussed
     ipc: 379
-    details: FIR NO.:- 148/2003, ELE. ACT-3, 7 (3),JUD. MAG. F.C., RAJKOT CASE IS PENDING. 
+    details: "FIR NO.-- 148/2003, ELE. ACT-3, 7 (3),JUD. MAG. F.C., RAJKOT CASE IS PENDING." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -73,26 +73,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B,  409,  420,  468,  471
-    details: Criminal Conspiracies, Criminal breach of trust, Cheating, Forgery, Using as genuine a forged document and under prevention of Corruption Act.Section 13(1)and (2) Criminal misconduct by public Servant and punishment.The court which has taken cognizance: 8th City Civil Court, Chennai, T.N.CCno32/08. 
+    details: "Criminal Conspiracies, Criminal breach of trust, Cheating, Forgery, Using as genuine a forged document and under prevention of Corruption Act.Section 13(1)and (2) Criminal misconduct by public Servant and punishment.The court which has taken cognizance- 8th City Civil Court, Chennai, T.N.CCno32/08." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

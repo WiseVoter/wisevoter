@@ -40,34 +40,34 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: BPAct 37(3), 135 - 124/1990 
+    details: "BPAct 37(3), 135 - . . 124/1990" 
   - crime: accussed
     ipc: 
-    details: BPAct 37(3),135-130/1990 
+    details: "BPAct 37(3),135-130/1990" 
   - crime: accussed
     ipc: 
-    details: BPAct 37(3),135-271/1990 
+    details: "BPAct 37(3),135-271/1990" 
   - crime: accussed
     ipc: 
-    details: BPAct 37(3),135-271/1990 
+    details: "BPAct 37(3),135-271/1990" 
   - crime: accussed
     ipc: 143,  147,  149,  353,  427
-    details: 161/1991 
+    details: "161/1991" 
   - crime: accussed
     ipc: 147,  148,  149,  341,  135
-    details: 145/1992 
+    details: "145/1992" 
   - crime: accussed
     ipc: 
-    details: BPAct 37(3),135-136/1992 
+    details: "BPAct 37(3),135-136/1992" 
   - crime: accussed
     ipc: 
-    details: BPAct 37(3),135-102/1994 
+    details: "BPAct 37(3),135-102/1994" 
   - crime: accussed
     ipc: 
-    details: BPAct 37(3),135-47/2004 
+    details: "BPAct 37(3),135-47/2004" 
   - crime: accussed
     ipc: 143,  341,  37(3)A,  35
-    details: 133/2005 
+    details: "133/2005" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -77,26 +77,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

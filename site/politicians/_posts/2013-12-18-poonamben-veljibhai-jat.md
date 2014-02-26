@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 452,  323,  504,  506(2),  114
-    details: FIR NO.:- I-250/2007, GANDHIDHAM DISTRICT POLICE STATION, IN THE COURT OF JUDI. MEGI. FIRST CLASS, GANDHIDHAM, CASE NO. 4340/2007. 
+    details: "FIR NO.-- I-250/2007, GANDHIDHAM DISTRICT POLICE STATION, IN THE COURT OF JUDI. MEGI. FIRST CLASS, GANDHIDHAM, CASE NO. 4340/2007." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -51,23 +51,23 @@ Poonamben Veljibhai Jat (born 9 April 1971) is an Indian Politician belonging to
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -78,4 +78,4 @@ Wikipedia References
 [wiki1]: http://www.highbeam.com/doc/1P3-2291636191.html
 
 
-{% include references.html %}
+{% include "references.html" %}

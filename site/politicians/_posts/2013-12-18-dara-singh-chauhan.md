@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  149,  323,  504,  506,  353,  332,  395,  397,  412
-    details: 7 Criminal Law Amendment Act,27/30 Arms Act,FIR No.553/04,FTC III,ST No.117/04 
+    details: "7 Criminal Law Amendment Act,27/30 Arms Act,FIR No.553/04,FTC III,ST No.117/04" 
   - crime: accussed
     ipc: 147,  148,  323,  336,  427,  353,  332,  341,  504,  506
-    details: 7 Criminal Law Amendment Act,3(i)G.P.D.Act,FIR No.302/01,ACJ (III),Azamgarh,Case No.1212/06 
+    details: "7 Criminal Law Amendment Act,3(i)G.P.D.Act,FIR No.302/01,ACJ (III),Azamgarh,Case No.1212/06" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

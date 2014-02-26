@@ -50,25 +50,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 392, 341, 114
-    details: 29/92 
+    details: "29/92" 
   - crime: accussed
     ipc: 143, 145, 147, 149, 427, 506
-    details: 312/03 
+    details: "312/03" 
   - crime: accussed
     ipc: 143,  144 145, 147, 149, 114
-    details: 40/92 
+    details: "40/92" 
   - crime: accussed
     ipc: 504
-    details: "adakhalpatra" 117/07 
+    details: "adakhalpatra 117/07" 
   - crime: accussed
     ipc: 143, 145, 147, 149, 324, 332, 336, 427
-    details: with 37(1)(D) of MPA case no - 33/08 
+    details: "with 37(1)(D) of MPA case no - 33/08" 
   - crime: accussed
     ipc: 143, 145, 147, 149, 324, 332, 336, 427
-    details: with 37(1)(D) of MPA case no 34/08 
+    details: "with 37(1)(D) of MPA case no 34/08" 
   - crime: accussed
     ipc: 143, 145, 147, 149, 324, 332, 336, 427
-    details: with 37(1)(D) of MPA case no 35/08 
+    details: "with 37(1)(D) of MPA case no 35/08" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -81,23 +81,23 @@ Shishir Shinde is a politician from the Maharashtra state of India. He started h
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -112,4 +112,4 @@ Wikipedia References
 [wiki3]: http://www.telegraphindia.com/1081026/jsp/7days/story_10020846.jsp
 
 
-{% include references.html %}
+{% include "references.html" %}

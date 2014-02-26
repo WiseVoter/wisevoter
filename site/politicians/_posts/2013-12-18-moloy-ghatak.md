@@ -60,16 +60,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 325, 326, 307
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 341, 323, 379, 506, 34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 179,147,174 Of Indian Railways Act 
+    details: "179,147,174 Of Indian Railways Act" 
   - crime: accussed
     ipc: 147, 148, 149, 186, 353, 337
-    details: 3,4 of P.D.P.P. Act,9 of M.P.O. Act 
+    details: "3,4 of P.D.P.P. Act,. . . . 9 of M.P.O. Act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -79,26 +79,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

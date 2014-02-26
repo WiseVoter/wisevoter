@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 353,  224,  323,  34
-    details: Crime No.-272/07,IIIrd additional judicial First Class Megistrate Rajahmundry,Date-2007-05-24,III Town Rajahmundry District(S) East Godavari State(S) Andhra Pradesh 
+    details: "Crime No.-272/07,IIIrd additional judicial First Class Megistrate Rajahmundry,Date-2007-05-24,III Town Rajahmundry District(S) East Godavari State(S) Andhra Pradesh" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -60,26 +60,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

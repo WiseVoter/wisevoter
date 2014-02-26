@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 145, 323, 427
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 188, 341, 342, 323, 324, 307,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 323, 406, 409,
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  149,  307,  302,  504,  506,  427
-    details: FIR No.44/99,Thana-Kotawali,C.J.M.Court,Maharajganj,Case No.7780/2006,Final Report No.261/2000,Date-13.9.2006 
+    details: "FIR No.44/99,Thana-Kotawali,C.J.M.Court,Maharajganj,Case No.7780/2006,Final Report No.261/2000,Date-13.9.2006" 
   - crime: accussed
     ipc: 147,  295,  297,  436,  506
-    details: FIR No.43/07,Thna-Kotawali Gorakhpur,C.J.M.Court,Gorakhpur,Case No.6098/07,Date-14.6.2007 
+    details: "FIR No.43/07,Thna-Kotawali Gorakhpur,C.J.M.Court,Gorakhpur,Case No.6098/07,Date-14.6.2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,23 +66,23 @@ Yogi Adityanath (born 5 June 1972) is an Indian religious leader and politician.
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -97,4 +97,4 @@ Wikipedia References
 [wiki3]: http://www.tribuneindia.com/2007/20070203/nation.htm#3
 
 
-{% include references.html %}
+{% include "references.html" %}

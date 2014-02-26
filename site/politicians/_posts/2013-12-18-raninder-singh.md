@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 406, 420, 467, 468, 471, 120B
-    details: F.I.R. No.5 Dated. 23.03.2007, PS Punjab Vigilance Bureau, Ludhiana, Punjab,  Section 7,13(1)(c) (d) r/w S.13 (2), 14 PC  Act , 1988- Cheating, Bribery and corruption, The Court of Sh GK Rai Session Judge cum Special Judge, Ludhiana, Punjab-The  Challan report under  Section 173 Cr PC Dated. 28/11/2007 has been presented but no charges have been framed by the Court. 
+    details: "F.I.R. No.5 Dated. 23.03.2007, PS Punjab Vigilance Bureau, Ludhiana, Punjab,  Section 7,13(1)(c) (d) r/w S.13 (2), 14 PC  Act , 1988- Cheating, Bribery and corruption, The Court of Sh GK Rai Session Judge cum Special Judge, Ludhiana, Punjab-The  Challan report under  Section 173 Cr PC Dated. 28/11/2007 has been presented but no charges have been framed by the Court." 
   - crime: accussed
     ipc: 
-    details: FIR no. 28 dated. 20.06.2008, PS Punjab Vigilance Bureau-Patiala, Punjab, Section 7,8,9,13 (1) (d) (e) 14, R/W 120B and 13 (2)P.C. Act. 1988- Corruption and  Possession of assets disproportionate to  Known Sources of Income 
+    details: "FIR no. 28 dated. 20.06.2008, PS Punjab Vigilance Bureau-Patiala, Punjab, Section 7,8,9,13 (1) (d) (e) 14, R/W 120B and 13 (2)P.C. Act. 1988- Corruption and  Possession of assets disproportionate to  Known Sources of Income" 
   - crime: accussed
     ipc: 406, 420, 421, 120B
-    details: FIR No.2 Dated. 11.02.09, PS Punjab Vigilance Bureau, Phase I, Mohali Punjab,  7, 13(1)(c)(d) r/w 13(2) PC Act  1988- Breach of Trust, Cheating and Corruption 
+    details: "FIR No.2 Dated. 11.02.09, PS Punjab Vigilance Bureau, Phase I, Mohali Punjab,  7, 13(1)(c)(d) r/w 13(2) PC Act  1988- Breach of Trust, Cheating and Corruption" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -69,35 +69,35 @@ Yuvraj Raninder Singh (born August 2, 1967) an Indian politician from Punjab, In
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 Wikipedia References
 - [Wikipedia profile]({{page.profile.wikipedia}}), accessed Jan 27, 2014.
-- ["Is Yuvraj Raninder heading Kaka Ji Sukhbir's way?"][wiki1]
+- ["Is ‘Yuvraj’ Raninder heading Kaka Ji Sukhbir’s way?"][wiki1]
 - ["Raninder Singh- Bathinda Parliamentary Constituency (the son of Capt. Amarinder Singh )"][wiki2]
-- ["Patiala contestants satisfied with campaign"][wiki3]
+- ["Patiala contestants satisfied' with campaign"][wiki3]
 
 [wiki1]: http://articles.timesofindia.indiatimes.com/2002-09-16/chandigarh/27314250_1_political-aspirations-political-affairs-political-heirs
 [wiki2]: http://www.nriinternet.com/NRIcongressparty/Indian_Leaders/A_Z/R/Raninder_Singh/BIO.htm
 [wiki3]: http://www.indianexpress.com/res/web/pIe/ie/daily/19990907/ige07150.html
 
 
-{% include references.html %}
+{% include "references.html" %}

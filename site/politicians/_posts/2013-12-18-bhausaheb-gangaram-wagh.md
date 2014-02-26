@@ -40,25 +40,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 148, 149, 323, 341, 504
-    details: R.C.C.NO 32/2004 
+    details: "R.C.C.NO 32/2004" 
   - crime: accussed
     ipc: 143, 147, 149, 353, 504, 506,
-    details: R.C.C.NO 51/200637(1)(3) 
+    details: "R.C.C.NO 51/2006. . 37(1)(3)" 
   - crime: accussed
     ipc: 
-    details: S.C.C NO 161/2006 
+    details: "S.C.C NO 161/2006" 
   - crime: accussed
     ipc: 
-    details: B.P.ACT 37(1)(3)and(135) 
+    details: "B.P.ACT 37(1)(3)and(135)" 
   - crime: accussed
     ipc: 
-    details: R.C.C.NO 32/2004 
+    details: "R.C.C.NO 32/2004" 
   - crime: accussed
     ipc: 
-    details: R.C.C.NO.51/2006 
+    details: "R.C.C.NO.51/2006" 
   - crime: accussed
     ipc: 
-    details: S.C.C.NO161/2006 
+    details: "S.C.C.NO161/2006" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -68,26 +68,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

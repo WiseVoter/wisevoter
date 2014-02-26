@@ -40,25 +40,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341,  323,  506,  34
-    details: 3 (X)SC/ST ACT. Case No. 883/05 
+    details: "3 (X)SC/ST ACT. Case No. 883/05" 
   - crime: accussed
     ipc: 341,  323,  504,  407,  34
-    details: Case No. GR 246A/96 
+    details: "Case No. GR 246A/96" 
   - crime: accussed
     ipc: 147,  148,  149,  323,  324,  504,  379,  307,  427,   353
-    details: Case No. GR 657/02 
+    details: "Case No. GR 657/02" 
   - crime: accussed
     ipc: 147,  149,  333,  504,  427
-    details: Case No. GR 843/05 
+    details: "Case No. GR 843/05" 
   - crime: accussed
     ipc: 147,  148,  341
-    details: 146,153,174 Rail Act. Case No. GR 96/05 
+    details: "146,153,174 Rail Act. Case No. GR 96/05" 
   - crime: accussed
     ipc: 147
-    details: 174 Rail Act, Case No. GR 118/06 
+    details: "174 Rail Act, Case No. GR 118/06" 
   - crime: accussed
     ipc: 144,  353
-    details: 164, 174 Rail Act, Case No. GR 3/05 
+    details: "164, 174 Rail Act, Case No. GR 3/05" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -68,26 +68,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

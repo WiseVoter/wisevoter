@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 406,  409,  465,  467,  468,  471,  120B
-    details: FIR NO.:- I-226/2005 (NAME IS NOT INDICATED IN FIR). ANJAR POLICE STATION,JUDI. MEGI. FIRST CLASS COURT AT ANJAR DATED 28/08/2008. CASE NO.:- 756/2007. 
+    details: "FIR NO.-- I-226/2005 (NAME IS NOT INDICATED IN FIR). ANJAR POLICE STATION,JUDI. MEGI. FIRST CLASS COURT AT ANJAR DATED 28/08/2008. CASE NO.-- 756/2007." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

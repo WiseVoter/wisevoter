@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 148, 188, 294(b), 285, 74
-    details: CASE NO. CC554/2003, KRISHNAGIRI POLICE STATION, CRIME NO.400/2003, DATE OF FILING 28.11.2003 
+    details: "CASE NO. CC554/2003, KRISHNAGIRI POLICE STATION, CRIME NO.400/2003, DATE OF FILING 28.11.2003" 
   - crime: accussed
     ipc: 294(b)
-    details: CASE NO. STC 753/2003, MATHUR POLICE STATION, CRIME NO. 442/2003. 
+    details: "CASE NO. STC 753/2003, MATHUR POLICE STATION, CRIME NO. 442/2003." 
   - crime: accussed
     ipc: 
-    details: ORIGINAL CASE NO. 36/2004, APPEAL - IA30/2008APPEAL NO.  /2009 
+    details: "ORIGINAL CASE NO. 36/2004, APPEAL - IA30/2008. . APPEAL NO.  /2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

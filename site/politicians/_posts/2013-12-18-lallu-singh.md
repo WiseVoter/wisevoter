@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 332,  338,  201,  149,  395,  120B
-    details: Session Trial no.344/94, Crime no.197/92, CBI R.C.No.8(5/92) to R.C. No.48(5)/93Special Magistrate CBI ramjanmbhumi 
+    details: "Session Trial no.344/94, Crime no.197/92, CBI R.C.No.8(5/92) to R.C. No.48(5)/93Special Magistrate CBI ramjanmbhumi" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

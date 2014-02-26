@@ -60,23 +60,23 @@ Bhajan Lal (6 October 1930 – 3 June 2011) was a politician and two-time chief 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -91,4 +91,4 @@ Wikipedia References
 [wiki3]: http://www.thehindu.com/news/article2074044.ece
 
 
-{% include references.html %}
+{% include "references.html" %}

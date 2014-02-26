@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 457, 447, 506, 427, 511, 148, 149
-    details: Case No. 166 
+    details: "Case No. 166" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,23 +53,23 @@ He was earlier an Indian Army commando, from one of its oldest infantry regiment
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -84,4 +84,4 @@ Wikipedia References
 [wiki3]: /wiki/NEW_DELHI
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341, 506, 186, 332, 353, 336, 323, 148, 149
-    details: Jagraon 
+    details: "Jagraon" 
   - crime: accussed
     ipc: 302, 34, 452.
-    details: ARMS ACT 25/27. 
+    details: "ARMS ACT 25/27." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

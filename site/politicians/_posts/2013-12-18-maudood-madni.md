@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 420, 406, 427, 465, 468, 469, 120B
-    details: Complaint No.12200/1, Metropolitan Magistrate, Delhi Dt. 30.6.2007, Criminal Miscellaneous(main) Petition bearing no.1134 of 2009 filed before Hon'ble High Court of Delhi Seeking Quashing of the Complaint 
+    details: "Complaint No.12200/1, Metropolitan Magistrate, Delhi Dt. 30.6.2007, Criminal Miscellaneous(main) Petition bearing no.1134 of 2009 filed before Hon'ble High Court of Delhi Seeking Quashing of the Complaint" 
   - crime: accussed
     ipc: 
-    details: Section 234(1) of the COMPANIES ACT 1956, Complaint No.938/2007, Additional Chief Metropolitan Magistrate, Delhi, Dt. 19.5.2007, Criminal Miscellaneous (main) Petition bearing No.1185/2009 filed before Hon'ble High Court of Delhi Seeking Quashing of the Complaint 
+    details: "Section 234(1) of the COMPANIES ACT 1956, Complaint No.938/2007, Additional Chief Metropolitan Magistrate, Delhi, Dt. 19.5.2007, Criminal Miscellaneous (main) Petition bearing No.1185/2009 filed before Hon'ble High Court of Delhi Seeking Quashing of the Complaint" 
   - crime: accussed
     ipc: 
-    details: Sections 159,162,220 of the COMPANIES ACT, 1956, Complaint No.1236/2007 and 1237/2007, Additional Chief Metropolitan Magistrate, Delhi Dt. 31.7.2007 
+    details: "Sections 159,162,220 of the COMPANIES ACT, 1956, Complaint No.1236/2007 and 1237/2007, Additional Chief Metropolitan Magistrate, Delhi Dt. 31.7.2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

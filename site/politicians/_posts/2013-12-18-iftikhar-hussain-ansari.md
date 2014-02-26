@@ -36,7 +36,7 @@ candidature:
     assets: 21,92,23,700
     liabilities: 65,00,000
     result:  
-  - election: Jammu and Kashmir 2008
+  - election: Jammu & Kashmir 2008
     myneta-link: http://myneta.info//jk2008/candidate.php?candidate_id=211
     affidavit-link: 
     expenses-link: 
@@ -60,23 +60,23 @@ Molvi Iftikhar Hussain Ansari (Kashmiri: मौलवी इफ्तिखा�
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -91,4 +91,4 @@ Wikipedia References
 [wiki3]: http://www.jammu-kashmir.com/archives/archives2000/kashmir20000902a.html
 
 
-{% include references.html %}
+{% include "references.html" %}

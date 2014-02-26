@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 500
-    details: Case No. 177/2007, Police Station Civil Line, Akola, Maharashtra, Dated 28.02.2008, Revision Petition No. 953/09, was filed before the Hon'ble High Court Judicature of Bombay Nagpur Bench Nagpur. The Hon'ble High Court Has Stayed the Proceeding of trial court on 20/03/2009 
+    details: "Case No. 177/2007, Police Station Civil Line, Akola, Maharashtra, Dated 28.02.2008, Revision Petition No. 953/09, was filed before the Hon'ble High Court Judicature of Bombay Nagpur Bench Nagpur. The Hon'ble High Court Has Stayed the Proceeding of trial court on 20/03/2009" 
   - crime: accussed
     ipc: 143,  341
-    details: U/Sec 135 of Bombay Police Act. Case No. 11753/2005, Dated 20/10/2005 
+    details: "U/Sec 135 of Bombay Police Act. Case No. 11753/2005, Dated 20/10/2005" 
   - crime: accussed
     ipc: 
-    details: U/sec 135, of Bombay Police Act. Case No.SCC 9691/2005, Date 24/08/2005 
+    details: "U/sec 135, of Bombay Police Act. Case No.SCC 9691/2005, Date 24/08/2005" 
   - crime: accussed
     ipc: 
-    details: U/S 135 of Bombay Police Act.  Case No. SCC 1986/2005, Date 15/09/2005 
+    details: "U/S 135 of Bombay Police Act.  Case No. SCC 1986/2005, Date 15/09/2005" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -69,26 +69,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 406, 420, 467, 468
-    details: Cr. No 243/93, Date 3.02.05, P.S Mavana Dist Meert State MP,Court Chief Judicial Magistrate Mavana (Meert) 
+    details: "Cr. No 243/93, Date 3.02.05, P.S Mavana Dist Meert State MP,Court Chief Judicial Magistrate Mavana (Meert)" 
   - crime: accussed
     ipc: 147, 341
-    details: Cr. No 10/1997,Date05.05.08 P.S Mavana Dist Meert State MP, Court Chief Judicial Magistrate Mavana (Meert) 
+    details: "Cr. No 10/1997,Date05.05.08 P.S Mavana Dist Meert State MP, Court Chief Judicial Magistrate Mavana (Meert)" 
   - crime: accussed
     ipc: 147, 148, 342, 353, 504
-    details: Cr.No 460/2000,7 Criminal Law Amendment Act,Date 24.03.2006, P.S Mavana Dist Meert State MP,Court Chief Judicial Magistrate Mavana (Meert) 
+    details: "Cr.No 460/2000,7 Criminal Law Amendment Act,Date 24.03.2006, P.S Mavana Dist Meert State MP,Court Chief Judicial Magistrate Mavana (Meert)" 
   - crime: accussed
     ipc: 147, 153(A), 188, 298
-    details: Cr. No 128/2009,P.S Mavana Dist Meert State MP, Court Chief Judicial Magistrate Mavana (Meert) 
+    details: "Cr. No 128/2009,P.S Mavana Dist Meert State MP, Court Chief Judicial Magistrate Mavana (Meert)" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

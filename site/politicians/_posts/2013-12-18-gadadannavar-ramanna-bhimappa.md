@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 149
-    details: CC NO.220/06 W/S 147,341,504,506,CC NO.642/07 W/S 143,147,341CC NO.231/05 W/S 143,147,341,353CC NO.385/02 W/S 353,341 
+    details: "CC NO.220/06 W/S 147,341,504,506,. . CC NO.642/07 W/S 143,147,341. . CC NO.231/05 W/S 143,147,341,353. . CC NO.385/02 W/S 353,341" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

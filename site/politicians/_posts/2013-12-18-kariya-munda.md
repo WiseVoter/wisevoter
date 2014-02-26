@@ -60,23 +60,23 @@ Sri Munda was born in Khunti District, near the State capital of Ranchi of Jhark
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -89,4 +89,4 @@ Wikipedia References
 [wiki2]: /wiki/The_Hindu
 
 
-{% include references.html %}
+{% include "references.html" %}

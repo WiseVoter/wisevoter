@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  149,  326,  307
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147,  148,  149,  353,  323,  324,  325,  337,  307,  435,  427,  379,  109
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147,  148,  149,  186,  353,  332,  427,  324,  307
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 25(a)/27/35 Arms Act and 4/5Explosive Sabstance Act 
+    details: "25(a)/27/35 Arms Act and 4/5Explosive Sabstance Act" 
   - crime: accussed
     ipc: 144,  379
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

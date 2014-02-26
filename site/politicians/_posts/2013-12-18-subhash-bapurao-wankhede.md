@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 436, 295, 323
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 171(b)(e)
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 226,227, ARTICLE OF CONSTITUTION OF INDIA 
+    details: "226,227, ARTICLE OF CONSTITUTION OF INDIA" 
   - crime: accussed
     ipc: 
-    details: INQUIRY U/S OF MAHARASHTRA CO-OP SOCIETY ACT 1960 
+    details: "INQUIRY U/S OF MAHARASHTRA CO-OP SOCIETY ACT 1960" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -70,23 +70,23 @@ Subhash Bapurao Wankhede (born 4 January 1963) is an Indian politician and a mem
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -95,4 +95,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

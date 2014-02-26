@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 500,  501B,  502B,  34
-    details: CR Case No.-2982/08,Sub-Divisional Judicial Magistrate,Nagaon CR 2982/08,Date 15.11.2008 
+    details: "CR Case No.-2982/08,Sub-Divisional Judicial Magistrate,Nagaon CR 2982/08,Date 15.11.2008" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ Gohain was educated at the University of Guwahati and graduated with BA and LLB 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -90,4 +90,4 @@ Wikipedia References
 [wiki1]: http://india.gov.in/govt/loksabhampbiodata.php?mpcode=143
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,25 +40,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 499, 500, 34
-    details: CC No 493/2000 
+    details: "CC No 493/2000" 
   - crime: accussed
     ipc: 500, 501, 502, 120B
-    details: CC No 24/2007 
+    details: "CC No 24/2007" 
   - crime: accussed
     ipc: 499, 34
-    details: CC No 224/2007 
+    details: "CC No 224/2007" 
   - crime: accussed
     ipc: 499, 500
-    details: CC No 1064/2008 
+    details: "CC No 1064/2008" 
   - crime: accussed
     ipc: 500, 501, 34
-    details: CC No 1189/2008 
+    details: "CC No 1189/2008" 
   - crime: accussed
     ipc: 500, 501
-    details: CC No 1268/2008 
+    details: "CC No 1268/2008" 
   - crime: accussed
     ipc: 500, 501
-    details: 33/2009 
+    details: "33/2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -68,26 +68,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

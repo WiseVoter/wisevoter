@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 364,  302,  379
-    details: 27 Arms Act. Case No. 14/2000, Dated 14.02.2005, Police Station Maharajganjl, Dist. Siwan, State Bihar  Additional District and Sessions Judge first. 
+    details: "27 Arms Act. Case No. 14/2000, Dated 14.02.2005, Police Station Maharajganjl, Dist. Siwan, State Bihar  Additional District and Sessions Judge first." 
   - crime: accussed
     ipc: 171(F)
-    details: Case no.25/2005 Police Station Maharajganj Dist Siwan Bihar Date 06.09.2005 Additonal Judge First. 
+    details: "Case no.25/2005 Police Station Maharajganj Dist Siwan Bihar Date 06.09.2005 Additonal Judge First." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,23 +56,23 @@ On 18 January 2013, he was admitted at the All India Institutes of Medical Scien
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -87,4 +87,4 @@ Wikipedia References
 [wiki3]: http://articles.timesofindia.indiatimes.com/2013-01-25/patna/36547165_1_rjd-secretary-prabhunath-singh-rjd-state-president
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 3 Property Defacement Act. Chainpure P.S. Case No. 99/2005, Dated 19.12.2005 
+    details: "3 Property Defacement Act. Chainpure P.S. Case No. 99/2005, Dated 19.12.2005" 
   - crime: accussed
     ipc: 188
-    details: 133 People's Representative Act. Cahinpure P.S.Case No. 100/2005, Dated 23.02.2006 
+    details: "133 People's Representative Act. Cahinpure P.S.Case No. 100/2005, Dated 23.02.2006" 
   - crime: accussed
     ipc: 
-    details: 3 Property Defacement Act. Durgawati P.S. Case No. 93/2005, Dated 7.12.2005 
+    details: "3 Property Defacement Act. Durgawati P.S. Case No. 93/2005, Dated 7.12.2005" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

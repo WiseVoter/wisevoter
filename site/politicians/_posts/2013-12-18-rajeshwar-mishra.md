@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 302, 506
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 364, 323
-    details: 3(1) UP GANGSTER ACT 
+    details: "3(1) UP GANGSTER ACT" 
   - crime: accussed
     ipc: 147, 148, 149, 307, 506, 120B
-    details: 7 CRIMINAL LAW ACT AND 3(1) UP GANGSTER ACT 
+    details: "7 CRIMINAL LAW ACT AND 3(1) UP GANGSTER ACT" 
   - crime: accussed
     ipc: 147, 148, 332, 352, 353, 504, 506
-    details: 7 CRIMINAL LAW ACT AND 3(1) UP GANGSTER ACT 
+    details: "7 CRIMINAL LAW ACT AND 3(1) UP GANGSTER ACT" 
   - crime: accussed
     ipc: 307, 323, 504, 506,
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

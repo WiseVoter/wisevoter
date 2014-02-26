@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  353,  427,  448
-    details: Chief Judicial Magistrate,Kamrup at Gauhati,G.R. Case No.4320/2000,arising from Disapur P.S. Case No.956/2000,Date 10.11.2004 
+    details: "Chief Judicial Magistrate,Kamrup at Gauhati,G.R. Case No.4320/2000,arising from Disapur P.S. Case No.956/2000,Date 10.11.2004" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ Ranee Narah (born 31 October 1965) is an Indian politician who is currently the 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -94,4 +94,4 @@ Wikipedia References
 [wiki3]: http://www.webcitation.org/6Bj4hmNZu
 
 
-{% include references.html %}
+{% include "references.html" %}

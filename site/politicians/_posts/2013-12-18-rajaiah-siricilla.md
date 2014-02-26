@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: Section 13(2) R/W 13(1)(c) of P.C. Act 1988,Crime No. 9/ACB-WRL/2006,FIR was filed before the Hon'ble Special Sessions Judge for ACB Cases,but cognizance was not taken by the Hon'ble Court since charge sheet was nit filed and all further proceedings were dropped by the government of Andhra Pradesh vide G.O.Ms.No.75,Dated 18/03/2009 
+    details: "Section 13(2) R/W 13(1)(c) of P.C. Act 1988,Crime No. 9/ACB-WRL/2006,FIR was filed before the Hon'ble Special Sessions Judge for ACB Cases,but cognizance was not taken by the Hon'ble Court since charge sheet was nit filed and all further proceedings were dropped by the government of Andhra Pradesh vide G.O.Ms.No.75,Dated 18/03/2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,23 +53,23 @@ Siricilla Rajaiah (born 9 May 1953) is an Indian politician and a member of Lok 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -78,4 +78,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

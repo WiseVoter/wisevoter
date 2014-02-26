@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 341, 342, 323, 379, 427 , 504, 506, 307, 120B, 109
-    details: 26/02 C.J.M.Giridih Hirodih 07.06.02 Sri R.N.Singh F.T.C.VIII,Giridih 23.08.04 
+    details: "26/02 C.J.M.Giridih Hirodih 07.06.02 Sri R.N.Singh F.T.C.VIII,Giridih 23.08.04" 
   - crime: accussed
     ipc: 147, 341, 323, 324, 427, 506, 332, 353, 452, 384
-    details: Case.no.19/04 Dhanwad p.s.no.C.J.M.Giridih 14.05.08 
+    details: "Case.no.19/04 Dhanwad p.s.no.C.J.M.Giridih 14.05.08" 
   - crime: accussed
     ipc: 147, 148, 323, 324, 307
-    details: Case no 21/04 17.06.08 C.J.M.Giridih 
+    details: "Case no 21/04 17.06.08 C.J.M.Giridih" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

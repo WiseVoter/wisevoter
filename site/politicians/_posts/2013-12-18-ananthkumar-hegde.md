@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  147,  148,  353, ,  332,  333,  427,  324,  323,  153A,  149
-    details: Case No 57/06 CC No 14/04 of IIAN Additional J.M.F.C , Dt. of Oder 23.01.2004 
+    details: "Case No 57/06 CC No 14/04 of IIAN Additional J.M.F.C , Dt. of Oder 23.01.2004" 
   - crime: accussed
     ipc: 153A,  295
-    details: Court J.M.F.C. Court Chikmangalore C.C. No 3/03, Dt. Of Oder 12.01.2003 
+    details: "Court J.M.F.C. Court Chikmangalore C.C. No 3/03, Dt. Of Oder 12.01.2003" 
   - crime: accussed
     ipc: 143, 147, 148, 341, 332, 149, 427, 353
-    details: C.C.No 2281/98 Court J.M.F.C. Court Bhatkal The Case Ended In Acquittal and The State Has Filed Appeal Before The High Court Of Karnataka Whick Is Pending In Cr. R.P 125/2004 Dt. Of Order 27.02.1997 
+    details: "C.C.No 2281/98 Court J.M.F.C. Court Bhatkal The Case Ended In Acquittal and The State Has Filed Appeal Before The High Court Of Karnataka Whick Is Pending In Cr. R.P 125/2004 Dt. Of Order 27.02.1997" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

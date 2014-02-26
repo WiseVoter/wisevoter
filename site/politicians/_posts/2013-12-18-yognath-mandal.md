@@ -40,28 +40,28 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 323, 325, 341,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 452,  436, 379, 511, 427, 353, 186, 333
-    details: 3,7,9 LAUDSPEEKAR ACT. 
+    details: "3,7,9 LAUDSPEEKAR ACT." 
   - crime: accussed
     ipc: 341, 323, 504,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 323, 341, 379,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 447,  341,  323,  379,  504,  34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 323,  406,  409,  506,  34
-    details: 3 (I) (X) SC and ST act. 
+    details: "3 (I) (X) SC and ST act." 
   - crime: accussed
     ipc: 341,  323,  379,  504,
-    details: 3 (X) (XI) Sc and St act 
+    details: "3 (X) (XI) Sc and St act" 
   - crime: accussed
     ipc: 341,  323,  354,  379,  504,   34
-    details: 3 (X) (XI) Sc and St act 
+    details: "3 (X) (XI) Sc and St act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -71,26 +71,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

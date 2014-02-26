@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 174(a)Railway Act (amendnent)2003 -Alleged obstuction to the train movement.J.M.F.C.4th court,Belagam.C.C.no.338/07 Date;20-02-2007 
+    details: "174(a)Railway Act (amendnent)2003 -Alleged obstuction to the train movement.J.M.F.C.4th court,Belagam.C.C.no.338/07 Date;20-02-2007" 
   - crime: accussed
     ipc: 153(A),  505(2),  171(c)
-    details: 123(3)and 123(3A)OF Representation of Peoples Act 1951-Cognizance not taken.prl C.J.(Sr.Dn.)andC.J.M.Court Belagam Market P.S.Cr.no.89/09 
+    details: "123(3)and 123(3A)OF Representation of Peoples Act 1951-Cognizance not taken.prl C.J.(Sr.Dn.)andC.J.M.Court Belagam Market P.S.Cr.no.89/09" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,26 +63,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 3 W.B.Act,FIR No.376/08,Dated 24.10.2008,Police Station: Welcome,District:North East Delhi,State:Delhi,No Charge is framed 
+    details: "3 W.B.Act,FIR No.376/08,Dated 24.10.2008,Police Station- Welcome,District-North East Delhi,State-Delhi,No Charge is framed" 
   - crime: accussed
     ipc: 147,  148,  149,  186,  332,  353,  307
-    details: 3 Prev. of Damage of Property Act,1984,FIR No.152/2009,Dated 16.04.2008,Police Station:Bhajanpura,District:North East Delhi,State:Delhi,No Charge is framed 
+    details: "3 Prev. of Damage of Property Act,1984,FIR No.152/2009,Dated 16.04.2008,Police Station-Bhajanpura,District-North East Delhi,State-Delhi,No Charge is framed" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,26 +63,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

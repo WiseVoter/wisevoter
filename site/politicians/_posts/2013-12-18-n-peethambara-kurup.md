@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 149, 283
-    details: sec38 R/W 5206,169/2006 
+    details: "sec38 R/W 5206,169/2006" 
   - crime: accussed
     ipc: 143, 147, 149, 188, 283, 427,
-    details: sec38 R/W 5206K.P.Act sec 18(i)III R/W 56 of  k.p.Act 699/2005 
+    details: "sec38 R/W 5206K.P.Act sec 18(i)III R/W 56 of  k.p.Act 699/2005" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

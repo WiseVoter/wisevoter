@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  147,  149,  289,  283
-    details: Sec 38 R/W 52 of K.P. Act,ST No.169/2006,FIR No.319/2005,Police Station-Trivanrum Const.P.S.,District-Trivanpuram,State-Kerala,J.F.C.M.(III)Trivandrum,Date-22/4/2008 
+    details: "Sec 38 R/W 52 of K.P. Act,ST No.169/2006,FIR No.319/2005,Police Station-Trivanrum Const.P.S.,District-Trivanpuram,State-Kerala,J.F.C.M.(III)Trivandrum,Date-22/4/2008" 
   - crime: accussed
     ipc: 143,  147,  149,  188,  283,  427
-    details: Sec 38 R/W 52 of K.P. Act and Sec 18(L)III R/W 56 of K.P. Act,CC No.699/2005,FIR No.264/2005,Police Station-Trivanrum Const.P.S.,District-Trivanpuram,State-Kerala,J.F.C.M.(III)Trivandrum,Charge not Framed 
+    details: "Sec 38 R/W 52 of K.P. Act and Sec 18(L)III R/W 56 of K.P. Act,CC No.699/2005,FIR No.264/2005,Police Station-Trivanrum Const.P.S.,District-Trivanpuram,State-Kerala,J.F.C.M.(III)Trivandrum,Charge not Framed" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

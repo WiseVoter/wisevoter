@@ -50,49 +50,49 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: WP9196/09 
+    details: "WP9196/09" 
   - crime: accussed
     ipc: 
-    details: WP9197/09 
+    details: "WP9197/09" 
   - crime: accussed
     ipc: 
-    details: WP9198/09 
+    details: "WP9198/09" 
   - crime: accussed
     ipc: 
-    details: WP9199/09 
+    details: "WP9199/09" 
   - crime: accussed
     ipc: 
-    details: WP9200/09 
+    details: "WP9200/09" 
   - crime: accussed
     ipc: 
-    details: WP9201/09 
+    details: "WP9201/09" 
   - crime: accussed
     ipc: 
-    details: WP9202/09 
+    details: "WP9202/09" 
   - crime: accussed
     ipc: 
-    details: WP9203/09 
+    details: "WP9203/09" 
   - crime: accussed
     ipc: 
-    details: WP9204/09 
+    details: "WP9204/09" 
   - crime: accussed
     ipc: 
-    details: WP9205/09 
+    details: "WP9205/09" 
   - crime: accussed
     ipc: 
-    details: WP9206/09 
+    details: "WP9206/09" 
   - crime: accussed
     ipc: 
-    details: WP9207/09 
+    details: "WP9207/09" 
   - crime: accussed
     ipc: 
-    details: RP.No.107APP.NO.6043/06 
+    details: "RP.No.107. . APP.NO.6043/06" 
   - crime: accussed
     ipc: 
-    details: RP.No.107APP.NO.6044/06 
+    details: "RP.No.107. . APP.NO.6044/06" 
   - crime: accussed
     ipc: 
-    details: RP.No.107APP.No.6045/06 
+    details: "RP.No.107. . APP.No.6045/06" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -102,26 +102,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,23 +50,23 @@ Jaswant Singh (born January 3, 1938) is an Indian politician. He belongs to the 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 [wiki3]: http://www.hindu.com/2006/07/28/stories/2006072820621700.htm
 
 
-{% include references.html %}
+{% include "references.html" %}

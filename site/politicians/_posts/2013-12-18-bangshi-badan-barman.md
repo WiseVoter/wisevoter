@@ -40,31 +40,31 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 323, 325, 436, 511, 332, 326, 337, 378, 353, 427, 186, 188, 307, 120
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 324, 325, 326, 334, 337, 353, 427, 188, 372, 186, 307, 379, 302
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 505(2)
-    details: 127(A) R P Act 1951, 3 of P I Act 1971 
+    details: "127(A) R P Act 1951, 3 of P I Act 1971" 
   - crime: accussed
     ipc: 505(2)
-    details: 127(A) R P Act 1951, 3 of P I Act 1971 
+    details: "127(A) R P Act 1951, 3 of P I Act 1971" 
   - crime: accussed
     ipc: 505(2)
-    details: 127(A) R P Act 1951,3 of P I Act 1971 
+    details: "127(A) R P Act 1951,. . 3 of P I Act 1971" 
   - crime: accussed
     ipc: 505(2)
-    details: 127(A) R P Act 1951, 3 of P I Act 1971 
+    details: "127(A) R P Act 1951, 3 of P I Act 1971" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 324, 325, 326, 338, 353, 332, 307, 302, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 326, 325, 337, 353, 378, 427, 186, 188, 307, 120B, 436, 511
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 324, 325, 334, 353, 372, 427, 186, 188, 307, 379
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -77,23 +77,23 @@ Barman finished a Bengali Honours degree at Dinhata College in 1992. During his 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -102,4 +102,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

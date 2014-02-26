@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  149,  504,  506,  171F,  365,  323
-    details: 3(1)5,Case No.1098/08,Crime No.09/06,C.J.M. Hamirpur 
+    details: "3(1)5,Case No.1098/08,Crime No.09/06,C.J.M. Hamirpur" 
   - crime: accussed
     ipc: 147,  504,  506
-    details: 7 Criminal Law Amendment Act,Case No.1394/07,Crime No.671/07 ,C.J.M. Hamirpur 
+    details: "7 Criminal Law Amendment Act,Case No.1394/07,Crime No.671/07 ,C.J.M. Hamirpur" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -60,7 +60,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  149,  447,  341,  342,  365,  323,  325,  307,  504,  120B ,  363
-    details: 25(1-B)a and 26, 35 Arms act. Case No. 66/2002, Dated 17-01-2007, 
+    details: "25(1-B)a and 26, 35 Arms act. Case No. 66/2002, Dated 17-01-2007," 
 
 date: 2014-01-28
 version: 0.0.5
@@ -70,26 +70,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341,  427
-    details: 7 CRIMINAL  AMENDMENT ACT., Case No. 2757/2006, Application No. 21644/2008, Date 24.10.2008, Court CJM JP Nagar 
+    details: "7 CRIMINAL  AMENDMENT ACT., Case No. 2757/2006, Application No. 21644/2008, Date 24.10.2008, Court CJM JP Nagar" 
   - crime: accussed
     ipc: 147,  148,  149,  153(A),  452,  436,  307
-    details: 7 CRIMINAL AMENDMENT ACT, High court Hapur, Case No. 2316/2006, Court Uper Chief Judicial Magistrate Hapud 
+    details: "7 CRIMINAL AMENDMENT ACT, High court Hapur, Case No. 2316/2006, Court Uper Chief Judicial Magistrate Hapud" 
   - crime: accussed
     ipc: 147,  148,  323,  436,  353,  153A
-    details: 7 CRIMINAL AMENDMENT ACT., Case No. 784/2006 Uper Civil Judge (JD)Hapud 
+    details: "7 CRIMINAL AMENDMENT ACT., Case No. 784/2006 Uper Civil Judge (JD)Hapud" 
   - crime: accussed
     ipc: 147,  149,  332,  353,  544,  546
-    details: 7 CRIMINAL LAW AMENDMENT ACT., Case No. 233, Date 23.04.2007 
+    details: "7 CRIMINAL LAW AMENDMENT ACT., Case No. 233, Date 23.04.2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -69,26 +69,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

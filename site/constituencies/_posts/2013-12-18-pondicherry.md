@@ -25,7 +25,7 @@ The Lok Sabha constituency of Puducherry covers the entire area of the Union Ter
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

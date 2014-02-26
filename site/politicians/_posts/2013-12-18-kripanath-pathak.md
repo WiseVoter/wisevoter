@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,   341
-    details: 174 Railway act., Case no.3/08, G.R.P. Jaynagar P.S. 
+    details: "174 Railway act., Case no.3/08, G.R.P. Jaynagar P.S." 
   - crime: accussed
     ipc: 323, 353, 427, 504, 247, 332, 342, 506
-    details: Case no.286/07, Madhubani Town P.S. 
+    details: "Case no.286/07, Madhubani Town P.S." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,28 +40,28 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  427
-    details: FIR NO.:- I 9/05 
+    details: "FIR NO.-- I 9/05" 
   - crime: accussed
     ipc: 188
-    details: FIR NO.:- II 12/05 
+    details: "FIR NO.-- II 12/05" 
   - crime: accussed
     ipc: 188, 34
-    details: FIR NO.:- II 214/05, BPA 135, POLLUTION CONTROL AND REGULATION RULES 2000 SECTION 6 and ENVIRONMENT PROTECTION ACT, SECTION 15 - CASE IS WITHDRAWAL BY GOVERNMENT. 
+    details: "FIR NO.-- II 214/05, BPA 135, POLLUTION CONTROL AND REGULATION RULES 2000 SECTION 6 and ENVIRONMENT PROTECTION ACT, SECTION 15 - CASE IS WITHDRAWAL BY GOVERNMENT." 
   - crime: accussed
     ipc: 
-    details: FIR NO:- II 349/05 (BP ACT 135) 
+    details: "FIR NO-- II 349/05 (BP ACT 135)" 
   - crime: accussed
     ipc: 188, 114
-    details: FIR NO:- II-402/05 (BP ACT 135)POLLUTION CONTROL AND REGULATION RULES 2000 SECTION 6 and ENVIRONMENT PROTECTION ACT, SECTION 15 
+    details: "FIR NO-- II-402/05 (BP ACT 135)POLLUTION CONTROL AND REGULATION RULES 2000 SECTION 6 and ENVIRONMENT PROTECTION ACT, SECTION 15" 
   - crime: accussed
     ipc: 188,  114
-    details: FIR NO:- II-105/06 (BP ACT 135)POLLUTION CONTROL AND REGULATION RULES 2000 SECTION 6 and ENVIRONMENT PROTECTION ACT, SECTION 15 
+    details: "FIR NO-- II-105/06 (BP ACT 135)POLLUTION CONTROL AND REGULATION RULES 2000 SECTION 6 and ENVIRONMENT PROTECTION ACT, SECTION 15" 
   - crime: accussed
     ipc: 188,  114
-    details: FIR NO:- II-109/06 (BP ACT 135) 
+    details: "FIR NO-- II-109/06 (BP ACT 135)" 
   - crime: accussed
     ipc: 
-    details: ALL ABOVE 7 CASES ARE AT D and C DIVISION, BHAVNAGAR. COURT :- CHIEF JUDICIAL MEGISTRATE COURT, BHAVNAGAR 
+    details: "ALL ABOVE 7 CASES ARE AT D and C DIVISION, BHAVNAGAR. COURT -- CHIEF JUDICIAL MEGISTRATE COURT, BHAVNAGAR" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -71,26 +71,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 406,  420,  465,  , 468,  471,  120B,  161,  162,  114
-    details: ANTI CORRUPTION SECTION 7(E), 11,13, CID CRIME GANDHINAGAR ZONE FIR NO.:- 9/2003,  CITY CIVIL SESSION COURT NO. 2, AHMEDABAD, CASE NO.:- 3104. 
+    details: "ANTI CORRUPTION SECTION 7(E), 11,13, CID CRIME GANDHINAGAR ZONE FIR NO.-- 9/2003,  CITY CIVIL SESSION COURT NO. 2, AHMEDABAD, CASE NO.-- 3104." 
   - crime: accussed
     ipc: 323,  504,  506(2),  114
-    details: FIR NO.:- 3008, SAYLA POLICE STATION. CASE NO.:- 166/09 AT JUDI. MAG. FIRST CLASS 
+    details: "FIR NO.-- 3008, SAYLA POLICE STATION. CASE NO.-- 166/09 AT JUDI. MAG. FIRST CLASS" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

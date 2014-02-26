@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 171G,  353 ,  447
-    details: Case No. 1938/ 07 
+    details: "Case No. 1938/ 07" 
   - crime: accussed
     ipc: 147,  188,  152,  447,  427,  506
-    details: 144 of Cr.PC Act, Case No. 1008/08 
+    details: "144 of Cr.PC Act, Case No. 1008/08" 
   - crime: accussed
     ipc: 
-    details: 127(A) Representation of People Act, Case No. 2058/07 
+    details: "127(A) Representation of People Act, Case No. 2058/07" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 500,  501,  502,  120B
-    details: Case No.875/97,Judicial Magistrate First Class,Moraina 
+    details: "Case No.875/97,Judicial Magistrate First Class,Moraina" 
   - crime: accussed
     ipc: 500,  501,  502,  120B
-    details: Case No.878/97,Judicial Magistrate First Class,Moraina 
+    details: "Case No.878/97,Judicial Magistrate First Class,Moraina" 
   - crime: accussed
     ipc: 147,  148,  352,  323
-    details: Case No.453/99,Thana Ganjbasouda,Judicial Magistrate First Class,Ganjbasouda 
+    details: "Case No.453/99,Thana Ganjbasouda,Judicial Magistrate First Class,Ganjbasouda" 
   - crime: accussed
     ipc: 
-    details: Case No.961/01,(Acquited) 
+    details: "Case No.961/01,(Acquited)" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,23 +72,23 @@ He was members of 11th 12th 13th and 14th Lok Sahba.
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -99,4 +99,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=22
 
 
-{% include references.html %}
+{% include "references.html" %}

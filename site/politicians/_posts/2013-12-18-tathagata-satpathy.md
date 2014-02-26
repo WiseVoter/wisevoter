@@ -50,43 +50,43 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-66/06, Dated 2006, JFC Sonepur 
+    details: "Case No.-1CC-66/06, Dated 2006, JFC Sonepur" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-140/07, Dated 2007, SDJM Kendrapada 
+    details: "Case No.-1CC-140/07, Dated 2007, SDJM Kendrapada" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-2710/08, Dated 2008, DJM BBSR 
+    details: "Case No.-1CC-2710/08, Dated 2008, DJM BBSR" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-54/07, Dated 2007, JMFC Pipili 
+    details: "Case No.-1CC-54/07, Dated 2007, JMFC Pipili" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-18/06, Dated 2006, SDJM Kantabnjhi 
+    details: "Case No.-1CC-18/06, Dated 2006, SDJM Kantabnjhi" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-328/3809/08, Dated 2008, SDJM Khurda 
+    details: "Case No.-1CC-328/3809/08, Dated 2008, SDJM Khurda" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-320/99, Dated 1999, SDJM BBSR 
+    details: "Case No.-1CC-320/99, Dated 1999, SDJM BBSR" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-325/08, Dated 2008, SDJM Balasore 
+    details: "Case No.-1CC-325/08, Dated 2008, SDJM Balasore" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-81/08, Dated 2008, JMFC Nmapara 
+    details: "Case No.-1CC-81/08, Dated 2008, JMFC Nmapara" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-1398/08, Dated, 2008 SDJM Cuttack 
+    details: "Case No.-1CC-1398/08, Dated, 2008 SDJM Cuttack" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-27/98, Dated 1998, SJDM Cuttack Sadar 
+    details: "Case No.-1CC-27/98, Dated 1998, SJDM Cuttack Sadar" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-52/95, Dated 1995, SDJM Cuttack Sadar, CRL Revision 254/05 
+    details: "Case No.-1CC-52/95, Dated 1995, SDJM Cuttack Sadar, CRL Revision 254/05" 
   - crime: accussed
     ipc: 500,  501
-    details: Case No.-1CC-2045/03, Dated 2003, SDJM, BBSR CRL Revision 43/08 
+    details: "Case No.-1CC-2045/03, Dated 2003, SDJM, BBSR CRL Revision 43/08" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -96,26 +96,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: u/s 13 (1)(E)R/W 13(2)of P.C.Act 1988,FIR No.02/2003, Revision No 913 of 2009 pending before High Court. 
+    details: "u/s 13 (1)(E)R/W 13(2)of P.C.Act 1988,. . . . FIR No.02/2003, . . . . Revision No 913 of 2009 pending before High Court." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -60,26 +60,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

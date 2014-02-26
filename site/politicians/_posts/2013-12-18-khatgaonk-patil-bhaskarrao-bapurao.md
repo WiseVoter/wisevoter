@@ -60,16 +60,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188,  186,  173B,  171B,  171E,  171C,  129,  134
-    details: R.P.Act 1951 
+    details: "R.P.Act 1951" 
   - crime: accussed
     ipc: 188,  171B,  171C
-    details: 133 R.P.Act,  66, 192, 184, 108, 177 Under Motor Vehicle Act and 134 B.P. Act 
+    details: "133 R.P.Act,  66, 192, 184, 108, 177 Under Motor Vehicle Act and 134 B.P. Act" 
   - crime: accussed
     ipc: 
-    details: 226,227 ARTICLE OF CONSTITUTION OF INDIA SECTION - Passed by  SECTION 88 OF CO-OPERATIVE ACT 
+    details: "226,227 ARTICLE OF CONSTITUTION OF INDIA SECTION - Passed by  SECTION 88 OF CO-OPERATIVE ACT" 
   - crime: accussed
     ipc: 
-    details: INQUIRY U/S 88 MAHARASTRA ,CO-OPRATIVE SOCIETY ACT -1960 
+    details: "INQUIRY U/S 88 MAHARASTRA ,CO-OPRATIVE SOCIETY ACT -1960" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -79,26 +79,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

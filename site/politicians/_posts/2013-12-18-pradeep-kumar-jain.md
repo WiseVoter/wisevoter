@@ -60,10 +60,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 332,  447
-    details: 2/3 Public Property Damage Act,Case No.1452/008,J.M.1 Class No.9,Jhansi,Date-25.4.09 
+    details: "2/3 Public Property Damage Act,Case No.1452/008,J.M.1 Class No.9,Jhansi,Date-25.4.09" 
   - crime: accussed
     ipc: 147,  283,  341
-    details: 7 Criminal Law Act,Case No.2077/07,A.C.J.M. Class No.6,Jhansi 
+    details: "7 Criminal Law Act,Case No.2077/07,A.C.J.M. Class No.6,Jhansi" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -73,26 +73,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

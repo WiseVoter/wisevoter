@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 364,  307,  147,  148,  149,   426,  323,  324,
-    details: 27 Arms Act, Case No. 224/83, Date 13.9.79, Court Chief Judicial Magistrate Hob'hari D. Champaran 
+    details: "27 Arms Act, Case No. 224/83, Date 13.9.79, Court Chief Judicial Magistrate Hob'hari D. Champaran" 
   - crime: accussed
     ipc: 147,  148,  149,  448,  323,  341,  324,  307,  435,  153(A)
-    details: Case No. 2295/09, Date 04.01.07, Court Chief Judicial Magistrate Hob'hari E.Champaran 
+    details: "Case No. 2295/09, Date 04.01.07, Court Chief Judicial Magistrate Hob'hari E.Champaran" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

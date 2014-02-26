@@ -60,7 +60,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: IPC Sec 468, 471, 420
-    details: 468,471,420,R/W 34,IPCCase No. CC NO 15036/2002 Kormangala Police Stn, BangaloreCourt: VIth AC MMStay: Proceedings Stayed by Hon'ble High Court of Karnataka CC NO 15036/2002 
+    details: "468,471,420,R/W 34,IPC. . Case No. CC NO 15036/2002 . . Kormangala Police Stn, Bangalore. . Court- VIth AC MM. . Stay- Proceedings Stayed by Hon'ble High Court of Karnataka CC NO 15036/2002" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -70,26 +70,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

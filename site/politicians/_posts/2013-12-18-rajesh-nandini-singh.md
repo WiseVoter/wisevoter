@@ -60,23 +60,23 @@ She is a widow and was married to Late Dalbir Singh and has one daughter and one
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -87,4 +87,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4253
 
 
-{% include references.html %}
+{% include "references.html" %}

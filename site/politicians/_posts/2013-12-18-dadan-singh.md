@@ -50,28 +50,28 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 127A,  314
-    details: Case No. GR 397/09 
+    details: "Case No. GR 397/09" 
   - crime: accussed
     ipc: 188
-    details: Case No. GR 9/09 
+    details: "Case No. GR 9/09" 
   - crime: accussed
     ipc: 188,
-    details: 25(113), 26, 35 Arms Act, Case No. GR 6/05 
+    details: "25(113), 26, 35 Arms Act, Case No. GR 6/05" 
   - crime: accussed
     ipc: 341,  188
-    details: Case No. GR 1847/06 
+    details: "Case No. GR 1847/06" 
   - crime: accussed
     ipc: 147,  148,  149,  150,  151,  152,  153 A,  157,  160,  307,  384,  505
-    details: 27 Arms Act, Case No. GR 534/95 
+    details: "27 Arms Act, Case No. GR 534/95" 
   - crime: accussed
     ipc: 147,  148,  149,  341,  342,  323,  307,  379,  504,  506
-    details: Case No. GR 43/2004 
+    details: "Case No. GR 43/2004" 
   - crime: accussed
     ipc: 341,  323,  353,  337,  171 C
-    details: 123, II, III R.P.Act, Case No. GR 292/2005 
+    details: "123, II, III R.P.Act, Case No. GR 292/2005" 
   - crime: accussed
     ipc: 
-    details: L.S. Act, Case No. GR 46/2005 
+    details: "L.S. Act, Case No. GR 46/2005" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -81,26 +81,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

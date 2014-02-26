@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 452,  453,  324,  323,  114
-    details: BP ACT 135(1), FIR NO. 978/96, VATVA GIDC POLICE STATION. CASE IS PENDING AT METRO. COURT NO. 19, AHMEDABAD, CASE IS PENDING 
+    details: "BP ACT 135(1), FIR NO. 978/96, VATVA GIDC POLICE STATION. CASE IS PENDING AT METRO. COURT NO. 19, AHMEDABAD, CASE IS PENDING" 
   - crime: accussed
     ipc: 120,  188
-    details: FIR NO. II-3203/2003, ELLISBRIDGE POLICE STATION. 
+    details: "FIR NO. II-3203/2003, ELLISBRIDGE POLICE STATION." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

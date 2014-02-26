@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: Section 142-B under Negotiable Instruments Act,CC No.1422/06,I Addl. Chief Metropolitan Magistrate,Hyderabad,The High Court of Andhra Pradesh in Crl.MP No.8054/08 has Stayed the proceedings in CC No.1422/06 before the I Addl. C M M Hyderabad 
+    details: "Section 142-B under Negotiable Instruments Act,CC No.1422/06,I Addl. Chief Metropolitan Magistrate,Hyderabad,The High Court of Andhra Pradesh in Crl.MP No.8054/08 has Stayed the proceedings in CC No.1422/06 before the I Addl. C M M Hyderabad" 
   - crime: accussed
     ipc: 
-    details: CC No.1472/04,IX  Addl. Chief Metropolitan Magistrate,Hyderabad 
+    details: "CC No.1472/04,IX  Addl. Chief Metropolitan Magistrate,Hyderabad" 
   - crime: accussed
     ipc: 
-    details: CC No.154/04,V Addl. Munsif Megistrate,Guntur 
+    details: "CC No.154/04,V Addl. Munsif Megistrate,Guntur" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 467 468 471 406 407 420 120B
-    details: Jasidih P.S.Case no.170/03 G.R.NO.631/03Smt.Sanjita Srivastava Judicial Magistrate 1st class Devghar 29.08.2003 
+    details: "Jasidih P.S.Case no.170/03 G.R.NO.631/03Smt.Sanjita Srivastava Judicial Magistrate 1st class Devghar 29.08.2003" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -60,13 +60,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: FIR No 11, U/s 130, 131, 132 RP Act 1951 
+    details: "FIR No 11, U/s 130, 131, 132 RP Act 1951" 
   - crime: accussed
     ipc: 224,  225,  353,  186,  506,  188,  148,  149
-    details: FIR No 292 
+    details: "FIR No 292" 
   - crime: accussed
     ipc: 302, 307,  323,  324,  148,  149
-    details: FIR No 212, U/s  25/27-54-59 Arms Act 
+    details: "FIR No 212, U/s  25/27-54-59 Arms Act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -79,23 +79,23 @@ He was born at village Dukiya in Danta Ramgarh tehsil in Sikar district. His fat
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -104,4 +104,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

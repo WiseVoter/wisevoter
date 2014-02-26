@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 380,  436,  34
-    details: Case no.27/C/87 Police Station Matihari Begusarai Bihar Judicial Magistrate Ist Class Begusarai Passed By Sri U.C. Srivastava Date 15.06.90 
+    details: "Case no.27/C/87 Police Station Matihari Begusarai Bihar Judicial Magistrate Ist Class Begusarai Passed By Sri U.C. Srivastava Date 15.06.90" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

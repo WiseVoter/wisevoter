@@ -28,7 +28,7 @@ Tripura West Lok Sabha constituency is one of two Lok Sabha constituencies in Tr
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

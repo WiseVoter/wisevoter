@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 153, 332, 294, 506B
-    details: 3 (1)(10) S.C.S.T Act Court Honourable Court of Special Judge,FIR 189/2002, Police Station Kent Sagar 
+    details: "3 (1)(10) S.C.S.T Act Court Honourable Court of Special Judge,FIR 189/2002, Police Station Kent Sagar" 
   - crime: accussed
     ipc: 147, 148, 153, 332, 294, 506B
-    details: FIR No 138/2002 Police Station Kent Sagar Honorable Court First Class Magistrate Sagar 
+    details: "FIR No 138/2002 Police Station Kent Sagar Honorable Court First Class Magistrate Sagar" 
   - crime: accussed
     ipc: 147, 148, 341, 294, 34
-    details: F.I.R No 147/2002, Police Station Kotavali Sagar, Court  Court First Class Magistrate Sagar 
+    details: "F.I.R No 147/2002, Police Station Kotavali Sagar, Court  Court First Class Magistrate Sagar" 
   - crime: accussed
     ipc: 171(J )
-    details: 3 Property act, F.I.R No 647/08 Police Station Bina, Court Judicial Magistrate Fist Class 
+    details: "3 Property act, F.I.R No 647/08 Police Station Bina, Court Judicial Magistrate Fist Class" 
   - crime: accussed
     ipc: 147, 188
-    details: F.I.R No 656/08 Police Station Bina, Court  Judicial Magistrate Fist Class 
+    details: "F.I.R No 656/08 Police Station Bina, Court  Judicial Magistrate Fist Class" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

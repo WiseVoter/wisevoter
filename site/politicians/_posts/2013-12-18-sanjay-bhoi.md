@@ -60,23 +60,23 @@ Sanjay Bhoi is an Indian politician from Bargarh. He is a MP from the Bargarh, O
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -91,4 +91,4 @@ Wikipedia References
 [wiki3]: http://eci.nic.in/eci_main/press/List%20of%20Winning%20Candidated%20Final%20for%2016th%20May.pdf
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -60,23 +60,23 @@ He is presently holds the post of Minister of Textiles at Ministry of Textiles, 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -91,4 +91,4 @@ Wikipedia References
 [wiki3]: http://web.archive.org/web/20071017220939/http://164.100.24.209/newls/Biography.aspx?mpsno=3139
 
 
-{% include references.html %}
+{% include "references.html" %}

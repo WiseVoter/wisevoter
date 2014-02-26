@@ -58,23 +58,23 @@ Iliyas Azmi (born 22 August 1934) is an Indian politician for the Shahabad (Lok 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -83,4 +83,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -80,23 +80,23 @@ Mulayam Singh Yadav (born 22 November 1939) is an Indian politician belonging to
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -111,4 +111,4 @@ Wikipedia References
 [wiki3]: http://articles.timesofindia.indiatimes.com/2003-05-27/lucknow/27270264_1_tributes-saifai-village-mulayam-singh-yadav
 
 
-{% include references.html %}
+{% include "references.html" %}

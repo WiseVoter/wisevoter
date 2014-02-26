@@ -50,52 +50,52 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 342, 353
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 149, 148,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 143, 147, 148, 427, 323, 504,
-    details: 7 and 1 ,135 bp act 
+    details: "7 and 1 ,135 bp act" 
   - crime: accussed
     ipc: 188
-    details: 135 bp act 
+    details: "135 bp act" 
   - crime: accussed
     ipc: 343, 34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 188
-    details: 3,4 ACT 
+    details: "3,4 ACT" 
   - crime: accussed
     ipc: 
-    details: 134,135 bp act 
+    details: "134,135 bp act" 
   - crime: accussed
     ipc: 
-    details: 134,135 bp act 
+    details: "134,135 bp act" 
   - crime: accussed
     ipc: 
-    details: 135 bp act 
+    details: "135 bp act" 
   - crime: accussed
     ipc: 
-    details: 37(3)135 BP Act 
+    details: "37(3)135 BP Act" 
   - crime: accussed
     ipc: 
-    details: 188 bp act 
+    details: "188 bp act" 
   - crime: accussed
     ipc: 
-    details: 37(1)(3),135,136,134 bp act 
+    details: "37(1)(3),135,136,134 bp act" 
   - crime: accussed
     ipc: 143, 341,
-    details: 135 bp act 
+    details: "135 bp act" 
   - crime: accussed
     ipc: 143, 341
-    details: 132 bp act 
+    details: "132 bp act" 
   - crime: accussed
     ipc: 
-    details: 135 B.P. Act 
+    details: "135 B.P. Act" 
   - crime: accussed
     ipc: 
-    details: Case No. 252/05 
+    details: "Case No. 252/05" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -105,26 +105,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

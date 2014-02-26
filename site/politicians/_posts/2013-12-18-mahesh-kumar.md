@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 341, 323, 435, 465, 147, 325, 379, 336
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: CASE NO. 179/04 
+    details: "CASE NO. 179/04" 
   - crime: accussed
     ipc: 
-    details: CASE NO. 399/02 
+    details: "CASE NO. 399/02" 
   - crime: accussed
     ipc: 
-    details: CASE NO. 400/01 
+    details: "CASE NO. 400/01" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

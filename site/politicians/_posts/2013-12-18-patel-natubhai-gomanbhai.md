@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 148, 149, 452, 427, 504, 506
-    details: RCC NO.45/2000 FIR(CR NO.)294/99, (1)	So far as Silvassa Police Station FIR(CR No.) 294/99 is concerned , it is alleged  by the complainant Shri Chetanbhai Gajanand Jadav, resident of Village Kharadpada , School Falia vide complaint dated 31/12/99 that the offence The Police has filled the charge sheet in the court of the Chief Judicial Magistrate of Silvassa and it is registered as Regular Criminal Case no. 45/2000.Charge is not framed in the matter. 
+    details: "RCC NO.45/2000 FIR(CR NO.)294/99, (1)	So far as Silvassa Police Station FIR(CR No.) 294/99 is concerned , it is alleged  by the complainant Shri Chetanbhai Gajanand Jadav, resident of Village Kharadpada , School Falia vide complaint dated 31/12/99 that the offence The Police has filled the charge sheet in the court of the Chief Judicial Magistrate of Silvassa and it is registered as Regular Criminal Case no. 45/2000.Charge is not framed in the matter." 
   - crime: accussed
     ipc: 143, 147, 452, 427, 506, 34
-    details: (2)	So far as Silvassa Police Station FIR(CR No.) 170/07 is concerned , it is alleged by the complainant Shri Ganesh Siramni Nadar, resident of Village Dokmardi, vide complaint dated 24/06/2007 The Police has filled the charge sheet in the court of the Chief Judicial Magistrate of Silvassa and it is registered as Regular Criminal Case No. 06/2008. Charge is framed in the matter on 16/06/2008. 
+    details: "(2)	So far as Silvassa Police Station FIR(CR No.) 170/07 is concerned , it is alleged by the complainant Shri Ganesh Siramni Nadar, resident of Village Dokmardi, vide complaint dated 24/06/2007 The Police has filled the charge sheet in the court of the Chief Judicial Magistrate of Silvassa and it is registered as Regular Criminal Case No. 06/2008. Charge is framed in the matter on 16/06/2008." 
   - crime: accussed
     ipc: 143, 147, 148, 323, 427, 504, 506(2)
-    details: (3)	So far as Vapi Police Station FIR(CR No.) 1-51/07 is concerned , it is alleged by the complainant Smt. Niruben Kantibhai Patel, Resident of Village Chala, main Road. Vapi, vide complaint dated 11/03/2007 The Police has not filled the Charge Sheet in the court. 
+    details: "(3)	So far as Vapi Police Station FIR(CR No.) 1-51/07 is concerned , it is alleged by the complainant Smt. Niruben Kantibhai Patel, Resident of Village Chala, main Road. Vapi, vide complaint dated 11/03/2007 The Police has not filled the Charge Sheet in the court." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,23 +59,23 @@ He is a builder and married to Smt Jayashreeben and has one son and one daughter
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -86,4 +86,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4365
 
 
-{% include references.html %}
+{% include "references.html" %}

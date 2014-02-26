@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 394,  506
-    details: Case No.217/08,Main Judicial Chief Magistrate,Pilibhit,Date-30/08/2008 
+    details: "Case No.217/08,Main Judicial Chief Magistrate,Pilibhit,Date-30/08/2008" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ Maneka Sanjay Gandhi (née Anand; born 26 August 1956, Delhi, India) is an India
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -94,4 +94,4 @@ Wikipedia References
 [wiki3]: http://news.google.com/newspapers?id=YJ5eAAAAIBAJ&sjid=V1MNAAAAIBAJ&pg=5763,5470655
 
 
-{% include references.html %}
+{% include "references.html" %}

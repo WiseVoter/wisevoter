@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 353,  506
-    details: FIR No.27/2006,JFCM Court,Luxettipet 
+    details: "FIR No.27/2006,JFCM Court,Luxettipet" 
   - crime: accussed
     ipc: 
-    details: 174 (a) of Railway Act,FIR No.222/2006 
+    details: "174 (a) of Railway Act,FIR No.222/2006" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,23 +56,23 @@ A first time MP, he belongs to the Scheduled Tribes caste. A grassroots politici
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

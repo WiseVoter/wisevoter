@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 133 people representation act. Dated 02/06/2008, Case No. STC 210/2008 
+    details: "133 people representation act. Dated 02/06/2008, Case No. STC 210/2008" 
   - crime: accussed
     ipc: 323,  325,  504,  34
-    details: Case No. RCC 27/2008, Dated 21/04/2008 
+    details: "Case No. RCC 27/2008, Dated 21/04/2008" 
   - crime: accussed
     ipc: 
-    details: 135 Bombay Police Act. STC 962/1997, Dated 27/05/1997 
+    details: "135 Bombay Police Act. STC 962/1997, Dated 27/05/1997" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

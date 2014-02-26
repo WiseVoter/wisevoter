@@ -7,7 +7,7 @@ profile:
   state: Maharashtra
   education: 
     level: 8th Pass
-    details: s.s.c fail, from azad vidyalaya, kashegoan, taluka:valve,  district: sangli in 1979
+    details: s.s.c fail, from azad vidyalaya, kashegoan, taluka:valve,  district  sangli in 1979
   photo: 
   sex: 
   caste: 
@@ -47,26 +47,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

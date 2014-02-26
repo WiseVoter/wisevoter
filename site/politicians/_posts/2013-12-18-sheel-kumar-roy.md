@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  149,  307
-    details: 27 ARMS ACT,SAMASTIPUR NAGAR PS CASE NO.119/03,QUICK COURT,II SAMASTIPUR,DATE 18.2.09 
+    details: "27 ARMS ACT,SAMASTIPUR NAGAR PS CASE NO.119/03,QUICK COURT,II SAMASTIPUR,DATE 18.2.09" 
   - crime: accussed
     ipc: 341,  323,  147,  149,  307
-    details: 27 ,30 ARMS ACT,131(B) 132 R.P. ACT,SAMASTIPUR PS CASE NO.213/04,QUICK COURT,II SAMASTIPUR,DATE 17.3.09 
+    details: "27 ,30 ARMS ACT,. . 131(B) 132 R.P. ACT,SAMASTIPUR PS CASE NO.213/04,QUICK COURT,II SAMASTIPUR,DATE 17.3.09" 
   - crime: accussed
     ipc: 
-    details: 3 (1)PROPERTY DESCRIPTION ACT,A.K.MISHRA,JUDICIAL COURT,DALSINGH SARAI,17.02.09 
+    details: "3 (1)PROPERTY DESCRIPTION ACT,A.K.MISHRA,JUDICIAL COURT,DALSINGH SARAI,17.02.09" 
   - crime: accussed
     ipc: 366
-    details: ROSDA PS CASE NO.36/07 
+    details: "ROSDA PS CASE NO.36/07" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -69,26 +69,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

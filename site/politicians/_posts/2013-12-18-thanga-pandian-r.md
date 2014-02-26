@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 146, 147, 341, 307, 397, 396, 35 IPC
-    details: PALANI COURT 
+    details: "PALANI COURT" 
   - crime: accussed
     ipc: 147, 341, 336,  IPC 3(1) PPDL
-    details: CASE NO: 1/2001, CASE NO: 773/2000, YEAR 2000 TO 2001. 
+    details: "CASE NO- 1/2001, CASE NO- 773/2000, YEAR 2000 TO 2001." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

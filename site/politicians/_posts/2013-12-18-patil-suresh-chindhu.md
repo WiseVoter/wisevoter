@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 463, 495, 468, 420, 471
-    details: 397/06,1596/06,2117/07, 
+    details: "397/06,1596/06,2117/07," 
   - crime: accussed
     ipc: 
-    details: BHUSAVAL COURT :143/07, 
+    details: "BHUSAVAL COURT -143/07," 
   - crime: accussed
     ipc: 
-    details: 397/06,2117/04,1387/06,1596/06 
+    details: "397/06,2117/04,1387/06,1596/06" 
   - crime: accussed
     ipc: 
-    details: 397/06,217/04,1387/06,1596/06,143/07 
+    details: "397/06,217/04,1387/06,1596/06,143/07" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

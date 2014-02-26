@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  149,  153A,  153B,  505
-    details: Crime No.198/92,Police Station Ramjanam Bhumi,Faizabad,Chief Juducial Magistrate,Raebareli,Date 04.05.2001 
+    details: "Crime No.198/92,Police Station Ramjanam Bhumi,Faizabad,Chief Juducial Magistrate,Raebareli,Date 04.05.2001" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ He was born in Nainital on 5 January 1934, hailing from the Kumaon Hills region 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -88,4 +88,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

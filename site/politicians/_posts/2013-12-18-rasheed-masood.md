@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 13(1)D,13(2)PREVENTIONOF CORRUPTION ACT,1938ANDN SUSTENTIAL OFFENCE UNDER IPC 
+    details: "13(1)D,13(2)PREVENTION. . OF CORRUPTION ACT,1938. . ANDN SUSTENTIAL OFFENCE UNDER IPC" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,23 +53,23 @@ He is an Indian politician, a member of the Indian National Congress party and a
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -84,4 +84,4 @@ Wikipedia References
 [wiki3]: http://ibnlive.in.com/news/rs-mp-rashid-masood-found-guilty-in-mbbs-seat-allocation-case
 
 
-{% include references.html %}
+{% include "references.html" %}

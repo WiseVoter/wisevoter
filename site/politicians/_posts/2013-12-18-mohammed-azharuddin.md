@@ -50,23 +50,23 @@ Mohammad Azharuddin  pronunciation (help·info) (born 8 February 1963) is an I
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 [wiki3]: http://www.wisdenindia.com/cricket-news/ap-high-court-lifts-azharuddins-life-ban/34123
 
 
-{% include references.html %}
+{% include "references.html" %}

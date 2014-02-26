@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 448,  324,  34
-    details: Crime No. 284/04, C.C. No. 1116/06 
+    details: "Crime No. 284/04, C.C. No. 1116/06" 
   - crime: accussed
     ipc: 147,  148,  324,  353,  149
-    details: Crime No. 141/2004, C.C. No 742/05 
+    details: "Crime No. 141/2004, C.C. No 742/05" 
   - crime: accussed
     ipc: 353,  448,  34
-    details: Crime No. 245/05, C.C. No 325/08 
+    details: "Crime No. 245/05, C.C. No 325/08" 
   - crime: accussed
     ipc: 
-    details: 107 Cr.P.C. Act, Crime No. 32/2008 
+    details: "107 Cr.P.C. Act, Crime No. 32/2008" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

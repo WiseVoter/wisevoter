@@ -40,25 +40,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 341,
-    details: 135 B.P ACT 
+    details: "135 B.P ACT" 
   - crime: accussed
     ipc: 336, 337, 332, 323, 109,
-    details: 135 BP ACT 
+    details: "135 BP ACT" 
   - crime: accussed
     ipc: 143, 147, 149, 323, 504, 506,
-    details: 135 BP ACT 
+    details: "135 BP ACT" 
   - crime: accussed
     ipc: 143, 147, 148, 324, 323, 504, 506
-    details: 135 BP ACT 
+    details: "135 BP ACT" 
   - crime: accussed
     ipc: 
-    details: 37(2,3),36(1,3,4),135 BP ACT,3(1)PUBLIC PROPERTY DEST. ACT 
+    details: "37(2,3),36(1,3,4),135 BP ACT,3(1)PUBLIC PROPERTY DEST. ACT" 
   - crime: accussed
     ipc: 
-    details: 135 BOMBAY POLICE ACT 
+    details: "135 BOMBAY POLICE ACT" 
   - crime: accussed
     ipc: 148, 336, 427
-    details: 135 BOMBAY POLICE ACT 
+    details: "135 BOMBAY POLICE ACT" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -68,26 +68,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  186,  341,  353
-    details: FIR NO. 294/1999, FATEHGUNJ POLICE STATION, VADODARA. JUD. MAG. F.C. VADODARA, CASE NO. 32 85 
+    details: "FIR NO. 294/1999, FATEHGUNJ POLICE STATION, VADODARA. JUD. MAG. F.C. VADODARA, CASE NO. 32 85" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,23 +53,23 @@ Balkrishna Khanderao Shukla is an Indian Politician and is Member of Parliament 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -80,4 +80,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/lssnew/Members/Biography.aspx?mpsno=4450
 
 
-{% include references.html %}
+{% include "references.html" %}

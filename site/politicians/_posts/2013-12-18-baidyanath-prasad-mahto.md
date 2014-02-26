@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188, 143
-    details: 126 R.P.Act. Tr. No. 279/08, P.S. Case No. 14/2000, Pending in the court of shri S.N. Sohare, J.M. 1st Class Bettiah, on Dated 28.07.2000 
+    details: "126 R.P.Act. Tr. No. 279/08, P.S. Case No. 14/2000, Pending in the court of shri S.N. Sohare, J.M. 1st Class Bettiah, on Dated 28.07.2000" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -61,23 +61,23 @@ Baidyanath Prasad Mahto (born 2 June 1947) is an Indian politician. He is a memb
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -88,4 +88,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4454
 
 
-{% include references.html %}
+{% include "references.html" %}

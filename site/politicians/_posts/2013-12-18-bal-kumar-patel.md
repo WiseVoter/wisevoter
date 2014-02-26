@@ -50,34 +50,34 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  506
-    details: Case No.2387/06,C.J.M.Chitrkut 
+    details: "Case No.2387/06,C.J.M.Chitrkut" 
   - crime: accussed
     ipc: 147,  148,  149,  302,  364,  201
-    details: 14 DAD Act,Case No.148/07,Spe.Jud Dakaiti Chitrkut 
+    details: "14 DAD Act,Case No.148/07,Spe.Jud Dakaiti Chitrkut" 
   - crime: accussed
     ipc: 420,  467,  468,  471
-    details: Case No.3074/2007,C.J.M.Raebareli 
+    details: "Case No.3074/2007,C.J.M.Raebareli" 
   - crime: accussed
     ipc: 420,  467,  468,  471
-    details: Case No.3075/2007,C.J.M. Raebareli 
+    details: "Case No.3075/2007,C.J.M. Raebareli" 
   - crime: accussed
     ipc: 
-    details: 25/27/30 Arms Act, Case No. 3071/2007,C.J.M.Raebareli 
+    details: "25/27/30 Arms Act, Case No. 3071/2007,C.J.M.Raebareli" 
   - crime: accussed
     ipc: 
-    details: 25/27/30 Arms Act,Case No.3073/2007,C.J.M.Raebareli, 
+    details: "25/27/30 Arms Act,Case No.3073/2007,C.J.M.Raebareli," 
   - crime: accussed
     ipc: 
-    details: 25/27/30 Arms Act,Case No.3072/2007,C.J.M.Raebareli 
+    details: "25/27/30 Arms Act,Case No.3072/2007,C.J.M.Raebareli" 
   - crime: accussed
     ipc: 147,  148,  149,  447,  448,  504,  506
-    details: 2/3 U.P. Gangster Act,Case No.101/2008,Spe Jud.Gang. Act Lucknow 
+    details: "2/3 U.P. Gangster Act,Case No.101/2008,Spe Jud.Gang. Act Lucknow" 
   - crime: accussed
     ipc: 420,  467,  468,  471
-    details: Case No.614/2008,c.J.M.Raebareli 
+    details: "Case No.614/2008,c.J.M.Raebareli" 
   - crime: accussed
     ipc: 406
-    details: Case No.4512/2008,C.J.M.Raebareli 
+    details: "Case No.4512/2008,C.J.M.Raebareli" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -87,26 +87,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

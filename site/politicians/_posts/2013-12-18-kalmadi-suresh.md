@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341/34
-    details: B.P ACT 37(1)RW135 
+    details: "B.P ACT 37(1)RW135" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ On 25 April 2011 Kalmadi was arrested by CBI for awarding illegal contracts to a
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -94,4 +94,4 @@ Wikipedia References
 [wiki3]: http://www.timesnow.tv/Tained-Kalmadi-sacked-as-IOA-chief/articleshow/4371548.cms?utm_source=twitterfeed&utm_medium=twitter
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 174, 341,
-    details: Case No 32/98 Police Station GRP Gomoh Dist Dhanbad State Jharkhand In the Court of Railway Magistrate Dhanbad, Date on Which the Charge 31-10-1998 
+    details: "Case No 32/98 Police Station GRP Gomoh Dist Dhanbad State Jharkhand In the Court of Railway Magistrate Dhanbad, Date on Which the Charge 31-10-1998" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -60,26 +60,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

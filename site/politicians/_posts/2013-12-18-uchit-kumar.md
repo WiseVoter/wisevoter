@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 452, 341, 323, 307, 379, 134,
-    details: P.S.No. 62/08 
+    details: "P.S.No. 62/08" 
   - crime: accussed
     ipc: 147, 148, 341, 342, 323, 504, 354, 447, 448, 380
-    details: S.C.No. 925/08 
+    details: "S.C.No. 925/08" 
   - crime: accussed
     ipc: 
-    details: P.S.Case No. 65/07 
+    details: "P.S.Case No. 65/07" 
   - crime: accussed
     ipc: 
-    details: S.C.No. 1005/08 
+    details: "S.C.No. 1005/08" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

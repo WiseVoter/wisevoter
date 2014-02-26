@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188
-    details: Case No 178/2003, Date 09/12/1993 Judicial Magistrate First Class,Satna,M.P. 
+    details: "Case No 178/2003, Date 09/12/1993 Judicial Magistrate First Class,Satna,M.P." 
   - crime: accussed
     ipc: 166,  217,  218,  420,  467,  477A,  34
-    details: Case No.16/2004, Date 21-01-2004 Judicial Magistrate First Class,Amarpatan,District Satna,M.P. 
+    details: "Case No.16/2004, Date 21-01-2004 Judicial Magistrate First Class,Amarpatan,District Satna,M.P." 
   - crime: accussed
     ipc: 120B,  420,  468,  471,  34
-    details: 13(1)(d),13(2) and 15 Prevention of Corruption Act and 6 Reservation Act,Case No.7/04, Date 18.01.2007 Special Judge(Prevention of Corruption Act),Satna,M.P. 
+    details: "13(1)(d),13(2) and 15 Prevention of Corruption Act and 6 Reservation Act,Case No.7/04, Date 18.01.2007 Special Judge(Prevention of Corruption Act),Satna,M.P." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,25 +50,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 341,
-    details: 135 B.P.A 37(1) 
+    details: "135 B.P.A 37(1)" 
   - crime: accussed
     ipc: 
-    details: 135 B.P.A 37(1) 
+    details: "135 B.P.A 37(1)" 
   - crime: accussed
     ipc: 
-    details: 135 B.P.A 37(1) 
+    details: "135 B.P.A 37(1)" 
   - crime: accussed
     ipc: 143, 147, 148, 341, 352, 323, 336, 188
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 505
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 143, 147, 427
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 135 B.P.A 37(1) 
+    details: "135 B.P.A 37(1)" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -78,26 +78,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 186, 189
-    details: C/NO.442 
+    details: "C/NO.442" 
   - crime: accussed
     ipc: 332, 353, 504
-    details: C/NO.76/03 
+    details: "C/NO.76/03" 
   - crime: accussed
     ipc: 186
-    details: C/NO.39/03 
+    details: "C/NO.39/03" 
   - crime: accussed
     ipc: 186, 189
-    details: C/NO.44/04 
+    details: "C/NO.44/04" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

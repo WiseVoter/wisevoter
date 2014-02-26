@@ -50,23 +50,23 @@ DR. Anup Kumar Saha (born 23 January 1956) is an Indian Politician and Member of
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -77,4 +77,4 @@ Wikipedia References
 [wiki1]: http://westbengalelectionresult.com/anup-kumar-saha-political-profilecontact-blogs-news-address/302
 
 
-{% include references.html %}
+{% include "references.html" %}

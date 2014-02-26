@@ -40,40 +40,40 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 465, 468, 471, 477, 477-A
-    details: U/S 24 OF MCOCA,1999 
+    details: "U/S 24 OF MCOCA,1999" 
   - crime: accussed
     ipc: U/S-143, 147, 148, 149, 341, 353, 334, 427,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: U/S 143, 341, 427
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 465, 468, 471, 476, 477, 477-A, , 255, 256, 257, 258, 259,
-    details: SEC-3(1)(II),3(2),3(4),3(5),4,24, OF MCOCA,1999 
+    details: "SEC-3(1)(II),3(2),3(4),3(5),4,24, OF MCOCA,1999" 
   - crime: accussed
     ipc: 
-    details: SEC-36/134 OF MUMBAI PROHIBITION ACT 
+    details: "SEC-36/134 OF MUMBAI PROHIBITION ACT" 
   - crime: accussed
     ipc: 
-    details: SEC-3 OF DEFACEMENT OF PROPERTY ACT 
+    details: "SEC-3 OF DEFACEMENT OF PROPERTY ACT" 
   - crime: accussed
     ipc: SEC-309, 143
-    details:  
+    details: "" 
   - crime: accussed
     ipc: SEC-143, 147, 148, 149, 341, 353, 334, 427
-    details:  
+    details: "" 
   - crime: accussed
     ipc: SEC-149, 324, 395, 506,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: SEC-153,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: SEC-143, 341, 427
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: LAC 968/96 U/S 3 OF MAHARASHTRA PROPERTY DEFACEMENT ACT 
+    details: "LAC 968/96 U/S 3 OF MAHARASHTRA PROPERTY DEFACEMENT ACT" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -83,26 +83,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

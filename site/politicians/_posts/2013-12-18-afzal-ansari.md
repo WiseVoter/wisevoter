@@ -60,16 +60,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  353
-    details: FIR No. 260/01, 3 PDP Act. 7 CLA Act. Case No. 1999/2004, Petition No. 4837/04, Date 12.08.2004, Court High court Civil Judge J.D. Mohmmadabad Gazipur. olice Station Mohmmadabad Gazipur U.P 
+    details: "FIR No. 260/01, 3 PDP Act. 7 CLA Act. Case No. 1999/2004, Petition No. 4837/04, Date 12.08.2004, Court High court Civil Judge J.D. Mohmmadabad Gazipur. olice Station Mohmmadabad Gazipur U.P" 
   - crime: accussed
     ipc: 302,  506,  120B
-    details: FIR No. 493/05, Police Station Mohmmadabad Gazipur U.P., Date 19.01.2006 
+    details: "FIR No. 493/05, Police Station Mohmmadabad Gazipur U.P., Date 19.01.2006" 
   - crime: accussed
     ipc: 147,  148,  149,  307,  302,  404,  120B
-    details: FIR No. 1052/07, Police Station Mohmmadabad Gazipur U.P., 7 CLA Act., Court First F.T.C. Gazipur, Date 8.01.2007 
+    details: "FIR No. 1052/07, Police Station Mohmmadabad Gazipur U.P., 7 CLA Act., Court First F.T.C. Gazipur, Date 8.01.2007" 
   - crime: accussed
     ipc: 
-    details: Case no. 1052/07, Police Station Mohmmadabad Gazipur U.P., 3(1) Prevention of antisocial activities Act., Date 16.01.2009 
+    details: "Case no. 1052/07, Police Station Mohmmadabad Gazipur U.P., 3(1) Prevention of antisocial activities Act., Date 16.01.2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -82,23 +82,23 @@ He is a younger brother of Sibagatullah Ansari and elder brother of Mukhtar Ansa
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -113,4 +113,4 @@ Wikipedia References
 [wiki3]: http://universalpublication.com/member/showpersonality.php?perid=139
 
 
-{% include references.html %}
+{% include "references.html" %}

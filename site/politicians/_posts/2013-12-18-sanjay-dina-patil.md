@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 149, 341
-    details: Mumbai Police Act 37(3),135, Indian Railway Act 151case no -  643/P-96 C.R.No.292/96 
+    details: "Mumbai Police Act 37(3),135, Indian Railway Act 151. . case no -  643/P-96 C.R.No.292/96" 
   - crime: accussed
     ipc: 504, 353, 506(2)
-    details: C.R.No.94/90 
+    details: "C.R.No.94/90" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,26 +63,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

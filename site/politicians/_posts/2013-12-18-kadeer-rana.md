@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188,  353,  332,  392
-    details: Case No.3653/2004,FIR No.253/2004,Thana-Kotwali,Muzaffarnagar,C.J.M.Muzaffarnagar,Date-02/08/04 
+    details: "Case No.3653/2004,FIR No.253/2004,Thana-Kotwali,Muzaffarnagar,C.J.M.Muzaffarnagar,Date-02/08/04" 
   - crime: accussed
     ipc: 147,  148,  149,  188,  307,  332,  336,  353,  341,  342,  427,  436
-    details: 7 Criminal Law Amendment Act and 3 Damageg to Public Property Act,Case No.6058/2004,FIR No.264/2004,Thana-Kotwali,Muzaffarnagar,C.J.M.Muzaffarnagar,Date-24/11/04 
+    details: "7 Criminal Law Amendment Act and 3 Damageg to Public Property Act,Case No.6058/2004,FIR No.264/2004,Thana-Kotwali,Muzaffarnagar,C.J.M.Muzaffarnagar,Date-24/11/04" 
   - crime: accussed
     ipc: 147,  148,  149,  302,  323,  506,  34
-    details: Case No.535/2007,FIR No.2273/2006,Thana-Kotwali,Muzaffarnagar,C.J.M.Muzaffarnagar.Date-25/11/07 
+    details: "Case No.535/2007,FIR No.2273/2006,Thana-Kotwali,Muzaffarnagar,C.J.M.Muzaffarnagar.Date-25/11/07" 
   - crime: accussed
     ipc: 171
-    details: Case No.2830/07,N.C.R.No.9/07,J.M.Second Muzaffarnagar,Date-13/6/07 
+    details: "Case No.2830/07,N.C.R.No.9/07,J.M.Second Muzaffarnagar,Date-13/6/07" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -69,26 +69,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

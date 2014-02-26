@@ -70,7 +70,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B,  420,  467,  468,  471
-    details: 13(1),13(2) of PC Act,Case No.R.C.No.3 of 25.05.2004,CBI/ACU.9/New Delhi,Metropolitan CBI Court,Rohini,New Delhi 
+    details: "13(1),13(2) of PC Act,Case No.R.C.No.3 of 25.05.2004,CBI/ACU.9/New Delhi,Metropolitan CBI Court,Rohini,New Delhi" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -83,23 +83,23 @@ Ajay Singh Chautala (born 13 March 1961) is a politician from Indian National Lo
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -114,4 +114,4 @@ Wikipedia References
 [wiki3]: http://ibnlive.in.com/news/former-haryana-cm-chautala-his-son-53-others-convicted-in-teachers-recruitment-scam/316028-37-64.html
 
 
-{% include references.html %}
+{% include "references.html" %}

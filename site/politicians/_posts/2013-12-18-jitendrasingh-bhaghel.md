@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 452, 148, 149, 294, 325, 506
-    details: Crime no. RT 902/06, Govindpura Police Station Bhopal, JMFC Bhopal, Cognizance date 31-01-2006 
+    details: "Crime no. RT 902/06, Govindpura Police Station Bhopal, JMFC Bhopal, Cognizance date 31-01-2006" 
   - crime: accussed
     ipc: 
-    details: ST 669/004, Sec. 4(A), Hon'ble JMFC Bhopal, Cognizance date 06-04-2004 
+    details: "ST 669/004, Sec. 4(A), Hon'ble JMFC Bhopal, Cognizance date 06-04-2004" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

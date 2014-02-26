@@ -40,31 +40,31 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 279,  337
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147,  294,  427
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 341,  294,  323,  506,  147,  426
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: Under section 8 of the M. P. State security Act 1990 
+    details: "Under section 8 of the M. P. State security Act 1990" 
   - crime: accussed
     ipc: 147,  341
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 151,  107,  116,  3
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 151,  107,  116,  3
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 41,  2,  110
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 41,  2,  110
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -74,26 +74,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -60,23 +60,23 @@ A native of Mangalore, Fernandes was sent to Bangalore in 1946 to be trained as 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -91,4 +91,4 @@ Wikipedia References
 [wiki3]: http://www.parliamentofindia.nic.in/ls/lok13/biodata/13BI34.htm
 
 
-{% include references.html %}
+{% include "references.html" %}

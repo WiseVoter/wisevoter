@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188,  171
-    details: 9/98 
+    details: "9/98" 
   - crime: accussed
     ipc: 341,  323,  34
-    details: 75/05 G.R. 1566 
+    details: "75/05 G.R. 1566" 
   - crime: accussed
     ipc: 298
-    details: 192/94 G.R. 465/95 
+    details: "192/94 G.R. 465/95" 
   - crime: accussed
     ipc: 188,  34
-    details: 184/09 
+    details: "184/09" 
   - crime: accussed
     ipc: 
-    details: 192/94 
+    details: "192/94" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 148,  149,  302,  307
-    details: 27 of Arms Act,SC No.46/93,PS Case No.63/90,Police Station-Chowtham (Mansi),District-Khagaria,State-Bihar,Session Judge,Khagaria,Date 17/08/2000 
+    details: "27 of Arms Act,SC No.46/93,PS Case No.63/90,Police Station-Chowtham (Mansi),District-Khagaria,State-Bihar,Session Judge,Khagaria,Date 17/08/2000" 
   - crime: accussed
     ipc: 448,  506,  120B
-    details: PS Case No.107/2006,Police Station-Khagaria (Chitragupt Nagar),District-Khagaria,State-Bihar,C.J.M.Khagaria,Date 15/03/2007 
+    details: "PS Case No.107/2006,Police Station-Khagaria (Chitragupt Nagar),District-Khagaria,State-Bihar,C.J.M.Khagaria,Date 15/03/2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

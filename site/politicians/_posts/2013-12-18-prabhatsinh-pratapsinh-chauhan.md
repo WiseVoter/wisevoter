@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: VADODARA ROUND FOREST RANGE POLICE STATION, FIR NO. 5/2001. FOREST ACT SECTION 26(1) F, 41(2)B, 61C. CR. CASE NO. 722/05, 
+    details: "VADODARA ROUND FOREST RANGE POLICE STATION, FIR NO. 5/2001. FOREST ACT SECTION 26(1) F, 41(2)B, 61C. CR. CASE NO. 722/05," 
   - crime: accussed
     ipc: 406,  417,  408,  409,  465, 467, 468, 471,  120B,  114
-    details: FATEHPURA POLICE STATION, FIR NO. 78/2003, 
+    details: "FATEHPURA POLICE STATION, FIR NO. 78/2003," 
   - crime: accussed
     ipc: 406,  417,  408,  409,  465,  467, 468, 471,  120B,  114
-    details: FATEHPURA POLICE STATION, FIR NO. 79/2003, 
+    details: "FATEHPURA POLICE STATION, FIR NO. 79/2003," 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

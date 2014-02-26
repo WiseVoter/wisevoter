@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 332,  353
-    details: Case No. 3/96, dated 03.04.05 
+    details: "Case No. 3/96, dated 03.04.05" 
   - crime: accussed
     ipc: 
-    details: 134 BP, Case No. 142/96, dated 02.06.2000 
+    details: "134 BP, Case No. 142/96, dated 02.06.2000" 
   - crime: accussed
     ipc: 342,  323,  504,  506
-    details: Case No. 143/97, Dated 10.06.99 
+    details: "Case No. 143/97, Dated 10.06.99" 
   - crime: accussed
     ipc: 
-    details: 135 Bombay Police Act. Case No. 3024/02 
+    details: "135 Bombay Police Act. Case No. 3024/02" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

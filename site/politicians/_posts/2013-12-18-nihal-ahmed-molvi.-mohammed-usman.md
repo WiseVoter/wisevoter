@@ -40,106 +40,106 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 143, 147, 148, 149
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 188
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 143, 147, 336
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 143, 141
-    details: MUMBAI POLICE ACT-37(1)(3) 
+    details: "MUMBAI POLICE ACT-37(1)(3)" 
   - crime: accussed
     ipc: 143, 147, 341, 324
-    details: MUMBAI POLICE ACT-37(1)(3) 
+    details: "MUMBAI POLICE ACT-37(1)(3)" 
   - crime: accussed
     ipc: 143, 147, 323
-    details: MUMBAI POLICE ACT-37(1)(3) 
+    details: "MUMBAI POLICE ACT-37(1)(3)" 
   - crime: accussed
     ipc: 323, 504, 506
-    details: MUMBAI POLICE ACT-37(1)(3) 
+    details: "MUMBAI POLICE ACT-37(1)(3)" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3 
+    details: "MUMBAI POLICE ACT-37(1)(3" 
   - crime: accussed
     ipc: 143, 147, 149, 504, 506
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 143, 147, 504, 506
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 143, 147, 149, 353, 323, 504, 506, 427
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 143, 353, 506, 510
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT 134/135 
+    details: "MUMBAI POLICE ACT 134/135" 
   - crime: accussed
     ipc: 427, 504
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 143, 341
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 143, 341,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 143, 147, 353, 332, 426
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 354, 504, 506, 451
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-37(1)(3)/135 
+    details: "MUMBAI POLICE ACT-37(1)(3)/135" 
   - crime: accussed
     ipc: 143, 147, 149, 427
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: INDIAN SOUND POLLUTION ACT 6 
+    details: "INDIAN SOUND POLLUTION ACT 6" 
   - crime: accussed
     ipc: 143, 147, 148, 149, 324, 504, 34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: MUMBAI POLICE ACT-36 
+    details: "MUMBAI POLICE ACT-36" 
   - crime: accussed
     ipc: 295, 297, 509, 506,
-    details: 34 DHARMIK SANSTHA HANI 
+    details: "34 DHARMIK SANSTHA HANI" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -149,26 +149,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

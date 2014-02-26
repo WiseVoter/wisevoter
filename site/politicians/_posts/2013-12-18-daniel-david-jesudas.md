@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 138 , N I Act,  Dishonour Case Report No. CR 171/07, Police Station Tezpur, Dist. Sonitpur, Assam, Court that framed charges- Mrs. F. Sultana, Judicial Magistrate, F.C. Tezpur on 03/03/08 
+    details: "138 , N I Act,  Dishonour Case Report No. CR 171/07, Police Station Tezpur, Dist. Sonitpur, Assam, Court that framed charges- Mrs. F. Sultana, Judicial Magistrate, F.C. Tezpur on 03/03/08" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

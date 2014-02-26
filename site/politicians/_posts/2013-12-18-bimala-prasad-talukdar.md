@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 149, 186, 189, 341, 147, 506, 447
-    details: (i) Police Station(s) Hojai,District(s) Nagaon,State(s) Assam.(ii)Court(s) which framed the Charges(s) 29.8.2007(iii)Whether all or any of the Proceeding(s) have been Stayed by Court(s) of competent jurisdiction No.(iv)Case No.187/2006 (vi)Date(s) on Which the Charges(s) 29.8.2007(v) Date of order of the Court taking Cognizance:18.4.2006 
+    details: "(i) Police Station(s) Hojai,District(s) Nagaon,State(s) Assam.. . (ii)Court(s) which framed the Charges(s) 29.8.2007. . (iii)Whether all or any of the Proceeding(s) have been Stayed by Court(s) of competent jurisdiction No.(iv)Case No.187/2006 (vi)Date(s) on Which the Charges(s) 29.8.2007. . (v) Date of order of the Court taking Cognizance-18.4.2006" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

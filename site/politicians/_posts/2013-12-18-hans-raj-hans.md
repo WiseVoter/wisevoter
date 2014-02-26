@@ -50,23 +50,23 @@ Hans Raj Hans is an Indian Punjabi language singer and politician.
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 [wiki3]: http://articles.timesofindia.indiatimes.com/2003-06-29/chandigarh/27196682_1_hans-raj-hans-cadets-sufi-singer
 
 
-{% include references.html %}
+{% include "references.html" %}

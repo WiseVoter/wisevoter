@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 153A,  153B,  505
-    details: (3)and(3A)of Section 123 and 125 Representation of People Act,Case No.265/7, Police Station Hajrat Ganj Lucknow 
+    details: "(3)and(3A)of Section 123 and 125 . . Representation of People Act,Case No.265/7, Police Station Hajrat Ganj Lucknow" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,23 +53,23 @@ Rajnath Singh (born 10 July 1951) is an Indian politician who is the current pre
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -84,4 +84,4 @@ Wikipedia References
 [wiki3]: /wiki/Zee_News
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 109, 403, 405, 406, 411, 415, 418, 420, 120B, 34
-    details: 597/02,598/02,599/02 
+    details: "597/02,598/02,599/02" 
   - crime: accussed
     ipc: 143, 341, 134, 504, 135
-    details: BPAct 36, 37(1)Case no. 1054/97 
+    details: "BPAct 36, 37(1). . Case no. 1054/97" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,23 +66,23 @@ Sanjeev Ganesh Naik (born April 15, 1972) is an Indian politician, who became th
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -97,4 +97,4 @@ Wikipedia References
 [wiki3]: /wiki/The_Indian_Express
 
 
-{% include references.html %}
+{% include "references.html" %}

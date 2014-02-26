@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  147,  148,  149,  325,  324,  323,  504,  506(2)
-    details: BOMBAY POLICE ACT SECTION 135 FIR NO. I-198/2005,KODINAR POLICE STATION. JUD. MEGISTRATE FIRST CLASS KODINAR, CASE NO. 505/07 CASE IS PENDING 
+    details: "BOMBAY POLICE ACT SECTION 135 FIR NO. I-198/2005,KODINAR POLICE STATION. JUD. MEGISTRATE FIRST CLASS KODINAR, CASE NO. 505/07 CASE IS PENDING" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ Solanki won the Gujarat Legislative assembly seat from Kodinar in 2002 with a ma
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -94,4 +94,4 @@ Wikipedia References
 [wiki3]: http://timesofindia.indiatimes.com/city/ahmedabad/Jethava-case-probe-reopens-old-files-on-Solankis/articleshow/6521332.cms
 
 
-{% include references.html %}
+{% include "references.html" %}

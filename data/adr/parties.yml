@@ -1,130 +1,90 @@
 ---
 BJP:
   acronym: BJP
-  title: Bharatiya Janata Party
 RJD:
   acronym: RJD
-  title: Rashtriya Janata Dal
 JDP:
   acronym: JDP
-  title: Jharkhand Disom Party
 IND:
   acronym: IND
-  title: Independent
 CPM:
   acronym: CPM
-  title: Communist Party of India (Marxist)
 INC:
   acronym: INC
-  title: Indian National Congress
 BSP:
   acronym: BSP
-  title: Bahujan Samaj Party
 CPI:
   acronym: CPI
-  title: Communist Party of India
 NCP:
   acronym: NCP
-  title: Nationalist Congress Party
 TDP:
   acronym: TDP
-  title: Telugu Desam Party
 PRAP:
   acronym: PRAP
-  title: Praja Rajyam Party
 TPPP:
   acronym: TPPP
-  title: Trilinga Praja Pragati Party
 PPOI:
   acronym: PPOI
-  title: Pyramid Party of India
 PBHP:
   acronym: PBHP
-  title: PBHP
 RDMP:
   acronym: RDMP
-  title: RDMP
 RPI:
   acronym: RPI
-  title: Republican Party of India
 JD:
   acronym: JD
-  title: Janata Dal
 LSP:
   acronym: LSP
-  title: Lok Satta Party
 MCPI:
   acronym: MCPI
-  title: Marxist Communist Party of India
 MANP:
   acronym: MANP
-  title: title
 GRIP:
   acronym: GRIP
-  title: GRIP
 RKSP:
   acronym: RKSP
-  title: Rashtriya Krantikari Samajwadi Party
 RDHP:
   acronym: RDHP
-  title: RDHP
 AJBP:
   acronym: AJBP
-  title: AJBP
 SP:
   acronym: SP
-  title: Samajwadi Party
 AIMIM:
   acronym: AIMIM
-  title: All India Majlis-e-Ittehadul Muslimeen
 TNPP:
   acronym: TNPP
-  title: TNPP
 ABJS:
   acronym: ABJS
-  title: Akhil Bharatiya Jan Sangh
 BJS:
   acronym: BJS
-  title: Bharatiya Jana Sangh
 RRS:
   acronym: RRS
-  title: RRS
 RP:
   acronym: RP
-  title: RP
+'':
+  acronym: ''
 TRS:
   acronym: TRS
-  title: Telangana Rashtra Samithi
 SJP:
   acronym: SJP
-  title: SJP
 BPD:
   acronym: BPD
-  title: BPD
 BCUF:
   acronym: BCUF
-  title: Backward Castes United Front
 BSSP:
   acronym: BSSP
-  title: BSSP
 RPC:
   acronym: RPC
-  title: RPC
 ANC:
   acronym: ANC
-  title: ANC
 MUL:
   acronym: MUL
-  title: MUL
 SAP:
   acronym: SAP
-  title: SAP
 UWF:
   acronym: UWF
-  title: UWF
 IJP:
   acronym: IJP
-  title: IJP
 PPA:
   acronym: PPA
 AC:
@@ -273,10 +233,8 @@ RSP:
   acronym: RSP
 ABMSD:
   acronym: ABMSD
-  title: Akhil Bartiya Manav Seva Dal 
 VHS:
   acronym: VHS
-  title: VHS
 BRP:
   acronym: BRP
 NSCP:

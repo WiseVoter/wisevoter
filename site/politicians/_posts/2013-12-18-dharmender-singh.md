@@ -50,23 +50,23 @@ Dharmender Singh Koli is an Indian politician from Delhi. He is a member of the 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 [wiki3]: http://www.highbeam.com/doc/1P3-3057156911.html
 
 
-{% include references.html %}
+{% include "references.html" %}

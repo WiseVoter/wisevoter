@@ -24,7 +24,7 @@ Srikakulam Lok Sabha constituency (Telugu: శ్రీకాకుళం లో
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

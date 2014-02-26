@@ -36,7 +36,7 @@ candidature:
     assets: 48,50,000
     liabilities: 
     result: winner 
-  - election: Jammu and Kashmir 2008
+  - election: Jammu & Kashmir 2008
     myneta-link: http://myneta.info//jk2008/candidate.php?candidate_id=645
     affidavit-link: 
     expenses-link: 
@@ -70,23 +70,23 @@ He was members of Jammu and Kashmir Legislative Assembly for two terms during 19
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -97,4 +97,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4334
 
 
-{% include references.html %}
+{% include "references.html" %}

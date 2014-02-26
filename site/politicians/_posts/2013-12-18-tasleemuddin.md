@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 419,  420,  467,  120B,  468,  471
-    details: Case no. 45/86 Police Station Araria The Court ACJM Araria Date 21.03.98 
+    details: "Case no. 45/86 Police Station Araria The Court ACJM Araria Date 21.03.98" 
   - crime: accussed
     ipc: 144,  188
-    details: Case no.19/82 Violation Of Prohibitory Order u/s 144 Cr.Pc. The Court ACJM Araria Date 02.05.83 Police Station Araria 
+    details: "Case no.19/82 Violation Of Prohibitory Order u/s 144 Cr.Pc. The Court ACJM Araria Date 02.05.83 Police Station Araria" 
   - crime: accussed
     ipc: 309,  34
-    details: Case no.133/82 Police Station Araria The Court ACJM Araira Date 15.09.82 
+    details: "Case no.133/82 Police Station Araria The Court ACJM Araira Date 15.09.82" 
   - crime: accussed
     ipc: 500
-    details: Case no.83C/87 Police Station Araria The Court ACJM Araria Date 23.05.87 
+    details: "Case no.83C/87 Police Station Araria The Court ACJM Araria Date 23.05.87" 
   - crime: accussed
     ipc: 147,  447,  323,  328,  327,  384,  109,  347,  379,  120B,  34
-    details: Case no.700c/98 Police Station Kishanganj Causing Extortion Theft And Grievous Hurt By Administering Dangerous Drugs By Framing Unlawful Assembly Date 23.02.99 
+    details: "Case no.700c/98 Police Station Kishanganj Causing Extortion Theft And Grievous Hurt By Administering Dangerous Drugs By Framing Unlawful Assembly Date 23.02.99" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

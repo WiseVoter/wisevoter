@@ -10,7 +10,7 @@ layouts_dir: _layouts
 includes_dir: _includes
 
 posts_dir: _posts
-category: [articles, constituencies, parties]
+category: [articles, constituencies, parties, politicians]
 
 # All WiseVoter specific configurations are namespaced into this hash
 #

@@ -7,7 +7,7 @@ profile:
   state: Karnataka
   education: 
     level: 12th Pass
-    details: -
+    details: 
   photo: 
   sex: 
   caste: 
@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: IPC 188,  109
-    details: RW RP Section 34 and 127(A)(1)(2)F.I.R No 199/2008Crime No 141/2008 and C.C No 293/2008 Gramina Police station, GangavathiKoppala District Karnataka State. J.M.F.C CourtDate: 22-05-2008 
+    details: "RW RP Section 34 and 127(A)(1)(2). . F.I.R No 199/2008. . Crime No 141/2008 and C.C No 293/2008 . . Gramina Police station, Gangavathi. . Koppala District Karnataka State. . . J.M.F.C Court. . Date- 22-05-2008" 
   - crime: accussed
     ipc: IPC 171(E), 171(I), 109, 188
-    details: RW Sec 149 and RP Sec 127(A)(2)(B)FIR No 260/2008 Crime No 128/2008 and CC No 287/2008 Gramina Police station, GangavathiKoppala District Karnataka State. J.M.F.C CourtDate: 26-06-2008 
+    details: "RW Sec 149 and RP Sec 127(A)(2)(B). . FIR No 260/2008 Crime No 128/2008 and CC No 287/2008 . . Gramina Police station, Gangavathi. . Koppala District Karnataka State. . . J.M.F.C Court. . Date- 26-06-2008" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,26 +63,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

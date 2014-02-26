@@ -40,31 +40,31 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 323, 302
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 342, 324, 323, 325, 160(B), 307, 379
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 324, 325, 326, 307, 302,
-    details: 314 EXPLOSIVE ACT 
+    details: "314 EXPLOSIVE ACT" 
   - crime: accussed
     ipc: 341, 323, 379, 353, 504/34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 341, 323, 319, 307
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 120(B), 420, 353, 216(A), 225/34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 302,
-    details: 27 ARMS ACT 
+    details: "27 ARMS ACT" 
   - crime: accussed
     ipc: 147, 148, 149, 379, 323, 337, 504, 307, 120(B)
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 120(B)124, 353, 225, 216(A)/34
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -74,26 +74,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

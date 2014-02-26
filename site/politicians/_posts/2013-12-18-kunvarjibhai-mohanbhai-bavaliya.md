@@ -60,13 +60,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 420,  465,  467,  468,  471
-    details: FIR NO. I-41/2005, VINCHHIYA POLICE STATION, RAJKOT, JUD. MAG. F.C., JASDAN, CASE IS PENDING. Date of order of the court Taking cognizance : Rajkot Sessions Court Dated: 30/12/08, Faujdari application no: 1358/08, got a regular beal 
+    details: "FIR NO. I-41/2005, VINCHHIYA POLICE STATION, RAJKOT, JUD. MAG. F.C., JASDAN, CASE IS PENDING. Date of order of the court Taking cognizance - Rajkot Sessions Court Dated- 30/12/08, Faujdari application no- 1358/08, got a regular beal" 
   - crime: accussed
     ipc: 302, 135
-    details: FIR NO : 0024/07,B.P Act section 37, Arms Act 25(1) (1-a),Namdar Gujarat High Court Faujdari application no 16779/08 ,Dated: 26/27-03-09, on beal 
+    details: "FIR NO - 0024/07,B.P Act section 37, Arms Act 25(1) (1-a),Namdar Gujarat High Court Faujdari application no 16779/08 ,Dated- 26/27-03-09, on beal" 
   - crime: accussed
     ipc: 
-    details: Jasdana Chief Judicial Magistrate's Court or Rajkot Sessions Court ,Gujarat High Court, Charge sheet is not registered for any cases therefor no cases no. 
+    details: "Jasdana Chief Judicial Magistrate's Court or Rajkot Sessions Court ,Gujarat High Court, Charge sheet is not registered for any cases therefor no cases no." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -76,26 +76,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

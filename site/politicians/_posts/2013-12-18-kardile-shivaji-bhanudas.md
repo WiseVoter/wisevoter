@@ -60,10 +60,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341, 353, 171, 504, 506
-    details: 34 LOKPRATINIDHI AADHINIY 132,136 
+    details: "34 LOKPRATINIDHI AADHINIY 132,136" 
   - crime: accussed
     ipc: 143, 145, 147, 148, 353, 332, 337, 504, 506
-    details: BOMBAY POLICE ACT 37(1),135,36/134 
+    details: "BOMBAY POLICE ACT 37(1),135,36/134" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -73,26 +73,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

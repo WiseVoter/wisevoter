@@ -5,6 +5,7 @@ var fs = require('fs')
   , swig = require('swig')
   , git = require('gift');
 
+
 var content_root = "../site"
 
 function exists(file, isDir) {
@@ -64,14 +65,22 @@ function readPosts(config) {
       var d = file.match(/^(\d{4})-(\d\d?)-(\d\d?)-(.+)\.(md)$/);
       if (!d) return;
       var file_path = posts_dir + "/" + file;
-      var split = getcontent(file_path);
+      try {
+        var split = getcontent(file_path);
+      }
+      catch(err) {
+        console.log("Fix file: " + file_path + " - error " + err)
+        return;
+      }
       var post = {};
       post.date = new Date(d[1], d[2] - 1, d[3]);
       post.title = d[4];
       post.page = split.fm;
       if (post.page.date) post.date = post.page.date;
       if (d[5] == "md") {
-        post.content = marked(split.content);
+        //HACK: markdown parsing hack to let swig do its thing
+        c = split.content.replace(/\"/g, "$")
+        post.content = marked(c).replace(/\$/g,"\"")
         post.category = category;
         post.page.category = category;
         post.url = getURL(config, post);
@@ -123,7 +132,13 @@ function readPost(config) {
       var d = file.match(/^(\d{4})-(\d\d?)-(\d\d?)-(.+)\.(md)$/);
       if (!d) return;
       var file_path = posts_dir + "/" + file;
-      var split = getcontent(file_path);
+      try {
+        var split = getcontent(file_path);
+      }
+      catch(err) {
+        console.log("Fix file: " + file_path + " - error " + err)
+        return;
+      }
       var post = {};
       post.date = new Date(d[1], d[2] - 1, d[3]);
       post.title = d[4];
@@ -131,7 +146,9 @@ function readPost(config) {
       post.page.title = post.title;
       if (post.page.date) post.date = post.page.date;
       if (d[5] == "md") {
-        post.content = marked(split.content);
+        //HACK: markdown parsing hack to let swig do its thing
+        c = split.content.replace(/\"/g, "$")
+        post.content = marked(c).replace(/\$/g,"\"")
         post.category = category;
         post.page.category = category;
         post.url = getURL(config, post);
@@ -179,7 +196,9 @@ exports.generate = function() {
   
   posts.forEach(function(post) {
     var render = getLayout(post.page.layout, ctx)
-    var post_output = render(post)
+    var render_output = render(post)
+    var post_output = swig.render(render_output, post)
+
     /* TODO: Hack of index.html */
     var post_path = config.publish_root + post.url + "/"+ "index.html"
     ensureDirectories(post_path)
@@ -212,7 +231,9 @@ exports.generate = function() {
           var doc = {}
           doc.page = split.fm;
           if (/\.md$/.test(fname)) {
-            doc.content = marked(split.content)
+            //HACK: markdown parsing hack to let swig do its thing
+            c = split.content.replace(/\"/g, "$")
+            doc.content = marked(c).replace(/\$/g,"\"")
             link_name = fname.match(/^(.*?)\.[^\.]+$/)[1]
             out_path = site.publish_root + "/" + link_name + "/" + "index.html"
           }

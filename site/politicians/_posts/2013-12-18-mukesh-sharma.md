@@ -50,19 +50,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 452, 323, 504, 506
-    details: Crime No.286A/2000, P.S. Sector 24, Noida, Additional chief judicial magistrate, Goutam Budh Nagar, 
+    details: "Crime No.286A/2000, P.S. Sector 24, Noida, Additional chief judicial magistrate, Goutam Budh Nagar," 
   - crime: accussed
     ipc: 406, 420, 352, 506
-    details: Crime No.94/2006, P.S. Sector 24, Noida, Additional chief judicial magistrate, Goutam Budh Nagar, 
+    details: "Crime No.94/2006, P.S. Sector 24, Noida, Additional chief judicial magistrate, Goutam Budh Nagar," 
   - crime: accussed
     ipc: 307
-    details: Crime No.170/2000, P.S.Sector 24, Noida, Additional chief judicial magistrate, Goutam Budh Nagar, Dt. 22 June 2006 
+    details: "Crime No.170/2000, P.S.Sector 24, Noida, Additional chief judicial magistrate, Goutam Budh Nagar, Dt. 22 June 2006" 
   - crime: accussed
     ipc: 147, 148, 149, 452, 323, 506
-    details: 156(3)CRPC C-3/04, P.S. Sector 24 Noida, F.I.R.No.2008/04, Additional chief judicial magistrate, Goutam Budh Nagar, Dt. 14.12.2004 
+    details: "156(3)CRPC C-3/04, P.S. Sector 24 Noida, F.I.R.No.2008/04, Additional chief judicial magistrate, Goutam Budh Nagar, Dt. 14.12.2004" 
   - crime: accussed
     ipc: 395,  364A
-    details: C.No.910/07, P.S. New Agra, 156(3) CRPC Act, Special Judge, F.I.R. No.371/2007, Dt. 06.12.2007 
+    details: "C.No.910/07, P.S. New Agra, 156(3) CRPC Act, Special Judge, F.I.R. No.371/2007, Dt. 06.12.2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,26 +72,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

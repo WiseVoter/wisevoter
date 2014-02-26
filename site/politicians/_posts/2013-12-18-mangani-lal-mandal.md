@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 504,  385
-    details: C.R.1315(C)/07, Dated 26.06.08 
+    details: "C.R.1315(C)/07, Dated 26.06.08" 
   - crime: accussed
     ipc: 499,  500
-    details: C.R.15/07, Dated 23/07/08 
+    details: "C.R.15/07, Dated 23/07/08" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -54,23 +54,23 @@ Mangani Lal Mandal a politician from the Rashtriya Janata Dal party, was a Membe
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -79,4 +79,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

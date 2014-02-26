@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 409, 467, 468, 471, 420, 120(B)
-    details: case No. 1540/07, Case Pending 
+    details: "case No. 1540/07, Case Pending" 
   - crime: accussed
     ipc: 409, 420
-    details: Case no.548/07, Case Pending 
+    details: "Case no.548/07, Case Pending" 
   - crime: accussed
     ipc: 
-    details: 2/A/89(19)/5,6 Case Pending S.D.M. Hisar 
+    details: "2/A/89(19)/5,6 Case Pending S.D.M. Hisar" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

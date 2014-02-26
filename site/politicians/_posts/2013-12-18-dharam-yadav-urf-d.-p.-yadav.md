@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B,  302
-    details: Case No. 87/2000 ,  District Judge Dehradun  30.03.2001 
+    details: "Case No. 87/2000 ,  District Judge Dehradun  30.03.2001" 
   - crime: accussed
     ipc: 188
-    details: Case No. 3028/07 Additional Civil Judge (Junior Division )Judicial Magistrate  sahsawan Badaun 07.02.2008 
+    details: "Case No. 3028/07 Additional Civil Judge (Junior Division )Judicial Magistrate  sahsawan Badaun 07.02.2008" 
   - crime: accussed
     ipc: 188
-    details: Case No. 31/08 Additional Civil Judge (Junior DivisionJudicial Magistret Sahswan Badaun 
+    details: "Case No. 31/08 Additional Civil Judge (Junior DivisionJudicial Magistret Sahswan Badaun" 
   - crime: accussed
     ipc: 307,  120B
-    details: Case No. 639/08, P.S. Sahibabad Dist.Gajiabad, 
+    details: "Case No. 639/08, P.S. Sahibabad Dist.Gajiabad," 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

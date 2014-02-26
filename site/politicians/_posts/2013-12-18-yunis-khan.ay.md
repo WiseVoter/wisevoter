@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 419,  420,  365,  323,  506(ii),  362A,  120B
-    details: 3 r/w 25(1) (1- B) of Arms Act, And 5 r/w 9 (B) (1)(b) of  Explosives Act, Case No. 164/2007 
+    details: "3 r/w 25(1) (1- B) of Arms Act, And 5 r/w 9 (B) (1)(b) of  Explosives Act, Case No. 164/2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

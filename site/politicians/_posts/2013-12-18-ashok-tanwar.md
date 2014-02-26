@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 188, 171F, 332, 353, 504, 506, 427
-    details: 192,196,181,207 M.V.Act, 151CR.P.C.         IN CASE FIR NO. 880/2007 P.S. KOTWALI (SADAR), DIST DEVERIA, UP, C.J.M. DEVERIA U.P 
+    details: "192,196,181,207 M.V.Act, 151CR.P.C.         IN CASE FIR NO. 880/2007 P.S. KOTWALI (SADAR), DIST DEVERIA, UP, C.J.M. DEVERIA U.P" 
   - crime: accussed
     ipc: 188
-    details: FIR NO. 100/2006 P.S. PARLIAMENT STREET, NEW DELHI, M.M. PATIALA HOUSE COURTS, NEW DELHI 
+    details: "FIR NO. 100/2006 P.S. PARLIAMENT STREET, NEW DELHI, M.M. PATIALA HOUSE COURTS, NEW DELHI" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,23 +56,23 @@ Ashok Tanwar (born 12 February 1976) is an Indian politician, a Member of Parlia
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

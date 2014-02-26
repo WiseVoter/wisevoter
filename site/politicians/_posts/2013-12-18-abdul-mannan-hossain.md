@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 332, 353, 323, 427, 337, 364, 307, 506
-    details: SDJM,now ACJM Lalbagh Court Murshidabad Case no.64/89 Dated 10.07.1989,GR.No.421/89,12.02.1992 
+    details: "SDJM,now ACJM Lalbagh Court Murshidabad Case no.64/89 Dated 10.07.1989,GR.No.421/89,12.02.1992" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

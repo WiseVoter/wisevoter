@@ -40,160 +40,160 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 395,  412
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 302,  307,  386,  379,  411/34
-    details: 27 Arms act 
+    details: "27 Arms act" 
   - crime: accussed
     ipc: 395,  379
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 307, 120
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 398, 307, 506, 120(B)
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 394, 397
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395, 436
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 394, 412
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 398, 307, 506, 120(B)
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 302/34
-    details: 27 Arms act 
+    details: "27 Arms act" 
   - crime: accussed
     ipc: 399,  402
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 384, 386
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 398,  307,  506,  120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 392
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 394
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 25, (1-B)(A), 26, 35 ARMS ACT 3 P.R.ACT 
+    details: "25, (1-B)(A), 26, 35 ARMS ACT . . 3 P.R.ACT" 
   - crime: accussed
     ipc: 392, 411, 120 B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 25 (1-B) A 26, 35 ARMS ACT 
+    details: "25 (1-B) A 26, 35 ARMS ACT" 
   - crime: accussed
     ipc: 414
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 414
-    details: 25(1-B), 26 (1) 35 ARMS ACT 
+    details: "25(1-B), 26 (1) 35 ARMS ACT" 
   - crime: accussed
     ipc: 384, 386, 120B/34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395, 412
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395, 412
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 364, 364 (A) 365,  120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 392, 492
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 302, 120B/34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 398, 307,  120B,  506
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 394, 397
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 25, (1-B)(A), 26, 35 ARMS ACT 3 P.R.ACT 
+    details: "25, (1-B)(A), 26, 35 ARMS ACT 3 P.R.ACT" 
   - crime: accussed
     ipc: 395
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 394, 412
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 25, (1-B)(A), 26,  ARMS ACT 
+    details: "25, (1-B)(A), 26,  ARMS ACT" 
   - crime: accussed
     ipc: 392, 411, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 384, 386
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 323, 436, 341
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 392
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 394
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 302, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 392, 411
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 386
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 414
-    details: 25, (1-B)(A), 26, 35 ARMS ACT 
+    details: "25, (1-B)(A), 26, 35 ARMS ACT" 
   - crime: accussed
     ipc: 413, 414/34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 384, 386, 120B/34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395, 412
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 395, 412
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 365, 120B, 364
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 392, 452
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 396, 412
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -203,26 +203,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

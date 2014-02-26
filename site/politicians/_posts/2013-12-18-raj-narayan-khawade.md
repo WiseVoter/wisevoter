@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 302,  120B,  34
-    details: Case no.250/08 17.05.2007 SessionMagistrate Devghar Chief JudicialMagistrate Devghar 1stsiclass magistrate Devghar 
+    details: "Case no.250/08 17.05.2007 SessionMagistrate Devghar Chief JudicialMagistrate Devghar 1stsiclass magistrate Devghar" 
   - crime: accussed
     ipc: 302,  201,  120B,  34
-    details: Case no 67/07,20.06.07,Chief JudicialMagistrate Devghar 
+    details: "Case no 67/07,20.06.07,Chief JudicialMagistrate Devghar" 
   - crime: accussed
     ipc: 307,  504,  34
-    details: Devghar Case no.537/07 27 ARMS ACT1stclass Uper class magistrate Devghar 13.02.2008 
+    details: "Devghar Case no.537/07 27 ARMS ACT1stclass Uper class magistrate Devghar 13.02.2008" 
   - crime: accussed
     ipc: 384,  120B,  34,
-    details: Case no.139/07,16.10.2007 
+    details: "Case no.139/07,16.10.2007" 
   - crime: accussed
     ipc: 307
-    details: 27 ARMS ACT 99/0804.07.2007 
+    details: "27 ARMS ACT 99/0804.07.2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

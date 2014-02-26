@@ -50,19 +50,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188
-    details: Crime No.66/98,P.S.Manikpur was decided by ACJM Kunda on 26/11/2006.On the application of confession of depenent,the court imposed a fine of Rs.200/-,which was disposed of under the court order 
+    details: "Crime No.66/98,P.S.Manikpur was decided by ACJM Kunda on 26/11/2006.On the application of confession of depenent,the court imposed a fine of Rs.200/-,which was disposed of under the court order" 
   - crime: accussed
     ipc: 323,  504,  506
-    details: Crime No.-149/04,P.S.Kunda,ACJM,Kunda,Date-15/06/2009 
+    details: "Crime No.-149/04,P.S.Kunda,ACJM,Kunda,Date-15/06/2009" 
   - crime: accussed
     ipc: 
-    details: 136(2)R.P.Act,Crime No.-60/98,61/98,62/98,63/98,64/98 lodged at P.S.Baghrai,District Pratapgarh,Writ petition reffered u/s 482 CRP by the depoenent which are pending in the  Hon'ble Court at Allahabad (Lucknow bench).Writ petition nos.687/2000,688/2000,689/2000,691/2000 are under consideration in the court 
+    details: "136(2)R.P.Act,Crime No.-60/98,61/98,62/98,63/98,64/98 lodged at P.S.Baghrai,District Pratapgarh,Writ petition reffered u/s 482 CRP by the depoenent which are pending in the  Hon'ble Court at Allahabad (Lucknow bench).Writ petition nos.687/2000,688/2000,689/2000,691/2000 are under consideration in the court" 
   - crime: accussed
     ipc: 307,  504,  506
-    details: Crime No.-50/2004,P.S.Sangramgarh,District Pratapgarh 
+    details: "Crime No.-50/2004,P.S.Sangramgarh,District Pratapgarh" 
   - crime: accussed
     ipc: 307,  392
-    details: Crime No.-59/98.P.S.Manikpur,District-Pratapgarh 
+    details: "Crime No.-59/98.P.S.Manikpur,District-Pratapgarh" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -75,23 +75,23 @@ Ratna Singh (born 29 April 1959, New Delhi) is an Indian politician from the Ind
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -104,4 +104,4 @@ Wikipedia References
 [wiki2]: /wiki/The_Hindu
 
 
-{% include references.html %}
+{% include "references.html" %}

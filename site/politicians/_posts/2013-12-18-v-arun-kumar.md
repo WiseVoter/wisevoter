@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: Section 8(b) of AP Prohibition Act,1995,Crime No.-133/95-96,Excise Police Station,Korukonda,District East Godavari District,State Andhra Pradesh 
+    details: "Section 8(b) of AP Prohibition Act,1995,Crime No.-133/95-96,Excise Police Station,Korukonda,District East Godavari District,State Andhra Pradesh" 
   - crime: accussed
     ipc: 309
-    details: CC N0.-255 of 1998 on the File of Additional JFCM,Amalapuram,Amalapuram Town Police Station,District East Godavari,State Andhra Pradesh 
+    details: "CC N0.-255 of 1998 on the File of Additional JFCM,Amalapuram,Amalapuram Town Police Station,District East Godavari,State Andhra Pradesh" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

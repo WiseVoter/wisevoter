@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  147,  341,  506 (1),  353,  149,  38
-    details: 52 of kerala police Act, Case No. 346/ 08 
+    details: "52 of kerala police Act, Case No. 346/ 08" 
   - crime: accussed
     ipc: 120B,  193,  199
-    details: Case No. 2081/97 
+    details: "Case No. 2081/97" 
   - crime: accussed
     ipc: 143,  147,  447,  353,  294 (6),  506(1),  149
-    details: Case no. 37/01 
+    details: "Case no. 37/01" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

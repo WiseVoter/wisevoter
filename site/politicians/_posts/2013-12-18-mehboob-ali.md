@@ -50,37 +50,37 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 352, 504, 506
-    details: CC No.465/01, P.S. Rajabpur, 321 Crpc Act 
+    details: "CC No.465/01, P.S. Rajabpur, 321 Crpc Act" 
   - crime: accussed
     ipc: 307,  34
-    details: CC No.48/99, P.S. Rajabpur, High Court 
+    details: "CC No.48/99, P.S. Rajabpur, High Court" 
   - crime: accussed
     ipc: 147, 148, 149, 307, 427, 441, 447, 395, 397
-    details: 30/27 ARMS ACT, CC No.778/07, P.S. Rajabpur 
+    details: "30/27 ARMS ACT, CC No.778/07, P.S. Rajabpur" 
   - crime: accussed
     ipc: 447, 392, 504, 506
-    details: CC No.1225/07, P.S. Amroha Nagar 
+    details: "CC No.1225/07, P.S. Amroha Nagar" 
   - crime: accussed
     ipc: 447, 448, 504, 506, 427
-    details: CC No.1220/07, P.S. Amroha Nagar 
+    details: "CC No.1220/07, P.S. Amroha Nagar" 
   - crime: accussed
     ipc: 504, 506
-    details: CC No.1144/07, P.S. Amroha Nagar, 
+    details: "CC No.1144/07, P.S. Amroha Nagar," 
   - crime: accussed
     ipc: 426,  171
-    details: 171A P.P. ACT, N.C.R.14/07, P.S. Amroha Nagar 
+    details: "171A P.P. ACT, N.C.R.14/07, P.S. Amroha Nagar" 
   - crime: accussed
     ipc: 426, 171D
-    details: 127A P.P. Act., N.C.R.9/07, P.S. Amroha nagar 
+    details: "127A P.P. Act., N.C.R.9/07, P.S. Amroha nagar" 
   - crime: accussed
     ipc: 
-    details: 127A R.P.ACT, N.C.R.11/7, P.S. Amroha Dehat 
+    details: "127A R.P.ACT, N.C.R.11/7, P.S. Amroha Dehat" 
   - crime: accussed
     ipc: 406, 504, 506, 452, 120B
-    details: CC No.1208/07 P.S.Amroha Nagar 
+    details: "CC No.1208/07 P.S.Amroha Nagar" 
   - crime: accussed
     ipc: 420, 467, 468, 471, 120B, 441, 447, 448, 506,
-    details: CC No.230/07, P.S. Amroha Nagar 
+    details: "CC No.230/07, P.S. Amroha Nagar" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -90,26 +90,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

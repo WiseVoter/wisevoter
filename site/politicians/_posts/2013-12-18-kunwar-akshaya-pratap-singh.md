@@ -50,19 +50,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: Cr.no.118/93 25 ARMS ACT J.M.Pratapgarh  Case no 3509/01 16.12.2006 
+    details: "Cr.no.118/93 25 ARMS ACT J.M.Pratapgarh  Case no 3509/01 16.12.2006" 
   - crime: accussed
     ipc: 147, 148, 149, 307, 506
-    details: Cr.no.65/98  S.T.NO.729/06Upper District Judge No.6Pratapgarh 9.05.2007 
+    details: "Cr.no.65/98  S.T.NO.729/06Upper District Judge No.6Pratapgarh 9.05.2007" 
   - crime: accussed
     ipc: 352, 504, 506
-    details: Cr.no.362/99 Case no.6261/02 C.J.M.Allahabad 2.03.2005 
+    details: "Cr.no.362/99 Case no.6261/02 C.J.M.Allahabad 2.03.2005" 
   - crime: accussed
     ipc: 
-    details: 25/27 ARMS ACT Cr.no.363/99 C.J.M.Allahabad  Case no 6261/02 2.03.2005 
+    details: "25/27 ARMS ACT Cr.no.363/99 C.J.M.Allahabad  Case no 6261/02 2.03.2005" 
   - crime: accussed
     ipc: 384, 420, 467, 468, 120B
-    details: cr.no.110/02 C.J.M.Pratapgarh 
+    details: "cr.no.110/02 C.J.M.Pratapgarh" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,26 +72,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

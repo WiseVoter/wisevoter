@@ -60,31 +60,31 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: Section 131 Income Tax Act. 
+    details: "Section 131 Income Tax Act." 
   - crime: accussed
     ipc: 
-    details: 3,5 Property Damage Act. 
+    details: "3,5 Property Damage Act." 
   - crime: accussed
     ipc: 171
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 38,  136
-    details: Section 38,136 Act. 
+    details: "Section 38,136 Act." 
   - crime: accussed
     ipc: 
-    details: 3,5 Property Damage Act. 
+    details: "3,5 Property Damage Act." 
   - crime: accussed
     ipc: 171
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 146
-    details: 135 Electricity Act. 
+    details: "135 Electricity Act." 
   - crime: accussed
     ipc: 143,  341
-    details: 135, 33/191 Act. 
+    details: "135, 33/191 Act." 
   - crime: accussed
     ipc: 143,  341
-    details: 135, 140 Act. 
+    details: "135, 140 Act." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -94,26 +94,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

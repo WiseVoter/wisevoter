@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 447, 323, 379, 337, 427, 353, 504
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 447, 341, 353,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 325, 379, 385,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 212, 216,
-    details: 2D CLA Act 
+    details: "2D CLA Act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 447, 353, 149
-    details: J.F.C.M., Nandikotkoor, C.C.No.30108 
+    details: "J.F.C.M., Nandikotkoor, C.C.No.30108" 
   - crime: accussed
     ipc: 143, 147, 341, 186, 149
-    details: J.F.C.M., Nakrekal, C.C.No.435/07 (Cr.No.122/07) 
+    details: "J.F.C.M., Nakrekal, C.C.No.435/07 (Cr.No.122/07)" 
   - crime: accussed
     ipc: 147, 148, 447, 448, 427, 435, 149
-    details: J.F.C.M., Bhongir, C.C.No.700/07 
+    details: "J.F.C.M., Bhongir, C.C.No.700/07" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

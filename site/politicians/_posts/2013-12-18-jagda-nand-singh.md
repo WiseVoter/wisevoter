@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188,  217,  218,  186
-    details: 171 C. People's Representation Act,  52, 26(3) Wildlife Protection Act and 33(1)C,63 Indian Forest Act, Complaint Case No. 541(2)2006 is Stayed by Hon. High Court is Case No. 56413/06 By Order Dated 25.04.07, P.S. Durgawati Case No. 94/05 
+    details: "171 C. People's Representation Act,  52, 26(3) Wildlife Protection Act and 33(1)C,63 Indian Forest Act, Complaint Case No. 541(2)2006 is Stayed by Hon. High Court is Case No. 56413/06 By Order Dated 25.04.07, P.S. Durgawati Case No. 94/05" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -60,26 +60,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

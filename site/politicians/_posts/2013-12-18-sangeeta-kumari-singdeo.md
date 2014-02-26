@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 294, 506, 34
-    details: Sec.3(1)(X) OF sc, ST, Tribe (PA) ACT, 1989 
+    details: "Sec.3(1)(X) OF sc, ST, Tribe (PA) ACT, 1989" 
   - crime: accussed
     ipc: 294, 323, 506
-    details: Section.3 (1) (X) OF sc, ST, Tribe (PA) ACT, 1989 
+    details: "Section.3 (1) (X) OF sc, ST, Tribe (PA) ACT, 1989" 
   - crime: accussed
     ipc: 147, 148, 323, 294, 506, 341, 149
-    details: Section.3 (1) (X) of (PA) Act 
+    details: "Section.3 (1) (X) of (PA) Act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

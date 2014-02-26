@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  147,  447,  323,  342,  427,  506(ii),  149
-    details: Case No. 758/98, JFCM PARAPPANANADI 
+    details: "Case No. 758/98, JFCM PARAPPANANADI" 
   - crime: accussed
     ipc: 143,  147,  283,  352,  149,   38
-    details: 52 Of K.P Act, Case No. 623/07, JFCM TIRUR 
+    details: "52 Of K.P Act, Case No. 623/07, JFCM TIRUR" 
   - crime: accussed
     ipc: 143,  147,  149
-    details: Case No. 433/07, JFCM PARAPPANANADI 
+    details: "Case No. 433/07, JFCM PARAPPANANADI" 
   - crime: accussed
     ipc: 147,  174(a)
-    details: Railway Act, Case No. 806/07, JFCM OTTAPPALAM 
+    details: "Railway Act, Case No. 806/07, JFCM OTTAPPALAM" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

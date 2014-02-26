@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  447,  307,  324,   149
-    details: Crime No.237/86,Mangalagiri Rural PS,Guntur District,A.P. and taken on File as PRC7/87 
+    details: "Crime No.237/86,Mangalagiri Rural PS,Guntur District,A.P. and taken on File as PRC7/87" 
   - crime: accussed
     ipc: 143,  341,  186
-    details: Crime No.197/93,CC No.409/95 by 5th Additional Munsiff Magisrate,Guntur,Nagarampalem L and O,PS,Guntur,A.P. 
+    details: "Crime No.197/93,CC No.409/95 by 5th Additional Munsiff Magisrate,Guntur,Nagarampalem L and O,PS,Guntur,A.P." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

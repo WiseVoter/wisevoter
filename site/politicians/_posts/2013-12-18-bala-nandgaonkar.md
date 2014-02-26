@@ -60,19 +60,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 145, 147, 148, 149, 332, 353, 341, 327, 435 R/W120(a)
-    details: C.R. No.280/06 S.C. No.688/2007 
+    details: "C.R. No.280/06 S.C. No.688/2007" 
   - crime: accussed
     ipc: 143, 145, 147, 148, 149, 332, 353, 341, 324, 327, 435, R/W120(b)
-    details: C.R. No.281/06 S.C.No.689/2007 
+    details: "C.R. No.281/06 S.C.No.689/2007" 
   - crime: accussed
     ipc: 143, 145, 149, 427
-    details: C.R.No. 163/06 C.C. No 234/PS/2007 
+    details: "C.R.No. 163/06 C.C. No 234/PS/2007" 
   - crime: accussed
     ipc: 143, 145, 147, 149, 324, 427, 120(b), 332, 336, 34
-    details: C.R.No. 33/08 C.C.No.197/PW/2008 
+    details: "C.R.No. 33/08 C.C.No.197/PW/2008" 
   - crime: accussed
     ipc: 143, 145, 147, 149, 324, 427, 120(b), 332, 336, 34
-    details: C.R.No35/08 C.C. No.198/PW/2008 
+    details: "C.R.No35/08 C.C. No.198/PW/2008" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -82,26 +82,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -34,7 +34,7 @@ North West Delhi Lok Sabha constituency is one of the 7 Lok Sabha (parliamentary
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

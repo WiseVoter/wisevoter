@@ -50,43 +50,43 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 447, 427, 506(2)
-    details: FIR No.:- I, 268/89 in Valia Police Station. convicted 
+    details: "FIR No.-- I, 268/89 in Valia Police Station. convicted" 
   - crime: accussed
     ipc: 447,  379, 337, 114
-    details: FIR No.:- I, 312/91  in Valia Police Station 
+    details: "FIR No.-- I, 312/91  in Valia Police Station" 
   - crime: accussed
     ipc: 188, 114
-    details: FIR No.:- I,37/95 IN VALIA Police Station 
+    details: "FIR No.-- I,37/95 IN VALIA Police Station" 
   - crime: accussed
     ipc: 143, 147,  148,  149, 333, 341, 323, 427, 302, 120
-    details: FIR No.:- I, 125/93 Arms Act section 25-1-AB in Jhagadia Police Station.Chargesheet dated 25/08/93. releaved on 24/10/93. 
+    details: "FIR No.-- I, 125/93 Arms Act section 25-1-AB in Jhagadia Police Station.Chargesheet dated 25/08/93. releaved on 24/10/93." 
   - crime: accussed
     ipc: 379
-    details: FIR No.:- 127/93 IN Indian Electric Act, 1910 Section 30  in Jhagadia Police Station. Chargesheet dated 12/02/94. C C No.:- 311/94. PENDING. 
+    details: "FIR No.-- 127/93 IN Indian Electric Act, 1910 Section 30  in Jhagadia Police Station. Chargesheet dated 12/02/94. C C No.-- 311/94. PENDING." 
   - crime: accussed
     ipc: 379
-    details: FIR No.:- I, 128/93 Indian Electric Act, 1910 in Jhagadia Police Station. Chargesheet dated 12/02/94. C C No.:- 312/94. PENDING. 
+    details: "FIR No.-- I, 128/93 Indian Electric Act, 1910 in Jhagadia Police Station. Chargesheet dated 12/02/94. C C No.-- 312/94. PENDING." 
   - crime: accussed
     ipc: 379
-    details: FIR No.:- I, 129/93 Indian Electric Act, 1910 in Jhagadia. Chargesheet dated 12/02/94. C C No.:- 313/94. PENDING. 
+    details: "FIR No.-- I, 129/93 Indian Electric Act, 1910 in Jhagadia. Chargesheet dated 12/02/94. C C No.-- 313/94. PENDING." 
   - crime: accussed
     ipc: 379
-    details: FIR No.:- I, 138/93  Indian Electric Act, 1910 in Jhagadia. Chargesheet dated 12/02/94. C C No.:- 314/94. PENDING. 
+    details: "FIR No.-- I, 138/93  Indian Electric Act, 1910 in Jhagadia. Chargesheet dated 12/02/94. C C No.-- 314/94. PENDING." 
   - crime: accussed
     ipc: 379
-    details: FIR No.:- I, 139/93 Indian Electric Act, 1910 in Jhagadia. Chargesheet dated 12/02/94. C C No.:- 315/94. PENDING. 
+    details: "FIR No.-- I, 139/93 Indian Electric Act, 1910 in Jhagadia. Chargesheet dated 12/02/94. C C No.-- 315/94. PENDING." 
   - crime: accussed
     ipc: 25(1)AB
-    details: FIR No.:- I, 136/93 ARMS ACT,1980 IN  Jhagadia. Chargesheet dated 12/02/94. PENDING. 
+    details: "FIR No.-- I, 136/93 ARMS ACT,1980 IN  Jhagadia. Chargesheet dated 12/02/94. PENDING." 
   - crime: accussed
     ipc: 143, 147,  148,  149, 452, 323, 365, 427, 336, 506
-    details: FIR No.:- I, 48/98 IN Jhagadia Police Station. Chargesheet dated 01/08/2000. PENDING. 
+    details: "FIR No.-- I, 48/98 IN Jhagadia Police Station. Chargesheet dated 01/08/2000. PENDING." 
   - crime: accussed
     ipc: 143, 147, 148, 149, 332, 365, 324, 325, 302, 120(B), 34, 504, 506(B)
-    details: FIR No.:- I, 169/2000  in Jhagadia Police Station. BP ACT 135. CRIME IS NOT REPORTED AS PER POLICE REPORT. 
+    details: "FIR No.-- I, 169/2000  in Jhagadia Police Station. BP ACT 135. CRIME IS NOT REPORTED AS PER POLICE REPORT." 
   - crime: accussed
     ipc: 396, 427, 120(B)
-    details: FIR No.:- I, 17/03 IN JHAGADIA POLICE STATION. STAYED BY HIGH COURT 
+    details: "FIR No.-- I, 17/03 IN JHAGADIA POLICE STATION. STAYED BY HIGH COURT" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -96,26 +96,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

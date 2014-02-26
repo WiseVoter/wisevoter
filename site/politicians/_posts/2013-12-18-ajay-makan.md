@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  149,  341
-    details: 147, 149, 341 IPC{While Participating in peaceful demonstration against State Government of Madhya Pradesh at khalghat Distt Dhar(M.P.)}Judicial magistrate First Class,Dharampuri,Distt-Dhar,Madhya Pradesh Case No.415/2005, Date:11/12/2005,PS-Dhamnod,Distt.-Dhar,Madhya Pradesh, Challan Vide No.197/06 Filed on 26.06.2006 
+    details: "147, 149, 341 IPC{While Participating in peaceful demonstration against State Government of Madhya Pradesh at khalghat Distt Dhar(M.P.)}Judicial magistrate First Class,Dharampuri,Distt-Dhar,Madhya Pradesh Case No.415/2005, Date-11/12/2005,PS-Dhamnod,Distt.-Dhar,Madhya Pradesh, Challan Vide No.197/06 Filed on 26.06.2006" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ Ajay Maken (born 12 January 1964) is an Indian politician and Member of Parliame
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -94,4 +94,4 @@ Wikipedia References
 [wiki3]: http://india.gov.in/govt/loksabhampbiodata.php?mpcode=4075
 
 
-{% include references.html %}
+{% include "references.html" %}

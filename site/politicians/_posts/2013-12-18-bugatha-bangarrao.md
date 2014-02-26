@@ -40,25 +40,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 341, 353, , 505, 506, 149
-    details: CC 815/08IV th JFCM KakinadaJFCM PithapuramJFCM TuniJFCM PrathipaduAsst. Sessions Court Peddapuram 
+    details: "CC 815/08. . IV th JFCM Kakinada. . JFCM Pithapuram. . JFCM Tuni. . JFCM Prathipadu. . Asst. Sessions Court Peddapuram" 
   - crime: accussed
     ipc: 147, 148, 447, 506, 379, 120B, 149
-    details: CC 48/2005IV th JFCM KakinadaJFCM PithapuramJFCM TuniJFCM PrathipaduAsst. Sessions Court Peddapuram 
+    details: "CC 48/2005. . IV th JFCM Kakinada. . JFCM Pithapuram. . JFCM Tuni. . JFCM Prathipadu. . Asst. Sessions Court Peddapuram" 
   - crime: accussed
     ipc: 147, 148, 447, 427, 506, 149
-    details: CC 356/2005IV th JFCM KakinadaJFCM PithapuramJFCM TuniJFCM PrathipaduAsst. Sessions Court Peddapuram 
+    details: "CC 356/2005. . IV th JFCM Kakinada. . JFCM Pithapuram. . JFCM Tuni. . JFCM Prathipadu. . Asst. Sessions Court Peddapuram" 
   - crime: accussed
     ipc: 147, 148, 506, 447, 149
-    details: CC 25/2006IV th JFCM KakinadaJFCM PithapuramJFCM TuniJFCM PrathipaduAsst. Sessions Court Peddapuram 
+    details: "CC 25/2006. . IV th JFCM Kakinada. . JFCM Pithapuram. . JFCM Tuni. . JFCM Prathipadu. . Asst. Sessions Court Peddapuram" 
   - crime: accussed
     ipc: 382, 447, 427, 147, 148, 149
-    details: CC 90/2008IV th JFCM KakinadaJFCM PithapuramJFCM TuniJFCM PrathipaduAsst. Sessions Court Peddapuram 
+    details: "CC 90/2008. . IV th JFCM Kakinada. . JFCM Pithapuram. . JFCM Tuni. . JFCM Prathipadu. . Asst. Sessions Court Peddapuram" 
   - crime: accussed
     ipc: 147, 148, 149, 506, 447, 427
-    details: CC 89/2008IV th JFCM KakinadaJFCM PithapuramJFCM TuniJFCM PrathipaduAsst. Sessions Court Peddapuram 
+    details: "CC 89/2008. . IV th JFCM Kakinada. . JFCM Pithapuram. . JFCM Tuni. . JFCM Prathipadu. . Asst. Sessions Court Peddapuram" 
   - crime: accussed
     ipc: 147, 148, 149, 447, 342, 307
-    details: SC 188/07IV th JFCM KakinadaJFCM PithapuramJFCM TuniJFCM PrathipaduAsst. Sessions Court Peddapuram3and4 of TADA Act 
+    details: "SC 188/07. . IV th JFCM Kakinada. . JFCM Pithapuram. . JFCM Tuni. . JFCM Prathipadu. . Asst. Sessions Court Peddapuram. . 3and4 of TADA Act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -68,26 +68,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

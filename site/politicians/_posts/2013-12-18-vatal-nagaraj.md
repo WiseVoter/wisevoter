@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 177
-    details: 125 AFRP act and company Act 168 
+    details: "125 AFRP act and company Act 168" 
   - crime: accussed
     ipc: 
-    details: Railve police Jayachamanagara and Railve Police Banglore Karnataka State Railve adhiniyama 
+    details: "Railve police Jayachamanagara and Railve Police Banglore Karnataka State Railve adhiniyama" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,23 +56,23 @@ He is singularly credited with keeping Kannada language and Kannada spirit alive
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

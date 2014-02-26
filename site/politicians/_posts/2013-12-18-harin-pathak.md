@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 302,  307,  326,  333,  347,  149,  152,  153,  506,  168,  188,  120(B)
-    details: FIR NO. 82/85, ASTODIA POLICE STATION, SESSION COURT NO. 178/1986, AHMEDABAD, HE HAS BEEN DISCHARGED IN THIS CASE BUT SPECIAL LEAVE APPLICATION FOR THE SAME IS ADMITTED IN THE HON, SUPREME COURT NO. 6207/2006, THIS CASE IS PENDING IN THE SUPREME COURT. 
+    details: "FIR NO. 82/85, ASTODIA POLICE STATION, SESSION COURT NO. 178/1986, AHMEDABAD, HE HAS BEEN DISCHARGED IN THIS CASE BUT SPECIAL LEAVE APPLICATION FOR THE SAME IS ADMITTED IN THE HON, SUPREME COURT NO. 6207/2006, THIS CASE IS PENDING IN THE SUPREME COURT." 
   - crime: accussed
     ipc: 
-    details: Criminal Revision Application No 486/2001 Gujarat Court.On the date of 23/6/2006 he has been discharged 
+    details: "Criminal Revision Application No 486/2001 Gujarat Court.On the date of 23/6/2006 he has been discharged" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,26 +63,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

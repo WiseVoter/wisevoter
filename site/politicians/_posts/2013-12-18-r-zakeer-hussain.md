@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 323,  324,  326,  307,  434
-    details: SC 91/98 Pallithottam, East kollam 
+    details: "SC 91/98 Pallithottam, East kollam" 
   - crime: accussed
     ipc: 307
-    details: CP 38/08 
+    details: "CP 38/08" 
   - crime: accussed
     ipc: 294(b),  332,  34
-    details: CP 115/08 
+    details: "CP 115/08" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

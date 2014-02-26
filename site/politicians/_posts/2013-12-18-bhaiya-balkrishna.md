@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 419,  420,  467,  34
-    details: Case No. 203/91, Dated 20.10.1991, Police Station Purani Basti Raipur Madhya Pradesh (Currently Chattisgarh, Court Judicial Magistrate First Class, Raipur 
+    details: "Case No. 203/91, Dated 20.10.1991, Police Station Purani Basti Raipur Madhya Pradesh (Currently Chattisgarh, Court Judicial Magistrate First Class, Raipur" 
   - crime: accussed
     ipc: 420,  120(B),  409,  406,  427,  468, 471, 34
-    details: Police Station Jagdalpur, Case No. 544/93 
+    details: "Police Station Jagdalpur, Case No. 544/93" 
   - crime: accussed
     ipc: 120(B), 420, 467, 468, 471, 409
-    details: 13(1)(D),13(2), Raipur Case No. 55/95, Dated 20.05.2009 
+    details: "13(1)(D),13(2), Raipur Case No. 55/95, Dated 20.05.2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

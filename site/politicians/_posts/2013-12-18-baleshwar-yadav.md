@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 353, 332, 224, 225, 504, 506, 186, 427
-    details: 7 Criminal Amendmend.Act, 3 Public Property Act,  Criminal Case no.238/91, Case no.999/06, J.M. Padhsena, Captainganj Police Station 
+    details: "7 Criminal Amendmend.Act, 3 Public Property Act,  Criminal Case no.238/91, Case no.999/06, J.M. Padhsena, Captainganj Police Station" 
   - crime: accussed
     ipc: 147, 148, 149, 307, 395, 332, 353, 426
-    details: Criminal case no.2265/05, Vadrona Police Station, C.J.M. Kushinagar 
+    details: "Criminal case no.2265/05, Vadrona Police Station, C.J.M. Kushinagar" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,26 +63,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

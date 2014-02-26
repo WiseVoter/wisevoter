@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: The Prevention of Insults to National Honor Act,1971 (Act No.69 of 1971)Section 03 (I understand from Media Reports,that on the Basis of a Private Complaint the Addl CJM Court Ernakulam issued a Summons but i have not recieved it till date),Judicial Addl Chief Magistrate Court Ernakulam 
+    details: "The Prevention of Insults to National Honor Act,1971 (Act No.69 of 1971)Section 03 (I understand from Media Reports,that on the Basis of a Private Complaint the Addl CJM Court Ernakulam issued a Summons but i have not recieved it till date),Judicial Addl Chief Magistrate Court Ernakulam" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -80,16 +80,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 177
-    details: CASE NO CC5271/07 u/s IPC 117 AT 8th ACMM court bangalore dt 3/3/07 
+    details: "CASE NO CC5271/07 u/s IPC 117 AT 8th ACMM court bangalore dt 3/3/07" 
   - crime: accussed
     ipc: 
-    details: CC 11493/08 u/s 125 AFRPACT at CJJD dt 28/5/2008 
+    details: "CC 11493/08 u/s 125 AFRPACT at CJJD dt 28/5/2008" 
   - crime: accussed
     ipc: 
-    details: CC447/08 u/s COMPANY ACT 168 At JMFC channapattana dt 19/4/08 
+    details: "CC447/08 u/s COMPANY ACT 168 At JMFC channapattana dt 19/4/08" 
   - crime: accussed
     ipc: 
-    details: CC389/06 under Economic Offences Bangalore dt 3/6/06 
+    details: "CC389/06 under Economic Offences Bangalore dt 3/6/06" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -99,26 +99,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

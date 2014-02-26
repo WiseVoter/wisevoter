@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  294(b),  323,  324,  353
-    details: FIR No.75/2002, Maduranthagam Police Station dt. 1/8/2002 
+    details: "FIR No.75/2002, Maduranthagam Police Station dt. 1/8/2002" 
   - crime: accussed
     ipc: 147,  188,  341,  294(b),  353
-    details: FIR No.123/2004, Salavakam Polic Station dt. 1/7/2004 
+    details: "FIR No.123/2004, Salavakam Polic Station dt. 1/7/2004" 
   - crime: accussed
     ipc: 224,  353,  309,  r/w109
-    details: FIR No.399/2005, Uttiramerur Police Station dt.19/9/2005 
+    details: "FIR No.399/2005, Uttiramerur Police Station dt.19/9/2005" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

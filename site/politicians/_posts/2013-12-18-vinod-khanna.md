@@ -50,23 +50,23 @@ Vinod Khanna (born 6 October 1946) is an Indian actor, film producer and politic
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 [wiki3]: http://www.boxofficeindia.com/showProd.php?itemCat=186&catName=MTk4MA==
 
 
-{% include references.html %}
+{% include "references.html" %}

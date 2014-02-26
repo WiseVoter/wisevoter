@@ -50,22 +50,22 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 302,  34,  201,  120(B)
-    details: Case No. 23/98,  C.J.M Ararai 
+    details: "Case No. 23/98,  C.J.M Ararai" 
   - crime: accussed
     ipc: 144,  150,  151
-    details: 27 Arms Act, Case No. 409/94,  C.J.M Ararai 
+    details: "27 Arms Act, Case No. 409/94,  C.J.M Ararai" 
   - crime: accussed
     ipc: 147,  323,  307,  342,  324
-    details: Case No. 15/91,  C.J.M Ararai 
+    details: "Case No. 15/91,  C.J.M Ararai" 
   - crime: accussed
     ipc: 224
-    details: Case no. 11/95, C.J.M Ararai 
+    details: "Case no. 11/95, C.J.M Ararai" 
   - crime: accussed
     ipc: 
-    details: 7 EC Act, Case No. 10/89 
+    details: "7 EC Act, Case No. 10/89" 
   - crime: accussed
     ipc: 147,  148,  341,  342,  353,  407,  171(C)
-    details: 3 PC and 135(A),136(EF)of RP Act, Case No. 34/05, C.J.M. Ararai 
+    details: "3 PC and 135(A),136(EF)of RP Act, Case No. 34/05, C.J.M. Ararai" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -75,26 +75,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

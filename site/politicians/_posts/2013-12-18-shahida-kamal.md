@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 145, 147, 188,  283,  149
-    details: Case no. 797/07-A19, JFCM II Kollam 
+    details: "Case no. 797/07-A19, JFCM II Kollam" 
   - crime: accussed
     ipc: 143, 147, 188,  283, 145, 153,  149
-    details: Case no.2949/2008-A5 JFCM II Kollam  , Date 11.11.2008 
+    details: "Case no.2949/2008-A5 JFCM II Kollam  , Date 11.11.2008" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

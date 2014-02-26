@@ -60,16 +60,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 307,  341
-    details: FIR No.387/05,Thana-Kotwali,Dehat-Balrampur,Chief Judicial Magistrate Balrampur,Date-09.01.07 
+    details: "FIR No.387/05,Thana-Kotwali,Dehat-Balrampur,Chief Judicial Magistrate Balrampur,Date-09.01.07" 
   - crime: accussed
     ipc: 143,  353,  504,  506
-    details: FIR No.27/07 
+    details: "FIR No.27/07" 
   - crime: accussed
     ipc: 147,  323,  504,  307
-    details: 131 Representation of People Act,Thana-Maharajganj Tarai Janpad-Balrampur 
+    details: "131 Representation of People Act,Thana-Maharajganj Tarai Janpad-Balrampur" 
   - crime: accussed
     ipc: 290,  283,  188
-    details: cr.no 179/09 34 Police Act and 210,211 ,236,268 Muncipal Act,FIR No.179/09,Thana Gilola ,Janpad Nagar and Thana Gilola Janpad Shrvasti,Case No.404/09 (1.)323,504,506,FIR No.9A/94,Thana Balrampur Dehat,S.T.No.42/02,Date-05.06.2003 (2)304, 34	 Case No.164/89,Date-12.01.1993 (3.)395	 FIR No.51/95,Thana Balrampur Dehat withdrawn (4)	147, 323, 504, 506	 FIR No.18/94,Thana Balrampur Dehat withdrawn 6.143, 225, 353, 224	 FIR No.294/96 Name has been Withdrawn 
+    details: "cr.no 179/09 34 Police Act and 210,211 ,236,268 Muncipal Act,FIR No.179/09,Thana Gilola ,Janpad Nagar and Thana Gilola Janpad Shrvasti,Case No.404/09 (1.)323,504,506,FIR No.9A/94,Thana Balrampur Dehat,S.T.No.42/02,Date-05.06.2003 (2)304, 34	 Case No.164/89,Date-12.01.1993 (3.)395	 FIR No.51/95,Thana Balrampur Dehat withdrawn (4)	147, 323, 504, 506	 FIR No.18/94,Thana Balrampur Dehat withdrawn 6.143, 225, 353, 224	 FIR No.294/96 Name has been Withdrawn" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -79,26 +79,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

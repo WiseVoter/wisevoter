@@ -60,10 +60,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 279,  337,  338
-    details: CAR ACCIDENT CASE, CC.NO. 251/05CASE NO.203/05 
+    details: "CAR ACCIDENT CASE, CC.NO. 251/05CASE NO.203/05" 
   - crime: accussed
     ipc: 
-    details: SEC 87, 1983, TN COOPERATIVE SOCIETY (CASE NO. CMACS 7/2004, NAMAKKAL DISTRICT ) 
+    details: "SEC 87, 1983, TN COOPERATIVE SOCIETY (CASE NO. CMACS 7/2004, NAMAKKAL DISTRICT )" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -73,26 +73,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

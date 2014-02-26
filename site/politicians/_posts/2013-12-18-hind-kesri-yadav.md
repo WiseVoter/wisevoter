@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 420,  171F
-    details: CR. REVISION NO.120/2006,ADDL. SESSIONS JUDGE IX MUZAFFARPUR,MINAPUR PS CASE NO.23/2005 
+    details: "CR. REVISION NO.120/2006,ADDL. SESSIONS JUDGE IX MUZAFFARPUR,MINAPUR PS CASE NO.23/2005" 
   - crime: accussed
     ipc: 323,  427,  504,  34
-    details: 3(i)(x)SC and ST ACT,SADAR PS CASE NO.161/2001,C.J.M.MUZAFFARPUR,INVESTIGATION PENDING 
+    details: "3(i)(x)SC and ST ACT,SADAR PS CASE NO.161/2001,C.J.M.MUZAFFARPUR,INVESTIGATION PENDING" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

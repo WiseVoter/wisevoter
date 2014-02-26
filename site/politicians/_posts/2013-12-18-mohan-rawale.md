@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: U/s.37(1),r/w 135 BPAcase no -  238/P/2001 
+    details: "U/s.37(1),r/w 135 BPA. . case no -  238/P/2001" 
   - crime: accussed
     ipc: 
-    details: U/s.37(3),r/w 135 BPA Case no - 543/P/2001 
+    details: "U/s.37(3),r/w 135 BPA Case no - 543/P/2001" 
   - crime: accussed
     ipc: 
-    details: U/s.33(R)(3).37(1)(D).37(3) 135 BPA Case no - 863/P/2002 
+    details: "U/s.33(R)(3).37(1)(D).37(3) 135 BPA Case no - 863/P/2002" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

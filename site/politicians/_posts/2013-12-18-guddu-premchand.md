@@ -60,13 +60,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 353
-    details: Case No.4899/06,Judicial Magistrate First Class,Ujjain,Date 21.10.08/19.05.09 
+    details: "Case No.4899/06,Judicial Magistrate First Class,Ujjain,Date 21.10.08/19.05.09" 
   - crime: accussed
     ipc: 188,   201
-    details: Sec. 123(3), 127(A) of Representation of the People Act 1951, Case No.603/29.11.08,Judicial Magistrate First Class,Alot, Cognizance date 29-11-08, 16-06-09 
+    details: "Sec. 123(3), 127(A) of Representation of the People Act 1951, Case No.603/29.11.08,Judicial Magistrate First Class,Alot, Cognizance date 29-11-08, 16-06-09" 
   - crime: accussed
     ipc: 302,  149
-    details: ST No.34/1980, Police Station Inodre, Madhya Pradesh, Date-19.07.1981 
+    details: "ST No.34/1980, Police Station Inodre, Madhya Pradesh, Date-19.07.1981" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -79,23 +79,23 @@ He was also member of Madhya Pradesh legislative Assembly for two terms between 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -106,4 +106,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4256
 
 
-{% include references.html %}
+{% include "references.html" %}

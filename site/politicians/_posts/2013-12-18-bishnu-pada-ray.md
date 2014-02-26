@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  149,  186,  447,  511
-    details: GR Case No.1597/04,FIR No.65/04,Police Station-Ograbraj,District-South Andaman,State-Andaman and Nicobar Islands,Charges Not yet Framed,Date-05/09/2005 
+    details: "GR Case No.1597/04,FIR No.65/04,Police Station-Ograbraj,District-South Andaman,State-Andaman and Nicobar Islands,Charges Not yet Framed,Date-05/09/2005" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -60,26 +60,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

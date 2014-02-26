@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 406 420 468 471 120B
-    details: CASE NO 111/95 G.R.Case no.900/1995 State vs Hira Ram Tufani C.J.M.GiridihJharkhand (Pending For Cogni.) Before Cognigance Released on Bail Vide A.B.P.No. 1462/2007 Order Dated 03.08.07.Passed By The Honble High Court And Order Of C.J.M.Giridih Dated 09.08.07 
+    details: "CASE NO 111/95 G.R.Case no.900/1995 State vs Hira Ram Tufani C.J.M.GiridihJharkhand (Pending For Cogni.) Before Cognigance Released on Bail Vide A.B.P.No. 1462/2007 Order Dated 03.08.07.Passed By The Honble High Court And Order Of C.J.M.Giridih Dated 09.08.07" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

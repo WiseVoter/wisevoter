@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 149, 120B, 121A, 124A
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 333, 427, 353, 186, 342, 307, 323, 325, 332
-    details: 3 of PDPP Act,9(B) (ii) I.E.ACT 
+    details: "3 of PDPP Act,9(B) (ii) I.E.ACT" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

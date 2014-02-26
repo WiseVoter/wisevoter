@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 174 Railway Act. GR 33/2001 of Judicial Magistrate First Class (I.M. Bhuyan), Berthampur Dated 29.03.2001 
+    details: "174 Railway Act. GR 33/2001 of Judicial Magistrate First Class (I.M. Bhuyan), Berthampur Dated 29.03.2001" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,23 +53,23 @@ Nityananda Pradhan (born 18 November 1944) is an Indian politician. He is a memb
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -80,4 +80,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4424
 
 
-{% include references.html %}
+{% include "references.html" %}

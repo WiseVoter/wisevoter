@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 171F,  149,  143,
-    details: Case no,65/04, GR No. 393/2004, TR No. 1410/08, Date 28.06.2004 B.Court Sri Manish Judicial Magistrate 1st Class Godda 
+    details: "Case no,65/04, GR No. 393/2004, TR No. 1410/08, Date 28.06.2004 B.Court Sri Manish Judicial Magistrate 1st Class Godda" 
   - crime: accussed
     ipc: 147,  341,  342,  323
-    details: Case no,66/04, GR No. 394/2004, TR No. 465/09, Date 02.05.2006Judicial Magistrate 1st Class Godda 
+    details: "Case no,66/04, GR No. 394/2004, TR No. 465/09, Date 02.05.2006Judicial Magistrate 1st Class . . Godda" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

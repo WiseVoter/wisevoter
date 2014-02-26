@@ -40,22 +40,22 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 332,  352,  504,  506
-    details: Crime No.712/08,Case No.2362/08,P.S.Barkhera Pilibhit,A.C.J.M.(I)Pilibhit (U.P.),Date-24/12/2008 
+    details: "Crime No.712/08,Case No.2362/08,P.S.Barkhera Pilibhit,A.C.J.M.(I)Pilibhit (U.P.),Date-24/12/2008" 
   - crime: accussed
     ipc: 153A,  188,  295A,  505(2)
-    details: 125 Representation of People Act,1951,FIR No.255/09,Polce Station-Barkhera,District-Pilibhit,State-U.P. 
+    details: "125 Representation of People Act,1951,FIR No.255/09,Polce Station-Barkhera,District-Pilibhit,State-U.P." 
   - crime: accussed
     ipc: 153A,  188,  295A,  505(2)
-    details: 125 Representation of People Act,1951,FIR No.238/09,Police Station-Kotwali,District-Pilibhit,State-U.P. 
+    details: "125 Representation of People Act,1951,FIR No.238/09,Police Station-Kotwali,District-Pilibhit,State-U.P." 
   - crime: accussed
     ipc: 147, 148, 149, 307, 427, 336, 332, 188
-    details: 7 Criminal Law Amendment Act and 125 Representation of People Act,1951,FIR No.226/09,Police Station-Kotwali,District-Pilibhit,State-U.P. 
+    details: "7 Criminal Law Amendment Act and 125 Representation of People Act,1951,FIR No.226/09,Police Station-Kotwali,District-Pilibhit,State-U.P." 
   - crime: accussed
     ipc: 147,  148,  323,  504,  506,  427
-    details: FIR No.1222/08,Police Station-Barkhera,District-Pilibhit,State-U.P. 
+    details: "FIR No.1222/08,Police Station-Barkhera,District-Pilibhit,State-U.P." 
   - crime: accussed
     ipc: 
-    details: 3 National Security Act.Case No.01/09,District-Pilibhit,State-U.P.,Date-29/03/2009 
+    details: "3 National Security Act.Case No.01/09,District-Pilibhit,State-U.P.,Date-29/03/2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -68,23 +68,23 @@ Feroze Varun Gandhi (born 13 March 1980) is an Indian politician, he is a member
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -99,4 +99,4 @@ Wikipedia References
 [wiki3]: http://www.firstpost.com/politics/modi-enters-bjp-parliamentary-board-chauhan-ignored-680050.html
 
 
-{% include references.html %}
+{% include "references.html" %}

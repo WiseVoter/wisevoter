@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 449,  323,  504,  420,  467,  468,  120(B),
-    details: 3(I), (IV),(V),(VI),(X),SC and ST Act. Case No.67/03, P.S.Nanpur, Dist. Sitamadi, Bihar, First Additional Sessions Judge, Sitamadi 
+    details: "3(I), (IV),(V),(VI),(X),SC and ST Act. Case No.67/03, P.S.Nanpur, Dist. Sitamadi, Bihar, First Additional Sessions Judge, Sitamadi" 
   - crime: accussed
     ipc: 171(F),
-    details: 136 RP Act., P.S.Nanpur, Dist. Sitamadi, Bihar, Special Judge, sitamadi, dt, 11.4.07 
+    details: "136 RP Act., P.S.Nanpur, Dist. Sitamadi, Bihar, Special Judge, sitamadi, dt, 11.4.07" 
   - crime: accussed
     ipc: 147, 323, 504, 379,
-    details: 3(I), (IV),(V),(VI),(X),SC and ST Act., P.S.Nanpur, Dist. Sitamadi, Bihar,  Dt. 2.5.05 
+    details: "3(I), (IV),(V),(VI),(X),SC and ST Act., P.S.Nanpur, Dist. Sitamadi, Bihar,  Dt. 2.5.05" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

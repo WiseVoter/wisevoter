@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 326, 327
-    details: U/S 0147,387 
+    details: "U/S 0147,387" 
   - crime: accussed
     ipc: 394, 120(B)
-    details: 3/4 Exclusing Act 
+    details: "3/4 Exclusing Act" 
   - crime: accussed
     ipc: 452, 307, 524, 36C.S.M, M.3
-    details: 527 Arms Act 
+    details: "527 Arms Act" 
   - crime: accussed
     ipc: 395
-    details: K.M.P.S 71/96,85 
+    details: "K.M.P.S 71/96,85" 
   - crime: accussed
     ipc: 307, 324, 447
-    details: 307 Arms Act 91/03,51/99,192/95 
+    details: "307 Arms Act 91/03,51/99,192/95" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

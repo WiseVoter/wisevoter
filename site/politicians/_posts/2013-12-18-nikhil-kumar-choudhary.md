@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188
-    details: 127(2) R.P.ACT, G.R. 1711/99, Dated 29.03.2000, Sri V.P. Singh JM Ist Class, Katihar 
+    details: "127(2) R.P.ACT, G.R. 1711/99, Dated 29.03.2000, Sri V.P. Singh JM Ist Class, Katihar" 
   - crime: accussed
     ipc: 
-    details: PREVENTION OF DAMAGE TO PUBLIC PROPERTYACT-1999, G.R. 1833/99, Dated 29.03.2000, Sri N.K. Tiwari JM Ist Class, Katihar 
+    details: "PREVENTION OF DAMAGE TO PUBLIC PROPERTYACT-1999, G.R. 1833/99, Dated 29.03.2000, Sri N.K. Tiwari JM Ist Class, Katihar" 
   - crime: accussed
     ipc: 143, 341
-    details: 141,146,174 and Indian Railway ACT. G.R. No. 62/05, Dated 06.10.2005, Spl. Rly. Judicial Magistrate, Katihar 
+    details: "141,146,174 and Indian Railway ACT. G.R. No. 62/05, Dated 06.10.2005, Spl. Rly. Judicial Magistrate, Katihar" 
   - crime: accussed
     ipc: 143, 341
-    details: 141,146,174 and Indian Railway ACT. G.R. 64/05, Dated 29.08.2005, Spl. Rly Judicial Magistrate, Katihar 
+    details: "141,146,174 and Indian Railway ACT. G.R. 64/05, Dated 29.08.2005, Spl. Rly Judicial Magistrate, Katihar" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -69,26 +69,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

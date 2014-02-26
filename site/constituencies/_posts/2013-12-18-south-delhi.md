@@ -33,7 +33,7 @@ The seat was a stronghold of the Bharatiya Janata Party for many years but in 20
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

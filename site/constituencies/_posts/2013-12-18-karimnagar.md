@@ -36,7 +36,7 @@ Karimnagar Lok Sabha constituency (Telugu: కరీంనగర్ లోక �
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

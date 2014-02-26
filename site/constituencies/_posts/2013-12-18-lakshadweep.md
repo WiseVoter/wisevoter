@@ -22,7 +22,7 @@ Lakshadweep Lok Sabha constituency (formerly Laccadive, Minicoy And Amindivi Isl
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

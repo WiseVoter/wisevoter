@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 364A,  302,  120B,  212
-    details: Crime No.479/98, P.S.Kotwali Hajaratganj, C.J.M.Lucknow,dt. 02.02.07 
+    details: "Crime No.479/98, P.S.Kotwali Hajaratganj, C.J.M.Lucknow,dt. 02.02.07" 
   - crime: accussed
     ipc: 452,  506
-    details: Crime No.201/90, P.S. Kotwali Bikapur, A.C.J.M. I, Faijabad Court, Dt. 28.04.07 
+    details: "Crime No.201/90, P.S. Kotwali Bikapur, A.C.J.M. I, Faijabad Court, Dt. 28.04.07" 
   - crime: accussed
     ipc: 352,  504,  506
-    details: Crime No.480/92, P.S. Kotwali Akbarpur, J.M.I Court Akbarpur 
+    details: "Crime No.480/92, P.S. Kotwali Akbarpur, J.M.I Court Akbarpur" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

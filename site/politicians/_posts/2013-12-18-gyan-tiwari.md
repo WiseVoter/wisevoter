@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 181, 420, 467, 468, 471
-    details: P.S.Gudmba Dis.Luckhnoworder by  High Court Allahabad    W.P.NO.1835 (M/B)2009 ,19.02.2009 
+    details: "P.S.Gudmba Dis.Luckhnoworder by  High Court Allahabad    W.P.NO.1835 (M/B)2009 ,19.02.2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

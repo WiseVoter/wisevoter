@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  353,  504
-    details: 136(2) Public Representative Act,Vaad No.513/09,Criminal Case No.267/99,Thana Kundarki,District Moradabad,ACJM Court  II,Pending 
+    details: "136(2) Public Representative Act,Vaad No.513/09,Criminal Case No.267/99,Thana Kundarki,District Moradabad,ACJM Court  II,Pending" 
   - crime: accussed
     ipc: 307,  147
-    details: Vaad No.210/09,Criminal Case No.343/07,Thana Menathor,District Moradanad 
+    details: "Vaad No.210/09,Criminal Case No.343/07,Thana Menathor,District Moradanad" 
   - crime: accussed
     ipc: 307
-    details: S.T.No.1145/07,Criminal Case No.1352/07,Thana Katghar,District Moradabad 
+    details: "S.T.No.1145/07,Criminal Case No.1352/07,Thana Katghar,District Moradabad" 
   - crime: accussed
     ipc: 147,  149,  323,  504,  506,  336,  427
-    details: Vaad No.231/07,Criminal Case No.205A/96,Thana Chandausi,District Moradabad 
+    details: "Vaad No.231/07,Criminal Case No.205A/96,Thana Chandausi,District Moradabad" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

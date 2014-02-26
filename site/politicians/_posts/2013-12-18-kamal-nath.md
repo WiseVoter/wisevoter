@@ -70,23 +70,23 @@ Kamal Nath (born 18 November 1946) is an Indian politician and the current Minis
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -101,4 +101,4 @@ Wikipedia References
 [wiki3]: http://www.dailymail.co.uk/indiahome/indianews/article-2253442/Urban-development-minster-Kamal-Naths-rise.html?ito=feeds-newsxml
 
 
-{% include references.html %}
+{% include "references.html" %}

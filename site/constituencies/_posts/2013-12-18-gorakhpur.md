@@ -44,7 +44,7 @@ In the 2004 Lok Sabha Elections, the constituency had 1,432,002 eligible voters,
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

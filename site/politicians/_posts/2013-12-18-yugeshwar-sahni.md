@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  149,  295,  188,  153,  114,  337,  338,  447,  353,  341,  342,  323,  504,  300,  171(H)
-    details: 171 R.P ACT. CASE NO. 86/89 
+    details: "171 R.P ACT. CASE NO. 86/89" 
   - crime: accussed
     ipc: 
-    details: 27 ARMS ACT CASE NO. 170/97 
+    details: "27 ARMS ACT CASE NO. 170/97" 
   - crime: accussed
     ipc: 
-    details: 47 EXECUSE ACT CASE NO. 83/2001 
+    details: "47 EXECUSE ACT CASE NO. 83/2001" 
   - crime: accussed
     ipc: 
-    details: 3/4 EXPLOSIVE ACT. CASE NO. 25/2005 
+    details: "3/4 EXPLOSIVE ACT. CASE NO. 25/2005" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

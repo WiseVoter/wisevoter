@@ -50,25 +50,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188
-    details: Criminal Case No.327/96, Police Station-Kotwali Kanpur Nagar,Chief Metropolitan Magistrate,Kanpur Nagar,Date-15.09.06 
+    details: "Criminal Case No.327/96, Police Station-Kotwali Kanpur Nagar,Chief Metropolitan Magistrate,Kanpur Nagar,Date-15.09.06" 
   - crime: accussed
     ipc: 
-    details: 30 Arms Act, Criminal Case No.328/96, Police Station-Kotwali Kanpur Nagar,Chief Metropolitan Magistrate,Kanpur Nagar,Date-30.11.2006 
+    details: "30 Arms Act, Criminal Case No.328/96, Police Station-Kotwali Kanpur Nagar,Chief Metropolitan Magistrate,Kanpur Nagar,Date-30.11. . .2006" 
   - crime: accussed
     ipc: 147,  323,  332,  336,  353,  504
-    details: 7 Criminal Law Amendment Act, Criminal Case No.45/88, Police Station-Kotwali Kanpur Nagar,Chief Metropolitan Magistrate,Kanpur Nagar,Date-30.11.2006 
+    details: "7 Criminal Law Amendment Act, Criminal Case No.45/88, Police Station-Kotwali Kanpur Nagar,Chief Metropolitan Magistrate,Kanpur Nagar,Date-30.11.2006" 
   - crime: accussed
     ipc: 
-    details: 20/25/30 Arms Act, Criminal Case No.729/91, Police Station-Nawbasta Kanpur Nagar,Chief Metropolitan Magistrate,Kanpur Nagar,Date-30.11.2006 
+    details: "20/25/30 Arms Act, Criminal Case No.729/91, Police Station-Nawbasta Kanpur Nagar,Chief Metropolitan Magistrate,Kanpur Nagar,Date-30.11.2006" 
   - crime: accussed
     ipc: 147,  504,  506
-    details: Criminal Case No.582/87, Police Station-Kotwali Kanpur Nagar,,F.R.No.267,Date-20.12.87 
+    details: "Criminal Case No.582/87, Police Station-Kotwali Kanpur Nagar,,F.R.No.267,Date-20.12.87" 
   - crime: accussed
     ipc: 147,  148,  149,  307,  342,  506,  436,  364
-    details: 3(2)5, Criminal Case No.132/98,F.R.No.12,Date-19.05.1998, Ghatampur Police Station Kanpur nagar 
+    details: "3(2)5, Criminal Case No.132/98,F.R.No.12,Date-19.05.1998, Ghatampur Police Station Kanpur nagar" 
   - crime: accussed
     ipc: 506,  448,  427
-    details: Criminal Case No.40/09, Zahanabad Police Station, Fatehpur 
+    details: "Criminal Case No.40/09, Zahanabad Police Station, Fatehpur" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -78,26 +78,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -60,10 +60,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 153A,  153B, 505, 147, 149
-    details: Crime No.198/92, P.S.Shriram Janambhumi, Ayodhya, Dist. Faijabad, U.P., Case no.2252/2006, Special Magistrate Court Chief Justice,  Raibareli, U.P., Dt. 18 April 2009 
+    details: "Crime No.198/92, P.S.Shriram Janambhumi, Ayodhya, Dist. Faijabad, U.P., Case no.2252/2006, Special Magistrate Court Chief Justice,  Raibareli, U.P., Dt. 18 April 2009" 
   - crime: accussed
     ipc: 298, 500
-    details: Case no.3760/99, Session judges Court Bahraich, U.P., Dt. 18.4.2009 
+    details: "Case no.3760/99, Session judges Court Bahraich, U.P., Dt. 18.4.2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -73,26 +73,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

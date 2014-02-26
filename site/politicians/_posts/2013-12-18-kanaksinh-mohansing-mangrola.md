@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 406, 408, 409, 380, 420, 467, 468, 471, 120(B), 34, 114,
-    details: I-8/2003,I-52/2004,I-55/2004, I-56/2004 (JOINT NO OF ALL CASE 1887/2003). STAY GIVEN BY GUJARAT HIGH COURT 
+    details: "I-8/2003,I-52/2004,I-55/2004, I-56/2004 (JOINT NO OF ALL CASE 1887/2003). STAY GIVEN BY GUJARAT HIGH COURT" 
   - crime: accussed
     ipc: 216,  114
-    details: FIR NO. I-55/2004, VALIYA POLICE STATION, BHARUCH, JUD. MAG., VALIYA, CASE NO. 1517/2004, 02/09/2008 
+    details: "FIR NO. I-55/2004, VALIYA POLICE STATION, BHARUCH, JUD. MAG., VALIYA, CASE NO. 1517/2004, 02/09/2008" 
   - crime: accussed
     ipc: 
-    details: NEGOTIABLE INSTRUMENT ACT 138, CASE NO. 768/2005, METRO. MAG. DELHI. 
+    details: "NEGOTIABLE INSTRUMENT ACT 138, CASE NO. 768/2005, METRO. MAG. DELHI." 
   - crime: accussed
     ipc: 
-    details: NEGOTIABLE INSTRUMENT ACT 138, CASE NO. 132/2005, JUD. MAG. F.C., AMRITSAR 
+    details: "NEGOTIABLE INSTRUMENT ACT 138, CASE NO. 132/2005, JUD. MAG. F.C., AMRITSAR" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

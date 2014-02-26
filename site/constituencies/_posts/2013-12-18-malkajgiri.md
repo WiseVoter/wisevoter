@@ -38,7 +38,7 @@ Malkajgiri Lok Sabha constituency (Telugu: మల్కాజ్‌గిరి 
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

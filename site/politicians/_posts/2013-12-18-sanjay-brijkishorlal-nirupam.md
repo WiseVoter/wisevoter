@@ -50,19 +50,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 500, 501
-    details: Case No(a)750/1996 
+    details: "Case No(a)750/1996" 
   - crime: accussed
     ipc: 500, 501
-    details: (b)6920/1999 
+    details: "(b)6920/1999" 
   - crime: accussed
     ipc: 500, 501
-    details: (c)16/S/2001 
+    details: "(c)16/S/2001" 
   - crime: accussed
     ipc: 500, 501
-    details: (d)7/ss/2004 
+    details: "(d)7/ss/2004" 
   - crime: accussed
     ipc: 500, 501
-    details: (e) 802/SS/05 (old No:-194/SS/04). 
+    details: "(e) 802/SS/05 (old No--194/SS/04)." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,26 +72,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

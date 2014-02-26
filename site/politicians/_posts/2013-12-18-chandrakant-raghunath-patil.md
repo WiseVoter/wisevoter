@@ -40,22 +40,22 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 408,  409,  420,  467,  468,  471,  114,  120(B),  34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 406,  409,  420
-    details: FIR NO. : 205/2006, LIBAYAT  POLICE STATION, SURAT. 
+    details: "FIR NO. - 205/2006, LIBAYAT  POLICE STATION, SURAT." 
   - crime: accussed
     ipc: 
-    details: NEGOTIATION INSTRUMENT ACT SECTION 138, 141, CASE NO. : 1618/2002, SURAT COURT 
+    details: "NEGOTIATION INSTRUMENT ACT SECTION 138, 141, CASE NO. - 1618/2002, SURAT COURT" 
   - crime: accussed
     ipc: 
-    details: NEGOTIATION INSTRUMENT ACT SECTION 138, CASE NO. : 1032/2003, CRIMINAL COMPLAINT, AHMEDABAD COURT 
+    details: "NEGOTIATION INSTRUMENT ACT SECTION 138, CASE NO. - 1032/2003, CRIMINAL COMPLAINT, AHMEDABAD COURT" 
   - crime: accussed
     ipc: 
-    details: NEGOTIATION INSTRUMENT ACT SECTION 138, CASE NO. : 1033/2003, CRIMINAL COMPLAINT, AHMEDABAD COURT 
+    details: "NEGOTIATION INSTRUMENT ACT SECTION 138, CASE NO. - 1033/2003, CRIMINAL COMPLAINT, AHMEDABAD COURT" 
   - crime: accussed
     ipc: 
-    details: TOTAL 100 CASES (CIVIL)OF RECOVERY ARE PENDING UNDER NEGOTIABLE INSTRUMENT ACT AT NAVSARI, SURAT AND AHMEDABAD COURT. 
+    details: "TOTAL 100 CASES (CIVIL)OF RECOVERY ARE PENDING UNDER NEGOTIABLE INSTRUMENT ACT AT NAVSARI, SURAT AND AHMEDABAD COURT." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -65,26 +65,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

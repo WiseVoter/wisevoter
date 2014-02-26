@@ -40,40 +40,40 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 25 (1-B)a,26, 29(b) 35 Arms act 
+    details: "25 (1-B)a,26, 29(b) 35 Arms act" 
   - crime: accussed
     ipc: 384, 386, 34, 109, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 302, 307
-    details: 27 Arms Act 
+    details: "27 Arms Act" 
   - crime: accussed
     ipc: 420, 467, 468, 471, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 420, 467, 468, 471, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 272, 273, 419, 420
-    details: 47(A)Excise 
+    details: "47(A)Excise" 
   - crime: accussed
     ipc: 272, 273, 420, 120B
-    details: 47(A)Excise 
+    details: "47(A)Excise" 
   - crime: accussed
     ipc: 
-    details: 47(A)Excise 
+    details: "47(A)Excise" 
   - crime: accussed
     ipc: 272, 273, 420,
-    details: 47(A)Excise 
+    details: "47(A)Excise" 
   - crime: accussed
     ipc: 272, 273
-    details: 47(A)Excise 
+    details: "47(A)Excise" 
   - crime: accussed
     ipc: 143, 144, 504, 147, 149, 506, 115
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 364(A), 120B
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -83,26 +83,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

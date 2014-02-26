@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 353, 447, 427
-    details: 3/12, A.P.T.N. Act, 4and5 Land Grabbing Act 1982, Case No.39/08,53/07, Police Station: Miyapur, RR Dist, AP 
+    details: "3/12, A.P.T.N. Act, 4and5 Land Grabbing Act 1982, Case No.39/08,53/07, Police Station- Miyapur, RR Dist, AP" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

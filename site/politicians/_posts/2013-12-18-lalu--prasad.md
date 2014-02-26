@@ -60,25 +60,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B,  420,  201,  511,  418,  409,  467,  468,  471,  477A,  473,  472
-    details: 13(2)13(1)(c)(d)of Prevention of Corruption Act 1988, Case No.-RC-20(A)/96, on dated 05.04.2000, Allegation is of Conspiracy to Protect Scamsters and Providing them Protective Umbrella and misuse of power as public servant, Further one case of disproportionate assets to my income has resulted in acqulttal by Judgement dated 18.12.2006 and state Appeal against acquittal is pending in high court, Patna numbering Govt. Appeal 1/2007  Special Judge,CBI(AHD)Patna ,22/96 23.07.97 
+    details: "13(2)13(1)(c)(d)of Prevention of Corruption Act 1988, Case No.-RC-20(A)/96, on dated 05.04.2000, Allegation is of Conspiracy to Protect Scamsters and Providing them Protective Umbrella and misuse of power as public servant, Further one case of disproportionate assets to my income has resulted in acqulttal by Judgement dated 18.12.2006 and state Appeal against acquittal is pending in high court, Patna numbering Govt. Appeal 1/2007  Special Judge,CBI(AHD)Patna ,22/96 23.07.97" 
   - crime: accussed
     ipc: 
-    details: Case No.-RC-38(A)/96 on Dated 17.05.05 A.J.C.Cum Special Judge IV CBI (AHD)Ranchi 65/96 28.11.97 
+    details: "Case No.-RC-38(A)/96 on Dated 17.05.05 A.J.C.Cum Special Judge IV CBI (AHD)Ranchi 65/96 28.11.97" 
   - crime: accussed
     ipc: 
-    details: Case No.-RC-47(A)/96, On Dated 26.09.05  50/96  A.J.C.Cum Special Judge II(CBI)AHD Ranchi 8.05.2001 
+    details: "Case No.-RC-47(A)/96, On Dated 26.09.05  50/96  A.J.C.Cum Special Judge II(CBI)AHD Ranchi 8.05.2001" 
   - crime: accussed
     ipc: 
-    details: Case No.-RC-63(A)/96, on Dated 26.09.05A.J.C.Spl.Judge 21.04.2003 
+    details: "Case No.-RC-63(A)/96, on Dated 26.09.05A.J.C.Spl.Judge 21.04.2003" 
   - crime: accussed
     ipc: 
-    details: Case No.-RC-64(A)/96, on Dated 21.04..2003 
+    details: "Case No.-RC-64(A)/96, on Dated 21.04..2003" 
   - crime: accussed
     ipc: 
-    details: Case No.-RC-68(A)/96, on Dated 09.06.2000 
+    details: "Case No.-RC-68(A)/96, on Dated 09.06.2000" 
   - crime: accussed
     ipc: 
-    details: Case No.-RC-5(A)/98 
+    details: "Case No.-RC-5(A)/98" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -91,23 +91,23 @@ He entered politics during his student days at Patna University, and he was elec
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -122,4 +122,4 @@ Wikipedia References
 [wiki3]: http://us.rediff.com/news/2004/jun/24lalu.htm
 
 
-{% include references.html %}
+{% include "references.html" %}

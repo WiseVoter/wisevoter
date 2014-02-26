@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: Cr no 64,2006 of Kamalapuram PS. Sec 25(i)(a)(b) and Sec 27 Arms act 
+    details: "Cr no 64,2006 of Kamalapuram PS. Sec 25(i)(a)(b) and Sec 27 Arms act" 
   - crime: accussed
     ipc: 417, 420
-    details: 12(b) of passport act,Cr No 125/06 Siddout PS 
+    details: "12(b) of passport act,Cr No 125/06 Siddout PS" 
   - crime: accussed
     ipc: 341, 324, 506
-    details: Cr No 6/09, pendlimarri PS 
+    details: "Cr No 6/09, pendlimarri PS" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

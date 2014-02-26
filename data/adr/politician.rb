@@ -417,7 +417,7 @@ module WVCrawler
 =end
 			updatedprofilehash = profilehash
 			#load the template for new version
-			tmpl = File.read("./test.md.tmpl")
+			tmpl = File.read("./politician.md.tmpl")
 			liquid = Liquid::Template.parse(tmpl)
 			finfo = liquid.render(updatedprofilehash)
 			persist_profile_to_mongo(updatedprofilehash["title"], finfo)
@@ -432,7 +432,7 @@ module WVCrawler
 
 	private
 		def clean_crime_text(content)
-			content = content.strip.gsub(/[\n\r]/,'. ').gsub('&',"and").gsub(":",'-')
+			content = content.strip.gsub(/[\n\r]/,'. ').gsub('&',"and").gsub(":",'-').gsub("\"",'')
 			return "\"#{content}\""
 		end
 
@@ -443,7 +443,7 @@ module WVCrawler
 			if content =~ /((post graduate)|graduate|(12th pass)|(10th pass)|(\dth pass))/
 				level = $1
 			end
-			details = content.gsub(level,"").strip
+			details = content.gsub(level,"").strip.replace(":"," ").replace('-',' ').replace(',',' ')
 			return level, details
 		end
 
@@ -596,7 +596,8 @@ c = WVCrawler::Crawler.new "http://myneta.info/ls2009/"
 #c.printcrawllist
 #c.spit_profile(c.crawl_candidate(c.load_candidate_link_random))
 begin
-retry_links = YAML.load_file("./retry.yml")
+retry_file = "./retry.yml"
+retry_links = YAML.load_file(retry_file)
 new_retry_links = []
 begin
 shoud_retry = false
@@ -620,6 +621,7 @@ c.load_candidate_links.each_with_index do |l, idx|
 end
 end
 puts "Retry List", new_retry_links.to_yaml
+File.open(retry_file, 'w') {|f| f.write(new_retry_links.to_yaml)}
 c.write_constituency_and_state
 end
 

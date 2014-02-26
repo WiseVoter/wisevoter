@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  188,  34
-    details: India Penal Code Case No GR-969/2004 ,Date 29.08.2005 The court of Prabhakar singh ,Judicial Magistrate ,Ranchi 
+    details: "India Penal Code Case No GR-969/2004 ,Date 29.08.2005 The court of Prabhakar singh ,Judicial Magistrate ,Ranchi" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ Yashwant Sinha (born November 6, 1937 in Patna) is an Indian politician and a fo
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -94,4 +94,4 @@ Wikipedia References
 [wiki3]: http://news.bbc.co.uk/2/hi/south_asia/2077483.stm
 
 
-{% include references.html %}
+{% include "references.html" %}

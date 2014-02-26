@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 467, 468, 469, 201, 34
-    details: Crime no.69/94, case no.26/96, Bagsewaniya Police Station, Bhopal, Honble JMFC Bhopal, Cognizance date 29/08/97 
+    details: "Crime no.69/94, case no.26/96, Bagsewaniya Police Station, Bhopal, Honble JMFC Bhopal, Cognizance date 29/08/97" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

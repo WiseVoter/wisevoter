@@ -40,22 +40,22 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 341, 353, 332
-    details: FRI NO.556.92 
+    details: "FRI NO.556.92" 
   - crime: accussed
     ipc: 353, 186, 34
-    details: FRI NO.1077,98 
+    details: "FRI NO.1077,98" 
   - crime: accussed
     ipc: 147, 148, 149, 353, 332, 186
-    details: FRI NO.824,98 
+    details: "FRI NO.824,98" 
   - crime: accussed
     ipc: 186, 353, 332, 147, 148, 149, 34
-    details: FRI NO.1047,2001 
+    details: "FRI NO.1047,2001" 
   - crime: accussed
     ipc: 147, 148, 149, 353, 186, 341, 34
-    details: FRI NO.485,92 
+    details: "FRI NO.485,92" 
   - crime: accussed
     ipc: 147, 323, 427
-    details: FRI NO.292,02 
+    details: "FRI NO.292,02" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -65,26 +65,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  324,  427,  149
-    details: CC No.-731/2005,Cr. No.140/2002,P.S.Reinbazar Hyderabad Andhra Pradesh,VIII Addl. Chief Metropolitan Magistrate,Hyderabad,14/10/2005,Pending Charges yet to be Framed Next Date.4/6/09 
+    details: "CC No.-731/2005,Cr. No.140/2002,P.S.Reinbazar Hyderabad Andhra Pradesh,VIII Addl. Chief Metropolitan Magistrate,Hyderabad,14/10/2005,Pending Charges yet to be Framed Next Date.4/6/09" 
   - crime: accussed
     ipc: 147,  427,  109,  114,  295,  153A,  149
-    details: Sec.3 and 4 of PDPP Act and Criminal Law Amendment Act.Section 7((1)a,CC No.112/2007,Cr. No.27/06,P.S.Hussaini Alam Hyderabad Andhra Pradesh,Chief Matropolitan Magistrate,Hyderabad,12/02/2007,Pending Charges yet to be Framed,Next Date 26/03/09 
+    details: "Sec.3 and 4 of PDPP Act and Criminal Law Amendment Act.Section 7((1)a,CC No.112/2007,Cr. No.27/06,P.S.Hussaini Alam Hyderabad Andhra Pradesh,Chief Matropolitan Magistrate,Hyderabad,12/02/2007,Pending Charges yet to be Framed,Next Date 26/03/09" 
   - crime: accussed
     ipc: 147,  448,  427,  149
-    details: CC No.649/2007,Cr. No.73/2000,P.S.Golconda Hyderabad Andhra Pradesh,VI Addl. Chief Matropolitan Magistrate,Hyderabad,03/02/2001,Pending Charges yet to be Framed,Next Date 4/4/09 
+    details: "CC No.649/2007,Cr. No.73/2000,P.S.Golconda Hyderabad Andhra Pradesh,VI Addl. Chief Matropolitan Magistrate,Hyderabad,03/02/2001,Pending Charges yet to be Framed,Next Date 4/4/09" 
   - crime: accussed
     ipc: 147,  153A,  353,  290,  295A,  186,  341,  504,  506
-    details: Section 7 of Criminal Amendment Act,CC No.-194/2008,Cr. No.130/2005,P.S.Patancheru Medak Andhra Pradesh,Spl. Prohibition and excise Judicial 1st Class Magistrate at Sangareddy,13/06/2005,Pending Appearances Charges yet to be Framed Next Date 02/04/2009 
+    details: "Section 7 of Criminal Amendment Act,CC No.-194/2008,Cr. No.130/2005,P.S.Patancheru Medak Andhra Pradesh,Spl. Prohibition and excise Judicial 1st Class Magistrate at Sangareddy,13/06/2005,Pending Appearances Charges yet to be Framed Next Date 02/04/2009" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,23 +72,23 @@ Asaduddin Owaisi ((1969-05-13)May 13, 1969 Hyderabad, Andhra Pradesh, India) is 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -101,4 +101,4 @@ Wikipedia References
 [wiki2]: http://www.outlookindia.com/article.aspx?281958
 
 
-{% include references.html %}
+{% include "references.html" %}

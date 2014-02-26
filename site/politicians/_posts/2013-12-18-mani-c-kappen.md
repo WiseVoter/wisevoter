@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B,  465,  468,  471,  34
-    details: S.T.No. 803/2006 
+    details: "S.T.No. 803/2006" 
   - crime: accussed
     ipc: 
-    details: S.T.NO. 804/2004 
+    details: "S.T.NO. 804/2004" 
   - crime: accussed
     ipc: 
-    details: C.C. No. 68/2004 
+    details: "C.C. No. 68/2004" 
   - crime: accussed
     ipc: 
-    details: C.C. No. 1689/01 
+    details: "C.C. No. 1689/01" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

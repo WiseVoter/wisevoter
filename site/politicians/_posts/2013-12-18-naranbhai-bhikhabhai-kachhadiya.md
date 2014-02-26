@@ -7,7 +7,7 @@ profile:
   state: Gujarat
   education: 
     level: 5th Pass
-    details: passed 6th std in the year 1965 from shree k.k high school and k.k ghelawani higher secondary school,sawar kundla district: amreli
+    details: passed 6th std in the year 1965 from shree k.k high school and k.k ghelawani higher secondary school,sawar kundla district amreli
   photo: 
   sex: 
   caste: 
@@ -47,26 +47,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

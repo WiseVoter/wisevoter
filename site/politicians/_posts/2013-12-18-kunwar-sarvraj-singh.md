@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147 149 186 188 332 353
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 353
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 352, 506
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 323, 504, 506, 427
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 188
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -65,23 +65,23 @@ He lost the 14 Loksabha election to Ms Menka Gandhi from a difference of over 25
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -90,4 +90,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

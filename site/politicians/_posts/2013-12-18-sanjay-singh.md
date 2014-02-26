@@ -50,23 +50,23 @@ Singh has held various ministerial portfolios and committee positions over the y
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 [wiki3]: http://articles.timesofindia.indiatimes.com/2003-08-21/india/27200369_1_amethi-lok-sabha-constituency-gandhi-family-rajiv-gandhi
 
 
-{% include references.html %}
+{% include "references.html" %}

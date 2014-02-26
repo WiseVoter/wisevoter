@@ -40,94 +40,94 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2359/SSO5 
+    details: "N. I ACT- SEC-138, CASE NO. -2359/SSO5" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -909 
+    details: "N. I ACT- SEC-138, CASE NO. -909" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. - 3995 
+    details: "N. I ACT- SEC-138, CASE NO. - 3995" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -3889 
+    details: "N. I ACT- SEC-138, CASE NO. -3889" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -1202 
+    details: "N. I ACT- SEC-138, CASE NO. -1202" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2983 
+    details: "N. I ACT- SEC-138, CASE NO. -2983" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2338 
+    details: "N. I ACT- SEC-138, CASE NO. -2338" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -910 
+    details: "N. I ACT- SEC-138, CASE NO. -910" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2304 
+    details: "N. I ACT- SEC-138, CASE NO. -2304" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2303 
+    details: "N. I ACT- SEC-138, CASE NO. -2303" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -3776 
+    details: "N. I ACT- SEC-138, CASE NO. -3776" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2923 
+    details: "N. I ACT- SEC-138, CASE NO. -2923" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -3783 
+    details: "N. I ACT- SEC-138, CASE NO. -3783" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2459 
+    details: "N. I ACT- SEC-138, CASE NO. -2459" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2358 
+    details: "N. I ACT- SEC-138, CASE NO. -2358" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -2943 
+    details: "N. I ACT- SEC-138, CASE NO. -2943" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -238 
+    details: "N. I ACT- SEC-138, CASE NO. -238" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. 668 
+    details: "N. I ACT- SEC-138, CASE NO. 668" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -669 
+    details: "N. I ACT- SEC-138, CASE NO. -669" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -670 
+    details: "N. I ACT- SEC-138, CASE NO. -670" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -671 
+    details: "N. I ACT- SEC-138, CASE NO. -671" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -160 
+    details: "N. I ACT- SEC-138, CASE NO. -160" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -5876 
+    details: "N. I ACT- SEC-138, CASE NO. -5876" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -114 
+    details: "N. I ACT- SEC-138, CASE NO. -114" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -115 
+    details: "N. I ACT- SEC-138, CASE NO. -115" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -3107 
+    details: "N. I ACT- SEC-138, CASE NO. -3107" 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. -3992 
+    details: "N. I ACT- SEC-138, CASE NO. -3992" 
   - crime: accussed
     ipc: 406, 420, 465, 467, 468, 471, 34
-    details: 46/T/W/04 
+    details: "46/T/W/04" 
   - crime: accussed
     ipc: 
-    details: UNDER F. EX. REGULATION ACT -68/1, CASE NO.    341/CW/97, 
+    details: "UNDER F. EX. REGULATION ACT -68/1, CASE NO.    341/CW/97," 
   - crime: accussed
     ipc: 
-    details: N. I ACT- SEC-138, CASE NO. - 2410/97 
+    details: "N. I ACT- SEC-138, CASE NO. - 2410/97" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -137,26 +137,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

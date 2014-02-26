@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188,  171A
-    details: 25(1-B)A26-26,30,35 133,135 PR Act Case no. 29/05 
+    details: "25(1-B)A26-26,30,35 133,135 PR Act Case no. 29/05" 
   - crime: accussed
     ipc: 
-    details: Case no. 345/89, 25 Arms Act 
+    details: "Case no. 345/89, 25 Arms Act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -64,23 +64,23 @@ Kailash Nath Singh Yadav (born 3 July 1957) is an Indian politician for the Chan
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -89,4 +89,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

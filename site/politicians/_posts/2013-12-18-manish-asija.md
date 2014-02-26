@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 332, 339, 353, 336, 427, 436
-    details: 7 C.L.A. ACT 
+    details: "7 C.L.A. ACT" 
   - crime: accussed
     ipc: 147, 336, 435, 353, 427
-    details: 7 C.L.A. ACT 
+    details: "7 C.L.A. ACT" 
   - crime: accussed
     ipc: 147, 148, 149, 332, 336, 341, 353, 323, 504, 506
-    details: 7 C.L.A. ACT 
+    details: "7 C.L.A. ACT" 
   - crime: accussed
     ipc: 147, 148, 149, 307, 332, 353, 336, 436, 504, 506
-    details: 7 C.L.A. ACT, 3/4 STATE PROPATI DAMGE ACT. 
+    details: "7 C.L.A. ACT, 3/4 STATE PROPATI DAMGE ACT." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -69,26 +69,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

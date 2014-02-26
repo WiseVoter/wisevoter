@@ -32,7 +32,7 @@ Karimganj Lok Sabha constituency is one of the 14 Lok Sabha constituencies in As
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

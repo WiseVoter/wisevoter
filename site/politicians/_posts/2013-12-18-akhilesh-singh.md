@@ -40,82 +40,82 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 395,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 25(1-B) 26,29, 35 arms Act 
+    details: "25(1-B) 26,29, 35 arms Act" 
   - crime: accussed
     ipc: 399,  402,  353, 307,
-    details: 26,27,29,35 Arms ACT 
+    details: "26,27,29,35 Arms ACT" 
   - crime: accussed
     ipc: 384, 386, 34,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 364, 342, 302, 201, 34
-    details: 3/4 Sc/St Act 
+    details: "3/4 Sc/St Act" 
   - crime: accussed
     ipc: 302
-    details: 27 Arms Act 
+    details: "27 Arms Act" 
   - crime: accussed
     ipc: 147, 148, 149, 353, 307
-    details: 27 Arms Act 
+    details: "27 Arms Act" 
   - crime: accussed
     ipc: 147, 148, 149, 353, 307
-    details: 27 Arms Act 
+    details: "27 Arms Act" 
   - crime: accussed
     ipc: 353, 307, 34
-    details: 27 Arms Act 
+    details: "27 Arms Act" 
   - crime: accussed
     ipc: 353, 307
-    details: 27 Arms Act 
+    details: "27 Arms Act" 
   - crime: accussed
     ipc: 384, 34,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 406, 467, 468, 471, 420, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 324, 326, 307, 353, 333, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 420, 467, 468, 471, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 279, 337, 338,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 307
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147, 148, 149, 307
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 325, 307, 109
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 25(1-B) 26, 35 arms Act 
+    details: "25(1-B) 26, 35 arms Act" 
   - crime: accussed
     ipc: 302, 34
-    details: 27 Arms Act 
+    details: "27 Arms Act" 
   - crime: accussed
     ipc: 147, 148, 149, 353, 307
-    details: 25(1-B) 26(ii),35 ,27arms Act 
+    details: "25(1-B) 26(ii),35 ,27arms Act" 
   - crime: accussed
     ipc: 307, 34
-    details: 27 Arms Act 
+    details: "27 Arms Act" 
   - crime: accussed
     ipc: 147, 149, 323, 337, 34
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 384, 34, 120B
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 
-    details: 25(1-B)a, 26, 35 arms Act 
+    details: "25(1-B)a, 26, 35 arms Act" 
   - crime: accussed
     ipc: 399, 402, 414,
-    details: 25(1-B) 26,29, 35 arms Act 
+    details: "25(1-B) 26,29, 35 arms Act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -125,26 +125,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

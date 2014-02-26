@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  149,  153A,  153B,  505
-    details: Case No. 768/2003, Fir No. 198/1992, Ps. Ram Janam bhumi, Dist. Faizabad(UP)Convert Into RC No.1(S) 93, SIC IV . 
+    details: "Case No. 768/2003, Fir No. 198/1992, Ps. Ram Janam bhumi, Dist. Faizabad(UP)Convert Into RC No.1(S) 93, SIC IV ." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -60,26 +60,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

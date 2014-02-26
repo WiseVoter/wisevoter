@@ -50,19 +50,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  427,  380,  448
-    details: Case No 79/05 
+    details: "Case No 79/05" 
   - crime: accussed
     ipc: 188, 34
-    details: Case No. 137/09 dt 09/04/09 
+    details: "Case No. 137/09 dt 09/04/09" 
   - crime: accussed
     ipc: 
-    details: 121(4) W.B. MUNICIPAL ACT Kotwali P.S.GDE No.2831/09 Dated 28.03.09 
+    details: "121(4) W.B. MUNICIPAL ACT Kotwali P.S.GDE No.2831/09 Dated 28.03.09" 
   - crime: accussed
     ipc: 
-    details: 121(4) W.B. MUNICIPAL ACT Case no GDE NO.2980/09 Dated 31.03.09 
+    details: "121(4) W.B. MUNICIPAL ACT Case no GDE NO.2980/09 Dated 31.03.09" 
   - crime: accussed
     ipc: 
-    details: 121(4) W.B. MUNICIPAL ACT  Case no.Kotwali P.S.GDE NO.42/09 Dated 01.04.09 
+    details: "121(4) W.B. MUNICIPAL ACT  Case no.Kotwali P.S.GDE NO.42/09 Dated 01.04.09" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,26 +72,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

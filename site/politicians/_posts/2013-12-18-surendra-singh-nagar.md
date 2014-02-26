@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 37 Mandi Adhiniyam 1964,C.J.M.Bulandshahar,Case No.4209/05 
+    details: "37 Mandi Adhiniyam 1964,C.J.M.Bulandshahar,Case No.4209/05" 
   - crime: accussed
     ipc: 392,  411,  406
-    details: C.J.M.Bulandshahar,Case No.203/07,F.R.No.743/07 
+    details: "C.J.M.Bulandshahar,Case No.203/07,F.R.No.743/07" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,23 +56,23 @@ Surendra Singh Nagar is an Indian Politician and is Member of Parliament of the 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -87,4 +87,4 @@ Wikipedia References
 [wiki3]: http://www.archive.india.gov.in/govt/loksabhampbiodata.php?mpcode=4269
 
 
-{% include references.html %}
+{% include "references.html" %}

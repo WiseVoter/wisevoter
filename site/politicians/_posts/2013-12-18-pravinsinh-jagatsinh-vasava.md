@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 452,  392,  427,  506(2),  114
-    details: FIR NO. I-32/04, MANGROLA POLICE STATION, CIVIL COURT, MANGROL 
+    details: "FIR NO. I-32/04, MANGROLA POLICE STATION, CIVIL COURT, MANGROL" 
   - crime: accussed
     ipc: 337,  504,  506(2),  427,  114
-    details: FIR NO. I-31/05, MANGROL POLICE STATION, CIVIL COURT, MANGROL. CASE NO.703/05 
+    details: "FIR NO. I-31/05, MANGROL POLICE STATION, CIVIL COURT, MANGROL. CASE NO.703/05" 
   - crime: accussed
     ipc: 143,  452,  379,  363,  506
-    details: FIR NO. I-202/03, SELVAS POLICE STATION, JUD. MAG. F.C., SELVAS COURT 
+    details: "FIR NO. I-202/03, SELVAS POLICE STATION, JUD. MAG. F.C., SELVAS COURT" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

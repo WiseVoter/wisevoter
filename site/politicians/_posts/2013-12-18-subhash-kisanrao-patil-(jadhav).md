@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 336, 427, 109, 115, 117,
-    details: sec-3 DPP ACT. 
+    details: "sec-3 DPP ACT." 
   - crime: accussed
     ipc: 336, 337, 427, 109, 118, 119,
-    details: SEC-3 DPP ACT 
+    details: "SEC-3 DPP ACT" 
   - crime: accussed
     ipc: 336, 427, 34, 109,
-    details: SEC 3, 4 DPP ACT 
+    details: "SEC 3, 4 DPP ACT" 
   - crime: accussed
     ipc: 143, 341, 109, 117,
-    details: 135 BP ACT 
+    details: "135 BP ACT" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

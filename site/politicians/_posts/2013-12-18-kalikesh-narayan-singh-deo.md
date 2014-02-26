@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 448, 427, 294, 506, 34
-    details: Bolangir Town P.S. Case No. 33(2)/2009, Police Station Bolangir Town, Dist. Balangir, State Orissa, Corresponding to G.R. Case No. 95/2009 is pending against me in the court of S.D.J.M Bolangir in which I got anticipatory bail from hon'ble high court of orissa  on 26.02.2009 in BLAPL No. 2095/2009, but no cognizance has yet been taken against me in the said case. the matter is under investigation. 
+    details: "Bolangir Town P.S. Case No. 33(2)/2009, Police Station Bolangir Town, Dist. Balangir, State Orissa, Corresponding to G.R. Case No. 95/2009 is pending against me in the court of S.D.J.M Bolangir in which I got anticipatory bail from hon'ble high court of orissa  on 26.02.2009 in BLAPL No. 2095/2009, but no cognizance has yet been taken against me in the said case. the matter is under investigation." 
   - crime: accussed
     ipc: 294, 506
-    details: Saintala P.S. Case No. 86/2007, 3 of SC and ST Act. was initiated against me and the said case has been ended in final form by the Police/Investigation officer on 19.07.2008 
+    details: "Saintala P.S. Case No. 86/2007, 3 of SC and ST Act. was initiated against me and the said case has been ended in final form by the Police/Investigation officer on 19.07.2008" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,23 +66,23 @@ His father, Ananga Udaya Singh Deo, and his great-grandfather, Rajendra Narayan 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -93,4 +93,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4419
 
 
-{% include references.html %}
+{% include "references.html" %}

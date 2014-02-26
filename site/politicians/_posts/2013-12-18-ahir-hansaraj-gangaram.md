@@ -50,94 +50,94 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 149, 136, 151, 152, 506, 332, 427, 153, 341, 436
-    details: 135,294,337,427,131,143,188,341,186 B.P.Act and D.P.P Act 
+    details: "135,294,337,427,131,143,188,341,186 B.P.Act and D.P.P Act" 
   - crime: accussed
     ipc: 
-    details: 45/1987 
+    details: "45/1987" 
   - crime: accussed
     ipc: 
-    details: 12467/1990 
+    details: "12467/1990" 
   - crime: accussed
     ipc: 
-    details: 8600/2000 
+    details: "8600/2000" 
   - crime: accussed
     ipc: 
-    details: 6635/1988 
+    details: "6635/1988" 
   - crime: accussed
     ipc: 
-    details: 1239/2000 
+    details: "1239/2000" 
   - crime: accussed
     ipc: 
-    details: 3901/2000 
+    details: "3901/2000" 
   - crime: accussed
     ipc: 
-    details: 4270/2000 
+    details: "4270/2000" 
   - crime: accussed
     ipc: 
-    details: 2998/2001 
+    details: "2998/2001" 
   - crime: accussed
     ipc: 
-    details: 1003/2002 
+    details: "1003/2002" 
   - crime: accussed
     ipc: 
-    details: 10218/2004 
+    details: "10218/2004" 
   - crime: accussed
     ipc: 
-    details: 9492/2004 
+    details: "9492/2004" 
   - crime: accussed
     ipc: 
-    details: 436/2004 
+    details: "436/2004" 
   - crime: accussed
     ipc: 
-    details: 7683/2000 
+    details: "7683/2000" 
   - crime: accussed
     ipc: 
-    details: 10564/2005 
+    details: "10564/2005" 
   - crime: accussed
     ipc: 
-    details: 2757/2000 
+    details: "2757/2000" 
   - crime: accussed
     ipc: 
-    details: 2951/2001 
+    details: "2951/2001" 
   - crime: accussed
     ipc: 
-    details: 1885/2002 
+    details: "1885/2002" 
   - crime: accussed
     ipc: 
-    details: 14965/2003 
+    details: "14965/2003" 
   - crime: accussed
     ipc: 
-    details: 14833/2003 
+    details: "14833/2003" 
   - crime: accussed
     ipc: 
-    details: 328/2000 
+    details: "328/2000" 
   - crime: accussed
     ipc: 
-    details: 326/2000 
+    details: "326/2000" 
   - crime: accussed
     ipc: 
-    details: 3748/1999 
+    details: "3748/1999" 
   - crime: accussed
     ipc: 
-    details: 5/2000 
+    details: "5/2000" 
   - crime: accussed
     ipc: 
-    details: 427/2001 
+    details: "427/2001" 
   - crime: accussed
     ipc: 
-    details: 253/1998 
+    details: "253/1998" 
   - crime: accussed
     ipc: 
-    details: 640/1998 
+    details: "640/1998" 
   - crime: accussed
     ipc: 
-    details: 5795/2002 
+    details: "5795/2002" 
   - crime: accussed
     ipc: 
-    details: 2899/2007 
+    details: "2899/2007" 
   - crime: accussed
     ipc: 
-    details: 2539/2007 
+    details: "2539/2007" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -147,26 +147,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B,  302
-    details: 25 Arms Act, Case No. 364/96 
+    details: "25 Arms Act, Case No. 364/96" 
   - crime: accussed
     ipc: 147,  353,  504,  506
-    details: 7 Criminal Amendment Act, Case No. 161/2003 
+    details: "7 Criminal Amendment Act, Case No. 161/2003" 
   - crime: accussed
     ipc: 143,  353,  392,  504,  506
-    details: Case No. 450/2003 
+    details: "Case No. 450/2003" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

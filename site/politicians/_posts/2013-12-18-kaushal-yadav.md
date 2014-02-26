@@ -40,25 +40,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 147,  148,  149,  307, 323, 341, 427, 342, 337, 353, 504,
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 420, 467, 468, 471, 120(B)
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 420, 467, 468, 471, 120(B)
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 420, 379, 120(B), 411
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 386, 120(B)
-    details:  
+    details: "" 
   - crime: accussed
     ipc: 188, 114, 116, 341, 342, 120(B), 131, 133
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -68,26 +68,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

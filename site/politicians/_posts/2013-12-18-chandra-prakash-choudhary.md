@@ -60,16 +60,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 341, 342, 323, 353, 427, 379,
-    details: Case no 284/02,03.02.06 Prakash Jha J.M.Hazaribagh 
+    details: "Case no 284/02,03.02.06 Prakash Jha J.M.Hazaribagh" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 427, 337, 332, 353,
-    details: case no283/02,04.10.05 Sri R.K.Mishra J.M.Hazari bagh 4.10.05 
+    details: "case no283/02,04.10.05 Sri R.K.Mishra J.M.Hazari bagh 4.10.05" 
   - crime: accussed
     ipc: 341, 447, 323, 506, 332, 34,
-    details: case no 244/04,13.09.04 
+    details: "case no 244/04,13.09.04" 
   - crime: accussed
     ipc: 386, 387
-    details: case no 150/04,05.08.06 
+    details: "case no 150/04,05.08.06" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -79,26 +79,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

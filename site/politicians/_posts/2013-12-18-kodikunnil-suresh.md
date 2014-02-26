@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 145, 283, 188 ,  149,
-    details: CC No 867/08 
+    details: "CC No 867/08" 
   - crime: accussed
     ipc: 
-    details: CC No 1293/07 
+    details: "CC No 1293/07" 
   - crime: accussed
     ipc: 
-    details: CC No 1567/07 
+    details: "CC No 1567/07" 
   - crime: accussed
     ipc: 
-    details: CC No 246/06 
+    details: "CC No 246/06" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,23 +72,23 @@ Kodikunnil Suresh is an Indian politician who is the Minister of State in the Mi
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -103,4 +103,4 @@ Wikipedia References
 [wiki3]: http://india.gov.in/govt/loksabhampbiodata.php?mpcode=477
 
 
-{% include references.html %}
+{% include "references.html" %}

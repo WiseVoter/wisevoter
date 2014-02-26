@@ -60,23 +60,23 @@ Daughter of Nimai Charan Bauri and Sandhya Bauri, she is a Ll.B. from Hazra Law 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -91,4 +91,4 @@ Wikipedia References
 [wiki3]: http://www.telegraphindia.com/1040207/asp/bengal/story_2871158.asp
 
 
-{% include references.html %}
+{% include "references.html" %}

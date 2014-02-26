@@ -50,37 +50,37 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 336,  353,  504,  506
-    details: Case No.627/08,Date-20.05.2009, P.S. Pawai, Dist. Ajamgarh, A.M.21 
+    details: "Case No.627/08,Date-20.05.2009, P.S. Pawai, Dist. Ajamgarh, A.M.21" 
   - crime: accussed
     ipc: 323,  504,  506
-    details: Case No.2600/06,Date-16.05.2009, P.S. Foolpur, Dist. Ajamgarh, C.J.M., Allahabad High Court proceedings by secondary withheld 
+    details: "Case No.2600/06,Date-16.05.2009, P.S. Foolpur, Dist. Ajamgarh, C.J.M., Allahabad High Court proceedings by secondary withheld" 
   - crime: accussed
     ipc: 
-    details: 3(1)(10)Sc.St. Act,Case No.1149/08,Date-28.03.2009, P.S. Didarganj, Dist. Ajamgarh, A.M.18, Allahabad High Court proceedings by secondary withheld 
+    details: "3(1)(10)Sc.St. Act,Case No.1149/08,Date-28.03.2009, P.S. Didarganj, Dist. Ajamgarh, A.M.18, Allahabad High Court proceedings by secondary withheld" 
   - crime: accussed
     ipc: 307,  147,  148,  149
-    details: Case No.118/08,Date-20.05.2009, P.S. Ahrola Dist. Ajamgarh, Special Judge Gangaster 
+    details: "Case No.118/08,Date-20.05.2009, P.S. Ahrola Dist. Ajamgarh, Special Judge Gangaster" 
   - crime: accussed
     ipc: 
-    details: 3(1) Gangster Act,Case No.27/08,Date-20.05.2009, P.S. Ahrola A.M.18 
+    details: "3(1) Gangster Act,Case No.27/08,Date-20.05.2009, P.S. Ahrola A.M.18" 
   - crime: accussed
     ipc: 
-    details: 3(1) Gangster Act,Case No.1151/08,Date-04.05.2009, J.M. 
+    details: "3(1) Gangster Act,Case No.1151/08,Date-04.05.2009, J.M." 
   - crime: accussed
     ipc: 452,  323,  504,  506
-    details: Case No.553/07,Date-01.04.2009, A.M.21 
+    details: "Case No.553/07,Date-01.04.2009, A.M.21" 
   - crime: accussed
     ipc: 323,  325,  504,  506
-    details: Case No.1023/08,Date-10.05.2009, A.S.J. IV 
+    details: "Case No.1023/08,Date-10.05.2009, A.S.J. IV" 
   - crime: accussed
     ipc: 353,  504,  506,  323
-    details: Case No.100A/84,Date-28.03.2009, A.S.J.I Ajamgarh 
+    details: "Case No.100A/84,Date-28.03.2009, A.S.J.I Ajamgarh" 
   - crime: accussed
     ipc: 302
-    details: Case No.100B/84 
+    details: "Case No.100B/84" 
   - crime: accussed
     ipc: 302
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -93,23 +93,23 @@ Ramakant Yadav had switched from the Samajwadi Party[when?] to the Bahujan Samaj
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -118,4 +118,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

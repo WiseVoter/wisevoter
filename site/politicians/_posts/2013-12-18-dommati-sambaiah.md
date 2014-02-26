@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 341, 149
-    details: CR No: 166/2008 PS Ghanpur, 
+    details: "CR No- 166/2008 PS Ghanpur," 
   - crime: accussed
     ipc: 143, 341, 149
-    details: Geesukonda 
+    details: "Geesukonda" 
   - crime: accussed
     ipc: 147, 447, 448, 427, 149
-    details: 99/2008 Subedari 
+    details: "99/2008 Subedari" 
   - crime: accussed
     ipc: 147, 447, 427, 506, 149
-    details: 100/08 Subedari 
+    details: "100/08 Subedari" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

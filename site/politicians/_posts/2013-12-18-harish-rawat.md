@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 499, 500, 120B
-    details: ACMM,New Delhi  ccno.455/1/95,20.11.2006 
+    details: "ACMM,New Delhi  ccno.455/1/95,20.11.2006" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ Harish Rawat a politician from Indian National Congress party and a member of th
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -88,4 +88,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

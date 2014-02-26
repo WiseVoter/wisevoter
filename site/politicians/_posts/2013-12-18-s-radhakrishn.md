@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  147,  148,  341,  299b,  427,  324,  149
-    details: Kollam IInd Class JM1327/200829.11.2008 
+    details: "Kollam IInd Class JM. . 1327/2008. . 29.11.2008" 
   - crime: accussed
     ipc: 341,  323,  294(b),  34
-    details: Counter Petision No.1333/2008 Police Staion, Kollam East. 
+    details: "Counter Petision No.1333/2008 Police Staion, Kollam East." 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

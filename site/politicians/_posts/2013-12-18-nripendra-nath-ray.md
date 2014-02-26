@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 447, 151, 152, 153,  332,  333,  353,  325, 326, 307, 436,  302
-    details: 3/4 PDPP Act, 9/10 NPO Act Case no.49/08,05.02.08,G.R.58/08 P.S. Dinhata Cooch behar  W.B. A.C.J.M. Dhimata ,Charge not Framed 
+    details: "3/4 PDPP Act, 9/10 NPO Act Case no.49/08,05.02.08,G.R.58/08 P.S. Dinhata Cooch behar  W.B. A.C.J.M. Dhimata ,Charge not Framed" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -60,26 +60,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

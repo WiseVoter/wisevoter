@@ -60,23 +60,23 @@ Buta Singh is a veteran Indian politician (born 21 March 1934). He was the Union
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -87,4 +87,4 @@ Wikipedia References
 [wiki1]: http://news.bbc.co.uk/2/hi/south_asia/4650474.stm
 
 
-{% include references.html %}
+{% include "references.html" %}

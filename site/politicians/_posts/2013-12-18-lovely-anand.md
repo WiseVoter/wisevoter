@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188, 447, 427, 379
-    details: 135, 131 R.P.ACT 27 ARMS ACT, Case No.54/2000, P.S. Saharsha, Dist. Saharsha, Bihar, Ist Class J.M.Saharasha, Dt.6.12.2000 
+    details: "135, 131 R.P.ACT 27 ARMS ACT, Case No.54/2000, P.S. Saharsha, Dist. Saharsha, Bihar, Ist Class J.M.Saharasha, Dt.6.12.2000" 
   - crime: accussed
     ipc: 147, 148, 149, 353, 506, 380, 225A, 379
-    details: Case No.56/2000, P.S. Sahiyara, Dist. Sitamadi, Bihar, Judicial Magistrate First Class, Sitamadi 
+    details: "Case No.56/2000, P.S. Sahiyara, Dist. Sitamadi, Bihar, Judicial Magistrate First Class, Sitamadi" 
   - crime: accussed
     ipc: 147, 148, 149, 323, 351, 506, 224, 225
-    details: Case NO.157/2000, P.S. Majorganj, Dist Sitamadi, Bihar, Judicial Magistrate First Class, Sitamadi 
+    details: "Case NO.157/2000, P.S. Majorganj, Dist Sitamadi, Bihar, Judicial Magistrate First Class, Sitamadi" 
   - crime: accussed
     ipc: 147, 341, 342, 353, 447, 188, 393
-    details: 133, 135 R.P.ACT 27 ARMS ACT, Case No.18/04 
+    details: "133, 135 R.P.ACT 27 ARMS ACT, Case No.18/04" 
   - crime: accussed
     ipc: 143, 149, 447
-    details: Case No.33/04 
+    details: "Case No.33/04" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

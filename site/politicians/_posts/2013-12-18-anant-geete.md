@@ -50,7 +50,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: 37(9) 13, 30, 134 of B.P. Act and (3)of  P.P.D. Act 
+    details: "37(9) 13, 30, 134 of B.P. Act and (3)of  P.P.D. Act" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -63,23 +63,23 @@ He had earlier represented Ratnagiri constituency in Maharashtra four times duri
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -88,4 +88,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: CC NO 261/2008 UNDER SECTION 138 OF NI ACT READ WITH SECTION 200 OF CODE OF Cr PC OFFENCE  UNDER CHEQUE BOUNCE HON'BLE CIVIL JUDGE (Jr.Dn) JMFC DEVANAHALLI DATE:25-2-08 
+    details: "CC NO 261/2008 UNDER SECTION 138 OF NI ACT READ WITH SECTION 200 OF CODE OF Cr PC OFFENCE  UNDER CHEQUE BOUNCE HON'BLE CIVIL JUDGE (Jr.Dn) JMFC DEVANAHALLI DATE-25-2-08" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -50,26 +50,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

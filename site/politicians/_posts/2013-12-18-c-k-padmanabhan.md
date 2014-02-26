@@ -40,10 +40,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143,  147,  149,  283
-    details: 38 and 52 of K.P. Act,  Blocking road without Informing Police JPCM No3ST No 1050/2008	06/12/2008 
+    details: "38 and 52 of K.P. Act,  Blocking road without Informing Police . . JPCM No3. . ST No 1050/2008	06/12/2008" 
   - crime: accussed
     ipc: 
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,26 +53,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

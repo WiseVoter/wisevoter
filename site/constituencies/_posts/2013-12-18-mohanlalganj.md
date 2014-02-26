@@ -25,7 +25,7 @@ Mohanlalganj is a Lok Sabha parliamentary constituency in Lucknow district, Utta
 
 
 ## Election History
-{% include constituency_election_history.html %}
+{% include "constituency_election_history.html" %}
 
 ##Reference
 Wikipedia References

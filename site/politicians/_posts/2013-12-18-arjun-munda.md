@@ -60,10 +60,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 188
-    details: 126 REPRESENTATION OF  THE PEOPLE ACT 
+    details: "126 REPRESENTATION OF  THE PEOPLE ACT" 
   - crime: accussed
     ipc: 147 148 323 427 435
-    details:  
+    details: "" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -76,23 +76,23 @@ After schooling in a local school, he graduated from Ranchi university and he ha
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -105,4 +105,4 @@ Wikipedia References
 [wiki2]: http://164.100.47.132/LssNew/Members/died.aspx
 
 
-{% include references.html %}
+{% include "references.html" %}

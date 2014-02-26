@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 332, 323, 504
-    details: Case no.1448/99 cr.no.3686/2000 ,Gov vs Bhola Pandey Congizance by  Chief Judicial Magistrate court Balia 
+    details: "Case no.1448/99 cr.no.3686/2000 ,Gov vs Bhola Pandey Congizance by  Chief Judicial Magistrate court Balia" 
   - crime: accussed
     ipc: 353, 452, 147
-    details: Case no.1449/99 3363/2000 p.s.Kotwali Balia Gov vs Bhola Pandey Congizance by Chief Judicial Magistrate court Balia 
+    details: "Case no.1449/99 3363/2000 p.s.Kotwali Balia Gov vs Bhola Pandey Congizance by Chief Judicial Magistrate court Balia" 
   - crime: accussed
     ipc: 384
-    details: CASE NO.28/1996 cr.no.429/82 Gov vs Bhola Pandey P.S.Kotwali  cognizance by Chief Judicial Magistrate court  Balia 
+    details: "CASE NO.28/1996 cr.no.429/82 Gov vs Bhola Pandey P.S.Kotwali  cognizance by Chief Judicial Magistrate court  Balia" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 
-    details: PR ACT 126B/126BGowda P.S.Case no.8/2005 
+    details: "PR ACT 126B/126BGowda P.S.Case no.8/2005" 
   - crime: accussed
     ipc: 147, 447, 341
-    details: Chief Judicial Magistrate Giridih Case no.59/99 
+    details: "Chief Judicial Magistrate Giridih Case no.59/99" 
   - crime: accussed
     ipc: 147, 149,  448, 427, 337, 380, 353
-    details: Case no.151/92 Giridih Chief Judicial Magistrate 
+    details: "Case no.151/92 Giridih Chief Judicial Magistrate" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

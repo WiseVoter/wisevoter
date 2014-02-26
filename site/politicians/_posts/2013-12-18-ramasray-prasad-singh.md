@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  149,  302,
-    details: 27 ARMS Act 
+    details: "27 ARMS Act" 
   - crime: accussed
     ipc: 399,  402,  353,  307,
-    details: 25(1-A)26, 27, 35 Aram Act 
+    details: "25(1-A)26, 27, 35 Aram Act" 
   - crime: accussed
     ipc: 134,
-    details: 3 a(b) 17(d) 
+    details: "3 a(b) 17(d)" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

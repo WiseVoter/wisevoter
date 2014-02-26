@@ -50,16 +50,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 448,  294,  355,  34
-    details: Case No.-G.R 398/92, House trespass and abusing in obscence language and  assault or criminal force with intend to dishonor a person otherwise than on gave and sudden provocation , Dated 24.02.1993, SDJM Dharamgarh 
+    details: "Case No.-G.R 398/92, House trespass and abusing in obscence language and  assault or criminal force with intend to dishonor a person otherwise than on gave and sudden provocation , Dated 24.02.1993, SDJM Dharamgarh" 
   - crime: accussed
     ipc: 143,  283,  186
-    details: Case No.-G.R 1/2004, Being member of an unlawful assembly causing danger, obstruction or injury in any public way or line of navigation and obstructing public servant in discharge of his public punction, Dated 11.10.2004, SDJM Bhawanipatna 
+    details: "Case No.-G.R 1/2004, Being member of an unlawful assembly causing danger, obstruction or injury in any public way or line of navigation and obstructing public servant in discharge of his public punction, Dated 11.10.2004, SDJM Bhawanipatna" 
   - crime: accussed
     ipc: 
-    details: 112,123 M.V. Act,Case No.-U/C 24/86, Whoever Contravenes any provision of M.V. Act. or Rule, Regulation or notification made there under shall if  no penalty is provided for the offence be punishable and using vehicle without registration, Additional Munsiff Umerkote, Dated 15.12.1989 
+    details: "112,123 M.V. Act,Case No.-U/C 24/86, Whoever Contravenes any provision of M.V. Act. or Rule, Regulation or notification made there under shall if  no penalty is provided for the offence be punishable and using vehicle without registration, Additional Munsiff Umerkote, Dated 15.12.1989" 
   - crime: accussed
     ipc: 
-    details: 112,125 M.V. Act,Case No.-U/I 10/89, Whoever contravene any provision of M.V. act. or rule, regulation or notification made there under shall if no penalty is provide for the offence be punishable and driving a uninsured vehicle, JMFC Kharia, 17.01.1989 
+    details: "112,125 M.V. Act,Case No.-U/I 10/89, Whoever contravene any provision of M.V. act. or rule, regulation or notification made there under shall if no penalty is provide for the offence be punishable and driving a uninsured vehicle, JMFC Kharia, 17.01.1989" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,23 +72,23 @@ Das graduated from the Sambalpur University and, with a background in Law, worke
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -99,4 +99,4 @@ Wikipedia References
 [wiki1]: http://164.100.47.132/LssNew/Members/Biography.aspx?mpsno=4426
 
 
-{% include references.html %}
+{% include "references.html" %}

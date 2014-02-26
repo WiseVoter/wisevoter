@@ -40,16 +40,16 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 392, 504, 506, 323
-    details: Criminal No 53/04 
+    details: "Criminal No 53/04" 
   - crime: accussed
     ipc: 364,  120B
-    details: Criminal No 335/07 Police Station Sadarpur Dost Sitapur 
+    details: "Criminal No 335/07 Police Station Sadarpur Dost Sitapur" 
   - crime: accussed
     ipc: 147, 148, 504, 506, 352
-    details: Criminal Case No 730/07, Police Stataion Mahmudabad Sitapur 
+    details: "Criminal Case No 730/07, Police Stataion Mahmudabad Sitapur" 
   - crime: accussed
     ipc: 147, 148, 504, 506, 323, 352
-    details: Criminal No 731/07,Police Station  Mahmura, Dist Sitapur(Acquitted Case- (1)Case No 71/91 Police Station Sadarpur IPC 47,148,436,353,364) 
+    details: "Criminal No 731/07,Police Station  Mahmura, Dist Sitapur(Acquitted Case- (1)Case No 71/91 Police Station Sadarpur IPC 47,148,436,353,364)" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -59,26 +59,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 144,  341,  353,   504
-    details: P.S Case No 15 of 2003 Date 7-02-03 Poriayahat Dist Godda Jharkhand 1st Class Judicial Magistrate 13-10-2003 Cogningence Substance of Accusation Explain On 10-09-2004 
+    details: "P.S Case No 15 of 2003 Date 7-02-03 Poriayahat Dist Godda Jharkhand 1st Class Judicial Magistrate 13-10-2003 Cogningence Substance of Accusation Explain On 10-09-2004" 
   - crime: accussed
     ipc: 188
-    details: Shari Arbind Kumar-21 Class Judicial Magistrate Jamshedpur Case No G.R.No 1368-99 185-99 Date 09-08-99, Date of Order Of the Court Cognizance 06-09-2006 (Not Available Disposed C.J.M.B.S.City Bokaro,B.S City P.S Case No 2/2003,Date of Order Of the Court Cognizance Not Available However Bail Was Grantd On 10-01-03 No Charge Sheet Has Been Filed323, 342, 504, 347, 348 , 34 (2)Add. Session Judge Giridih Fir No 3(4)/75 P.S Pirtand Date of Order Of the Court Cognizance 10-01-2005147, 148, 307, 302, 201(3)S.D.J.M Jamtara G.R 30/75 P.S No 7-75 Date 31-01-75 Date of Order Of the Court Cognizance 06-09-86148, 149, 302, 436, 429 
+    details: "Shari Arbind Kumar-21 Class Judicial Magistrate Jamshedpur Case No G.R.No 1368-99 185-99 Date 09-08-99, Date of Order Of the Court Cognizance 06-09-2006 (Not Available Disposed C.J.M.B.S.City Bokaro,B.S City P.S Case No 2/2003,Date of Order Of the Court Cognizance Not Available However Bail Was Grantd On 10-01-03 No Charge Sheet Has Been Filed323, 342, 504, 347, 348 , 34 (2)Add. Session Judge Giridih Fir No 3(4)/75 P.S Pirtand Date of Order Of the Court Cognizance 10-01-2005147, 148, 307, 302, 201(3)S.D.J.M Jamtara G.R 30/75 P.S No 7-75 Date 31-01-75 Date of Order Of the Court Cognizance 06-09-86148, 149, 302, 436, 429" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,23 +66,23 @@ On January 9, 2009, Soren was defeated in the by-election to the Tamar assembly 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -97,4 +97,4 @@ Wikipedia References
 [wiki3]: http://articles.timesofindia.indiatimes.com/2006-11-28/india/27801788_1_ajay-kumar-mehta-shailendra-bhattacharya-shashi-nath-jha
 
 
-{% include references.html %}
+{% include "references.html" %}

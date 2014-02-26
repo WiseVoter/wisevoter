@@ -50,23 +50,23 @@ Rao Birender Singh Yadav (20 February 1921-30 September 2009) a scion of Rewari 
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -77,4 +77,4 @@ Wikipedia References
 [wiki1]: http://www.indianexpress.com/news/rao-birender-singh-second-cm-of-haryana-pa/523543/
 
 
-{% include references.html %}
+{% include "references.html" %}

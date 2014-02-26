@@ -50,25 +50,25 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  148,  341,  324,  427,  307
-    details: 3(1)TNPPDL ACT,  C.NO.606/2006 
+    details: "3(1)TNPPDL ACT,  C.NO.606/2006" 
   - crime: accussed
     ipc: 147,  323,  294(b),  506(i)
-    details: C.NO.221/08 
+    details: "C.NO.221/08" 
   - crime: accussed
     ipc: 416,  419,  463,  464,  465,  471,  474
-    details: 31 Representation of People Act,C.C.NO.11/2006C.C.NO.12/2006C.C.NO. 13/2006 
+    details: "31 Representation of People Act,C.C.NO.11/2006. . C.C.NO.12/2006. . C.C.NO. 13/2006" 
   - crime: accussed
     ipc: 416,  419,  463,  464,  465,  471,  474
-    details: 31 Representation of People Act, C.C.NO. 64/2006C.C.NO. 65/2006 C.C.NO. 66/2006 
+    details: "31 Representation of People Act, C.C.NO. 64/2006. . C.C.NO. 65/2006 C.C.NO. 66/2006" 
   - crime: accussed
     ipc: 416,  419,  463,  464,  465,  471,  474
-    details: 31 Representation of People Act, C.C.NO. 308/2007C.C.NO. 309/2007C.C.NO. 310/2007 
+    details: "31 Representation of People Act, C.C.NO. 308/2007. . C.C.NO. 309/2007. . C.C.NO. 310/2007" 
   - crime: accussed
     ipc: 416,  419,  463,  464,  465,  471,  474
-    details: 31 Representation of People Act, C.C.NO. 184/2007C.C.NO. 185/2007C.C.NO. 186/2007C.C.NO. 187/2007 C.C.NO. 188/2007 C.C.NO. 189/2007 
+    details: "31 Representation of People Act, C.C.NO. 184/2007. . C.C.NO. 185/2007. . C.C.NO. 186/2007. . C.C.NO. 187/2007 C.C.NO. 188/2007 C.C.NO. 189/2007" 
   - crime: accussed
     ipc: 416,  419,  463,  464,  465,  471,  474
-    details: 31 Representation of People Act, C.C.NO. 33/2006C.C.NO. 34/2006C.C.NO. 35/2006 
+    details: "31 Representation of People Act, C.C.NO. 33/2006. . C.C.NO. 34/2006. . C.C.NO. 35/2006" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -78,26 +78,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

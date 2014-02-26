@@ -40,7 +40,7 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B,  153,  153A,  153B,   504,  501,  506,  34
-    details: crime no: 55/09; dated 7/3/2009 on the basis of complaint dated : 04/03/2009Police station : Sullia. district Dakshin Kannada 
+    details: "crime no- 55/09; dated 7/3/2009 on the basis of complaint dated - 04/03/2009. . Police station - Sullia. district Dakshin Kannada" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -53,23 +53,23 @@ Nalin Kumar Niranjan Shetty Kateel (born 7 February 1966) is an Indian politicia
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -78,4 +78,4 @@ Wikipedia References
 
 
 
-{% include references.html %}
+{% include "references.html" %}

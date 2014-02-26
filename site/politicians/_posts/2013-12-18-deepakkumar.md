@@ -50,22 +50,22 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147, 148, 149, 395, 397, 332, 188
-    details: 7 CRIMINAL LAW AMENDEMENT, Court Special C.J.M Kanpur Nagar ,Case No 1257/88, Date 28.03.1988 
+    details: "7 CRIMINAL LAW AMENDEMENT, Court Special C.J.M Kanpur Nagar ,Case No 1257/88, Date 28.03.1988" 
   - crime: accussed
     ipc: 147, 148, 336, 341, 504, 506
-    details: Court Special C.J.M Kanpur Nagar Case No 11696/97, Date 13.09.2007 
+    details: "Court Special C.J.M Kanpur Nagar Case No 11696/97, Date 13.09.2007" 
   - crime: accussed
     ipc: 
-    details: 1(4) M M R D F ACT,70 UP MINOR MINERAL RULES,Police Station Chkeri Kanpur Nagar, R NO 226/07, Case No 5244/2007 Date 23.08.2007 
+    details: "1(4) M M R D F ACT,70 UP MINOR MINERAL RULES,Police Station Chkeri Kanpur Nagar, R NO 226/07, Case No 5244/2007 Date 23.08.2007" 
   - crime: accussed
     ipc: 420, 467, 468, 448
-    details: R. NO 221/07, Case No 818, Police Station Chakeri Kanpur Nagar 
+    details: "R. NO 221/07, Case No 818, Police Station Chakeri Kanpur Nagar" 
   - crime: accussed
     ipc: 147, 148, 447, 504, 506, 427
-    details: Criminal No 622/07 Police Station  Gangaghat Unnav,Court C.J.M Unnav 
+    details: "Criminal No 622/07 Police Station  Gangaghat Unnav,Court C.J.M Unnav" 
   - crime: accussed
     ipc: 
-    details: (26)1(77) BHARTIYA VAN ADHINIYAM, Court R. No 788/08 Police Station Chhavni Kanpur Nagar 
+    details: "(26)1(77) BHARTIYA VAN ADHINIYAM, Court R. No 788/08 Police Station Chhavni Kanpur Nagar" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -75,26 +75,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

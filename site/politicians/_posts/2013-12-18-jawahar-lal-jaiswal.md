@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  336,  149,  338,  149,  353,  159,  323,  149,  332,  149
-    details: 3/4 D.G.Pr. Act and 7 Criminal Amendment Act, Case no. 128/2001, Ps. kotwali Chandola, UP 
+    details: "3/4 D.G.Pr. Act and 7 Criminal Amendment Act, Case no. 128/2001, Ps. kotwali Chandola, UP" 
   - crime: accussed
     ipc: 406,  420
-    details: Case No. 276/08, 
+    details: "Case No. 276/08," 
   - crime: accussed
     ipc: 
-    details: Case no.1011/08- 5/94 Forest Act, 6/94 Forest Act 
+    details: "Case no.1011/08- 5/94 Forest Act, 6/94 Forest Act" 
   - crime: accussed
     ipc: 
-    details: Case no. 802/08-5/94 Forest Act, 6/94 Forest Act 
+    details: "Case no. 802/08-5/94 Forest Act, 6/94 Forest Act" 
   - crime: accussed
     ipc: 304 A, 338
-    details: Case no. 430/08 
+    details: "Case no. 430/08" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

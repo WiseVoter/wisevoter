@@ -40,19 +40,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 302,  201,  506
-    details: Case No. 225/06, Criminal No. 2631/06, Ps. Bareilly, UP 
+    details: "Case No. 225/06, Criminal No. 2631/06, Ps. Bareilly, UP" 
   - crime: accussed
     ipc: 447,  506
-    details: Case No. 154/06, Criminal No. 1396/06, Ps. C.B. Ganj, Dist. Bareilly 
+    details: "Case No. 154/06, Criminal No. 1396/06, Ps. C.B. Ganj, Dist. Bareilly" 
   - crime: accussed
     ipc: 147,  148,  149,  307,  171F
-    details: Case No. 382/89, Criminal No. 1098/89, Ps. Baradri, Dist. Bareilly UP 
+    details: "Case No. 382/89, Criminal No. 1098/89, Ps. Baradri, Dist. Bareilly UP" 
   - crime: accussed
     ipc: 147,  148,  448,  504,  506,  511
-    details: Case No. 327/01, Criminal No. 953/01, Ps. and Dist. Bareilly UP 
+    details: "Case No. 327/01, Criminal No. 953/01, Ps. and Dist. Bareilly UP" 
   - crime: accussed
     ipc: 147,  148,  307
-    details: Case No. 609/89, Criminal No. 1265/89, Ps. and Dist. Bareilly UP 
+    details: "Case No. 609/89, Criminal No. 1265/89, Ps. and Dist. Bareilly UP" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -62,26 +62,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

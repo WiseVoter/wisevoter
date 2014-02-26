@@ -50,10 +50,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  149,  186,  188,  332,  353
-    details: Case FIR No. 138 dated 09.05.2000,,Police Station-Chanakya Puri,District-New Delhi,State-Delhi,No Charge Framed,However Metropolitan Magistrate,Patiala House Court,New Delhi took congnizance of the aforesaid case on 20.01.2001 
+    details: "Case FIR No. 138 dated 09.05.2000,,Police Station-Chanakya Puri,District-New Delhi,State-Delhi,No Charge Framed,However Metropolitan Magistrate,Patiala House Court,New Delhi took congnizance of the aforesaid case on 20.01.2001" 
   - crime: accussed
     ipc: 420,  465,  468,  471,  406,  477A,  200,  120B
-    details: Case No.3573/2006, Crime No.198/2006,Police Station-Sikandera,District-Agra,State-Uttar Pradesh,No Charge Framed,High Court of Judicial at Allahabad has stayed all the proceedings of the aforesaid case vide order dated 27.11.2007 passed in Crl. Misc. Petition No.27607/2007 by the   Hon'ble S.S.Kulsherstha,J.,which is still in force 
+    details: "Case No.3573/2006, Crime No.198/2006,Police Station-Sikandera,District-Agra,State-Uttar Pradesh,No Charge Framed,High Court of Judicial at Allahabad has stayed all the proceedings of the aforesaid case vide order dated 27.11.2007 passed in Crl. Misc. Petition No.27607/2007 by the   Hon'ble S.S.Kulsherstha,J.,which is still in force" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,23 +66,23 @@ Raj Babbar is a Hindi and Punjabi film actor since 1977 and politician belonging
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -97,4 +97,4 @@ Wikipedia References
 [wiki3]: /wiki/Indian_Express
 
 
-{% include references.html %}
+{% include "references.html" %}

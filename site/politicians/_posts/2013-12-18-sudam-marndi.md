@@ -50,19 +50,19 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 143, 147, 148,  336, 427, 379, 506, 109, 149
-    details: 7 Criminal Law Amendment Act, SDJM Baripada, G.R.Case no.1058/91, (IPC Sections not mentioned Case-wise) 
+    details: "7 Criminal Law Amendment Act, SDJM Baripada, G.R.Case no.1058/91, (IPC Sections not mentioned Case-wise)" 
   - crime: accussed
     ipc: 365,  384, 34
-    details: G.R.Case no.1032/91, (IPC Sections not mentioned Case-wise) 
+    details: "G.R.Case no.1032/91, (IPC Sections not mentioned Case-wise)" 
   - crime: accussed
     ipc: 
-    details: G.R.Case no.166/92 
+    details: "G.R.Case no.166/92" 
   - crime: accussed
     ipc: 
-    details: G.R.Case no.167/92 
+    details: "G.R.Case no.167/92" 
   - crime: accussed
     ipc: 
-    details: G.R.Case no.1062/02 
+    details: "G.R.Case no.1062/02" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -72,26 +72,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

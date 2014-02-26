@@ -40,13 +40,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 392,  411
-    details: Case No.3113/1999,Crime No.295/1999,C.J.M. Bulandshahar,Cognizance on:9/12/1999 
+    details: "Case No.3113/1999,Crime No.295/1999,C.J.M. Bulandshahar,Cognizance on-9/12/1999" 
   - crime: accussed
     ipc: 323,  342,  344,  376,  504
-    details: 4/5 Child Labour Act,Case No.926/9 of 2007,Crime No.355/2003,JM 1st Muzaffar nagar,,Cognizance on:1/8/2005,Details of appeal (s)/application (s) for revision,etc.if any,filed against above raking cognizance:Against the order dated 1/8/2005 passed by JM 1st Muzaffarnagar (Crime No.355/2003) Case No.926/9 of 2007 deponent filed petition no. 13998 of 2007 under section 482 CrPC.Before Hon'ble High Court of Judicature at Allahabad which is pending in the Hon'ble High Court Allahabad and is likely to be listed on 17/4/2009 
+    details: "4/5 Child Labour Act,Case No.926/9 of 2007,Crime No.355/2003,JM 1st Muzaffar nagar,,Cognizance on-1/8/2005,Details of appeal (s)/application (s) for revision,etc.if any,filed against above raking cognizance-Against the order dated 1/8/2005 passed by JM 1st Muzaffarnagar (Crime No.355/2003) Case No.926/9 of 2007 deponent filed petition no. 13998 of 2007 under section 482 CrPC.Before Hon'ble High Court of Judicature at Allahabad which is pending in the Hon'ble High Court Allahabad and is likely to be listed on 17/4/2009" 
   - crime: accussed
     ipc: 147,  332,  353,  224,  225
-    details: Case No.4407/2007,Crime No.266/2007,C.J.M.Bulandshahar,Cognizance on:21/06/2007,Summons have not been served in this case upon deponent as charge sheet is filed against Mohd. Yunus S/O Mohd. Saddique 
+    details: "Case No.4407/2007,Crime No.266/2007,C.J.M.Bulandshahar,Cognizance on-21/06/2007,Summons have not been served in this case upon deponent as charge sheet is filed against Mohd. Yunus S/O Mohd. Saddique" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -56,26 +56,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

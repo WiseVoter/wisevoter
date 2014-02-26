@@ -60,10 +60,10 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 147,  323,  343,  353,  307,
-    details: 27 Arms Act, Case no.1055/1987, Charges not framed yet, Pending on Sub Divisional Judicial Magistrate Patna, Gandhi Maidan Police Station, Cognizance date 05-05-1990 
+    details: "27 Arms Act, Case no.1055/1987, Charges not framed yet, Pending on Sub Divisional Judicial Magistrate Patna, Gandhi Maidan Police Station, Cognizance date 05-05-1990" 
   - crime: accussed
     ipc: 171(C)
-    details: Sec.133 of R.P Act, Case no.375/2005, First Class Judicial Magistrate Court Patna, Cognizance date 23-05-2008 
+    details: "Sec.133 of R.P Act, Case no.375/2005, First Class Judicial Magistrate Court Patna, Cognizance date 23-05-2008" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -73,26 +73,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

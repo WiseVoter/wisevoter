@@ -50,13 +50,13 @@ candidature:
 crime-record: 
   - crime: accussed
     ipc: 120B,  304A,  201,  203,  380,  411,  182,  186
-    details: Crime No.111/82, P.S. Gouriganj Dist. Sultanpur, ACJM Sultanpur 
+    details: "Crime No.111/82, P.S. Gouriganj Dist. Sultanpur, ACJM Sultanpur" 
   - crime: accussed
     ipc: 147,  148,  149,  353,  332,  307,  336,  504,  506,  188
-    details: Crime No. 35/83, P.S. Kesarbagh, Dist. Lucknow, ACJM Lucknow 
+    details: "Crime No. 35/83, P.S. Kesarbagh, Dist. Lucknow, ACJM Lucknow" 
   - crime: accussed
     ipc: 307
-    details: Crime No. 36/98, P.S. Kesarbagh, Dist. Ajamgarh, C.J.M. Ajamgarh 
+    details: "Crime No. 36/98, P.S. Kesarbagh, Dist. Ajamgarh, C.J.M. Ajamgarh" 
 
 date: 2014-01-28
 version: 0.0.5
@@ -66,26 +66,26 @@ tags:
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
 
 
-{% include references.html %}
+{% include "references.html" %}

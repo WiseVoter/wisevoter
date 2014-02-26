@@ -50,23 +50,23 @@ Rai did his schooling at Wynberg Allen School,Mussoorie. He did his chemical eng
 
 
 ##Education
-{% include education.html %}
+{% include "education.html" %}
 
 
 ##Political Career
-{% include political-career.html %}
+{% include "political-career.html" %}
 
 
 ##Criminal Record
-{% include criminal-record.html %}
+{% include "criminal-record.html" %}
 
 
 ##Personal Wealth
-{% include personal-wealth.html %}
+{% include "personal-wealth.html" %}
 
 
 ##Public Office Track Record
-{% include track-record.html %}
+{% include "track-record.html" %}
 
 
 ##References
@@ -81,4 +81,4 @@ Wikipedia References
 [wiki3]: http://www.deccanherald.com/content/6885/sikkim-member-parliament-alumnus-iit.html
 
 
-{% include references.html %}
+{% include "references.html" %}
