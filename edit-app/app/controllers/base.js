@@ -107,7 +107,7 @@ function prepareIncludes(ctx) {
   if (!exists(includes_dir, true)) return;
   fs.readdirSync(includes_dir_full_path).forEach(function(file) {
     swig.setDefaults({loader: swig.loaders.fs(includes_dir_full_path)})
-    swig.compileFile(file, ctx)
+    swig.compileFile(file)
   })
 }
 
@@ -117,50 +117,11 @@ function getLayout(name, ctx) {
   if (layouts.hasOwnProperty(name)) return layouts[name];
   layouts_dir = ctx.site.site_root + "/" + ctx.site.layouts_dir + "/"
   name_full_path = path.resolve(layouts_dir, name)
-  var tmpl = swig.compileFile(name_full_path, ctx);
+  var tmpl = swig.compileFile(name_full_path);
   tmpl.filename = name;
   layouts[name] = tmpl;
   return tmpl;
 }
-
-function readPost(config) {
-  var posts = [];
-  var categories = config.category
-  category.forEach(function(category) {
-    posts_dir = config.site_root + "/" + category + "/" + config.posts_dir;
-    fs.readdirSync(posts_dir).forEach(function(file) {
-      var d = file.match(/^(\d{4})-(\d\d?)-(\d\d?)-(.+)\.(md)$/);
-      if (!d) return;
-      var file_path = posts_dir + "/" + file;
-      try {
-        var split = getcontent(file_path);
-      }
-      catch(err) {
-        console.log("Fix file: " + file_path + " - error " + err)
-        return;
-      }
-      var post = {};
-      post.date = new Date(d[1], d[2] - 1, d[3]);
-      post.title = d[4];
-      post.page = split.fm;
-      post.page.title = post.title;
-      if (post.page.date) post.date = post.page.date;
-      if (d[5] == "md") {
-        //HACK: markdown parsing hack to let swig do its thing
-        c = split.content.replace(/\"/g, "$")
-        post.content = marked(c).replace(/\$/g,"\"")
-        post.category = category;
-        post.page.category = category;
-        post.url = getURL(config, post);
-        post.page.url = post.url;
-      }
-      posts.push(post);
-    })
-  })
-  posts.sort(function(a, b){return b.date - a.date;});
-  return posts;
-}
-
 
 exports.generate_post = function(article_file_path, article_url) {
   console.log("Generate Post: " + article_url)
@@ -169,10 +130,12 @@ exports.generate_post = function(article_file_path, article_url) {
     post = {}
     post.page = split.fm;
     post.page.url = article_url;
+    out_file_path = post.page.url;
     if (article_file_path.indexOf(".md") != -1)
     {
       c = split.content.replace(/\"/g, "$")
       post.content = marked(c).replace(/\$/g,"\"")
+      out_file_path = out_file_path + "/" + "index.html"
     }
     else {
       post.page.content = split.content;
@@ -180,10 +143,12 @@ exports.generate_post = function(article_file_path, article_url) {
     var config = readConfig(), ctx = {}; 
     ctx.site = config;
     ctx.page = post.page;
-    prepareIncludes(ctx);
+    swig.setDefaults({loader: swig.loaders.fs(path.resolve(ctx.site.site_root + "/" + ctx.site.includes_dir))});
+    ctx.content = swig.render(post.content, {locals: ctx});
+    console.log(ctx.content)
     var render = getLayout(post.page.layout, ctx)
     var render_output = render(ctx)
-    var out_path = article_file_path.replace(config.site_root, config.publish_root)
+    var out_path = config.publish_root + out_file_path
     console.log(out_path)
     fs.writeFileSync(out_path, render_output)
   }

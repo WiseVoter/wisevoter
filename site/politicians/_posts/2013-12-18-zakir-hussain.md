@@ -34,20 +34,19 @@ candidature:
     party: IND
     criminal-cases: 0
     assets: 2,15,718
-    liabilities: 
-    result:  
+    liabilities:
+    result:
 
-crime-record: 
+crime-record:
 
 date: 2014-01-28
 version: 0.0.5
 tags: 
----
-##Summary
+---##Summary
 
 
 ##Education
-{% include "education.html" %}
+{% include "education.html" with page %}
 
 
 ##Political Career
@@ -67,6 +66,4 @@ tags:
 
 
 ##References
-
-
 {% include "references.html" %}

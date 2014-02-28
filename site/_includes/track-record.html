@@ -13,9 +13,9 @@
   <td>{{t.party}}</td>
   <td>{{t.criminal-cases}}</td>
   <td>{{t.assets}}</td>
-  <td>{{t.liabilities}}</td>
+  <td>{% if t.liabilities %}{{t.liabilities}}{% endif %}</td>
   <td><a href="{{t.expenses-link}}">Link</a>&nbsp;<a href="{{t.affadivit-link}}">Affadivit</a></td>
-  <td>{{t.result}}</td>
+  <td>{% if t.result %}{{t.result}}{% endif %}</td>
 </tr>
 {% endfor %}
 </tbody>
