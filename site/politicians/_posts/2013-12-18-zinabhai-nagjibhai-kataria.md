@@ -45,8 +45,7 @@ crime-record:
 date: 2014-01-28
 version: 0.0.5
 tags: 
----
-##Summary
+---##Summary
 
 
 ##Education

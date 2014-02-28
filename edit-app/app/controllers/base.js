@@ -177,13 +177,14 @@ exports.generate = function() {
   
   posts.forEach(function(post) {
     var render = getLayout(post.page.layout, ctx)
+    swig.setDefaults({loader: swig.loaders.fs(path.resolve(ctx.site.site_root + "/" + ctx.site.includes_dir))});
+    post.content = swig.render(post.content, {locals: post});
+    post.site = config
     var render_output = render(post)
-    var post_output = swig.render(render_output, {locals: post})
-
     /* TODO: Hack of index.html */
     var post_path = config.publish_root + post.url + "/"+ "index.html"
     ensureDirectories(post_path)
-    fs.writeFileSync(post_path, post_output)
+    fs.writeFileSync(post_path, render_output)
   })
   
 

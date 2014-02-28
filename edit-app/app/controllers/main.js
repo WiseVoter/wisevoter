@@ -34,7 +34,7 @@ exports.notAuthorized = function(req, res){
 
 exports.generate = function(req, res){
   wv.generate();
-  res.redirect('/')
+  res.redirect('/index.html')
 }
 
 exports.generatepage = function(req, res){
