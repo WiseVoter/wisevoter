@@ -15,7 +15,7 @@ category: [articles, constituencies, parties, politicians]
 # All WiseVoter specific configurations are namespaced into this hash
 #
 WV :
-  version: 0.0.5
+  version: 0.0.7
 
   # Setting for analytics include
   analytics:

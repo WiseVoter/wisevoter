@@ -37,6 +37,12 @@ exports.generate = function(req, res){
   res.redirect('/')
 }
 
+exports.generatepage = function(req, res){
+  url = wv.generate_post();
+  res.redirect(url)
+}
+
+
 exports.gitcommit = function(req, res){
   var repo = process.env.GIT_REPO
   wv.gitcommit(repo)

@@ -1,4 +1,5 @@
 var fs = require('fs')
+var wv = require("./base")
 
 exports.show = function(req, res){
 
@@ -58,6 +59,7 @@ exports.save = function(req, res){
   file_contents = "---\n" + frontmatter + "---" + content;
   fs.writeFileSync(article_file, file_contents)
   console.log("Wrote: " + article_file)
-  req.flash("info", article_file + " saved!")
+  checkurl = wv.generate_post(article_file, back_to.replace("edit",""))
+  req.flash("info", article_file + " saved! Review it at " + checkurl)
   res.redirect(back_to)
 }

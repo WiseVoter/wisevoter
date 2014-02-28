@@ -161,25 +161,37 @@ function readPost(config) {
   return posts;
 }
 
-exports.generate_post = function() {
-  var config = readConfig();
-  var posts = readPost(config);
-  var data = {}; 
-  site = config;
-  site.posts = posts;
-  site.data = data;
-  var ctx = {site: site};
-  
-  prepareIncludes(ctx)
-  
-  posts.forEach(function(post) {
+
+exports.generate_post = function(article_file_path, article_url) {
+  console.log("Generate Post: " + article_url)
+  try {
+    var split = getcontent(article_file_path);
+    post = {}
+    post.page = split.fm;
+    post.page.url = article_url;
+    if (article_file_path.indexOf(".md") != -1)
+    {
+      c = split.content.replace(/\"/g, "$")
+      post.content = marked(c).replace(/\$/g,"\"")
+    }
+    else {
+      post.page.content = split.content;
+    }
+    var config = readConfig(), ctx = {}; 
+    ctx.site = config;
+    ctx.page = post.page;
+    prepareIncludes(ctx);
     var render = getLayout(post.page.layout, ctx)
-    var post_output = render(post)
-    var post_path = config.publish_root + post.url + "/"+ "index.html"
-    console.log(post_path)
-    ensureDirectories(post_path)
-    fs.writeFileSync(post_path, post_output)
-  });
+    var render_output = render(ctx)
+    var out_path = article_file_path.replace(config.site_root, config.publish_root)
+    console.log(out_path)
+    fs.writeFileSync(out_path, render_output)
+  }
+  catch(err) {
+    console.log("Fix file: " + article_file_path + " - error " + err)
+    return "/index.html";
+  }
+  return article_url
 }
 
 exports.generate = function() {
@@ -262,11 +274,7 @@ exports.generate = function() {
 
 var nodemailer = require("nodemailer");
 // create reusable transport method (opens pool of SMTP connections)
-var smtpTransport = nodemailer.createTransport("SMTP",{
-    service: "Gmail",
-    auth: {
-    }
-});
+var smtpTransport = nodemailer.createTransport("direct", {debug: true});
 
 // setup e-mail data with unicode symbols
 var mailOptions = {

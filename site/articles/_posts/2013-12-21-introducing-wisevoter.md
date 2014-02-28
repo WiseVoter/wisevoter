@@ -17,8 +17,7 @@ image:
 comments: true
 readtime: 5
 excerpt: WiseVoter is a free demopedia where people can collaboratively keep track of politicians. Most of the data associated with a politican's profile can be edited via a form. The data comprises elements like Networth, Criminal Record, Education etc. This enable to write a lot of analytical tools which give you various facts about your politicians.
----
-Original [Source](http://thekarkhana.vitraag.com/2009/04/introducing-wisevoter/ "Permalink to Introducing WiseVoter - The Karkhana!")
+---Original [Source](http://thekarkhana.vitraag.com/2009/04/introducing-wisevoter/ "Permalink to Introducing WiseVoter - The Karkhana!")
 
 ## Introducing WiseVoter - The Karkhana!
 
