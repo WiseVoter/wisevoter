@@ -5,8 +5,13 @@ var fs = require('fs')
   , swig = require('swig')
   , git = require('gift');
 
-
 var content_root = "../site"
+
+/** Swig Filters **/
+swig.setFilter('isnull', function (input) {
+  return input === null ? '' : input;
+});
+
 
 function exists(file, isDir) {
   try { return fs.statSync(file)[isDir ? "isDirectory" : "isFile"](); }
@@ -145,11 +150,9 @@ exports.generate_post = function(article_file_path, article_url) {
     ctx.page = post.page;
     swig.setDefaults({loader: swig.loaders.fs(path.resolve(ctx.site.site_root + "/" + ctx.site.includes_dir))});
     ctx.content = swig.render(post.content, {locals: ctx});
-    console.log(ctx.content)
     var render = getLayout(post.page.layout, ctx)
     var render_output = render(ctx)
     var out_path = config.publish_root + out_file_path
-    console.log(out_path)
     fs.writeFileSync(out_path, render_output)
   }
   catch(err) {
@@ -159,6 +162,7 @@ exports.generate_post = function(article_file_path, article_url) {
   return article_url
 }
 
+/* TODO: Consolidate the generation logic from page, post, pages and posts */
 exports.generate = function() {
   var config = readConfig()
   var posts = readPosts(config)
@@ -174,7 +178,7 @@ exports.generate = function() {
   posts.forEach(function(post) {
     var render = getLayout(post.page.layout, ctx)
     var render_output = render(post)
-    var post_output = swig.render(render_output, post)
+    var post_output = swig.render(render_output, {locals: post})
 
     /* TODO: Hack of index.html */
     var post_path = config.publish_root + post.url + "/"+ "index.html"
@@ -237,6 +241,7 @@ exports.generate = function() {
   walkDir(site.site_root + "/" )
 }
 
+/* TODO: move mailer to a separate module */
 var nodemailer = require("nodemailer");
 // create reusable transport method (opens pool of SMTP connections)
 var smtpTransport = nodemailer.createTransport("direct", {debug: true});

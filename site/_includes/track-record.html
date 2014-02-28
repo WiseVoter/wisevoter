@@ -8,13 +8,13 @@
 <tbody>
 {% for t in page.candidature %}
 <tr>
-  <td><a href='{{t.myneta-link}}'>{{t.election}}</a></td>
+  <td><a href="{{t['myneta-link']}}">{{t.election}}</a></td>
   <td>{{t.constituency}}</td>
   <td>{{t.party}}</td>
-  <td>{{t.criminal-cases}}</td>
+  <td>{{t['criminal-cases']}}</td>
   <td>{{t.assets}}</td>
   <td>{% if t.liabilities %}{{t.liabilities}}{% endif %}</td>
-  <td><a href="{{t.expenses-link}}">Link</a>&nbsp;<a href="{{t.affadivit-link}}">Affadivit</a></td>
+  <td>{% if t['expenses-link'] %}<a href="{{t['expenses-link']}}">Link</a>&nbsp;{% endif %}{% if t['affadivit-link'] %}<a href="{{t['affadivit-link']}}">Affadivit</a>{% endif %}</td>
   <td>{% if t.result %}{{t.result}}{% endif %}</td>
 </tr>
 {% endfor %}
