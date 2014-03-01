@@ -34,16 +34,16 @@
         <div class="profile-circular"></div>
         <div class="profile-title">{{page.title}}</div>
         <table class="profile">
-        <tr><td><i class="fa fa-pencil"></i>Education</td><td>{{page.education}}</td></tr>
-          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>{{page.crime-accusation-instances}}</td></tr>
-          <tr><td><i class="fa fa-flag"></i>Previous Offices</td><td>{{page.candidature.count}}</td></tr>
-          <tr><td><i class="fa fa-home"></i>State</td><td>{{page.state}}</td></tr>
-          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>{{page.party}}</td></tr>
-          <tr><td><i class="fa fa-female"></i>Sex</td><td>{{page.sex}}</td></tr>
-          <tr><td><i class="fa fa-comment"></i>Email</td><td>{{page.email}}</td></tr>
-          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>{{page.twitter}}</td></tr>
-          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href={{page.website}}>Link</a></td></tr>
-          <tr><td><i class="fa fa-money"></i>Networth</td><td>{{page.networth}} </td></tr>
+        <tr><td><i class="fa fa-pencil"></i>Education</td><td>{{page.education | isnull}}</td></tr>
+          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>{{page.crime-accusation-instances | isnull}}</td></tr>
+          <tr><td><i class="fa fa-flag"></i>Previous Offices</td><td>{{page.candidature.count | isnull}}</td></tr>
+          <tr><td><i class="fa fa-home"></i>State</td><td>{{page.state | isnull}}</td></tr>
+          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>{{page.party | isnull}}</td></tr>
+          <tr><td><i class="fa fa-female"></i>Sex</td><td>{{page.sex | isnull}}</td></tr>
+          <tr><td><i class="fa fa-comment"></i>Email</td><td>{{page.email | isnull}}</td></tr>
+          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>{{page.twitter | isnull}}</td></tr>
+          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href={{page.website | isnull}}>Link</a></td></tr>
+          <tr><td><i class="fa fa-money"></i>Networth</td><td>{{page.networth | isnull}} </td></tr>
         </table>
        </aside>
        <div class="col-lg-1"></div>     
