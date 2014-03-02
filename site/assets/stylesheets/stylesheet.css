@@ -340,27 +340,7 @@ dl dd {
   font-weight: 100;
 }
 
-footer {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  color: #fff;
-  background: #666;
-  border-top: 1px solid #000;
- /* background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-top: solid 1px #275da1; */
-  text-align: center;
-  margin-top: 40px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  font-size: 13px;
-  /* color: #aaa; */
-}
 
-footer a {
-  color: #fff;
-}
-footer a:hover {
-  color: #444;
-}
 
 /* MISC */
 .clearfix-style:after {
