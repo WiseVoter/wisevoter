@@ -3,8 +3,9 @@ var mainsite = "www.wisevoter.org"
 
 function setEditorLink(){
   var editorLink = document.getElementById("editorLink")
-  if (document.location.hostname === mainsite)
+  if (document.location.hostname === mainsite) {
     editorLink.href = editorLink.href.replace(mainsite,editsite);
+  }
   return false;
 }
 
