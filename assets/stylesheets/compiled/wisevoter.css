@@ -1,0 +1,49 @@
+/* Colors */
+/* Typography */
+/* Headers */
+header {
+  font-family: Helvetica, Arial, serif;
+}
+header a.button {
+  font-family: Helvetica, Arial, serif;
+}
+body {
+  font-family: Helvetica, Arial, serif;
+}
+aside a.button {
+  font-family: Helvetica, Arial, serif;
+}
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6 {
+  font-family: Helvetica, Arial, serif;
+}
+#main-content h2:before,
+#main-content h3:before {
+  content: none;
+}
+.site-title header {
+  font-family: Helvetica, Arial, serif;
+}
+footer {
+  font-family: Helvetica, Arial, serif;
+  color: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 1px solid #ffffff;
+  /* background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  border-top: solid 1px #275da1; */
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 13px;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #444444;
+}
