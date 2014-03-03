@@ -1,0 +1,13 @@
+---
+layout: none
+title: json
+---
+[
+{% for post in site.posts | reverse %}
+  {
+    "text": "{{post.title | replace('"','\"') | replace("-"," ")}}",
+    "href": "{{site.baseurl}}{{post.url}}",
+    "category": "{{post.category}}"
+  } {% if not loop.last %},{% endif %}
+{% endfor %}
+]

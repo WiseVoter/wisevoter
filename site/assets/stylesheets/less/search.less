@@ -1,0 +1,80 @@
+#search-bar {
+  border-top: 15px @color-flagtop solid;
+  border-bottom: 15px @color-flagbottom solid;
+  background: @color-flagbg;
+
+  .search-form {
+    .input-group {
+       .search-input {
+          width: 500px;
+          margin-top: -2px;
+          height: 35px;
+       }
+       .search-btn {
+          display: inline;
+          margin-top: 1px;
+        }
+
+      /* typeahead tt-suggestions */
+      .tt-dropdown-menu {
+        position: relative;
+        top: 35px !important;
+        
+        -webkit-animation: reveal .3s ease-out;
+        -moz-animation: reveal .3s ease-out;
+        animation: reveal .3s ease-out;
+
+        .tt-suggestions {
+          width: 500px;
+          margin: 0px -10px 0px 0px;
+          box-shadow: 0px 1px 9px 1px #c2c2c2;
+          background: #fff;
+          border-radius: 5px;
+          
+          .tt-suggestion {
+            display: block;
+            padding: 10px 20px 15px 20px;
+            height: 80px;
+            border-bottom: 1px solid #e7e8ea;
+            color: rgb(54, 54, 54);
+            text-decoration: none;
+            position: relative;
+            transition: all .25s linear;
+            -moz-transition: all .25s linear;
+            -webkit-transition: all .25s linear;
+            -o-transition: all .25s linear;
+
+            p {
+              margin-bottom: 0px;
+            }
+
+            .search-elem {
+              width: inherit;
+              .search-text{
+                text-transform: capitalize;
+                display: inline;
+                text-align: left;
+                font-weight: 900;
+              }
+              .search-category{
+                display: inline;
+                float: right;
+                text-align: right;
+                text-transform: capitalize;
+                font-weight: 600;
+              }
+              .search-href{
+                display: block;
+              }
+            }
+
+            &:hover {
+              background: rgb(240, 246, 255);
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
