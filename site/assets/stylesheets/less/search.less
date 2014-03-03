@@ -1,18 +1,26 @@
 #search-bar {
-  border-top: 15px @color-flagtop solid;
-  border-bottom: 15px @color-flagbottom solid;
+  border-top: 30px @color-flagtop solid;
+  border-bottom: 30px @color-flagbottom solid;
+  margin-right: 0px;
   background: @color-flagbg;
 
   .search-form {
+    padding: 10px;
     .input-group {
-       .search-input {
+      width: 550px;
+       .search-input, .tt-input {
           width: 500px;
-          margin-top: -2px;
+          background: transparent;
+          font-size: 18px;
+          margin-top: -4px;
+          outline: none;
+          border: 1px solid;
+          padding: 0 8px;
           height: 35px;
        }
        .search-btn {
           display: inline;
-          margin-top: 1px;
+          margin-top: 0px;
         }
 
       /* typeahead tt-suggestions */
@@ -26,7 +34,7 @@
 
         .tt-suggestions {
           width: 500px;
-          margin: 0px -10px 0px 0px;
+          margin: 0px 0px 0px 0px;
           box-shadow: 0px 1px 9px 1px #c2c2c2;
           background: #fff;
           border-radius: 5px;
@@ -69,7 +77,7 @@
             }
 
             &:hover {
-              background: rgb(240, 246, 255);
+              background: @color-search-hover;
             }
           }
         }

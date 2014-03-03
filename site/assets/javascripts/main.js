@@ -41,5 +41,12 @@ $('.search-input').typeahead(null, {
 });
 
 function searchSubmit(){
-  console.log("redirecting..")
+  var datum = $('.tt-input').val();
+  if (datum.indexOf('/') != -1)
+  {
+    var redirect_to = window.location.protocol + "//" + window.location.host + datum + "/";
+    window.location = redirect_to;
+    return false;
+  }
+  return true;
 }
