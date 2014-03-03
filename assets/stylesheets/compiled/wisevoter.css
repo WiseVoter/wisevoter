@@ -28,6 +28,75 @@ aside a.button {
 .site-title header {
   font-family: Helvetica, Arial, serif;
 }
+#search-bar {
+  border-top: 15px #ff7903 solid;
+  border-bottom: 15px #16880e solid;
+  background: #f2f2f2;
+}
+#search-bar .search-form .input-group {
+  /* typeahead tt-suggestions */
+}
+#search-bar .search-form .input-group .search-input {
+  width: 500px;
+  margin-top: -2px;
+  height: 35px;
+}
+#search-bar .search-form .input-group .search-btn {
+  display: inline;
+  margin-top: 1px;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu {
+  position: relative;
+  top: 35px !important;
+  -webkit-animation: reveal 0.3s ease-out;
+  -moz-animation: reveal 0.3s ease-out;
+  animation: reveal 0.3s ease-out;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions {
+  width: 500px;
+  margin: 0px -10px 0px 0px;
+  box-shadow: 0px 1px 9px 1px #c2c2c2;
+  background: #fff;
+  border-radius: 5px;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions .tt-suggestion {
+  display: block;
+  padding: 10px 20px 15px 20px;
+  height: 80px;
+  border-bottom: 1px solid #e7e8ea;
+  color: #363636;
+  text-decoration: none;
+  position: relative;
+  transition: all .25s linear;
+  -moz-transition: all .25s linear;
+  -webkit-transition: all .25s linear;
+  -o-transition: all .25s linear;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions .tt-suggestion p {
+  margin-bottom: 0px;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions .tt-suggestion .search-elem {
+  width: inherit;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions .tt-suggestion .search-elem .search-text {
+  text-transform: capitalize;
+  display: inline;
+  text-align: left;
+  font-weight: 900;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions .tt-suggestion .search-elem .search-category {
+  display: inline;
+  float: right;
+  text-align: right;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions .tt-suggestion .search-elem .search-href {
+  display: block;
+}
+#search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions .tt-suggestion:hover {
+  background: #f0f6ff;
+}
 footer {
   font-family: Helvetica, Arial, serif;
   color: rgba(255, 255, 255, 0.5);
