@@ -10,9 +10,18 @@ body {
   font-family: @font;
 }
 
-aside {
-  a.button {
-    font-family: @font;
+
+#main {
+  margin-top: 20px;
+
+  aside {
+    &#sidebar {
+      min-height: 200px;
+    }
+    a.button {
+      width: 250px;
+      font-family: @font;
+    }
   }
 }
 

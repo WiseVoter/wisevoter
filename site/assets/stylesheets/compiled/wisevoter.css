@@ -11,7 +11,14 @@ header a.button {
 body {
   font-family: Helvetica, Arial, serif;
 }
-aside a.button {
+#main {
+  margin-top: 20px;
+}
+#main aside#sidebar {
+  min-height: 200px;
+}
+#main aside a.button {
+  width: 250px;
   font-family: Helvetica, Arial, serif;
 }
 #main-content h1,
@@ -32,7 +39,6 @@ aside a.button {
 #search-bar {
   border-top: 30px #ff7903 solid;
   border-bottom: 30px #16880e solid;
-  margin-right: 0px;
   background: #f2f2f2;
 }
 #search-bar .search-form {

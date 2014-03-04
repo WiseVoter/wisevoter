@@ -9,10 +9,16 @@
   <body>
 
     <header>
-      <div class="inner">
-        <h1>WiseVoter</h1>
-        <h2>WiseVoter is a community project to educate voters on their representatives. The current version of the project targets 2014 Indian General elections.</h2>
-        <a href="https://github.com/vaibhavb/wisevoter" class="button"><small>View project on</small>GitHub</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-7">
+            <h1>WiseVoter</h1>
+            <h2>WiseVoter is a community project to educate voters on their representatives. The current version of the project targets 2014 Indian General elections.</h2>
+          </div>
+          <div class="col-md-3 col-md-offset-1 pull-right">
+            <a href="https://github.com/vaibhavb/wisevoter" class="button"><small>View project on</small>GitHub</a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -33,26 +39,39 @@
       </div>
     </div>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix-style">
-        <section id="main-content">
-          {{ content | raw }}
-        </section>
+    <div class="container" id="main">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7">
+          <div class="articles-content">
+            {{ content | raw }}
+          </div>
+        </div>  
+        
+        <div class="col-lg-3">
+         <aside id="sidebar">
+            <a href="/politicians.html" class="button">
+              <small>Review</small>
+              Politicians
+            </a>
+            
+            <a href="/parties.html" class="button">
+              <small>Research</small>
+              Parties
+            </a>
 
-        <aside id="sidebar">
-          <a href="/politicians.html" class="button">
-            <small>Review</small>
-            Politicians
-          </a>
-          <a href="/parties.html" class="button">
-            <small>Research</small>
-            Parties
-          </a>
-          <a href="/articles.html" class="button">
-            <small>Read</small>
-            Articles
-          </a> 
-        </aside>
+            <a href="/constituencies.html" class="button">
+              <small>Learn About</small>
+              Constituencies
+            </a> 
+
+            <a href="/constituencies.html" class="button">
+              <small>More About</small>
+              WiseVoter
+            </a>          
+          </aside>
+        </div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
 
