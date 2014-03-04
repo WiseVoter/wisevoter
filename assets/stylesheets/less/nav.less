@@ -1,6 +1,29 @@
 .site-title {
   header {
     font-family: @font;
+
+    li:hover, a:hover {
+      text-decoration: underline;
+      background: transparent;
+    }
   }
 
 }
+
+@media only screen and (max-width:767px){
+  .site-title {
+    header {
+      h1 {
+        display: block;
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        width: 100%;
+      }
+    }
+  }
+
+  nav {
+    display: none;
+  }
+ }
