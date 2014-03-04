@@ -13,7 +13,7 @@
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 
 <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
@@ -33,10 +33,16 @@
   <body>
 
     <header>
-      <div class="inner">
-        <h1>WiseVoter</h1>
-        <h2>WiseVoter is a community project to educate voters on their representatives. The current version of the project targets 2014 Indian General elections.</h2>
-        <a href="https://github.com/vaibhavb/wisevoter" class="button"><small>View project on</small>GitHub</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-7">
+            <h1>WiseVoter</h1>
+            <h2>WiseVoter is a community project to educate voters on their representatives. The current version of the project targets 2014 Indian General elections.</h2>
+          </div>
+          <div class="col-md-3 col-md-offset-1 pull-right">
+            <a href="https://github.com/vaibhavb/wisevoter" class="button"><small>View project on</small>GitHub</a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -57,67 +63,77 @@
       </div>
     </div>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix-style">
-        <section id="main-content">
-          
-<h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to WiseVoter Democracy Education.</h3>
+    <div class="container" id="main">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7">
+          <div class="articles-content">
+            
+<h3><a name="welcome-to-github-pages" class="anchor" href="#"><span class="fa fa-home"></span></a>Welcome to WiseVoter Democracy Education.</h3>
 
-<p>This site was created in the 2009 India general elections. This <a href="http://bit.ly/wv-intro-2">article </a> outlines the purpose and motivation, while <a href="http://bit.ly/wv-press-2">this</a> one outlines similar dated efforts. With 2014 Indian general elections around the corner, I'm revamping this effort as an opensource initiative which can perhaps we aligned with other like minded people. Over time we hope to update the data with ofcourse your help, and grow this effort tackling some of the voter education issues like below:</p>
+<ul class="post-list">
+ 
+  
+  <li>
+    <article>
+    <a href="/articles/visualizing-the-last-parliament-election"> 
+      <h3 class="post-item-title">Visualizing The Last Parliament Election</h3>
+    </a>
+    <i class="fa fa-pencil"></i> <span class="entry-date">Posted in Articles&nbsp;&bull;&nbsp;<i class="fa fa-clock-o"></i> 5  minutes read&nbsp;&bull;&nbsp;by Vaibhav Bhandari</span>
+    </article>
+  </li>
+  <p class="post-item-snippet">This week I spent some time analysing the data from Lok Sabha elections 2009. It was an ardous task&nbsp;<a href="/articles/visualizing-the-last-parliament-election"> Read more...</a></p>
+  
+ 
+  
+  <li>
+    <article>
+    <a href="/articles/vote-wise-this-election"> 
+      <h3 class="post-item-title">Vote Wise This Election</h3>
+    </a>
+    <i class="fa fa-pencil"></i> <span class="entry-date">Posted in Articles&nbsp;&bull;&nbsp;<i class="fa fa-clock-o"></i> 10  minutes read&nbsp;&bull;&nbsp;by Kavita Kukday</span>
+    </article>
+  </li>
+  <p class="post-item-snippet">Let’s face it, voting for most of us, is matter of flipping a coin. Go to the ballot run through the list and pick the name that sounds the least offensive - that’s unfortunately the usual rigmarole during elections. But don’t get us wrong it’s not because of lack of will to do research it’s mainly because of lack of data accessible in the public forum on electoral candidates and parties.&nbsp;<a href="/articles/vote-wise-this-election"> Read more...</a></p>
+  
+ 
+  
 
-<ul>
-  <li> View <a href="/politicians.html">Politicians</a> biodata, financials and understand their education and criminal record. (e.g. <a href="/politicians/rahul-gandhi">Rahul Gandhi</a>, <a href="/politicians/sushma-swaraj">Sushma Swaraj</a>)</li>
-  <li> Browse constituencies (<a href=/constituencies.html>Consituencies</a> Page)</li>
-  <li> Learn about political parties and their agenda (<a href=/parties.html>Parties</a> Page)</li>
-  <li> Visualize data on politicians (<a href="http://bit.ly/wv-tables" target="_blank">Google Fusion Tables</a> - compare politicians, parties etc.)</li>
-  <li> Learn relevant electoral issues (Issues <a href=/issues.html>list</a>)</li>
-  <li> Contribute to refine politician bios </li>
-  <li> Towards election date: register to vote, report voting fraud etc at <a href="http://bit.ly/wv-jaagore" target="_blank">Jaagore</a> </li>
 </ul>
+          </div>
+        </div>  
+        
+        <div class="col-lg-3">
+         <aside id="sidebar">
+            <a href="/politicians.html" class="button">
+              <small>Review</small>
+              Politicians
+            </a>
+            
+            <a href="/parties.html" class="button">
+              <small>Research</small>
+              Parties
+            </a>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+            <a href="/constituencies.html" class="button">
+              <small>Learn About</small>
+              Constituencies
+            </a> 
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Data Attributions</h3>
-
-<p>So where are we getting this data from? Thanks to following websites (some are no longer active). We encourage everyone to improve the data quality in this effort: </p>
-
-<ul>
-	<li> Govcheck.us </li>
-	<li> NoCriminals.org </li>
-	<li> Voiceofthenation.org</li>
-  <li> adrindia.org</li>
-	<li> Media site: Wikipedia.org, youtube.com and twitter.com </li>
-</ul>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Want to participate or help? Check out the project on <a href="http://www.github.com/vaibhavb/wisevoter">Github</a>, submit edits using <a href="http://prose.io/#wisevoter">Prose.io</a>.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="/politicians.html" class="button">
-            <small>Review</small>
-            Politicians
-          </a>
-          <a href="/parties.html" class="button">
-            <small>Research</small>
-            Parties
-          </a>
-          <a href="/articles.html" class="button">
-            <small>Read</small>
-            Articles
-          </a> 
-        </aside>
+            <a href="/constituencies.html" class="button">
+              <small>More About</small>
+              WiseVoter
+            </a>          
+          </aside>
+        </div>
+        <div class="col-lg-1"></div>
       </div>
     </div>
 
     
 <div class="container-fluid">
 	<footer>
-	  <a href="http://github.com/muan/scribble" class="muted">Built with Jekyll</a> | in Seattle, WA by <a href="/www.lib13.com">Lib13</a>.
+	  <a href="http://github.com/vaibhavb/wisevoter" class="muted">Built with Node.js, Ruby and Python</a> | in Seattle, WA by <a href="http://www.lib13.com">Lib13</a>.
 	  <p class="footer-version">Version 0.0.7.<p>
 	  <div id="google_translate_element"></div>
 		  <script type="text/javascript">
@@ -127,7 +143,7 @@
 			</script>
 			<!-- Latest compiled and minified JavaScript -->
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
-			<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+			<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 			<script src="/assets/javascripts/typeahead.bundle.js"></script>
 			<script src="/assets/javascripts/handlebars.js"></script>
 			<script src="/assets/javascripts/main.js"></script>
