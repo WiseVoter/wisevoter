@@ -115,6 +115,9 @@ body {
 #search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions .tt-suggestion:hover {
   background: #f0f6ff;
 }
+.post-list p.post-item-snippet {
+  font: Helvetica, Arial, serif;
+}
 footer {
   font-family: Helvetica, Arial, serif;
   color: rgba(255, 255, 255, 0.5);
