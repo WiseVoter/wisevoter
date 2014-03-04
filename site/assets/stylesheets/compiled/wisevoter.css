@@ -169,11 +169,14 @@ body {
     padding: 5px;
   }
   #search-bar .search-form .input-group {
-    width: 450px;
+    width: 250px;
   }
   #search-bar .search-form .input-group .search-input,
   #search-bar .search-form .input-group .tt-input {
-    width: 300px;
+    width: 200px;
+  }
+  #search-bar .search-form .input-group .tt-suggestions {
+    width: 250px;
   }
 }
 .post-list p.post-item-snippet {
