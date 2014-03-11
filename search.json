@@ -8,8 +8,14 @@
   } ,
 
   {
-    "text": "kokrajhar",
-    "href": "/constituencies/kokrajhar",
+    "text": "the states-in-indian-politics",
+    "href": "/articles/the-states-in-indian-politics",
+    "category": "articles"
+  } ,
+
+  {
+    "text": "adilabad",
+    "href": "/constituencies/adilabad",
     "category": "constituencies"
   } ,
 
@@ -1250,9 +1256,9 @@
   } ,
 
   {
-    "text": "VHS",
-    "href": "/parties/VHS",
-    "category": "parties"
+    "text": "kokrajhar",
+    "href": "/constituencies/kokrajhar",
+    "category": "constituencies"
   } ,
 
   {
@@ -1760,9 +1766,9 @@
   } ,
 
   {
-    "text": "adilabad",
-    "href": "/constituencies/adilabad",
-    "category": "constituencies"
+    "text": "VHS",
+    "href": "/parties/VHS",
+    "category": "parties"
   } ,
 
   {
@@ -3518,20 +3524,20 @@
   } ,
 
   {
-    "text": "vimala sondhia",
-    "href": "/politicians/vimala-sondhia",
-    "category": "politicians"
-  } ,
-
-  {
-    "text": "zubair",
-    "href": "/politicians/zubair",
+    "text": "virambhai nathubhai-vala",
+    "href": "/politicians/virambhai-nathubhai-vala",
     "category": "politicians"
   } ,
 
   {
     "text": "zubair alam",
     "href": "/politicians/zubair-alam",
+    "category": "politicians"
+  } ,
+
+  {
+    "text": "zubair",
+    "href": "/politicians/zubair",
     "category": "politicians"
   } ,
 
@@ -47072,15 +47078,15 @@
   } ,
 
   {
-    "text": "vijayshankerdubey",
-    "href": "/politicians/vijayshankerdubey",
-    "category": "politicians"
-  } ,
-
-  {
     "text": "vote wise-this-election",
     "href": "/articles/vote-wise-this-election",
     "category": "articles"
+  } ,
+
+  {
+    "text": "vijaywant kumar-choudhary",
+    "href": "/politicians/vijaywant-kumar-choudhary",
+    "category": "politicians"
   } ,
 
   {
@@ -47204,8 +47210,8 @@
   } ,
 
   {
-    "text": "zubair ahmad",
-    "href": "/politicians/zubair-ahmad",
+    "text": "vimala sondhia",
+    "href": "/politicians/vimala-sondhia",
     "category": "politicians"
   } ,
 
@@ -47426,8 +47432,8 @@
   } ,
 
   {
-    "text": "virambhai nathubhai-vala",
-    "href": "/politicians/virambhai-nathubhai-vala",
+    "text": "zubair ahmad",
+    "href": "/politicians/zubair-ahmad",
     "category": "politicians"
   } ,
 
@@ -48326,8 +48332,8 @@
   } ,
 
   {
-    "text": "vijaywant kumar-choudhary",
-    "href": "/politicians/vijaywant-kumar-choudhary",
+    "text": "vijayshankerdubey",
+    "href": "/politicians/vijayshankerdubey",
     "category": "politicians"
   } 
 
