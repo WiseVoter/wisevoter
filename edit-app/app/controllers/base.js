@@ -51,6 +51,39 @@ function hasFrontMatter(file) {
   return ret;
 }
 
+function getYAML(file_path)
+{
+ re = /^(-{3}(?:\n|\r))([\w\W]*)*/
+ info = fs.readFileSync(file_path)
+ result = re.exec(info)
+ fm = yaml.load("---\n"+result[2])
+ return fm;
+}
+
+function readAndWriteData(config)
+{
+    data_dir = config.site_root + "/" + config.data_dir;
+    out_dir = config.publish_root + "/" + config.data_dir.replace("_","")
+    fs.readdirSync(data_dir).forEach(function(file) {
+      re = /^(.*)\.(yml)$/
+      var d = re.exec(file)
+      if (!d) return;
+      var file_path = data_dir + "/" + file;
+      try {
+        var split = getYAML(file_path);
+      }
+      catch(err) {
+        console.log("Fix file: " + file_path + " - error " + err)
+        return;
+      }
+      data_file = out_dir + "/" + d[1] + ".json"
+      console.log(data_file)
+      console.log(split)
+      ensureDirectories(data_file)
+      fs.writeFileSync(data_file, JSON.stringify(split))
+    })
+}
+
 function getcontent(file_path)
 {
   re = /^(-{3}(?:\n|\r)([\w\W]+?)-{3})?([\w\W]*)*/
@@ -307,4 +340,9 @@ exports.gitcommit = function(gitrepo){
   } else {
     doCommit();
   }
+}
+
+exports.generate_data = function(){
+  var config = readConfig()
+  readAndWriteData(config)
 }

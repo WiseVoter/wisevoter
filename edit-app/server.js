@@ -174,6 +174,7 @@ var content = require('./app/controllers/articles');
 app.get('/index', main.index);
 app.get('/generate', requiresLogin, isSuperAdmin, main.generate);
 app.get('/generatepage', requiresLogin, isSuperAdmin, main.generatepage);
+app.get('/generatedata', requiresLogin, isSuperAdmin, main.generatedata);
 app.get('/gitcommit', requiresLogin, isSuperAdmin, main.gitcommit);
 app.get('/articles', main.articles);
 app.get('/login', users.login);

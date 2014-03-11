@@ -1,0 +1,38 @@
+---
+- statename: Andaman and Nicobar
+  state: AN
+  total: 30
+- statename: Jammu and Kashmir
+  state: JK
+  total: 43
+- statename: Arunachal Pradesh
+  state: AR
+  total: 53
+- state: UP
+  total: 60
+- state: MH
+  total: 54
+- state: KA
+  total: 5
+- state: PB
+  total: 0
+- state: GJ
+  total: 0
+- state: GA
+  total: 0
+- state: AP
+  total: 0
+- state: OR
+  total: 0
+- state: CG
+  total: 0
+- state: BR
+  total: 0
+- state: UK
+  total: 0
+- state: HP
+  total: 0
+- state: DL
+  total: 0
+- state: WB
+  total: 0

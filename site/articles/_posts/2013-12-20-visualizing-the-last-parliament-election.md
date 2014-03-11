@@ -26,4 +26,4 @@ Here is a screenshot of this functionality: ![constituencies_badge][1]
 
 What are your conclusions and insights? Please comment.
 
-[1]: /images/interactive-constituencies.png (constituencies_badge)
+[1]: /assets/images/interactive-constituencies.png (constituencies_badge)
