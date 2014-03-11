@@ -5,7 +5,7 @@ title: WiseVoter - India Edition
 <h3><a name="welcome-to-github-pages" class="anchor" href="#"><span class="fa fa-home"></span></a>Welcome to WiseVoter Democracy Education.</h3>
 
 <ul class="post-list">
-{% for post in site.categories.articles | reverse  %} 
+{% for post in site.categories.articles | sort  %} 
   {% if loop.index <= 2 %}
   <li>
     <article>

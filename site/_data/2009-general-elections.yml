@@ -1,38 +1,96 @@
 ---
-- statename: Andaman and Nicobar
-  state: AN
+- state: AN
+  statename: Andaman and Nicobar
   total: 30
-- statename: Jammu and Kashmir
-  state: JK
-  total: 43
-- statename: Arunachal Pradesh
-  state: AR
-  total: 53
-- state: UP
-  total: 60
-- state: MH
-  total: 54
-- state: KA
-  total: 5
-- state: PB
-  total: 0
-- state: GJ
-  total: 0
-- state: GA
+  parties:
+  - name: BJP
+    count: 10
+  - name: INC
+    count: 5
+- state: AS
+  statename: Assam
   total: 0
 - state: AP
+  statename: Andhra Pradesh
   total: 0
-- state: OR
+- state: AR
+  statename: Arunachal Pradesh
+  total: 53
+- state: BR
+  statename: Bihar
   total: 0
 - state: CG
-  total: 0
-- state: BR
-  total: 0
-- state: UK
-  total: 0
-- state: HP
+  statename: Chattisgarh
   total: 0
 - state: DL
+  statename: Delhi
+  total: 0
+- state: GJ
+  statename: Gujarat
+  total: 0
+- state: GA
+  statename: Goa
+  total: 0
+- state: HR
+  statename: Haryana
+  total: 0
+- state: HP
+  statename: Himachal Pradesh
+  total: 0
+- state: JH
+  statename: Jharkhand
+  total: 0
+- state: JK
+  statename: Jammu and Kashmir
+  total: 43
+- state: KL
+  statename: Kerala
+  total: 0
+- state: KA
+  statename: Karnataka
+  total: 5
+- state: MP
+  statename: Madhya Pradesh
+  total: 0
+- state: MN
+  statename: Manipur
+  total: 0
+- state: MZ
+  statename: Mizoram
+  total: 0
+- state: ML
+  statename: Meghalaya
+  total: 0
+- state: MH
+  statename: Maharastra
+  total: 54
+- state: NL
+  statename: Nagaland
+  total: 0
+- state: OR
+  statename: Orissa
+  total: 0
+- state: PB
+  statename: Punjab
+  total: 0
+- state: RJ
+  statename: Rajasthan
+  total: 0
+- state: SK
+  statename: Sikkim
+  total: 0
+- state: UP
+  statename: Uttar Pradesh
+  total: 60
+- state: UK
+  statename: Uttarakhand
+  total: 0
+- state: TN
+  statename: Tamil Nadu
+  total: 0
+- state: TR
+  statename: Tripura
   total: 0
 - state: WB
+  statename: West Bengal
   total: 0
