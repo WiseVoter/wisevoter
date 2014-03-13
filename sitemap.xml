@@ -4,15 +4,22 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
   <url>
     <loc>/</loc>
-    <lastmod>2014-03-11</lastmod>
+    <lastmod>2014-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   
   
   <url>
-    <loc>/constituencies/hassan</loc>
+    <loc>/constituencies/hathras</loc>
     <lastmod>2014-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/articles/the-2014-indian-general-elections</loc>
+    <lastmod>2014-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -25,7 +32,7 @@
   </url>
   
   <url>
-    <loc>/constituencies/adilabad</loc>
+    <loc>/constituencies/kokrajhar</loc>
     <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1474,15 +1481,15 @@
   </url>
   
   <url>
-    <loc>/constituencies/kokrajhar</loc>
+    <loc>/constituencies/hassan</loc>
     <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/constituencies/hathras</loc>
-    <lastmod>2014-01-29</lastmod>
+    <loc>/parties/AAP</loc>
+    <lastmod>2014-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -3819,6 +3826,13 @@
   </url>
   
   <url>
+    <loc>/constituencies/adilabad</loc>
+    <lastmod>2014-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>/parties/ABJS</loc>
     <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -4120,7 +4134,7 @@
   </url>
   
   <url>
-    <loc>/politicians/virambhai-nathubhai-vala</loc>
+    <loc>/politicians/yadlapati-swaruparani</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -54919,8 +54933,8 @@
   </url>
   
   <url>
-    <loc>/politicians/vijaypal-singh-shyoran-vivek</loc>
-    <lastmod>2014-01-28</lastmod>
+    <loc>/articles/vote-wise-this-election</loc>
+    <lastmod>2013-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -54933,8 +54947,8 @@
   </url>
   
   <url>
-    <loc>/articles/vote-wise-this-election</loc>
-    <lastmod>2013-12-21</lastmod>
+    <loc>/politicians/vijayshankerdubey</loc>
+    <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -55346,7 +55360,7 @@
   </url>
   
   <url>
-    <loc>/politicians/zubair-ahmad</loc>
+    <loc>/politicians/virambhai-nathubhai-vala</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -55864,7 +55878,7 @@
   </url>
   
   <url>
-    <loc>/politicians/yadlapati-swaruparani</loc>
+    <loc>/politicians/zubair-ahmad</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -56396,7 +56410,7 @@
   </url>
   
   <url>
-    <loc>/politicians/vijayshankerdubey</loc>
+    <loc>/politicians/vijaypal-singh-shyoran-vivek</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -2,9 +2,15 @@
 [
 
   {
-    "text": "hassan",
-    "href": "/constituencies/hassan",
+    "text": "hathras",
+    "href": "/constituencies/hathras",
     "category": "constituencies"
+  } ,
+
+  {
+    "text": "the 2014-indian-general-elections",
+    "href": "/articles/the-2014-indian-general-elections",
+    "category": "articles"
   } ,
 
   {
@@ -14,8 +20,8 @@
   } ,
 
   {
-    "text": "adilabad",
-    "href": "/constituencies/adilabad",
+    "text": "kokrajhar",
+    "href": "/constituencies/kokrajhar",
     "category": "constituencies"
   } ,
 
@@ -1256,15 +1262,15 @@
   } ,
 
   {
-    "text": "kokrajhar",
-    "href": "/constituencies/kokrajhar",
+    "text": "hassan",
+    "href": "/constituencies/hassan",
     "category": "constituencies"
   } ,
 
   {
-    "text": "hathras",
-    "href": "/constituencies/hathras",
-    "category": "constituencies"
+    "text": "AAP",
+    "href": "/parties/AAP",
+    "category": "parties"
   } ,
 
   {
@@ -3266,6 +3272,12 @@
   } ,
 
   {
+    "text": "adilabad",
+    "href": "/constituencies/adilabad",
+    "category": "constituencies"
+  } ,
+
+  {
     "text": "ABJS",
     "href": "/parties/ABJS",
     "category": "parties"
@@ -3524,8 +3536,8 @@
   } ,
 
   {
-    "text": "virambhai nathubhai-vala",
-    "href": "/politicians/virambhai-nathubhai-vala",
+    "text": "yadlapati swaruparani",
+    "href": "/politicians/yadlapati-swaruparani",
     "category": "politicians"
   } ,
 
@@ -47066,9 +47078,9 @@
   } ,
 
   {
-    "text": "vijaypal singh-shyoran-vivek",
-    "href": "/politicians/vijaypal-singh-shyoran-vivek",
-    "category": "politicians"
+    "text": "vote wise-this-election",
+    "href": "/articles/vote-wise-this-election",
+    "category": "articles"
   } ,
 
   {
@@ -47078,9 +47090,9 @@
   } ,
 
   {
-    "text": "vote wise-this-election",
-    "href": "/articles/vote-wise-this-election",
-    "category": "articles"
+    "text": "vijayshankerdubey",
+    "href": "/politicians/vijayshankerdubey",
+    "category": "politicians"
   } ,
 
   {
@@ -47432,8 +47444,8 @@
   } ,
 
   {
-    "text": "zubair ahmad",
-    "href": "/politicians/zubair-ahmad",
+    "text": "virambhai nathubhai-vala",
+    "href": "/politicians/virambhai-nathubhai-vala",
     "category": "politicians"
   } ,
 
@@ -47876,8 +47888,8 @@
   } ,
 
   {
-    "text": "yadlapati swaruparani",
-    "href": "/politicians/yadlapati-swaruparani",
+    "text": "zubair ahmad",
+    "href": "/politicians/zubair-ahmad",
     "category": "politicians"
   } ,
 
@@ -48332,8 +48344,8 @@
   } ,
 
   {
-    "text": "vijayshankerdubey",
-    "href": "/politicians/vijayshankerdubey",
+    "text": "vijaypal singh-shyoran-vivek",
+    "href": "/politicians/vijaypal-singh-shyoran-vivek",
     "category": "politicians"
   } 
 

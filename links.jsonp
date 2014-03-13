@@ -382,8 +382,8 @@ callback([
   } ,
 
   {
-    "text": "yadlapati-swaruparani",
-    "href": "/politicians/yadlapati-swaruparani"
+    "text": "zubair-ahmad",
+    "href": "/politicians/zubair-ahmad"
   } ,
 
   {
@@ -752,8 +752,8 @@ callback([
   } ,
 
   {
-    "text": "zubair-ahmad",
-    "href": "/politicians/zubair-ahmad"
+    "text": "virambhai-nathubhai-vala",
+    "href": "/politicians/virambhai-nathubhai-vala"
   } ,
 
   {
@@ -37342,8 +37342,8 @@ callback([
   } ,
 
   {
-    "text": "virambhai-nathubhai-vala",
-    "href": "/politicians/virambhai-nathubhai-vala"
+    "text": "yadlapati-swaruparani",
+    "href": "/politicians/yadlapati-swaruparani"
   } ,
 
   {
@@ -37559,6 +37559,11 @@ callback([
   {
     "text": "ABJS",
     "href": "/parties/ABJS"
+  } ,
+
+  {
+    "text": "adilabad",
+    "href": "/constituencies/adilabad"
   } ,
 
   {
@@ -39227,13 +39232,13 @@ callback([
   } ,
 
   {
-    "text": "hathras",
-    "href": "/constituencies/hathras"
+    "text": "AAP",
+    "href": "/parties/AAP"
   } ,
 
   {
-    "text": "kokrajhar",
-    "href": "/constituencies/kokrajhar"
+    "text": "hassan",
+    "href": "/constituencies/hassan"
   } ,
 
   {
@@ -40267,8 +40272,8 @@ callback([
   } ,
 
   {
-    "text": "adilabad",
-    "href": "/constituencies/adilabad"
+    "text": "kokrajhar",
+    "href": "/constituencies/kokrajhar"
   } ,
 
   {
@@ -40277,8 +40282,13 @@ callback([
   } ,
 
   {
-    "text": "hassan",
-    "href": "/constituencies/hassan"
+    "text": "the-2014-indian-general-elections",
+    "href": "/articles/the-2014-indian-general-elections"
+  } ,
+
+  {
+    "text": "hathras",
+    "href": "/constituencies/hathras"
   } 
 
 ])
