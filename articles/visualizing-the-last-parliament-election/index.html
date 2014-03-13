@@ -64,8 +64,9 @@
 
     <div class="container">
       <br/>
-      <div class="page-header">
-        <h1> Visualizing The Last Parliament Election </h1>
+      <div class="post-list">
+        <h3 class="post-item-title"> Visualizing The Last Parliament Election </h1>
+        <i class="fa fa-pencil"></i> <span class="entry-date">Posted in Articles • <i class="fa fa-clock-o"></i> 5  minutes read • by Vaibhav Bhandari</span>
       </div>
     </div>
 
@@ -73,8 +74,14 @@
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
-          <div class="articles-content">
-            <p>This week I spent some time analysing the data from Lok Sabha elections 2009. It was an ardous task to get to this <a href="http://www.wisevoter.org/parties.html">result</a>.
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#profile" data-toggle="tab">Post</a><li>  
+            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="profile">
+              <div class="profile-content">
+                <p>This week I spent some time analysing the data from Lok Sabha elections 2009. It was an ardous task to get to this <a href="http://www.wisevoter.org/parties.html">result</a>.
 From the data one can spot few insights like:</p>
 <ul>
 <li>We have quite a few SC/ST parliament assemblies</li>
@@ -83,10 +90,10 @@ From the data one can spot few insights like:</p>
 <p>Here is a screenshot of this functionality: <img src="/assets/images/interactive-constituencies.png" alt="constituencies_badge" title="constituencies_badge"> </p>
 <p>What are your conclusions and insights? Please comment.</p>
 
-          </div>
-          <br/><br/>
-          
-            <div id="disqus_thread"></div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="comments">
+                <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'wisevoter'; // required: replace example with your forum shortname
@@ -101,8 +108,9 @@ From the data one can spot few insights like:</p>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span>
 </a>
-          
-        </div>  
+            </div>
+          </div>
+        </div>
         
         <div class="col-lg-3">
          <aside id="sidebar">
