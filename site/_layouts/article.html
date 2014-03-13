@@ -14,7 +14,8 @@
     <div class="container">
       <br/>
       <div class="page-header">
-        <h1> {{page.title | title}} </h1>
+        <h3 class="post-item-title"> {{page.title | title}} </h1>
+        <i class="fa fa-pencil"></i> <span class="entry-date">Posted in {{ post.page.category | capitalize }} • <i class="fa fa-clock-o"></i> {{ post.page.readtime }}  minutes read • by {{post.page.author}}</span>
       </div>
     </div>
 
@@ -22,14 +23,21 @@
       <div class="row">
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
-          <div class="articles-content">
-            {{ content | raw }}
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#profile" data-toggle="tab">Post</a><li>  
+            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="profile">
+              <div class="profile-content">
+                {{ content | raw }}
+              </div>
+            </div>
+            <div class="tab-pane fade" id="comments">
+                {% include "comments.html" %}
+            </div>
           </div>
-          <br/><br/>
-          {% if page.comments != false %}
-            {% include "comments.html" %}
-          {% endif %}
-        </div>  
+        </div>
         
         <div class="col-lg-3">
          <aside id="sidebar">
