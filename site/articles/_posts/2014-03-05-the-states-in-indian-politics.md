@@ -14,7 +14,8 @@ image:
 comments: true
 readtime: 5
 excerpt: This article reviews the distribution of seats in Indian states for national election, and the results of 2009 general elections.
----Lets review the distribution of seats for Indian general election, Lok Sabha. Thanks to [data][1] from election commission of India, its clear that the big states like Uttar Pradesh (80 seats), Maharashtra (48 seats), Bihar (40 seats) and Tamil Nadu (39 seats) help tilt the scale.
+---
+Lets review the distribution of seats for Indian general election, Lok Sabha. Thanks to [data][1] from election commission of India, its clear that the big states like Uttar Pradesh (80 seats), Maharashtra (48 seats), Bihar (40 seats) and Tamil Nadu (39 seats) help tilt the scale.
 
 In 2009 Lok Sabha elections, [15th Lok Sabha][2], the major national parties were INC (201 seats), BJP (112 seats) with a regional party, SP (22 seats) as a distant third.
 
@@ -22,7 +23,7 @@ Using the data in references and WiseVoter's JSON API, http://www.wisevoter.com/
 
 <div id="map"></div>
 
-<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="/assets/javascripts/d3.min.js"></script>
 <script type="text/javascript">
   d3.xml("/assets/images/india-map.svg", "image/svg+xml", function(xml) {
     var tooltip = "<ul id=\"legend\" class=\"list-inline\"><li class=\"state\"></li><li class=\"total\"></li><li><ul class=\"top3parties list-inline\"></ul></li></ul>"
@@ -44,7 +45,7 @@ Using the data in references and WiseVoter's JSON API, http://www.wisevoter.com/
             })
           }
           d3.select("#legend").style("left", (event.layerX + 10) + "px")
-          d3.select("#legend").style("top", (event.layerY - 10) + "px")
+          d3.select("#legend").style("top", (event.layerY + 10) + "px")
           d3.select("#legend").style("display", "inline")
           })
         .on("mouseout", function(d){
