@@ -14,8 +14,11 @@ image:
 comments: true
 readtime: 5
 excerpt: This article reviews the distribution of seats in Indian states for national election, and the results of 2009 general elections.
----
-This article reviews the distribution of seats in Indian states for national election, and the results of 2009 general elections.
+---Lets review the distribution of seats for Indian general election, Lok Sabha. Thanks to [data][1] from election commission of India, its clear that the big states like Uttar Pradesh (80 seats), Maharashtra (48 seats), Bihar (40 seats) and Tamil Nadu (39 seats) help tilt the scale.
+
+In 2009 Lok Sabha elections, [15th Lok Sabha][2], the major national parties were INC (201 seats), BJP (112 seats) with a regional party, SP (22 seats) as a distant third.
+
+Using the data in references and WiseVoter's JSON API, http://www.wisevoter.com/data/2009-general-elections.json, I have created the following map which shows the number of seats allocated to each state and the top three parties in 2009 general elections. Hover on the state with your mouse or touch to get the info!
 
 <div id="map"></div>
 
@@ -40,8 +43,8 @@ This article reviews the distribution of seats in Indian states for national ele
               d3.select("#legend .top3parties").append("li").html(html)
             })
           }
-          d3.select("#legend").style("left", (event.offsetX) + "px")
-          d3.select("#legend").style("top", (event.offsetY) + "px")
+          d3.select("#legend").style("left", (event.layerX + 10) + "px")
+          d3.select("#legend").style("top", (event.layerY - 10) + "px")
           d3.select("#legend").style("display", "inline")
           })
         .on("mouseout", function(d){
@@ -60,3 +63,10 @@ i {background: #222222; color:#F4F0F4; margin: 2px; padding: 3px; }
 .state {font-weight: 900;}
 .total {color: #bf0000; font-weight: 800;}
 </style>
+
+###References
+ 1. [Election Commission of India][1]
+ 2. [Wikipedia 15th Lok Sabha][2]
+
+[1]:http://eci.nic.in/press/Phasewise_Statewise_data.pdf
+[2]:http://en.wikipedia.org/wiki/List_of_members_of_the_15th_Lok_Sabha_(by_state)
