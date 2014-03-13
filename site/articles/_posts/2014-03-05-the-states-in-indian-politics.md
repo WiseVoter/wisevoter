@@ -23,7 +23,7 @@ Using the data in references and WiseVoter's JSON API, http://www.wisevoter.com/
 
 <div id="map"></div>
 
-<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<script type="text/javascript" src="/assets/javascripts/d3.min.js"></script>
 <script type="text/javascript">
   d3.xml("/assets/images/india-map.svg", "image/svg+xml", function(xml) {
     var tooltip = "<ul id=\"legend\" class=\"list-inline\"><li class=\"state\"></li><li class=\"total\"></li><li><ul class=\"top3parties list-inline\"></ul></li></ul>"
