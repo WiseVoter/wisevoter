@@ -12,8 +12,9 @@
     </div>
 
     <div class="container">
+      <div class="col-md-1"></div>
       <br/>
-      <div class="post-list">
+      <div class="post-list col-md-6 col-sm-6">
         <h3 class="post-item-title"> {{page.title | title}} </h1>
         <i class="fa fa-pencil"></i> <span class="entry-date">Posted in {{ page.category | capitalize }} • <i class="fa fa-clock-o"></i> {{ page.readtime }}  minutes read • by {{page.author}}</span>
       </div>
@@ -24,11 +25,11 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <ul class="nav nav-tabs">
-            <li class="active"><a href="#profile" data-toggle="tab">Post</a><li>  
+            <li class="active"><a href="#post" data-toggle="tab">Post</a><li>  
             <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
           </ul>
           <div class="tab-content">
-            <div class="tab-pane fade in active" id="profile">
+            <div class="tab-pane fade in active" id="post">
               <div class="profile-content">
                 {{ content | raw }}
               </div>
