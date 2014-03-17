@@ -14,10 +14,13 @@
     <div class="container">
       <div class="col-md-1"></div>
       <br/>
-      <div class="post-list col-md-6 col-sm-6">
-        <h3 class="post-item-title"> {{page.title | title}} </h1>
-        <i class="fa fa-pencil"></i> <span class="entry-date">Posted in {{ page.category | capitalize }} • <i class="fa fa-clock-o"></i> {{ page.readtime }}  minutes read • by {{page.author}}</span>
+      <div class="col-md-7 col-sm-7">
+        <div class="post-list">
+          <h3 class="post-item-title"> {{page.title | title}} </h1>
+          <i class="fa fa-pencil"></i> <span class="entry-date">Posted in {{ page.category | capitalize }} • <i class="fa fa-clock-o"></i> {{ page.readtime }}  minutes read • by {{page.author}}</span>
+        </div>
       </div>
+      <div class="col-md-4"></div>
     </div>
 
     <div class="container">
