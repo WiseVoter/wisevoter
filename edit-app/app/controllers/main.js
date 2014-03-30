@@ -67,6 +67,11 @@ exports.updatesoftware = function(req, res){
   res.redirect('/')  
 }
 
+exports.siterestart = function(req, res){
+  wv.siterestart()
+  res.redirect('/')  
+}
+
 exports.articles = function(req, res){
   var fm, content;
   articles_file_path = '../site/articles.html';
