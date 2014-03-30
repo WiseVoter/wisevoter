@@ -347,7 +347,7 @@ exports.sitecommit = function(gitrepo){
   var gitdir = "../site/", gitbranch = "master", repo;
   // checkin site
   if (exists(gitdir, true) == true){
-    repo = git(gitdir)
+      repo = git(gitdir)
       repo.add(".",{A: true}, function(error){
       if (error) {console.log("Git Add: " + error); return;}
       repo.commit("Node bot commit", function(err){
@@ -362,6 +362,17 @@ exports.sitecommit = function(gitrepo){
   }
   else {
     console.log("Site Error: Site was not configured properly.")
+  }
+}
+
+exports.updatesoftware = function(gitrepo) {
+  var gitdir = "../site/", gitbranch = "master", repo;
+  if (exists(gitdir, true) == true){
+    repo = git(gitdir)
+    repo.sync("origin", gitbranch, function(e){
+      if (e) {console.log("Site Master Sync: " + e); return;}
+      console.log(repo.path + ": Site Master Sync Completed.")
+    })
   }
 }
 

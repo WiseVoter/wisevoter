@@ -62,7 +62,7 @@ exports.sitecommit = function(req, res){
 
 exports.updatesoftware = function(req, res){
   var repo = process.env.GIT_REPO
-  wv.sitecommit(repo)
+  wv.updatesoftware(repo)
   console.log("Software Update Finished")
   res.redirect('/')  
 }
