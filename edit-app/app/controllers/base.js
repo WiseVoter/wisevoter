@@ -365,9 +365,8 @@ exports.sitecommit = function(gitrepo){
   }
 }
 
-exports.updatesoftware = function(gitrepo){
-  var gitdir = "../site/", gitbranch = "master", repo;
-  
+exports.siterestart = function(){
+  console.log("Site restart. Currently do nothing.")
 }
 
 exports.generate_data = function(){
