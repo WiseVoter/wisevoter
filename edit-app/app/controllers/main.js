@@ -53,6 +53,13 @@ exports.gitcommit = function(req, res){
   res.redirect('/')
 }
 
+exports.sitecommit = function(req, res){
+  var repo = process.env.GIT_REPO
+  wv.sitecommit(repo)
+  console.log("Site Commit Finished")
+  res.redirect('/')  
+}
+
 exports.articles = function(req, res){
   var fm, content;
   articles_file_path = '../site/articles.html';

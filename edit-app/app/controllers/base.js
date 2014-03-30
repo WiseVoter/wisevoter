@@ -342,6 +342,29 @@ exports.gitcommit = function(gitrepo){
   }
 }
 
+//TODO: Fix code duplication, too long of a file here
+exports.sitecommit = function(gitrepo){
+  var gitdir = "../site/", gitbranch = "master", repo;
+  // checkin site
+  if (exists(gitdir, true) == true){
+    repo = git(gitdir)
+      repo.add(".",{A: true}, function(error){
+      if (error) {console.log("Git Add: " + error); return;}
+      repo.commit("Node bot commit", function(err){
+        if (err) {console.log("Git Site Commit: " + err); return;}
+        console.log(repo.path + ": Site Commit Completed.")    
+        repo.sync("origin", gitbranch, function(e){
+            if (e) {console.log("Site Master Sync: " + e); return;}
+            console.log(repo.path + ": Site Master Sync Completed.")
+        })
+      })
+    })
+  }
+  else {
+    console.log("Site Error: Site was not configured properly.")
+  }
+}
+
 exports.generate_data = function(){
   var config = readConfig()
   readAndWriteData(config)
