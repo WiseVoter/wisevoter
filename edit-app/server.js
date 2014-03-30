@@ -177,6 +177,7 @@ app.get('/generatepage', requiresLogin, isSuperAdmin, main.generatepage);
 app.get('/generatedata', requiresLogin, isSuperAdmin, main.generatedata);
 app.get('/gitcommit', requiresLogin, isSuperAdmin, main.gitcommit);
 app.get('/sitecommit', requiresLogin, isSuperAdmin, main.sitecommit);
+app.get('/updatesoftware', requiresLogin, isSuperAdmin, main.updatesoftware);
 app.get('/articles', main.articles);
 app.get('/login', users.login);
 app.get('/logout', users.logout);

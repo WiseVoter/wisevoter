@@ -60,6 +60,13 @@ exports.sitecommit = function(req, res){
   res.redirect('/')  
 }
 
+exports.updatesoftware = function(req, res){
+  var repo = process.env.GIT_REPO
+  wv.sitecommit(repo)
+  console.log("Software Update Finished")
+  res.redirect('/')  
+}
+
 exports.articles = function(req, res){
   var fm, content;
   articles_file_path = '../site/articles.html';

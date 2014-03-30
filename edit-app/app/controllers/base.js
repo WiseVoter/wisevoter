@@ -365,6 +365,11 @@ exports.sitecommit = function(gitrepo){
   }
 }
 
+exports.updatesoftware = function(gitrepo){
+  var gitdir = "../site/", gitbranch = "master", repo;
+  
+}
+
 exports.generate_data = function(){
   var config = readConfig()
   readAndWriteData(config)
