@@ -11,14 +11,21 @@
   
   
   <url>
-    <loc>/constituencies/hathras</loc>
+    <loc>/constituencies/hatkanangle</loc>
     <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/articles/the-2014-indian-general-elections</loc>
+    <loc>/politicians/nadan-nilkeni</loc>
+    <lastmod>2014-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/parties/AAP</loc>
     <lastmod>2014-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -27,13 +34,6 @@
   <url>
     <loc>/articles/the-states-in-indian-politics</loc>
     <lastmod>2014-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/constituencies/kokrajhar</loc>
-    <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1488,15 +1488,15 @@
   </url>
   
   <url>
-    <loc>/parties/AAP</loc>
-    <lastmod>2014-03-12</lastmod>
+    <loc>/constituencies/hathras</loc>
+    <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/constituencies/hatkanangle</loc>
-    <lastmod>2014-01-29</lastmod>
+    <loc>/articles/the-2014-indian-general-elections</loc>
+    <lastmod>2014-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -4134,21 +4134,21 @@
   </url>
   
   <url>
-    <loc>/politicians/yadlapati-swaruparani</loc>
-    <lastmod>2014-01-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/zubair-alam</loc>
-    <lastmod>2014-01-28</lastmod>
+    <loc>/constituencies/kokrajhar</loc>
+    <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>/politicians/zubair</loc>
+    <lastmod>2014-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/yogesh-shukla</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -55878,7 +55878,7 @@
   </url>
   
   <url>
-    <loc>/politicians/zubair-ahmad</loc>
+    <loc>/politicians/yadlapati-swaruparani</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -56144,7 +56144,7 @@
   </url>
   
   <url>
-    <loc>/politicians/yogesh-shukla</loc>
+    <loc>/politicians/zubair-alam</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -56390,6 +56390,13 @@
   
   <url>
     <loc>/politicians/znyosho-rashtrapati</loc>
+    <lastmod>2014-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/zubair-ahmad</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
