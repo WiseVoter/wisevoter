@@ -112,7 +112,7 @@ function readPosts(config) {
       }
       var post = {};
       var fm = split.fm;
-      /*post = fm;*/
+      post = fm;
       post.date = new Date(d[1], d[2] - 1, d[3]);
       post.title = d[4];
       post.page = fm;
