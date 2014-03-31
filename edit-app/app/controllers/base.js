@@ -112,9 +112,9 @@ function readPosts(config) {
       }
       var post = {};
       var fm = split.fm;
-      post = fm;
+      /*post = fm;*/
       post.date = new Date(d[1], d[2] - 1, d[3]);
-      /*post.title = d[4];*/
+      post.title = d[4];
       post.page = fm;
       if (post.page.date) post.date = post.page.date;
       if (d[5] == "md") {
@@ -168,7 +168,9 @@ exports.generate_post = function(article_file_path, article_url) {
   try {
     var split = getcontent(article_file_path);
     post = {}
-    post.page = split.fm;
+    var fm = split.fm;
+    post = fm;
+    post.page = fm;
     post.page.url = article_url;
     out_file_path = post.page.url;
     if (article_file_path.indexOf(".md") != -1)
