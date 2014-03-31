@@ -3,7 +3,8 @@ var fs = require('fs')
   , yaml = require('js-yaml')
   , marked = require('marked')
   , swig = require('swig')
-  , git = require('gift');
+  , git = require('gift')
+  , extend = require('util')._extend;
 
 var content_root = "../site"
 
@@ -112,7 +113,7 @@ function readPosts(config) {
       }
       var post = {};
       var fm = split.fm;
-      post = fm.slice(0);
+      post = extend({}, fm);
       post.date = new Date(d[1], d[2] - 1, d[3]);
       post.title = d[4];
       post.page = fm;
