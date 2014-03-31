@@ -5,6 +5,15 @@ exports.show = function(req, res){
 
 }
 
+exports.add = function(req, res){
+  console.log("Add function")
+  res.render('articles/add', {
+    title: 'Adding New Content',
+    info: req.flash("info"),
+    frontmatter: "",
+    content: ""
+  })
+}
 
 exports.update = function(req, res){
   var content, fm, article_file, article_name, article_url_path;

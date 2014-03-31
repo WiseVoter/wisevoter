@@ -200,10 +200,12 @@ app.get('/auth/facebook/callback',
     failureRedirect: '/login'
   }), users.authCallback);
 
+app.get('/add', requiresLogin, isSuperAdmin, content.add)
 app.get('/edit/:content/:item', requiresLogin, content.update);
 app.get('/edit/:content', requiresLogin, content.update)
 app.post('/save/:content/:item', content.save)
 app.post('/save/:content', content.save)
+app.post('/save', content.save)
 
 // run the server
 http.createServer(app).listen(app.get('port'), function(){

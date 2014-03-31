@@ -174,6 +174,7 @@ exports.generate_post = function(article_file_path, article_url) {
       c = split.content.replace(/\"/g, "$")
       post.content = marked(c).replace(/\$/g,"\"")
       out_file_path = out_file_path + "/" + "index.html"
+      ensureDirectories(out_file_path)
     }
     else {
       post.page.content = split.content;

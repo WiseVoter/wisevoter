@@ -1,0 +1,107 @@
+extends ../layouts/default
+
+block main
+
+block content
+  .col-sm-9
+    form.form-horizontal(action="/save",method="post",onsubmit="doContentCopy()", role="form")
+      fieldset
+        legend
+          = title
+        input(type='hidden', name='_csrf', value="#{csrf_token}")
+        input(type='hidden', id='article_file', name='article_file', value="#{article_file}")
+        input(type='hidden', id='backto_url', name='backto_url', value="edit/#{article}")
+        .form-group
+          label.control-label.col-sm-1(for='contentname') Article
+          .col-sm-8
+            input(type='text', id='contentname', name='contentname', 
+                placeholder="article full name", class="input-md form-control")
+        .form-group
+          label.control-label.col-sm-1(for='contenttype') Type
+          .col-sm-4
+            select(id='contenttype', name='contenttype', class="form-control")
+              option(value="articles") Article
+              option(value="parties") Party
+              option(value="constituencies") Constituency
+              option(value="") None
+              option(value="politicians", selected="true") Politician
+        textarea.form-control(id="contenttextarea", name="content")
+          = content
+        textarea.form-control(id="frontmattertextarea", name="frontmatter")
+        button.btn.btn-primary.col-sm-offset-1.col-sm-2(type='submit') Save!
+  .col-sm-9
+    #epiceditor
+  .col-sm-3
+    #editfrontmatter(contenteditable="true")
+      = frontmatter
+
+block foot
+  script(src='/public/vendor/epiceditor/js/epiceditor.min.js')
+  script.
+    var opts = {
+      autogrow: true,
+      textarea: 'contenttextarea',
+      basePath: '../../public/vendor/epiceditor',
+      theme: {
+        base: '/themes/base/epiceditor.css',
+        preview: '/themes/preview/github.css',
+        editor: '/themes/editor/epic-light.css'
+      }
+    };
+    var editor = new EpicEditor(opts).load(function(){
+      console.log("Epic Editor loaded");
+    });
+
+    function get_edit_data(){
+      var article_file, back_to, m_string;
+      var today = new Date()
+      var month = today.getMonth() + 1
+      if (month < 10) {
+        m_string = "0" + month
+      }
+      else {
+        m_string = month
+      }
+      var date_slug = today.getFullYear() + '-' + m_string + '-' + today.getDate()
+      
+      article_name = document.getElementById("contentname").value
+      article_type = document.getElementById("contenttype").value
+      extpattern = /(.*)\.(.*)$/g
+      if (extpattern.test(article_name)){
+        var step1 = article_name.toLowerCase().replace(/ /g, '-')
+        if (article_type) {
+          article_file = '../site/' + article_type + '/_posts/' + date_slug + '-' + step1;
+          back_to = 'edit/' + article_type + '/' + step1
+        }
+        else {
+          article_file = '../site/' + date_slug + '-' + step1;
+          back_to = 'edit/' + step1 
+        }
+      }
+      else {
+        var step1 = article_name.toLowerCase().replace(/ /g, '-')
+        if (article_type) {
+          article_file = '../site/' + article_type + '/_posts/' + date_slug + '-' + step1 + ".md";
+          back_to = 'edit/' + article_type + '/' + step1 + '/'
+        }
+        else {
+          article_file = '../site/' + date_slug + '-' + step1 + ".md";
+          back_to = 'edit/' + step1 + '/'
+        }
+      }
+      return {article_file: article_file, backto_url: back_to}
+    }
+
+    function doContentCopy(){
+      console.log("Content copy");
+      document.getElementById("contenttextarea").value = 
+          editor.exportFile();
+      console.log(document.getElementById("contenttextarea").value);
+      document.getElementById("frontmattertextarea").value = 
+        document.getElementById("editfrontmatter").innerText;  
+      console.log(document.getElementById("frontmattertextarea").value);
+      info = get_edit_data();
+      document.getElementById("article_file").value = info.article_file;
+      document.getElementById("backto_url").value = info.backto_url;
+      return true;
+    }
