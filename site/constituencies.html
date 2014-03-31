@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: Indian Constituencies
----
-<iframe width="550" height="650" scrolling="no" frameborder="no" src="maps.html"></iframe>
+---<h2> List of Constituencies </h2>
 
-<h2> List of Constituencies </h2>
-
-<ul>
-{% for post in site.categories.constituencies %}
-	<li><a href="{{post.url}}">{{post.page.title}} - ({{post.page.state}})</a></li>
+{% for states in site.categories.constituencies | groupBy('state') %}
+  <h3>{{loop.key }}</h3>
+  <ul>
+    {% for post in states %}
+     <li><a href="{{post.url}}">{{post.page.title}}</a></li>
+    {% endfor %}
+  </ul>
 {% endfor %}
-</ul>
+
+
+
