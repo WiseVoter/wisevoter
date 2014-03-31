@@ -113,9 +113,11 @@ function readPosts(config) {
       var post = {};
       var fm = split.fm;
       post = fm;
+      var title = fm.title;
       post.date = new Date(d[1], d[2] - 1, d[3]);
       post.title = d[4];
       post.page = fm;
+      post.page.title = fm.title;
       if (post.page.date) post.date = post.page.date;
       if (d[5] == "md") {
         //HACK: markdown parsing hack to let swig do its thing
