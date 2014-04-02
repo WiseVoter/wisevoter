@@ -217,12 +217,13 @@ exports.generate = function() {
   prepareIncludes(ctx)
   
   //create recommendations
-  post.forEach(function(post)){
+  posts.forEach(function(post){
     var url = post.url
-    site.generated.recommendations[url] = {}
-    site.generated.recommendations[url].title = "States In Indian Politics"
-    site.generated.recommendations[url].title = "articles/the-states-in-indian-politics"
-  }
+    site.generated.recommendations[url] = []
+    site.generated.recommendations[url][0] = {}
+    site.generated.recommendations[url][0].title = "States In Indian Politics"
+    site.generated.recommendations[url][0].url = "/articles/the-states-in-indian-politics"
+  })
 
 
   posts.forEach(function(post) {
