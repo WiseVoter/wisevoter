@@ -210,10 +210,21 @@ exports.generate = function() {
   site.posts = posts
   site.time = new Date()
   site.data = data
+  site.generated = {}
+  site.generated.recommendations = {}
   var ctx = {site: site}
   
   prepareIncludes(ctx)
   
+  //create recommendations
+  post.forEach(function(post)){
+    var url = post.url
+    site.generated.recommendations[url] = {}
+    site.generated.recommendations[url].title = "States In Indian Politics"
+    site.generated.recommendations[url].title = "articles/the-states-in-indian-politics"
+  }
+
+
   posts.forEach(function(post) {
     var render = getLayout(post.page.layout, ctx)
     swig.setDefaults({loader: swig.loaders.fs(path.resolve(ctx.site.site_root + "/" + ctx.site.includes_dir))});

@@ -41,6 +41,14 @@
                 {% include "comments.html" %}
             </div>
           </div>
+        <div class="col-lg-7 recommendations">
+          <h3>Related Pages</h3>
+          <ul>
+            {% for page in site.generated.recommendations[post.url] %}
+              <li><a href=pages.url> page.title</li>
+            {% endfor %}
+          </ul>
+        </div>
         </div>
         
         <div class="col-lg-3">
