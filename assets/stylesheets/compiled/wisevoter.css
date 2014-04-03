@@ -73,6 +73,9 @@ body {
   text-decoration: underline;
   background: transparent;
 }
+.nav li a {
+  padding: 3px 5px;
+}
 @media only screen and (max-width: 767px) {
   .site-title header h1 {
     display: block;
@@ -178,6 +181,20 @@ body {
   #search-bar .search-form .input-group .tt-dropdown-menu .tt-suggestions {
     width: 250px;
   }
+}
+.recommendations h3 {
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  font-weight: 800;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+.recommendations ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 .post-list p.post-item-snippet {
   font-family: Helvetica, Arial, serif;
