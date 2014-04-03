@@ -50,3 +50,14 @@ function searchSubmit(){
   }
   return true;
 }
+
+$('.search-input').bind('typeahead:selected', function(obj, datum, name){
+  console.log(datum)
+  if (datum.href.indexOf('/') != -1)
+  {
+    var redirect_to = window.location.protocol + "//" + window.location.host + datum.href + "/";
+    window.location = redirect_to;
+    return false;
+  }
+  return true;  
+})
