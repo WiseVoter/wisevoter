@@ -16,8 +16,10 @@
       <div class="col-lg-1"></div>
       <div class="col-lg-7">
         <div class="post-list">
-          <h3 class="post-item-title"> {{page.title | title}} </h1>
+          <h3 class="post-item-title"> {{page.title | title}} </h3>
+          {% if page.category %}
           <i class="fa fa-pencil"></i> <span class="entry-date">Posted in {{ page.category | capitalize }} • <i class="fa fa-clock-o"></i> {{ page.readtime }}  minutes read • by {{page.author}}</span>
+          {% endif %}
         </div>
       </div>
       <div class="col-lg-4"></div>
