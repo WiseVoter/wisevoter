@@ -41,18 +41,21 @@
                 {% include "comments.html" %}
             </div>
           </div>
-        <div class="col-lg-7 recommendations">
-          <h3>Related Pages</h3>
-          <ul>
-            {% for page in site.generated.recommendations[post.url] %}
-              <li><a href=pages.url> page.title</li>
-            {% endfor %}
-          </ul>
-        </div>
         </div>
         
         <div class="col-lg-3">
          <aside id="sidebar">
+            {% if site.generated.recommendations[page.url] %}
+            <div class="recommendations">
+            <h3>Related Pages</h3>
+              <ul>
+                {% for p in site.generated.recommendations[page.url] %}
+                  <li><a href='{{p.url}}'>{{p.title}}</li>
+                {% endfor %}
+              </ul>
+            <div>
+            {% endif %}
+
             <a href="/politicians.html" class="button">
               <small>Review</small>
               Politicians

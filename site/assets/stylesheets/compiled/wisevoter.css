@@ -179,6 +179,18 @@ body {
     width: 250px;
   }
 }
+.recommendations h3 {
+  padding: 5px;
+  width: 200px;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+}
+.recommendations ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 .post-list p.post-item-snippet {
   font-family: Helvetica, Arial, serif;
 }
