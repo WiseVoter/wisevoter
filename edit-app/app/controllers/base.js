@@ -216,13 +216,19 @@ exports.generate = function() {
   
   prepareIncludes(ctx)
   
-  //create recommendations
+  //TODO: Implement a recommendation algorithm
   posts.forEach(function(post){
     var url = post.url
     site.generated.recommendations[url] = []
     site.generated.recommendations[url][0] = {}
     site.generated.recommendations[url][0].title = "States In Indian Politics"
     site.generated.recommendations[url][0].url = "/articles/the-states-in-indian-politics"
+    site.generated.recommendations[url][1] = {}
+    site.generated.recommendations[url][1].title = "Aam Aadmi Party"
+    site.generated.recommendations[url][1].url = "/parties/AAP"
+    site.generated.recommendations[url][2] = {}
+    site.generated.recommendations[url][2].title = "Sushma Swaraj"
+    site.generated.recommendations[url][2].url = "/politicians/sushma-swaraj"
   })
 
 
