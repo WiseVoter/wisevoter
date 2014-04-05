@@ -3,2171 +3,2714 @@
   category:  ST 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Peddapalle 
   category:  SC 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Karimnagar 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Nizamabad 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Zahirabad 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Medak 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Malkajgiri 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Secunderabad 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Hyderabad 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency: Chevella
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Mahbubnagar 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Nagarkurnool 
   category:  SC 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Nalgonda 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Bhongir 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Warangal 
   category:  SC 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Mahabubabad 
   category:  ST 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Khammam 
   category:  GEN 
   phase: 7
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Araku 
   category:  ST 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Srikakulam 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Vizianagaram 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Visakhapatnam 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Anakapalle 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Kakinada 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Amalapuram 
   category:  SC 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Rajahmundry 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Narsapuram 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Machilipatnam 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Vijayawada 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Guntur 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Narasaraopet 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Bapatla 
   category:  SC 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Ongole 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Nandyal 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Kurnool 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Anantapur 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Hindupur 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Kadapa 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Nellore 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Tirupati 
   category:  SC 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Rajampet 
   category:  GEN 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Chittoor 
   category:  SC 
   phase: 8
   state: Andhra Pradesh
+  state_abbrev: AP
 - constituency:  Arunachal West 
   category:  GEN 
   phase: 2
   state: Arunachal Pradesh
+  state_abbrev: AR
 - constituency:  Arunachal East 
   category:  GEN 
   phase: 2
   state: Arunachal Pradesh
+  state_abbrev: AR
 - constituency:  Tezpur 
   category:  GEN 
   phase: 1
   state: Assam
+  state_abbrev: AS
 - constituency:  Kaliabor 
   category:  GEN 
   phase: 1
   state: Assam
+  state_abbrev: AS
 - constituency:  Jorhat 
   category:  GEN 
   phase: 1
   state: Assam
+  state_abbrev: AS
 - constituency:  Dibrugarh 
   category:  GEN 
   phase: 1
   state: Assam
+  state_abbrev: AS
 - constituency:  Lakhimpur 
   category:  GEN 
   phase: 1
   state: Assam
+  state_abbrev: AS
 - constituency:  Karimganj 
   category:  SC 
   phase: 4
   state: Assam
+  state_abbrev: AS
 - constituency:  Silchar 
   category:  GEN 
   phase: 4
   state: Assam
+  state_abbrev: AS
 - constituency:  Autonomous District 
   category:  ST 
   phase: 4
   state: Assam
+  state_abbrev: AS
 - constituency:  Dhubri 
   category:  GEN 
   phase: 6
   state: Assam
+  state_abbrev: AS
 - constituency:  Kokrajhar 
   category:  ST 
   phase: 6
   state: Assam
+  state_abbrev: AS
 - constituency:  Barpeta 
   category:  GEN 
   phase: 6
   state: Assam
+  state_abbrev: AS
 - constituency:  Gauhati 
   category:  GEN 
   phase: 6
   state: Assam
+  state_abbrev: AS
 - constituency:  Mangaldoi 
   category:  GEN 
   phase: 6
   state: Assam
+  state_abbrev: AS
 - constituency:  Nawgong 
   category:  GEN 
   phase: 6
   state: Assam
+  state_abbrev: AS
 - constituency:  Sasaram 
   category:  SC 
   phase: 3B
   state: Bihar
+  state_abbrev: BR
 - constituency:  Karakat 
   category:  GEN 
   phase: 3B
   state: Bihar
+  state_abbrev: BR
 - constituency:  Aurangabad 
   category:  GEN 
   phase: 3B
   state: Bihar
+  state_abbrev: BR
 - constituency:  Gaya 
   category:  SC 
   phase: 3B
   state: Bihar
+  state_abbrev: BR
 - constituency:  Nawada 
   category:  GEN 
   phase: 3B
   state: Bihar
+  state_abbrev: BR
 - constituency:  Jamui 
   category:  SC 
   phase: 3B
   state: Bihar
+  state_abbrev: BR
 - constituency:  Munger 
   category:  GEN 
   phase: 5
   state: Bihar
+  state_abbrev: BR
 - constituency:  Nalanda 
   category:  GEN 
   phase: 5
   state: Bihar
+  state_abbrev: BR
 - constituency:  Patna Sahib 
   category:  GEN 
   phase: 5
   state: Bihar
+  state_abbrev: BR
 - constituency:  Pataliputra 
   category:  GEN 
   phase: 5
   state: Bihar
+  state_abbrev: BR
 - constituency:  Arrah 
   category:  GEN 
   phase: 5
   state: Bihar
+  state_abbrev: BR
 - constituency:  Buxar 
   category:  GEN 
   phase: 5
   state: Bihar
+  state_abbrev: BR
 - constituency:  Jahanabad 
   category:  GEN 
   phase: 5
   state: Bihar
+  state_abbrev: BR
 - constituency:  Supaul 
   category:  GEN 
   phase: 6
   state: Bihar
+  state_abbrev: BR
 - constituency:  Araria 
   category:  GEN 
   phase: 6
   state: Bihar
+  state_abbrev: BR
 - constituency:  Kishanganj 
   category:  GEN 
   phase: 6
   state: Bihar
+  state_abbrev: BR
 - constituency:  Katihar 
   category:  GEN 
   phase: 6
   state: Bihar
+  state_abbrev: BR
 - constituency:  Purnia 
   category:  GEN 
   phase: 6
   state: Bihar
+  state_abbrev: BR
 - constituency:  Bhagalpur 
   category:  GEN 
   phase: 6
   state: Bihar
+  state_abbrev: BR
 - constituency:  Banka 
   category:  GEN 
   phase: 6
   state: Bihar
+  state_abbrev: BR
 - constituency:  Madhubani 
   category:  GEN 
   phase: 7
   state: Bihar
+  state_abbrev: BR
 - constituency:  Jhanjharpur 
   category:  GEN 
   phase: 7
   state: Bihar
+  state_abbrev: BR
 - constituency:  Madhepura 
   category:  GEN 
   phase: 7
   state: Bihar
+  state_abbrev: BR
 - constituency:  Darbhanga 
   category:  GEN 
   phase: 7
   state: Bihar
+  state_abbrev: BR
 - constituency:  Samastipur 
   category:  SC 
   phase: 7
   state: Bihar
+  state_abbrev: BR
 - constituency:  Begusarai 
   category:  GEN 
   phase: 7
   state: Bihar
+  state_abbrev: BR
 - constituency:  Khagaria 
   category:  GEN 
   phase: 7
   state: Bihar
+  state_abbrev: BR
 - constituency:  Sheohar 
   category:  GEN 
   phase: 8
   state: Bihar
+  state_abbrev: BR
 - constituency:  Sitamarhi 
   category:  GEN 
   phase: 8
   state: Bihar
+  state_abbrev: BR
 - constituency:  Muzaffarpur 
   category:  GEN 
   phase: 8
   state: Bihar
+  state_abbrev: BR
 - constituency:  Maharajganj 
   category:  GEN 
   phase: 8
   state: Bihar
+  state_abbrev: BR
 - constituency:  Saran 
   category:  GEN 
   phase: 8
   state: Bihar
+  state_abbrev: BR
 - constituency:  Hajipur 
   category:  SC 
   phase: 8
   state: Bihar
+  state_abbrev: BR
 - constituency:  Ujiarpur 
   category:  GEN 
   phase: 8
   state: Bihar
+  state_abbrev: BR
 - constituency:  Valmiki Nagar 
   category:  GEN 
   phase: 9
   state: Bihar
+  state_abbrev: BR
 - constituency:  Paschim Champaran 
   category:  GEN 
   phase: 9
   state: Bihar
+  state_abbrev: BR
 - constituency:  Purvi Champaran 
   category:  GEN 
   phase: 9
   state: Bihar
+  state_abbrev: BR
 - constituency:  Vaishali 
   category:  GEN 
   phase: 9
   state: Bihar
+  state_abbrev: BR
 - constituency:  Gopalganj 
   category:  SC 
   phase: 9
   state: Bihar
+  state_abbrev: BR
 - constituency:  Siwan 
   category:  GEN 
   phase: 9
   state: Bihar
+  state_abbrev: BR
 - constituency:  Bastar 
   category:  ST 
   phase: 3A
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Rajnandgaon 
   category:  GEN 
   phase: 5
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Mahasamund 
   category:  GEN 
   phase: 5
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Kanker 
   category:  ST 
   phase: 5
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Surguja 
   category:  ST 
   phase: 6
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Raigarh 
   category:  ST 
   phase: 6
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Janjgir-Champa 
   category:  SC 
   phase: 6
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Korba 
   category:  GEN 
   phase: 6
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Bilaspur 
   category:  GEN 
   phase: 6
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Durg 
   category:  GEN 
   phase: 6
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency:  Raipur 
   category:  GEN 
   phase: 6
   state: Chhattisgarh
+  state_abbrev: CG
 - constituency: North Goa
   category:  GEN 
   phase: 4
   state: Goa
+  state_abbrev: GA
 - constituency: South Goa
   category:  GEN 
   phase: 4
   state: Goa
+  state_abbrev: GA
 - constituency:  Kachchh 
   category:  SC 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Banaskantha 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Patan 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Mahesana 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Sabarkantha 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Gandhinagar 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Ahmedabad East 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Ahmedabad West 
   category:  SC 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Surendranagar 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Rajkot 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Porbandar 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Jamnagar 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Junagadh 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Amreli 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Bhavnagar 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Anand 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Kheda 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Panchmahal 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Dahod 
   category:  ST 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Vadodara 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Chhota Udaipur 
   category:  ST 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Bharuch 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Bardoli 
   category:  ST 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Surat 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Navsari 
   category:  GEN 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Valsad 
   category:  ST 
   phase: 7
   state: Gujarat
+  state_abbrev: GJ
 - constituency:  Ambala 
   category:  SC 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Kurukshetra 
   category:  GEN 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Sirsa 
   category:  SC 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Hisar 
   category:  GEN 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Karnal 
   category:  GEN 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Sonipat 
   category:  GEN 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Rohtak 
   category:  GEN 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Bhiwani-Mahendragarh 
   category:  GEN 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Gurgaon 
   category:  GEN 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency: Faridabad
   category:  GEN 
   phase: 7
   state: Haryana
+  state_abbrev: HR
 - constituency:  Kangra 
   category:  GEN 
   phase: 8
   state: Himachal Pradesh
+  state_abbrev: HP
 - constituency:  Mandi 
   category:  GEN 
   phase: 8
   state: Himachal Pradesh
+  state_abbrev: HP
 - constituency:  Hamirpur 
   category:  GEN 
   phase: 8
   state: Himachal Pradesh
+  state_abbrev: HP
 - constituency:  Shimla 
   category:  SC 
   phase: 8
   state: Himachal Pradesh
+  state_abbrev: HP
 - constituency: Jammu
   category:  GEN 
   phase: 3A
   state: Jammu and Kashmir
+  state_abbrev: JK
 - constituency: Udhampur
   category:  GEN 
   phase: 5
   state: Jammu and Kashmir
+  state_abbrev: JK
 - constituency: Anantnag
   category:  GEN 
   phase: 6
   state: Jammu and Kashmir
+  state_abbrev: JK
 - constituency: Srinagar
   category:  GEN 
   phase: 7
   state: Jammu and Kashmir
+  state_abbrev: JK
 - constituency: Baramulla
   category:  GEN 
   phase: 8
   state: Jammu and Kashmir
+  state_abbrev: JK
 - constituency: Ladakh
   category:  GEN 
   phase: 8
   state: Jammu and Kashmir
+  state_abbrev: JK
 - constituency:  Chatra 
   category:  GEN 
   phase: 3A
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Kodarma 
   category:  GEN 
   phase: 3A
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Lohardaga 
   category:  ST 
   phase: 3A
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Palamu 
   category:  SC 
   phase: 3A
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Giridih 
   category:  GEN 
   phase: 5
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Ranchi 
   category:  GEN 
   phase: 5
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Jamshedpur 
   category:  GEN 
   phase: 5
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Singhbhum 
   category:  ST 
   phase: 5
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Khunti 
   category:  ST 
   phase: 5
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Hazaribagh 
   category:  GEN 
   phase: 5
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Rajmahal 
   category:  ST 
   phase: 6
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Dumka 
   category:  ST 
   phase: 6
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Godda 
   category:  GEN 
   phase: 6
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Dhanbad 
   category:  GEN 
   phase: 6
   state: Jharkhand
+  state_abbrev: JH
 - constituency:  Chikkodi 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Belgaum 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Bagalkot 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Bijapur 
   category:  SC 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Gulbarga 
   category:  SC 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Raichur 
   category:  ST 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Bidar 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Koppal 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Bellary 
   category:  ST 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Haveri 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Dharwad 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Uttara Kannada 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Davanagere 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Shimoga 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Udupi Chikmagalur 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Hassan 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Dakshina Kannada 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Chitradurga 
   category:  SC 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Tumkur 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Mandya 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Mysore 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Chamarajanagar 
   category:  SC 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Bangalore Rural 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Bangalore North 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Bangalore Central 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Bangalore South 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Chikkballapur 
   category:  GEN 
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Kolar 
   category: SC
   phase: 5
   state: Karnataka
+  state_abbrev: KA
 - constituency:  Kasaragod 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Kannur 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Vadakara 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Wayanad 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Kozhikode 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Malappuram 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Ponnani 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Palakkad 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Alathur 
   category:  SC 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Thrissur 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Chalakudy 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Ernakulam 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Idukki 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Kottayam 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Alappuzha 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Mavelikkara 
   category:  SC 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Pathanamthitta 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Kollam 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Attingal 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Thiruvananthapuram 
   category:  GEN 
   phase: 3A
   state: Kerala
+  state_abbrev: KL
 - constituency:  Satna 
   category:  GEN 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Rewa 
   category:  GEN 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Sidhi 
   category:  GEN 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Shahdol 
   category:  ST 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Jabalpur 
   category:  GEN 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Mandla 
   category:  ST 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Balaghat 
   category:  GEN 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Chhindwara 
   category:  GEN 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Hoshangabad 
   category:  GEN 
   phase: 3A
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Morena 
   category:  GEN 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Bhind 
   category:  SC 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Gwalior 
   category:  GEN 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Guna 
   category:  GEN 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Sagar 
   category:  GEN 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Tikamgarh 
   category:  SC 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Damoh 
   category:  GEN 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Khajuraho 
   category:  GEN 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Bhopal 
   category:  GEN 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency: Rajgarh
   category:  GEN 
   phase: 5
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Vidisha 
   category:  GEN 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Dewas 
   category:  SC 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Ujjain 
   category:  SC 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Mandsour 
   category:  GEN 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Ratlam 
   category:  ST 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Dhar 
   category:  ST 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Indore 
   category:  GEN 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Khargone 
   category:  ST 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Khandwa 
   category:  GEN 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Betul 
   category:  ST 
   phase: 6
   state: Madhya Pradesh
+  state_abbrev: MP
 - constituency:  Buldhana 
   category:  GEN 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Akola 
   category:  GEN 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Amravati 
   category:  SC 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Wardha 
   category:  GEN 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Ramtek 
   category:  SC 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Nagpur 
   category:  GEN 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Bhandara - Gondiya 
   category:  GEN 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Gadchiroli-Chimur 
   category:  ST 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Chandrapur 
   category:  GEN 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Yavatmal-Washim 
   category:  GEN 
   phase: 3A
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Hingoli 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Nanded 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Parbhani 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Maval 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Pune 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Baramati 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Shirur 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Ahmednagar 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Shirdi 
   category:  SC 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Beed 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Osmanabad 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Latur 
   category:  SC 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Solapur 
   category:  SC 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Madha 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Sangli 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Satara 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Ratnagiri - Sindhudurg 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Kolhapur 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Hatkanangle 
   category:  GEN 
   phase: 5
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Nandurbar 
   category:  ST 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Dhule 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Jalgaon 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Raver 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Jalna 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Aurangabad 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Dindori 
   category:  ST 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Nashik 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Palghar 
   category:  ST 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Bhiwandi 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Kalyan 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Thane 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Mumbai North 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Mumbai North-West 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Mumbai North-East 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Mumbai North-Central 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Mumbai South -Central 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Mumbai South 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency:  Raigad 
   category:  GEN 
   phase: 6
   state: Maharashtra
+  state_abbrev: MH
 - constituency: Outer Manipur
   category:  ST 
   phase: 2
   state: Manipur
+  state_abbrev: MN
 - constituency: Inner Manipur
   category:  GEN 
   phase: 5
   state: Manipur
+  state_abbrev: MN
 - constituency: Shillong
   category:  ST 
   phase: 2
   state: Meghalaya
+  state_abbrev: ML
 - constituency: Tura
   category:  ST 
   phase: 2
   state: Meghalaya
+  state_abbrev: ML
 - constituency: Mizoram
   category:  ST 
   phase: 2
   state: Mizoram
+  state_abbrev: MZ
 - constituency: Nagaland
   category:  GEN 
   phase: 2
   state: Nagaland
+  state_abbrev: NL
 - constituency:  Bargarh 
   category:  GEN 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Sundargarh 
   category:  ST 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Sambalpur 
   category:  GEN 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Bolangir 
   category:  GEN 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Kalahandi 
   category:  GEN 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Nabarangpur 
   category:  ST 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Kandhamal 
   category:  GEN 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Aska 
   category:  GEN 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Berhampur 
   category:  GEN 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency: Korapat
   category:  ST 
   phase: 3A
   state: Odisha
+  state_abbrev: OR
 - constituency:  Keonjhar 
   category:  ST 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Mayurbhanj 
   category:  ST 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Balasore 
   category:  GEN 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Bhadrak 
   category:  SC 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Jajpur 
   category:  SC 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Dhenkanal 
   category:  GEN 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Cuttack 
   category:  GEN 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Kendrapara 
   category:  GEN 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Jagatsinghpur 
   category:  SC 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Puri 
   category:  GEN 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Bhubaneswar 
   category:  GEN 
   phase: 5
   state: Odisha
+  state_abbrev: OR
 - constituency:  Gurdaspur 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Amritsar 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Khadoor Sahib 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Jalandhar 
   category:  SC 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Hoshiarpur 
   category:  SC 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Anandpur Sahib 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Ludhiana 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Fatehgarh Sahib 
   category:  SC 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Faridkot 
   category:  SC 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Firozpur 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Bathinda 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Sangrur 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Patiala 
   category:  GEN 
   phase: 7
   state: Punjab
+  state_abbrev: PB
 - constituency:  Ganganagar 
   category:  SC 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Bikaner 
   category:  SC 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Churu 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Jhunjhunu 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Sikar 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Jaipur Rural 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Jaipur 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Ajmer 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Nagaur 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Pali 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Jodhpur 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Barmer 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Jalore 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Udaipur 
   category:  ST 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Banswara 
   category:  ST 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Chittorgarh 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Rajsamand 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Bhilwara 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Kota 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Jhalawar-Baran 
   category:  GEN 
   phase: 5
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Alwar 
   category:  GEN 
   phase: 6
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Bharatpur 
   category:  SC 
   phase: 6
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Karauli-Dholpur 
   category:  SC 
   phase: 6
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Dausa 
   category:  ST 
   phase: 6
   state: Rajasthan
+  state_abbrev: RJ
 - constituency:  Tonk-Sawai Madhopur 
   category:  GEN 
   phase: 6
   state: Rajasthan
+  state_abbrev: RJ
 - constituency: Sikkim
   category:  GEN 
   phase: 4
   state: Sikkim
+  state_abbrev: SK
 - constituency:  Tiruvallur 
   category:  SC 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Chennai North 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Chennai South 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Chennai Central 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Sriperumbudur 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Kancheepuram 
   category:  SC 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Arakkonam 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Vellore 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Krishnagiri 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Dharmapuri 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Tiruvannamalai 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Arani 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Viluppuram 
   category:  SC 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Kallakurichi 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Salem 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Namakkal 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Erode 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Tiruppur 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Nilgiris 
   category:  SC 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Coimbatore 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Pollachi 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Dindigul 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Karur 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Tiruchirappalli 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Perambalur 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Cuddalore 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Chidambaram 
   category:  SC 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Mayiladuthurai 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Nagapattinam 
   category:  SC 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Thanjavur 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Sivaganga 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Madurai 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Theni 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Virudhunagar 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Ramanathapuram 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Thoothukkudi 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Tenkasi 
   category:  SC 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Tirunelveli 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency:  Kanniyakumari 
   category:  GEN 
   phase: 6
   state: Tamil Nadu
+  state_abbrev: TN
 - constituency: Tripura West
   category:  GEN 
   phase: 1
   state: Tripura
+  state_abbrev: TR
 - constituency: Tripura East
   category:  ST 
   phase: 4
   state: Tripura
+  state_abbrev: TR
 - constituency:  Saharanpur 
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Kairana 
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Muzaffarnagar 
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Bijnor 
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Meerut 
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Baghpat 
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Ghaziabad 
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Gautam Buddha Nagar 
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Bulandshahr 
   category:  SC 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency: Aligarh
   category:  GEN 
   phase: 3A
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Nagina 
   category:  SC 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Moradabad 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Rampur 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Sambhal 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Amroha 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Badaun 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Aonla 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Bareilly 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Pilibhit 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Shahjahanpur 
   category:  SC 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Kheri 
   category:  GEN 
   phase: 5
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Hathras 
   category:  SC 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Mathura 
   category:  GEN 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Agra 
   category:  SC 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Fatehpur Sikri 
   category:  GEN 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Firozabad 
   category:  GEN 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Mainpuri 
   category:  GEN 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Etah 
   category:  GEN 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Hardoi 
   category:  SC 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Farrukhabad 
   category:  GEN 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Etawah 
   category:  SC 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Kannauj 
   category:  GEN 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Akbarpur 
   category:  GEN 
   phase: 6
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Dhaurahra 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Sitapur 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Misrikh 
   category:  SC 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Unnao 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Mohanlalganj 
   category:  SC 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Lucknow 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Rae Bareli 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Kanpur 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Jalaun 
   category:  SC 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Jhansi 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Hamirpur 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Banda 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Fatehpur 
   category:  GEN 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Barabanki 
   category:  SC 
   phase: 7
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Amethi 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Sultanpur 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Pratapgarh 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Kaushambi 
   category:  SC 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Phulpur 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Allahabad 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Faizabad 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Ambedkar Nagar 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Bahraich 
   category:  SC 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Kaiserganj 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Shrawasti 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Gonda 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Basti 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Sant Kabir Nagar 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Bhadohi 
   category:  GEN 
   phase: 8
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Domariyaganj 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Maharajganj 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Gorakhpur 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Kushi Nagar 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Deoria 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Bansgaon 
   category:  SC 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Lalganj 
   category:  SC 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Azamgarh 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Ghosi 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Salempur 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Ballia 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Jaunpur 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Machhlishahr 
   category:  SC 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Ghazipur 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Chandauli 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Varanasi 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Mirzapur 
   category:  GEN 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  Robertsganj 
   category:  SC 
   phase: 9
   state: Uttar Pradesh
+  state_abbrev: UP
 - constituency:  TehriGarhwal 
   category:  GEN 
   phase: 8
   state: Uttarakhand
+  state_abbrev: UK
 - constituency:  Garhwal 
   category:  GEN 
   phase: 8
   state: Uttarakhand
+  state_abbrev: UK
 - constituency:  Almora 
   category:  SC 
   phase: 8
   state: Uttarakhand
+  state_abbrev: UK
 - constituency:  Nainital- 
   category:  GEN 
   phase: 8
   state: Uttarakhand
+  state_abbrev: UK
 - constituency:  Udhamsingh Nagar 
   category: 
   phase: 8
   state: Uttarakhand
+  state_abbrev: UK
 - constituency:  Hardwar 
   category:  GEN 
   phase: 8
   state: Uttarakhand
+  state_abbrev: UK
 - constituency:  Coochbehar 
   category:  SC 
   phase: 5
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Alipurduars 
   category:  ST 
   phase: 5
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Jalpaiguri 
   category:  SC 
   phase: 5
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Darjeeling 
   category:  GEN 
   phase: 5
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Raiganj 
   category:  GEN 
   phase: 6
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Balurghat 
   category:  GEN 
   phase: 6
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Maldaha Uttar 
   category:  GEN 
   phase: 6
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Maldaha Dakshin 
   category:  GEN 
   phase: 6
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Jangipur 
   category:  GEN 
   phase: 6
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Murshidabad 
   category:  GEN 
   phase: 6
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Howrah 
   category:  GEN 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Uluberia 
   category:  GEN 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Sreerampur 
   category:  GEN 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Hooghly 
   category:  GEN 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Arambag 
   category:  SC 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Bardhaman Purba 
   category:  SC 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Bardhaman - Durgapur 
   category:  GEN 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Bolpur 
   category:  SC 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Birbhum 
   category:  GEN 
   phase: 7
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Jhargram 
   category:  ST 
   phase: 8
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Medinipur 
   category:  GEN 
   phase: 8
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Purulia 
   category:  GEN 
   phase: 8
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Bankura 
   category:  GEN 
   phase: 8
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Bishnupur 
   category:  SC 
   phase: 8
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Asansol 
   category:  GEN 
   phase: 8
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Baharampur 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Krishnanagar 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Ranaghat 
   category:  SC 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Bangaon 
   category:  SC 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Barrackpur 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Dum Dum 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Barasat 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Basirhat 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Jaynagar 
   category:  SC 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Mathurapur 
   category:  SC 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Diamond Harbour 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Jadavpur 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Kolkata Dakshin 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Kolkata Uttar 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Tamluk 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Kanthi 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency:  Ghatal 
   category:  GEN 
   phase: 9
   state: West Bengal
+  state_abbrev: WB
 - constituency: Andaman and Nicobar Islands
   category:  GEN 
   phase: 3A
   state: Andaman and Nicobar Islands
+  state_abbrev: AN
 - constituency: Chandigarh
   category:  GEN 
   phase: 3A
   state: Chandigarh
+  state_abbrev: CH
 - constituency: Dadra and Nagar Haveli
   category:  ST 
   phase: 7
   state: Dadra and Nagar Haveli
+  state_abbrev: DN
 - constituency: Daman and Diu
   category:  GEN 
   phase: 7
   state: Daman and Diu
+  state_abbrev: DD
 - constituency: Lakshadweep
   category:  ST 
   phase: 3A
   state: Lakshadweep
+  state_abbrev: LK
 - constituency:  Chandni Chowk 
   category:  GEN 
   phase: 3A
   state: Delhi
+  state_abbrev: DL
 - constituency:  North East Delhi 
   category:  GEN 
   phase: 3A
   state: Delhi
+  state_abbrev: DL
 - constituency:  East Delhi 
   category:  GEN 
   phase: 3A
   state: Delhi
+  state_abbrev: DL
 - constituency:  New Delhi 
   category:  GEN 
   phase: 3A
   state: Delhi
+  state_abbrev: DL
 - constituency:  North West Delhi 
   category:  SC 
   phase: 3A
   state: Delhi
+  state_abbrev: DL
 - constituency:  West Delhi 
   category:  GEN 
   phase: 3A
   state: Delhi
+  state_abbrev: DL
 - constituency:  South Delhi 
   category:  GEN 
   phase: 3A
   state: Delhi
+  state_abbrev: DL
 - constituency: Puducherry
   category:  GEN 
   phase: 6
   state: Puducherry
+  state_abbrev: PD

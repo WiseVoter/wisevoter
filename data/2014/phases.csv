@@ -1,544 +1,544 @@
-constituency,category,phase,state
-Adilabad ,ST ,7,Andhra Pradesh
-Peddapalle ,SC ,7,Andhra Pradesh
-Karimnagar ,GEN ,7,Andhra Pradesh
-Nizamabad ,GEN ,7,Andhra Pradesh
-Zahirabad ,GEN ,7,Andhra Pradesh
-Medak ,GEN ,7,Andhra Pradesh
-Malkajgiri ,GEN ,7,Andhra Pradesh
-Secunderabad ,GEN ,7,Andhra Pradesh
-Hyderabad ,GEN ,7,Andhra Pradesh
-Chevella,GEN ,7,Andhra Pradesh
-Mahbubnagar ,GEN ,7,Andhra Pradesh
-Nagarkurnool ,SC ,7,Andhra Pradesh
-Nalgonda ,GEN ,7,Andhra Pradesh
-Bhongir ,GEN ,7,Andhra Pradesh
-Warangal ,SC ,7,Andhra Pradesh
-Mahabubabad ,ST ,7,Andhra Pradesh
-Khammam ,GEN ,7,Andhra Pradesh
-Araku ,ST ,8,Andhra Pradesh
-Srikakulam ,GEN ,8,Andhra Pradesh
-Vizianagaram ,GEN ,8,Andhra Pradesh
-Visakhapatnam ,GEN ,8,Andhra Pradesh
-Anakapalle ,GEN ,8,Andhra Pradesh
-Kakinada ,GEN ,8,Andhra Pradesh
-Amalapuram ,SC ,8,Andhra Pradesh
-Rajahmundry ,GEN ,8,Andhra Pradesh
-Narsapuram ,GEN ,8,Andhra Pradesh
-Machilipatnam ,GEN ,8,Andhra Pradesh
-Vijayawada ,GEN ,8,Andhra Pradesh
-Guntur ,GEN ,8,Andhra Pradesh
-Narasaraopet ,GEN ,8,Andhra Pradesh
-Bapatla ,SC ,8,Andhra Pradesh
-Ongole ,GEN ,8,Andhra Pradesh
-Nandyal ,GEN ,8,Andhra Pradesh
-Kurnool ,GEN ,8,Andhra Pradesh
-Anantapur ,GEN ,8,Andhra Pradesh
-Hindupur ,GEN ,8,Andhra Pradesh
-Kadapa ,GEN ,8,Andhra Pradesh
-Nellore ,GEN ,8,Andhra Pradesh
-Tirupati ,SC ,8,Andhra Pradesh
-Rajampet ,GEN ,8,Andhra Pradesh
-Chittoor ,SC ,8,Andhra Pradesh
-Arunachal West ,GEN ,2,Arunachal Pradesh
-Arunachal East ,GEN ,2,Arunachal Pradesh
-Tezpur ,GEN ,1,Assam
-Kaliabor ,GEN ,1,Assam
-Jorhat ,GEN ,1,Assam
-Dibrugarh ,GEN ,1,Assam
-Lakhimpur ,GEN ,1,Assam
-Karimganj ,SC ,4,Assam
-Silchar ,GEN ,4,Assam
-Autonomous District ,ST ,4,Assam
-Dhubri ,GEN ,6,Assam
-Kokrajhar ,ST ,6,Assam
-Barpeta ,GEN ,6,Assam
-Gauhati ,GEN ,6,Assam
-Mangaldoi ,GEN ,6,Assam
-Nawgong ,GEN ,6,Assam
-Sasaram ,SC ,3B,Bihar
-Karakat ,GEN ,3B,Bihar
-Aurangabad ,GEN ,3B,Bihar
-Gaya ,SC ,3B,Bihar
-Nawada ,GEN ,3B,Bihar
-Jamui ,SC ,3B,Bihar
-Munger ,GEN ,5,Bihar
-Nalanda ,GEN ,5,Bihar
-Patna Sahib ,GEN ,5,Bihar
-Pataliputra ,GEN ,5,Bihar
-Arrah ,GEN ,5,Bihar
-Buxar ,GEN ,5,Bihar
-Jahanabad ,GEN ,5,Bihar
-Supaul ,GEN ,6,Bihar
-Araria ,GEN ,6,Bihar
-Kishanganj ,GEN ,6,Bihar
-Katihar ,GEN ,6,Bihar
-Purnia ,GEN ,6,Bihar
-Bhagalpur ,GEN ,6,Bihar
-Banka ,GEN ,6,Bihar
-Madhubani ,GEN ,7,Bihar
-Jhanjharpur ,GEN ,7,Bihar
-Madhepura ,GEN ,7,Bihar
-Darbhanga ,GEN ,7,Bihar
-Samastipur ,SC ,7,Bihar
-Begusarai ,GEN ,7,Bihar
-Khagaria ,GEN ,7,Bihar
-Sheohar ,GEN ,8,Bihar
-Sitamarhi ,GEN ,8,Bihar
-Muzaffarpur ,GEN ,8,Bihar
-Maharajganj ,GEN ,8,Bihar
-Saran ,GEN ,8,Bihar
-Hajipur ,SC ,8,Bihar
-Ujiarpur ,GEN ,8,Bihar
-Valmiki Nagar ,GEN ,9,Bihar
-Paschim Champaran ,GEN ,9,Bihar
-Purvi Champaran ,GEN ,9,Bihar
-Vaishali ,GEN ,9,Bihar
-Gopalganj ,SC ,9,Bihar
-Siwan ,GEN ,9,Bihar
-Bastar ,ST ,3A,Chhattisgarh
-Rajnandgaon ,GEN ,5,Chhattisgarh
-Mahasamund ,GEN ,5,Chhattisgarh
-Kanker ,ST ,5,Chhattisgarh
-Surguja ,ST ,6,Chhattisgarh
-Raigarh ,ST ,6,Chhattisgarh
-Janjgir-Champa ,SC ,6,Chhattisgarh
-Korba ,GEN ,6,Chhattisgarh
-Bilaspur ,GEN ,6,Chhattisgarh
-Durg ,GEN ,6,Chhattisgarh
-Raipur ,GEN ,6,Chhattisgarh
-North Goa,GEN ,4,Goa
-South Goa,GEN ,4,Goa
-Kachchh ,SC ,7,Gujarat
-Banaskantha ,GEN ,7,Gujarat
-Patan ,GEN ,7,Gujarat
-Mahesana ,GEN ,7,Gujarat
-Sabarkantha ,GEN ,7,Gujarat
-Gandhinagar ,GEN ,7,Gujarat
-Ahmedabad East ,GEN ,7,Gujarat
-Ahmedabad West ,SC ,7,Gujarat
-Surendranagar ,GEN ,7,Gujarat
-Rajkot ,GEN ,7,Gujarat
-Porbandar ,GEN ,7,Gujarat
-Jamnagar ,GEN ,7,Gujarat
-Junagadh ,GEN ,7,Gujarat
-Amreli ,GEN ,7,Gujarat
-Bhavnagar ,GEN ,7,Gujarat
-Anand ,GEN ,7,Gujarat
-Kheda ,GEN ,7,Gujarat
-Panchmahal ,GEN ,7,Gujarat
-Dahod ,ST ,7,Gujarat
-Vadodara ,GEN ,7,Gujarat
-Chhota Udaipur ,ST ,7,Gujarat
-Bharuch ,GEN ,7,Gujarat
-Bardoli ,ST ,7,Gujarat
-Surat ,GEN ,7,Gujarat
-Navsari ,GEN ,7,Gujarat
-Valsad ,ST ,7,Gujarat
-Ambala ,SC ,7,Haryana
-Kurukshetra ,GEN ,7,Haryana
-Sirsa ,SC ,7,Haryana
-Hisar ,GEN ,7,Haryana
-Karnal ,GEN ,7,Haryana
-Sonipat ,GEN ,7,Haryana
-Rohtak ,GEN ,7,Haryana
-Bhiwani-Mahendragarh ,GEN ,7,Haryana
-Gurgaon ,GEN ,7,Haryana
-Faridabad,GEN ,7,Haryana
-Kangra ,GEN ,8,Himachal Pradesh
-Mandi ,GEN ,8,Himachal Pradesh
-Hamirpur ,GEN ,8,Himachal Pradesh
-Shimla ,SC ,8,Himachal Pradesh
-Jammu,GEN ,3A,Jammu and Kashmir
-Udhampur,GEN ,5,Jammu and Kashmir
-Anantnag,GEN ,6,Jammu and Kashmir
-Srinagar,GEN ,7,Jammu and Kashmir
-Baramulla,GEN ,8,Jammu and Kashmir
-Ladakh,GEN ,8,Jammu and Kashmir
-Chatra ,GEN ,3A,Jharkhand
-Kodarma ,GEN ,3A,Jharkhand
-Lohardaga ,ST ,3A,Jharkhand
-Palamu ,SC ,3A,Jharkhand
-Giridih ,GEN ,5,Jharkhand
-Ranchi ,GEN ,5,Jharkhand
-Jamshedpur ,GEN ,5,Jharkhand
-Singhbhum ,ST ,5,Jharkhand
-Khunti ,ST ,5,Jharkhand
-Hazaribagh ,GEN ,5,Jharkhand
-Rajmahal ,ST ,6,Jharkhand
-Dumka ,ST ,6,Jharkhand
-Godda ,GEN ,6,Jharkhand
-Dhanbad ,GEN ,6,Jharkhand
-Chikkodi ,GEN ,5,Karnataka
-Belgaum ,GEN ,5,Karnataka
-Bagalkot ,GEN ,5,Karnataka
-Bijapur ,SC ,5,Karnataka
-Gulbarga ,SC ,5,Karnataka
-Raichur ,ST ,5,Karnataka
-Bidar ,GEN ,5,Karnataka
-Koppal ,GEN ,5,Karnataka
-Bellary ,ST ,5,Karnataka
-Haveri ,GEN ,5,Karnataka
-Dharwad ,GEN ,5,Karnataka
-Uttara Kannada ,GEN ,5,Karnataka
-Davanagere ,GEN ,5,Karnataka
-Shimoga ,GEN ,5,Karnataka
-Udupi Chikmagalur ,GEN ,5,Karnataka
-Hassan ,GEN ,5,Karnataka
-Dakshina Kannada ,GEN ,5,Karnataka
-Chitradurga ,SC ,5,Karnataka
-Tumkur ,GEN ,5,Karnataka
-Mandya ,GEN ,5,Karnataka
-Mysore ,GEN ,5,Karnataka
-Chamarajanagar ,SC ,5,Karnataka
-Bangalore Rural ,GEN ,5,Karnataka
-Bangalore North ,GEN ,5,Karnataka
-Bangalore Central ,GEN ,5,Karnataka
-Bangalore South ,GEN ,5,Karnataka
-Chikkballapur ,GEN ,5,Karnataka
-Kolar ,SC,5,Karnataka
-Kasaragod ,GEN ,3A,Kerala
-Kannur ,GEN ,3A,Kerala
-Vadakara ,GEN ,3A,Kerala
-Wayanad ,GEN ,3A,Kerala
-Kozhikode ,GEN ,3A,Kerala
-Malappuram ,GEN ,3A,Kerala
-Ponnani ,GEN ,3A,Kerala
-Palakkad ,GEN ,3A,Kerala
-Alathur ,SC ,3A,Kerala
-Thrissur ,GEN ,3A,Kerala
-Chalakudy ,GEN ,3A,Kerala
-Ernakulam ,GEN ,3A,Kerala
-Idukki ,GEN ,3A,Kerala
-Kottayam ,GEN ,3A,Kerala
-Alappuzha ,GEN ,3A,Kerala
-Mavelikkara ,SC ,3A,Kerala
-Pathanamthitta ,GEN ,3A,Kerala
-Kollam ,GEN ,3A,Kerala
-Attingal ,GEN ,3A,Kerala
-Thiruvananthapuram ,GEN ,3A,Kerala
-Satna ,GEN ,3A,Madhya Pradesh
-Rewa ,GEN ,3A,Madhya Pradesh
-Sidhi ,GEN ,3A,Madhya Pradesh
-Shahdol ,ST ,3A,Madhya Pradesh
-Jabalpur ,GEN ,3A,Madhya Pradesh
-Mandla ,ST ,3A,Madhya Pradesh
-Balaghat ,GEN ,3A,Madhya Pradesh
-Chhindwara ,GEN ,3A,Madhya Pradesh
-Hoshangabad ,GEN ,3A,Madhya Pradesh
-Morena ,GEN ,5,Madhya Pradesh
-Bhind ,SC ,5,Madhya Pradesh
-Gwalior ,GEN ,5,Madhya Pradesh
-Guna ,GEN ,5,Madhya Pradesh
-Sagar ,GEN ,5,Madhya Pradesh
-Tikamgarh ,SC ,5,Madhya Pradesh
-Damoh ,GEN ,5,Madhya Pradesh
-Khajuraho ,GEN ,5,Madhya Pradesh
-Bhopal ,GEN ,5,Madhya Pradesh
-Rajgarh,GEN ,5,Madhya Pradesh
-Vidisha ,GEN ,6,Madhya Pradesh
-Dewas ,SC ,6,Madhya Pradesh
-Ujjain ,SC ,6,Madhya Pradesh
-Mandsour ,GEN ,6,Madhya Pradesh
-Ratlam ,ST ,6,Madhya Pradesh
-Dhar ,ST ,6,Madhya Pradesh
-Indore ,GEN ,6,Madhya Pradesh
-Khargone ,ST ,6,Madhya Pradesh
-Khandwa ,GEN ,6,Madhya Pradesh
-Betul ,ST ,6,Madhya Pradesh
-Buldhana ,GEN ,3A,Maharashtra
-Akola ,GEN ,3A,Maharashtra
-Amravati ,SC ,3A,Maharashtra
-Wardha ,GEN ,3A,Maharashtra
-Ramtek ,SC ,3A,Maharashtra
-Nagpur ,GEN ,3A,Maharashtra
-Bhandara - Gondiya ,GEN ,3A,Maharashtra
-Gadchiroli-Chimur ,ST ,3A,Maharashtra
-Chandrapur ,GEN ,3A,Maharashtra
-Yavatmal-Washim ,GEN ,3A,Maharashtra
-Hingoli ,GEN ,5,Maharashtra
-Nanded ,GEN ,5,Maharashtra
-Parbhani ,GEN ,5,Maharashtra
-Maval ,GEN ,5,Maharashtra
-Pune ,GEN ,5,Maharashtra
-Baramati ,GEN ,5,Maharashtra
-Shirur ,GEN ,5,Maharashtra
-Ahmednagar ,GEN ,5,Maharashtra
-Shirdi ,SC ,5,Maharashtra
-Beed ,GEN ,5,Maharashtra
-Osmanabad ,GEN ,5,Maharashtra
-Latur ,SC ,5,Maharashtra
-Solapur ,SC ,5,Maharashtra
-Madha ,GEN ,5,Maharashtra
-Sangli ,GEN ,5,Maharashtra
-Satara ,GEN ,5,Maharashtra
-Ratnagiri - Sindhudurg ,GEN ,5,Maharashtra
-Kolhapur ,GEN ,5,Maharashtra
-Hatkanangle ,GEN ,5,Maharashtra
-Nandurbar ,ST ,6,Maharashtra
-Dhule ,GEN ,6,Maharashtra
-Jalgaon ,GEN ,6,Maharashtra
-Raver ,GEN ,6,Maharashtra
-Jalna ,GEN ,6,Maharashtra
-Aurangabad ,GEN ,6,Maharashtra
-Dindori ,ST ,6,Maharashtra
-Nashik ,GEN ,6,Maharashtra
-Palghar ,ST ,6,Maharashtra
-Bhiwandi ,GEN ,6,Maharashtra
-Kalyan ,GEN ,6,Maharashtra
-Thane ,GEN ,6,Maharashtra
-Mumbai North ,GEN ,6,Maharashtra
-Mumbai North-West ,GEN ,6,Maharashtra
-Mumbai North-East ,GEN ,6,Maharashtra
-Mumbai North-Central ,GEN ,6,Maharashtra
-Mumbai South -Central ,GEN ,6,Maharashtra
-Mumbai South ,GEN ,6,Maharashtra
-Raigad ,GEN ,6,Maharashtra
-Outer Manipur,ST ,2,Manipur
-Inner Manipur,GEN ,5,Manipur
-Shillong,ST ,2,Meghalaya
-Tura,ST ,2,Meghalaya
-Mizoram,ST ,2,Mizoram
-Nagaland,GEN ,2,Nagaland
-Bargarh ,GEN ,3A,Odisha
-Sundargarh ,ST ,3A,Odisha
-Sambalpur ,GEN ,3A,Odisha
-Bolangir ,GEN ,3A,Odisha
-Kalahandi ,GEN ,3A,Odisha
-Nabarangpur ,ST ,3A,Odisha
-Kandhamal ,GEN ,3A,Odisha
-Aska ,GEN ,3A,Odisha
-Berhampur ,GEN ,3A,Odisha
-Korapat,ST ,3A,Odisha
-Keonjhar ,ST ,5,Odisha
-Mayurbhanj ,ST ,5,Odisha
-Balasore ,GEN ,5,Odisha
-Bhadrak ,SC ,5,Odisha
-Jajpur ,SC ,5,Odisha
-Dhenkanal ,GEN ,5,Odisha
-Cuttack ,GEN ,5,Odisha
-Kendrapara ,GEN ,5,Odisha
-Jagatsinghpur ,SC ,5,Odisha
-Puri ,GEN ,5,Odisha
-Bhubaneswar ,GEN ,5,Odisha
-Gurdaspur ,GEN ,7,Punjab
-Amritsar ,GEN ,7,Punjab
-Khadoor Sahib ,GEN ,7,Punjab
-Jalandhar ,SC ,7,Punjab
-Hoshiarpur ,SC ,7,Punjab
-Anandpur Sahib ,GEN ,7,Punjab
-Ludhiana ,GEN ,7,Punjab
-Fatehgarh Sahib ,SC ,7,Punjab
-Faridkot ,SC ,7,Punjab
-Firozpur ,GEN ,7,Punjab
-Bathinda ,GEN ,7,Punjab
-Sangrur ,GEN ,7,Punjab
-Patiala ,GEN ,7,Punjab
-Ganganagar ,SC ,5,Rajasthan
-Bikaner ,SC ,5,Rajasthan
-Churu ,GEN ,5,Rajasthan
-Jhunjhunu ,GEN ,5,Rajasthan
-Sikar ,GEN ,5,Rajasthan
-Jaipur Rural ,GEN ,5,Rajasthan
-Jaipur ,GEN ,5,Rajasthan
-Ajmer ,GEN ,5,Rajasthan
-Nagaur ,GEN ,5,Rajasthan
-Pali ,GEN ,5,Rajasthan
-Jodhpur ,GEN ,5,Rajasthan
-Barmer ,GEN ,5,Rajasthan
-Jalore ,GEN ,5,Rajasthan
-Udaipur ,ST ,5,Rajasthan
-Banswara ,ST ,5,Rajasthan
-Chittorgarh ,GEN ,5,Rajasthan
-Rajsamand ,GEN ,5,Rajasthan
-Bhilwara ,GEN ,5,Rajasthan
-Kota ,GEN ,5,Rajasthan
-Jhalawar-Baran ,GEN ,5,Rajasthan
-Alwar ,GEN ,6,Rajasthan
-Bharatpur ,SC ,6,Rajasthan
-Karauli-Dholpur ,SC ,6,Rajasthan
-Dausa ,ST ,6,Rajasthan
-Tonk-Sawai Madhopur ,GEN ,6,Rajasthan
-Sikkim,GEN ,4,Sikkim
-Tiruvallur ,SC ,6,Tamil Nadu
-Chennai North ,GEN ,6,Tamil Nadu
-Chennai South ,GEN ,6,Tamil Nadu
-Chennai Central ,GEN ,6,Tamil Nadu
-Sriperumbudur ,GEN ,6,Tamil Nadu
-Kancheepuram ,SC ,6,Tamil Nadu
-Arakkonam ,GEN ,6,Tamil Nadu
-Vellore ,GEN ,6,Tamil Nadu
-Krishnagiri ,GEN ,6,Tamil Nadu
-Dharmapuri ,GEN ,6,Tamil Nadu
-Tiruvannamalai ,GEN ,6,Tamil Nadu
-Arani ,GEN ,6,Tamil Nadu
-Viluppuram ,SC ,6,Tamil Nadu
-Kallakurichi ,GEN ,6,Tamil Nadu
-Salem ,GEN ,6,Tamil Nadu
-Namakkal ,GEN ,6,Tamil Nadu
-Erode ,GEN ,6,Tamil Nadu
-Tiruppur ,GEN ,6,Tamil Nadu
-Nilgiris ,SC ,6,Tamil Nadu
-Coimbatore ,GEN ,6,Tamil Nadu
-Pollachi ,GEN ,6,Tamil Nadu
-Dindigul ,GEN ,6,Tamil Nadu
-Karur ,GEN ,6,Tamil Nadu
-Tiruchirappalli ,GEN ,6,Tamil Nadu
-Perambalur ,GEN ,6,Tamil Nadu
-Cuddalore ,GEN ,6,Tamil Nadu
-Chidambaram ,SC ,6,Tamil Nadu
-Mayiladuthurai ,GEN ,6,Tamil Nadu
-Nagapattinam ,SC ,6,Tamil Nadu
-Thanjavur ,GEN ,6,Tamil Nadu
-Sivaganga ,GEN ,6,Tamil Nadu
-Madurai ,GEN ,6,Tamil Nadu
-Theni ,GEN ,6,Tamil Nadu
-Virudhunagar ,GEN ,6,Tamil Nadu
-Ramanathapuram ,GEN ,6,Tamil Nadu
-Thoothukkudi ,GEN ,6,Tamil Nadu
-Tenkasi ,SC ,6,Tamil Nadu
-Tirunelveli ,GEN ,6,Tamil Nadu
-Kanniyakumari ,GEN ,6,Tamil Nadu
-Tripura West,GEN ,1,Tripura
-Tripura East,ST ,4,Tripura
-Saharanpur ,GEN ,3A,Uttar Pradesh
-Kairana ,GEN ,3A,Uttar Pradesh
-Muzaffarnagar ,GEN ,3A,Uttar Pradesh
-Bijnor ,GEN ,3A,Uttar Pradesh
-Meerut ,GEN ,3A,Uttar Pradesh
-Baghpat ,GEN ,3A,Uttar Pradesh
-Ghaziabad ,GEN ,3A,Uttar Pradesh
-Gautam Buddha Nagar ,GEN ,3A,Uttar Pradesh
-Bulandshahr ,SC ,3A,Uttar Pradesh
-Aligarh,GEN ,3A,Uttar Pradesh
-Nagina ,SC ,5,Uttar Pradesh
-Moradabad ,GEN ,5,Uttar Pradesh
-Rampur ,GEN ,5,Uttar Pradesh
-Sambhal ,GEN ,5,Uttar Pradesh
-Amroha ,GEN ,5,Uttar Pradesh
-Badaun ,GEN ,5,Uttar Pradesh
-Aonla ,GEN ,5,Uttar Pradesh
-Bareilly ,GEN ,5,Uttar Pradesh
-Pilibhit ,GEN ,5,Uttar Pradesh
-Shahjahanpur ,SC ,5,Uttar Pradesh
-Kheri ,GEN ,5,Uttar Pradesh
-Hathras ,SC ,6,Uttar Pradesh
-Mathura ,GEN ,6,Uttar Pradesh
-Agra ,SC ,6,Uttar Pradesh
-Fatehpur Sikri ,GEN ,6,Uttar Pradesh
-Firozabad ,GEN ,6,Uttar Pradesh
-Mainpuri ,GEN ,6,Uttar Pradesh
-Etah ,GEN ,6,Uttar Pradesh
-Hardoi ,SC ,6,Uttar Pradesh
-Farrukhabad ,GEN ,6,Uttar Pradesh
-Etawah ,SC ,6,Uttar Pradesh
-Kannauj ,GEN ,6,Uttar Pradesh
-Akbarpur ,GEN ,6,Uttar Pradesh
-Dhaurahra ,GEN ,7,Uttar Pradesh
-Sitapur ,GEN ,7,Uttar Pradesh
-Misrikh ,SC ,7,Uttar Pradesh
-Unnao ,GEN ,7,Uttar Pradesh
-Mohanlalganj ,SC ,7,Uttar Pradesh
-Lucknow ,GEN ,7,Uttar Pradesh
-Rae Bareli ,GEN ,7,Uttar Pradesh
-Kanpur ,GEN ,7,Uttar Pradesh
-Jalaun ,SC ,7,Uttar Pradesh
-Jhansi ,GEN ,7,Uttar Pradesh
-Hamirpur ,GEN ,7,Uttar Pradesh
-Banda ,GEN ,7,Uttar Pradesh
-Fatehpur ,GEN ,7,Uttar Pradesh
-Barabanki ,SC ,7,Uttar Pradesh
-Amethi ,GEN ,8,Uttar Pradesh
-Sultanpur ,GEN ,8,Uttar Pradesh
-Pratapgarh ,GEN ,8,Uttar Pradesh
-Kaushambi ,SC ,8,Uttar Pradesh
-Phulpur ,GEN ,8,Uttar Pradesh
-Allahabad ,GEN ,8,Uttar Pradesh
-Faizabad ,GEN ,8,Uttar Pradesh
-Ambedkar Nagar ,GEN ,8,Uttar Pradesh
-Bahraich ,SC ,8,Uttar Pradesh
-Kaiserganj ,GEN ,8,Uttar Pradesh
-Shrawasti ,GEN ,8,Uttar Pradesh
-Gonda ,GEN ,8,Uttar Pradesh
-Basti ,GEN ,8,Uttar Pradesh
-Sant Kabir Nagar ,GEN ,8,Uttar Pradesh
-Bhadohi ,GEN ,8,Uttar Pradesh
-Domariyaganj ,GEN ,9,Uttar Pradesh
-Maharajganj ,GEN ,9,Uttar Pradesh
-Gorakhpur ,GEN ,9,Uttar Pradesh
-Kushi Nagar ,GEN ,9,Uttar Pradesh
-Deoria ,GEN ,9,Uttar Pradesh
-Bansgaon ,SC ,9,Uttar Pradesh
-Lalganj ,SC ,9,Uttar Pradesh
-Azamgarh ,GEN ,9,Uttar Pradesh
-Ghosi ,GEN ,9,Uttar Pradesh
-Salempur ,GEN ,9,Uttar Pradesh
-Ballia ,GEN ,9,Uttar Pradesh
-Jaunpur ,GEN ,9,Uttar Pradesh
-Machhlishahr ,SC ,9,Uttar Pradesh
-Ghazipur ,GEN ,9,Uttar Pradesh
-Chandauli ,GEN ,9,Uttar Pradesh
-Varanasi ,GEN ,9,Uttar Pradesh
-Mirzapur ,GEN ,9,Uttar Pradesh
-Robertsganj ,SC ,9,Uttar Pradesh
-TehriGarhwal ,GEN ,8,Uttarakhand
-Garhwal ,GEN ,8,Uttarakhand
-Almora ,SC ,8,Uttarakhand
-Nainital- ,GEN ,8,Uttarakhand
-Udhamsingh Nagar ,,8,Uttarakhand
-Hardwar ,GEN ,8,Uttarakhand
-Coochbehar ,SC ,5,West Bengal
-Alipurduars ,ST ,5,West Bengal
-Jalpaiguri ,SC ,5,West Bengal
-Darjeeling ,GEN ,5,West Bengal
-Raiganj ,GEN ,6,West Bengal
-Balurghat ,GEN ,6,West Bengal
-Maldaha Uttar ,GEN ,6,West Bengal
-Maldaha Dakshin ,GEN ,6,West Bengal
-Jangipur ,GEN ,6,West Bengal
-Murshidabad ,GEN ,6,West Bengal
-Howrah ,GEN ,7,West Bengal
-Uluberia ,GEN ,7,West Bengal
-Sreerampur ,GEN ,7,West Bengal
-Hooghly ,GEN ,7,West Bengal
-Arambag ,SC ,7,West Bengal
-Bardhaman Purba ,SC ,7,West Bengal
-Bardhaman - Durgapur ,GEN ,7,West Bengal
-Bolpur ,SC ,7,West Bengal
-Birbhum ,GEN ,7,West Bengal
-Jhargram ,ST ,8,West Bengal
-Medinipur ,GEN ,8,West Bengal
-Purulia ,GEN ,8,West Bengal
-Bankura ,GEN ,8,West Bengal
-Bishnupur ,SC ,8,West Bengal
-Asansol ,GEN ,8,West Bengal
-Baharampur ,GEN ,9,West Bengal
-Krishnanagar ,GEN ,9,West Bengal
-Ranaghat ,SC ,9,West Bengal
-Bangaon ,SC ,9,West Bengal
-Barrackpur ,GEN ,9,West Bengal
-Dum Dum ,GEN ,9,West Bengal
-Barasat ,GEN ,9,West Bengal
-Basirhat ,GEN ,9,West Bengal
-Jaynagar ,SC ,9,West Bengal
-Mathurapur ,SC ,9,West Bengal
-Diamond Harbour ,GEN ,9,West Bengal
-Jadavpur ,GEN ,9,West Bengal
-Kolkata Dakshin ,GEN ,9,West Bengal
-Kolkata Uttar ,GEN ,9,West Bengal
-Tamluk ,GEN ,9,West Bengal
-Kanthi ,GEN ,9,West Bengal
-Ghatal ,GEN ,9,West Bengal
-Andaman and Nicobar Islands,GEN ,3A,Andaman and Nicobar Islands
-Chandigarh,GEN ,3A,Chandigarh
-Dadra and Nagar Haveli,ST ,7,Dadra and Nagar Haveli
-Daman and Diu,GEN ,7,Daman and Diu
-Lakshadweep,ST ,3A,Lakshadweep
-Chandni Chowk ,GEN ,3A,Delhi
-North East Delhi ,GEN ,3A,Delhi
-East Delhi ,GEN ,3A,Delhi
-New Delhi ,GEN ,3A,Delhi
-North West Delhi ,SC ,3A,Delhi
-West Delhi ,GEN ,3A,Delhi
-South Delhi ,GEN ,3A,Delhi
-Puducherry,GEN ,6,Puducherry
+constituency,category,phase,state,state_abbrev
+Adilabad ,ST ,7,Andhra Pradesh,AP
+Peddapalle ,SC ,7,Andhra Pradesh,AP
+Karimnagar ,GEN ,7,Andhra Pradesh,AP
+Nizamabad ,GEN ,7,Andhra Pradesh,AP
+Zahirabad ,GEN ,7,Andhra Pradesh,AP
+Medak ,GEN ,7,Andhra Pradesh,AP
+Malkajgiri ,GEN ,7,Andhra Pradesh,AP
+Secunderabad ,GEN ,7,Andhra Pradesh,AP
+Hyderabad ,GEN ,7,Andhra Pradesh,AP
+Chevella,GEN ,7,Andhra Pradesh,AP
+Mahbubnagar ,GEN ,7,Andhra Pradesh,AP
+Nagarkurnool ,SC ,7,Andhra Pradesh,AP
+Nalgonda ,GEN ,7,Andhra Pradesh,AP
+Bhongir ,GEN ,7,Andhra Pradesh,AP
+Warangal ,SC ,7,Andhra Pradesh,AP
+Mahabubabad ,ST ,7,Andhra Pradesh,AP
+Khammam ,GEN ,7,Andhra Pradesh,AP
+Araku ,ST ,8,Andhra Pradesh,AP
+Srikakulam ,GEN ,8,Andhra Pradesh,AP
+Vizianagaram ,GEN ,8,Andhra Pradesh,AP
+Visakhapatnam ,GEN ,8,Andhra Pradesh,AP
+Anakapalle ,GEN ,8,Andhra Pradesh,AP
+Kakinada ,GEN ,8,Andhra Pradesh,AP
+Amalapuram ,SC ,8,Andhra Pradesh,AP
+Rajahmundry ,GEN ,8,Andhra Pradesh,AP
+Narsapuram ,GEN ,8,Andhra Pradesh,AP
+Machilipatnam ,GEN ,8,Andhra Pradesh,AP
+Vijayawada ,GEN ,8,Andhra Pradesh,AP
+Guntur ,GEN ,8,Andhra Pradesh,AP
+Narasaraopet ,GEN ,8,Andhra Pradesh,AP
+Bapatla ,SC ,8,Andhra Pradesh,AP
+Ongole ,GEN ,8,Andhra Pradesh,AP
+Nandyal ,GEN ,8,Andhra Pradesh,AP
+Kurnool ,GEN ,8,Andhra Pradesh,AP
+Anantapur ,GEN ,8,Andhra Pradesh,AP
+Hindupur ,GEN ,8,Andhra Pradesh,AP
+Kadapa ,GEN ,8,Andhra Pradesh,AP
+Nellore ,GEN ,8,Andhra Pradesh,AP
+Tirupati ,SC ,8,Andhra Pradesh,AP
+Rajampet ,GEN ,8,Andhra Pradesh,AP
+Chittoor ,SC ,8,Andhra Pradesh,AP
+Arunachal West ,GEN ,2,Arunachal Pradesh,AR
+Arunachal East ,GEN ,2,Arunachal Pradesh,AR
+Tezpur ,GEN ,1,Assam,AS
+Kaliabor ,GEN ,1,Assam,AS
+Jorhat ,GEN ,1,Assam,AS
+Dibrugarh ,GEN ,1,Assam,AS
+Lakhimpur ,GEN ,1,Assam,AS
+Karimganj ,SC ,4,Assam,AS
+Silchar ,GEN ,4,Assam,AS
+Autonomous District ,ST ,4,Assam,AS
+Dhubri ,GEN ,6,Assam,AS
+Kokrajhar ,ST ,6,Assam,AS
+Barpeta ,GEN ,6,Assam,AS
+Gauhati ,GEN ,6,Assam,AS
+Mangaldoi ,GEN ,6,Assam,AS
+Nawgong ,GEN ,6,Assam,AS
+Sasaram ,SC ,3B,Bihar,BR
+Karakat ,GEN ,3B,Bihar,BR
+Aurangabad ,GEN ,3B,Bihar,BR
+Gaya ,SC ,3B,Bihar,BR
+Nawada ,GEN ,3B,Bihar,BR
+Jamui ,SC ,3B,Bihar,BR
+Munger ,GEN ,5,Bihar,BR
+Nalanda ,GEN ,5,Bihar,BR
+Patna Sahib ,GEN ,5,Bihar,BR
+Pataliputra ,GEN ,5,Bihar,BR
+Arrah ,GEN ,5,Bihar,BR
+Buxar ,GEN ,5,Bihar,BR
+Jahanabad ,GEN ,5,Bihar,BR
+Supaul ,GEN ,6,Bihar,BR
+Araria ,GEN ,6,Bihar,BR
+Kishanganj ,GEN ,6,Bihar,BR
+Katihar ,GEN ,6,Bihar,BR
+Purnia ,GEN ,6,Bihar,BR
+Bhagalpur ,GEN ,6,Bihar,BR
+Banka ,GEN ,6,Bihar,BR
+Madhubani ,GEN ,7,Bihar,BR
+Jhanjharpur ,GEN ,7,Bihar,BR
+Madhepura ,GEN ,7,Bihar,BR
+Darbhanga ,GEN ,7,Bihar,BR
+Samastipur ,SC ,7,Bihar,BR
+Begusarai ,GEN ,7,Bihar,BR
+Khagaria ,GEN ,7,Bihar,BR
+Sheohar ,GEN ,8,Bihar,BR
+Sitamarhi ,GEN ,8,Bihar,BR
+Muzaffarpur ,GEN ,8,Bihar,BR
+Maharajganj ,GEN ,8,Bihar,BR
+Saran ,GEN ,8,Bihar,BR
+Hajipur ,SC ,8,Bihar,BR
+Ujiarpur ,GEN ,8,Bihar,BR
+Valmiki Nagar ,GEN ,9,Bihar,BR
+Paschim Champaran ,GEN ,9,Bihar,BR
+Purvi Champaran ,GEN ,9,Bihar,BR
+Vaishali ,GEN ,9,Bihar,BR
+Gopalganj ,SC ,9,Bihar,BR
+Siwan ,GEN ,9,Bihar,BR
+Bastar ,ST ,3A,Chhattisgarh,CG
+Rajnandgaon ,GEN ,5,Chhattisgarh,CG
+Mahasamund ,GEN ,5,Chhattisgarh,CG
+Kanker ,ST ,5,Chhattisgarh,CG
+Surguja ,ST ,6,Chhattisgarh,CG
+Raigarh ,ST ,6,Chhattisgarh,CG
+Janjgir-Champa ,SC ,6,Chhattisgarh,CG
+Korba ,GEN ,6,Chhattisgarh,CG
+Bilaspur ,GEN ,6,Chhattisgarh,CG
+Durg ,GEN ,6,Chhattisgarh,CG
+Raipur ,GEN ,6,Chhattisgarh,CG
+North Goa,GEN ,4,Goa,GA
+South Goa,GEN ,4,Goa,GA
+Kachchh ,SC ,7,Gujarat,GJ
+Banaskantha ,GEN ,7,Gujarat,GJ
+Patan ,GEN ,7,Gujarat,GJ
+Mahesana ,GEN ,7,Gujarat,GJ
+Sabarkantha ,GEN ,7,Gujarat,GJ
+Gandhinagar ,GEN ,7,Gujarat,GJ
+Ahmedabad East ,GEN ,7,Gujarat,GJ
+Ahmedabad West ,SC ,7,Gujarat,GJ
+Surendranagar ,GEN ,7,Gujarat,GJ
+Rajkot ,GEN ,7,Gujarat,GJ
+Porbandar ,GEN ,7,Gujarat,GJ
+Jamnagar ,GEN ,7,Gujarat,GJ
+Junagadh ,GEN ,7,Gujarat,GJ
+Amreli ,GEN ,7,Gujarat,GJ
+Bhavnagar ,GEN ,7,Gujarat,GJ
+Anand ,GEN ,7,Gujarat,GJ
+Kheda ,GEN ,7,Gujarat,GJ
+Panchmahal ,GEN ,7,Gujarat,GJ
+Dahod ,ST ,7,Gujarat,GJ
+Vadodara ,GEN ,7,Gujarat,GJ
+Chhota Udaipur ,ST ,7,Gujarat,GJ
+Bharuch ,GEN ,7,Gujarat,GJ
+Bardoli ,ST ,7,Gujarat,GJ
+Surat ,GEN ,7,Gujarat,GJ
+Navsari ,GEN ,7,Gujarat,GJ
+Valsad ,ST ,7,Gujarat,GJ
+Ambala ,SC ,7,Haryana,HR
+Kurukshetra ,GEN ,7,Haryana,HR
+Sirsa ,SC ,7,Haryana,HR
+Hisar ,GEN ,7,Haryana,HR
+Karnal ,GEN ,7,Haryana,HR
+Sonipat ,GEN ,7,Haryana,HR
+Rohtak ,GEN ,7,Haryana,HR
+Bhiwani-Mahendragarh ,GEN ,7,Haryana,HR
+Gurgaon ,GEN ,7,Haryana,HR
+Faridabad,GEN ,7,Haryana,HR
+Kangra ,GEN ,8,Himachal Pradesh,HP
+Mandi ,GEN ,8,Himachal Pradesh,HP
+Hamirpur ,GEN ,8,Himachal Pradesh,HP
+Shimla ,SC ,8,Himachal Pradesh,HP
+Jammu,GEN ,3A,Jammu and Kashmir,JK
+Udhampur,GEN ,5,Jammu and Kashmir,JK
+Anantnag,GEN ,6,Jammu and Kashmir,JK
+Srinagar,GEN ,7,Jammu and Kashmir,JK
+Baramulla,GEN ,8,Jammu and Kashmir,JK
+Ladakh,GEN ,8,Jammu and Kashmir,JK
+Chatra ,GEN ,3A,Jharkhand,JH
+Kodarma ,GEN ,3A,Jharkhand,JH
+Lohardaga ,ST ,3A,Jharkhand,JH
+Palamu ,SC ,3A,Jharkhand,JH
+Giridih ,GEN ,5,Jharkhand,JH
+Ranchi ,GEN ,5,Jharkhand,JH
+Jamshedpur ,GEN ,5,Jharkhand,JH
+Singhbhum ,ST ,5,Jharkhand,JH
+Khunti ,ST ,5,Jharkhand,JH
+Hazaribagh ,GEN ,5,Jharkhand,JH
+Rajmahal ,ST ,6,Jharkhand,JH
+Dumka ,ST ,6,Jharkhand,JH
+Godda ,GEN ,6,Jharkhand,JH
+Dhanbad ,GEN ,6,Jharkhand,JH
+Chikkodi ,GEN ,5,Karnataka,KA
+Belgaum ,GEN ,5,Karnataka,KA
+Bagalkot ,GEN ,5,Karnataka,KA
+Bijapur ,SC ,5,Karnataka,KA
+Gulbarga ,SC ,5,Karnataka,KA
+Raichur ,ST ,5,Karnataka,KA
+Bidar ,GEN ,5,Karnataka,KA
+Koppal ,GEN ,5,Karnataka,KA
+Bellary ,ST ,5,Karnataka,KA
+Haveri ,GEN ,5,Karnataka,KA
+Dharwad ,GEN ,5,Karnataka,KA
+Uttara Kannada ,GEN ,5,Karnataka,KA
+Davanagere ,GEN ,5,Karnataka,KA
+Shimoga ,GEN ,5,Karnataka,KA
+Udupi Chikmagalur ,GEN ,5,Karnataka,KA
+Hassan ,GEN ,5,Karnataka,KA
+Dakshina Kannada ,GEN ,5,Karnataka,KA
+Chitradurga ,SC ,5,Karnataka,KA
+Tumkur ,GEN ,5,Karnataka,KA
+Mandya ,GEN ,5,Karnataka,KA
+Mysore ,GEN ,5,Karnataka,KA
+Chamarajanagar ,SC ,5,Karnataka,KA
+Bangalore Rural ,GEN ,5,Karnataka,KA
+Bangalore North ,GEN ,5,Karnataka,KA
+Bangalore Central ,GEN ,5,Karnataka,KA
+Bangalore South ,GEN ,5,Karnataka,KA
+Chikkballapur ,GEN ,5,Karnataka,KA
+Kolar ,SC,5,Karnataka,KA
+Kasaragod ,GEN ,3A,Kerala,KL
+Kannur ,GEN ,3A,Kerala,KL
+Vadakara ,GEN ,3A,Kerala,KL
+Wayanad ,GEN ,3A,Kerala,KL
+Kozhikode ,GEN ,3A,Kerala,KL
+Malappuram ,GEN ,3A,Kerala,KL
+Ponnani ,GEN ,3A,Kerala,KL
+Palakkad ,GEN ,3A,Kerala,KL
+Alathur ,SC ,3A,Kerala,KL
+Thrissur ,GEN ,3A,Kerala,KL
+Chalakudy ,GEN ,3A,Kerala,KL
+Ernakulam ,GEN ,3A,Kerala,KL
+Idukki ,GEN ,3A,Kerala,KL
+Kottayam ,GEN ,3A,Kerala,KL
+Alappuzha ,GEN ,3A,Kerala,KL
+Mavelikkara ,SC ,3A,Kerala,KL
+Pathanamthitta ,GEN ,3A,Kerala,KL
+Kollam ,GEN ,3A,Kerala,KL
+Attingal ,GEN ,3A,Kerala,KL
+Thiruvananthapuram ,GEN ,3A,Kerala,KL
+Satna ,GEN ,3A,Madhya Pradesh,MP
+Rewa ,GEN ,3A,Madhya Pradesh,MP
+Sidhi ,GEN ,3A,Madhya Pradesh,MP
+Shahdol ,ST ,3A,Madhya Pradesh,MP
+Jabalpur ,GEN ,3A,Madhya Pradesh,MP
+Mandla ,ST ,3A,Madhya Pradesh,MP
+Balaghat ,GEN ,3A,Madhya Pradesh,MP
+Chhindwara ,GEN ,3A,Madhya Pradesh,MP
+Hoshangabad ,GEN ,3A,Madhya Pradesh,MP
+Morena ,GEN ,5,Madhya Pradesh,MP
+Bhind ,SC ,5,Madhya Pradesh,MP
+Gwalior ,GEN ,5,Madhya Pradesh,MP
+Guna ,GEN ,5,Madhya Pradesh,MP
+Sagar ,GEN ,5,Madhya Pradesh,MP
+Tikamgarh ,SC ,5,Madhya Pradesh,MP
+Damoh ,GEN ,5,Madhya Pradesh,MP
+Khajuraho ,GEN ,5,Madhya Pradesh,MP
+Bhopal ,GEN ,5,Madhya Pradesh,MP
+Rajgarh,GEN ,5,Madhya Pradesh,MP
+Vidisha ,GEN ,6,Madhya Pradesh,MP
+Dewas ,SC ,6,Madhya Pradesh,MP
+Ujjain ,SC ,6,Madhya Pradesh,MP
+Mandsour ,GEN ,6,Madhya Pradesh,MP
+Ratlam ,ST ,6,Madhya Pradesh,MP
+Dhar ,ST ,6,Madhya Pradesh,MP
+Indore ,GEN ,6,Madhya Pradesh,MP
+Khargone ,ST ,6,Madhya Pradesh,MP
+Khandwa ,GEN ,6,Madhya Pradesh,MP
+Betul ,ST ,6,Madhya Pradesh,MP
+Buldhana ,GEN ,3A,Maharashtra,MH
+Akola ,GEN ,3A,Maharashtra,MH
+Amravati ,SC ,3A,Maharashtra,MH
+Wardha ,GEN ,3A,Maharashtra,MH
+Ramtek ,SC ,3A,Maharashtra,MH
+Nagpur ,GEN ,3A,Maharashtra,MH
+Bhandara - Gondiya ,GEN ,3A,Maharashtra,MH
+Gadchiroli-Chimur ,ST ,3A,Maharashtra,MH
+Chandrapur ,GEN ,3A,Maharashtra,MH
+Yavatmal-Washim ,GEN ,3A,Maharashtra,MH
+Hingoli ,GEN ,5,Maharashtra,MH
+Nanded ,GEN ,5,Maharashtra,MH
+Parbhani ,GEN ,5,Maharashtra,MH
+Maval ,GEN ,5,Maharashtra,MH
+Pune ,GEN ,5,Maharashtra,MH
+Baramati ,GEN ,5,Maharashtra,MH
+Shirur ,GEN ,5,Maharashtra,MH
+Ahmednagar ,GEN ,5,Maharashtra,MH
+Shirdi ,SC ,5,Maharashtra,MH
+Beed ,GEN ,5,Maharashtra,MH
+Osmanabad ,GEN ,5,Maharashtra,MH
+Latur ,SC ,5,Maharashtra,MH
+Solapur ,SC ,5,Maharashtra,MH
+Madha ,GEN ,5,Maharashtra,MH
+Sangli ,GEN ,5,Maharashtra,MH
+Satara ,GEN ,5,Maharashtra,MH
+Ratnagiri - Sindhudurg ,GEN ,5,Maharashtra,MH
+Kolhapur ,GEN ,5,Maharashtra,MH
+Hatkanangle ,GEN ,5,Maharashtra,MH
+Nandurbar ,ST ,6,Maharashtra,MH
+Dhule ,GEN ,6,Maharashtra,MH
+Jalgaon ,GEN ,6,Maharashtra,MH
+Raver ,GEN ,6,Maharashtra,MH
+Jalna ,GEN ,6,Maharashtra,MH
+Aurangabad ,GEN ,6,Maharashtra,MH
+Dindori ,ST ,6,Maharashtra,MH
+Nashik ,GEN ,6,Maharashtra,MH
+Palghar ,ST ,6,Maharashtra,MH
+Bhiwandi ,GEN ,6,Maharashtra,MH
+Kalyan ,GEN ,6,Maharashtra,MH
+Thane ,GEN ,6,Maharashtra,MH
+Mumbai North ,GEN ,6,Maharashtra,MH
+Mumbai North-West ,GEN ,6,Maharashtra,MH
+Mumbai North-East ,GEN ,6,Maharashtra,MH
+Mumbai North-Central ,GEN ,6,Maharashtra,MH
+Mumbai South -Central ,GEN ,6,Maharashtra,MH
+Mumbai South ,GEN ,6,Maharashtra,MH
+Raigad ,GEN ,6,Maharashtra,MH
+Outer Manipur,ST ,2,Manipur,MN
+Inner Manipur,GEN ,5,Manipur,MN
+Shillong,ST ,2,Meghalaya,ML
+Tura,ST ,2,Meghalaya,ML
+Mizoram,ST ,2,Mizoram,MZ
+Nagaland,GEN ,2,Nagaland,NL
+Bargarh ,GEN ,3A,Odisha,OR
+Sundargarh ,ST ,3A,Odisha,OR
+Sambalpur ,GEN ,3A,Odisha,OR
+Bolangir ,GEN ,3A,Odisha,OR
+Kalahandi ,GEN ,3A,Odisha,OR
+Nabarangpur ,ST ,3A,Odisha,OR
+Kandhamal ,GEN ,3A,Odisha,OR
+Aska ,GEN ,3A,Odisha,OR
+Berhampur ,GEN ,3A,Odisha,OR
+Korapat,ST ,3A,Odisha,OR
+Keonjhar ,ST ,5,Odisha,OR
+Mayurbhanj ,ST ,5,Odisha,OR
+Balasore ,GEN ,5,Odisha,OR
+Bhadrak ,SC ,5,Odisha,OR
+Jajpur ,SC ,5,Odisha,OR
+Dhenkanal ,GEN ,5,Odisha,OR
+Cuttack ,GEN ,5,Odisha,OR
+Kendrapara ,GEN ,5,Odisha,OR
+Jagatsinghpur ,SC ,5,Odisha,OR
+Puri ,GEN ,5,Odisha,OR
+Bhubaneswar ,GEN ,5,Odisha,OR
+Gurdaspur ,GEN ,7,Punjab,PB
+Amritsar ,GEN ,7,Punjab,PB
+Khadoor Sahib ,GEN ,7,Punjab,PB
+Jalandhar ,SC ,7,Punjab,PB
+Hoshiarpur ,SC ,7,Punjab,PB
+Anandpur Sahib ,GEN ,7,Punjab,PB
+Ludhiana ,GEN ,7,Punjab,PB
+Fatehgarh Sahib ,SC ,7,Punjab,PB
+Faridkot ,SC ,7,Punjab,PB
+Firozpur ,GEN ,7,Punjab,PB
+Bathinda ,GEN ,7,Punjab,PB
+Sangrur ,GEN ,7,Punjab,PB
+Patiala ,GEN ,7,Punjab,PB
+Ganganagar ,SC ,5,Rajasthan,RJ
+Bikaner ,SC ,5,Rajasthan,RJ
+Churu ,GEN ,5,Rajasthan,RJ
+Jhunjhunu ,GEN ,5,Rajasthan,RJ
+Sikar ,GEN ,5,Rajasthan,RJ
+Jaipur Rural ,GEN ,5,Rajasthan,RJ
+Jaipur ,GEN ,5,Rajasthan,RJ
+Ajmer ,GEN ,5,Rajasthan,RJ
+Nagaur ,GEN ,5,Rajasthan,RJ
+Pali ,GEN ,5,Rajasthan,RJ
+Jodhpur ,GEN ,5,Rajasthan,RJ
+Barmer ,GEN ,5,Rajasthan,RJ
+Jalore ,GEN ,5,Rajasthan,RJ
+Udaipur ,ST ,5,Rajasthan,RJ
+Banswara ,ST ,5,Rajasthan,RJ
+Chittorgarh ,GEN ,5,Rajasthan,RJ
+Rajsamand ,GEN ,5,Rajasthan,RJ
+Bhilwara ,GEN ,5,Rajasthan,RJ
+Kota ,GEN ,5,Rajasthan,RJ
+Jhalawar-Baran ,GEN ,5,Rajasthan,RJ
+Alwar ,GEN ,6,Rajasthan,RJ
+Bharatpur ,SC ,6,Rajasthan,RJ
+Karauli-Dholpur ,SC ,6,Rajasthan,RJ
+Dausa ,ST ,6,Rajasthan,RJ
+Tonk-Sawai Madhopur ,GEN ,6,Rajasthan,RJ
+Sikkim,GEN ,4,Sikkim,SK
+Tiruvallur ,SC ,6,Tamil Nadu,TN
+Chennai North ,GEN ,6,Tamil Nadu,TN
+Chennai South ,GEN ,6,Tamil Nadu,TN
+Chennai Central ,GEN ,6,Tamil Nadu,TN
+Sriperumbudur ,GEN ,6,Tamil Nadu,TN
+Kancheepuram ,SC ,6,Tamil Nadu,TN
+Arakkonam ,GEN ,6,Tamil Nadu,TN
+Vellore ,GEN ,6,Tamil Nadu,TN
+Krishnagiri ,GEN ,6,Tamil Nadu,TN
+Dharmapuri ,GEN ,6,Tamil Nadu,TN
+Tiruvannamalai ,GEN ,6,Tamil Nadu,TN
+Arani ,GEN ,6,Tamil Nadu,TN
+Viluppuram ,SC ,6,Tamil Nadu,TN
+Kallakurichi ,GEN ,6,Tamil Nadu,TN
+Salem ,GEN ,6,Tamil Nadu,TN
+Namakkal ,GEN ,6,Tamil Nadu,TN
+Erode ,GEN ,6,Tamil Nadu,TN
+Tiruppur ,GEN ,6,Tamil Nadu,TN
+Nilgiris ,SC ,6,Tamil Nadu,TN
+Coimbatore ,GEN ,6,Tamil Nadu,TN
+Pollachi ,GEN ,6,Tamil Nadu,TN
+Dindigul ,GEN ,6,Tamil Nadu,TN
+Karur ,GEN ,6,Tamil Nadu,TN
+Tiruchirappalli ,GEN ,6,Tamil Nadu,TN
+Perambalur ,GEN ,6,Tamil Nadu,TN
+Cuddalore ,GEN ,6,Tamil Nadu,TN
+Chidambaram ,SC ,6,Tamil Nadu,TN
+Mayiladuthurai ,GEN ,6,Tamil Nadu,TN
+Nagapattinam ,SC ,6,Tamil Nadu,TN
+Thanjavur ,GEN ,6,Tamil Nadu,TN
+Sivaganga ,GEN ,6,Tamil Nadu,TN
+Madurai ,GEN ,6,Tamil Nadu,TN
+Theni ,GEN ,6,Tamil Nadu,TN
+Virudhunagar ,GEN ,6,Tamil Nadu,TN
+Ramanathapuram ,GEN ,6,Tamil Nadu,TN
+Thoothukkudi ,GEN ,6,Tamil Nadu,TN
+Tenkasi ,SC ,6,Tamil Nadu,TN
+Tirunelveli ,GEN ,6,Tamil Nadu,TN
+Kanniyakumari ,GEN ,6,Tamil Nadu,TN
+Tripura West,GEN ,1,Tripura,TR
+Tripura East,ST ,4,Tripura,TR
+Saharanpur ,GEN ,3A,Uttar Pradesh,UP
+Kairana ,GEN ,3A,Uttar Pradesh,UP
+Muzaffarnagar ,GEN ,3A,Uttar Pradesh,UP
+Bijnor ,GEN ,3A,Uttar Pradesh,UP
+Meerut ,GEN ,3A,Uttar Pradesh,UP
+Baghpat ,GEN ,3A,Uttar Pradesh,UP
+Ghaziabad ,GEN ,3A,Uttar Pradesh,UP
+Gautam Buddha Nagar ,GEN ,3A,Uttar Pradesh,UP
+Bulandshahr ,SC ,3A,Uttar Pradesh,UP
+Aligarh,GEN ,3A,Uttar Pradesh,UP
+Nagina ,SC ,5,Uttar Pradesh,UP
+Moradabad ,GEN ,5,Uttar Pradesh,UP
+Rampur ,GEN ,5,Uttar Pradesh,UP
+Sambhal ,GEN ,5,Uttar Pradesh,UP
+Amroha ,GEN ,5,Uttar Pradesh,UP
+Badaun ,GEN ,5,Uttar Pradesh,UP
+Aonla ,GEN ,5,Uttar Pradesh,UP
+Bareilly ,GEN ,5,Uttar Pradesh,UP
+Pilibhit ,GEN ,5,Uttar Pradesh,UP
+Shahjahanpur ,SC ,5,Uttar Pradesh,UP
+Kheri ,GEN ,5,Uttar Pradesh,UP
+Hathras ,SC ,6,Uttar Pradesh,UP
+Mathura ,GEN ,6,Uttar Pradesh,UP
+Agra ,SC ,6,Uttar Pradesh,UP
+Fatehpur Sikri ,GEN ,6,Uttar Pradesh,UP
+Firozabad ,GEN ,6,Uttar Pradesh,UP
+Mainpuri ,GEN ,6,Uttar Pradesh,UP
+Etah ,GEN ,6,Uttar Pradesh,UP
+Hardoi ,SC ,6,Uttar Pradesh,UP
+Farrukhabad ,GEN ,6,Uttar Pradesh,UP
+Etawah ,SC ,6,Uttar Pradesh,UP
+Kannauj ,GEN ,6,Uttar Pradesh,UP
+Akbarpur ,GEN ,6,Uttar Pradesh,UP
+Dhaurahra ,GEN ,7,Uttar Pradesh,UP
+Sitapur ,GEN ,7,Uttar Pradesh,UP
+Misrikh ,SC ,7,Uttar Pradesh,UP
+Unnao ,GEN ,7,Uttar Pradesh,UP
+Mohanlalganj ,SC ,7,Uttar Pradesh,UP
+Lucknow ,GEN ,7,Uttar Pradesh,UP
+Rae Bareli ,GEN ,7,Uttar Pradesh,UP
+Kanpur ,GEN ,7,Uttar Pradesh,UP
+Jalaun ,SC ,7,Uttar Pradesh,UP
+Jhansi ,GEN ,7,Uttar Pradesh,UP
+Hamirpur ,GEN ,7,Uttar Pradesh,UP
+Banda ,GEN ,7,Uttar Pradesh,UP
+Fatehpur ,GEN ,7,Uttar Pradesh,UP
+Barabanki ,SC ,7,Uttar Pradesh,UP
+Amethi ,GEN ,8,Uttar Pradesh,UP
+Sultanpur ,GEN ,8,Uttar Pradesh,UP
+Pratapgarh ,GEN ,8,Uttar Pradesh,UP
+Kaushambi ,SC ,8,Uttar Pradesh,UP
+Phulpur ,GEN ,8,Uttar Pradesh,UP
+Allahabad ,GEN ,8,Uttar Pradesh,UP
+Faizabad ,GEN ,8,Uttar Pradesh,UP
+Ambedkar Nagar ,GEN ,8,Uttar Pradesh,UP
+Bahraich ,SC ,8,Uttar Pradesh,UP
+Kaiserganj ,GEN ,8,Uttar Pradesh,UP
+Shrawasti ,GEN ,8,Uttar Pradesh,UP
+Gonda ,GEN ,8,Uttar Pradesh,UP
+Basti ,GEN ,8,Uttar Pradesh,UP
+Sant Kabir Nagar ,GEN ,8,Uttar Pradesh,UP
+Bhadohi ,GEN ,8,Uttar Pradesh,UP
+Domariyaganj ,GEN ,9,Uttar Pradesh,UP
+Maharajganj ,GEN ,9,Uttar Pradesh,UP
+Gorakhpur ,GEN ,9,Uttar Pradesh,UP
+Kushi Nagar ,GEN ,9,Uttar Pradesh,UP
+Deoria ,GEN ,9,Uttar Pradesh,UP
+Bansgaon ,SC ,9,Uttar Pradesh,UP
+Lalganj ,SC ,9,Uttar Pradesh,UP
+Azamgarh ,GEN ,9,Uttar Pradesh,UP
+Ghosi ,GEN ,9,Uttar Pradesh,UP
+Salempur ,GEN ,9,Uttar Pradesh,UP
+Ballia ,GEN ,9,Uttar Pradesh,UP
+Jaunpur ,GEN ,9,Uttar Pradesh,UP
+Machhlishahr ,SC ,9,Uttar Pradesh,UP
+Ghazipur ,GEN ,9,Uttar Pradesh,UP
+Chandauli ,GEN ,9,Uttar Pradesh,UP
+Varanasi ,GEN ,9,Uttar Pradesh,UP
+Mirzapur ,GEN ,9,Uttar Pradesh,UP
+Robertsganj ,SC ,9,Uttar Pradesh,UP
+TehriGarhwal ,GEN ,8,Uttarakhand,UK
+Garhwal ,GEN ,8,Uttarakhand,UK
+Almora ,SC ,8,Uttarakhand,UK
+Nainital- ,GEN ,8,Uttarakhand,UK
+Udhamsingh Nagar ,,8,Uttarakhand,UK
+Hardwar ,GEN ,8,Uttarakhand,UK
+Coochbehar ,SC ,5,West Bengal,WB
+Alipurduars ,ST ,5,West Bengal,WB
+Jalpaiguri ,SC ,5,West Bengal,WB
+Darjeeling ,GEN ,5,West Bengal,WB
+Raiganj ,GEN ,6,West Bengal,WB
+Balurghat ,GEN ,6,West Bengal,WB
+Maldaha Uttar ,GEN ,6,West Bengal,WB
+Maldaha Dakshin ,GEN ,6,West Bengal,WB
+Jangipur ,GEN ,6,West Bengal,WB
+Murshidabad ,GEN ,6,West Bengal,WB
+Howrah ,GEN ,7,West Bengal,WB
+Uluberia ,GEN ,7,West Bengal,WB
+Sreerampur ,GEN ,7,West Bengal,WB
+Hooghly ,GEN ,7,West Bengal,WB
+Arambag ,SC ,7,West Bengal,WB
+Bardhaman Purba ,SC ,7,West Bengal,WB
+Bardhaman - Durgapur ,GEN ,7,West Bengal,WB
+Bolpur ,SC ,7,West Bengal,WB
+Birbhum ,GEN ,7,West Bengal,WB
+Jhargram ,ST ,8,West Bengal,WB
+Medinipur ,GEN ,8,West Bengal,WB
+Purulia ,GEN ,8,West Bengal,WB
+Bankura ,GEN ,8,West Bengal,WB
+Bishnupur ,SC ,8,West Bengal,WB
+Asansol ,GEN ,8,West Bengal,WB
+Baharampur ,GEN ,9,West Bengal,WB
+Krishnanagar ,GEN ,9,West Bengal,WB
+Ranaghat ,SC ,9,West Bengal,WB
+Bangaon ,SC ,9,West Bengal,WB
+Barrackpur ,GEN ,9,West Bengal,WB
+Dum Dum ,GEN ,9,West Bengal,WB
+Barasat ,GEN ,9,West Bengal,WB
+Basirhat ,GEN ,9,West Bengal,WB
+Jaynagar ,SC ,9,West Bengal,WB
+Mathurapur ,SC ,9,West Bengal,WB
+Diamond Harbour ,GEN ,9,West Bengal,WB
+Jadavpur ,GEN ,9,West Bengal,WB
+Kolkata Dakshin ,GEN ,9,West Bengal,WB
+Kolkata Uttar ,GEN ,9,West Bengal,WB
+Tamluk ,GEN ,9,West Bengal,WB
+Kanthi ,GEN ,9,West Bengal,WB
+Ghatal ,GEN ,9,West Bengal,WB
+Andaman and Nicobar Islands,GEN ,3A,Andaman and Nicobar Islands,AN
+Chandigarh,GEN ,3A,Chandigarh,CH
+Dadra and Nagar Haveli,ST ,7,Dadra and Nagar Haveli,DN
+Daman and Diu,GEN ,7,Daman and Diu,DD
+Lakshadweep,ST ,3A,Lakshadweep,LK
+Chandni Chowk ,GEN ,3A,Delhi,DL
+North East Delhi ,GEN ,3A,Delhi,DL
+East Delhi ,GEN ,3A,Delhi,DL
+New Delhi ,GEN ,3A,Delhi,DL
+North West Delhi ,SC ,3A,Delhi,DL
+West Delhi ,GEN ,3A,Delhi,DL
+South Delhi ,GEN ,3A,Delhi,DL
+Puducherry,GEN ,6,Puducherry,PD
