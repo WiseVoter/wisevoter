@@ -4,7 +4,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
   <url>
     <loc>/</loc>
-    <lastmod>2014-04-03</lastmod>
+    <lastmod>2014-04-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -18,8 +18,15 @@
   </url>
   
   <url>
-    <loc>/politicians/nadan-nilkeni</loc>
-    <lastmod>2014-03-31</lastmod>
+    <loc>/articles/Phases-Of-General-Elections</loc>
+    <lastmod>2014-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/articles/the-2014-indian-general-elections</loc>
+    <lastmod>2014-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1495,8 +1502,8 @@
   </url>
   
   <url>
-    <loc>/articles/the-2014-indian-general-elections</loc>
-    <lastmod>2014-03-12</lastmod>
+    <loc>/politicians/nadan-nilkeni</loc>
+    <lastmod>2014-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2069,14 +2076,14 @@
   </url>
   
   <url>
-    <loc>/constituencies/kodarma</loc>
+    <loc>/parties/VHS</loc>
     <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/parties/VHS</loc>
+    <loc>/constituencies/kokrajhar</loc>
     <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -4134,21 +4141,21 @@
   </url>
   
   <url>
-    <loc>/constituencies/kokrajhar</loc>
+    <loc>/constituencies/kodarma</loc>
     <lastmod>2014-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/politicians/zubair</loc>
+    <loc>/politicians/zubair-alam</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/politicians/yogesh-shukla</loc>
+    <loc>/politicians/zubair</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -54926,15 +54933,15 @@
   </url>
   
   <url>
-    <loc>/politicians/vijaykumar.amg</loc>
-    <lastmod>2014-01-28</lastmod>
+    <loc>/articles/vote-wise-this-election</loc>
+    <lastmod>2013-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/articles/vote-wise-this-election</loc>
-    <lastmod>2013-12-21</lastmod>
+    <loc>/politicians/vijaypal-singh-shyoran-vivek</loc>
+    <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -56144,7 +56151,7 @@
   </url>
   
   <url>
-    <loc>/politicians/zubair-alam</loc>
+    <loc>/politicians/yogesh-shukla</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -56417,7 +56424,7 @@
   </url>
   
   <url>
-    <loc>/politicians/vijaypal-singh-shyoran-vivek</loc>
+    <loc>/politicians/vijaykumar.amg</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

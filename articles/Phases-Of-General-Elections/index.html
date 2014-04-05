@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phases of General Election</title>
+    <meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen" />
+<!-- site specific css -->
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/site.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pygment_trac.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/assets/stylesheets/compiled/wisevoter.css" media="screen" />
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<meta name="google-translate-customization" content="a9853e26c9ffda5e-f38fa2f3f03ad885-gdb2cb858bf04b645-11"></meta>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class="site-title row">
+	<header>
+	  <div class="container">
+	   <div class="row">
+	  	<h1 class="title">WiseVoter</h1>
+	  	<nav>
+		    <ul class="nav navbar-nav pull-right">
+		        
+				<li><a href="/" >Home</a></li>
+		        
+				<li><a href="/articles.html" >Articles</a></li>
+		        
+				<li><a href="/constituencies.html" >Constituencies</a></li>
+		        
+				<li><a href="/politicians.html" >Politicians</a></li>
+		        
+				<li><a href="/parties.html" >Parties</a></li>
+		        
+				<li><a href="/issues.html" >Issues</a></li>
+		        
+		    	<li>
+		    	<a href='/edit/articles/Phases-Of-General-Elections' id="editorLink">Edit</a></li>
+		    </ul>
+	    <nav>
+	   </div>
+	  </div>
+	</header>
+</div>
+    </div>
+
+    <div class="container">
+      <br/>
+      <div class="col-lg-1"></div>
+      <div class="col-lg-7">
+        <div class="post-list">
+          <h3 class="post-item-title"> Phases Of General Election </h3>
+          
+          <i class="fa fa-pencil"></i> <span class="entry-date">Posted in Articles • <i class="fa fa-clock-o"></i> 5  minutes read • by Vaibhav Bhandari</span>
+          
+        </div>
+      </div>
+      <div class="col-lg-4"></div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-7">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#post" data-toggle="tab">Post</a><li>  
+            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="post">
+              <div class="profile-content">
+                <p>This article outlines the phases of elections, and which states are going to ballot when in the upcoming 2014 general elections.</p>
+<div id="map"></div>
+
+<p><script type="text/javascript" src="/assets/javascripts/d3.min.js"></script></p>
+<p><script type="text/javascript">
+  d3.xml("/assets/images/india-map.svg", "image/svg+xml", function(xml) {
+    var tooltip = "<ul id=\"legend\" class=\"list-inline\"><li class=\"state\"></li><li class=\"total\"></li><li><ul class=\"top3parties list-inline\"></ul></li></ul>"
+    d3.select("#map").append("div").html(tooltip)
+    document.getElementById("map").appendChild(xml.documentElement);
+    d3.json("/data/phases.json", function(json){
+      var datum = d3.nest()
+        .key(function(d){ return d.state_abbrev})
+        .key(function(d){ return d.phase})
+        .entries(json)
+      datum.forEach(function(data, i){
+        d3.select("#" + data.key)
+        .on("mouseover", function(d){
+          d3.select(this).style({opacity: "0.8"})
+          d3.select("#legend .state").text(data.key)
+          data.values.forEach(function(party, i){
+              html = "<i class=\"wv wv-party\">party</i>count"
+              html = html.replace(/party/g,"Phase " + party.key).replace("count", party.values.length)
+              d3.select("#legend .top3parties").append("li").html(html)
+            })
+          d3.select("#legend").style("left", (event.layerX + 10) + "px")
+          d3.select("#legend").style("top", (event.layerY + 10) + "px")
+          d3.select("#legend").style("display", "inline")
+          })
+        .on("mouseout", function(d){
+          d3.select(this).style({opacity: "1.0"})
+          d3.selectAll("#legend .top3parties li").remove()
+          d3.select("#legend").style("display", "none")
+        })
+      })
+    })
+  });
+</script></p>
+<style>
+#legend {padding: 5px; border: 1px solid; box-shadow: 3px -3px 2px #888888; display: none; position: absolute; background: #fff; border-radius: 3px}
+#india {margin-top: 0px;}
+i {background: #222222; color:#F4F0F4; margin: 2px; padding: 3px; }
+.state {font-weight: 900;}
+.total {color: #bf0000; font-weight: 800;}
+</style>
+
+<p>
+  <h3>Phase - 1</h3>
+  <ul>
+    
+      <li>Assam</li>
+      <ul> 
+        
+          <li>Tezpur</li>
+        
+          <li>Kaliabor</li>
+        
+          <li>Jorhat</li>
+        
+          <li>Dibrugarh</li>
+        
+          <li>Lakhimpur</li>
+        
+    
+      <li>Tripura</li>
+      <ul> 
+        
+          <li>Tripura West</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 2</h3>
+  <ul>
+    
+      <li>Arunachal Pradesh</li>
+      <ul> 
+        
+          <li>Arunachal West</li>
+        
+          <li>Arunachal East</li>
+        
+    
+      <li>Manipur</li>
+      <ul> 
+        
+          <li>Outer Manipur</li>
+        
+    
+      <li>Meghalaya</li>
+      <ul> 
+        
+          <li>Shillong</li>
+        
+          <li>Tura</li>
+        
+    
+      <li>Mizoram</li>
+      <ul> 
+        
+          <li>Mizoram</li>
+        
+    
+      <li>Nagaland</li>
+      <ul> 
+        
+          <li>Nagaland</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 4</h3>
+  <ul>
+    
+      <li>Assam</li>
+      <ul> 
+        
+          <li>Karimganj</li>
+        
+          <li>Silchar</li>
+        
+          <li>Autonomous District</li>
+        
+    
+      <li>Goa</li>
+      <ul> 
+        
+          <li>North Goa</li>
+        
+          <li>South Goa</li>
+        
+    
+      <li>Sikkim</li>
+      <ul> 
+        
+          <li>Sikkim</li>
+        
+    
+      <li>Tripura</li>
+      <ul> 
+        
+          <li>Tripura East</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 5</h3>
+  <ul>
+    
+      <li>Bihar</li>
+      <ul> 
+        
+          <li>Munger</li>
+        
+          <li>Nalanda</li>
+        
+          <li>Patna Sahib</li>
+        
+          <li>Pataliputra</li>
+        
+          <li>Arrah</li>
+        
+          <li>Buxar</li>
+        
+          <li>Jahanabad</li>
+        
+    
+      <li>Chhattisgarh</li>
+      <ul> 
+        
+          <li>Rajnandgaon</li>
+        
+          <li>Mahasamund</li>
+        
+          <li>Kanker</li>
+        
+    
+      <li>Jammu and Kashmir</li>
+      <ul> 
+        
+          <li>Udhampur</li>
+        
+    
+      <li>Jharkhand</li>
+      <ul> 
+        
+          <li>Giridih</li>
+        
+          <li>Ranchi</li>
+        
+          <li>Jamshedpur</li>
+        
+          <li>Singhbhum</li>
+        
+          <li>Khunti</li>
+        
+          <li>Hazaribagh</li>
+        
+    
+      <li>Karnataka</li>
+      <ul> 
+        
+          <li>Chikkodi</li>
+        
+          <li>Belgaum</li>
+        
+          <li>Bagalkot</li>
+        
+          <li>Bijapur</li>
+        
+          <li>Gulbarga</li>
+        
+          <li>Raichur</li>
+        
+          <li>Bidar</li>
+        
+          <li>Koppal</li>
+        
+          <li>Bellary</li>
+        
+          <li>Haveri</li>
+        
+          <li>Dharwad</li>
+        
+          <li>Uttara Kannada</li>
+        
+          <li>Davanagere</li>
+        
+          <li>Shimoga</li>
+        
+          <li>Udupi Chikmagalur</li>
+        
+          <li>Hassan</li>
+        
+          <li>Dakshina Kannada</li>
+        
+          <li>Chitradurga</li>
+        
+          <li>Tumkur</li>
+        
+          <li>Mandya</li>
+        
+          <li>Mysore</li>
+        
+          <li>Chamarajanagar</li>
+        
+          <li>Bangalore Rural</li>
+        
+          <li>Bangalore North</li>
+        
+          <li>Bangalore Central</li>
+        
+          <li>Bangalore South</li>
+        
+          <li>Chikkballapur</li>
+        
+          <li>Kolar</li>
+        
+    
+      <li>Madhya Pradesh</li>
+      <ul> 
+        
+          <li>Morena</li>
+        
+          <li>Bhind</li>
+        
+          <li>Gwalior</li>
+        
+          <li>Guna</li>
+        
+          <li>Sagar</li>
+        
+          <li>Tikamgarh</li>
+        
+          <li>Damoh</li>
+        
+          <li>Khajuraho</li>
+        
+          <li>Bhopal</li>
+        
+          <li>Rajgarh</li>
+        
+    
+      <li>Maharashtra</li>
+      <ul> 
+        
+          <li>Hingoli</li>
+        
+          <li>Nanded</li>
+        
+          <li>Parbhani</li>
+        
+          <li>Maval</li>
+        
+          <li>Pune</li>
+        
+          <li>Baramati</li>
+        
+          <li>Shirur</li>
+        
+          <li>Ahmednagar</li>
+        
+          <li>Shirdi</li>
+        
+          <li>Beed</li>
+        
+          <li>Osmanabad</li>
+        
+          <li>Latur</li>
+        
+          <li>Solapur</li>
+        
+          <li>Madha</li>
+        
+          <li>Sangli</li>
+        
+          <li>Satara</li>
+        
+          <li>Ratnagiri - Sindhudurg</li>
+        
+          <li>Kolhapur</li>
+        
+          <li>Hatkanangle</li>
+        
+    
+      <li>Manipur</li>
+      <ul> 
+        
+          <li>Inner Manipur</li>
+        
+    
+      <li>Odisha</li>
+      <ul> 
+        
+          <li>Keonjhar</li>
+        
+          <li>Mayurbhanj</li>
+        
+          <li>Balasore</li>
+        
+          <li>Bhadrak</li>
+        
+          <li>Jajpur</li>
+        
+          <li>Dhenkanal</li>
+        
+          <li>Cuttack</li>
+        
+          <li>Kendrapara</li>
+        
+          <li>Jagatsinghpur</li>
+        
+          <li>Puri</li>
+        
+          <li>Bhubaneswar</li>
+        
+    
+      <li>Rajasthan</li>
+      <ul> 
+        
+          <li>Ganganagar</li>
+        
+          <li>Bikaner</li>
+        
+          <li>Churu</li>
+        
+          <li>Jhunjhunu</li>
+        
+          <li>Sikar</li>
+        
+          <li>Jaipur Rural</li>
+        
+          <li>Jaipur</li>
+        
+          <li>Ajmer</li>
+        
+          <li>Nagaur</li>
+        
+          <li>Pali</li>
+        
+          <li>Jodhpur</li>
+        
+          <li>Barmer</li>
+        
+          <li>Jalore</li>
+        
+          <li>Udaipur</li>
+        
+          <li>Banswara</li>
+        
+          <li>Chittorgarh</li>
+        
+          <li>Rajsamand</li>
+        
+          <li>Bhilwara</li>
+        
+          <li>Kota</li>
+        
+          <li>Jhalawar-Baran</li>
+        
+    
+      <li>Uttar Pradesh</li>
+      <ul> 
+        
+          <li>Nagina</li>
+        
+          <li>Moradabad</li>
+        
+          <li>Rampur</li>
+        
+          <li>Sambhal</li>
+        
+          <li>Amroha</li>
+        
+          <li>Badaun</li>
+        
+          <li>Aonla</li>
+        
+          <li>Bareilly</li>
+        
+          <li>Pilibhit</li>
+        
+          <li>Shahjahanpur</li>
+        
+          <li>Kheri</li>
+        
+    
+      <li>West Bengal</li>
+      <ul> 
+        
+          <li>Coochbehar</li>
+        
+          <li>Alipurduars</li>
+        
+          <li>Jalpaiguri</li>
+        
+          <li>Darjeeling</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 6</h3>
+  <ul>
+    
+      <li>Assam</li>
+      <ul> 
+        
+          <li>Dhubri</li>
+        
+          <li>Kokrajhar</li>
+        
+          <li>Barpeta</li>
+        
+          <li>Gauhati</li>
+        
+          <li>Mangaldoi</li>
+        
+          <li>Nawgong</li>
+        
+    
+      <li>Bihar</li>
+      <ul> 
+        
+          <li>Supaul</li>
+        
+          <li>Araria</li>
+        
+          <li>Kishanganj</li>
+        
+          <li>Katihar</li>
+        
+          <li>Purnia</li>
+        
+          <li>Bhagalpur</li>
+        
+          <li>Banka</li>
+        
+    
+      <li>Chhattisgarh</li>
+      <ul> 
+        
+          <li>Surguja</li>
+        
+          <li>Raigarh</li>
+        
+          <li>Janjgir-Champa</li>
+        
+          <li>Korba</li>
+        
+          <li>Bilaspur</li>
+        
+          <li>Durg</li>
+        
+          <li>Raipur</li>
+        
+    
+      <li>Jammu and Kashmir</li>
+      <ul> 
+        
+          <li>Anantnag</li>
+        
+    
+      <li>Jharkhand</li>
+      <ul> 
+        
+          <li>Rajmahal</li>
+        
+          <li>Dumka</li>
+        
+          <li>Godda</li>
+        
+          <li>Dhanbad</li>
+        
+    
+      <li>Madhya Pradesh</li>
+      <ul> 
+        
+          <li>Vidisha</li>
+        
+          <li>Dewas</li>
+        
+          <li>Ujjain</li>
+        
+          <li>Mandsour</li>
+        
+          <li>Ratlam</li>
+        
+          <li>Dhar</li>
+        
+          <li>Indore</li>
+        
+          <li>Khargone</li>
+        
+          <li>Khandwa</li>
+        
+          <li>Betul</li>
+        
+    
+      <li>Maharashtra</li>
+      <ul> 
+        
+          <li>Nandurbar</li>
+        
+          <li>Dhule</li>
+        
+          <li>Jalgaon</li>
+        
+          <li>Raver</li>
+        
+          <li>Jalna</li>
+        
+          <li>Aurangabad</li>
+        
+          <li>Dindori</li>
+        
+          <li>Nashik</li>
+        
+          <li>Palghar</li>
+        
+          <li>Bhiwandi</li>
+        
+          <li>Kalyan</li>
+        
+          <li>Thane</li>
+        
+          <li>Mumbai North</li>
+        
+          <li>Mumbai North-West</li>
+        
+          <li>Mumbai North-East</li>
+        
+          <li>Mumbai North-Central</li>
+        
+          <li>Mumbai South -Central</li>
+        
+          <li>Mumbai South</li>
+        
+          <li>Raigad</li>
+        
+    
+      <li>Rajasthan</li>
+      <ul> 
+        
+          <li>Alwar</li>
+        
+          <li>Bharatpur</li>
+        
+          <li>Karauli-Dholpur</li>
+        
+          <li>Dausa</li>
+        
+          <li>Tonk-Sawai Madhopur</li>
+        
+    
+      <li>Tamil Nadu</li>
+      <ul> 
+        
+          <li>Tiruvallur</li>
+        
+          <li>Chennai North</li>
+        
+          <li>Chennai South</li>
+        
+          <li>Chennai Central</li>
+        
+          <li>Sriperumbudur</li>
+        
+          <li>Kancheepuram</li>
+        
+          <li>Arakkonam</li>
+        
+          <li>Vellore</li>
+        
+          <li>Krishnagiri</li>
+        
+          <li>Dharmapuri</li>
+        
+          <li>Tiruvannamalai</li>
+        
+          <li>Arani</li>
+        
+          <li>Viluppuram</li>
+        
+          <li>Kallakurichi</li>
+        
+          <li>Salem</li>
+        
+          <li>Namakkal</li>
+        
+          <li>Erode</li>
+        
+          <li>Tiruppur</li>
+        
+          <li>Nilgiris</li>
+        
+          <li>Coimbatore</li>
+        
+          <li>Pollachi</li>
+        
+          <li>Dindigul</li>
+        
+          <li>Karur</li>
+        
+          <li>Tiruchirappalli</li>
+        
+          <li>Perambalur</li>
+        
+          <li>Cuddalore</li>
+        
+          <li>Chidambaram</li>
+        
+          <li>Mayiladuthurai</li>
+        
+          <li>Nagapattinam</li>
+        
+          <li>Thanjavur</li>
+        
+          <li>Sivaganga</li>
+        
+          <li>Madurai</li>
+        
+          <li>Theni</li>
+        
+          <li>Virudhunagar</li>
+        
+          <li>Ramanathapuram</li>
+        
+          <li>Thoothukkudi</li>
+        
+          <li>Tenkasi</li>
+        
+          <li>Tirunelveli</li>
+        
+          <li>Kanniyakumari</li>
+        
+    
+      <li>Uttar Pradesh</li>
+      <ul> 
+        
+          <li>Hathras</li>
+        
+          <li>Mathura</li>
+        
+          <li>Agra</li>
+        
+          <li>Fatehpur Sikri</li>
+        
+          <li>Firozabad</li>
+        
+          <li>Mainpuri</li>
+        
+          <li>Etah</li>
+        
+          <li>Hardoi</li>
+        
+          <li>Farrukhabad</li>
+        
+          <li>Etawah</li>
+        
+          <li>Kannauj</li>
+        
+          <li>Akbarpur</li>
+        
+    
+      <li>West Bengal</li>
+      <ul> 
+        
+          <li>Raiganj</li>
+        
+          <li>Balurghat</li>
+        
+          <li>Maldaha Uttar</li>
+        
+          <li>Maldaha Dakshin</li>
+        
+          <li>Jangipur</li>
+        
+          <li>Murshidabad</li>
+        
+    
+      <li>Puducherry</li>
+      <ul> 
+        
+          <li>Puducherry</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 7</h3>
+  <ul>
+    
+      <li>Andhra Pradesh</li>
+      <ul> 
+        
+          <li>Adilabad</li>
+        
+          <li>Peddapalle</li>
+        
+          <li>Karimnagar</li>
+        
+          <li>Nizamabad</li>
+        
+          <li>Zahirabad</li>
+        
+          <li>Medak</li>
+        
+          <li>Malkajgiri</li>
+        
+          <li>Secunderabad</li>
+        
+          <li>Hyderabad</li>
+        
+          <li>Chevella</li>
+        
+          <li>Mahbubnagar</li>
+        
+          <li>Nagarkurnool</li>
+        
+          <li>Nalgonda</li>
+        
+          <li>Bhongir</li>
+        
+          <li>Warangal</li>
+        
+          <li>Mahabubabad</li>
+        
+          <li>Khammam</li>
+        
+    
+      <li>Bihar</li>
+      <ul> 
+        
+          <li>Madhubani</li>
+        
+          <li>Jhanjharpur</li>
+        
+          <li>Madhepura</li>
+        
+          <li>Darbhanga</li>
+        
+          <li>Samastipur</li>
+        
+          <li>Begusarai</li>
+        
+          <li>Khagaria</li>
+        
+    
+      <li>Gujarat</li>
+      <ul> 
+        
+          <li>Kachchh</li>
+        
+          <li>Banaskantha</li>
+        
+          <li>Patan</li>
+        
+          <li>Mahesana</li>
+        
+          <li>Sabarkantha</li>
+        
+          <li>Gandhinagar</li>
+        
+          <li>Ahmedabad East</li>
+        
+          <li>Ahmedabad West</li>
+        
+          <li>Surendranagar</li>
+        
+          <li>Rajkot</li>
+        
+          <li>Porbandar</li>
+        
+          <li>Jamnagar</li>
+        
+          <li>Junagadh</li>
+        
+          <li>Amreli</li>
+        
+          <li>Bhavnagar</li>
+        
+          <li>Anand</li>
+        
+          <li>Kheda</li>
+        
+          <li>Panchmahal</li>
+        
+          <li>Dahod</li>
+        
+          <li>Vadodara</li>
+        
+          <li>Chhota Udaipur</li>
+        
+          <li>Bharuch</li>
+        
+          <li>Bardoli</li>
+        
+          <li>Surat</li>
+        
+          <li>Navsari</li>
+        
+          <li>Valsad</li>
+        
+    
+      <li>Haryana</li>
+      <ul> 
+        
+          <li>Ambala</li>
+        
+          <li>Kurukshetra</li>
+        
+          <li>Sirsa</li>
+        
+          <li>Hisar</li>
+        
+          <li>Karnal</li>
+        
+          <li>Sonipat</li>
+        
+          <li>Rohtak</li>
+        
+          <li>Bhiwani-Mahendragarh</li>
+        
+          <li>Gurgaon</li>
+        
+          <li>Faridabad</li>
+        
+    
+      <li>Jammu and Kashmir</li>
+      <ul> 
+        
+          <li>Srinagar</li>
+        
+    
+      <li>Punjab</li>
+      <ul> 
+        
+          <li>Gurdaspur</li>
+        
+          <li>Amritsar</li>
+        
+          <li>Khadoor Sahib</li>
+        
+          <li>Jalandhar</li>
+        
+          <li>Hoshiarpur</li>
+        
+          <li>Anandpur Sahib</li>
+        
+          <li>Ludhiana</li>
+        
+          <li>Fatehgarh Sahib</li>
+        
+          <li>Faridkot</li>
+        
+          <li>Firozpur</li>
+        
+          <li>Bathinda</li>
+        
+          <li>Sangrur</li>
+        
+          <li>Patiala</li>
+        
+    
+      <li>Uttar Pradesh</li>
+      <ul> 
+        
+          <li>Dhaurahra</li>
+        
+          <li>Sitapur</li>
+        
+          <li>Misrikh</li>
+        
+          <li>Unnao</li>
+        
+          <li>Mohanlalganj</li>
+        
+          <li>Lucknow</li>
+        
+          <li>Rae Bareli</li>
+        
+          <li>Kanpur</li>
+        
+          <li>Jalaun</li>
+        
+          <li>Jhansi</li>
+        
+          <li>Hamirpur</li>
+        
+          <li>Banda</li>
+        
+          <li>Fatehpur</li>
+        
+          <li>Barabanki</li>
+        
+    
+      <li>West Bengal</li>
+      <ul> 
+        
+          <li>Howrah</li>
+        
+          <li>Uluberia</li>
+        
+          <li>Sreerampur</li>
+        
+          <li>Hooghly</li>
+        
+          <li>Arambag</li>
+        
+          <li>Bardhaman Purba</li>
+        
+          <li>Bardhaman - Durgapur</li>
+        
+          <li>Bolpur</li>
+        
+          <li>Birbhum</li>
+        
+    
+      <li>Dadra and Nagar Haveli</li>
+      <ul> 
+        
+          <li>Dadra and Nagar Haveli</li>
+        
+    
+      <li>Daman and Diu</li>
+      <ul> 
+        
+          <li>Daman and Diu</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 8</h3>
+  <ul>
+    
+      <li>Andhra Pradesh</li>
+      <ul> 
+        
+          <li>Araku</li>
+        
+          <li>Srikakulam</li>
+        
+          <li>Vizianagaram</li>
+        
+          <li>Visakhapatnam</li>
+        
+          <li>Anakapalle</li>
+        
+          <li>Kakinada</li>
+        
+          <li>Amalapuram</li>
+        
+          <li>Rajahmundry</li>
+        
+          <li>Narsapuram</li>
+        
+          <li>Machilipatnam</li>
+        
+          <li>Vijayawada</li>
+        
+          <li>Guntur</li>
+        
+          <li>Narasaraopet</li>
+        
+          <li>Bapatla</li>
+        
+          <li>Ongole</li>
+        
+          <li>Nandyal</li>
+        
+          <li>Kurnool</li>
+        
+          <li>Anantapur</li>
+        
+          <li>Hindupur</li>
+        
+          <li>Kadapa</li>
+        
+          <li>Nellore</li>
+        
+          <li>Tirupati</li>
+        
+          <li>Rajampet</li>
+        
+          <li>Chittoor</li>
+        
+    
+      <li>Bihar</li>
+      <ul> 
+        
+          <li>Sheohar</li>
+        
+          <li>Sitamarhi</li>
+        
+          <li>Muzaffarpur</li>
+        
+          <li>Maharajganj</li>
+        
+          <li>Saran</li>
+        
+          <li>Hajipur</li>
+        
+          <li>Ujiarpur</li>
+        
+    
+      <li>Himachal Pradesh</li>
+      <ul> 
+        
+          <li>Kangra</li>
+        
+          <li>Mandi</li>
+        
+          <li>Hamirpur</li>
+        
+          <li>Shimla</li>
+        
+    
+      <li>Jammu and Kashmir</li>
+      <ul> 
+        
+          <li>Baramulla</li>
+        
+          <li>Ladakh</li>
+        
+    
+      <li>Uttar Pradesh</li>
+      <ul> 
+        
+          <li>Amethi</li>
+        
+          <li>Sultanpur</li>
+        
+          <li>Pratapgarh</li>
+        
+          <li>Kaushambi</li>
+        
+          <li>Phulpur</li>
+        
+          <li>Allahabad</li>
+        
+          <li>Faizabad</li>
+        
+          <li>Ambedkar Nagar</li>
+        
+          <li>Bahraich</li>
+        
+          <li>Kaiserganj</li>
+        
+          <li>Shrawasti</li>
+        
+          <li>Gonda</li>
+        
+          <li>Basti</li>
+        
+          <li>Sant Kabir Nagar</li>
+        
+          <li>Bhadohi</li>
+        
+    
+      <li>Uttarakhand</li>
+      <ul> 
+        
+          <li>TehriGarhwal</li>
+        
+          <li>Garhwal</li>
+        
+          <li>Almora</li>
+        
+          <li>Nainital-</li>
+        
+          <li>Udhamsingh Nagar</li>
+        
+          <li>Hardwar</li>
+        
+    
+      <li>West Bengal</li>
+      <ul> 
+        
+          <li>Jhargram</li>
+        
+          <li>Medinipur</li>
+        
+          <li>Purulia</li>
+        
+          <li>Bankura</li>
+        
+          <li>Bishnupur</li>
+        
+          <li>Asansol</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 9</h3>
+  <ul>
+    
+      <li>Bihar</li>
+      <ul> 
+        
+          <li>Valmiki Nagar</li>
+        
+          <li>Paschim Champaran</li>
+        
+          <li>Purvi Champaran</li>
+        
+          <li>Vaishali</li>
+        
+          <li>Gopalganj</li>
+        
+          <li>Siwan</li>
+        
+    
+      <li>Uttar Pradesh</li>
+      <ul> 
+        
+          <li>Domariyaganj</li>
+        
+          <li>Maharajganj</li>
+        
+          <li>Gorakhpur</li>
+        
+          <li>Kushi Nagar</li>
+        
+          <li>Deoria</li>
+        
+          <li>Bansgaon</li>
+        
+          <li>Lalganj</li>
+        
+          <li>Azamgarh</li>
+        
+          <li>Ghosi</li>
+        
+          <li>Salempur</li>
+        
+          <li>Ballia</li>
+        
+          <li>Jaunpur</li>
+        
+          <li>Machhlishahr</li>
+        
+          <li>Ghazipur</li>
+        
+          <li>Chandauli</li>
+        
+          <li>Varanasi</li>
+        
+          <li>Mirzapur</li>
+        
+          <li>Robertsganj</li>
+        
+    
+      <li>West Bengal</li>
+      <ul> 
+        
+          <li>Baharampur</li>
+        
+          <li>Krishnanagar</li>
+        
+          <li>Ranaghat</li>
+        
+          <li>Bangaon</li>
+        
+          <li>Barrackpur</li>
+        
+          <li>Dum Dum</li>
+        
+          <li>Barasat</li>
+        
+          <li>Basirhat</li>
+        
+          <li>Jaynagar</li>
+        
+          <li>Mathurapur</li>
+        
+          <li>Diamond Harbour</li>
+        
+          <li>Jadavpur</li>
+        
+          <li>Kolkata Dakshin</li>
+        
+          <li>Kolkata Uttar</li>
+        
+          <li>Tamluk</li>
+        
+          <li>Kanthi</li>
+        
+          <li>Ghatal</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 3B</h3>
+  <ul>
+    
+      <li>Bihar</li>
+      <ul> 
+        
+          <li>Sasaram</li>
+        
+          <li>Karakat</li>
+        
+          <li>Aurangabad</li>
+        
+          <li>Gaya</li>
+        
+          <li>Nawada</li>
+        
+          <li>Jamui</li>
+        
+    
+  </ul>
+
+  <h3>Phase - 3A</h3>
+  <ul>
+    
+      <li>Chhattisgarh</li>
+      <ul> 
+        
+          <li>Bastar</li>
+        
+    
+      <li>Jammu and Kashmir</li>
+      <ul> 
+        
+          <li>Jammu</li>
+        
+    
+      <li>Jharkhand</li>
+      <ul> 
+        
+          <li>Chatra</li>
+        
+          <li>Kodarma</li>
+        
+          <li>Lohardaga</li>
+        
+          <li>Palamu</li>
+        
+    
+      <li>Kerala</li>
+      <ul> 
+        
+          <li>Kasaragod</li>
+        
+          <li>Kannur</li>
+        
+          <li>Vadakara</li>
+        
+          <li>Wayanad</li>
+        
+          <li>Kozhikode</li>
+        
+          <li>Malappuram</li>
+        
+          <li>Ponnani</li>
+        
+          <li>Palakkad</li>
+        
+          <li>Alathur</li>
+        
+          <li>Thrissur</li>
+        
+          <li>Chalakudy</li>
+        
+          <li>Ernakulam</li>
+        
+          <li>Idukki</li>
+        
+          <li>Kottayam</li>
+        
+          <li>Alappuzha</li>
+        
+          <li>Mavelikkara</li>
+        
+          <li>Pathanamthitta</li>
+        
+          <li>Kollam</li>
+        
+          <li>Attingal</li>
+        
+          <li>Thiruvananthapuram</li>
+        
+    
+      <li>Madhya Pradesh</li>
+      <ul> 
+        
+          <li>Satna</li>
+        
+          <li>Rewa</li>
+        
+          <li>Sidhi</li>
+        
+          <li>Shahdol</li>
+        
+          <li>Jabalpur</li>
+        
+          <li>Mandla</li>
+        
+          <li>Balaghat</li>
+        
+          <li>Chhindwara</li>
+        
+          <li>Hoshangabad</li>
+        
+    
+      <li>Maharashtra</li>
+      <ul> 
+        
+          <li>Buldhana</li>
+        
+          <li>Akola</li>
+        
+          <li>Amravati</li>
+        
+          <li>Wardha</li>
+        
+          <li>Ramtek</li>
+        
+          <li>Nagpur</li>
+        
+          <li>Bhandara - Gondiya</li>
+        
+          <li>Gadchiroli-Chimur</li>
+        
+          <li>Chandrapur</li>
+        
+          <li>Yavatmal-Washim</li>
+        
+    
+      <li>Odisha</li>
+      <ul> 
+        
+          <li>Bargarh</li>
+        
+          <li>Sundargarh</li>
+        
+          <li>Sambalpur</li>
+        
+          <li>Bolangir</li>
+        
+          <li>Kalahandi</li>
+        
+          <li>Nabarangpur</li>
+        
+          <li>Kandhamal</li>
+        
+          <li>Aska</li>
+        
+          <li>Berhampur</li>
+        
+          <li>Korapat</li>
+        
+    
+      <li>Uttar Pradesh</li>
+      <ul> 
+        
+          <li>Saharanpur</li>
+        
+          <li>Kairana</li>
+        
+          <li>Muzaffarnagar</li>
+        
+          <li>Bijnor</li>
+        
+          <li>Meerut</li>
+        
+          <li>Baghpat</li>
+        
+          <li>Ghaziabad</li>
+        
+          <li>Gautam Buddha Nagar</li>
+        
+          <li>Bulandshahr</li>
+        
+          <li>Aligarh</li>
+        
+    
+      <li>Andaman and Nicobar Islands</li>
+      <ul> 
+        
+          <li>Andaman and Nicobar Islands</li>
+        
+    
+      <li>Chandigarh</li>
+      <ul> 
+        
+          <li>Chandigarh</li>
+        
+    
+      <li>Lakshadweep</li>
+      <ul> 
+        
+          <li>Lakshadweep</li>
+        
+    
+      <li>Delhi</li>
+      <ul> 
+        
+          <li>Chandni Chowk</li>
+        
+          <li>North East Delhi</li>
+        
+          <li>East Delhi</li>
+        
+          <li>New Delhi</li>
+        
+          <li>North West Delhi</li>
+        
+          <li>West Delhi</li>
+        
+          <li>South Delhi</li>
+        
+    
+  </ul>
+</p>
+
+              </div>
+            </div>
+            <div class="tab-pane fade" id="comments">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'wisevoter'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span>
+</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3">
+         <aside id="sidebar">
+            
+            <div class="recommendations">
+            <h3>Related Pages</h3>
+              <ul>
+                
+                  <li><a href='/articles/the-states-in-indian-politics'>States In Indian Politics</li>
+                
+                  <li><a href='/parties/AAP'>Aam Aadmi Party</li>
+                
+                  <li><a href='/politicians/sushma-swaraj'>Sushma Swaraj</li>
+                
+              </ul>
+            <div>
+            
+
+            <a href="/politicians.html" class="button">
+              <small>Review</small>
+              Politicians
+            </a>
+            
+            <a href="/parties.html" class="button">
+              <small>Research</small>
+              Parties
+            </a>
+
+            <a href="/constituencies.html" class="button">
+              <small>Learn About</small>
+              Constituencies
+            </a>          
+          </aside>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+
+    
+<div class="container-fluid">
+	<footer class="row">
+	  <a href="http://github.com/vaibhavb/wisevoter" class="muted">Built with Node.js, Ruby and Python</a> | in Seattle, WA by <a href="http://www.lib13.com">Lib13</a>.
+	  <p class="footer-version">Version 0.0.8.<p>
+	  <div id="google_translate_element"></div>
+		  <script type="text/javascript">
+					function googleTranslateElementInit() {
+					  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'gu,hi,kn,mr,ta', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-8311051-1'}, 'google_translate_element');
+					}
+			</script>
+			<!-- Latest compiled and minified JavaScript -->
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+			<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+			<script src="/assets/javascripts/typeahead.bundle.js"></script>
+			<script src="/assets/javascripts/handlebars.js"></script>
+			<script src="/assets/javascripts/main.js"></script>
+
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</footer>
+</div>
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8311051-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>

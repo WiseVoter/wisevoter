@@ -197,8 +197,8 @@ callback([
   } ,
 
   {
-    "text": "zubair-alam",
-    "href": "/politicians/zubair-alam"
+    "text": "yogesh-shukla",
+    "href": "/politicians/yogesh-shukla"
   } ,
 
   {
@@ -37337,18 +37337,18 @@ callback([
   } ,
 
   {
-    "text": "yogesh-shukla",
-    "href": "/politicians/yogesh-shukla"
-  } ,
-
-  {
     "text": "zubair",
     "href": "/politicians/zubair"
   } ,
 
   {
-    "text": "kokrajhar",
-    "href": "/constituencies/kokrajhar"
+    "text": "zubair-alam",
+    "href": "/politicians/zubair-alam"
+  } ,
+
+  {
+    "text": "kodarma",
+    "href": "/constituencies/kodarma"
   } ,
 
   {
@@ -38817,13 +38817,13 @@ callback([
   } ,
 
   {
-    "text": "VHS",
-    "href": "/parties/VHS"
+    "text": "kokrajhar",
+    "href": "/constituencies/kokrajhar"
   } ,
 
   {
-    "text": "kodarma",
-    "href": "/constituencies/kodarma"
+    "text": "VHS",
+    "href": "/parties/VHS"
   } ,
 
   {
@@ -39232,8 +39232,8 @@ callback([
   } ,
 
   {
-    "text": "the-2014-indian-general-elections",
-    "href": "/articles/the-2014-indian-general-elections"
+    "text": "nadan-nilkeni",
+    "href": "/politicians/nadan-nilkeni"
   } ,
 
   {
@@ -40287,8 +40287,13 @@ callback([
   } ,
 
   {
-    "text": "nadan-nilkeni",
-    "href": "/politicians/nadan-nilkeni"
+    "text": "the-2014-indian-general-elections",
+    "href": "/articles/the-2014-indian-general-elections"
+  } ,
+
+  {
+    "text": "Phases-Of-General-Elections",
+    "href": "/articles/Phases-Of-General-Elections"
   } ,
 
   {

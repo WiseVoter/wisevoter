@@ -8,9 +8,15 @@
   } ,
 
   {
-    "text": "nadan nilkeni",
-    "href": "/politicians/nadan-nilkeni",
-    "category": "politicians"
+    "text": "Phases Of-General-Elections",
+    "href": "/articles/Phases-Of-General-Elections",
+    "category": "articles"
+  } ,
+
+  {
+    "text": "the 2014-indian-general-elections",
+    "href": "/articles/the-2014-indian-general-elections",
+    "category": "articles"
   } ,
 
   {
@@ -1274,9 +1280,9 @@
   } ,
 
   {
-    "text": "the 2014-indian-general-elections",
-    "href": "/articles/the-2014-indian-general-elections",
-    "category": "articles"
+    "text": "nadan nilkeni",
+    "href": "/politicians/nadan-nilkeni",
+    "category": "politicians"
   } ,
 
   {
@@ -1766,15 +1772,15 @@
   } ,
 
   {
-    "text": "kodarma",
-    "href": "/constituencies/kodarma",
-    "category": "constituencies"
-  } ,
-
-  {
     "text": "VHS",
     "href": "/parties/VHS",
     "category": "parties"
+  } ,
+
+  {
+    "text": "kokrajhar",
+    "href": "/constituencies/kokrajhar",
+    "category": "constituencies"
   } ,
 
   {
@@ -3536,20 +3542,20 @@
   } ,
 
   {
-    "text": "kokrajhar",
-    "href": "/constituencies/kokrajhar",
+    "text": "kodarma",
+    "href": "/constituencies/kodarma",
     "category": "constituencies"
+  } ,
+
+  {
+    "text": "zubair alam",
+    "href": "/politicians/zubair-alam",
+    "category": "politicians"
   } ,
 
   {
     "text": "zubair",
     "href": "/politicians/zubair",
-    "category": "politicians"
-  } ,
-
-  {
-    "text": "yogesh shukla",
-    "href": "/politicians/yogesh-shukla",
     "category": "politicians"
   } ,
 
@@ -47072,15 +47078,15 @@
   } ,
 
   {
-    "text": "vijaykumar.amg",
-    "href": "/politicians/vijaykumar.amg",
-    "category": "politicians"
-  } ,
-
-  {
     "text": "vote wise-this-election",
     "href": "/articles/vote-wise-this-election",
     "category": "articles"
+  } ,
+
+  {
+    "text": "vijaypal singh-shyoran-vivek",
+    "href": "/politicians/vijaypal-singh-shyoran-vivek",
+    "category": "politicians"
   } ,
 
   {
@@ -48116,8 +48122,8 @@
   } ,
 
   {
-    "text": "zubair alam",
-    "href": "/politicians/zubair-alam",
+    "text": "yogesh shukla",
+    "href": "/politicians/yogesh-shukla",
     "category": "politicians"
   } ,
 
@@ -48350,8 +48356,8 @@
   } ,
 
   {
-    "text": "vijaypal singh-shyoran-vivek",
-    "href": "/politicians/vijaypal-singh-shyoran-vivek",
+    "text": "vijaykumar.amg",
+    "href": "/politicians/vijaykumar.amg",
     "category": "politicians"
   } 
 
