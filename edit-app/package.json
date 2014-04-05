@@ -34,7 +34,8 @@
     "connect-mongo": "latest",
     "connect-flash": "latest",
     "gift": "~0.2.0",
-    "nodemailer": "~0.6.0"
+    "nodemailer": "~0.6.0",
+    "lodash": "latest"
   },
   "devDependencies": {
     "mocha": "latest",

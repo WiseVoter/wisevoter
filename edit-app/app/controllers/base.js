@@ -63,10 +63,10 @@ function getYAML(file_path)
 
 function readAndWriteData(config)
 {
-    data_dir = config.site_root + "/" + config.data_dir;
-    out_dir = config.publish_root + "/" + config.data_dir.replace("_","")
+    var data_dir = config.site_root + "/" + config.data_dir;
+    var out_dir = config.publish_root + "/" + config.data_dir.replace("_","")
     fs.readdirSync(data_dir).forEach(function(file) {
-      re = /^(.*)\.(yml)$/
+      var re = /^(.*)\.(yml)$/
       var d = re.exec(file)
       if (!d) return;
       var file_path = data_dir + "/" + file;
@@ -77,7 +77,7 @@ function readAndWriteData(config)
         console.log("Fix file: " + file_path + " - error " + err)
         return;
       }
-      data_file = out_dir + "/" + d[1] + ".json"
+      var data_file = out_dir + "/" + d[1] + ".json"
       console.log(data_file)
       console.log(split)
       ensureDirectories(data_file)
@@ -87,12 +87,31 @@ function readAndWriteData(config)
 
 function getcontent(file_path)
 {
-  re = /^(-{3}(?:\n|\r)([\w\W]+?)-{3})?([\w\W]*)*/
-  info = fs.readFileSync(file_path)
-  result = re.exec(info)
-  fm = yaml.load("---\n"+result[2])
-  content = result[3]
+  var re = /^(-{3}(?:\n|\r)([\w\W]+?)-{3})?([\w\W]*)*/
+  var info = fs.readFileSync(file_path)
+  var result = re.exec(info)
+  var fm = yaml.load("---\n"+result[2])
+  var content = result[3]
   return {fm: fm, content: content};
+}
+
+function readData(config){
+  var data = {};
+  var data_dir = config.site_root + "/" + config.data_dir;
+  fs.readdirSync(data_dir).forEach(function(file) {
+    var d = file.match(/^(.*)\.(yml)$/);
+    if (!d) return;
+    try {
+     var file_path = data_dir + "/" + file
+     var file_yml = getYAML(data_dir + "/" + file)
+    }
+    catch(err){
+      console.log("Fix file: " + file_path + " - error " + err)
+      return;
+    }
+    data[d[1]] = file_yml
+  });
+  return data;
 }
 
 function readPosts(config) {
@@ -203,10 +222,11 @@ exports.generate_post = function(article_file_path, article_url) {
 
 /* TODO: Consolidate the generation logic from page, post, pages and posts */
 exports.generate = function() {
-  var config = readConfig()
-  var posts = readPosts(config)
-  var data = {}
-  site = config
+  var config = readConfig(),
+      posts = readPosts(config),
+      data = readData(config);
+
+  var site = config
   site.posts = posts
   site.time = new Date()
   site.data = data
@@ -233,11 +253,20 @@ exports.generate = function() {
 
 
   posts.forEach(function(post) {
-    var render = getLayout(post.page.layout, ctx)
-    swig.setDefaults({loader: swig.loaders.fs(path.resolve(ctx.site.site_root + "/" + ctx.site.includes_dir))});
-    post.content = swig.render(post.content, {locals: post});
-    post.site = config
-    var render_output = render(post)
+    var lctx;
+    lctx = config;
+    lctx.site = site;
+    lctx.page = post.page
+    try {
+     lctx.content = swig.render(post.content, {locals: lctx});
+    }
+    catch (err) {
+     console.log(post.content)
+     throw (err)
+    }
+    var render = getLayout(post.page.layout, lctx)
+    var render_output = render(lctx)
+
     /* TODO: Hack of index.html */
     var post_path = config.publish_root + post.url + "/"+ "index.html"
     ensureDirectories(post_path)
@@ -284,11 +313,12 @@ exports.generate = function() {
           doc.page.url = doc.url
           doc.site = site;
 
+          doc.content = swig.render(doc.content, {locals: doc})
           var render = getLayout(doc.page.layout, doc)
           var render_output = render(doc)
-          var re_render_output = swig.render(render_output, doc)
+
           ensureDirectories(out_path)
-          fs.writeFileSync(out_path, re_render_output)
+          fs.writeFileSync(out_path, render_output)
         } else {
           ensureDirectories(out_path)
           copyFileSync(file, out_path)

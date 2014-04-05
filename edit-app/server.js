@@ -120,6 +120,7 @@ app.use(express.session({
     secret: pkg.name,
     store: new MongoStore({
       url: config.db,
+      auto_reconnect: true,
       collection: 'sessions'
     })
   })
