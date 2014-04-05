@@ -16,8 +16,7 @@ image:
 comments: true
 readtime: 5
 excerpt: This article outlines the phases of elections, and which states are going to ballot when in the upcoming 2014 general elections.
----
-This article outlines the phases of elections, and which states are going to ballot when in the upcoming 2014 general elections.
+---This article outlines the phases of elections, and which states are going to ballot when in the upcoming 2014 general elections.
 
 <div id="map"></div>
 
@@ -32,7 +31,6 @@ This article outlines the phases of elections, and which states are going to bal
         .key(function(d){ return d.state_abbrev})
         .key(function(d){ return d.phase})
         .entries(json)
-
       datum.forEach(function(data, i){
         d3.select("#" + data.key)
         .on("mouseover", function(d){
