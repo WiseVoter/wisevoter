@@ -228,7 +228,7 @@ a.muted-link {
   margin-bottom: 5px;
 }
 .state-image p {
-  position: fixed;
+  position: absolute;
   background: rgba(0, 0, 0, 0.4);
   width: inherit;
   text-align: center;
