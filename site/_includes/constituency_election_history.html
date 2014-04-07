@@ -2,7 +2,7 @@
 <h3>{{t.name}}</h3>
   <ul>
   {% for c in t.candidates %}
-    <li>{{c}}</li>
+    <li><a class=muted-link href=/politicians/{{c|lower|replace(" ","-","g")}}>{{c}}</li>
   {% endfor %}
   </ul>
 {% endfor %}

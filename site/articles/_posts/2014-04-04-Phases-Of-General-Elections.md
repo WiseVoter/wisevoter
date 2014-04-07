@@ -87,6 +87,10 @@ This interactive graphic outlines the phases of elections, and which states are 
           }
         }
       }
+      function dasherize(s){
+        var r = s.toLowerCase().replace(/ /g, "-");
+        return r;
+      }
       var table = d3.select("#phasedetails").append("table"),
           thead = table.append("thead"),
           tbody = table.append("tbody");
@@ -101,11 +105,14 @@ This interactive graphic outlines the phases of elections, and which states are 
       var td = tr.selectAll("td")
         .data(function(d) { 
             var constituencies = []
-            d.values.forEach(function(r){constituencies.push(r.constituency)})
-            return [d.key, constituencies.join(", "), d.values.length, phaseDates[phaseById] 
-            ]})
+            d.values.forEach(function(r){
+              var elem = "<a class=muted-link href=/constituencies/" + dasherize(r.constituency) + ">" + r.constituency + "</a>"
+              constituencies.push(elem)
+            })
+            return [d.key, constituencies.join(", "), d.values.length, phaseDates[phaseById]]
+          })
       td.enter().append("td")
-        .text(function(d) {return d;});
+        .html(function(d) {return d;});
       dispatch.on("statechange.table", function(id){
         //HACK
         tr.remove();
@@ -116,11 +123,14 @@ This interactive graphic outlines the phases of elections, and which states are 
         td = tr.selectAll("td")
           .data(function(d) { 
               var constituencies = []
-              d.values.forEach(function(r){constituencies.push(r.constituency)})
-              return [d.key, constituencies.join(", "), d.values.length, phaseDates[id] 
-              ]});
+              d.values.forEach(function(r){
+              var elem = "<a class=muted-link href=/constituencies/" + dasherize(r.constituency) + ">" + r.constituency + "</a>"
+              constituencies.push(elem)
+            })
+            return [d.key, constituencies.join(", "), d.values.length, phaseDates[phaseById]]
+          })
         td.enter().append("td")
-          .text(function(d) {return d;})
+          .html(function(d) {return d;})
         td.exit().remove();
       })
     })
