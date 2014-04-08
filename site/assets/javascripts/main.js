@@ -1,6 +1,13 @@
 var mainsite = "www.wisevoter.org"
   , editsite = "edit.wisevoter.org";
 
+function setProfileImageLink(){
+  var t = $('.profile-circular-hidden').text()
+  if (t){
+    $('.profile-circular').css('background-image','url("' + t + '")')
+  }
+}
+
 function setEditorLink(){
   var editorLink = document.getElementById("editorLink")
   if (document.location.hostname === mainsite) {
@@ -11,7 +18,9 @@ function setEditorLink(){
 
 window.onload = function(){
   setEditorLink();
+  setProfileImageLink();
 }
+
 
 // instantiate the bloodhound suggestion engine
 var search = new Bloodhound({   

@@ -40,7 +40,11 @@
         </div>
 
        <aside class="col-lg-3">
-        <div class="profile-circular-hidden">/assets/images/politicians/{{page.profile.photo}}</div>
+        {% if page.profile.photo %}
+          <div class="profile-circular-hidden">/assets/images/politicians/{{page.profile.photo}}</div>
+        {% else %}
+          <div class="profile-circular-hidden">/assets/images/politicians/{{page.title|lower|replace(" ","-","g")}}.jpg</div>
+        {% endif %}
         <div class="profile-circular"></div>
         <div class="profile-title">{{page.title}}</div>
         <table class="profile">
