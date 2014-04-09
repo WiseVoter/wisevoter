@@ -196,7 +196,7 @@
               var elem = "<a class=muted-link href=/constituencies/" + dasherize(r.constituency) + ">" + r.constituency + "</a>"
               constituencies.push(elem)
             })
-            return [d.key, constituencies.join(", "), d.values.length, phaseDates[phaseById]]
+            return [d.key, constituencies.join(", "), d.values.length, phaseDates[id]]
           })
         td.enter().append("td")
           .html(function(d) {return d;})
