@@ -5,6 +5,7 @@ function setProfileImageLink(){
   var t = $('.profile-circular-hidden').text()
   if (t){
     $('.profile-circular').css('background-image','url("' + t + '")')
+    $('.profile-circular').css('background-color','rgba(128,128,128,1.0)')
   }
 }
 
