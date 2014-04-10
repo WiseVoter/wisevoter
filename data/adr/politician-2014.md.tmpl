@@ -1,0 +1,50 @@
+---
+layout: politician2
+title: {{title}}
+profile: 
+  party: {{profile.party| default("")}}
+  constituency: {{profile.constituency| default("")}}
+  state: {{profile.state| default("")}}
+  education: 
+    level: {{profile.education.level| default("")}}
+    details: {{profile.education.details| default("")}}
+  photo: {{profile.photo| default("")}}
+  sex: {{profile.sex| default("")}}
+  caste: {{profile.caste| default("")}}
+  religion: {{profile.religion| default("")}}
+  current-office-title: {{profile["current-office-title"]| default("")}}
+  crime-accusation-instances: {{profile["crime-accusation-instances"]| default("")}}
+  date-of-birth: {{profile["date-of-birth"]| default("")}}
+  profession: {{profile.profession| default("")}}
+  networth: 
+    assets: {{profile.networth.assets| default("")}}
+    liabilities: {{profile.networth.liabilities| default("")}}
+  pan: {{profile.pan| default("")}}
+  twitter: {{profile.twitter| default("")}}
+  website: {{profile.website| default("")}}
+  youtube-interview: {{profile["youtube-interview"]| default("")}}
+  wikipedia: {{profile.wikipedia| default("")}}
+
+candidature: {% for item in candidature %}
+  - election: {{item.election}}
+    myneta-link: {{item["myneta-link"]| default("")}}
+    affidavit-link: {{item["affidavit-link"]| default("")}}
+    expenses-link: {{item["expenses-link"] | default("")}}
+    constituency: {{item.constituency| default("")}} 
+    party: {{item.party| default("")}}
+    criminal-cases: {{item["criminal-cases"]| default("")}}
+    assets: {{item.assets| default("")}}
+    liabilities: {{item.liabilities| default("")}}
+    result: {{item.result| default("")}} {% endfor %}
+
+crime-record: {% for item in crimerecord %}
+  - year: {{item.year}}
+    crime: {{item.crime| default("")}}
+    ipc: {{item.ipc| default("")}}
+    details: {{item.details| default("")}} {% endfor %}
+
+date: 2014-04-10
+version: {{version|default("0.0.5") }}
+tags: {{tags| default("")}}
+---
+{{content | safe}}

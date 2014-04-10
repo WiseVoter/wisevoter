@@ -1,0 +1,15 @@
+---
+layout: constituency
+title: {{title}}
+state: {{state}}
+mapimg: {{mapimg}}
+wikipedia-url: {{wikipedia}}
+date: 2014-04-10
+
+elections: {% for e in elections %}
+  - name: {{e.name}}
+    candidates: {% for c in e.candidates %}
+    - {{c}} {% endfor %} {% endfor %}
+
+---
+{{content}}
