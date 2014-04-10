@@ -63,14 +63,12 @@ crime-record:
   - year: 2014
     crime: accussed
     ipc: 143,  145,  149,  150,  109,  186,  187,  283,  290,  291,  341,  353
-    details: 'Bihar Band' at Bikramganj Chowk, Sri Rajesh Pandey JM First Class, Bikramganj, Cog. Date 9/11/2009 
+    details: Bihar Band at Bikramganj Chowk, Sri Rajesh Pandey JM First Class, Bikramganj, Cog. Sep 11 2009 
 
 date: 2014-04-10
 version: 0.0.5
 tags: 
----
-
-##Summary
+---##Summary
 
 
 ##Education
