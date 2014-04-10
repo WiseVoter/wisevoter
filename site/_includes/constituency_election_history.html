@@ -1,4 +1,4 @@
-{% for t in page.elections %}
+{% for t in page.elections | reverse %}
 <h3>{{t.name}}</h3>
   <ul>
   {% for c in t.candidates %}
