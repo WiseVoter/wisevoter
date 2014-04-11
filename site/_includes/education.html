@@ -1,3 +1,3 @@
 {% if page.profile.education.level %}
-He is {{page.profile.education.level}}, with {{page.profile.education.details | isnull}}.
+He is {{page.profile.education.level}}{%if page.profile.education.details %}, with {{page.profile.education.details | isnull}}{% endif %}.
 {% endif %}
