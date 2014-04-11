@@ -48,7 +48,7 @@
         <div class="profile-title">{{page.title | title }}</div>
         <table class="profile">
         <tr><td><i class="fa fa-pencil"></i>Education</td><td>{{page.profile.education.level | isnull}}</td></tr>
-          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>{{page.profile.crime-accusation-instances | isnull}}</td></tr>
+          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>{{page.profile["crime-accusation-instances"] | isnull}}</td></tr>
           <tr><td><i class="fa fa-flag"></i>Elections</td><td>{{page.candidature.length | isnull}}</td></tr>
           <tr><td><i class="fa fa-home"></i>State</td><td>{{page.profile.state | isnull}}</td></tr>
           <tr><td><i class="fa fa-credit-card"></i>Party</td><td>{{page.profile.party | isnull}}</td></tr>
