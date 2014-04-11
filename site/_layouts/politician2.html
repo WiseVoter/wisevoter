@@ -45,7 +45,7 @@
           <div class="profile-circular-hidden">/assets/images/politicians/{{page.title|lower|replace(" ","-","g")}}.jpg</div>
         {% endif %}
         <div class="profile-circular"></div>
-        <div class="profile-title">{{page.title}}</div>
+        <div class="profile-title">{{page.title | title }}</div>
         <table class="profile">
         <tr><td><i class="fa fa-pencil"></i>Education</td><td>{{page.profile.education.level | isnull}}</td></tr>
           <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>{{page.profile.crime-accusation-instances | isnull}}</td></tr>
