@@ -12,6 +12,9 @@ var content_root = "../site"
 swig.setFilter('isnull', function (input) {
   return input === null ? '' : input;
 });
+swig.setFilter('dasherize', function (input) {
+  return input === null ? " " : input.toString().toLowerCase().replace(/ /g,'-')
+});
 
 
 function exists(file, isDir) {
