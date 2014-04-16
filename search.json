@@ -8,9 +8,9 @@
   } ,
 
   {
-    "text": "kannur",
-    "href": "/constituencies/kannur",
-    "category": "constituencies"
+    "text": "go vote",
+    "href": "/articles/go-vote",
+    "category": "articles"
   } ,
 
   {
@@ -28,6 +28,12 @@
   {
     "text": "virendra kumar",
     "href": "/politicians/virendra-kumar",
+    "category": "politicians"
+  } ,
+
+  {
+    "text": "zafar ali-naqvi",
+    "href": "/politicians/zafar-ali-naqvi",
     "category": "politicians"
   } ,
 
@@ -1214,9 +1220,9 @@
   } ,
 
   {
-    "text": "zafar ali-naqvi",
-    "href": "/politicians/zafar-ali-naqvi",
-    "category": "politicians"
+    "text": "kannur",
+    "href": "/constituencies/kannur",
+    "category": "constituencies"
   } ,
 
   {
@@ -64640,15 +64646,15 @@
   } ,
 
   {
-    "text": "abdul rassaq-moulavi",
-    "href": "/politicians/abdul-rassaq-moulavi",
-    "category": "politicians"
-  } ,
-
-  {
     "text": "vote wise-this-election",
     "href": "/articles/vote-wise-this-election",
     "category": "articles"
+  } ,
+
+  {
+    "text": "abdul samad",
+    "href": "/politicians/abdul-samad",
+    "category": "politicians"
   } ,
 
   {
@@ -65858,8 +65864,8 @@
   } ,
 
   {
-    "text": "abdul samad",
-    "href": "/politicians/abdul-samad",
+    "text": "abdul rassaq-moulavi",
+    "href": "/politicians/abdul-rassaq-moulavi",
     "category": "politicians"
   } 
 

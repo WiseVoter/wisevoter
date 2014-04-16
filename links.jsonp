@@ -53872,8 +53872,8 @@ callback([
   } ,
 
   {
-    "text": "zafar-ali-naqvi",
-    "href": "/politicians/zafar-ali-naqvi"
+    "text": "kannur",
+    "href": "/constituencies/kannur"
   } ,
 
   {
@@ -54862,6 +54862,11 @@ callback([
   } ,
 
   {
+    "text": "zafar-ali-naqvi",
+    "href": "/politicians/zafar-ali-naqvi"
+  } ,
+
+  {
     "text": "virendra-kumar",
     "href": "/politicians/virendra-kumar"
   } ,
@@ -54877,8 +54882,8 @@ callback([
   } ,
 
   {
-    "text": "kannur",
-    "href": "/constituencies/kannur"
+    "text": "go-vote",
+    "href": "/articles/go-vote"
   } ,
 
   {

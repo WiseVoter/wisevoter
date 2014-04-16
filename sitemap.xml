@@ -4,7 +4,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
   <url>
     <loc>/</loc>
-    <lastmod>2014-04-11</lastmod>
+    <lastmod>2014-04-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -18,8 +18,8 @@
   </url>
   
   <url>
-    <loc>/constituencies/kannur</loc>
-    <lastmod>2014-04-10</lastmod>
+    <loc>/articles/go-vote</loc>
+    <lastmod>2014-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -40,6 +40,13 @@
   
   <url>
     <loc>/politicians/virendra-kumar</loc>
+    <lastmod>2014-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/zafar-ali-naqvi</loc>
     <lastmod>2014-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1425,7 +1432,7 @@
   </url>
   
   <url>
-    <loc>/politicians/zafar-ali-naqvi</loc>
+    <loc>/constituencies/kannur</loc>
     <lastmod>2014-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -75422,15 +75429,15 @@
   </url>
   
   <url>
-    <loc>/politicians/abdul-rassaq-moulavi</loc>
-    <lastmod>2014-01-28</lastmod>
+    <loc>/articles/vote-wise-this-election</loc>
+    <lastmod>2013-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/articles/vote-wise-this-election</loc>
-    <lastmod>2013-12-21</lastmod>
+    <loc>/politicians/abdul-samad</loc>
+    <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -76843,7 +76850,7 @@
   </url>
   
   <url>
-    <loc>/politicians/abdul-samad</loc>
+    <loc>/politicians/abdul-rassaq-moulavi</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Introducing WiseVoter</title>
+    <title>Go Vote</title>
     <meta charset='utf-8'>
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
@@ -53,7 +53,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='/edit/articles/introducing-wisevoter' id="editorLink">Edit</a></li>
+		    	<a href='/edit/articles/go-vote' id="editorLink">Edit</a></li>
 		    </ul>
 	    <nav>
 	   </div>
@@ -67,7 +67,7 @@
       <div class="col-lg-1"></div>
       <div class="col-lg-7">
         <div class="post-list">
-          <h3 class="post-item-title"> Introducing Wisevoter </h3>
+          <h3 class="post-item-title"> Go Vote </h3>
           
           <i class="fa fa-pencil"></i> <span class="entry-date">Posted in Articles • <i class="fa fa-clock-o"></i> 5  minutes read • by Vaibhav Bhandari</span>
           
@@ -87,34 +87,72 @@
           <div class="tab-content">
             <div class="tab-pane fade in active" id="post">
               <div class="profile-content">
-                <p>Original <a href="http://thekarkhana.vitraag.com/2009/04/introducing-wisevoter/ "Permalink to Introducing WiseVoter - The Karkhana!"">Source</a></p>
-<h2 id="introducing-wisevoter-the-karkhana-">Introducing WiseVoter - The Karkhana!</h2>
-<p>Introducing a Karkhana sponsored project - <a href="http://www.wisevoter.org">http://www.wisevoter.org</a> <img src="http://thekarkhana.vitraag.com/wp-content/uploads/2009/04/wisevoter_badge.jpg" alt="wisevoter_badge" title="wisevoter_badge"> </p>
-<h3 id="what-is-wisevoter-">What is WiseVoter?</h3>
-<p>WiseVoter is a free demopedia where people can collaboratively keep track of politicians. Most of the data associated with a politician&#39;s profile can be edited via a form (look for <em>edit with form</em>) link. The data comprises elements like Networth, Criminal Record, Education etc. This enable to write a lot of analytical tools which give you various facts about your politicians.</p>
-<h3 id="how-is-wisevoter-different-">How is WiseVoter different?</h3>
-<p>Currently <em>WiseVoter</em> has the most comprehensive data of politicians contesting in the Indian Lok Sabha elections 2009. The data is spidered using Lok Sabha, Rajya Sabha websites, NoCriminal.org and various internet resource. Other websites don&#39;t have this comprehensive data, and we aim to keep adding new data each day. However what sets us apart is that we are allowing this data to be editable by any one, in Wikipedia style. We aim to be around and serve this database for more than one election, unlike most other websites. WiseVoter is of the people, by the people and for the people in every true sense!</p>
-<h3 id="why-now-">Why Now?</h3>
-<p>This release of WiseVoter is targeting <strong>India Lok Sabha 2009 elections</strong>. A profile of a politician can be marked with appropriate candidature field and this information could be used by State or City elections as well! </p>
-<h3 id="how-can-i-help-">How can I help?</h3>
-<p>Please help us:</p>
-<ul>
-<li>Add more politicians to the demopedia!<ul>
-<li>Its simple just click add politician in left column and fill the forms. </li>
-</ul>
-</li>
-<li>Keep information of the current politician up to date. <ul>
-<li>Just click on the <em>edit with form</em> link on top of each profile and change any discrepancies you see!<ul>
-<li>Spread the word </li>
-</ul>
-</li>
-<li>Use our badge in your blog, website, facebook<ul>
-<li>Give us feedback and discuss the information on the website using the bottom bar!! </li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+                <p>This article visualizes voter participation in 2009 Lok Sabha elections. With a young population and a thriving democracy the 2014 Indian elections are feast to watch and follow. Remember to vote!</p>
+<p>Using the data in <a href="http://eci.nic.in/press/Phasewise_Statewise_data.pdf">references</a> and WiseVoter&#39;s JSON API, <a href="http://www.wisevoter.com/data/2009-general-elections.json">http://www.wisevoter.com/data/2009-general-elections.json</a>, I have created the following map which shows average turnout by the states in 2009 general elections which formed the <a href="http://en.wikipedia.org/wiki/List_of_members_of_the_15th_Lok_Sabha_(by_state)">15th Lok Sabha</a>. Hover on the state with your mouse or touch to get the info!</p>
+<div class="infographic">
+  <h3 class="title">Voter Participation in 2009 Lok Sabha Elections</h3>
+  <div class="legend">Nagaland 90.21%, Jammu and Kashmir 39.66%</div>
+  <div id="map"></div>
+</div>
+
+<p><script type="text/javascript" src="/assets/javascripts/d3.min.js"></script></p>
+<p><script type="text/javascript">
+  function quantize(d) {
+    var q = "q" + Math.floor((d/10) - 1) + "-9";
+    return q
+  }
+  d3.xml("/assets/images/india-map.svg", "image/svg+xml", function(xml) {
+    var tooltip = "<ul id=\"legend\" class=\"list-inline\"><li class=\"state\"></li><li class=\"total\"></li><li><ul class=\"top3parties list-inline\"></ul></li></ul>"
+    document.getElementById("map").appendChild(xml.documentElement);
+    d3.select("#map").append("div").html(tooltip);
+    d3.json("/data/2009-general-elections.json", function(json){
+      datum = json;
+      datum.forEach(function(data, i){
+        d3.select("#" + data.state).attr({class: quantize(data.avgturnout)});
+        d3.select("#" + data.state)
+        .on("mouseover", function(d){
+          d3.select(this).style({opacity: "0.8"})
+          d3.select("#legend .state").text(data.statename)
+          d3.select("#legend .total").text(data.avgturnout + "%")
+          d3.select("#legend").style("left", (event.layerX + 10) + "px")
+          d3.select("#legend").style("top", (event.layerY + 10) + "px")
+          d3.select("#legend").style("display", "inline")
+          })
+        .on("mouseout", function(d){
+          d3.select(this).style({opacity: "1.0"})
+          d3.selectAll("#legend .top3parties li").remove()
+          d3.select("#legend").style("display", "none")
+        })
+      })
+    })
+  });
+</script></p>
+<style>
+#map {margin-top: -20px; display: block;}
+.infographic {border: 1px solid #ebebeb; padding: 5px;}
+.infographic .title {background: rgba(0,0,0,0.5); color: #fff; padding: 5px; text-align: center;font-weight: 900; margin: 0; font-size: 18px;}
+.infographic .legend {margin: 5px; margin-right: 0; border: 1px solid rgba(0,0,0,0.5); background: #fff; padding: 3px; float: right}
+#legend {margin: 5px; border: 1px solid; box-shadow: 3px -3px 2px #888888;background: #fff; border-radius: 3px; position: absolute; display: none}
+#india {margin-top: 0px;}
+i {background: #222222; color:#F4F0F4; margin: 2px; padding: 3px;}
+.state {font-weight: 900;}
+.total {color: #bf0000; font-weight: 800;}
+.q0-9 { fill:rgb(247,251,255) !important; }
+.q1-9 { fill:rgb(222,235,247) !important; }
+.q2-9 { fill:rgb(198,219,239) !important; }
+.q3-9 { fill:rgb(158,202,225) !important; }
+.q4-9 { fill:rgb(107,174,214) !important; }
+.q5-9 { fill:rgb(66,146,198) !important; }
+.q6-9 { fill:rgb(33,113,181) !important; }
+.q7-9 { fill:rgb(8,81,156) !important; }
+.q8-9 { fill:rgb(8,48,107) !important; }
+</style>
+
+<h3 id="references">References</h3>
+<ol>
+<li><a href="http://eci.nic.in/press/Phasewise_Statewise_data.pdf">Election Commission of India</a></li>
+<li><a href="http://en.wikipedia.org/wiki/List_of_members_of_the_15th_Lok_Sabha_(by_state)">Wikipedia 15th Lok Sabha</a></li>
+</ol>
 
               </div>
             </div>
