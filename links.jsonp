@@ -52732,13 +52732,13 @@ callback([
   } ,
 
   {
-    "text": "zafar-alam",
-    "href": "/politicians/zafar-alam"
+    "text": "kannur",
+    "href": "/constituencies/kannur"
   } ,
 
   {
-    "text": "kanker",
-    "href": "/constituencies/kanker"
+    "text": "zafar-alam",
+    "href": "/politicians/zafar-alam"
   } ,
 
   {
@@ -53872,8 +53872,8 @@ callback([
   } ,
 
   {
-    "text": "kannur",
-    "href": "/constituencies/kannur"
+    "text": "go-vote",
+    "href": "/articles/go-vote"
   } ,
 
   {
@@ -54862,6 +54862,11 @@ callback([
   } ,
 
   {
+    "text": "vishwanath-gotuji-jamnekar",
+    "href": "/politicians/vishwanath-gotuji-jamnekar"
+  } ,
+
+  {
     "text": "zafar-ali-naqvi",
     "href": "/politicians/zafar-ali-naqvi"
   } ,
@@ -54877,13 +54882,13 @@ callback([
   } ,
 
   {
-    "text": "vishwanath-gotuji-jamnekar",
-    "href": "/politicians/vishwanath-gotuji-jamnekar"
+    "text": "kanker",
+    "href": "/constituencies/kanker"
   } ,
 
   {
-    "text": "go-vote",
-    "href": "/articles/go-vote"
+    "text": "the-election-fever",
+    "href": "/articles/the-election-fever"
   } ,
 
   {

@@ -8,15 +8,15 @@
   } ,
 
   {
-    "text": "go vote",
-    "href": "/articles/go-vote",
+    "text": "the election-fever",
+    "href": "/articles/the-election-fever",
     "category": "articles"
   } ,
 
   {
-    "text": "vishwanath gotuji-jamnekar",
-    "href": "/politicians/vishwanath-gotuji-jamnekar",
-    "category": "politicians"
+    "text": "kanker",
+    "href": "/constituencies/kanker",
+    "category": "constituencies"
   } ,
 
   {
@@ -34,6 +34,12 @@
   {
     "text": "zafar ali-naqvi",
     "href": "/politicians/zafar-ali-naqvi",
+    "category": "politicians"
+  } ,
+
+  {
+    "text": "vishwanath gotuji-jamnekar",
+    "href": "/politicians/vishwanath-gotuji-jamnekar",
     "category": "politicians"
   } ,
 
@@ -1220,9 +1226,9 @@
   } ,
 
   {
-    "text": "kannur",
-    "href": "/constituencies/kannur",
-    "category": "constituencies"
+    "text": "go vote",
+    "href": "/articles/go-vote",
+    "category": "articles"
   } ,
 
   {
@@ -2582,15 +2588,15 @@
   } ,
 
   {
-    "text": "kanker",
-    "href": "/constituencies/kanker",
-    "category": "constituencies"
-  } ,
-
-  {
     "text": "zafar alam",
     "href": "/politicians/zafar-alam",
     "category": "politicians"
+  } ,
+
+  {
+    "text": "kannur",
+    "href": "/constituencies/kannur",
+    "category": "constituencies"
   } ,
 
   {
@@ -64640,15 +64646,15 @@
   } ,
 
   {
-    "text": "abdul rashid",
-    "href": "/politicians/abdul-rashid",
-    "category": "politicians"
-  } ,
-
-  {
     "text": "vote wise-this-election",
     "href": "/articles/vote-wise-this-election",
     "category": "articles"
+  } ,
+
+  {
+    "text": "abdul rassaq-moulavi",
+    "href": "/politicians/abdul-rassaq-moulavi",
+    "category": "politicians"
   } ,
 
   {
@@ -65864,8 +65870,8 @@
   } ,
 
   {
-    "text": "abdul rassaq-moulavi",
-    "href": "/politicians/abdul-rassaq-moulavi",
+    "text": "abdul rashid",
+    "href": "/politicians/abdul-rashid",
     "category": "politicians"
   } 
 
