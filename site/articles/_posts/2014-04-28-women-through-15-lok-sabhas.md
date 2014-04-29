@@ -17,7 +17,7 @@ comments: true
 readtime: 3
 excerpt: This article visualizes women MPs through last 15 Lok Sabhas. Over the last 15 elections, women representation has improved? Are the core issues addressed? What will the next government do?---This article visualizes women MPs through last 15 Lok Sabhas. Over the last 15 elections, women representation has improved? Are the core issues addressed? What will the next government do?
 
-Using the data in [references][1] and WiseVoter's JSON API, http://www.wisevoter.com/data/mpslist.json, I have created the following map which shows women MPs   by the LokSabha. Hover on the state with your mouse or touch to get the info!
+Using the data in [references][1] and WiseVoter's JSON API, http://www.wisevoter.com/data/mpslist.json, I have created the following table which shows women MPs   by the LokSabha. Over 15 Lob Sabhas the number of women MPs increased from 24 to 62 in around 585 strong parliament -- more needs to be done!
 
 <div class="infographic">
   <h3 class="title">Women through 15 Lok Sabhas</h3>
