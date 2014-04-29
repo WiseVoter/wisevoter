@@ -34,8 +34,8 @@ links:
     url: /politicians.html
   - title: Parties
     url: /parties.html
-  - title: Issues
-    url: /issues.html
+  - title: Data Sets
+    url: /data.html
 
 prose:
   rooturl: 'site'

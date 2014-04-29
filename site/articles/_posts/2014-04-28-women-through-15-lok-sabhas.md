@@ -21,7 +21,6 @@ Using the data in [references][1] and WiseVoter's JSON API, http://www.wisevoter
 
 <div class="infographic">
   <h3 class="title">Women through 15 Lok Sabhas</h3>
-  <div class="legend"></div>
   <div id="loksabhadetails"></div>
 </div>
 
