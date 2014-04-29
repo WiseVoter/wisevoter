@@ -182,6 +182,6 @@ i {background: #222222; color:#F4F0F4; margin: 2px; padding: 3px; }
 </style>
 
 ## References
-- [1], Election Commission of India, accessed April 6, 2014.
+1. [Election Commission of India, accessed April 6, 2014][1].
 
 [1]: http://eci.nic.in/eci_main1/GE2014/Schedule/Home.htm
