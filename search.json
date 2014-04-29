@@ -8,8 +8,14 @@
   } ,
 
   {
-    "text": "the election-fever",
-    "href": "/articles/the-election-fever",
+    "text": "women through-15-lok-sabhas",
+    "href": "/articles/women-through-15-lok-sabhas",
+    "category": "articles"
+  } ,
+
+  {
+    "text": "go vote",
+    "href": "/articles/go-vote",
     "category": "articles"
   } ,
 
@@ -17,12 +23,6 @@
     "text": "kanker",
     "href": "/constituencies/kanker",
     "category": "constituencies"
-  } ,
-
-  {
-    "text": "vishnu bhagwan",
-    "href": "/politicians/vishnu-bhagwan",
-    "category": "politicians"
   } ,
 
   {
@@ -40,6 +40,12 @@
   {
     "text": "vishwanath gotuji-jamnekar",
     "href": "/politicians/vishwanath-gotuji-jamnekar",
+    "category": "politicians"
+  } ,
+
+  {
+    "text": "vishnu bhagwan",
+    "href": "/politicians/vishnu-bhagwan",
     "category": "politicians"
   } ,
 
@@ -1226,8 +1232,8 @@
   } ,
 
   {
-    "text": "go vote",
-    "href": "/articles/go-vote",
+    "text": "the election-fever",
+    "href": "/articles/the-election-fever",
     "category": "articles"
   } ,
 
@@ -64640,15 +64646,15 @@
   } ,
 
   {
-    "text": "abdul rashid-lone",
-    "href": "/politicians/abdul-rashid-lone",
-    "category": "politicians"
-  } ,
-
-  {
     "text": "vote wise-this-election",
     "href": "/articles/vote-wise-this-election",
     "category": "articles"
+  } ,
+
+  {
+    "text": "abdul rashid",
+    "href": "/politicians/abdul-rashid",
+    "category": "politicians"
   } ,
 
   {
@@ -65870,8 +65876,8 @@
   } ,
 
   {
-    "text": "abdul rashid",
-    "href": "/politicians/abdul-rashid",
+    "text": "abdul rashid-lone",
+    "href": "/politicians/abdul-rashid-lone",
     "category": "politicians"
   } 
 

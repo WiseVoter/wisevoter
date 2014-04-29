@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Visualizing The Last Parliament Election</title>
+    <title>Women through 15 Lok Sabhas</title>
     <meta charset='utf-8'>
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
@@ -53,7 +53,7 @@
 				<li><a href="/issues.html" >Issues</a></li>
 		        
 		    	<li>
-		    	<a href='/edit/articles/visualizing-the-last-parliament-election' id="editorLink">Edit</a></li>
+		    	<a href='/edit/articles/women-through-15-lok-sabhas' id="editorLink">Edit</a></li>
 		    </ul>
 	    <nav>
 	   </div>
@@ -67,9 +67,9 @@
       <div class="col-lg-1"></div>
       <div class="col-lg-7">
         <div class="post-list">
-          <h3 class="post-item-title"> Visualizing The Last Parliament Election </h3>
+          <h3 class="post-item-title"> Women Through 15 Lok Sabhas </h3>
           
-          <i class="fa fa-pencil"></i> <span class="entry-date">Posted in Articles • <i class="fa fa-clock-o"></i> 5  minutes read • by Vaibhav Bhandari</span>
+          <i class="fa fa-pencil"></i> <span class="entry-date">Posted in Articles • <i class="fa fa-clock-o"></i> 3  minutes read • by Vaibhav Bhandari</span>
           
         </div>
       </div>
@@ -87,14 +87,62 @@
           <div class="tab-content">
             <div class="tab-pane fade in active" id="post">
               <div class="profile-content">
-                <p>This week I spent some time analysing the data from Lok Sabha elections 2009. It was an ardous task to get to this <a href="http://www.wisevoter.org/parties.html">result</a>.
-From the data one can spot few insights like:</p>
-<ul>
-<li>We have quite a few SC/ST parliament assemblies</li>
-<li>INC (Indian National Congress) is very strong in North east</li>
-</ul>
-<p>Here is a screenshot of this functionality: <img src="/assets/images/interactive-constituencies.png" alt="constituencies_badge" title="constituencies_badge"> </p>
-<p>What are your conclusions and insights? Please comment.</p>
+                <p>This article visualizes women MPs through last 15 Lok Sabhas. Over the last 15 elections, women representation has improved? Are the core issues addressed? What will the next government do?</p>
+<p>Using the data in <a href="http://eci.nic.in/press/Phasewise_Statewise_data.pdf">references</a> and WiseVoter&#39;s JSON API, <a href="http://www.wisevoter.com/data/mpslist.json">http://www.wisevoter.com/data/mpslist.json</a>, I have created the following map which shows women MPs   by the LokSabha. Hover on the state with your mouse or touch to get the info!</p>
+<div class="infographic">
+  <h3 class="title">Women through 15 Lok Sabhas</h3>
+  <div class="legend"></div>
+  <div id="loksabhadetails"></div>
+</div>
+
+<p><script type="text/javascript" src="/assets/javascripts/d3.min.js"></script></p>
+<p><script type="text/javascript">
+  d3.json("/data/mpslist.json", function(json){
+    var table = d3.select("#loksabhadetails").append("table"),
+    thead = table.append("thead"),
+    tbody = table.append("tbody");
+    table.attr("class", "details");
+    thead.append("th").text("Lok Sabha");
+    thead.append("th").text("Total Women Seats");
+    var lsabha = d3.nest()
+        .key(function(d){ return d["Lok Sabha"]})
+        .key(function(d){ return d["Gender"]})
+        .rollup(function(leaves) { return leaves.length; })
+        .entries(json)
+    var tr = tbody.selectAll("tr")
+        .data(lsabha)
+        .enter()
+        .append("tr")
+    var cells = tr.selectAll("td")
+        .data( function(d){ 
+              var num = 0;
+              for (var i in d.values) {
+                if (d.values[i].key === "Female") {
+                    num = d.values[i].values
+                }
+              }
+              console.log(d.key)
+              return [d.key, num]
+            })
+        .enter()
+        .append("td").html(function (d) {return d})
+    tr.filter(function(d){return d.key === "null" }).remove();
+  })
+</script></p>
+<style>
+#loksabhadetails {margin-top: -20px; display: block;}
+.infographic {border: 1px solid #ebebeb; padding: 5px;}
+.infographic .title {background: rgba(0,0,0,0.5); color: #fff; padding: 5px; text-align: center;font-weight: 900; margin: 0; font-size: 18px;}
+.infographic .legend {margin: 5px; margin-right: 0; border: 1px solid rgba(0,0,0,0.5); background: #fff; padding: 3px; float: right}
+#legend {margin: 5px; border: 1px solid; box-shadow: 3px -3px 2px #888888;background: #fff; border-radius: 3px; position: absolute; display: none}
+table.details>thead>th {border:2px; padding: 5px; text-align: left; font-weight: 900}
+</style>
+
+<h3 id="references">References</h3>
+<ol>
+<li><a href="http://eci.nic.in/press/Phasewise_Statewise_data.pdf">Election Commission of India</a></li>
+<li><a href="http://data.gov.in">Data.gov.in</a></li>
+</ol>
 
               </div>
             </div>

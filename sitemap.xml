@@ -4,7 +4,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
   <url>
     <loc>/</loc>
-    <lastmod>2014-04-24</lastmod>
+    <lastmod>2014-04-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -18,21 +18,21 @@
   </url>
   
   <url>
-    <loc>/articles/the-election-fever</loc>
-    <lastmod>2014-04-21</lastmod>
+    <loc>/articles/women-through-15-lok-sabhas</loc>
+    <lastmod>2014-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/articles/go-vote</loc>
+    <lastmod>2014-04-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>/constituencies/kanker</loc>
-    <lastmod>2014-04-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>/politicians/vishnu-bhagwan</loc>
     <lastmod>2014-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -54,6 +54,13 @@
   
   <url>
     <loc>/politicians/vishwanath-gotuji-jamnekar</loc>
+    <lastmod>2014-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>/politicians/vishnu-bhagwan</loc>
     <lastmod>2014-04-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1439,8 +1446,8 @@
   </url>
   
   <url>
-    <loc>/articles/go-vote</loc>
-    <lastmod>2014-04-15</lastmod>
+    <loc>/articles/the-election-fever</loc>
+    <lastmod>2014-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -75422,15 +75429,15 @@
   </url>
   
   <url>
-    <loc>/politicians/abdul-rashid-lone</loc>
-    <lastmod>2014-01-28</lastmod>
+    <loc>/articles/vote-wise-this-election</loc>
+    <lastmod>2013-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>/articles/vote-wise-this-election</loc>
-    <lastmod>2013-12-21</lastmod>
+    <loc>/politicians/abdul-rashid</loc>
+    <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -76857,7 +76864,7 @@
   </url>
   
   <url>
-    <loc>/politicians/abdul-rashid</loc>
+    <loc>/politicians/abdul-rashid-lone</loc>
     <lastmod>2014-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
