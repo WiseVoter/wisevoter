@@ -36,7 +36,7 @@ Some local newspapers like [Maharashtra Times][7] are just translating national 
 There is a tonne move to write about TV media, NDTV, TimesNow, India TV and the likes have extensive up to the minute coverage but again not as much data and issue driven. Its surprising to me that none of the channel did any detailed research and comparative analysis of various election manifestos and put them on their web-sites for general public to digest the information!
 
 ## Overall
-Its great to see thoughtful coverage of Indian elections in international Media. Indian TV channel, internet and social media has definitely contributed positively to move the democracy needle. However, its a bit fascinating to see the traditional press-coverage to be fairly lack lustre and at time largely entertainment driven. Personally I think the fourth pillar of democracy needs to adopt a lot more data and issue driven approach so that opinions can be kept in check and a elements of institutionalized honesty can surface.
+It's great to see thoughtful coverage of Indian elections in international Media. Indian TV channels and social media have definitely contributed positively to move the democracy needle. However, its disheartening to see the traditional press-coverage to be fairly lack lustre and at times largely entertainment driven. _Personally_, I think the fourth pillar of democracy needs to adopt a lot more data and issue driven approach so that opinions can be kept in check and a elements of an institutionalized honesty can surface.
 
 ## References
 1. [Indian Express Elections][1]
