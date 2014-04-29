@@ -69,8 +69,8 @@ table.details>thead>th {border:2px; padding: 5px; text-align: left; font-weight:
 </style>
 
 ###References
- 1. [Election Commission of India][1]
+ 1. [Consolidated MP Info][1]
  2. [Data.gov.in][2]
 
-[1]:http://eci.nic.in/press/Phasewise_Statewise_data.pdf
+[1]:https://github.com/surendranb/MPInfo
 [2]:http://data.gov.in
