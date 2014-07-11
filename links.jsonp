@@ -52737,13 +52737,13 @@ callback([
   } ,
 
   {
-    "text": "zafar-alam",
-    "href": "/politicians/zafar-alam"
+    "text": "kanker",
+    "href": "/constituencies/kanker"
   } ,
 
   {
-    "text": "kandhamal",
-    "href": "/constituencies/kandhamal"
+    "text": "zafar-alam",
+    "href": "/politicians/zafar-alam"
   } ,
 
   {
@@ -53872,8 +53872,8 @@ callback([
   } ,
 
   {
-    "text": "the-election-fever",
-    "href": "/articles/the-election-fever"
+    "text": "women-through-15-lok-sabhas",
+    "href": "/articles/women-through-15-lok-sabhas"
   } ,
 
   {
@@ -54862,6 +54862,11 @@ callback([
   } ,
 
   {
+    "text": "virendra-kumar",
+    "href": "/politicians/virendra-kumar"
+  } ,
+
+  {
     "text": "vishnu-bhagwan",
     "href": "/politicians/vishnu-bhagwan"
   } ,
@@ -54877,13 +54882,8 @@ callback([
   } ,
 
   {
-    "text": "virendra-kumar",
-    "href": "/politicians/virendra-kumar"
-  } ,
-
-  {
-    "text": "kanker",
-    "href": "/constituencies/kanker"
+    "text": "kandhamal",
+    "href": "/constituencies/kandhamal"
   } ,
 
   {
@@ -54892,8 +54892,13 @@ callback([
   } ,
 
   {
-    "text": "women-through-15-lok-sabhas",
-    "href": "/articles/women-through-15-lok-sabhas"
+    "text": "the-election-fever",
+    "href": "/articles/the-election-fever"
+  } ,
+
+  {
+    "text": "video-overview-of-wisevoter-data-journalism-platform",
+    "href": "/articles/video-overview-of-wisevoter-data-journalism-platform"
   } ,
 
   {
