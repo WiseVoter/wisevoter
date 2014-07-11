@@ -17,7 +17,7 @@ comments: true
 readtime: 15
 excerpt: We took some time to create an overview of Wisevoter.org and showcase its underlying data journalims platform, check it out!---We took some time to create an overview of Wisevoter.org and showcase its underlying data journalims platform, check it out below:
 
-<iframe src="//player.vimeo.com/video/100476338" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/QQRI4V9WLxk?theme=light" frameborder="0" allowfullscreen></iframe>
 
 We are hoping to curate more content on WiseVoter.org and encourage journalist to contribute. Perhaps WiseVoter.org could be used for state or city elections in India or a new country added on its voter education initiative.
 
