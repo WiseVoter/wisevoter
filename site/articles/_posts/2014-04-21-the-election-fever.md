@@ -17,8 +17,8 @@ comments: true
 readtime: 15
 excerpt: This article summarizes the various media coverage for Indian general elections. National, International and local coverage. What is the media saying?---This article summarizes media coverage for Indian general elections - National, International and local coverage. So, what is the media saying? Modi wave? Well we won't get into that but rather more of an overview of how they are talking about Indian elections.
 
-## National Newspapers
-[Indian Express Elections][1] have sections on politicians, parties, polls, quotes, videos and social media. [Times of India][2] presents dance of elections it has sections on schedule, social sentiment analysis. [The Hindu][3] has constituency watch and splits the coverage by geographic regions (north, south, east, west and central).
+## National Newspapers and Print Media
+[Indian Express Elections][1] have sections on politicians, parties, polls, quotes, videos and social media. [Times of India][2] presents dance of elections it has sections on schedule, social sentiment analysis. [The Hindu][3] has constituency watch and splits the coverage by geographic regions (north, south, east, west and central). [Outlook](http://www.outlook.com/election) covered elections in a non-chalant way.
 
 The national newspaper coverage of election seems fairly mundane - they go after day to day new and not any over-aching themes. I wish they started doing more data driven and issue driven election coverage and research!
 
