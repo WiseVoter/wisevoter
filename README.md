@@ -36,6 +36,8 @@ Wishlist
 * Add capabilities for data wizards, and journalists to create shareable [notebooks](https://github.com/mulesoft/api-notebook)
 * Add workflows on getting started for data importers, developers and journalists
 * API - an api!
+* Release a toolkit for investigative journalists.
+
 
 Contributing Guidelines
 -----------------------
