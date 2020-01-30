@@ -19,7 +19,9 @@
     "npm": "1.2.x"
   },
   "scripts": {
-    "start": "APP_ENV=development node server.js"
+    "start": "APP_ENV=development node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "express": "latest",
@@ -35,7 +37,8 @@
     "connect-flash": "latest",
     "gift": "~0.2.0",
     "nodemailer": "~0.6.0",
-    "lodash": "latest"
+    "lodash": "latest",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "mocha": "latest",
@@ -45,5 +48,6 @@
     "grunt-contrib-watch": "~0.5.2",
     "grunt-contrib-copy": "~0.4.1",
     "bower": "~1.2.8"
-  }
+  },
+  "snyk": true
 }
