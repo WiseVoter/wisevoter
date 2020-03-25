@@ -1,6 +1,6 @@
 source 'https://rubygems.org' 
 gem 'sinatra'
-gem 'json'
+gem 'json', '>= 2.3.0'
 gem 'git'
 gem 'jekyll'
 gem 'rake'
