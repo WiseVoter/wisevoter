@@ -38,7 +38,7 @@
     "gift": "~0.2.0",
     "nodemailer": "~0.6.0",
     "lodash": "latest",
-    "snyk": "^1.189.0"
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "mocha": "latest",
@@ -48,5 +48,6 @@
     "grunt-contrib-watch": "~0.5.2",
     "grunt-contrib-copy": "~0.4.1",
     "bower": "~1.8.8"
-  }
+  },
+  "snyk": true
 }
