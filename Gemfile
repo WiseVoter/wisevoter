@@ -1,5 +1,5 @@
 source 'https://rubygems.org' 
-gem 'sinatra'
+gem 'sinatra', '>= 2.0.0'
 gem 'json', '>= 2.3.0'
 gem 'git'
 gem 'jekyll'
