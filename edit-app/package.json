@@ -36,7 +36,7 @@
     "connect-mongo": "latest",
     "connect-flash": "latest",
     "gift": "~0.2.0",
-    "nodemailer": "~0.6.0",
+    "nodemailer": "~1.0.0",
     "lodash": "latest",
     "snyk": "^1.316.1"
   },
