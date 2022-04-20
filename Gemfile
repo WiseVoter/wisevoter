@@ -1,7 +1,7 @@
 source 'https://rubygems.org' 
 gem 'sinatra', '>= 2.0.0'
 gem 'json', '>= 2.3.0'
-gem 'git'
+gem 'git', '>= 1.11.0'
 gem 'jekyll'
 gem 'rake'
 gem 'rsync'
