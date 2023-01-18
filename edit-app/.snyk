@@ -13,6 +13,6 @@ patch:
         patched: '2020-05-01T01:33:44.377Z'
   'npm:uglify-js:20151024':
     - jade > transformers > uglify-js:
-        patched: '2022-10-02T19:36:36.256Z'
+        patched: '2022-10-03T19:59:03.005Z'
     - swig > uglify-js:
-        patched: '2022-10-02T19:36:36.256Z'
+        patched: '2022-10-03T19:59:03.005Z'
