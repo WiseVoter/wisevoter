@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/vaibhavb/wisevoter.png?label=ready)](https://waffle.io/vaibhavb/wisevoter)
+[![Stories in Ready](https://badge.waffle.io/wisevoter/wisevoter.png?label=ready)](https://waffle.io/vaibhavb/wisevoter)
 WiseVoter
 =========
 
