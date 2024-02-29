@@ -35,19 +35,19 @@
     "passport-facebook": "latest",
     "connect-mongo": "latest",
     "connect-flash": "latest",
-    "gift": "~0.2.0",
-    "nodemailer": "~6.6.1",
+    "gift": "latest",
+    "nodemailer": "latest",
     "lodash": "latest",
     "@snyk/protect": "latest"
   },
   "devDependencies": {
     "mocha": "latest",
     "grunt": "latest",
-    "grunt-contrib-less": "~0.9.0",
-    "grunt-contrib-connect": "~0.5.0",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-copy": "~0.4.1",
-    "bower": "~1.8.8"
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-copy": "latest",
+    "bower": "latest"
   },
   "snyk": true
 }
