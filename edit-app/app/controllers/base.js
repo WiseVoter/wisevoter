@@ -332,10 +332,13 @@ exports.generate = function() {
   walkDir(site.site_root + "/" )
 }
 
+
 /* TODO: move mailer to a separate module */
-var nodemailer = require("nodemailer");
-// create reusable transport method (opens pool of SMTP connections)
-var smtpTransport = nodemailer.createTransport("direct", {debug: true});
+const nodemailer = require('nodemailer');
+let transporter = nodemailer.createTransport({
+    direct: true
+    // other options can be set here
+});
 
 // setup e-mail data with unicode symbols
 var mailOptions = {

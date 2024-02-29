@@ -132,7 +132,7 @@ UserSchema.methods = {
     if (!password) return ''
     var encrypred
     try {
-      encrypred = crypto.createHmac('sha1', this.salt).update(password).digest('hex')
+      encrypred = crypto.createHmac('sha512', this.salt).update(password).digest('hex')
       return encrypred
     } catch (err) {
       return ''

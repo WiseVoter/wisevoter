@@ -1,10 +1,19 @@
-var path = require('path')
-  , rootPath = path.normalize(__dirname + '/..');
+const {
+  DB_USER,
+  DB_PASSWORD,
+  DB_HOST,
+  DB_PORT,
+  DB_NAME,
+} = process.env;
+
+module.exports = {
+  url: `mongodb://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}?authSource=admin`
+};
 
 module.exports = {
   development: {
-    db: 'mongodb://localhost/wisevoter_dev',
-    root: rootPath,
+    db: `mongodb://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}?authSource=admin`,
+    secret: 'my_secret',
     app: {
       name: "WiseVoter Editor - Development App"
     },

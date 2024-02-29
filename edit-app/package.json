@@ -38,6 +38,11 @@
     "gift": "latest",
     "nodemailer": "latest",
     "lodash": "latest",
+    "cookie-parser": "latest",
+    "errorhandler": "latest",
+    "method-override": "latest",
+    "dotenv": "latest",
+    "cors": "latest",
     "@snyk/protect": "latest"
   },
   "devDependencies": {
