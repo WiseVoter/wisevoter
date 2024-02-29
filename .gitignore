@@ -1,3 +1,4 @@
 gh-pages
 .vagrant
 frontend
+.env
