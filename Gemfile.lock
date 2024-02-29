@@ -86,13 +86,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  git (>= 1.13.0)
+  git
   jekyll
-  json (>= 2.3.0)
-  liquid (>= 3.0.0)
+  json
+  liquid
   rake
   rsync
-  sinatra (>= 2.2.3)
+  sinatra
 
 BUNDLED WITH
    2.3.16

@@ -5,6 +5,20 @@ WiseVoter
 WiseVoter is a public service project to educated voters on their representatives. 
 The current version of the project targets 2014 Indian General elections.
 
+```
+Update: (2024 Feb, 28) over next few weeks we will update wisevoter to Indian General Elections 2024 and also add support for US 2024 Elections.
+
+1. Technical updates
+    1.1 Upgrade to Dockerfile from Vagrant
+    1.2 Update builddev.sh to create dev setup
+    1.3 Add dev commands to Rakefile
+
+2. Data Updates
+
+3. Feature updates
+
+```
+
 Getting Started
 ---------------
 If you are a journalist, data contributor, editor or developer -- its easy to contribute, just fork the github repository and add or update your changes to the content and submit a patch back. Following is the content structure - 
