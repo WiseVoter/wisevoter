@@ -53,8 +53,8 @@
 import {define} from "./_observablehq/client.js";
 import {registerFile} from "./_observablehq/stdlib.js";
 
-registerFile("./aapl.csv", {"name":"./aapl.csv","mimeType":"text/csv","path":"./aapl.csv"});
-registerFile("./penguins.csv", {"name":"./penguins.csv","mimeType":"text/csv","path":"./penguins.csv"});
+registerFile("./data/aapl.csv", {"name":"./data/aapl.csv","mimeType":"text/csv","path":"./_file/data/aapl.18dc8bf6.csv"});
+registerFile("./data/penguins.csv", {"name":"./data/penguins.csv","mimeType":"text/csv","path":"./_file/data/penguins.dfee817d.csv"});
 
 define({id: "7935742a", inline: true, inputs: ["resize","Plot","aapl","display"], body: async (resize,Plot,aapl,display) => {
 display(await(
@@ -90,9 +90,9 @@ display(await(
 ))
 }});
 
-define({id: "74b65852", inputs: ["FileAttachment"], outputs: ["aapl","penguins"], body: (FileAttachment) => {
-const aapl = FileAttachment("aapl.csv").csv({typed: true});
-const penguins = FileAttachment("penguins.csv").csv({typed: true});
+define({id: "7e48083a", inputs: ["FileAttachment"], outputs: ["aapl","penguins"], body: (FileAttachment) => {
+const aapl = FileAttachment("data/aapl.csv").csv({typed: true});
+const penguins = FileAttachment("data/penguins.csv").csv({typed: true});
 return {aapl,penguins};
 }});
 
@@ -163,7 +163,7 @@ return {aapl,penguins};
   <div class="card"><span id="cell-7935742a" class="observablehq--loading"></span></div>
   <div class="card"><span id="cell-699041c1" class="observablehq--loading"></span></div>
 </div>
-<div id="cell-74b65852" class="observablehq observablehq--block"></div>
+<div id="cell-7e48083a" class="observablehq observablehq--block"></div>
 <hr>
 <h2 id="next-steps" tabindex="-1"><a class="observablehq-header-anchor" href="#next-steps">Next steps</a></h2>
 <p>Here are some ideas of things you could try…</p>
