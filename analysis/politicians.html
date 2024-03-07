@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Politicians from 2019 Elections | WiserVoter Indian General Elections 2024</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
+<link rel="modulepreload" href="./_observablehq/client.js">
+<link rel="modulepreload" href="./_observablehq/runtime.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/duckdb.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.js">
+<link rel="modulepreload" href="./_npm/@duckdb/duckdb-wasm@1.28.0/+esm.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/+esm.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/+esm.js">
+<link rel="modulepreload" href="./_npm/apache-arrow@13.0.0/+esm.js">
+<link rel="modulepreload" href="./_npm/tslib@2.6.2/+esm.js">
+<link rel="modulepreload" href="./_npm/flatbuffers@23.5.26/+esm.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.js";
+import {registerFile, FileAttachment} from "./_observablehq/stdlib.js";
+import {registerTable} from "./_observablehq/stdlib/duckdb.js";
+
+registerFile("./data/masterdata.csv", {"name":"./data/masterdata.csv","mimeType":"text/csv","path":"./_file/data/masterdata.20d926fb.csv"});
+registerTable("politicians", FileAttachment("./data/masterdata.csv"));
+
+define({id: "9d5da65c", inputs: ["display","Inputs","sql"], body: async (display,Inputs,sql) => {
+display(Inputs.table(await sql`SELECT * FROM politicians ORDER BY CrimeAccusationInstances LIMIT 10`));
+}});
+
+define({id: "8c4eb48e", inputs: ["view","Inputs"], outputs: ["dob"], body: (view,Inputs) => {
+const dob = view(Inputs.range([1930, 2024], {label: "Date of Birth"}));
+return {dob};
+}});
+
+define({id: "6937a175", inputs: ["display","Inputs","sql","dob"], body: async (display,Inputs,sql,dob) => {
+display(Inputs.table(await sql`SELECT * FROM politicians WHERE DateOfBirth BETWEEN ${dob - 1} AND ${dob + 1};`));
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">WiserVoter Indian General Elections 2024</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./election-report">Example report</a></li>
+    <li class="observablehq-link"><a href="./example-dashboard">Example dashboard</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./politicians">Politicians from 2019 Elections</a></li>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type), h2:first-child, :not(h1) + h2">
+<nav>
+</nav>
+</aside>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<h1 id="politicians-from-2019-elections" tabindex="-1"><a class="observablehq-header-anchor" href="#politicians-from-2019-elections">Politicians from 2019 Elections</a></h1>
+<div id="cell-9d5da65c" class="observablehq observablehq--block"></div>
+<div id="cell-8c4eb48e" class="observablehq observablehq--block"></div>
+<div id="cell-6937a175" class="observablehq observablehq--block"></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./example-dashboard"><span>Example dashboard</span></a></nav>
+<div>Built with WiseVoter Data (2024) and Observable.</div>
+</footer>
+</div>
