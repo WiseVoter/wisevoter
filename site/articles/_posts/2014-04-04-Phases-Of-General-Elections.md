@@ -17,7 +17,8 @@ image:
 comments: true
 readtime: 5
 excerpt: This article outlines the phases of elections, and which states are going to ballot when in the upcoming 2014 general elections.
----This interactive graphic outlines the phases of elections, and which states are going to ballot when in the upcoming 2014 general elections. Based on data from election commission of India [1].
+---
+This interactive graphic outlines the phases of elections, and which states are going to ballot when in the upcoming 2014 general elections. Based on data from election commission of India [1].
 
 <div class="phaseinforgraphic">
   <p>Election Phases</p>

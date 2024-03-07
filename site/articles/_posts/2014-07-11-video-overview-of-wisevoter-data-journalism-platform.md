@@ -15,7 +15,8 @@ image:
   creditlink: 
 comments: true
 readtime: 15
-excerpt: We took some time to create an overview of Wisevoter.org and showcase its underlying data journalims platform, check it out!---We took some time to create an overview of Wisevoter.org and showcase its underlying data journalims platform, check it out below:
+excerpt: We took some time to create an overview of Wisevoter.org and showcase its underlying data journalims platform, check it out!---We took some time to create an overview of Wisevoter.org and showcase its underlying data journalims platform, check it out below.
+---
 
 <iframe src="//player.vimeo.com/video/100476338" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
