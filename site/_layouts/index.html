@@ -3,7 +3,7 @@
   <head>
     <title>{{page.title}}</title>
 
-    {% include "head.html" %}
+    {% include head.html %}
   </head>
 
   <body>
@@ -68,15 +68,20 @@
             <a href="/constituencies.html" class="button">
               <small>More About</small>
               WiseVoter
-            </a>          
+            </a>  
+            
+            <a href="/analysis/index.html" class="button">
+              <small>Analyze</small>
+              WiseVoter
+            </a>  
           </aside>
         </div>
         <div class="col-lg-1"></div>
       </div>
     </div>
 
-    {% include "footer.html" %}
+    {% include footer.html %}
 
-  {% include "analytics-google.html" %}
+  {% include analytics-google.html %}
   </body>
 </html>

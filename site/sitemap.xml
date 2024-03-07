@@ -7,14 +7,14 @@ title: sitemap
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">    
   <url>
     <loc>{{ site.url }}/</loc>
-    <lastmod>{{ site.time | date('Y-m-d') }}</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   {% for post in site.pages %}
   <url>
     <loc>{{ site.url }}{{ post.url | replace('index.html','') }}</loc>
-    <lastmod>{{ site.time | date('Y-m-d')  }}</lastmod>
+    <lastmod>{{ site.time | date: "%Y-%m-%d"  }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -22,7 +22,7 @@ title: sitemap
   {% for post in site.posts %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
-    <lastmod>{{ post.date | date('Y-m-d') }}</lastmod>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
