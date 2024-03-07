@@ -5,7 +5,7 @@ author: Kavita Kukday
 description: 
 headline: 
 modified: 2009-04-20
-category: articles
+categories: articles
 tags: []
 image: 
   feature: 

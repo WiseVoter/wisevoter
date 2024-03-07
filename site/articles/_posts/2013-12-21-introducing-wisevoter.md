@@ -6,7 +6,7 @@ title: Introducing WiseVoter
 description: 
 headline: 
 modified: 2009-04-29
-category: articles
+categories: articles
 tags: []
 image: 
   feature: 

@@ -5,8 +5,7 @@ title: WiseVoter - India Edition
 <h3><a name="welcome-to-github-pages" class="anchor" href="#"><span class="fa fa-home"></span></a>Welcome to WiseVoter Democracy Education.</h3>
 
 <ul class="post-list">
-{% for post in site.categories.articles | sort  %} 
-  {% if loop.index <= 3 %}
+{% for post in site.categories.articles limit:3  %} 
   <li>
     <article>
     <a href="{{ site.url }}{{ post.url }}"> 
@@ -16,6 +15,5 @@ title: WiseVoter - India Edition
     </article>
   </li>
   <p class="post-item-snippet">{{ post.page.excerpt }}&nbsp;<a href="{{ post.url }}"> Read more...</a></p>
-  {% endif %}
 {% endfor %}
 </ul>

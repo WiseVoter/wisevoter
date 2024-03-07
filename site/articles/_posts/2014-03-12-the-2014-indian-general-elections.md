@@ -3,7 +3,7 @@ layout: article
 title: "The 2014 Indian General Elections"
 author: Vaibhav Bhandari
 modified: 2014-03-12
-category: articles
+categories: articles
 tags: []
 image: 
   feature: 

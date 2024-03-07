@@ -5,7 +5,7 @@ author: Vaibhav Bhandari
 description: 
 headline: 
 modified: 2013-12-20
-category: articles
+categories: articles
 tags: []
 image: 
   feature: 

@@ -4,3 +4,4 @@ _stash
 _site
 _frontend
 frontend
+.jekyll-cache

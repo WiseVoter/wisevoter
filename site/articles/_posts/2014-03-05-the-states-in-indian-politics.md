@@ -3,7 +3,7 @@ layout: article
 title: "The States In Indian Politics"
 author: Vaibhav Bhandari
 modified: 2014-03-05
-category: articles
+categories: articles
 tags: []
 image: 
   feature: 
