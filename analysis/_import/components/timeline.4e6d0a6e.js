@@ -1,4 +1,4 @@
-import * as Plot from "../../_npm/@observablehq/plot@0.6.13/+esm.js";
+import * as Plot from "../../_npm/@observablehq/plot@0.6.14/+esm.js";
 
 export function timeline(events, {width, height} = {}) {
   return Plot.plot({

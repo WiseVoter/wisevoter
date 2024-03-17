@@ -1,0 +1,73 @@
+[
+    {
+      "phase": "I",
+      "notification_date": "20 March",
+      "last_date_for_filing_nomination": "27 March",
+      "scrutiny_of_nomination": "28 March",
+      "last_date_for_withdrawal_of_nomination": "30 March",
+      "date_of_poll": "19 April",
+      "date_of_counting_of_votes_result": "4 June 2024",
+      "no_of_constituencies": 102
+    },
+    {
+      "phase": "II",
+      "notification_date": "28 March",
+      "last_date_for_filing_nomination": "4 April",
+      "scrutiny_of_nomination": "5 April",
+      "last_date_for_withdrawal_of_nomination": "8 April",
+      "date_of_poll": "26 April",
+      "date_of_counting_of_votes_result": "4 June 2024",
+      "no_of_constituencies": 89
+    },
+    {
+      "phase": "III",
+      "notification_date": "12 April",
+      "last_date_for_filing_nomination": "19 April",
+      "scrutiny_of_nomination": "20 April",
+      "last_date_for_withdrawal_of_nomination": "22 April",
+      "date_of_poll": "7 May",
+      "date_of_counting_of_votes_result": "4 June 2024",
+      "no_of_constituencies": 94
+    },
+    {
+      "phase": "IV",
+      "notification_date": "18 April",
+      "last_date_for_filing_nomination": "25 April",
+      "scrutiny_of_nomination": "26 April",
+      "last_date_for_withdrawal_of_nomination": "29 April",
+      "date_of_poll": "13 May",
+      "date_of_counting_of_votes_result": "4 June 2024",
+      "no_of_constituencies": 96
+    },
+    {
+      "phase": "V",
+      "notification_date": "26 April",
+      "last_date_for_filing_nomination": "3 May",
+      "scrutiny_of_nomination": "4 May",
+      "last_date_for_withdrawal_of_nomination": "6 May",
+      "date_of_poll": "20 May",
+      "date_of_counting_of_votes_result": "4 June 2024",
+      "no_of_constituencies": 49
+    },
+    {
+      "phase": "VI",
+      "notification_date": "29 April",
+      "last_date_for_filing_nomination": "6 May",
+      "scrutiny_of_nomination": "7 May",
+      "last_date_for_withdrawal_of_nomination": "9 May",
+      "date_of_poll": "25 May",
+      "date_of_counting_of_votes_result": "4 June 2024",
+      "no_of_constituencies": 57
+    },
+    {
+      "phase": "VII",
+      "notification_date": "7 May",
+      "last_date_for_filing_nomination": "14 May",
+      "scrutiny_of_nomination": "15 May",
+      "last_date_for_withdrawal_of_nomination": "17 May",
+      "date_of_poll": "1 June",
+      "date_of_counting_of_votes_result": "4 June 2024",
+      "no_of_constituencies": 57
+    }
+]
+
