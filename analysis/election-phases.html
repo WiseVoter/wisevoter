@@ -10,7 +10,7 @@
 <link rel="modulepreload" href="./_observablehq/client.js">
 <link rel="modulepreload" href="./_observablehq/runtime.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.js">
-<link rel="modulepreload" href="./_import/components/phases_timeline.018adfe3.js">
+<link rel="modulepreload" href="./_import/components/timeline.4349c23f.js">
 <link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.14/+esm.js">
 <link rel="modulepreload" href="./_npm/d3@7.9.0/+esm.js">
 <link rel="modulepreload" href="./_npm/isoformat@0.2.1/+esm.js">
@@ -56,8 +56,8 @@ import {registerFile} from "./_observablehq/stdlib.js";
 
 registerFile("./data/election-phases.json", {"name":"./data/election-phases.json","mimeType":"application/json","path":"./_file/data/election-phases.13769fb6.json"});
 
-define({id: "e456d194", outputs: ["phases_timeline"], body: async () => {
-const {phases_timeline} = await import("./_import/components/phases_timeline.018adfe3.js");
+define({id: "917bad87", outputs: ["phases_timeline"], body: async () => {
+const {phases_timeline} = await import("./_import/components/timeline.4349c23f.js");
 
 return {phases_timeline};
 }});
@@ -98,7 +98,7 @@ phases_timeline(events, {height: 300})
 <main id="observablehq-main" class="observablehq">
 <h1 id="election-phases" tabindex="-1"><a class="observablehq-header-anchor" href="#election-phases">Election Phases</a></h1>
 <h2 id="the-phases-of-elections" tabindex="-1"><a class="observablehq-header-anchor" href="#the-phases-of-elections">The Phases of Elections</a></h2>
-<div id="cell-e456d194" class="observablehq observablehq--block"></div>
+<div id="cell-917bad87" class="observablehq observablehq--block"></div>
 <div id="cell-be02d6b5" class="observablehq observablehq--block"></div>
 <div id="cell-a64b7553" class="observablehq observablehq--block observablehq--loading"></div>
 <h3 id="phase-1-(apr-)" tabindex="-1"><a class="observablehq-header-anchor" href="#phase-1-(apr-)">Phase 1 (Apr )</a></h3>
