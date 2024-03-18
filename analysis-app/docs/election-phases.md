@@ -7,7 +7,7 @@ title: Election Phases
 ## The Phases of Elections
 
 ```js
-import {phases_timeline} from "./components/phases_timeline.js";
+import {phases_timeline} from "./components/timeline.js";
 ```
 
 ```js
