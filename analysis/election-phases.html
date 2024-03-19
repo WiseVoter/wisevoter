@@ -5,15 +5,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
 <link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
 <link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
 <link rel="modulepreload" href="./_observablehq/client.js">
 <link rel="modulepreload" href="./_observablehq/runtime.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.js">
 <link rel="modulepreload" href="./_import/components/timeline.4349c23f.js">
 <link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.14/+esm.js">
-<link rel="modulepreload" href="./_npm/d3@7.9.0/+esm.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/+esm.js">
 <link rel="modulepreload" href="./_npm/isoformat@0.2.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/+esm.js">
 <link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/+esm.js">
 <link rel="modulepreload" href="./_npm/d3-array@3.2.4/+esm.js">
 <link rel="modulepreload" href="./_npm/d3-axis@3.0.0/+esm.js">
@@ -67,10 +71,20 @@ const events = FileAttachment("./data/election-phases.json").json();
 return {events};
 }});
 
-define({id: "a64b7553", inputs: ["phases_timeline","events","display"], body: async (phases_timeline,events,display) => {
+define({id: "f329c3b5", inputs: ["phases_timeline","events","display"], body: async (phases_timeline,events,display) => {
 display(await(
 phases_timeline(events, {height: 300})
+))
+}});
 
+define({id: "24acde38", inputs: ["view","Inputs"], outputs: ["num_phase"], body: (view,Inputs) => {
+const num_phase = view(Inputs.select(["I", "II", "III","IV", "V", "VI", "VII"], {value: "I", label: "Phases"}));
+return {num_phase};
+}});
+
+define({id: "bc830ccc", inputs: ["Inputs","events","num_phase","display"], body: async (Inputs,events,num_phase,display) => {
+display(await(
+Inputs.table(events.filter(e => e.phase === num_phase))
 ))
 }});
 
@@ -100,8 +114,14 @@ phases_timeline(events, {height: 300})
 <h2 id="the-phases-of-elections" tabindex="-1"><a class="observablehq-header-anchor" href="#the-phases-of-elections">The Phases of Elections</a></h2>
 <div id="cell-917bad87" class="observablehq observablehq--block"></div>
 <div id="cell-be02d6b5" class="observablehq observablehq--block"></div>
-<div id="cell-a64b7553" class="observablehq observablehq--block observablehq--loading"></div>
+<div id="cell-f329c3b5" class="observablehq observablehq--block observablehq--loading"></div>
 <h3 id="phase-1-(apr-)" tabindex="-1"><a class="observablehq-header-anchor" href="#phase-1-(apr-)">Phase 1 (Apr )</a></h3>
+<h3 id="india-map" tabindex="-1"><a class="observablehq-header-anchor" href="#india-map">India Map</a></h3>
+<p>TBD</p>
+<h3 id="interactivity" tabindex="-1"><a class="observablehq-header-anchor" href="#interactivity">Interactivity</a></h3>
+<p>Show me all the states in phase</p>
+<div id="cell-24acde38" class="observablehq observablehq--block"></div>
+<div id="cell-bc830ccc" class="observablehq observablehq--block observablehq--loading"></div>
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="prev" href="./"><span>WiserVoter Indian General Elections 2024</span></a><a rel="next" href="./election-report"><span>Example report</span></a></nav>
