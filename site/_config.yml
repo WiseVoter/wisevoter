@@ -9,7 +9,7 @@ data_dir: _data
 layouts_dir: _layouts
 includes_dir: _includes
 
-exclude: [constituencies, parties, politicians]
+exclude: [constituencies, parties]
 # All WiseVoter specific configurations are namespaced into this hash
 #
 WV :
@@ -65,3 +65,8 @@ prose:
         field:
           element: hidden
           value: constituency
+
+sqlite:
+  - file: ./politicians.db
+    data: politicians
+    query: SELECT Candidate, Constituency, Sex, Age FROM politicians

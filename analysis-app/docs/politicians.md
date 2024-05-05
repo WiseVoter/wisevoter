@@ -1,4 +1,5 @@
 ---
+title: 2019 Politicians
 sql:
   politicians: ./data/masterdata.csv
 ---

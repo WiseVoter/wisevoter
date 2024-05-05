@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> {{page.title}} </title>
+    <title>{{ page.title }}</title>
     {% include "head.html" %}
   </head>
 
@@ -14,7 +14,7 @@
     <div class="container">
       <br/>
       <div class="page-header">
-        <h1> {{page.title | title}} <small><a class="muted-link" href=/constituencies/{{page.profile.constituency|dasherize}}>{{page.profile.constituency}}</a></small> </h1>
+        <h1>{{ page.title | title }} <small><a class="muted-link" href="/constituencies/{{ page.profile.constituency | dasherize }}">{{ page.profile.constituency }}</a></small></h1>
       </div>
     </div>
 
@@ -23,8 +23,8 @@
         <div class="col-lg-1"></div>
         <div class="col-lg-7">
           <ul class="nav nav-tabs">
-            <li class="active"><a href="#profile" data-toggle="tab">Profile</a><li> 
-            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a><li>
+            <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
+            <li class="pull-right"><a href="#comments" data-toggle="tab">Comments</a></li>
           </ul>
           <div class="tab-content">
             <div class="tab-pane fade in active" id="profile">
@@ -40,23 +40,23 @@
 
        <aside class="col-lg-3">
         {% if page.profile.photo %}
-          <div class="profile-circular-hidden">/assets/images/politicians/{{page.profile.photo}}</div>
+          <img src="/assets/images/politicians/{{ page.profile.photo }}" class="profile-circular-hidden" alt="Profile Photo">
         {% else %}
-          <div class="profile-circular-hidden">/assets/images/politicians/{{page.title|lower|replace(" ","-","g")}}.jpg</div>
+          <img src="/assets/images/politicians/{{ page.title | lower | replace: ' ', '-' }}.jpg" class="profile-circular-hidden" alt="Default Profile Photo">
         {% endif %}
         <div class="profile-circular"></div>
-        <div class="profile-title">{{page.title | title }}</div>
+        <div class="profile-title">{{ page.title | title }}</div>
         <table class="profile">
-        <tr><td><i class="fa fa-pencil"></i>Education</td><td>{{page.profile.education.level | isnull}}</td></tr>
-          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>{{page.profile["crime-accusation-instances"] | isnull}}</td></tr>
-          <tr><td><i class="fa fa-flag"></i>Elections</td><td>{{page.candidature.length | isnull}}</td></tr>
-          <tr><td><i class="fa fa-home"></i>State</td><td>{{page.profile.state | isnull}}</td></tr>
-          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>{{page.profile.party | isnull}}</td></tr>
-          <tr><td><i class="fa fa-female"></i>Gender</td><td>{{page.profile.sex | isnull }}</td></tr>
-          <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href={{page.profile.wikipedia | isnull}}>Wiki</a></td></tr>
-          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>{{page.profile.twitter | isnull }}</td></tr>
-          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href={{page.profile.website | isnull}}>Link</a></td></tr>
-          <tr><td><i class="fa fa-money"></i>Networth</td><td>{{page.profile.networth.assets | isnull}} </td></tr>
+          <tr><td><i class="fa fa-pencil"></i>Education</td><td>{{ page.profile.education.level | default: "Unknown" }}</td></tr>
+          <tr><td><i class="fa fa-truck"></i>Criminal Cases</td><td>{{ page.profile["crime-accusation-instances"] | default: "Unknown" }}</td></tr>
+          <tr><td><i class="fa fa-flag"></i>Elections</td><td>{{ page.candidature.length | default: "Unknown" }}</td></tr>
+          <tr><td><i class="fa fa-home"></i>State</td><td>{{ page.profile.state | default: "Unknown" }}</td></tr>
+          <tr><td><i class="fa fa-credit-card"></i>Party</td><td>{{ page.profile.party | default: "Unknown" }}</td></tr>
+          <tr><td><i class="fa fa-female"></i>Gender</td><td>{{ page.profile.sex | default: "Unknown" }}</td></tr>
+          <tr><td><i class="fa fa-comment"></i>Wikipedia</td><td><a href="{{ page.profile.wikipedia | default: "#" }}">Wiki</a></td></tr>
+          <tr><td><i class="fa fa-twitter"></i>Twitter</td><td>{{ page.profile.twitter | default: "Unknown" }}</td></tr>
+          <tr><td><i class="fa fa-globe"></i>Website</td><td><a href="{{ page.profile.website | default: "#" }}">Link</a></td></tr>
+          <tr><td><i class="fa fa-money"></i>Networth</td><td>{{ page.profile.networth.assets | default: "Unknown" }}</td></tr>
         </table>
        </aside>
        <div class="col-lg-1"></div>     
@@ -65,9 +65,6 @@
 
     {% include "footer.html" %}
     
-  {% include "analytics-google.html" %}
+    {% include "analytics-google.html" %}
   </body>
-
 </html>
-
- 

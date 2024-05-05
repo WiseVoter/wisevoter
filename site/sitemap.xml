@@ -13,8 +13,8 @@ title: sitemap
   </url>
   {% for post in site.pages %}
   <url>
-    <loc>{{ site.url }}{{ post.url | replace('index.html','') }}</loc>
-    <lastmod>{{ site.time | date: "%Y-%m-%d"  }}</lastmod>
+    <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

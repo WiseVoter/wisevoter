@@ -1,8 +1,8 @@
-{% for t in page.elections | reverse %}
-<h3>{{t.name}}</h3>
+{% for t in page.elections reversed %}
+  <h3>{{ t.name }}</h3>
   <ul>
-  {% for c in t.candidates %}
-    <li><a class=muted-link href=/politicians/{{c|lower|replace(" ","-","g")}}>{{c}}</li>
-  {% endfor %}
+    {% for c in t.candidates %}
+      <li><a class="muted-link" href="/politicians/{{ c | downcase | replace: ' ', '-' }}">{{ c }}</a></li>
+    {% endfor %}
   </ul>
 {% endfor %}

@@ -1,11 +1,10 @@
 ---
-
 layout: default
 title: Indian Constituencies
 ---
 <h2> List of Constituencies </h2>
 
-{% for states in site.categories.constituencies | groupBy("state") %}
+{% for states in site.data.constituencies | groupBy("state") %}
   <h3>{{loop.key }}</h3>
   <ul>
     {% for post in states %}
