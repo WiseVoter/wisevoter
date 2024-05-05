@@ -40,6 +40,17 @@ Inputs.table(politicians)
 ))
 }});
 
+define({id: "95a410f6", inputs: ["db"], outputs: ["criminals"], body: async (db) => {
+const criminals = await db.sql`SELECT * FROM candidates WHERE "Criminal Cases" > 0;`
+return {criminals};
+}});
+
+define({id: "7d4881d3", inline: true, inputs: ["criminals","display"], body: async (criminals,display) => {
+display(await(
+criminals.length
+))
+}});
+
 </script>
 <input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
 <label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
@@ -59,6 +70,10 @@ Inputs.table(politicians)
 <script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
 <aside id="observablehq-toc" data-selector="h1:not(:first-of-type), h2:first-child, :not(h1) + h2">
 <nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#numbers">Numbers</a></li>
+</ol>
 </nav>
 </aside>
 <div id="observablehq-center">
@@ -68,7 +83,17 @@ Inputs.table(politicians)
 <h1 id="show-data" tabindex="-1"><a class="observablehq-header-anchor" href="#show-data">Show Data</a></h1>
 <div id="cell-ff7f01f4" class="observablehq observablehq--block observablehq--loading"></div>
 <p>Data: ADR, <a href="https://www.myneta.org">My Neta</a></p>
-</main>
+<h1 id="numbers" tabindex="-1"><a class="observablehq-header-anchor" href="#numbers">Numbers</a></h1>
+<!-- Cards with big numbers -->
+<div id="cell-95a410f6" class="observablehq observablehq--block"></div>
+<pre data-language="js"><code class="language-js"><span class="hljs-keyword">const</span> criminals = <span class="hljs-keyword">await</span> db.<span class="hljs-property">sql</span><span class="hljs-string">`SELECT * FROM candidates WHERE "Criminal Cases" &gt; 0;`</span>
+</code></pre>
+<div class="grid grid-cols-4">
+  <div class="card">
+    <h2>Criminals</h2>
+    <span class="big"><span id="cell-7d4881d3" class="observablehq--loading"></span></span>
+  </div>
+</div></main>
 <footer id="observablehq-footer">
 <nav><a rel="prev" href="./"><span>WiserVoter Indian General Elections 2024</span></a><a rel="next" href="./election-phases"><span>Election Phases</span></a></nav>
 <div>Built with WiseVoter Data (2024) and Observable.</div>
