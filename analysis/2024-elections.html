@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>2019 Politicians | WiserVoter Indian General Elections 2024</title>
+<title>2024 Candidates | WiserVoter Indian General Elections 2024</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
 <link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
@@ -12,34 +12,32 @@
 <link rel="modulepreload" href="./_observablehq/client.js">
 <link rel="modulepreload" href="./_observablehq/runtime.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.js">
-<link rel="modulepreload" href="./_observablehq/stdlib/duckdb.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/sqlite.js">
 <link rel="modulepreload" href="./_observablehq/stdlib/inputs.js">
-<link rel="modulepreload" href="./_npm/@duckdb/duckdb-wasm@1.28.0/+esm.js">
 <link rel="modulepreload" href="./_npm/htl@0.3.1/+esm.js">
 <link rel="modulepreload" href="./_npm/isoformat@0.2.1/+esm.js">
-<link rel="modulepreload" href="./_npm/apache-arrow@15.0.2/+esm.js">
-<link rel="modulepreload" href="./_npm/tslib@2.6.2/+esm.js">
-<link rel="modulepreload" href="./_npm/flatbuffers@23.5.26/+esm.js">
 <script type="module">
 
 import {define} from "./_observablehq/client.js";
-import {registerFile, FileAttachment} from "./_observablehq/stdlib.js";
-import {registerTable} from "./_observablehq/stdlib/duckdb.js";
+import {registerFile} from "./_observablehq/stdlib.js";
 
-registerFile("./data/masterdata.csv", {"name":"./data/masterdata.csv","mimeType":"text/csv","path":"./_file/data/masterdata.20d926fb.csv"});
-registerTable("politicians", FileAttachment("./data/masterdata.csv"));
+registerFile("./data/candidates.sqlite", {"name":"./data/candidates.sqlite","path":"./_file/data/candidates.b04a2ee5.sqlite"});
 
-define({id: "9d5da65c", inputs: ["display","Inputs","sql"], body: async (display,Inputs,sql) => {
-display(Inputs.table(await sql`SELECT * FROM politicians ORDER BY CrimeAccusationInstances LIMIT 10`));
+define({id: "9445c809", inputs: ["FileAttachment"], outputs: ["SQLiteDatabaseClient","db"], body: async (FileAttachment) => {
+const {SQLiteDatabaseClient} = await import("./_observablehq/stdlib/sqlite.js");
+const db = FileAttachment("data/candidates.sqlite").sqlite();
+return {SQLiteDatabaseClient,db};
 }});
 
-define({id: "8c4eb48e", inputs: ["view","Inputs"], outputs: ["dob"], body: (view,Inputs) => {
-const dob = view(Inputs.range([1930, 2024], {label: "Date of Birth"}));
-return {dob};
+define({id: "a4e8d67e", inputs: ["db"], outputs: ["politicians"], body: (db) => {
+const politicians = db.sql`SELECT * FROM candidates`;
+return {politicians};
 }});
 
-define({id: "6937a175", inputs: ["display","Inputs","sql","dob"], body: async (display,Inputs,sql,dob) => {
-display(Inputs.table(await sql`SELECT * FROM politicians WHERE DateOfBirth BETWEEN ${dob - 1} AND ${dob + 1};`));
+define({id: "ff7f01f4", inputs: ["Inputs","politicians","display"], body: async (Inputs,politicians,display) => {
+display(await(
+Inputs.table(politicians)
+))
 }});
 
 </script>
@@ -51,11 +49,11 @@ display(Inputs.table(await sql`SELECT * FROM politicians WHERE DateOfBirth BETWE
     <li class="observablehq-link"><a href="./">WiserVoter Indian General Elections 2024</a></li>
   </ol>
   <ol>
-    <li class="observablehq-link"><a href="./2024-elections">2024 Candidates</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./2024-elections">2024 Candidates</a></li>
     <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li>
     <li class="observablehq-link"><a href="./election-report">Example report</a></li>
     <li class="observablehq-link"><a href="./example-dashboard">Example dashboard</a></li>
-    <li class="observablehq-link observablehq-link-active"><a href="./politicians">2019 Politicians</a></li>
+    <li class="observablehq-link"><a href="./politicians">2019 Politicians</a></li>
   </ol>
 </nav>
 <script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
@@ -65,13 +63,14 @@ display(Inputs.table(await sql`SELECT * FROM politicians WHERE DateOfBirth BETWE
 </aside>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<h1 id="politicians-from-2019-elections" tabindex="-1"><a class="observablehq-header-anchor" href="#politicians-from-2019-elections">Politicians from 2019 Elections</a></h1>
-<div id="cell-9d5da65c" class="observablehq observablehq--block"></div>
-<div id="cell-8c4eb48e" class="observablehq observablehq--block"></div>
-<div id="cell-6937a175" class="observablehq observablehq--block"></div>
+<div id="cell-9445c809" class="observablehq observablehq--block"></div>
+<div id="cell-a4e8d67e" class="observablehq observablehq--block"></div>
+<h1 id="show-data" tabindex="-1"><a class="observablehq-header-anchor" href="#show-data">Show Data</a></h1>
+<div id="cell-ff7f01f4" class="observablehq observablehq--block observablehq--loading"></div>
+<p>Data: ADR, <a href="https://www.myneta.org">My Neta</a></p>
 </main>
 <footer id="observablehq-footer">
-<nav><a rel="prev" href="./example-dashboard"><span>Example dashboard</span></a></nav>
+<nav><a rel="prev" href="./"><span>WiserVoter Indian General Elections 2024</span></a><a rel="next" href="./election-phases"><span>Election Phases</span></a></nav>
 <div>Built with WiseVoter Data (2024) and Observable.</div>
 </footer>
 </div>
