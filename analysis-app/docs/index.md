@@ -1,5 +1,6 @@
 ---
 toc: false
+style: wisevoter-style.css
 ---
 
 <style>

@@ -1,5 +1,6 @@
 ---
 title: "Felons and Fiefdoms"
+style: wisevoter-style.css
 ---
 # The Disturbing Rise of Criminal Contenders in Maharashtra
 ```js
@@ -36,7 +37,7 @@ The data reveals that the Vanchit Bahujan Aaghadi and the Indian National Congre
 ```js
 Plot.plot({
   marks: [
-    Plot.barY(criminal_cases_by_party.slice(0, 5), {x: "Party", y: "Total Criminal Cases"})
+    Plot.barY(criminal_cases_by_party.slice(0, 5), {x: "Party", y: "Total Criminal Cases", fill: "var(--theme-foreground-focus)"})
   ]
 })
 ```
@@ -61,7 +62,7 @@ The data highlights the alarming presence of the most notorious criminal candida
 ```js
 Plot.plot({
   marks: [
-    Plot.barX(top_criminals.slice(0,5), {y: "Candidate", x: "Criminal Cases"})
+    Plot.barX(top_criminals.slice(0,5), {y: "Candidate", x: "Criminal Cases", fill: "var(--theme-foreground-muted)"})
   ]
 })
 ```
