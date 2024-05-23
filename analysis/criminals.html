@@ -4,10 +4,10 @@
 <title>Felons and Fiefdoms | WiserVoter Indian General Elections 2024</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="preload" as="style" href="./_import/wisevoter-style.b57f9762.css">
 <link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="stylesheet" type="text/css" href="./_import/wisevoter-style.b57f9762.css">
 <link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
 <link rel="modulepreload" href="./_observablehq/client.js">
 <link rel="modulepreload" href="./_observablehq/runtime.js">
@@ -84,11 +84,11 @@ view(Inputs.table(criminal_cases_by_party))
 return {criminal_cases_by_party};
 }});
 
-define({id: "23839c78", inputs: ["Plot","criminal_cases_by_party","display"], body: async (Plot,criminal_cases_by_party,display) => {
+define({id: "e98f6c11", inputs: ["Plot","criminal_cases_by_party","display"], body: async (Plot,criminal_cases_by_party,display) => {
 display(await(
 Plot.plot({
   marks: [
-    Plot.barY(criminal_cases_by_party.slice(0, 5), {x: "Party", y: "Total Criminal Cases"})
+    Plot.barY(criminal_cases_by_party.slice(0, 5), {x: "Party", y: "Total Criminal Cases", fill: "var(--theme-foreground-focus)"})
   ]
 })
 ))
@@ -110,11 +110,11 @@ view(Inputs.table(top_criminals))
 return {top_criminals};
 }});
 
-define({id: "a36da559", inputs: ["Plot","top_criminals","display"], body: async (Plot,top_criminals,display) => {
+define({id: "bf13c547", inputs: ["Plot","top_criminals","display"], body: async (Plot,top_criminals,display) => {
 display(await(
 Plot.plot({
   marks: [
-    Plot.barX(top_criminals.slice(0,5), {y: "Candidate", x: "Criminal Cases"})
+    Plot.barX(top_criminals.slice(0,5), {y: "Candidate", x: "Criminal Cases", fill: "var(--theme-foreground-muted)"})
   ]
 })
 ))
@@ -165,11 +165,11 @@ Plot.plot({
 <p><strong>1. Criminal Cases by Party Affiliation</strong></p>
 <div id="cell-ba26031a" class="observablehq observablehq--block"></div>
 <p>The data reveals that the Vanchit Bahujan Aaghadi and the Indian National Congress (INC) - Sharadchandra, have the highest numbers of candidates with criminal records, underscoring the pervasive nature of this issue across the political spectrum.</p>
-<div id="cell-23839c78" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<div id="cell-e98f6c11" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
 <p><strong>2. Top Criminals in Maharashtra</strong></p>
 <div id="cell-2cad3474" class="observablehq observablehq--block"></div>
 <p>The data highlights the alarming presence of the most notorious criminal candidates, with several individuals facing a staggering number of charges.</p>
-<div id="cell-a36da559" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<div id="cell-bf13c547" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
 <h2 id="the-threat-to-democracy" tabindex="-1"><a class="observablehq-header-anchor" href="#the-threat-to-democracy">The Threat to Democracy</a></h2>
 <p>The infiltration of criminal elements into the political landscape of Maharashtra poses a grave threat to the foundations of democracy. These individuals, driven by self-interest and a disregard for the rule of law, often use their wealth and influence to buy their way into power, undermining the principles of accountability and representation that are the hallmarks of a healthy democracy.</p>
 <p>Moreover, the presence of such candidates in the electoral process creates an environment of fear and intimidation, where voters may be coerced or manipulated into supporting them out of fear of repercussions. This, in turn, erodes public trust in the democratic process and undermines the very legitimacy of the government.</p>
