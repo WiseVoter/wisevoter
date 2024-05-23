@@ -46,9 +46,9 @@ style: wisevoter-style.css
 </style>
 
 <div class="hero">
-  <h1>WiseVoter Analytics Tools</h1>
+  <h1>WiseVoter 2024 Indian Elections</h1>
   <h2>Welcome to WiseVoter Analytics.</h2>
-  <span>This is an effort to showcase Indian election status using data from WiseVoter and ADRIndia. We home more data journalism efforts benefit from it.</span>
+  <span>This is an effort to showcase 2024 Indian general election status using data from WiseVoter and ADRIndia, and inspire citizen data analysis and journalism. We hope more data journalism efforts benefit from it, and help strengthen democracy.</span>
 </div>
 
 
@@ -58,7 +58,7 @@ Here are some ideas of things you could try…
 
 <div class="grid grid-cols-4">
   <div class="card">
-    Review articles <a href="./criminals">Felons and Fiedoms</a>, this will give you inspiration to add your own articles to this citizen data journalism repository by adding a Markdown file (<code>whatever.md</code>) to the <a href="https://github.com/WiseVoter/wisevoter/tree/master/analysis-app/docs">docs</a> folder.
+    Review articles <a href="./criminals">Felons and Fiedoms</a>, this will give you inspiration to add your own articles to this citizen data journalism repository by adding a Markdown file (<code>my_article.md</code>) to the <a href="https://github.com/WiseVoter/wisevoter/tree/master/analysis-app/docs">docs</a> folder.
   </div>
   <div class="card">
     Chart the data using <a href="https://observablehq.com/framework/lib/plot"><code>Plot</code></a> and <a href="https://observablehq.com/framework/javascript/files"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript/display#responsive-display"><code>resize</code></a>.
