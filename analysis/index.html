@@ -22,20 +22,23 @@ import "./_observablehq/client.js";
     <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
     <li class="observablehq-link observablehq-link-active"><a href="./">WiserVoter Indian General Elections 2024</a></li>
   </ol>
+  <div id="observablehq-search"><input type="search" placeholder="Search"></div>
+  <div id="observablehq-search-results"></div>
+  <script>{const o=document.querySelector("#observablehq-search");o.setAttribute("data-shortcut",`${/Mac|iPhone/.test(navigator.platform)?"\u2318":"Alt-"}K`);const t=o.querySelector("input"),r=()=>import("./_observablehq/search.js");t.addEventListener("focus",r,{once:!0}),t.addEventListener("keydown",r,{once:!0});const c=document.querySelector("#observablehq-sidebar-toggle");addEventListener("keydown",e=>{(e.code==="KeyK"&&e.metaKey&&!e.altKey&&!e.ctrlKey||e.key==="/"&&!e.metaKey&&!e.altKey&&!e.ctrlKey&&e.target===document.body)&&(c.checked?t.focus():(c.click(),t.focus(),c.click()),t.select(),e.preventDefault())});}</script>
   <ol>
     <li class="observablehq-link observablehq-link-active"><a href="./">Dashboard</a></li>
-    <li class="observablehq-link"><a href="./felons-and-fiefdoms">Felons and Fiefdoms</a></li>
+    <li class="observablehq-link"><a href="./criminals">Felons and Fiefdoms</a></li>
     <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li></ol>
-    <details open>
+    <section>
       <summary>Data</summary>
       <ol>
     <li class="observablehq-link"><a href="./2024-elections">2024 Elections</a></li>
     <li class="observablehq-link"><a href="./2019-elections">2019 Elections</a></li>
       </ol>
-    </details>
+    </section>
   </ol>
 </nav>
-<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
 <style>
@@ -88,15 +91,15 @@ import "./_observablehq/client.js";
 <p>Here are some ideas of things you could try…</p>
 <div class="grid grid-cols-4">
   <div class="card">
-    Chart your own data using <a href="https://observablehq.com/framework/lib/plot"><code>Plot</code></a> and <a href="https://observablehq.com/framework/javascript/files"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript/display#responsive-display"><code>resize</code></a>.
+    Review articles <a href="/criminals">Felons and Fiedoms</a>, this will give you inspiration to add your own articles to this citizen data journalism repository by adding a Markdown file (<code>whatever.md</code>) to the <a href="https://github.com/WiseVoter/wisevoter/tree/master/analysis-app/docs" target="_blank" rel="noopener noreferrer">docs</a> folder.
   </div>
   <div class="card">
-    Create a <a href="https://www.wisevoter.org">new page</a> by adding a Markdown file (<code>whatever.md</code>) to the <code>docs</code> folder.
+    Chart the data using <a href="https://observablehq.com/framework/lib/plot" target="_blank" rel="noopener noreferrer"><code>Plot</code></a> and <a href="https://observablehq.com/framework/javascript/files" target="_blank" rel="noopener noreferrer"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript/display#responsive-display" target="_blank" rel="noopener noreferrer"><code>resize</code></a>.
   </div>
 </div>
 </main>
 <footer id="observablehq-footer">
-<nav><a rel="next" href="./felons-and-fiefdoms"><span>Felons and Fiefdoms</span></a></nav>
+<nav><a rel="next" href="./criminals"><span>Felons and Fiefdoms</span></a></nav>
 <div>Built with WiseVoter Data (2024), Exposai and Observable.</div>
 </footer>
 </div>
