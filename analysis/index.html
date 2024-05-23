@@ -10,91 +10,9 @@
 <link rel="modulepreload" href="./_observablehq/client.js">
 <link rel="modulepreload" href="./_observablehq/runtime.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.js">
-<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.14/+esm.js">
-<link rel="modulepreload" href="./_npm/d3@7.9.0/+esm.js">
-<link rel="modulepreload" href="./_npm/isoformat@0.2.1/+esm.js">
-<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-array@3.2.4/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-color@3.1.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-force@3.0.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-format@3.1.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-path@3.1.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-random@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-time@3.1.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/+esm.js">
-<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/+esm.js">
-<link rel="modulepreload" href="./_npm/internmap@2.0.3/+esm.js">
-<link rel="modulepreload" href="./_npm/delaunator@5.0.1/+esm.js">
-<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/+esm.js">
 <script type="module">
 
-import {define} from "./_observablehq/client.js";
-import {registerFile} from "./_observablehq/stdlib.js";
-
-registerFile("./data/aapl.csv", {"name":"./data/aapl.csv","mimeType":"text/csv","path":"./_file/data/aapl.18dc8bf6.csv"});
-registerFile("./data/penguins.csv", {"name":"./data/penguins.csv","mimeType":"text/csv","path":"./_file/data/penguins.dfee817d.csv"});
-
-define({id: "7935742a", inline: true, inputs: ["resize","Plot","aapl","display"], body: async (resize,Plot,aapl,display) => {
-display(await(
-    resize((width) => Plot.plot({
-      title: "Your awesomeness over time 🚀",
-      subtitle: "Up and to the right!",
-      width,
-      y: {grid: true, label: "Awesomeness"},
-      marks: [
-        Plot.ruleY([0]),
-        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
-      ]
-    }))
-  
-))
-}});
-
-define({id: "699041c1", inline: true, inputs: ["resize","Plot","penguins","display"], body: async (resize,Plot,penguins,display) => {
-display(await(
-    resize((width) => Plot.plot({
-      title: "How big are penguins, anyway? 🐧",
-      width,
-      grid: true,
-      x: {label: "Body mass (g)"},
-      y: {label: "Flipper length (mm)"},
-      color: {legend: true},
-      marks: [
-        Plot.linearRegressionY(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species"}),
-        Plot.dot(penguins, {x: "body_mass_g", y: "flipper_length_mm", stroke: "species", tip: true})
-      ]
-    }))
-  
-))
-}});
-
-define({id: "7e48083a", inputs: ["FileAttachment"], outputs: ["aapl","penguins"], body: (FileAttachment) => {
-const aapl = FileAttachment("data/aapl.csv").csv({typed: true});
-const penguins = FileAttachment("data/penguins.csv").csv({typed: true});
-return {aapl,penguins};
-}});
+import "./_observablehq/client.js";
 
 </script>
 <input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
@@ -105,11 +23,16 @@ return {aapl,penguins};
     <li class="observablehq-link observablehq-link-active"><a href="./">WiserVoter Indian General Elections 2024</a></li>
   </ol>
   <ol>
-    <li class="observablehq-link"><a href="./2024-elections">2024 Candidates</a></li>
-    <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li>
-    <li class="observablehq-link"><a href="./election-report">Example report</a></li>
-    <li class="observablehq-link"><a href="./example-dashboard">Example dashboard</a></li>
-    <li class="observablehq-link"><a href="./politicians">2019 Politicians</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./">Dashboard</a></li>
+    <li class="observablehq-link"><a href="./felons-and-fiefdoms">Felons and Fiefdoms</a></li>
+    <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li></ol>
+    <details open>
+      <summary>Data</summary>
+      <ol>
+    <li class="observablehq-link"><a href="./2024-elections">2024 Elections</a></li>
+    <li class="observablehq-link"><a href="./2019-elections">2019 Elections</a></li>
+      </ol>
+    </details>
   </ol>
 </nav>
 <script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
@@ -157,16 +80,10 @@ return {aapl,penguins};
 
 </style>
 <div class="hero">
-  <h1>Hello, Observable Framework</h1>
-  <h2>Welcome to your new project! Edit&nbsp;<code style="font-size: 90%;">docs/index.md</code> to change this page.</h2>
-  <a href="https://observablehq.com/framework/getting-started" target="_blank">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
+  <h1>WiseVoter Analytics Tools</h1>
+  <h2>Welcome to WiseVoter Analytics.</h2>
+  <span>This is an effort to showcase Indian election status using data from WiseVoter and ADRIndia. We home more data journalism efforts benefit from it.</span>
 </div>
-<div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
-  <div class="card"><span id="cell-7935742a" class="observablehq--loading"></span></div>
-  <div class="card"><span id="cell-699041c1" class="observablehq--loading"></span></div>
-</div>
-<div id="cell-7e48083a" class="observablehq observablehq--block"></div>
-<hr>
 <h2 id="next-steps" tabindex="-1"><a class="observablehq-header-anchor" href="#next-steps">Next steps</a></h2>
 <p>Here are some ideas of things you could try…</p>
 <div class="grid grid-cols-4">
@@ -174,27 +91,12 @@ return {aapl,penguins};
     Chart your own data using <a href="https://observablehq.com/framework/lib/plot"><code>Plot</code></a> and <a href="https://observablehq.com/framework/javascript/files"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript/display#responsive-display"><code>resize</code></a>.
   </div>
   <div class="card">
-    Create a <a href="https://observablehq.com/framework/routing">new page</a> by adding a Markdown file (<code>whatever.md</code>) to the <code>docs</code> folder.
-  </div>
-  <div class="card">
-    Add a drop-down menu using <a href="https://observablehq.com/framework/javascript/inputs"><code>Inputs.select</code></a> and use it to filter the data shown in a chart.
-  </div>
-  <div class="card">
-    Write a <a href="https://observablehq.com/framework/loaders">data loader</a> that queries a local database or API, generating a data snapshot on build.
-  </div>
-  <div class="card">
-    Import a <a href="https://observablehq.com/framework/javascript/imports">recommended library</a> from npm, such as <a href="https://observablehq.com/framework/lib/leaflet">Leaflet</a>, <a href="https://observablehq.com/framework/lib/dot">GraphViz</a>, <a href="https://observablehq.com/framework/lib/tex">TeX</a>, or <a href="https://observablehq.com/framework/lib/duckdb">DuckDB</a>.
-  </div>
-  <div class="card">
-    Ask for help, or share your work or ideas, on the <a href="https://talk.observablehq.com/">Observable forum</a>.
-  </div>
-  <div class="card">
-    Visit <a href="https://github.com/observablehq/framework">Framework on GitHub</a> and give us a star. Or file an issue if you’ve found a bug!
+    Create a <a href="https://www.wisevoter.org">new page</a> by adding a Markdown file (<code>whatever.md</code>) to the <code>docs</code> folder.
   </div>
 </div>
 </main>
 <footer id="observablehq-footer">
-<nav><a rel="next" href="./2024-elections"><span>2024 Candidates</span></a></nav>
-<div>Built with WiseVoter Data (2024) and Observable.</div>
+<nav><a rel="next" href="./felons-and-fiefdoms"><span>Felons and Fiefdoms</span></a></nav>
+<div>Built with WiseVoter Data (2024), Exposai and Observable.</div>
 </footer>
 </div>

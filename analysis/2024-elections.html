@@ -21,7 +21,7 @@
 import {define} from "./_observablehq/client.js";
 import {registerFile} from "./_observablehq/stdlib.js";
 
-registerFile("./data/candidates.sqlite", {"name":"./data/candidates.sqlite","path":"./_file/data/candidates.b04a2ee5.sqlite"});
+registerFile("./data/candidates.sqlite", {"name":"./data/candidates.sqlite","path":"./_file/data/candidates.b139e2bb.sqlite"});
 
 define({id: "9445c809", inputs: ["FileAttachment"], outputs: ["SQLiteDatabaseClient","db"], body: async (FileAttachment) => {
 const {SQLiteDatabaseClient} = await import("./_observablehq/stdlib/sqlite.js");
@@ -60,11 +60,16 @@ criminals.length
     <li class="observablehq-link"><a href="./">WiserVoter Indian General Elections 2024</a></li>
   </ol>
   <ol>
-    <li class="observablehq-link observablehq-link-active"><a href="./2024-elections">2024 Candidates</a></li>
-    <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li>
-    <li class="observablehq-link"><a href="./election-report">Example report</a></li>
-    <li class="observablehq-link"><a href="./example-dashboard">Example dashboard</a></li>
-    <li class="observablehq-link"><a href="./politicians">2019 Politicians</a></li>
+    <li class="observablehq-link"><a href="./">Dashboard</a></li>
+    <li class="observablehq-link"><a href="./felons-and-fiefdoms">Felons and Fiefdoms</a></li>
+    <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li></ol>
+    <details open class="observablehq-section-active">
+      <summary>Data</summary>
+      <ol>
+    <li class="observablehq-link observablehq-link-active"><a href="./2024-elections">2024 Elections</a></li>
+    <li class="observablehq-link"><a href="./2019-elections">2019 Elections</a></li>
+      </ol>
+    </details>
   </ol>
 </nav>
 <script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
@@ -95,7 +100,7 @@ criminals.length
   </div>
 </div></main>
 <footer id="observablehq-footer">
-<nav><a rel="prev" href="./"><span>WiserVoter Indian General Elections 2024</span></a><a rel="next" href="./election-phases"><span>Election Phases</span></a></nav>
-<div>Built with WiseVoter Data (2024) and Observable.</div>
+<nav><a rel="prev" href="./election-phases"><span>Election Phases</span></a><a rel="next" href="./2019-elections"><span>2019 Elections</span></a></nav>
+<div>Built with WiseVoter Data (2024), Exposai and Observable.</div>
 </footer>
 </div>

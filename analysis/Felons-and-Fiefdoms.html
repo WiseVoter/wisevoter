@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Felons and Fiefdoms | WiserVoter Indian General Elections 2024</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
+<link rel="modulepreload" href="./_observablehq/client.js">
+<link rel="modulepreload" href="./_observablehq/runtime.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/sqlite.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.14/+esm.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/+esm.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/+esm.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/+esm.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/+esm.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/+esm.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/+esm.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/+esm.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.js";
+import {registerFile} from "./_observablehq/stdlib.js";
+
+registerFile("./data/candidates.sqlite", {"name":"./data/candidates.sqlite","path":"./_file/data/candidates.b139e2bb.sqlite"});
+
+define({id: "eee6b0d2", inputs: ["FileAttachment"], outputs: ["SQLiteDatabaseClient","db"], body: async (FileAttachment) => {
+const {SQLiteDatabaseClient} = await import("./_observablehq/stdlib/sqlite.js");
+const db = SQLiteDatabaseClient.open(FileAttachment("data/candidates.sqlite"));
+return {SQLiteDatabaseClient,db};
+}});
+
+define({id: "ba26031a", inputs: ["db","view","Inputs"], outputs: ["criminal_cases_by_party"], body: async (db,view,Inputs) => {
+const criminal_cases_by_party = await db.sql`
+  SELECT Party, COUNT(*) AS "Total Candidates", SUM("Criminal Cases") AS "Total Criminal Cases"
+  FROM candidates
+  WHERE "Criminal Cases" > 0 
+  AND "Constituency" IN (
+    SELECT Constituency 
+    FROM loksabhaconstituencies 
+    WHERE State = 'MAHARASHTRA'
+  )
+  GROUP BY Party
+  ORDER BY "Total Criminal Cases" DESC
+  LIMIT 10
+`;
+view(Inputs.table(criminal_cases_by_party))
+return {criminal_cases_by_party};
+}});
+
+define({id: "23839c78", inputs: ["Plot","criminal_cases_by_party","display"], body: async (Plot,criminal_cases_by_party,display) => {
+display(await(
+Plot.plot({
+  marks: [
+    Plot.barY(criminal_cases_by_party.slice(0, 5), {x: "Party", y: "Total Criminal Cases"})
+  ]
+})
+))
+}});
+
+define({id: "2cad3474", inputs: ["db","view","Inputs"], outputs: ["top_criminals"], body: async (db,view,Inputs) => {
+const top_criminals = await db.sql`
+  SELECT Candidate, Party, "Criminal Cases"
+  FROM candidates
+  WHERE "Constituency" IN (
+    SELECT Constituency 
+    FROM loksabhaconstituencies 
+    WHERE State = 'MAHARASHTRA'
+  )
+  ORDER BY "Criminal Cases" DESC
+  LIMIT 10
+`;
+view(Inputs.table(top_criminals))
+return {top_criminals};
+}});
+
+define({id: "a36da559", inputs: ["Plot","top_criminals","display"], body: async (Plot,top_criminals,display) => {
+display(await(
+Plot.plot({
+  marks: [
+    Plot.barX(top_criminals.slice(0,5), {y: "Candidate", x: "Criminal Cases"})
+  ]
+})
+))
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">WiserVoter Indian General Elections 2024</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./">Dashboard</a></li>
+    <li class="observablehq-link"><a href="./felons-and-fiefdoms">Felons and Fiefdoms</a></li>
+    <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li></ol>
+    <details open>
+      <summary>Data</summary>
+      <ol>
+    <li class="observablehq-link"><a href="./2024-elections">2024 Elections</a></li>
+    <li class="observablehq-link"><a href="./2019-elections">2019 Elections</a></li>
+      </ol>
+    </details>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type), h2:first-child, :not(h1) + h2">
+<nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#the-alarming-trend">The Alarming Trend</a></li>
+<li class="observablehq-secondary-link"><a href="#the-threat-to-democracy">The Threat to Democracy</a></li>
+<li class="observablehq-secondary-link"><a href="#conclusion">Conclusion</a></li>
+</ol>
+</nav>
+</aside>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<h1 id="the-disturbing-rise-of-criminal-contenders-in-maharashtra" tabindex="-1"><a class="observablehq-header-anchor" href="#the-disturbing-rise-of-criminal-contenders-in-maharashtra">The Disturbing Rise of Criminal Contenders in Maharashtra</a></h1>
+<div id="cell-eee6b0d2" class="observablehq observablehq--block"></div>
+<p>The state of Maharashtra, one of India's most populous and politically significant regions, has witnessed a concerning trend in recent years – the increasing presence of criminal elements in the electoral process. As the data reveals, the infiltration of felons into the political arena poses a grave threat to the integrity of the democratic system, undermining the very foundations of governance.</p>
+<h2 id="the-alarming-trend" tabindex="-1"><a class="observablehq-header-anchor" href="#the-alarming-trend">The Alarming Trend</a></h2>
+<p>Our analysis of the data paints a grim picture of the situation in Maharashtra.</p>
+<p><strong>1. Criminal Cases by Party Affiliation</strong></p>
+<div id="cell-ba26031a" class="observablehq observablehq--block"></div>
+<p>The data reveals that the Vanchit Bahujan Aaghadi and the Indian National Congress (INC) - Sharadchandra, have the highest numbers of candidates with criminal records, underscoring the pervasive nature of this issue across the political spectrum.</p>
+<div id="cell-23839c78" class="observablehq observablehq--block observablehq--loading"></div>
+<p><strong>2. Top Criminals in Maharashtra</strong></p>
+<div id="cell-2cad3474" class="observablehq observablehq--block"></div>
+<p>The data highlights the alarming presence of the most notorious criminal candidates, with several individuals facing a staggering number of charges.</p>
+<div id="cell-a36da559" class="observablehq observablehq--block observablehq--loading"></div>
+<h2 id="the-threat-to-democracy" tabindex="-1"><a class="observablehq-header-anchor" href="#the-threat-to-democracy">The Threat to Democracy</a></h2>
+<p>The infiltration of criminal elements into the political landscape of Maharashtra poses a grave threat to the foundations of democracy. These individuals, driven by self-interest and a disregard for the rule of law, often use their wealth and influence to buy their way into power, undermining the principles of accountability and representation that are the hallmarks of a healthy democracy.</p>
+<p>Moreover, the presence of such candidates in the electoral process creates an environment of fear and intimidation, where voters may be coerced or manipulated into supporting them out of fear of repercussions. This, in turn, erodes public trust in the democratic process and undermines the very legitimacy of the government.</p>
+<h2 id="conclusion" tabindex="-1"><a class="observablehq-header-anchor" href="#conclusion">Conclusion</a></h2>
+<p>The data presented in this article paints a disturbing picture of the state of Maharashtra's electoral landscape. The pervasive presence of criminal candidates, backed by powerful political parties, is a clear and present danger to the integrity of the democratic system. It is imperative that policymakers, civil society, and the electorate work together to address this issue and ensure that the voices of the people are heard, and not drowned out by the din of criminal influence and corruption.</p>
+<hr>
+<p>References:</p>
+<ul>
+<li>Chandra, K. (2004). Why Ethnic Parties Succeed: Patronage and Ethnic Head Counts in India. Cambridge University Press.</li>
+<li>Yadav, Y. (2000). Understanding the Second Democratic Upsurge: Trends of Bahujan Participation in Electoral Politics in the 1990s. Transforming India: Social and Political Dynamics of Democracy, 120-145.</li>
+<li>Vaishnav, M. (2017). When Crime Pays: Money and Muscle in Indian Politics. Yale University Press.</li>
+</ul>
+<p>Note: Generated with help of <a href="https://www.anthropic.com">Claude Haiku</a>, <a href="https://exposai.wisevoter.org">Exposai</a>, <a href="https://www.observablehq.com">Observable</a> and <a href="https://www.adrindia.org">ADR</a>.</p>
+</main>
+<footer id="observablehq-footer">
+<div>Built with WiseVoter Data (2024), Exposai and Observable.</div>
+</footer>
+</div>
