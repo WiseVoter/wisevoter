@@ -8,7 +8,7 @@ export default {
   // lets you organize them into sections and have unlisted pages.
   pages: [
     {name: "Dashboard", path: "/"},
-    {name: "Felons and Fiefdoms", path: "/felons-and-fiefdoms"},
+    {name: "Felons and Fiefdoms", path: "/criminals"},
     {name: "Election Phases", path: "/election-phases"},
     {
       name: "Data",
@@ -27,5 +27,5 @@ export default {
   // pager: true, // whether to show previous & next links in the footer
   // root: "docs", // path to the source root for preview
   // output: "dist", // path to the output root for build
-  // search: true, // activate search
+  search: true, // activate search
 };

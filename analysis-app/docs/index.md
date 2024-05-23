@@ -57,9 +57,9 @@ Here are some ideas of things you could try…
 
 <div class="grid grid-cols-4">
   <div class="card">
-    Chart your own data using <a href="https://observablehq.com/framework/lib/plot"><code>Plot</code></a> and <a href="https://observablehq.com/framework/javascript/files"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript/display#responsive-display"><code>resize</code></a>.
+    Review articles <a href="/criminals">Felons and Fiedoms</a>, this will give you inspiration to add your own articles to this citizen data journalism repository by adding a Markdown file (<code>whatever.md</code>) to the <a href="https://github.com/WiseVoter/wisevoter/tree/master/analysis-app/docs">docs</a> folder.
   </div>
   <div class="card">
-    Create a <a href="https://www.wisevoter.org">new page</a> by adding a Markdown file (<code>whatever.md</code>) to the <code>docs</code> folder.
+    Chart the data using <a href="https://observablehq.com/framework/lib/plot"><code>Plot</code></a> and <a href="https://observablehq.com/framework/javascript/files"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript/display#responsive-display"><code>resize</code></a>.
   </div>
 </div>
