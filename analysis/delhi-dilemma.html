@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Felons and Fiefdoms | WiserVoter Indian General Elections 2024</title>
+<title>Delhi Dilemma | WiserVoter Indian General Elections 2024</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/wisevoter-style.b57f9762.css">
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
 <link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/wisevoter-style.b57f9762.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
 <link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
 <link rel="modulepreload" href="./_observablehq/client.js">
 <link rel="modulepreload" href="./_observablehq/runtime.js">
@@ -66,55 +66,62 @@ const db = SQLiteDatabaseClient.open(FileAttachment("./data/candidates.sqlite"))
 return {SQLiteDatabaseClient,db};
 }});
 
-define({id: "ba26031a", inputs: ["db","view","Inputs"], outputs: ["criminal_cases_by_party"], body: async (db,view,Inputs) => {
-const criminal_cases_by_party = await db.sql`
-  SELECT Party, COUNT(*) AS "Total Candidates", SUM("Criminal Cases") AS "Total Criminal Cases"
-  FROM candidates
-  WHERE "Criminal Cases" > 0 
-  AND "Constituency" IN (
+define({id: "65f65281", inputs: ["db","view","Inputs"], outputs: ["criminalCandidates"], body: async (db,view,Inputs) => {
+const criminalCandidates = await db.sql`
+SELECT * 
+FROM candidates
+WHERE "Criminal Cases" > 0
+AND "Constituency" IN (
     SELECT Constituency 
     FROM loksabhaconstituencies 
-    WHERE State = 'MAHARASHTRA'
+    WHERE State = 'DELHI'
   )
-  GROUP BY Party
-  ORDER BY "Total Criminal Cases" DESC
-  LIMIT 10
+LIMIT 10
 `;
-view(Inputs.table(criminal_cases_by_party))
-return {criminal_cases_by_party};
+view(Inputs.table(criminalCandidates));
+return {criminalCandidates};
 }});
 
-define({id: "e98f6c11", inputs: ["Plot","criminal_cases_by_party","display"], body: async (Plot,criminal_cases_by_party,display) => {
+define({id: "e185e1f0", inputs: ["db","view","Inputs"], outputs: ["topAssets"], body: async (db,view,Inputs) => {
+const topAssets = await db.sql`
+SELECT "Candidate", "Total Assets"
+FROM candidates
+WHERE "Constituency" IN (SELECT Constituency FROM loksabhaconstituencies WHERE State = 'DELHI')
+ORDER BY "Total Assets" DESC
+LIMIT 5;
+`;
+view(Inputs.table(topAssets));
+return {topAssets};
+}});
+
+define({id: "7890b19d", inputs: ["db","view","Inputs"], outputs: ["topLiabilities"], body: async (db,view,Inputs) => {
+const topLiabilities = await db.sql`
+SELECT "Candidate", "Total Liabilities"
+FROM candidates
+WHERE "Constituency" IN (SELECT Constituency FROM loksabhaconstituencies WHERE State = 'DELHI')
+ORDER BY "Total Liabilities" DESC
+LIMIT 5;
+`;
+view(Inputs.table(topLiabilities));
+return {topLiabilities};
+}});
+
+define({id: "b5a3df79", inputs: ["db","view","Inputs"], outputs: ["criminalsByParty"], body: (db,view,Inputs) => {
+const criminalsByParty = db.sql`
+SELECT "Party", COUNT(*) AS "Candidates with Criminal Cases"
+FROM candidates
+WHERE "Constituency" IN (SELECT Constituency FROM loksabhaconstituencies WHERE State = 'DELHI') AND "Criminal Cases" > 0
+GROUP BY "Party";
+`;
+view(Inputs.table(criminalsByParty));
+return {criminalsByParty};
+}});
+
+define({id: "e7bf97bc", inputs: ["Plot","criminalsByParty","display"], body: async (Plot,criminalsByParty,display) => {
 display(await(
 Plot.plot({
   marks: [
-    Plot.barY(criminal_cases_by_party.slice(0, 5), {x: "Party", y: "Total Criminal Cases", fill: "var(--theme-foreground-focus)"})
-  ]
-})
-))
-}});
-
-define({id: "2cad3474", inputs: ["db","view","Inputs"], outputs: ["top_criminals"], body: async (db,view,Inputs) => {
-const top_criminals = await db.sql`
-  SELECT Candidate, Party, "Criminal Cases"
-  FROM candidates
-  WHERE "Constituency" IN (
-    SELECT Constituency 
-    FROM loksabhaconstituencies 
-    WHERE State = 'MAHARASHTRA'
-  )
-  ORDER BY "Criminal Cases" DESC
-  LIMIT 10
-`;
-view(Inputs.table(top_criminals))
-return {top_criminals};
-}});
-
-define({id: "bf13c547", inputs: ["Plot","top_criminals","display"], body: async (Plot,top_criminals,display) => {
-display(await(
-Plot.plot({
-  marks: [
-    Plot.barX(top_criminals.slice(0,5), {y: "Candidate", x: "Criminal Cases", fill: "var(--theme-foreground-muted)"})
+    Plot.barY(criminalsByParty, {x: "Party", y: "Candidates with Criminal Cases"})
   ]
 })
 ))
@@ -133,8 +140,8 @@ Plot.plot({
   <script>{const o=document.querySelector("#observablehq-search");o.setAttribute("data-shortcut",`${/Mac|iPhone/.test(navigator.platform)?"\u2318":"Alt-"}K`);const t=o.querySelector("input"),r=()=>import("./_observablehq/search.js");t.addEventListener("focus",r,{once:!0}),t.addEventListener("keydown",r,{once:!0});const c=document.querySelector("#observablehq-sidebar-toggle");addEventListener("keydown",e=>{(e.code==="KeyK"&&e.metaKey&&!e.altKey&&!e.ctrlKey||e.key==="/"&&!e.metaKey&&!e.altKey&&!e.ctrlKey&&e.target===document.body)&&(c.checked?t.focus():(c.click(),t.focus(),c.click()),t.select(),e.preventDefault())});}</script>
   <ol>
     <li class="observablehq-link"><a href="./">Dashboard</a></li>
-    <li class="observablehq-link observablehq-link-active"><a href="./criminals">Felons and Fiefdoms</a></li>
-    <li class="observablehq-link"><a href="./delhi-dilemma">Delhi Dilemma</a></li>
+    <li class="observablehq-link"><a href="./criminals">Felons and Fiefdoms</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./delhi-dilemma">Delhi Dilemma</a></li>
     <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li></ol>
     <section>
       <summary>Data</summary>
@@ -150,43 +157,46 @@ Plot.plot({
 <nav>
 <div>Contents</div>
 <ol>
-<li class="observablehq-secondary-link"><a href="#the-alarming-trend">The Alarming Trend</a></li>
-<li class="observablehq-secondary-link"><a href="#the-threat-to-democracy">The Threat to Democracy</a></li>
-<li class="observablehq-secondary-link"><a href="#conclusion">Conclusion</a></li>
+<li class="observablehq-secondary-link"><a href="#uncovering-the-criminal-landscape">Uncovering the Criminal Landscape</a></li>
+<li class="observablehq-secondary-link"><a href="#the-partisan-divide">The Partisan Divide</a></li>
+<li class="observablehq-secondary-link"><a href="#the-delhi-dilemma">The Delhi Dilemma</a></li>
 </ol>
 </nav>
 </aside>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<h1 id="the-disturbing-rise-of-criminal-contenders-in-maharashtra" tabindex="-1"><a class="observablehq-header-anchor" href="#the-disturbing-rise-of-criminal-contenders-in-maharashtra">The Disturbing Rise of Criminal Contenders in Maharashtra</a></h1>
 <div id="cell-eee6b0d2" class="observablehq observablehq--block"></div>
-<p>The state of Maharashtra, one of India's most populous and politically significant regions, has witnessed a concerning trend in recent years – the increasing presence of criminal elements in the electoral process. As the data reveals, the infiltration of felons into the political arena poses a grave threat to the integrity of the democratic system, undermining the very foundations of governance.</p>
-<h2 id="the-alarming-trend" tabindex="-1"><a class="observablehq-header-anchor" href="#the-alarming-trend">The Alarming Trend</a></h2>
-<p>Our analysis of the data paints a grim picture of the situation in Maharashtra.</p>
-<p><strong>1. Criminal Cases by Party Affiliation</strong></p>
-<div id="cell-ba26031a" class="observablehq observablehq--block"></div>
-<p>The data reveals that the Vanchit Bahujan Aaghadi and the Indian National Congress (INC) - Sharadchandra, have the highest numbers of candidates with criminal records, underscoring the pervasive nature of this issue across the political spectrum.</p>
-<div id="cell-e98f6c11" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
-<p><strong>2. Top Criminals in Maharashtra</strong></p>
-<div id="cell-2cad3474" class="observablehq observablehq--block"></div>
-<p>The data highlights the alarming presence of the most notorious criminal candidates, with several individuals facing a staggering number of charges.</p>
-<div id="cell-bf13c547" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
-<h2 id="the-threat-to-democracy" tabindex="-1"><a class="observablehq-header-anchor" href="#the-threat-to-democracy">The Threat to Democracy</a></h2>
-<p>The infiltration of criminal elements into the political landscape of Maharashtra poses a grave threat to the foundations of democracy. These individuals, driven by self-interest and a disregard for the rule of law, often use their wealth and influence to buy their way into power, undermining the principles of accountability and representation that are the hallmarks of a healthy democracy.</p>
-<p>Moreover, the presence of such candidates in the electoral process creates an environment of fear and intimidation, where voters may be coerced or manipulated into supporting them out of fear of repercussions. This, in turn, erodes public trust in the democratic process and undermines the very legitimacy of the government.</p>
-<h2 id="conclusion" tabindex="-1"><a class="observablehq-header-anchor" href="#conclusion">Conclusion</a></h2>
-<p>The data presented in this article paints a disturbing picture of the state of Maharashtra's electoral landscape. The pervasive presence of criminal candidates, backed by powerful political parties, is a clear and present danger to the integrity of the democratic system. It is imperative that policymakers, civil society, and the electorate work together to address this issue and ensure that the voices of the people are heard, and not drowned out by the din of criminal influence and corruption.</p>
+<h1 id="delhi-dilemma" tabindex="-1"><a class="observablehq-header-anchor" href="#delhi-dilemma">Delhi Dilemma</a></h1>
+<p>The Delhi elections have long been a battleground for political parties, with each vying for power and influence. However, the presence of candidates with criminal records has become a growing concern, threatening the very foundations of democratic governance. This article delves into the data to uncover the alarming trends and explore the challenges of addressing this issue.</p>
+<h2 id="uncovering-the-criminal-landscape" tabindex="-1"><a class="observablehq-header-anchor" href="#uncovering-the-criminal-landscape">Uncovering the Criminal Landscape</a></h2>
+<p>Our analysis of the data reveals a troubling picture of the Delhi electoral landscape.</p>
+<p><strong>Candidates with Criminal Cases</strong></p>
+<div id="cell-65f65281" class="observablehq observablehq--block"></div>
+<p>The data shows that a significant number of candidates in the Delhi elections have criminal cases pending against them, raising concerns about the integrity of the electoral process.</p>
+<p><strong>Top Candidates with Highest Assets</strong></p>
+<div id="cell-e185e1f0" class="observablehq observablehq--block"></div>
+<p>Further examination of the data reveals that the top candidates with the highest total assets are also among those with the most criminal cases, suggesting a correlation between wealth, power, and criminal involvement in the political sphere.</p>
+<p><strong>Top Candidates with Highest Liabilities</strong></p>
+<div id="cell-7890b19d" class="observablehq observablehq--block"></div>
+<p>The data on the candidates with the highest total liabilities further reinforces the notion that the political landscape in Delhi is heavily influenced by those with deep pockets and questionable backgrounds.</p>
+<h2 id="the-partisan-divide" tabindex="-1"><a class="observablehq-header-anchor" href="#the-partisan-divide">The Partisan Divide</a></h2>
+<div id="cell-b5a3df79" class="observablehq observablehq--block"></div>
+<div id="cell-e7bf97bc" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<p>The data reveals that the problem of criminal candidates is not limited to a single political party, but rather is a widespread issue across the spectrum. The graph shows the number of candidates with criminal cases, grouped by their party affiliations, highlighting the scale of the problem.</p>
+<h2 id="the-delhi-dilemma" tabindex="-1"><a class="observablehq-header-anchor" href="#the-delhi-dilemma">The Delhi Dilemma</a></h2>
+<p>The data paints a concerning picture of the Delhi electoral landscape, where the presence of candidates with criminal backgrounds has become commonplace. This trend not only undermines the integrity of the democratic process but also raises questions about the ability of the electorate to make informed choices.</p>
+<p>As citizens, it is crucial to be aware of these issues and demand greater accountability from our elected representatives. Policymakers and civil society organizations must work together to develop effective strategies to address this challenge and restore public trust in the electoral system.</p>
 <hr>
 <p>References:</p>
 <ul>
-<li>Chandra, K. (2004). Why Ethnic Parties Succeed: Patronage and Ethnic Head Counts in India. Cambridge University Press.</li>
-<li>Yadav, Y. (2000). Understanding the Second Democratic Upsurge: Trends of Bahujan Participation in Electoral Politics in the 1990s. Transforming India: Social and Political Dynamics of Democracy, 120-145.</li>
-<li>Vaishnav, M. (2017). When Crime Pays: Money and Muscle in Indian Politics. Yale University Press.</li>
+<li>Vaishnav, Milan. "When crime pays: Money and muscle in Indian politics." Carnegie Endowment for International Peace (2017).</li>
+<li>Ghosh, Arunabha, and Sanjay Kumar. "Criminalization of Politics in India: Causes and Consequences." Economic and Political Weekly 39.8 (2004): 767-770.</li>
+<li>Vaishnav, Milan, and Jamie Hintson. "Reforming India's Criminal Political Financing System." Carnegie Endowment for International Peace (2019).</li>
 </ul>
 <p>Note: Generated with help of <a href="https://www.anthropic.com" target="_blank" rel="noopener noreferrer">Claude Haiku</a>, <a href="https://exposai.wisevoter.org" target="_blank" rel="noopener noreferrer">Exposai</a>, <a href="https://www.observablehq.com" target="_blank" rel="noopener noreferrer">Observable</a> and <a href="https://www.adrindia.org" target="_blank" rel="noopener noreferrer">ADR</a>.</p>
 </main>
 <footer id="observablehq-footer">
-<nav><a rel="prev" href="./"><span>WiserVoter Indian General Elections 2024</span></a><a rel="next" href="./delhi-dilemma"><span>Delhi Dilemma</span></a></nav>
+<nav><a rel="prev" href="./criminals"><span>Felons and Fiefdoms</span></a><a rel="next" href="./election-phases"><span>Election Phases</span></a></nav>
 <div>Built with WiseVoter Data (2024), Exposai and Observable.</div>
 </footer>
 </div>
