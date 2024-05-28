@@ -9,6 +9,7 @@ export default {
   pages: [
     {name: "Dashboard", path: "/"},
     {name: "Felons and Fiefdoms", path: "/criminals"},
+    {name: "Delhi Dilemma", path: "/delhi-dilemma"},
     {name: "Election Phases", path: "/election-phases"},
     {
       name: "Data",

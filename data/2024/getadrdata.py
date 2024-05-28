@@ -6,6 +6,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import re
 from getwebsite import get_url_execute_js_and_save
+import sqlite3
 
 if not os.path.exists('.cache'):
     os.makedirs('.cache')
@@ -34,7 +35,7 @@ def clean_number(text):
 
 def candidates(year):
     results = []
-    for page in range(1, 60):  # Iterate through each page
+    for page in range(1,84 ):  # Iterate through each page
         url = f'https://www.myneta.info/{yearkey[year]}/index.php?action=summary&subAction=candidates_analyzed&sort=candidate&page={page}'
         soup = get(url)
         
@@ -68,6 +69,11 @@ def candidates(year):
     print(f"Total results {len(results)}")
     return pd.DataFrame(results)
 
+def save_to_sqlite(df, db_name, table_name):
+    conn = sqlite3.connect(db_name)
+    df.to_sql(table_name, conn, if_exists='replace', index=False)
+    conn.close()
+
 # Example usage
 ls2024 = candidates(2024)
-#print(ls2024)
+save_to_sqlite(ls2024, 'candidates.db', 'candidates')
