@@ -49,6 +49,7 @@ style: wisevoter-style.css
   <h1>WiseVoter 2024 Indian Elections</h1>
   <h2>Welcome to WiseVoter Analytics.</h2>
   <span>This is an effort to showcase 2024 Indian general election status using data from WiseVoter and ADRIndia, and inspire citizen data analysis and journalism. We hope more data journalism efforts benefit from it, and help strengthen democracy.</span>
+   <p> Update: We are in process of extending this effort for 2024 US Presidential Elections as well</p>
 </div>
 
 

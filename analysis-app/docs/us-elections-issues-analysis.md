@@ -1,0 +1,16 @@
+---
+title: US Elections Issues Analysis 
+---
+# Issues in US Presidential Elections
+| Issue           | Kamala Harris                                                                                                                                                                          | Donald Trump                                                                                                                                                      |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Abortion        | - Supports federal right to abortion<br>- Wants to codify Roe v. Wade protections<br>- Opposes federal abortion ban<br>- Supports access to abortion medication                         | - Appointed Supreme Court justices who overturned Roe v. Wade<br>- Supports state-level abortion restrictions<br>- Says he wouldn't sign federal abortion ban<br>- Unclear stance on abortion medication access |
+| Climate         | - Supports clean energy incentives and regulations<br>- Aims for 50% emissions cut by 2030<br>- Backs Paris Climate Agreement                                                          | - Denies climate change science<br>- Wants to expand fossil fuel production<br>- Plans to exit Paris Climate Agreement again                                        |
+| Democracy       | - Pledges to accept election results<br>- Supports voting rights expansion<br>- Backs reforms to prevent election subversion                                                           | - Refused to accept 2020 election loss<br>- Attempted to overturn 2020 results<br>- Supports voting restrictions                                                   |
+| Economy         | - Supports infrastructure/clean energy spending<br>- Wants to raise taxes on wealthy/corporations<br>- Backs some protectionist trade policies                                         | - Enacted large tax cuts, wants further cuts<br>- Supports sweeping tariffs on imports<br>- Aims to reduce regulations                                             |
+| Immigration     | - Supports pathway to citizenship for undocumented immigrants<br>- Backs some border security measures<br>- Wants to address root causes of migration                                  | - Plans mass deportations of undocumented immigrants<br>- Wants to build border wall<br>- Supports severe restrictions on legal immigration                        |
+| Israel/Gaza     | - Supports Israel's right to self-defense<br>- Calls for cease-fire and humanitarian aid<br>- Backs two-state solution                                                                 | - Strongly pro-Israel stance<br>- Supports Israel's military campaign in Gaza<br>- Recently doubtful about two-state solution                                      |
+
+
+## References
+- [NY Times](https://www.nytimes.com/interactive/2024/us/politics/trump-harris-issues-election.html)
