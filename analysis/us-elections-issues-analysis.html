@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>WiserVoter Elections 2024</title>
+<title>US Elections Issues Analysis | WiserVoter Elections 2024</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
-<link rel="preload" as="style" href="./_import/wisevoter-style.b57f9762.css">
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
-<link rel="stylesheet" type="text/css" href="./_import/wisevoter-style.b57f9762.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
 <link rel="modulepreload" href="./_observablehq/client.js">
 <link rel="modulepreload" href="./_observablehq/runtime.js">
 <link rel="modulepreload" href="./_observablehq/stdlib.js">
@@ -20,17 +20,17 @@ import "./_observablehq/client.js";
 <nav id="observablehq-sidebar">
   <ol>
     <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
-    <li class="observablehq-link observablehq-link-active"><a href="./">WiserVoter Elections 2024</a></li>
+    <li class="observablehq-link"><a href="./">WiserVoter Elections 2024</a></li>
   </ol>
   <div id="observablehq-search"><input type="search" placeholder="Search"></div>
   <div id="observablehq-search-results"></div>
   <script>{const o=document.querySelector("#observablehq-search");o.setAttribute("data-shortcut",`${/Mac|iPhone/.test(navigator.platform)?"\u2318":"Alt-"}K`);const t=o.querySelector("input"),r=()=>import("./_observablehq/search.js");t.addEventListener("focus",r,{once:!0}),t.addEventListener("keydown",r,{once:!0});const c=document.querySelector("#observablehq-sidebar-toggle");addEventListener("keydown",e=>{(e.code==="KeyK"&&e.metaKey&&!e.altKey&&!e.ctrlKey||e.key==="/"&&!e.metaKey&&!e.altKey&&!e.ctrlKey&&e.target===document.body)&&(c.checked?t.focus():(c.click(),t.focus(),c.click()),t.select(),e.preventDefault())});}</script>
   <ol>
-    <li class="observablehq-link observablehq-link-active"><a href="./">Dashboard</a></li></ol>
-    <section>
+    <li class="observablehq-link"><a href="./">Dashboard</a></li></ol>
+    <section class="observablehq-section-active">
       <summary>US Presidential Elections</summary>
       <ol>
-    <li class="observablehq-link"><a href="./us-elections-issues-analysis">Issues</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./us-elections-issues-analysis">Issues</a></li>
       </ol>
     </section>
     <section>
@@ -46,68 +46,65 @@ import "./_observablehq/client.js";
   </ol>
 </nav>
 <script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#references">References</a></li>
+</ol>
+</nav>
+</aside>
 <div id="observablehq-center">
 <main id="observablehq-main" class="observablehq">
-<style>
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: var(--sans-serif);
-  margin: 4rem 0 8rem;
-  text-wrap: balance;
-  text-align: center;
-}
-
-.hero h1 {
-  margin: 2rem 0;
-  max-width: none;
-  font-size: 14vw;
-  font-weight: 900;
-  line-height: 1;
-  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.hero h2 {
-  margin: 0;
-  max-width: 34em;
-  font-size: 20px;
-  font-style: initial;
-  font-weight: 500;
-  line-height: 1.5;
-  color: var(--theme-foreground-muted);
-}
-
-@media (min-width: 640px) {
-  .hero h1 {
-    font-size: 90px;
-  }
-}
-
-</style>
-<div class="hero">
-  <h1>WiseVoter 2024 Indian Elections</h1>
-  <h2>Welcome to WiseVoter Analytics.</h2>
-  <span>This is an effort to showcase 2024 Indian general election status using data from WiseVoter and ADRIndia, and inspire citizen data analysis and journalism. We hope more data journalism efforts benefit from it, and help strengthen democracy.</span>
-   <p> Update: We are in process of extending this effort for 2024 US Presidential Elections as well</p>
-</div>
-<h2 id="next-steps" tabindex="-1"><a class="observablehq-header-anchor" href="#next-steps">Next steps</a></h2>
-<p>Here are some ideas of things you could try…</p>
-<div class="grid grid-cols-4">
-  <div class="card">
-    Review articles <a href="./criminals">Felons and Fiedoms</a>, this will give you inspiration to add your own articles to this citizen data journalism repository by adding a Markdown file (<code>my_article.md</code>) to the <a href="https://github.com/WiseVoter/wisevoter/tree/master/analysis-app/docs" target="_blank" rel="noopener noreferrer">docs</a> folder.
-  </div>
-  <div class="card">
-    Chart the data using <a href="https://observablehq.com/framework/lib/plot" target="_blank" rel="noopener noreferrer"><code>Plot</code></a> and <a href="https://observablehq.com/framework/javascript/files" target="_blank" rel="noopener noreferrer"><code>FileAttachment</code></a>. Make it responsive using <a href="https://observablehq.com/framework/javascript/display#responsive-display" target="_blank" rel="noopener noreferrer"><code>resize</code></a>.
-  </div>
-</div>
+<h1 id="issues-in-us-presidential-elections" tabindex="-1"><a class="observablehq-header-anchor" href="#issues-in-us-presidential-elections">Issues in US Presidential Elections</a></h1>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Kamala Harris</th>
+<th>Donald Trump</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abortion</td>
+<td>- Supports federal right to abortion<br>- Wants to codify Roe v. Wade protections<br>- Opposes federal abortion ban<br>- Supports access to abortion medication</td>
+<td>- Appointed Supreme Court justices who overturned Roe v. Wade<br>- Supports state-level abortion restrictions<br>- Says he wouldn't sign federal abortion ban<br>- Unclear stance on abortion medication access</td>
+</tr>
+<tr>
+<td>Climate</td>
+<td>- Supports clean energy incentives and regulations<br>- Aims for 50% emissions cut by 2030<br>- Backs Paris Climate Agreement</td>
+<td>- Denies climate change science<br>- Wants to expand fossil fuel production<br>- Plans to exit Paris Climate Agreement again</td>
+</tr>
+<tr>
+<td>Democracy</td>
+<td>- Pledges to accept election results<br>- Supports voting rights expansion<br>- Backs reforms to prevent election subversion</td>
+<td>- Refused to accept 2020 election loss<br>- Attempted to overturn 2020 results<br>- Supports voting restrictions</td>
+</tr>
+<tr>
+<td>Economy</td>
+<td>- Supports infrastructure/clean energy spending<br>- Wants to raise taxes on wealthy/corporations<br>- Backs some protectionist trade policies</td>
+<td>- Enacted large tax cuts, wants further cuts<br>- Supports sweeping tariffs on imports<br>- Aims to reduce regulations</td>
+</tr>
+<tr>
+<td>Immigration</td>
+<td>- Supports pathway to citizenship for undocumented immigrants<br>- Backs some border security measures<br>- Wants to address root causes of migration</td>
+<td>- Plans mass deportations of undocumented immigrants<br>- Wants to build border wall<br>- Supports severe restrictions on legal immigration</td>
+</tr>
+<tr>
+<td>Israel/Gaza</td>
+<td>- Supports Israel's right to self-defense<br>- Calls for cease-fire and humanitarian aid<br>- Backs two-state solution</td>
+<td>- Strongly pro-Israel stance<br>- Supports Israel's military campaign in Gaza<br>- Recently doubtful about two-state solution</td>
+</tr>
+</tbody>
+</table>
+<h2 id="references" tabindex="-1"><a class="observablehq-header-anchor" href="#references">References</a></h2>
+<ul>
+<li><a href="https://www.nytimes.com/interactive/2024/us/politics/trump-harris-issues-election.html" target="_blank" rel="noopener noreferrer">NY Times</a></li>
+</ul>
 </main>
 <footer id="observablehq-footer">
-<nav><a rel="next" href="./us-elections-issues-analysis"><span>Issues</span></a></nav>
+<nav><a rel="prev" href="./"><span>WiserVoter Elections 2024</span></a><a rel="next" href="./criminals"><span>Felons and Fiefdoms</span></a></nav>
 <div>Built with WiseVoter Data (2024), Exposai and Observable.</div>
 </footer>
 </div>
