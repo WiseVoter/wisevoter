@@ -1,6 +1,8 @@
 ---
 title: US Election Fraud in Numbers 
 ---
+# US Election Fraud in Numbers
+
 Multiple studies and investigations have consistently found that election fraud in the United States is extremely rare. Below is a compilation of data and references that support this conclusion.
 
 # The Brennan Center for Justice studies
@@ -33,11 +35,8 @@ Plot.plot({
   ]
 })
 ```
-## Reference
-- Brennan Center for Justice. "The Truth About Voter Fraud"
 
 # Government Accountability Office (GAO) Report
-
 The GAO reviewed elections and found negligible evidence of in-person voter fraud.
 
 Findings: Out of millions of votes cast, only a handful of fraudulent cases were prosecuted.
@@ -171,7 +170,8 @@ Plot.plot({
 The data from multiple reputable sources indicates that election fraud in the United States is extremely rare and has not impacted the outcomes of elections. Interactive analysis demonstrates the minuscule rates of fraud relative to the number of votes cast.
 
 # References
-- Brennan Center for Justice. "The Truth About Voter Fraud"
-- U.S. Government Accountability Office. "Issues Related to State Voter Identification Laws"
-- News21. "Election Fraud in America"
-- Heritage Foundation. "A Sampling of Recent Election Fraud Cases from Across the United States" - Associated Press. "Disputing Trump, Barr says no widespread election fraud"
+- Brennan Center for Justice. ["The Truth About Voter Fraud"](https://www.brennancenter.org/our-work/research-reports/truth-about-voter-fraud)
+- U.S. Government Accountability Office. ["Issues Related to State Voter Identification Laws"](https://www.gao.gov/products/gao-14-634)
+- News21. ["Election Fraud in America"](https://votingrights.news21.com/interactive/election-fraud-database/)
+- Heritage Foundation. ["A Sampling of Recent Election Fraud Cases from Across the United States"](https://www.heritage.org/election-integrity/commentary/the-left-versus-the-vote) 
+- Associated Press. ["Disputing Trump, Barr says no widespread election fraud"](https://apnews.com/article/barr-no-widespread-election-fraud-b1f1488796c9a98c4b1a9061a6c7f49d)
