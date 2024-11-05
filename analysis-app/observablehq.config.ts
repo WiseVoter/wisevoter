@@ -10,6 +10,7 @@ export default {
     {name: "Dashboard", path: "/"},
     {name: "US Presidential Elections", 
       pages: [
+       {name: "Fraud", path: "/us-election-fraud-in-numbers"},
        {name: "Issues", path:"/us-elections-issues-analysis"}
       ]
     },
