@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>US Election Fraud in Numbers | WiserVoter Elections 2024</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
+<link rel="modulepreload" href="./_observablehq/client.js">
+<link rel="modulepreload" href="./_observablehq/runtime.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.14/_esm.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/_esm.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/_esm.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/_esm.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/_esm.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/_esm.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.js";
+
+define({id: "b79ec0da", outputs: ["incidentRates"], body: () => {
+// Define the data
+const incidentRates = [
+  { category: "Fraud Low Estimate", rate: 0.000003 },
+  { category: "Fraud High Estimate", rate: 0.000025 },
+  { category: "Struck by Lightning", rate: 0.00008 }
+];
+return {incidentRates};
+}});
+
+define({id: "d998ef11", inputs: ["Plot","incidentRates","display"], body: async (Plot,incidentRates,display) => {
+display(await(
+// Create a bar chart using Observable Plot
+Plot.plot({
+  height: 300,
+  width: 500,
+  y: {
+    label: "Incident Rate (%)",
+    tickFormat: d => (d * 100).toFixed(5) + "%"
+  },
+  marks: [
+    Plot.barY(incidentRates, { x: "category", y: "rate", fill: "steelblue" }),
+    Plot.ruleY([0])
+  ]
+})
+))
+}});
+
+define({id: "6deba9f8", inputs: ["view","Inputs"], outputs: ["votesCast","fraudulentCases"], body: (view,Inputs) => {
+// Simulate data
+const votesCast = view(Inputs.range([100000000, 180000000], {
+   step: 10000,
+   value: 160000000,
+   label: "Votes cast"
+})); // 100 million votes
+const fraudulentCases = 30; // Example number of prosecuted cases
+return {votesCast,fraudulentCases};
+}});
+
+define({id: "0c424c97", inline: true, inputs: ["fraudulentCases","votesCast","display"], body: async (fraudulentCases,votesCast,display) => {
+display(await(
+(fraudulentCases / votesCast * 100).toFixed(6)
+))
+}});
+
+define({id: "87efe84f", outputs: ["registeredVoters","allegedFraudCases","allegedFraudRate"], body: () => {
+// Data
+const registeredVoters = 146000000;
+const allegedFraudCases = 2068;
+
+// Calculate the rate
+const allegedFraudRate = allegedFraudCases / registeredVoters;
+return {registeredVoters,allegedFraudCases,allegedFraudRate};
+}});
+
+define({id: "48a3d797", inline: true, inputs: ["allegedFraudRate","display"], body: async (allegedFraudRate,display) => {
+display(await(
+(allegedFraudRate * 100).toFixed(6)
+))
+}});
+
+define({id: "8ecab07e", inputs: ["view","Inputs","allegedFraudCases"], outputs: ["fraudCasesSlider"], body: (view,Inputs,allegedFraudCases) => {
+// Interactive slider to adjust number of cases
+const fraudCasesSlider = view(Inputs.range([0, 5000], {
+  step: 100,
+  value: allegedFraudCases,
+  label: "Adjust Alleged Fraud Cases"
+}))
+return {fraudCasesSlider};
+}});
+
+define({id: "de91adde", inline: true, inputs: ["fraudCasesSlider","registeredVoters","display"], body: async (fraudCasesSlider,registeredVoters,display) => {
+display(await(
+(fraudCasesSlider/ registeredVoters * 100).toFixed(6)
+))
+}});
+
+define({id: "367ff82a", inputs: ["fraudCasesSlider","registeredVoters"], outputs: ["news21barData"], body: (fraudCasesSlider,registeredVoters) => {
+const news21barData = [
+  { category: "Alleged Fraud Cases", value: fraudCasesSlider },
+  { category: "Registered Voters", value: registeredVoters }
+];
+
+return {news21barData};
+}});
+
+define({id: "3d52fa04", inputs: ["Plot","news21barData","display"], body: async (Plot,news21barData,display) => {
+display(await(
+Plot.plot({
+  height: 300,
+  width: 500,
+  y: { label: "Number of People" },
+  x: { label: null },
+  marks: [
+    Plot.barY(news21barData, { x: "category", y: "value", fill: "steelblue" })
+  ]
+})
+))
+}});
+
+define({id: "e93cf3b9", outputs: ["startYear","endYear","years","totalFraudCases","averageCasesPerYear","fraudCasesOverYears"], body: () => {
+// Data
+const startYear = 1982;
+const endYear = 2023;
+const years = endYear - startYear + 1; // Number of years
+const totalFraudCases = 1_402;
+const averageCasesPerYear = totalFraudCases / years;
+
+// Simulated data over years
+const fraudCasesOverYears = Array.from({ length: years }, (_, i) => ({
+  year: startYear + i,
+  cases: Math.round(Math.random() * 10 + averageCasesPerYear)
+}));
+return {startYear,endYear,years,totalFraudCases,averageCasesPerYear,fraudCasesOverYears};
+}});
+
+define({id: "3ec357e2", inputs: ["Plot","fraudCasesOverYears","display"], body: async (Plot,fraudCasesOverYears,display) => {
+display(await(
+Plot.plot({
+  height: 400,
+  width: 700,
+  x: { label: "Year" },
+  y: { label: "Fraud Cases" },
+  marks: [
+    Plot.line(fraudCasesOverYears, { x: "year", y: "cases", stroke: "steelblue" }),
+    Plot.dot(fraudCasesOverYears, { x: "year", y: "cases", fill: "steelblue" })
+  ]
+})
+))
+}});
+
+define({id: "c4898c03", outputs: ["statements","words","wordCounts"], body: () => {
+const statements = `
+To date, we have not seen fraud on a scale that could have affected a different outcome in the election.
+No evidence of widespread voter fraud.
+Investigations have not found significant irregularities.
+`;
+
+// Process the text
+const words = statements
+  .split(/\W+/)
+  .map(d => d.toLowerCase())
+  .filter(d => d.length > 3 && !["have", "that", "with", "from", "they", "have", "been", "also", "this", "could"].includes(d));
+
+const wordCounts = Object.entries(words.reduce((counts, word) => {
+  counts[word] = (counts[word] || 0) + 1;
+  return counts;
+}, {})).map(([word, count]) => ({ word, count }));
+return {statements,words,wordCounts};
+}});
+
+define({id: "6d3190a7", inputs: ["Plot","wordCounts","display"], body: async (Plot,wordCounts,display) => {
+display(await(
+Plot.plot({
+  height: 300,
+  width: 500,
+  marginBottom: 80,
+  x: { label: "Word", tickRotate: -45 },
+  y: { label: "Frequency" },
+  marks: [
+    Plot.barY(wordCounts, { x: "word", y: "count", fill: "steelblue" })
+  ]
+})
+))
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">WiserVoter Elections 2024</a></li>
+  </ol>
+  <div id="observablehq-search"><input type="search" placeholder="Search"></div>
+  <div id="observablehq-search-results"></div>
+  <script>{const o=document.querySelector("#observablehq-search");o.setAttribute("data-shortcut",`${/Mac|iPhone/.test(navigator.platform)?"\u2318":"Alt-"}K`);const t=o.querySelector("input"),r=()=>import("./_observablehq/search.js");t.addEventListener("focus",r,{once:!0}),t.addEventListener("keydown",r,{once:!0});const c=document.querySelector("#observablehq-sidebar-toggle");addEventListener("keydown",e=>{(e.code==="KeyK"&&e.metaKey&&!e.altKey&&!e.ctrlKey||e.key==="/"&&!e.metaKey&&!e.altKey&&!e.ctrlKey&&e.target===document.body)&&(c.checked?t.focus():(c.click(),t.focus(),c.click()),t.select(),e.preventDefault())});}</script>
+  <ol>
+    <li class="observablehq-link"><a href="./">Dashboard</a></li></ol>
+    <section class="observablehq-section-active">
+      <summary>US Presidential Elections</summary>
+      <ol>
+    <li class="observablehq-link observablehq-link-active"><a href="./us-election-fraud-in-numbers">Fraud</a></li>
+    <li class="observablehq-link"><a href="./us-elections-issues-analysis">Issues</a></li>
+      </ol>
+    </section>
+    <section>
+      <summary>Indian General Elections</summary>
+      <ol>
+    <li class="observablehq-link"><a href="./criminals">Felons and Fiefdoms</a></li>
+    <li class="observablehq-link"><a href="./delhi-dilemma">Delhi Dilemma</a></li>
+    <li class="observablehq-link"><a href="./election-phases">Election Phases</a></li>
+    <li class="observablehq-link"><a href="./2024-elections">Data - 2024 Elections</a></li>
+    <li class="observablehq-link"><a href="./2019-elections">Data - 2019 Elections</a></li>
+      </ol>
+    </section>
+  </ol>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#reference">Reference</a></li>
+<li class="observablehq-secondary-link"><a href="#government-accountability-office-(gao)-report">Government Accountability Office (GAO) Report</a></li>
+<li class="observablehq-secondary-link"><a href="#academic-research---news21-investigations">Academic Research - News21 investigations</a></li>
+<li class="observablehq-secondary-link"><a href="#heritage-foundation-database">Heritage Foundation database</a></li>
+<li class="observablehq-secondary-link"><a href="#department-of-justice-statements">Department of Justice Statements</a></li>
+<li class="observablehq-secondary-link"><a href="#conclusion">Conclusion</a></li>
+<li class="observablehq-secondary-link"><a href="#references">References</a></li>
+</ol>
+</nav>
+</aside>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<p>Multiple studies and investigations have consistently found that election fraud in the United States is extremely rare. Below is a compilation of data and references that support this conclusion.</p>
+<h1 id="the-brennan-center-for-justice-studies" tabindex="-1"><a class="observablehq-header-anchor" href="#the-brennan-center-for-justice-studies">The Brennan Center for Justice studies</a></h1>
+<p>The Brennan Center for Justice conducted studies analyzing the prevalence of voter fraud and found minuscule incident rates. The say,  "It is more likely that an American will be struck by lightning than that he will impersonate another voter at the polls".</p>
+<p>Findings: Incident rates between 0.0003% and 0.0025%.</p>
+<div id="cell-b79ec0da" class="observablehq observablehq--block"></div>
+<div id="cell-d998ef11" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<h2 id="reference" tabindex="-1"><a class="observablehq-header-anchor" href="#reference">Reference</a></h2>
+<ul>
+<li>Brennan Center for Justice. "The Truth About Voter Fraud"</li>
+</ul>
+<h1 id="government-accountability-office-(gao)-report" tabindex="-1"><a class="observablehq-header-anchor" href="#government-accountability-office-(gao)-report">Government Accountability Office (GAO) Report</a></h1>
+<p>The GAO reviewed elections and found negligible evidence of in-person voter fraud.</p>
+<p>Findings: Out of millions of votes cast, only a handful of fraudulent cases were prosecuted.</p>
+<div id="cell-6deba9f8" class="observablehq observablehq--block"></div>
+<p><strong>Fraud Rate:</strong> <span id="cell-0c424c97"><span class="observablehq-loading"></span></span>%</p>
+<h1 id="academic-research---news21-investigations" tabindex="-1"><a class="observablehq-header-anchor" href="#academic-research---news21-investigations">Academic Research - News21 investigations</a></h1>
+<p>A comprehensive database compiled by journalism students at Arizona State University investigated cases of voter fraud.</p>
+<p>Findings: Between 2000 and 2012, out of 146 million registered voters, only 2,068 alleged cases of election fraud were recorded.</p>
+<div id="cell-87efe84f" class="observablehq observablehq--block"></div>
+<p><strong>Alleged Fraud Rate:</strong> <span id="cell-48a3d797"><span class="observablehq-loading"></span></span>%</p>
+<div id="cell-8ecab07e" class="observablehq observablehq--block"></div>
+<p><strong>Adjusted Fraud Rate:</strong> <span id="cell-de91adde"><span class="observablehq-loading"></span></span>%</p>
+<div id="cell-367ff82a" class="observablehq observablehq--block"></div>
+<div id="cell-3d52fa04" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<h1 id="heritage-foundation-database" tabindex="-1"><a class="observablehq-header-anchor" href="#heritage-foundation-database">Heritage Foundation database</a></h1>
+<p>Even the Heritage Foundation, which tracks voter fraud cases, shows very few instances relative to total votes.</p>
+<p>Findings: As of 2023, there are 1,402 proven instances of voter fraud since 1982.</p>
+<div id="cell-e93cf3b9" class="observablehq observablehq--block"></div>
+<div id="cell-3ec357e2" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<h1 id="department-of-justice-statements" tabindex="-1"><a class="observablehq-header-anchor" href="#department-of-justice-statements">Department of Justice Statements</a></h1>
+<p>The Department of Justice has not found evidence of widespread voter fraud in recent elections.</p>
+<p>Former Attorney General William Barr stated, "To date, we have not seen fraud on a scale that could have affected a different outcome in the election."</p>
+<div id="cell-c4898c03" class="observablehq observablehq--block"></div>
+<div id="cell-6d3190a7" class="observablehq observablehq--block"><span class="observablehq-loading"></span></div>
+<h1 id="conclusion" tabindex="-1"><a class="observablehq-header-anchor" href="#conclusion">Conclusion</a></h1>
+<p>The data from multiple reputable sources indicates that election fraud in the United States is extremely rare and has not impacted the outcomes of elections. Interactive analysis demonstrates the minuscule rates of fraud relative to the number of votes cast.</p>
+<h1 id="references" tabindex="-1"><a class="observablehq-header-anchor" href="#references">References</a></h1>
+<ul>
+<li>Brennan Center for Justice. "The Truth About Voter Fraud"</li>
+<li>U.S. Government Accountability Office. "Issues Related to State Voter Identification Laws"</li>
+<li>News21. "Election Fraud in America"</li>
+<li>Heritage Foundation. "A Sampling of Recent Election Fraud Cases from Across the United States" - Associated Press. "Disputing Trump, Barr says no widespread election fraud"</li>
+</ul>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./"><span>WiserVoter Elections 2024</span></a><a rel="next" href="./us-elections-issues-analysis"><span>Issues</span></a></nav>
+<div>Built with WiseVoter Data (2024), Exposai and Observable.</div>
+</footer>
+</div>
